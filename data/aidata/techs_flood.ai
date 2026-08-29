@@ -27,6 +27,21 @@
 			<c>1</c>
 		</Row>
 		<Row>
+			<c>fld_infectedcarrier_upgrade1</c>
+			<c>fld_inf_infectedCarrier_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>fld_infectedcarrier_upgrade2</c>
+			<c>fld_inf_infectedCarrier_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>fld_infectedcarrier_upgrade3</c>
+			<c>fld_inf_infectedCarrier_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
 			<c>fld_swarm_upgrade1</c>
 			<c>fld_air_swarm_01</c>
 			<c>1</c>

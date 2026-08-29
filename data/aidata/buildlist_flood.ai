@@ -414,6 +414,16 @@
 			<c>1</c>
 		</Row>
 		<Row>
+			<c>fld_bldg_nest_02</c>
+			<c>1</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>fld_bldg_nest_04</c>
+			<c>1</c>
+			<c>1</c>
+		</Row>
+		<Row>
 			<c>_ProductionBuildingNotBase</c>
 			<c>1</c>
 			<c>1</c>
@@ -620,6 +630,16 @@
 			<c>1</c>
 		</Row>
 		<Row>
+			<c>fld_bldg_nest_02</c>
+			<c>1</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>fld_bldg_nest_04</c>
+			<c>1</c>
+			<c>1</c>
+		</Row>
+		<Row>
 			<c>fld_bldg_stalkcluster_01</c>
 			<c>3</c>
 			<c>2</c>
@@ -639,6 +659,16 @@
 		<Row>
 			<c>fld_bldg_stalkcluster_01</c>
 			<c>4</c>
+			<c>2</c>
+		</Row>
+		<Row>
+			<c>fld_bldg_nest_02</c>
+			<c>1</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>fld_bldg_nest_04</c>
+			<c>1</c>
 			<c>2</c>
 		</Row>
 		<Row>
@@ -732,6 +762,16 @@
 		</Row>
 		<Row>
 			<c>fld_bldg_barracks_02</c>
+			<c>1</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>fld_bldg_nest_02</c>
+			<c>1</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>fld_bldg_nest_04</c>
 			<c>1</c>
 			<c>1</c>
 		</Row>
@@ -949,6 +989,11 @@
 			<c>1</c>
 		</Row>
 		<Row>
+			<c>fld_bldg_nest_02</c>
+			<c>1</c>
+			<c>1</c>
+		</Row>
+		<Row>
 			<c>fld_bldg_stalkcluster_01</c>
 			<c>2</c>
 			<c>1</c>
@@ -973,6 +1018,11 @@
 		<Row>
 			<c>fld_bldg_stalkcluster_01</c>
 			<c>3</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>fld_bldg_nest_02</c>
+			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
