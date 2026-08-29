@@ -6615,6 +6615,8 @@
 <File dir="Art">art\creep\insurrectionists\infantry_01\infantrymg_01.vis</File>
 <File dir="Art">art\creep\insurrectionists\infantry_01\infantrypistol_01.vis</File>
 <File dir="Art">art\creep\insurrectionists\infantry_01\infantrypistol_f_01.vis</File>
+<File dir="Art">art\creep\insurrectionists\infantry_01\militia_civilian_pistol_01.vis</File>
+<File dir="Art">art\creep\insurrectionists\infantry_01\militia_civilian_pistol_f_01.vis</File>
 <File dir="Art">art\creep\insurrectionists\infantry_01\infantryrocket_01.vis</File>
 <File dir="Art">art\creep\insurrectionists\infantry_01\infantryshotgun_01.vis</File>
 <File dir="Art">art\creep\insurrectionists\infantry_01\infantrysmg_01.vis</File>

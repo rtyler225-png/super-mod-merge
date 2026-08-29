@@ -107027,7 +107027,7 @@
   <Object name="militia_inf_volunteer_01" id="0" dbid="7032">
     <PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
     <ObjectClass>Squad</ObjectClass>
-    <Visual>creep\insurrectionists\infantry_01\infantrypistol_01.vis</Visual>
+    <Visual>creep\insurrectionists\infantry_01\militia_civilian_pistol_01.vis</Visual>
     <PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
     <MinimapIcon size="8">Circle</MinimapIcon>
     <DisplayNameID>7032</DisplayNameID>
@@ -107107,7 +107107,7 @@
   <Object name="militia_inf_volunteer_f_01" id="0" dbid="7032">
     <PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
     <ObjectClass>Squad</ObjectClass>
-    <Visual>creep\insurrectionists\infantry_01\infantrypistol_f_01.vis</Visual>
+    <Visual>creep\insurrectionists\infantry_01\militia_civilian_pistol_f_01.vis</Visual>
     <PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
     <MinimapIcon size="8">Circle</MinimapIcon>
     <DisplayNameID>7032</DisplayNameID>
