@@ -107033,11 +107033,11 @@
     <DisplayNameID>7032</DisplayNameID>
     <RolloverTextID>7033</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>12</Velocity>
+    <Velocity>8</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
-    <Hitpoints>125</Hitpoints>
-    <AttackGradeDPS>10.5</AttackGradeDPS>
+    <Hitpoints>40</Hitpoints>
+    <AttackGradeDPS>5</AttackGradeDPS>
     <CombatValue>0.5</CombatValue>
     <LOS>55</LOS>
     <Pop Type="Unit">0.125</Pop>
@@ -107113,11 +107113,11 @@
     <DisplayNameID>7032</DisplayNameID>
     <RolloverTextID>7033</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>12</Velocity>
+    <Velocity>8</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
-    <Hitpoints>125</Hitpoints>
-    <AttackGradeDPS>10.5</AttackGradeDPS>
+    <Hitpoints>40</Hitpoints>
+    <AttackGradeDPS>5</AttackGradeDPS>
     <CombatValue>0.5</CombatValue>
     <LOS>55</LOS>
     <Pop Type="Unit">0.125</Pop>

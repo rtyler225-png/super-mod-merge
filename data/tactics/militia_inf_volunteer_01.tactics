@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>InCoverPistol</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>21</DamagePerSecond>
+		<DamagePerSecond>10</DamagePerSecond>
 		<WeaponType>SmallArms</WeaponType>
 		<Projectile>fx_proj_rifle_01</Projectile>
 		<ImpactEffect size="Small">unsc_rifle_01</ImpactEffect>
@@ -26,7 +26,7 @@
 	<Weapon>
 		<Name>Pistol</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>10.5</DamagePerSecond>
+		<DamagePerSecond>5</DamagePerSecond>
 		<WeaponType>SmallArms</WeaponType>
 		<Projectile>fx_proj_rifle_01</Projectile>
 		<ImpactEffect size="Small">unsc_rifle_01</ImpactEffect>

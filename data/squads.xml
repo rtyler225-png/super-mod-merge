@@ -27959,8 +27959,8 @@
     <DisplayNameID>7032</DisplayNameID>
     <RolloverTextID>7033</RolloverTextID>
     <RoleTextID>500</RoleTextID>
-    <BuildPoints>5</BuildPoints>
-    <Cost resourcetype="Supplies">20</Cost>
+    <BuildPoints>8</BuildPoints>
+    <Cost resourcetype="Supplies">50</Cost>
     <SubSelectSort>3000</SubSelectSort>
     <LeashDistance>55</LeashDistance>
     <LeashDeadzone>25</LeashDeadzone>
