@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
 	<Weapon>
-		<Name>InCoverAssaultRifle</Name>
+		<Name>InCoverPistol</Name>
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>21</DamagePerSecond>
 		<WeaponType>SmallArms</WeaponType>
 		<Projectile>fx_proj_rifle_01</Projectile>
-		<ImpactEffect size="Small">SmallArmsBullet</ImpactEffect>
+		<ImpactEffect size="Small">unsc_rifle_01</ImpactEffect>
 		<MaxVelocityLead>10</MaxVelocityLead>
 		<MaxRange>60</MaxRange>
 		<Accuracy>0.1</Accuracy>
@@ -17,19 +17,19 @@
 		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
 		<VisualAmmo>8</VisualAmmo>
-		<ReloadAnimation>AssaultRifleReload</ReloadAnimation>
+		<ReloadAnimation>PistolReload</ReloadAnimation>
 		<TargetPriority type="Infantry">5</TargetPriority>
 		<TargetPriority type="Building">-3</TargetPriority>
 		<Hardpoint>Torso</Hardpoint>
 		<SmallArmsDeflectable />
 	</Weapon>
 	<Weapon>
-		<Name>AssaultRifle</Name>
+		<Name>Pistol</Name>
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>10.5</DamagePerSecond>
 		<WeaponType>SmallArms</WeaponType>
 		<Projectile>fx_proj_rifle_01</Projectile>
-		<ImpactEffect size="Small">SmallArmsBullet</ImpactEffect>
+		<ImpactEffect size="Small">unsc_rifle_01</ImpactEffect>
 		<MaxVelocityLead>10</MaxVelocityLead>
 		<MaxRange>35</MaxRange>
 		<Accuracy>0.1</Accuracy>
@@ -40,27 +40,27 @@
 		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
 		<VisualAmmo>8</VisualAmmo>
-		<ReloadAnimation>AssaultRifleReload</ReloadAnimation>
+		<ReloadAnimation>PistolReload</ReloadAnimation>
 		<TargetPriority type="Infantry">5</TargetPriority>
 		<TargetPriority type="Building">-3</TargetPriority>
 		<Hardpoint>Torso</Hardpoint>
 		<SmallArmsDeflectable />
 	</Weapon>
 	<Action>
-		<Name>InCoverAssaultRifleAttackAction</Name>
+		<Name>InCoverPistolAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>AssaultRifleAttack</Anim>
-		<ReloadAnim>AssaultRifleReload</ReloadAnim>
-		<Weapon>InCoverAssaultRifle</Weapon>
+		<Anim>PistolAttack</Anim>
+		<ReloadAnim>PistolReload</ReloadAnim>
+		<Weapon>InCoverPistol</Weapon>
 		<MainAttack />
 		<FindBetterAction />
 	</Action>
 	<Action>
-		<Name>AssaultRifleAttackAction</Name>
+		<Name>PistolAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>AssaultRifleAttack</Anim>
-		<ReloadAnim>AssaultRifleReload</ReloadAnim>
-		<Weapon>AssaultRifle</Weapon>
+		<Anim>PistolAttack</Anim>
+		<ReloadAnim>PistolReload</ReloadAnim>
+		<Weapon>Pistol</Weapon>
 		<MainAttack />
 	</Action>
 	<Action>
@@ -171,12 +171,12 @@
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<Action>InCoverAssaultRifleAttackAction</Action>
+			<Action>InCoverPistolAttackAction</Action>
 			<SquadMode>Cover</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<Action>AssaultRifleAttackAction</Action>
+			<Action>PistolAttackAction</Action>
 			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
