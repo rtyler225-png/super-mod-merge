@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>SpawnFlood</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>fld_egg_infectionForm_01</SquadType>
+		<WorkRate>10</WorkRate>
+		<WorkRateVariance>4</WorkRateVariance>
+		<Stationary />
+		<HideSpawnUntilRelease />
+	</Action>
+	<Tactic>
+		<PersistentAction>SpawnFlood</PersistentAction>
+	</Tactic>
+</TacticData>

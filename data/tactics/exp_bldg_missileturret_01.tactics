@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<!--<Weapon>
+		<Name>megaTurret</Name>
+		<AllowFriendlyFire />
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>70000</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>HeavyExplosive</WeaponType>
+		<Projectile>pow_gp_megaTurret</Projectile>
+		<ImpactEffect size="Large">cov_plasmamortar_02</ImpactEffect>
+		<AllowFriendlyFire />
+		<MaxVelocityLead>0</MaxVelocityLead>
+		<MaxRange>5000</MaxRange>
+		<Accuracy>0.25</Accuracy>
+		<MaxDeviation>100</MaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<AOERadius>20</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.25</AOEDamageFactor>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1200</PhysicsForceMin>
+		<PhysicsForceMax>1500</PhysicsForceMax>
+		<Hardpoint>Turret</Hardpoint>
+	</Weapon>-->
+<!--Missile Turret-->
+	<Weapon>
+		<Name>BarrageWeapon</Name>
+		<AttackRate>12</AttackRate>
+		<DamagePerSecond>22500</DamagePerSecond>
+		<WeaponType>HeavyExplosive</WeaponType>
+		<Projectile>fx_proj_ballisticMissile_04</Projectile>
+		<ImpactEffect size="Small">tankshell</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>850</MaxRange>
+		<MinRange>0</MinRange>
+		<Accuracy>0</Accuracy>
+		<MaxDeviation>120</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>240</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0</AccuracyDeviationFactor>
+		<AOERadius>18</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.25</AOEDamageFactor>
+		<Hardpoint>Turret</Hardpoint>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<PhysicsLaunchAngleMin>35</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>90</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1200</PhysicsForceMin>
+		<PhysicsForceMax>1500</PhysicsForceMax>
+	</Weapon>
+<!--End of Missile Turret-->
+	<!--<Action>
+		<Name>megaTurretAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MegaTurretAttack</Anim>
+		<Weapon>megaTurret</Weapon>
+		<MainAttack />
+		<DontLoopAttackAnim />
+		<DontAutoRestart />
+	</Action>-->
+<!--Missile Turret-->
+	<Action>
+		<Name>BarrageWeaponAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>BarrageAttack</Anim>
+		<Weapon>BarrageWeapon</Weapon>
+		<MainAttack />
+		<DontLoopAttackAnim />
+		<DontAutoRestart />
+	</Action>
+<!--End of Missile Turret-->
+	<!--<Tactic>
+		<TargetRule>
+			<TargetsGround />
+			<Action>megaTurretAttackAction</Action>
+		</TargetRule>
+	</Tactic>-->
+<!--Missile Turret-->
+	<Tactic>
+		<TargetRule>
+			<TargetsGround />
+			<Action>BarrageWeaponAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+<!--End of Missile Turret-->
+</TacticData>

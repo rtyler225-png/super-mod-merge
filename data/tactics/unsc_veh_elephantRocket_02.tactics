@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>FrontMissileLauncher</Name>
+		<AttackRate>6</AttackRate>
+		<DamagePerSecond>90</DamagePerSecond>
+		<WeaponType>Missile</WeaponType>
+		<Projectile>fx_proj_missile_01</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>90</MaxRange>
+		<Hardpoint>frontMGTurret</Hardpoint>
+		<TargetPriority type="Aircraft">10</TargetPriority>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<Dodgeable />
+		<UseGroupRange />
+	</Weapon>
+	<Weapon>
+		<Name>RightMissileLauncher</Name>
+		<AttackRate>6</AttackRate>
+		<DamagePerSecond>90</DamagePerSecond>
+		<WeaponType>Missile</WeaponType>
+		<Projectile>fx_proj_missile_01</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>90</MaxRange>
+		<Hardpoint>RightMGTurret</Hardpoint>
+		<TargetPriority type="Aircraft">10</TargetPriority>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<Dodgeable />
+		<UseGroupRange />
+	</Weapon>
+	<Weapon>
+		<Name>LeftMissileLauncher</Name>
+		<AttackRate>6</AttackRate>
+		<DamagePerSecond>90</DamagePerSecond>
+		<WeaponType>Missile</WeaponType>
+		<Projectile>fx_proj_missile_01</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>90</MaxRange>
+		<Hardpoint>LeftMGTurret</Hardpoint>
+		<TargetPriority type="Aircraft">10</TargetPriority>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<Dodgeable />
+		<UseGroupRange />
+	</Weapon>
+	<Weapon>
+		<Name>LightCannon</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>112.5</DamagePerSecond>
+		<WeaponType>HeavySmallArms</WeaponType>
+		<Projectile>fx_proj_rotaryMG_01</Projectile>
+		<ImpactEffect size="Medium">unsc_rotarymg_01</ImpactEffect>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>0.5</Accuracy>
+		<MaxDeviation>5</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>1.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOERadius>5</AOERadius>
+		<AOEPrimaryTargetFactor>0.5</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.75</AOEDamageFactor>
+		<Hardpoint>LockDownTurret</Hardpoint>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="Aircraft">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+	</Weapon>
+	<Action>
+		<Name>LightCannonAttackAction</Name>
+		<ActionType>SecondaryTurretAttack</ActionType>
+		<Anim>LockDownCannonAttack</Anim>
+		<Weapon>lightCannon</Weapon>
+		<Strafing maxDistance="45" turnRate="180" trackingSpeed="40" jitter="20" />
+		<RequiresLockdown />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>FrontMGAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>AddOnAttackF</Anim>
+		<Weapon>FrontMissileLauncher</Weapon>
+		<DisableAttackWaitTimer />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>RightMGAttackAction</Name>
+		<ActionType>SecondaryTurretAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>AddOnAttackR</Anim>
+		<Weapon>RightMissileLauncher</Weapon>
+		<DisableAttackWaitTimer />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>LeftMGAttackAction</Name>
+		<ActionType>SecondaryTurretAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>AddOnAttackL</Anim>
+		<Weapon>LeftMissileLauncher</Weapon>
+		<DisableAttackWaitTimer />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>LockdownMove</Name>
+		<ActionType>Move</ActionType>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>5</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonPelican</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>PelicanGarrison</Anim>
+		<WorkRange>14</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonPelican</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>PelicanUngarrison</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>3</WorkRange>
+	</Action>
+	<Action>
+		<Name>Hitch</Name>
+		<ActionType>Hitch</ActionType>
+		<WorkRange>1</WorkRange>
+	</Action>
+	<Action>
+		<Name>Unhitch</Name>
+		<ActionType>Unhitch</ActionType>
+		<WorkRange>1</WorkRange>
+	</Action>
+	<Action>
+		<Name>Deflect</Name>
+		<ActionType>Deflect</ActionType>
+		<DeflectChanceMin>0.7</DeflectChanceMin>
+		<DeflectChanceMax>0.7</DeflectChanceMax>
+		<DeflectMaxAngle>360</DeflectMaxAngle>
+		<DeflectCooldown>0</DeflectCooldown>
+		<DeflectMaxDmg>99999999</DeflectMaxDmg>
+		<MultiDeflect />
+		<StartDisabled />
+	</Action>
+	<Tactic>
+		<PersistentAction>FrontMGAttackAction</PersistentAction>
+		<PersistentAction>LeftMGAttackAction</PersistentAction>
+		<PersistentAction>RightMGAttackAction</PersistentAction>
+		<PersistentAction>LightCannonAttackAction</PersistentAction>
+		<PersistentAction>Deflect</PersistentAction>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>LightCannonAttackAction</Action>
+			<SquadMode>LockDown</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Towable</TargetType>
+			<Action>Hitch</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Unhitch</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>Towable</TargetType>
+			<Action>Unhitch</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>FrontMGAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>RightMGAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>LeftMGAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetsGround />
+			<Action>LockdownMove</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>GaiaGarrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Ally</Relation>
+			<Action>LockdownMove</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<Action>LockdownMove</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

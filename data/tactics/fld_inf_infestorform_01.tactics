@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>FloodInfection</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>172</DamagePerSecond>
+		<UseDPSasDPA />
+		<MaxRange>4</MaxRange>
+		<WeaponType>FloodLightMelee</WeaponType>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Building">7</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>Bomb</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>8000</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>MediumExplosive</WeaponType>
+		<Projectile>fx_proj_shotgun_01</Projectile>
+		<ImpactEffect size="Medium">flood_spit_01</ImpactEffect>
+		<MaxRange>4</MaxRange>
+		<AOERadius>8</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<DamageRatingOverride type="Unarmored">0.017</DamageRatingOverride>
+		<DamageRatingOverride type="Vehicle">0.017</DamageRatingOverride>
+		<DamageRatingOverride type="Air">0</DamageRatingOverride>
+		<DamageRatingOverride type="Building">0.017</DamageRatingOverride>
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>600</PhysicsForceMax>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Building">7</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>StunBomb</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>8000</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>MediumExplosive</WeaponType>
+		<Projectile>fx_proj_shotgun_01</Projectile>
+		<ImpactEffect size="Medium">flood_spit_01</ImpactEffect>
+		<MaxRange>4</MaxRange>
+		<AOERadius>8</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<DamageRatingOverride type="Unarmored">0.017</DamageRatingOverride>
+		<DamageRatingOverride type="Vehicle">0.017</DamageRatingOverride>
+		<DamageRatingOverride type="Air">0</DamageRatingOverride>
+		<DamageRatingOverride type="Building">0.017</DamageRatingOverride>
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>600</PhysicsForceMax>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Building">7</TargetPriority>
+		<Daze TargetType="unit" MovementModifier="0">2.0f</Daze>
+	</Weapon>
+	<Weapon>
+		<Name>None</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<WeaponType>Explosive</WeaponType>
+		<MaxRange>1</MaxRange>
+	</Weapon>
+	<Action>
+		<Name>FloodInfectionAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim>MeleeAttack</Anim>
+		<Weapon>FloodInfection</Weapon>
+		<MainAttack />
+		<MeleeRange />
+		<FindBetterAction />
+		<Infection />
+	</Action>
+	<Action>
+		<Name>RunAtAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim>MeleeAttack</Anim>
+		<Weapon>Bomb</Weapon>
+		<MainAttack />
+		<MeleeRange />
+		<KillSelfOnAttack />
+		<FindBetterAction />
+		<Infection />
+	</Action>
+	<Action>
+		<Name>StunRunAtAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim>MeleeAttack</Anim>
+		<Weapon>StunBomb</Weapon>
+		<MainAttack />
+		<MeleeRange />
+		<KillSelfOnAttack />
+		<FindBetterAction />
+		<Infection />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>2.5</WorkRate>
+		<WorkRange>3</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>GroundVehicle</TargetType>
+			<Action>RunAtAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>GroundVehicle</TargetType>
+			<Action>StunRunAtAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>FloodInfectionAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

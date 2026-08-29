@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<damagetemplate>
+	<percentagebased>
+		<event />
+		<event />
+		<event>
+			<action type="throwpart">SpikeL</action>
+			<action type="throwpart">EyeLeft1</action>
+		</event>
+		<event />
+		<event>
+			<action type="throwpart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">RWing</action>
+		</event>
+		<event>
+			<action type="throwpart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">SpikeR</action>
+			<action type="throwpart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">RRearWing</action>
+			<action type="throwpart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">LRearWing</action>
+			<action type="throwpart">EyeRight2</action>
+			<action type="throwpart">EyeRight1</action>
+			<action type="throwpart">MountR</action>
+			<action type="throwpart">MountL</action>
+			<action type="throwpart">EyeLeft2</action>
+			<action type="playsound">play_wraith_death</action>
+		</event>
+	</percentagebased>
+	<impactpointbased />
+	<cryopercentagebased>
+		<event />
+		<event />
+		<event />
+		<event />
+		<event>
+			<action type="attachparticle" effect="effects\cryo_bomb\unit_freezing_large">GrannyRootBone</action>
+			<action type="playsound">play_cryo_bomb_freezing</action>
+		</event>
+	</cryopercentagebased>
+	<shatterdeathevent>
+		<action type="attachparticle" effect="effects\cryo_bomb\unit_shatter_large">GrannyRootBone</action>
+		<action type="throwpart" blueprint="icePart">SpikeL</action>
+		<action type="throwpart" blueprint="icePart">EyeLeft1</action>
+		<action type="throwpart" blueprint="icePart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">RWing</action>
+		<action type="throwpart" blueprint="icePart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">SpikeR</action>
+		<action type="throwpart" blueprint="icePart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">RRearWing</action>
+		<action type="throwpart" blueprint="icePart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">LRearWing</action>
+		<action type="throwpart" blueprint="icePart">EyeRight2</action>
+		<action type="throwpart" blueprint="icePart">EyeRight1</action>
+		<action type="throwpart" blueprint="icePart">EyeLeft2</action>
+		<action type="throwpart" blueprint="icePart">MountR</action>
+		<action type="throwpart" blueprint="icePart">MountL</action>
+		<action type="throwpart" blueprint="icePart" streamereffect="effects\building_FX\cov\damage\plasmafire_02">Base</action>
+		<action type="playsound">play_cryo_impact</action>
+	</shatterdeathevent>
+</damagetemplate>

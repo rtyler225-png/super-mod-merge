@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Melee</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>75</DamagePerSecond>
+		<WeaponType>FloodLightMelee</WeaponType>
+		<MaxRange>4</MaxRange>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>65</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>800</PhysicsForceMin>
+		<PhysicsForceMax>1200</PhysicsForceMax>
+		<PhysicsForceMaxAngle>0.8</PhysicsForceMaxAngle>
+		<TargetPriority type="Infantry">25</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>Lunge</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>75</DamagePerSecond>
+		<WeaponType>FloodLightMelee</WeaponType>
+		<MaxRange>3</MaxRange>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>65</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>800</PhysicsForceMin>
+		<PhysicsForceMax>1200</PhysicsForceMax>
+		<PhysicsForceMaxAngle>0.8</PhysicsForceMaxAngle>
+		<TargetPriority type="Infantry">25</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<Daze TargetType="unit" MovementModifier="0">3.0f</Daze>
+	</Weapon>
+	<Action>
+		<Name>MeleeAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim>MeleeAttack</Anim>
+		<Weapon>Melee</Weapon>
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>LungeAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim>LungeAttack</Anim>
+		<Weapon>Lunge</Weapon>
+		<DontLoopAttackAnim />
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>5</WorkRange>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Build</Anim>
+		<WorkRate>0.167</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>3.75</WorkRate>
+		<WorkRange>3</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>JumpAttackAction</Name>
+		<ActionType>JumpAttack</ActionType>
+		<Anim>LungeAttack</Anim>
+		<Weapon>Lunge</Weapon>
+		<Duration>100</Duration>
+		<VelocityScalar>40</VelocityScalar>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>JumpPack</Name>
+		<ActionType>Jump</ActionType>
+		<Weapon>Lunge</Weapon>
+		<Anim>Jump</Anim>
+		<Duration>100</Duration>
+		<VelocityScalar>40</VelocityScalar>
+		<StartDisabled />
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>MeleeAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<Action>JumpAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>JumpPack</Action>
+			<SquadMode>Normal</SquadMode>
+			<TargetsGround />
+		</TargetRule>
+	</Tactic>
+</TacticData>

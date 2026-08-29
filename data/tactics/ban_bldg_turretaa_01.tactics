@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>StandardWeapon</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>215.985</DamagePerSecond>
+		<WeaponType>HeavySmallArmsPlasma</WeaponType>
+		<Projectile>fx_proj_shadeplasma_02</Projectile>
+		<ImpactEffect size="Small">cov_shadeplasma_01</ImpactEffect>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<MaxRange>85</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1.5</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<AOERadius>3</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.25</AOEDamageFactor>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="Infantry">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<UseGroupRange />
+		<Hardpoint>Gun_Standard</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>AntiVehicleWeapon</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>151.225</DamagePerSecond>
+		<WeaponType>Missile</WeaponType>
+		<Projectile>fx_proj_blisterbackmissile_02</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<MaxRange>85</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1.5</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>2</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>400</PhysicsForceMin>
+		<PhysicsForceMax>600</PhysicsForceMax>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="Infantry">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<UseGroupRange />
+		<Hardpoint>Gun_AA</Hardpoint>
+		<ProjectileLaunchDirY />
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>1.29999995</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1.70000005</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+		<AOERadius>6</AOERadius>
+		<AOEPrimaryTargetFactor>0.5</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.75</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+	</Weapon>
+	<Action>
+		<Name>StandardAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<Weapon>StandardWeapon</Weapon>
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>FuelRodAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>AA_Attack</Anim>
+		<Weapon>AntiVehicleWeapon</Weapon>
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>MedicHeal</Name>
+		<ActionType>Heal</ActionType>
+		<WorkRate>100</WorkRate>
+		<MinIdleDuration>3</MinIdleDuration>
+		<StartDisabled />
+	</Action>
+	<Tactic>
+		<PersistentAction>MedicHeal</PersistentAction>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Aircraft</TargetType>
+			<TargetType>Flying</TargetType>
+			<Action>FuelRodAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>StandardAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

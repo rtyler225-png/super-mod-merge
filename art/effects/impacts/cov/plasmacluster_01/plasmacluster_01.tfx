@@ -1,0 +1,7 @@
+<TerrainEffect>
+
+   <default>
+      <particlefile>effects\impacts\cov\plasmacluster_01\plasmacluster_01</particlefile>
+   </default>
+
+</TerrainEffect>

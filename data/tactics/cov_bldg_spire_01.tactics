@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>ShadeTurretFL</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>150</DamagePerSecond>
+		<WeaponType>AntiAir</WeaponType>
+		<Projectile>fx_proj_spirePlasma_01</Projectile>
+		<ImpactEffect size="Medium">cov_shadeplasma_01</ImpactEffect>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>90</MaxRange>
+		<Hardpoint>ShadeTurretFL</Hardpoint>
+		<TargetPriority type="Aircraft">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>ShadeTurretFR</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>150</DamagePerSecond>
+		<WeaponType>AntiAir</WeaponType>
+		<Projectile>fx_proj_spirePlasma_01</Projectile>
+		<ImpactEffect size="Medium">cov_shadeplasma_01</ImpactEffect>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>90</MaxRange>
+		<Hardpoint>ShadeTurretFR</Hardpoint>
+		<TargetPriority type="Aircraft">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>ShadeTurretBL</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>150</DamagePerSecond>
+		<WeaponType>AntiAir</WeaponType>
+		<Projectile>fx_proj_spirePlasma_01</Projectile>
+		<ImpactEffect size="Medium">cov_shadeplasma_01</ImpactEffect>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>90</MaxRange>
+		<Hardpoint>ShadeTurretBL</Hardpoint>
+		<TargetPriority type="Aircraft">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>ShadeTurretBR</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>150</DamagePerSecond>
+		<WeaponType>AntiAir</WeaponType>
+		<Projectile>fx_proj_spirePlasma_01</Projectile>
+		<ImpactEffect size="Medium">cov_shadeplasma_01</ImpactEffect>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>90</MaxRange>
+		<Hardpoint>ShadeTurretBR</Hardpoint>
+		<TargetPriority type="Aircraft">1</TargetPriority>
+	</Weapon>
+	<Action>
+		<Name>ShadeTurretFLAttackAction</Name>
+		<ActionType>SecondaryTurretAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>TurretFLAttack</Anim>
+		<Weapon>ShadeTurretFL</Weapon>
+	</Action>
+	<Action>
+		<Name>ShadeTurretFRAttackAction</Name>
+		<ActionType>SecondaryTurretAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>TurretFRAttack</Anim>
+		<Weapon>ShadeTurretFR</Weapon>
+	</Action>
+	<Action>
+		<Name>ShadeTurretBLAttackAction</Name>
+		<ActionType>SecondaryTurretAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>TurretBLAttack</Anim>
+		<Weapon>ShadeTurretBL</Weapon>
+	</Action>
+	<Action>
+		<Name>ShadeTurretBRAttackAction</Name>
+		<ActionType>SecondaryTurretAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>TurretBRAttack</Anim>
+		<Weapon>ShadeTurretBR</Weapon>
+	</Action>
+	<Action>
+		<Name>PlasmaShieldGen</Name>
+		<ActionType>PlasmaShieldGen</ActionType>
+		<ParticleEffect>effects\building_fx\unsc\damage\electricity_01</ParticleEffect>
+		<Duration>5</Duration>
+		<DeflectTimeout>30</DeflectTimeout>
+		<ProtoObject>cov_bldg_spireShield_01</ProtoObject>
+		<Count>25136</Count>
+	</Action>
+	<Tactic>
+		<PersistentAction>ShadeTurretFLAttackAction</PersistentAction>
+		<PersistentAction>ShadeTurretFRAttackAction</PersistentAction>
+		<PersistentAction>ShadeTurretBLAttackAction</PersistentAction>
+		<PersistentAction>ShadeTurretBRAttackAction</PersistentAction>
+		<PersistentAction>PlasmaShieldGen</PersistentAction>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>ShadeTurretFLAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>ShadeTurretFRAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>ShadeTurretBLAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>ShadeTurretBRAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

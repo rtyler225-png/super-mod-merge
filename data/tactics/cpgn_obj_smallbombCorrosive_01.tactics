@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>CorrosiveBomb</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>5.760</DamagePerSecond>
+		<DOTrate>90</DOTrate>
+		<DOTduration>10</DOTduration>
+		<UseDPSasDPA />
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_suicide_plasmaGrenade_02</Projectile>
+		<DOTEffect small="fx_proj_acidburnSm_01" medium="fx_proj_acidburnMed_01" large="fx_proj_acidburnLg_01" />
+		<Reapply>0.25</Reapply>
+		<Apply>3</Apply>
+		<ImpactEffect size="Large">Rhinoshell</ImpactEffect>
+		<MaxRange>4</MaxRange>
+		<AOERadius>12</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.75</AOEDistanceFactor>
+		<AOEDamageFactor>0.75</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>700</PhysicsForceMax>
+	</Weapon>
+	<Weapon>
+		<Name>None</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<WeaponType>Explosive</WeaponType>
+		<MaxRange>1</MaxRange>
+	</Weapon>
+	<Action>
+		<Name>CorrosiveDetonate</Name>
+		<ActionType>Detonate</ActionType>
+		<Weapon>CorrosiveBomb</Weapon>
+		<DetonateWhenInRange>true</DetonateWhenInRange>
+	</Action>
+	<Tactic>
+		<PersistentAction>CorrosiveDetonate</PersistentAction>
+	</Tactic>
+</TacticData>

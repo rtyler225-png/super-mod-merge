@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<damagetemplate>
+	<percentagebased>
+		<event />
+		<event />
+		<event />
+		<event>
+			<action type="throwpart" blueprint="heavypart">l_arm</action>
+			<action type="throwpart" blueprint="heavypart">r_arm</action>
+			<action type="throwpart" blueprint="heavypart">l_leg</action>
+			<action type="throwpart" blueprint="heavypart">r_leg</action>
+			<action type="hidepart">body</action>
+			<action type="hidepart">head</action>
+		</event>
+	</percentagebased>
+	<impactpointbased />
+	<cryopercentagebased>
+		<event />
+		<event />
+		<event />
+		<event />
+		<event>
+			<action type="attachparticle" effect="effects\cryo_bomb\unit_freezing_medium">GrannyRootBone</action>
+			<action type="playsound">play_cryo_bomb_freezing</action>
+		</event>
+	</cryopercentagebased>
+	<shatterdeathevent>
+		<action type="attachparticle" effect="effects\cryo_bomb\unit_shatter_medium">GrannyRootBone</action>
+		<action type="playsound">play_cryo_impact</action>
+	</shatterdeathevent>
+</damagetemplate>

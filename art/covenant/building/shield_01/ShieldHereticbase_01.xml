@@ -1,0 +1,51 @@
+<Materials>
+    <Material>
+        <NameValues>
+            <SpecPower>500</SpecPower>
+            <SpecColorR>0.2862745</SpecColorR>
+            <SpecColorG>0.4705883</SpecColorG>
+            <SpecColorB>0.4000001</SpecColorB>
+            <EnvReflectivity>12</EnvReflectivity>
+            <EnvSharpness>0.1</EnvSharpness>
+            <EnvFresnel>1</EnvFresnel>
+            <EnvFresnelPower>5</EnvFresnelPower>
+            <AccessoryIndex>0</AccessoryIndex>
+            <Flags>139</Flags>
+            <BlendType>1</BlendType>
+            <Opacity>153</Opacity>
+        </NameValues>
+        <Maps>
+            <diffuse UVWVel="0.01,-0.02,0">
+                <Map Name="\effects\uv\blob_03_df" Channel="0" Flags="7"/>
+            </diffuse>
+            <normal UVWVel="-0.03,-0.01,0">
+                <Map Name="\effects\uv\blob_01_nm" Channel="0" Flags="7"/>
+            </normal>
+            <gloss UVWVel="0.5,0,0">
+                <Map Name="\effects\uv\sweep_01_sp" Channel="0" Flags="7"/>
+            </gloss>
+            <opacity UVWVel="0,0,0">
+            </opacity>
+            <xform UVWVel="0,0,0">
+            </xform>
+            <emissive UVWVel="-0.02,0.01,0">
+                <Map Name="\effects\uv\lines_01_em" Channel="0" Flags="7"/>
+            </emissive>
+            <ao UVWVel="0,0,0">
+            </ao>
+            <env UVWVel="0,5,0">
+                <Map Name="\environment\sky\covenant_01_en" Channel="0" Flags="7"/>
+            </env>
+            <envmask UVWVel="0,0,0">
+            </envmask>            
+            <emxform UVWVel="0,0,0">
+            </emxform>
+            <distortion UVWVel="0,0,0">
+            </distortion>
+            <highlight UVWVel="0,0,0">
+            </highlight>
+            <modulate UVWVel="0,0,0">
+            </modulate>
+        </Maps>
+    </Material>
+</Materials>

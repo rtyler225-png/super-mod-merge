@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Melee</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>422.625</DamagePerSecond>
+		<WeaponType>FloodHeavyMelee</WeaponType>
+		<MaxRange>5</MaxRange>
+		<AOERadius>4</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>65</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>800</PhysicsForceMin>
+		<PhysicsForceMax>1200</PhysicsForceMax>
+		<PhysicsForceMaxAngle>0.8</PhysicsForceMaxAngle>
+	</Weapon>
+	<Weapon>
+		<Name>StunMelee</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>422.625</DamagePerSecond>
+		<WeaponType>FloodHeavyMelee</WeaponType>
+		<MaxRange>5</MaxRange>
+		<AOERadius>4</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>65</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>800</PhysicsForceMin>
+		<PhysicsForceMax>1200</PhysicsForceMax>
+		<PhysicsForceMaxAngle>0.8</PhysicsForceMaxAngle>
+		<Daze TargetType="unit" MovementModifier="0" SmartTargeting="true">3.0f</Daze>
+	</Weapon>
+	<Weapon>
+		<Name>GroundAttack</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>150</DamagePerSecond>
+		<WeaponType>FloodHeavyMelee</WeaponType>
+		<Projectile>fx_proj_infectionform_01</Projectile>
+		<ImpactEffect size="Medium">flood_spit_01</ImpactEffect>
+		<MaxVelocityLead>6</MaxVelocityLead>
+		<MaxRange>20</MaxRange>
+		<Accuracy>0.1</Accuracy>
+		<MaxDeviation>4</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>12</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="Building">3</TargetPriority>
+		<TargetPriority type="GroundVehicle">0</TargetPriority>
+		<TargetPriority type="TurretBuilding">0</TargetPriority>
+		<TargetPriority type="Flying">-10</TargetPriority>
+		<TriggerScript>FldTankformAbility.triggerscript</TriggerScript>
+	</Weapon>
+	<Action>
+		<Name>GroundAttackAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Spawner</Anim>
+		<Weapon>GroundAttack</Weapon>
+		<Strafing maxDistance="45" turnRate="90" trackingSpeed="40" jitter="20" />
+		<MainAttack />
+		<DontLoopAttackAnim />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>MeleeAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim>MeleeAttack</Anim>
+		<Weapon>Melee</Weapon>
+		<FindBetterAction />
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>StunMeleeAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim>MeleeAttack</Anim>
+		<Weapon>StunMelee</Weapon>
+		<FindBetterAction />
+		<MainAttack />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>5</WorkRange>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Build</Anim>
+		<WorkRate>0.167</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>3.75</WorkRate>
+		<WorkRange>3</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>MeleeAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetType>Infantry</TargetType>
+			<TargetType>GroundVehicle</TargetType>
+			<Action>GroundAttackAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>StunMeleeAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

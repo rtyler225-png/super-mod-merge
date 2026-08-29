@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Objects>
+		<Object IsSquad="false" Player="0" ID="30000001" TintValue="1" EditorName="snd_play_ice_pressure_3531" Position="832.531494,11.4603996,564.246277" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_ice_pressure</Object>
+		<Object IsSquad="false" Player="0" ID="30000003" TintValue="1" EditorName="snd_play_ice_pressure_normal_pitch_3532" Position="845.644775,51.1664009,449.225708" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_ice_pressure_normal_pitch</Object>
+		<Object IsSquad="false" Player="0" ID="30000004" TintValue="1" EditorName="snd_play_ice_pressure_normal_pitch_3549" Position="908.126282,44.2737999,574.810486" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_ice_pressure_normal_pitch</Object>
+		<Object IsSquad="false" Player="0" ID="30000005" TintValue="1" EditorName="snd_play_ice_pressure_normal_pitch_3534" Position="809.999878,14.0777998,609.682922" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_ice_pressure_normal_pitch</Object>
+		<Object IsSquad="false" Player="0" ID="30000006" TintValue="1" EditorName="snd_play_scn_03_forerunner_tech_3530" Position="635.727417,50.355999,641.854614" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_scn_03_forerunner_tech</Object>
+		<Object IsSquad="false" Player="0" ID="30000007" TintValue="1" EditorName="snd_play_wind_gust_wire_3548" Position="362.928497,46.2573013,485.616089" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_wind_gust_wire</Object>
+		<Object IsSquad="false" Player="0" ID="30000008" TintValue="1" EditorName="snd_play_wind_gust_wire_3535" Position="12.0066004,52.8613014,1276.20703" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_wind_gust_wire</Object>
+		<Object IsSquad="false" Player="0" ID="30000009" TintValue="1" EditorName="snd_play_wind_gust_wire_3546" Position="476.098511,33.604599,786.590271" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_wind_gust_wire</Object>
+		<Object IsSquad="false" Player="0" ID="30000010" TintValue="1" EditorName="snd_play_wind_gust_wire_3543" Position="87.8487015,53.5115013,663.213379" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_wind_gust_wire</Object>
+		<Object IsSquad="false" Player="0" ID="30000011" TintValue="1" EditorName="snd_play_wind_gust_wire_3541" Position="1237.78198,72.9913025,901.953918" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_wind_gust_wire</Object>
+		<Object IsSquad="false" Player="0" ID="30000013" TintValue="1" EditorName="snd_play_wind_gust_wire_3545" Position="260.687195,65.1696014,680.932129" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_wind_gust_wire</Object>
+		<Object IsSquad="false" Player="0" ID="30000014" TintValue="1" EditorName="snd_play_wind_gust_wire_3537" Position="499.612488,49.1612015,1258.14502" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_wind_gust_wire</Object>
+		<Object IsSquad="false" Player="0" ID="30000015" TintValue="1" EditorName="snd_play_wind_gust_wire_3539" Position="1185.927,83.4769974,1275.93005" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_wind_gust_wire</Object>
+		<Object IsSquad="false" Player="0" ID="30000016" TintValue="1" EditorName="snd_play_wind_gust_wire_3544" Position="132.497604,59.8899002,800.886902" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_wind_gust_wire</Object>
+		<Object IsSquad="false" Player="0" ID="30000017" TintValue="1" EditorName="snd_play_wind_gust_wire_3547" Position="1020.276,75.4394989,785.733093" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_wind_gust_wire</Object>
+		<Object IsSquad="false" Player="0" ID="30000018" TintValue="1" EditorName="snd_play_wind_gust_wire_3542" Position="1243.85498,60.2053986,468.520203" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_wind_gust_wire</Object>
+		<Object IsSquad="false" Player="0" ID="30000020" TintValue="1" EditorName="snd_play_wind_gust_wire_3538" Position="829.600281,74.3572998,1251.65601" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_wind_gust_wire</Object>
+	</Objects>
+</Scenario>

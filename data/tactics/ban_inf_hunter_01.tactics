@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+  <Weapon>
+    <Name>FuelRodCannon</Name>
+    <AttackRate>4</AttackRate>
+    <DamagePerSecond>144</DamagePerSecond>
+    <WeaponType>MediumExplosive</WeaponType>
+    <Projectile>fx_proj_banishedfuelRod_01</Projectile>
+    <ImpactEffect size="Medium">banishedfuelrod_01</ImpactEffect>
+    <MaxVelocityLead>20</MaxVelocityLead>
+    <MaxRange>45</MaxRange>
+    <Accuracy>0.5</Accuracy>
+    <MaxDeviation>7</MaxDeviation>
+    <MovingAccuracy>0.1</MovingAccuracy>
+    <MovingMaxDeviation>10</MovingMaxDeviation>
+    <AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+    <AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+    <EnableHeightBonusDamage />
+    <AOERadius>6</AOERadius>
+    <AOEPrimaryTargetFactor>0.5</AOEPrimaryTargetFactor>
+    <AOEDistanceFactor>0.5</AOEDistanceFactor>
+    <AOEDamageFactor>0.75</AOEDamageFactor>
+    <ThrowUnits />
+    <PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+    <PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
+    <PhysicsForceMin>1250</PhysicsForceMin>
+    <PhysicsForceMax>2000</PhysicsForceMax>
+    <TargetPriority type="GroundVehicle">10</TargetPriority>
+    <TargetPriority type="TurretBuilding">5</TargetPriority>
+    <TargetPriority type="Building">-3</TargetPriority>
+    <Hardpoint>Torso</Hardpoint>
+    <Dodgeable />
+    <Deflectable />
+    <CausePhysicsExplosion particle="effects\impacts\unsc\gammatankshell_01\gammatankshell_01" victimType="GroundVehicle" />
+  </Weapon>
+  <Weapon>
+    <Name>BeamCannon</Name>
+    <AttackRate>4</AttackRate>
+    <DamagePerSecond>120</DamagePerSecond>
+    <WeaponType>MediumExplosive</WeaponType>
+    <Projectile>fx_banishedhunterbeam</Projectile>
+    <ImpactEffect size="Medium">banishedfuelrod_01</ImpactEffect>
+    <MaxVelocityLead>20</MaxVelocityLead>
+    <MaxRange>45</MaxRange>
+    <Accuracy>0.6</Accuracy>
+    <MaxDeviation>7</MaxDeviation>
+    <MovingAccuracy>0.1</MovingAccuracy>
+    <MovingMaxDeviation>10</MovingMaxDeviation>
+    <AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+    <AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+    <EnableHeightBonusDamage />
+    <AOERadius>6</AOERadius>
+    <AOEPrimaryTargetFactor>0.5</AOEPrimaryTargetFactor>
+    <AOEDistanceFactor>0.5</AOEDistanceFactor>
+    <AOEDamageFactor>0.75</AOEDamageFactor>
+    <ThrowUnits />
+    <PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+    <PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
+    <PhysicsForceMin>1250</PhysicsForceMin>
+    <PhysicsForceMax>2000</PhysicsForceMax>
+    <TargetPriority type="GroundVehicle">10</TargetPriority>
+    <TargetPriority type="TurretBuilding">5</TargetPriority>
+    <TargetPriority type="Building">-3</TargetPriority>
+    <Hardpoint>Torso</Hardpoint>
+    <CausePhysicsExplosion particle="effects\impacts\unsc\gammatankshell_01\gammatankshell_01" victimType="GroundVehicle" />
+  </Weapon>
+  <Weapon>
+    <Name>FuelRodCannonFlying</Name>
+    <AttackRate>4</AttackRate>
+    <DamagePerSecond>144</DamagePerSecond>
+    <WeaponType>MediumExplosive</WeaponType>
+    <Projectile>fx_proj_banishedfuelRod_01</Projectile>
+    <ImpactEffect size="Medium">banishedfuelrod_01</ImpactEffect>
+    <MaxVelocityLead>20</MaxVelocityLead>
+    <MaxRange>45</MaxRange>
+    <Accuracy>0.1</Accuracy>
+    <MaxDeviation>7</MaxDeviation>
+    <MovingAccuracy>0.1</MovingAccuracy>
+    <MovingMaxDeviation>10</MovingMaxDeviation>
+    <AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+    <AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+    <EnableHeightBonusDamage />
+    <AOERadius>6</AOERadius>
+    <AOEPrimaryTargetFactor>0.5</AOEPrimaryTargetFactor>
+    <AOEDistanceFactor>0.5</AOEDistanceFactor>
+    <AOEDamageFactor>0.75</AOEDamageFactor>
+    <ThrowUnits />
+    <PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+    <PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
+    <PhysicsForceMin>1250</PhysicsForceMin>
+    <PhysicsForceMax>2000</PhysicsForceMax>
+    <TargetPriority type="GroundVehicle">10</TargetPriority>
+    <TargetPriority type="TurretBuilding">5</TargetPriority>
+    <TargetPriority type="Building">-3</TargetPriority>
+    <Hardpoint>Torso</Hardpoint>
+    <Dodgeable />
+    <Deflectable />
+    <CausePhysicsExplosion particle="effects\impacts\unsc\gammatankshell_01\gammatankshell_01" victimType="GroundVehicle" />
+  </Weapon>
+  <Weapon>
+    <Name>BeamCannonFlying</Name>
+    <AttackRate>4</AttackRate>
+    <DamagePerSecond>120</DamagePerSecond>
+    <WeaponType>MediumExplosive</WeaponType>
+    <Projectile>fx_banishedhunterbeam</Projectile>
+    <ImpactEffect size="Medium">banishedfuelrod_01</ImpactEffect>
+    <MaxVelocityLead>20</MaxVelocityLead>
+    <MaxRange>45</MaxRange>
+    <Accuracy>0.1</Accuracy>
+    <MaxDeviation>7</MaxDeviation>
+    <MovingAccuracy>0.1</MovingAccuracy>
+    <MovingMaxDeviation>10</MovingMaxDeviation>
+    <AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+    <AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+    <EnableHeightBonusDamage />
+    <AOERadius>6</AOERadius>
+    <AOEPrimaryTargetFactor>0.5</AOEPrimaryTargetFactor>
+    <AOEDistanceFactor>0.5</AOEDistanceFactor>
+    <AOEDamageFactor>0.75</AOEDamageFactor>
+    <ThrowUnits />
+    <PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+    <PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
+    <PhysicsForceMin>1250</PhysicsForceMin>
+    <PhysicsForceMax>2000</PhysicsForceMax>
+    <TargetPriority type="GroundVehicle">10</TargetPriority>
+    <TargetPriority type="TurretBuilding">5</TargetPriority>
+    <TargetPriority type="Building">-3</TargetPriority>
+    <Hardpoint>Torso</Hardpoint>
+    <CausePhysicsExplosion particle="effects\impacts\unsc\gammatankshell_01\gammatankshell_01" victimType="GroundVehicle" />
+  </Weapon>
+  <Weapon>
+    <Name>InCoverFuelRodCannon</Name>
+    <AttackRate>4</AttackRate>
+    <DamagePerSecond>144</DamagePerSecond>
+    <WeaponType>MediumExplosive</WeaponType>
+    <Projectile>fx_proj_banishedfuelRod_01</Projectile>
+    <ImpactEffect size="Medium">banishedfuelrod_01</ImpactEffect>
+    <MaxVelocityLead>20</MaxVelocityLead>
+    <MaxRange>90</MaxRange>
+    <Accuracy>0.6</Accuracy>
+    <MaxDeviation>7</MaxDeviation>
+    <MovingAccuracy>0.1</MovingAccuracy>
+    <MovingMaxDeviation>10</MovingMaxDeviation>
+    <AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+    <AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+    <EnableHeightBonusDamage />
+    <AOERadius>6</AOERadius>
+    <AOEPrimaryTargetFactor>0.5</AOEPrimaryTargetFactor>
+    <AOEDistanceFactor>0.5</AOEDistanceFactor>
+    <AOEDamageFactor>0.75</AOEDamageFactor>
+    <ThrowUnits />
+    <PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+    <PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
+    <PhysicsForceMin>1250</PhysicsForceMin>
+    <PhysicsForceMax>2000</PhysicsForceMax>
+    <TargetPriority type="GroundVehicle">10</TargetPriority>
+    <TargetPriority type="TurretBuilding">5</TargetPriority>
+    <TargetPriority type="Building">-3</TargetPriority>
+    <Hardpoint>Torso</Hardpoint>
+    <Dodgeable />
+    <Deflectable />
+    <CausePhysicsExplosion particle="effects\impacts\unsc\gammatankshell_01\gammatankshell_01" victimType="GroundVehicle" />
+  </Weapon>
+  <Weapon>
+    <Name>InCoverBeamCannon</Name>
+    <AttackRate>4</AttackRate>
+    <DamagePerSecond>120</DamagePerSecond>
+    <WeaponType>MediumExplosive</WeaponType>
+    <Projectile>fx_banishedhunterbeam</Projectile>
+    <ImpactEffect size="Medium">banishedfuelrod_01</ImpactEffect>
+    <MaxVelocityLead>20</MaxVelocityLead>
+    <MaxRange>90</MaxRange>
+    <Accuracy>0.6</Accuracy>
+    <MaxDeviation>7</MaxDeviation>
+    <MovingAccuracy>0.1</MovingAccuracy>
+    <MovingMaxDeviation>10</MovingMaxDeviation>
+    <AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+    <AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+    <EnableHeightBonusDamage />
+    <AOERadius>6</AOERadius>
+    <AOEPrimaryTargetFactor>0.5</AOEPrimaryTargetFactor>
+    <AOEDistanceFactor>0.5</AOEDistanceFactor>
+    <AOEDamageFactor>0.75</AOEDamageFactor>
+    <ThrowUnits />
+    <PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+    <PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
+    <PhysicsForceMin>1250</PhysicsForceMin>
+    <PhysicsForceMax>2000</PhysicsForceMax>
+    <TargetPriority type="GroundVehicle">10</TargetPriority>
+    <TargetPriority type="TurretBuilding">5</TargetPriority>
+    <TargetPriority type="Building">-3</TargetPriority>
+    <Hardpoint>Torso</Hardpoint>
+    <CausePhysicsExplosion particle="effects\impacts\unsc\gammatankshell_01\gammatankshell_01" victimType="GroundVehicle" />
+  </Weapon>
+  <Weapon>
+    <Name>InCoverFuelRodCannonFlying</Name>
+    <AttackRate>4</AttackRate>
+    <DamagePerSecond>144</DamagePerSecond>
+    <WeaponType>MediumExplosive</WeaponType>
+    <Projectile>fx_proj_banishedfuelRod_01</Projectile>
+    <ImpactEffect size="Medium">banishedfuelrod_01</ImpactEffect>
+    <MaxVelocityLead>20</MaxVelocityLead>
+    <MaxRange>90</MaxRange>
+    <Accuracy>0.3</Accuracy>
+    <MaxDeviation>7</MaxDeviation>
+    <MovingAccuracy>0.1</MovingAccuracy>
+    <MovingMaxDeviation>10</MovingMaxDeviation>
+    <AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+    <AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+    <EnableHeightBonusDamage />
+    <AOERadius>6</AOERadius>
+    <AOEPrimaryTargetFactor>0.5</AOEPrimaryTargetFactor>
+    <AOEDistanceFactor>0.5</AOEDistanceFactor>
+    <AOEDamageFactor>0.75</AOEDamageFactor>
+    <ThrowUnits />
+    <PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+    <PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
+    <PhysicsForceMin>1250</PhysicsForceMin>
+    <PhysicsForceMax>2000</PhysicsForceMax>
+    <TargetPriority type="GroundVehicle">10</TargetPriority>
+    <TargetPriority type="TurretBuilding">5</TargetPriority>
+    <TargetPriority type="Building">-3</TargetPriority>
+    <Hardpoint>Torso</Hardpoint>
+    <Dodgeable />
+    <Deflectable />
+    <CausePhysicsExplosion particle="effects\impacts\unsc\gammatankshell_01\gammatankshell_01" victimType="GroundVehicle" />
+  </Weapon>
+  <Weapon>
+    <Name>InCoverBeamCannonFlying</Name>
+    <AttackRate>4</AttackRate>
+    <DamagePerSecond>120</DamagePerSecond>
+    <WeaponType>MediumExplosive</WeaponType>
+    <Projectile>fx_banishedhunterbeam</Projectile>
+    <ImpactEffect size="Medium">banishedfuelrod_01</ImpactEffect>
+    <MaxVelocityLead>20</MaxVelocityLead>
+    <MaxRange>80</MaxRange>
+    <Accuracy>0.4</Accuracy>
+    <MaxDeviation>7</MaxDeviation>
+    <MovingAccuracy>0.1</MovingAccuracy>
+    <MovingMaxDeviation>10</MovingMaxDeviation>
+    <AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+    <AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+    <EnableHeightBonusDamage />
+    <AOERadius>6</AOERadius>
+    <AOEPrimaryTargetFactor>0.5</AOEPrimaryTargetFactor>
+    <AOEDistanceFactor>0.5</AOEDistanceFactor>
+    <AOEDamageFactor>0.75</AOEDamageFactor>
+    <ThrowUnits />
+    <PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+    <PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
+    <PhysicsForceMin>1250</PhysicsForceMin>
+    <PhysicsForceMax>2000</PhysicsForceMax>
+    <TargetPriority type="GroundVehicle">10</TargetPriority>
+    <TargetPriority type="TurretBuilding">5</TargetPriority>
+    <TargetPriority type="Building">-3</TargetPriority>
+    <Hardpoint>Torso</Hardpoint>
+    <CausePhysicsExplosion particle="effects\impacts\unsc\gammatankshell_01\gammatankshell_01" victimType="GroundVehicle" />
+  </Weapon>
+  <Action>
+    <Name>FuelRodCannonAttackAction</Name>
+    <ActionType>RangedAttack</ActionType>
+    <Anim>FuelRodAttack</Anim>
+    <WalkForwardAnim>CombatWalkForwardFuelRodAttack</WalkForwardAnim>
+    <WalkBackAnim>CombatWalkBackFuelRodAttack</WalkBackAnim>
+    <WalkLeftAnim>CombatWalkLeftFuelRodAttack</WalkLeftAnim>
+    <WalkRightAnim>CombatWalkRightFuelRodAttack</WalkRightAnim>
+    <Weapon>FuelRodCannon</Weapon>
+    <MainAttack />
+  </Action>
+  <Action>
+    <Name>BeamCannonAttackAction</Name>
+    <ActionType>RangedAttack</ActionType>
+    <Anim>BeamAttack</Anim>
+    <Weapon>BeamCannon</Weapon>
+    <MainAttack />
+    <Strafing maxDistance="2" turnRate="360" trackingSpeed="50" jitter="0" />
+    <Beam />
+    <StartDisabled />
+  </Action>
+  <Action>
+    <Name>FuelRodCannonAttackActionFlying</Name>
+    <ActionType>RangedAttack</ActionType>
+    <Anim>FuelRodAttack</Anim>
+    <WalkForwardAnim>CombatWalkForwardFuelRodAttack</WalkForwardAnim>
+    <WalkBackAnim>CombatWalkBackFuelRodAttack</WalkBackAnim>
+    <WalkLeftAnim>CombatWalkLeftFuelRodAttack</WalkLeftAnim>
+    <WalkRightAnim>CombatWalkRightFuelRodAttack</WalkRightAnim>
+    <Weapon>FuelRodCannonFlying</Weapon>
+    <MainAttack />
+  </Action>
+  <Action>
+    <Name>BeamCannonAttackActionFlying</Name>
+    <ActionType>RangedAttack</ActionType>
+    <Anim>BeamAttack</Anim>
+    <Weapon>BeamCannonFlying</Weapon>
+    <MainAttack />
+    <Strafing maxDistance="2" turnRate="360" trackingSpeed="50" jitter="0" />
+    <Beam />
+    <StartDisabled />
+  </Action>
+  <Action>
+    <Name>InCoverFuelRodCannonAttackAction</Name>
+    <ActionType>RangedAttack</ActionType>
+    <Anim>FuelRodAttack</Anim>
+    <WalkForwardAnim>CombatWalkForwardFuelRodAttack</WalkForwardAnim>
+    <WalkBackAnim>CombatWalkBackFuelRodAttack</WalkBackAnim>
+    <WalkLeftAnim>CombatWalkLeftFuelRodAttack</WalkLeftAnim>
+    <WalkRightAnim>CombatWalkRightFuelRodAttack</WalkRightAnim>
+    <Weapon>FuelRodCannon</Weapon>
+    <MainAttack />
+  </Action>
+  <Action>
+    <Name>InCoverBeamCannonAttackAction</Name>
+    <ActionType>RangedAttack</ActionType>
+    <Anim>BeamAttack</Anim>
+    <Weapon>InCoverBeamCannon</Weapon>
+    <MainAttack />
+    <Strafing maxDistance="2" turnRate="360" trackingSpeed="50" jitter="0" />
+    <Beam />
+    <StartDisabled />
+  </Action>
+  <Action>
+    <Name>InCoverFuelRodCannonAttackActionFlying</Name>
+    <ActionType>RangedAttack</ActionType>
+    <Anim>FuelRodAttack</Anim>
+    <WalkForwardAnim>CombatWalkForwardFuelRodAttack</WalkForwardAnim>
+    <WalkBackAnim>CombatWalkBackFuelRodAttack</WalkBackAnim>
+    <WalkLeftAnim>CombatWalkLeftFuelRodAttack</WalkLeftAnim>
+    <WalkRightAnim>CombatWalkRightFuelRodAttack</WalkRightAnim>
+    <Weapon>FuelRodCannonFlying</Weapon>
+    <MainAttack />
+  </Action>
+  <Action>
+    <Name>InCoverBeamCannonAttackActionFlying</Name>
+    <ActionType>RangedAttack</ActionType>
+    <Anim>BeamAttack</Anim>
+    <Weapon>InCoverBeamCannonFlying</Weapon>
+    <MainAttack />
+    <Strafing maxDistance="2" turnRate="360" trackingSpeed="50" jitter="0" />
+    <Beam />
+    <StartDisabled />
+  </Action>
+  <Action>
+    <Name>Garrison</Name>
+    <ActionType>Garrison</ActionType>
+    <WorkRange>5</WorkRange>
+  </Action>
+  <Action>
+    <Name>GarrisonSpirit</Name>
+    <ActionType>Garrison</ActionType>
+    <Anim>HotDropUp</Anim>
+    <WorkRange>13</WorkRange>
+  </Action>
+  <Action>
+    <Name>UngarrisonSpirit</Name>
+    <ActionType>Ungarrison</ActionType>
+    <Anim>HotDropDown</Anim>
+    <WorkRange>0</WorkRange>
+  </Action>
+  <Action>
+    <Name>Dodge</Name>
+    <ActionType>Dodge</ActionType>
+    <DodgeChanceMin>0.33</DodgeChanceMin>
+    <DodgeChanceMax>0.66</DodgeChanceMax>
+    <DodgeMaxAngle>90</DodgeMaxAngle>
+    <DodgeCooldown>3</DodgeCooldown>
+  </Action>
+  <Action>
+    <Name>Deflect</Name>
+    <ActionType>Deflect</ActionType>
+    <DeflectChanceMin>0.66</DeflectChanceMin>
+    <DeflectChanceMax>0.66</DeflectChanceMax>
+    <DeflectMaxAngle>90</DeflectMaxAngle>
+    <DeflectCooldown>1</DeflectCooldown>
+    <StartDisabled />
+  </Action>
+  <Action>
+    <Name>Deflect_01</Name>
+    <ActionType>Deflect</ActionType>
+    <DeflectChanceMin>0.5</DeflectChanceMin>
+    <DeflectChanceMax>0.5</DeflectChanceMax>
+    <DeflectMaxAngle>270</DeflectMaxAngle>
+    <DeflectCooldown>2</DeflectCooldown>
+    <MultiDeflect />
+    <SmallArms />
+  </Action>
+  <Action>
+    <Name>GarrisonHotDrop</Name>
+    <ActionType>Garrison</ActionType>
+    <Anim>HotDropUp</Anim>
+    <WorkRange>15</WorkRange>
+  </Action>
+  <Action>
+    <Name>UngarrisonHotDrop</Name>
+    <ActionType>Ungarrison</ActionType>
+    <Anim>HotDropDown</Anim>
+    <WorkRange>0</WorkRange>
+  </Action>
+  <Action>
+    <Name>GarrisonSpirit</Name>
+    <ActionType>Garrison</ActionType>
+    <Anim>HotDropUp</Anim>
+    <WorkRange>13</WorkRange>
+  </Action>
+  <Action>
+    <Name>UngarrisonSpirit</Name>
+    <ActionType>Ungarrison</ActionType>
+    <Anim>HotDropDown</Anim>
+    <WorkRange>0</WorkRange>
+  </Action>
+  <Action>
+    <Name>GarrisonTeleport</Name>
+    <ActionType>Garrison</ActionType>
+    <Anim>TeleportOut</Anim>
+    <WorkRange>15</WorkRange>
+  </Action>
+  <Action>
+    <Name>UngarrisonTeleport</Name>
+    <ActionType>Ungarrison</ActionType>
+    <Anim>TeleportIn</Anim>
+    <WorkRange>0</WorkRange>
+  </Action>
+  <Action>
+    <Name>GatherSupplies</Name>
+    <ActionType>Gather</ActionType>
+    <Anim>Gather</Anim>
+    <Resource>Supplies</Resource>
+    <WorkRate>3</WorkRate>
+    <WorkRange>3</WorkRange>
+    <RestrictedAutoTarget>true</RestrictedAutoTarget>
+  </Action>
+  <Action>
+    <Name>GatherCollectables</Name>
+    <ActionType>Gather</ActionType>
+    <Anim>Gather</Anim>
+    <Resource>Collectable</Resource>
+    <WorkRate>1</WorkRate>
+    <WorkRange>3</WorkRange>
+  </Action>
+  <Action>
+    <Name>SpiritBond</Name>
+    <ActionType>SpiritBond</ActionType>
+    <ProtoObject>fx_proj_hunterSpiritBondBeam_01</ProtoObject>
+    <DamageModifiers damage="1.35" />
+    <StartDisabled />
+  </Action>
+  <Action>
+    <Name>MedicHeal</Name>
+    <ActionType>Heal</ActionType>
+    <WorkRate>100</WorkRate>
+    <MinIdleDuration>3</MinIdleDuration>
+    <AllowReinforce />
+    <StartDisabled />
+  </Action>
+  <Tactic>
+    <PersistentAction>MedicHeal</PersistentAction>
+    <PersistentAction>Dodge</PersistentAction>
+    <PersistentAction>Deflect</PersistentAction>
+    <PersistentAction>Deflect_01</PersistentAction>
+    <PersistentSquadAction>SpiritBond</PersistentSquadAction>
+    <TargetRule>
+      <GaiaOwned />
+      <TargetType>Collectable</TargetType>
+      <Action>GatherCollectables</Action>
+    </TargetRule>
+    <TargetRule>
+      <Relation>Enemy</Relation>
+      <TargetType>NonFlying</TargetType>
+      <Action>FuelRodCannonAttackAction</Action>
+      <SquadMode>Normal</SquadMode>
+    </TargetRule>
+    <TargetRule>
+      <Relation>Enemy</Relation>
+      <TargetType>NonFlying</TargetType>
+      <Action>BeamCannonAttackAction</Action>
+      <SquadMode>Normal</SquadMode>
+    </TargetRule>
+    <TargetRule>
+      <Relation>Enemy</Relation>
+      <TargetType>Flying</TargetType>
+      <Action>FuelRodCannonAttackActionFlying</Action>
+      <SquadMode>Normal</SquadMode>
+    </TargetRule>
+    <TargetRule>
+      <Relation>Enemy</Relation>
+      <TargetType>Flying</TargetType>
+      <Action>BeamCannonAttackActionFlying</Action>
+      <SquadMode>Normal</SquadMode>
+    </TargetRule>
+    <TargetRule>
+      <Relation>Enemy</Relation>
+      <TargetType>NonFlying</TargetType>
+      <Action>InCoverFuelRodCannonAttackAction</Action>
+      <SquadMode>Cover</SquadMode>
+    </TargetRule>
+    <TargetRule>
+      <Relation>Enemy</Relation>
+      <TargetType>NonFlying</TargetType>
+      <Action>InCoverBeamCannonAttackAction</Action>
+      <SquadMode>Cover</SquadMode>
+    </TargetRule>
+    <TargetRule>
+      <Relation>Enemy</Relation>
+      <TargetType>Flying</TargetType>
+      <Action>InCoverFuelRodCannonAttackActionFlying</Action>
+      <SquadMode>Cover</SquadMode>
+    </TargetRule>
+    <TargetRule>
+      <Relation>Enemy</Relation>
+      <TargetType>Flying</TargetType>
+      <Action>InCoverBeamCannonAttackActionFlying</Action>
+      <SquadMode>Cover</SquadMode>
+    </TargetRule>
+    <TargetRule>
+      <GaiaOwned />
+      <TargetType>Garrison</TargetType>
+      <Action>Garrison</Action>
+    </TargetRule>
+    <TargetRule>
+      <Relation>Ally</Relation>
+      <TargetType>Garrison</TargetType>
+      <Action>Garrison</Action>
+    </TargetRule>
+    <TargetRule>
+      <Relation>Ally</Relation>
+      <TargetType>transport</TargetType>
+      <Action>GarrisonSpirit</Action>
+    </TargetRule>
+    <TargetRule>
+      <Ability>Ungarrison</Ability>
+      <Relation>Ally</Relation>
+      <TargetType>transport</TargetType>
+      <Action>UngarrisonSpirit</Action>
+    </TargetRule>
+    <TargetRule>
+      <Relation>Ally</Relation>
+      <TargetType>HotDropPickup</TargetType>
+      <Action>GarrisonHotDrop</Action>
+    </TargetRule>
+    <TargetRule>
+      <Ability>Ungarrison</Ability>
+      <Relation>Ally</Relation>
+      <TargetType>HotDropPickup</TargetType>
+      <Action>UngarrisonHotDrop</Action>
+    </TargetRule>
+    <TargetRule>
+      <GaiaOwned />
+      <Relation>Self</Relation>
+      <TargetType>TeleportPickup</TargetType>
+      <Action>GarrisonTeleport</Action>
+    </TargetRule>
+    <TargetRule>
+      <GaiaOwned />
+      <Ability>Ungarrison</Ability>
+      <Relation>Self</Relation>
+      <TargetType>TeleportDropoff</TargetType>
+      <Action>UngarrisonTeleport</Action>
+    </TargetRule>
+    <TargetRule>
+      <GaiaOwned />
+      <TargetType>Resource_Supplies</TargetType>
+      <Action>GatherSupplies</Action>
+    </TargetRule>
+  </Tactic>
+</TacticData>

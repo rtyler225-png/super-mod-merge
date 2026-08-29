@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<damagetemplate>
+	<percentagebased>
+		<event>
+			<action type="attachparticle" effect="effects\building_fx\cov\damage\plasmafire_03">hull_01</action>
+			<action type="throwpart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">hull_01</action>
+		</event>
+		<event>
+			<action type="attachparticle" effect="effects\building_fx\cov\damage\plasmafire_01">hull_02</action>
+			<action type="throwpart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">hull_02</action>
+		</event>
+		<event>
+			<action type="attachparticle" effect="effects\building_fx\cov\damage\plasmafire_01">hull_03</action>
+			<action type="throwpart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">hull_03</action>
+		</event>
+		<event>
+			<action type="attachparticle" effect="effects\building_fx\cov\damage\plasmafire_03">hull_04</action>
+			<action type="throwpart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">hull_04</action>
+		</event>
+		<event>
+			<action type="attachparticle" effect="effects\building_fx\cov\damage\plasmafire_03">hull_05</action>
+			<action type="throwpart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">hull_05</action>
+		</event>
+		<event>
+			<action type="attachparticle" effect="effects\building_fx\cov\damage\plasmafire_03">hull_06</action>
+			<action type="throwpart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">hull_06</action>
+		</event>
+		<event>
+			<action type="attachparticle" effect="effects\building_fx\cov\damage\buildingdeath_01">bone turret_base</action>
+			<action type="attachparticle" effect="effects\building_fx\cov\damage\buildingdeath_01">body</action>
+			<action type="attachparticle" effect="effects\building_fx\cov\damage\buildingdeath_01">bone head</action>
+		</event>
+	</percentagebased>
+	<impactpointbased />
+	<cryopercentagebased>
+		<event />
+		<event />
+		<event />
+		<event />
+		<event>
+			<action type="attachparticle" effect="effects\cryo_bomb\unit_freezing_large">GrannyRootBone</action>
+			<action type="playsound">play_cryo_bomb_freezing</action>
+		</event>
+	</cryopercentagebased>
+	<shatterdeathevent>
+		<action type="attachparticle" effect="effects\cryo_bomb\unit_shatter_large">GrannyRootBone</action>
+		<action type="throwpart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">object20damaged</action>
+		<action type="throwpart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">object21damaged</action>
+		<action type="throwpart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">object22damaged</action>
+		<action type="throwpart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">object23damaged</action>
+		<action type="throwpart">object24damaged</action>
+		<action type="throwpart">object25damaged</action>
+		<action type="throwpart">object26damaged</action>
+		<action type="throwpart">object36damaged</action>
+		<action type="throwpart">object54damaged</action>
+		<action type="throwpart">object38damaged</action>
+		<action type="throwpart">object39damaged</action>
+		<action type="throwpart">object40damaged</action>
+		<action type="throwpart">object41damaged</action>
+		<action type="throwpart">object42damaged</action>
+		<action type="throwpart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">object43damaged</action>
+		<action type="throwpart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">object44damaged</action>
+		<action type="throwpart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">object56damaged</action>
+		<action type="throwpart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">object59damaged</action>
+		<action type="throwpart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">object46</action>
+		<action type="throwpart">object47damaged</action>
+		<action type="throwpart">object48damaged</action>
+		<action type="throwpart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">object49damaged</action>
+		<action type="throwpart">object51damaged</action>
+		<action type="throwpart">object52damaged</action>
+		<action type="throwpart">object53damaged</action>
+		<action type="throwpart">object27damaged</action>
+		<action type="throwpart">object28damaged</action>
+		<action type="throwpart">object29damaged</action>
+		<action type="throwpart">object30damaged</action>
+		<action type="throwpart">object31damaged</action>
+		<action type="throwpart">object32damaged</action>
+		<action type="throwpart">object33damaged</action>
+		<action type="throwpart">object34damaged</action>
+		<action type="throwpart">object35damaged</action>
+		<action type="throwpart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">object37damaged</action>
+		<action type="throwpart" impactsound="impact_med_metal" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">object55damaged</action>
+		<action type="throwpart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">object01damaged</action>
+		<action type="throwpart">object02damaged</action>
+		<action type="throwpart">object03damaged</action>
+		<action type="throwpart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">object04damaged</action>
+		<action type="throwpart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">object06damaged</action>
+		<action type="throwpart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">object07damaged</action>
+		<action type="throwpart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">object09damaged</action>
+		<action type="throwpart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">object10damaged</action>
+		<action type="throwpart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">object11damaged</action>
+		<action type="throwpart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">object12damaged</action>
+		<action type="throwpart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">object13damaged</action>
+		<action type="throwpart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">object14damaged</action>
+		<action type="throwpart" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">object15damaged</action>
+		<action type="throwpart">object16damaged</action>
+		<action type="throwpart">object17damaged</action>
+		<action type="throwpart" impactsound="impact_med_metal" streamereffect="effects\building_FX\cov\damage\teenystreamer_01">object18damaged</action>
+		<action type="playsound">play_cryo_impact</action>
+	</shatterdeathevent>
+</damagetemplate>

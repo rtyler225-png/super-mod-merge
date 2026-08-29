@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+  <Weapon>
+    <Name>LeftMissileLauncher</Name>
+    <AttackRate>2</AttackRate>
+    <DamagePerSecond>400</DamagePerSecond>
+    <WeaponType>Explosive</WeaponType>
+    <Projectile>fx_proj_longswordMissile_01</Projectile>
+    <ImpactEffect size="Medium">Tankshell</ImpactEffect>
+    <MaxRange>75</MaxRange>
+    <AOERadius>12</AOERadius>
+    <AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+    <AOEDistanceFactor>0.5</AOEDistanceFactor>
+    <AOEDamageFactor>0.25</AOEDamageFactor>
+    <Hardpoint>MissileL</Hardpoint>
+    <TargetPriority type="GroundVehicle">10</TargetPriority>
+    <TargetPriority type="Flying">10</TargetPriority>
+    <TargetPriority type="TurretBuilding">5</TargetPriority>
+    <TargetPriority type="Infantry">3</TargetPriority>
+    <TargetPriority type="Building">1</TargetPriority>
+    <Dodgeable />
+  </Weapon>
+  <Weapon>
+    <Name>RightMissileLauncher</Name>
+    <AttackRate>2</AttackRate>
+    <DamagePerSecond>400</DamagePerSecond>
+    <WeaponType>Explosive</WeaponType>
+    <Projectile>fx_proj_longswordMissile_01</Projectile>
+    <ImpactEffect size="Medium">Tankshell</ImpactEffect>
+    <MaxRange>75</MaxRange>
+    <AOERadius>12</AOERadius>
+    <AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+    <AOEDistanceFactor>0.5</AOEDistanceFactor>
+    <AOEDamageFactor>0.25</AOEDamageFactor>
+    <Hardpoint>MissileR</Hardpoint>
+    <TargetPriority type="GroundVehicle">10</TargetPriority>
+    <TargetPriority type="Flying">10</TargetPriority>
+    <TargetPriority type="TurretBuilding">5</TargetPriority>
+    <TargetPriority type="Infantry">3</TargetPriority>
+    <TargetPriority type="Building">1</TargetPriority>
+    <Dodgeable />
+  </Weapon>
+  <Weapon>
+    <Name>Cannons</Name>
+    <AttackRate>2</AttackRate>
+    <DamagePerSecond>500</DamagePerSecond>
+    <WeaponType>Explosive</WeaponType>
+    <Projectile>fx_proj_longswordCannon_01</Projectile>
+    <ImpactEffect size="small">Tankshell</ImpactEffect>
+    <MaxVelocityLead>20</MaxVelocityLead>
+    <MaxRange>75</MaxRange>
+    <Accuracy>0.6</Accuracy>
+    <MaxDeviation>7</MaxDeviation>
+    <MovingAccuracy>0.100000001</MovingAccuracy>
+    <MovingMaxDeviation>10</MovingMaxDeviation>
+    <AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+    <AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+    <AOERadius>12</AOERadius>
+    <AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+    <AOEDistanceFactor>0.5</AOEDistanceFactor>
+    <AOEDamageFactor>0.25</AOEDamageFactor>
+    <ThrowUnits />
+    <PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+    <PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+    <PhysicsForceMin>800</PhysicsForceMin>
+    <PhysicsForceMax>1200</PhysicsForceMax>
+    <PhysicsForceMaxAngle>0.800000012</PhysicsForceMaxAngle>
+    <TargetPriority type="GroundVehicle">10</TargetPriority>
+    <TargetPriority type="Flying">10</TargetPriority>
+    <TargetPriority type="TurretBuilding">5</TargetPriority>
+    <TargetPriority type="Infantry">3</TargetPriority>
+    <TargetPriority type="Building">1</TargetPriority>
+  </Weapon>
+  <Weapon>
+    <Name>SuperMissile</Name>
+    <AttackRate>0.5</AttackRate>
+    <DamagePerSecond>20000</DamagePerSecond>
+    <UseDPSasDPA />
+    <WeaponType>MAC</WeaponType>
+    <Projectile>fx_proj_superMissile_01</Projectile>
+    <ImpactEffect size="Large">LongswordSuperMissile</ImpactEffect>
+    <MaxVelocityLead>4</MaxVelocityLead>
+    <MaxRange>100</MaxRange>
+    <Hardpoint>SuperMissile</Hardpoint>
+    <AirBurstSpan>25.0f</AirBurstSpan>
+    <Accuracy>0</Accuracy>
+    <MaxDeviation>0</MaxDeviation>
+    <MovingAccuracy>0</MovingAccuracy>
+    <MovingMaxDeviation>15</MovingMaxDeviation>
+    <AccuracyDistanceFactor>0.330000013</AccuracyDistanceFactor>
+    <AccuracyDeviationFactor>0.5</AccuracyDeviationFactor>
+    <AOERadius>25</AOERadius>
+    <AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+    <AOEDistanceFactor>0.25</AOEDistanceFactor>
+    <AOEDamageFactor>0.5</AOEDamageFactor>
+    <ThrowUnits />
+    <PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+    <PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+    <PhysicsForceMin>900</PhysicsForceMin>
+    <PhysicsForceMax>1100</PhysicsForceMax>
+    <AirBurst />
+  </Weapon>
+  <Weapon>
+    <Name>SuperMissileUpgraded</Name>
+    <AttackRate>0.5</AttackRate>
+    <DamagePerSecond>45000</DamagePerSecond>
+    <UseDPSasDPA />
+    <WeaponType>MAC</WeaponType>
+    <Projectile>fx_proj_superMissile_02</Projectile>
+    <ImpactEffect size="Large">LongswordSuperMissileUpgraded</ImpactEffect>
+    <MaxVelocityLead>4</MaxVelocityLead>
+    <MaxRange>100</MaxRange>
+    <Hardpoint>SuperMissile</Hardpoint>
+    <AirBurstSpan>25.0f</AirBurstSpan>
+    <Accuracy>0</Accuracy>
+    <MaxDeviation>0</MaxDeviation>
+    <MovingAccuracy>0</MovingAccuracy>
+    <MovingMaxDeviation>15</MovingMaxDeviation>
+    <AccuracyDistanceFactor>0.330000013</AccuracyDistanceFactor>
+    <AccuracyDeviationFactor>0.5</AccuracyDeviationFactor>
+    <AOERadius>45</AOERadius>
+    <AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+    <AOEDistanceFactor>0.50</AOEDistanceFactor>
+    <AOEDamageFactor>0.75</AOEDamageFactor>
+    <ThrowUnits />
+    <PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+    <PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+    <PhysicsForceMin>900</PhysicsForceMin>
+    <PhysicsForceMax>1100</PhysicsForceMax>
+    <AirBurst />
+    <StartDisabled />
+  </Weapon>
+  <Action>
+    <Name>CannonsAttackAction</Name>
+    <ActionType>RangedAttack</ActionType>
+    <Anim>CannonAttack</Anim>
+    <Weapon>Cannons</Weapon>
+    <PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+    <MainAttack />
+    <DisableAttackWaitTimer />
+    <PersistBetweenOpps />
+  </Action>
+  <Action>
+    <Name>LeftMissileAttackAction</Name>
+    <ActionType>SecondaryTurretAttack</ActionType>
+    <Anim>MissileAttackLeft</Anim>
+    <Weapon>LeftMissileLauncher</Weapon>
+    <PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+    <MainAttack />
+    <DisableAttackWaitTimer />
+    <PersistBetweenOpps />
+  </Action>
+  <Action>
+    <Name>RightMissileAttackAction</Name>
+    <ActionType>SecondaryTurretAttack</ActionType>
+    <Anim>MissileAttackRight</Anim>
+    <Weapon>RightMissileLauncher</Weapon>
+    <PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+    <MainAttack />
+    <DisableAttackWaitTimer />
+    <PersistBetweenOpps />
+  </Action>
+  <Action>
+    <Name>SuperMissileAttackAction</Name>
+    <ActionType>RangedAttack</ActionType>
+    <Weapon>SuperMissile</Weapon>
+    <DontCheckOrientTolerance />
+    <DontLoopAttackAnim />
+  </Action>
+  <Action>
+    <Name>SuperMissileAttackActionUpgraded</Name>
+    <ActionType>RangedAttack</ActionType>
+    <Anim>SuperMissileAttackUpgraded</Anim>
+    <Weapon>SuperMissileUpgraded</Weapon>
+    <DontCheckOrientTolerance />
+    <DontLoopAttackAnim />
+    <StartDisabled />
+  </Action>
+  <Action>
+    <Name>AvoidCollisionAir</Name>
+    <ActionType>AvoidCollisionAir</ActionType>
+    <HoverAltitudeOffset>0</HoverAltitudeOffset>
+    <MaxPitch>5.0f</MaxPitch>
+    <MaxRoll>20.0f</MaxRoll>
+  </Action>
+  <Action>
+    <Name>GarrisonTeleport</Name>
+    <ActionType>Garrison</ActionType>
+    <Anim>TeleportOut</Anim>
+    <WorkRange>15</WorkRange>
+  </Action>
+  <Action>
+    <Name>UngarrisonTeleport</Name>
+    <ActionType>Ungarrison</ActionType>
+    <Anim>TeleportIn</Anim>
+    <WorkRange>0</WorkRange>
+  </Action>
+  <Action>
+    <Name>GatherCollectables</Name>
+    <ActionType>Gather</ActionType>
+    <Anim>Gather</Anim>
+    <Resource>Collectable</Resource>
+    <WorkRate>1</WorkRate>
+    <WorkRange>3</WorkRange>
+  </Action>
+  <Action>
+    <Name>Deflect</Name>
+    <ActionType>Deflect</ActionType>
+    <DeflectChanceMin>0.6</DeflectChanceMin>
+    <DeflectChanceMax>0.6</DeflectChanceMax>
+    <DeflectMaxAngle>360</DeflectMaxAngle>
+    <DeflectCooldown>0</DeflectCooldown>
+    <DeflectMaxDmg>99999999</DeflectMaxDmg>
+    <MultiDeflect />
+  </Action>
+  <Tactic>
+    <PersistentAction>Deflect</PersistentAction>
+    <PersistentAction>AvoidCollisionAir</PersistentAction>
+    <TargetRule>
+      <GaiaOwned />
+      <TargetType>Collectable</TargetType>
+      <Action>GatherCollectables</Action>
+    </TargetRule>
+    <TargetRule>
+      <Relation>Enemy</Relation>
+      <Action>CannonsAttackAction</Action>
+    </TargetRule>
+    <TargetRule>
+      <Relation>Enemy</Relation>
+      <Action>RightMissileAttackAction</Action>
+    </TargetRule>
+    <TargetRule>
+      <Relation>Enemy</Relation>
+      <Action>LeftMissileAttackAction</Action>
+    </TargetRule>
+    <TargetRule>
+      <Ability>Command</Ability>
+      <Relation>Enemy</Relation>
+      <Action>SuperMissileAttackAction</Action>
+    </TargetRule>
+    <TargetRule>
+      <Ability>Command</Ability>
+      <Relation>Enemy</Relation>
+      <Action>SuperMissileAttackActionUpgraded</Action>
+    </TargetRule>
+    <TargetRule>
+      <GaiaOwned />
+      <Relation>Self</Relation>
+      <TargetType>TeleportPickup</TargetType>
+      <Action>GarrisonTeleport</Action>
+    </TargetRule>
+    <TargetRule>
+      <GaiaOwned />
+      <Ability>Ungarrison</Ability>
+      <Relation>Self</Relation>
+      <TargetType>TeleportDropoff</TargetType>
+      <Action>UngarrisonTeleport</Action>
+    </TargetRule>
+  </Tactic>
+</TacticData>

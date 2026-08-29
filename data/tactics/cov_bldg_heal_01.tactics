@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>RepairOther</Name>
+		<ActionType>AoeHeal</ActionType>
+		<Anim>Heal</Anim>
+		<WorkRange>12</WorkRange>
+		<WorkRate>200</WorkRate>
+		<AllowReinforce />
+	</Action>
+	<Tactic>
+		<PersistentSquadAction>RepairOther</PersistentSquadAction>
+	</Tactic>
+</TacticData>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<damagetemplate>
+	<percentagebased>
+		<event />
+		<event />
+		<event />
+		<event>
+			<action type="attachparticle" effect="effects\building_fx\unsc\damage\smallfire_01">bone_impact01</action>
+		</event>
+		<event />
+		<event>
+			<action type="attachparticle" effect="effects\building_fx\unsc\damage\smallfire_01">bone_impact02</action>
+		</event>
+		<event>
+			<action type="attachparticle" effect="effects\building_fx\unsc\damage\smallfire_01">TailLeft</action>
+		</event>
+		<event>
+			<action type="throwpart" impactsound="impact_med_metal" streamereffect="effects\fire\flaming_debris_02" releaseeffect="effects\building_fx\unsc\damage\smalldebris_01">Chassis</action>
+			<action type="playsound">play_unsc_hornet_death</action>
+			<action type="throwattachment" streamereffect="effects\fire\flaming_debris_02">MachineGun</action>
+			<action type="throwattachment" streamereffect="effects\fire\flaming_debris_02">RocketLauncherL</action>
+			<action type="throwattachment" streamereffect="effects\fire\flaming_debris_02">RocketLauncherR</action>
+			<action type="throwpart" impactsound="impact_med_metal" streamereffect="effects\fire\flaming_debris_02">TailLeft</action>
+			<action type="throwpart">Chassis2</action>
+			<action type="throwpart">TailLeft3</action>
+			<action type="throwpart">TailLeft2</action>
+			<action type="throwpart">TailRight</action>
+			<action type="throwpart">TailRight2</action>
+			<action type="throwpart">TailRight3</action>
+			<action type="throwpart">WingL</action>
+			<action type="throwpart">WingR</action>
+		</event>
+	</percentagebased>
+	<impactpointbased />
+	<cryopercentagebased>
+		<event />
+		<event />
+		<event />
+		<event />
+		<event>
+			<action type="attachparticle" effect="effects\cryo_bomb\unit_freezing_medium">GrannyRootBone</action>
+			<action type="playsound">play_cryo_bomb_freezing</action>
+		</event>
+	</cryopercentagebased>
+	<shatterdeathevent>
+
+			<action type="throwpart" blueprint="icePart" releaseeffect="effects\building_fx\unsc\damage\smalldebris_01">Chassis</action>
+			<action type="throwpart" blueprint="icePart" releaseeffect="effects\building_fx\unsc\damage\smalldebris_01">TailLeft</action>
+			<action type="throwpart" blueprint="icePart" releaseeffect="effects\building_fx\unsc\damage\smalldebris_01">Chassis2</action>
+			<action type="throwpart" blueprint="icePart" releaseeffect="effects\building_fx\unsc\damage\smalldebris_01">TailLeft3</action>
+			<action type="throwpart" blueprint="icePart" releaseeffect="effects\building_fx\unsc\damage\smalldebris_01">TailLeft2</action>
+			<action type="throwpart" blueprint="icePart" releaseeffect="effects\building_fx\unsc\damage\smalldebris_01">TailRight</action>
+			<action type="throwpart" blueprint="icePart" releaseeffect="effects\building_fx\unsc\damage\smalldebris_01">TailRight2</action>
+			<action type="throwpart" blueprint="icePart" releaseeffect="effects\building_fx\unsc\damage\smalldebris_01">TailRight3</action>
+			<action type="throwpart" blueprint="icePart" releaseeffect="effects\building_fx\unsc\damage\smalldebris_01">WingL</action>
+			<action type="throwpart" blueprint="icePart" releaseeffect="effects\building_fx\unsc\damage\smalldebris_01">WingR</action>
+		<action type="attachparticle" effect="effects\cryo_bomb\unit_shatter_medium">GrannyRootBone</action>
+		<action type="playsound">play_cryo_impact</action>
+	</shatterdeathevent>
+</damagetemplate>

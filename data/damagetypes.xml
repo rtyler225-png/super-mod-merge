@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<DamageTypes>
+	<DamageType AttackRating="true" BaseType="true">LightInfantry</DamageType>
+	<DamageType AttackRating="true" BaseType="true">MediumInfantry</DamageType>
+	<DamageType AttackRating="true" BaseType="true">HeavyInfantry</DamageType>
+	<DamageType AttackRating="true" BaseType="true">LightInfantryInCover</DamageType>
+	<DamageType AttackRating="true" BaseType="true">MediumInfantryInCover</DamageType>
+	<DamageType AttackRating="true" BaseType="true">HeavyInfantryInCover</DamageType>
+	<DamageType AttackRating="true" BaseType="true">LightVehicle</DamageType>
+	<DamageType AttackRating="true" BaseType="true">MediumVehicle</DamageType>
+	<DamageType AttackRating="true" BaseType="true">HeavyVehicle</DamageType>
+	<DamageType AttackRating="true" BaseType="true">UberVehicle</DamageType>
+	<DamageType AttackRating="true" BaseType="true">LightAir</DamageType>
+	<DamageType AttackRating="true" BaseType="true">MediumAir</DamageType>
+	<DamageType AttackRating="true" BaseType="true">HeavyAir</DamageType>
+	<DamageType AttackRating="true" BaseType="true">LightFlood</DamageType>
+	<DamageType AttackRating="true" BaseType="true">MediumFlood</DamageType>
+	<DamageType AttackRating="true" BaseType="true">HeavyFlood</DamageType>
+	<DamageType AttackRating="true" BaseType="true">UberFlood</DamageType>
+	<DamageType AttackRating="true" BaseType="true">Building</DamageType>
+	<DamageType AttackRating="true" BaseType="true">Invulnerable</DamageType>
+	<DamageType Shielded="true">Shielded</DamageType>
+	<DamageType>Sprint</DamageType>
+</DamageTypes>

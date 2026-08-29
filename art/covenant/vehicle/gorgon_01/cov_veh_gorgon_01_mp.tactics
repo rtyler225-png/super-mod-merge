@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>RocketLauncher_Left</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>88</DamagePerSecond>
+		<WeaponType>AntiAir</WeaponType>
+		<Projectile>fx_proj_rocket_01_mp</Projectile>
+		<MaxVelocityLead>6.1500001</MaxVelocityLead>
+		<MaxRange>70</MaxRange>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<Hardpoint>RocketLauncher_Left</Hardpoint>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="Aircraft">10</TargetPriority>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<ProjectileLaunchDirY />
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>1.29999995</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1.70000005</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>4.5</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>7</Radius>
+				<DamageRatio>15</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Weapon>
+		<Name>RocketLauncher_Right</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>88</DamagePerSecond>
+		<WeaponType>AntiAir</WeaponType>
+		<Projectile>fx_proj_rocket_01_mp</Projectile>
+		<ImpactEffect size="Medium">BanishedMissileExplosion</ImpactEffect>
+		<MaxVelocityLead>6.1500001</MaxVelocityLead>
+		<MaxRange>70</MaxRange>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<Hardpoint>RocketLauncher_Right</Hardpoint>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="Aircraft">10</TargetPriority>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<ProjectileLaunchDirY />
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>1.29999995</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1.70000005</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>4.5</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>7</Radius>
+				<DamageRatio>15</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Weapon>
+		<Name>Autocannon</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>200</DamagePerSecond>
+		<WeaponType>ReaverAutocannon</WeaponType>
+		<Projectile>fx_proj_plasmaPistol_01</Projectile>
+		<ImpactEffect size="Medium">PlasmaPistolImpact</ImpactEffect>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>35</MaxRange>
+		<Hardpoint>AutocannonTurret</Hardpoint>
+		<Accuracy>0.100000001</Accuracy>
+		<MaxDeviation>1.5</MaxDeviation>
+		<MovingAccuracy>0.100000001</MovingAccuracy>
+		<MovingMaxDeviation>2</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">7</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">3</TargetPriority>
+		<TargetPriority type="Aircraft">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>BoostJump</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>650</DamagePerSecond>
+		<ImpactEffect size="Medium">GorgonImpact</ImpactEffect>
+		<UseDPSasDPA />
+		<WeaponType>Basic</WeaponType>
+		<MaxRange>1.84500003</MaxRange>
+		<MinRange>0</MinRange>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<Hardpoint>AutocannonTurret</Hardpoint>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>8</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Action>
+		<Name>AutocannonAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>CannonAttack</Anim>
+		<Weapon>Autocannon</Weapon>
+		<CanOrientOwner>true</CanOrientOwner>
+	</Action>
+	<Action>
+		<Name>MissileAttackLeftAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MissileAttackLeft</Anim>
+		<Weapon>RocketLauncher_Left</Weapon>
+		<ForceAttachmentAnim />
+		<DontCheckOrientTolerance />
+		<OrientOwnerToTargetWhileNotMoving />
+	</Action>
+	<Action>
+		<Name>MissileAttackRightAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<SlaveAttackAction>MissileAttackLeftAction</SlaveAttackAction>
+		<Anim>MissileAttackRight</Anim>
+		<Weapon>RocketLauncher_Right</Weapon>
+		<ForceAttachmentAnim />
+		<CanOrientOwner>true</CanOrientOwner>
+		<DontCheckOrientTolerance />
+		<OrientOwnerToTargetWhileNotMoving />
+	</Action>
+	<Action>
+		<Name>BoostJump</Name>
+		<ActionType>JumpAttack</ActionType>
+		<StartAnim noInterrupt="true" motionExtraction="true">BoostJumpTakeOff</StartAnim>
+		<Anim>BoostJumpArc</Anim>
+		<EndAnim noInterrupt="true" motionExtraction="true" endAnimBlendPosToGroundPoint="0.800000012">BoostJumpLand</EndAnim>
+		<Weapon>BoostJump</Weapon>
+		<MaxDistance>100</MaxDistance>
+		<MaxRelativeHeight>29</MaxRelativeHeight>
+		<MinRelativeHeight>27</MinRelativeHeight>
+		<VelocityScalar>45</VelocityScalar>
+	</Action>
+	<Action>
+		<Name>LongBoostJump</Name>
+		<ActionType>JumpAttack</ActionType>
+		<StartAnim noInterrupt="true" motionExtraction="true">BoostJumpTakeOff</StartAnim>
+		<Anim>BoostJumpArc</Anim>
+		<EndAnim noInterrupt="true" motionExtraction="true" endAnimBlendPosToGroundPoint="0.800000012">BoostJumpLand</EndAnim>
+		<Weapon>BoostJump</Weapon>
+		<MaxDistance>175</MaxDistance>
+		<MaxRelativeHeight>29</MaxRelativeHeight>
+		<MinRelativeHeight>27</MinRelativeHeight>
+		<VelocityScalar>45</VelocityScalar>
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>3.07500005</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonSpirit</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>7.99499989</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonSpirit</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonHotDrop</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonHotDrop</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>Dodge</Name>
+		<ActionType>Dodge</ActionType>
+		<DodgeChanceMin>0</DodgeChanceMin>
+		<DodgeChanceMax>1.5</DodgeChanceMax>
+		<DodgeMaxAngle>135</DodgeMaxAngle>
+		<DodgeCooldown>1</DodgeCooldown>
+		<DodgePhysicsImpulse>60</DodgePhysicsImpulse>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>ShieldAction</Name>
+		<ActionType>EnergyShield</ActionType>
+		<ProtoObject>cov_ghostshield</ProtoObject>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Tactic>
+		<PersistentAction>Dodge</PersistentAction>
+		<PersistentAction>PersistentCollisionAttack</PersistentAction>
+		<PersistentAction>ShieldAction</PersistentAction>
+		<PersistentAction>AutocannonAttackAction</PersistentAction>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>BoostJump</Action>
+			<TargetsGround />
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<Action>BoostJump</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>LongBoostJump</Action>
+			<TargetsGround />
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<Action>LongBoostJump</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>MissileAttackRightAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>AutocannonAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>GarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>UngarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

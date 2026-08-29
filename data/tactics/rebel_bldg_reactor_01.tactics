@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>RepairOther</Name>
+		<ActionType>AoeHeal</ActionType>
+		<Anim>Repair</Anim>
+		<WorkRange>30</WorkRange>
+		<WorkRate>0.50</WorkRate>
+		<AllowReinforce />
+		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="0.99" AutoRepairSearchDistance="45" />
+		<ProtoObject bone="bone_launchpoint">fx_covhealbeam</ProtoObject>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Infantry</TargetType>
+			<TargetType>GroundVehicle</TargetType>
+			<TargetType>Flying</TargetType>
+			<Action>RepairOther</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

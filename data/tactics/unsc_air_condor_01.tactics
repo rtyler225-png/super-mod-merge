@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>MacCannon</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>400</DamagePerSecond>
+		<WeaponType>HeavyRailgun</WeaponType>
+		<Projectile>fx_proj_Railgun_01</Projectile>
+		<ImpactEffect size="Large">RhinoShell</ImpactEffect>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<MaxRange>95</MaxRange>
+		<Hardpoint>MacCannon</Hardpoint>
+		<CanOrientOwner>false</CanOrientOwner>
+		<PreAttackCooldownMin>1</PreAttackCooldownMin>
+		<PreAttackCooldownMax>2</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+		<AOERadius>6</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="Aircraft">4</TargetPriority>
+		<TargetPriority type="Infantry">3</TargetPriority>
+		<TargetPriority type="TurretBuilding">2</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>SpecialMacCannon</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>12000</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>HeavyRailgun</WeaponType>
+		<Projectile>fx_proj_Railgun_01</Projectile>
+		<ImpactEffect size="Large">RhinoShell</ImpactEffect>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<MaxRange>95</MaxRange>
+		<Hardpoint>MacCannon</Hardpoint>
+		<CanOrientOwner>false</CanOrientOwner>
+		<AOERadius>15</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+	</Weapon>
+	<Weapon>
+		<Name>FrontCentreGun</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>100</DamagePerSecond>
+		<WeaponType>HeavyExplosive</WeaponType>
+		<Projectile>fx_proj_spartanlaser_01</Projectile>
+		<ImpactEffect size="Medium">unsc_spartanlaser_01</ImpactEffect>
+		<MaxRange>95</MaxRange>
+		<Hardpoint>FrontCentreGun</Hardpoint>
+		<CanOrientOwner>false</CanOrientOwner>
+		<PreAttackCooldownMin>1</PreAttackCooldownMin>
+		<PreAttackCooldownMax>2</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Aircraft">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Infantry">2</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<AOERadius>2.5</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<CausePhysicsExplosion particle="effects\impacts\unsc\gammatankshell_01\gammatankshell_01" victimType="GroundVehicle" />
+	</Weapon>
+	<Weapon>
+		<Name>FrontRightGun</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>100</DamagePerSecond>
+		<WeaponType>HeavyExplosive</WeaponType>
+		<Projectile>fx_proj_spartanlaser_01</Projectile>
+		<ImpactEffect size="Medium">unsc_spartanlaser_01</ImpactEffect>
+		<MaxRange>95</MaxRange>
+		<Hardpoint>FrontRightGun</Hardpoint>
+		<CanOrientOwner>false</CanOrientOwner>
+		<PreAttackCooldownMin>1</PreAttackCooldownMin>
+		<PreAttackCooldownMax>2</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Aircraft">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Infantry">2</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<AOERadius>2.5</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<CausePhysicsExplosion particle="effects\impacts\unsc\gammatankshell_01\gammatankshell_01" victimType="GroundVehicle" />
+	</Weapon>
+	<Weapon>
+		<Name>FrontLeftGun</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>100</DamagePerSecond>
+		<WeaponType>HeavyExplosive</WeaponType>
+		<Projectile>fx_proj_spartanlaser_01</Projectile>
+		<ImpactEffect size="Medium">unsc_spartanlaser_01</ImpactEffect>
+		<MaxRange>95</MaxRange>
+		<Hardpoint>FrontLeftGun</Hardpoint>
+		<CanOrientOwner>false</CanOrientOwner>
+		<PreAttackCooldownMin>1</PreAttackCooldownMin>
+		<PreAttackCooldownMax>2</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Aircraft">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Infantry">2</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<AOERadius>2.5</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<CausePhysicsExplosion particle="effects\impacts\unsc\gammatankshell_01\gammatankshell_01" victimType="GroundVehicle" />
+	</Weapon>
+	<Weapon>
+		<Name>RearRightGun</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>100</DamagePerSecond>
+		<WeaponType>HeavyExplosive</WeaponType>
+		<Projectile>fx_proj_spartanlaser_01</Projectile>
+		<ImpactEffect size="Medium">unsc_spartanlaser_01</ImpactEffect>
+		<MaxRange>95</MaxRange>
+		<Hardpoint>RearRightGun</Hardpoint>
+		<CanOrientOwner>false</CanOrientOwner>
+		<PreAttackCooldownMin>1</PreAttackCooldownMin>
+		<PreAttackCooldownMax>2</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Aircraft">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Infantry">2</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<AOERadius>2.5</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<CausePhysicsExplosion particle="effects\impacts\unsc\gammatankshell_01\gammatankshell_01" victimType="GroundVehicle" />
+	</Weapon>
+	<Weapon>
+		<Name>RearLeftGun</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>100</DamagePerSecond>
+		<WeaponType>HeavyExplosive</WeaponType>
+		<Projectile>fx_proj_spartanlaser_01</Projectile>
+		<ImpactEffect size="Medium">unsc_spartanlaser_01</ImpactEffect>
+		<MaxRange>95</MaxRange>
+		<Hardpoint>RearLeftGun</Hardpoint>
+		<CanOrientOwner>false</CanOrientOwner>
+		<PreAttackCooldownMin>1</PreAttackCooldownMin>
+		<PreAttackCooldownMax>2</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Aircraft">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Infantry">2</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<AOERadius>2.5</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<CausePhysicsExplosion particle="effects\impacts\unsc\gammatankshell_01\gammatankshell_01" victimType="GroundVehicle" />
+	</Weapon>
+	<Weapon>
+		<Name>UpgradedMacCannon</Name>
+		<AttackRate>6</AttackRate>
+		<DamagePerSecond>900</DamagePerSecond>
+		<WeaponType>HeavyRailgun</WeaponType>
+		<Projectile>fx_proj_Railgun_01</Projectile>
+		<ImpactEffect size="Large">RhinoShell</ImpactEffect>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<MaxRange>95</MaxRange>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<Hardpoint>MacCannon</Hardpoint>
+		<CanOrientOwner>false</CanOrientOwner>
+		<PreAttackCooldownMin>1</PreAttackCooldownMin>
+		<PreAttackCooldownMax>2</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+		<AOERadius>6</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="Aircraft">4</TargetPriority>
+		<TargetPriority type="Infantry">3</TargetPriority>
+		<TargetPriority type="TurretBuilding">2</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>UpgradedFrontCentreGun</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>100</DamagePerSecond>
+		<WeaponType>HeavyExplosive</WeaponType>
+		<Projectile>fx_proj_spartanlaser_01</Projectile>
+		<ImpactEffect size="Medium">unsc_spartanlaser_01</ImpactEffect>
+		<MaxRange>95</MaxRange>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<Hardpoint>FrontCentreGun</Hardpoint>
+		<CanOrientOwner>false</CanOrientOwner>
+		<PreAttackCooldownMin>1</PreAttackCooldownMin>
+		<PreAttackCooldownMax>2</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Aircraft">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Infantry">2</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<AOERadius>2.5</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<CausePhysicsExplosion particle="effects\impacts\unsc\gammatankshell_01\gammatankshell_01" victimType="GroundVehicle" />
+	</Weapon>
+	<Weapon>
+		<Name>UpgradedFrontRightGun</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>100</DamagePerSecond>
+		<WeaponType>HeavyExplosive</WeaponType>
+		<Projectile>fx_proj_spartanlaser_01</Projectile>
+		<ImpactEffect size="Medium">unsc_spartanlaser_01</ImpactEffect>
+		<MaxRange>95</MaxRange>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<Hardpoint>FrontRightGun</Hardpoint>
+		<CanOrientOwner>false</CanOrientOwner>
+		<PreAttackCooldownMin>1</PreAttackCooldownMin>
+		<PreAttackCooldownMax>2</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Aircraft">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Infantry">2</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<AOERadius>2.5</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<CausePhysicsExplosion particle="effects\impacts\unsc\gammatankshell_01\gammatankshell_01" victimType="GroundVehicle" />
+	</Weapon>
+	<Weapon>
+		<Name>UpgradedFrontLeftGun</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>100</DamagePerSecond>
+		<WeaponType>HeavyExplosive</WeaponType>
+		<Projectile>fx_proj_spartanlaser_01</Projectile>
+		<ImpactEffect size="Medium">unsc_spartanlaser_01</ImpactEffect>
+		<MaxRange>95</MaxRange>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<Hardpoint>FrontLeftGun</Hardpoint>
+		<CanOrientOwner>false</CanOrientOwner>
+		<PreAttackCooldownMin>1</PreAttackCooldownMin>
+		<PreAttackCooldownMax>2</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Aircraft">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Infantry">2</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<AOERadius>2.5</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<CausePhysicsExplosion particle="effects\impacts\unsc\gammatankshell_01\gammatankshell_01" victimType="GroundVehicle" />
+	</Weapon>
+	<Weapon>
+		<Name>UpgradedRearRightGun</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>100</DamagePerSecond>
+		<WeaponType>HeavyExplosive</WeaponType>
+		<Projectile>fx_proj_spartanlaser_01</Projectile>
+		<ImpactEffect size="Medium">unsc_spartanlaser_01</ImpactEffect>
+		<MaxRange>95</MaxRange>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<Hardpoint>RearRightGun</Hardpoint>
+		<CanOrientOwner>false</CanOrientOwner>
+		<PreAttackCooldownMin>1</PreAttackCooldownMin>
+		<PreAttackCooldownMax>2</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Aircraft">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Infantry">2</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<AOERadius>2.5</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<CausePhysicsExplosion particle="effects\impacts\unsc\gammatankshell_01\gammatankshell_01" victimType="GroundVehicle" />
+	</Weapon>
+	<Weapon>
+		<Name>UpgradedRearLeftGun</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>100</DamagePerSecond>
+		<WeaponType>HeavyExplosive</WeaponType>
+		<Projectile>fx_proj_spartanlaser_01</Projectile>
+		<ImpactEffect size="Medium">unsc_spartanlaser_01</ImpactEffect>
+		<MaxRange>95</MaxRange>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<Hardpoint>RearLeftGun</Hardpoint>
+		<CanOrientOwner>false</CanOrientOwner>
+		<PreAttackCooldownMin>1</PreAttackCooldownMin>
+		<PreAttackCooldownMax>2</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Aircraft">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Infantry">2</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<AOERadius>2.5</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<CausePhysicsExplosion particle="effects\impacts\unsc\gammatankshell_01\gammatankshell_01" victimType="GroundVehicle" />
+	</Weapon>
+	<Weapon>
+		<Name>Spotlight</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<MaxRange>95</MaxRange>
+		<Hardpoint>Spotlight</Hardpoint>
+		<CanOrientOwner>false</CanOrientOwner>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Aircraft">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Infantry">2</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Action>
+		<Name>SpecialMacCannonAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MacCannonAttack</Anim>
+		<Weapon>SpecialMacCannon</Weapon>
+		<DontLoopAttackAnim />
+	</Action>
+	<Action>
+		<Name>MacCannonAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>MacCannonAttack</Anim>
+		<Weapon>MacCannon</Weapon>
+	</Action>
+	<Action>
+		<Name>FrontCentreGunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>FrontCentreLaserAttack</Anim>
+		<Weapon>FrontCentreGun</Weapon>
+	</Action>
+	<Action>
+		<Name>FrontRightGunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>FrontRightLaserAttack</Anim>
+		<Weapon>FrontRightGun</Weapon>
+	</Action>
+	<Action>
+		<Name>FrontLeftGunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>FrontLeftLaserAttack</Anim>
+		<Weapon>FrontLeftGun</Weapon>
+	</Action>
+	<Action>
+		<Name>RearRightGunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>RearRightLaserAttack</Anim>
+		<Weapon>RearRightGun</Weapon>
+	</Action>
+	<Action>
+		<Name>RearLeftGunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>RearLeftLaserAttack</Anim>
+		<Weapon>RearLeftGun</Weapon>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>UpgradedMacCannonAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>MacCannonAttack</Anim>
+		<Weapon>UpgradedMacCannon</Weapon>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>UpgradedFrontCentreGunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>FrontCentreLaserAttack</Anim>
+		<Weapon>UpgradedFrontCentreGun</Weapon>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>UpgradedFrontRightGunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>FrontRightLaserAttack</Anim>
+		<Weapon>UpgradedFrontRightGun</Weapon>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>UpgradedFrontLeftGunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>FrontLeftLaserAttack</Anim>
+		<Weapon>UpgradedFrontLeftGun</Weapon>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>UpgradedRearRightGunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>RearRightLaserAttack</Anim>
+		<Weapon>UpgradedRearRightGun</Weapon>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>UpgradedRearLeftGunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>RearLeftLaserAttack</Anim>
+		<Weapon>UpgradedRearLeftGun</Weapon>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>SpotlightAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>Spotter</Anim>
+		<Weapon>Spotlight</Weapon>
+	</Action>
+	<Action>
+		<Name>AvoidCollisionAir</Name>
+		<ActionType>AvoidCollisionAir</ActionType>
+		<HoverAltitudeOffset>0</HoverAltitudeOffset>
+		<MaxPitch>4.0f</MaxPitch>
+		<MaxRoll>4.0f</MaxRoll>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>3</WorkRange>
+	</Action>
+	<Action>
+		<Name>CampaignAction</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>CampaignFoo</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>1</WorkRange>
+	</Action>
+	<Tactic>
+		<PersistentAction>FrontCentreGunAttackAction</PersistentAction>
+		<PersistentAction>FrontRightGunAttackAction</PersistentAction>
+		<PersistentAction>FrontLeftGunAttackAction</PersistentAction>
+		<PersistentAction>RearRightGunAttackAction</PersistentAction>
+		<PersistentAction>RearLeftGunAttackAction</PersistentAction>
+		<PersistentAction>MacCannonAttackAction</PersistentAction>
+		<PersistentAction>UpgradedFrontCentreGunAttackAction</PersistentAction>
+		<PersistentAction>UpgradedFrontRightGunAttackAction</PersistentAction>
+		<PersistentAction>UpgradedFrontLeftGunAttackAction</PersistentAction>
+		<PersistentAction>UpgradedRearRightGunAttackAction</PersistentAction>
+		<PersistentAction>UpgradedRearLeftGunAttackAction</PersistentAction>
+		<PersistentAction>UpgradedMacCannonAttackAction</PersistentAction>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CampaignAction</TargetType>
+			<Action>CampaignAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<Action>SpecialMacCannonAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>MacCannonAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>FrontCentreGunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>FrontRightGunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>FrontLeftGunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>RearRightGunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>RearLeftGunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>UpgradedMacCannonAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>UpgradedFrontCentreGunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>UpgradedFrontRightGunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>UpgradedFrontLeftGunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>UpgradedRearRightGunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>UpgradedRearLeftGunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>SpotlightAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<PersistentAction>AvoidCollisionAir</PersistentAction>
+	</Tactic>
+</TacticData>

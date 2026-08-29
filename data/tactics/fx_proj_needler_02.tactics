@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Needler</Name>
+		<DamagePerSecond>0</DamagePerSecond>
+		<WeaponType>needler</WeaponType>
+		<Projectile>fx_proj_needler_02</Projectile>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>GenericInfoAttackAction</Name>
+		<Weapon>Needler</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

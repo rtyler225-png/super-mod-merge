@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<GameModes>
+	<GameMode>
+		<Name>Skirmish</Name>
+		<WorldScript>SkirmishWorld.triggerscript</WorldScript>
+		<PlayerScript>SkirmishPlayer.triggerscript</PlayerScript>
+		<Tech />
+		<DisplayNameID>8000</DisplayNameID>
+		<DescriptionID>26027</DescriptionID>
+		<LongDescriptionID>26027</LongDescriptionID>
+		<NPC />
+	</GameMode>
+	<GameMode>
+		<Name>Deathmatch</Name>
+		<WorldScript>SkirmishWorld.triggerscript</WorldScript>
+		<PlayerScript>DeathMatchPlayer.triggerscript</PlayerScript>
+		<Tech />
+		<DisplayNameID>8002</DisplayNameID>
+		<DescriptionID>26028</DescriptionID>
+		<LongDescriptionID>26028</LongDescriptionID>
+		<NPC />
+	</GameMode>
+	<GameMode>
+		<Name>CapFlag</Name>
+		<WorldScript>CapFlag.triggerscript</WorldScript>
+		<PlayerScript>CapFlagPlayer.triggerscript</PlayerScript>
+		<Tech />
+		<DisplayNameID>26012</DisplayNameID>
+		<DescriptionID>26013</DescriptionID>
+		<LongDescriptionID>26069</LongDescriptionID>
+		<NPC />
+	</GameMode>
+	<GameMode>
+		<Name>ScoreRace</Name>
+		<WorldScript>ScoreRaceWorld.triggerscript</WorldScript>
+		<PlayerScript>ScoreRacePlayer.triggerscript</PlayerScript>
+		<Tech />
+		<DisplayNameID>26030</DisplayNameID>
+		<DescriptionID>26009</DescriptionID>
+		<LongDescriptionID>26070</LongDescriptionID>
+		<NPC />
+	</GameMode>
+	<GameMode>
+		<Name>WaveAttack</Name>
+		<WorldScript>SkirmishWorld.triggerscript</WorldScript>
+		<PlayerScript>WaveAttackPlayer.triggerscript</PlayerScript>
+		<Tech />
+		<DisplayNameID>26010</DisplayNameID>
+		<DescriptionID>26011</DescriptionID>
+		<LongDescriptionID>26071</LongDescriptionID>
+		<NPC />
+	</GameMode>
+	<GameMode>
+		<Name>QuickMatch</Name>
+		<WorldScript>SkirmishWorld.triggerscript</WorldScript>
+		<PlayerScript>SkirmishPlayer.triggerscript</PlayerScript>
+		<Tech>qm_mode</Tech>
+		<DisplayNameID>30198</DisplayNameID>
+		<DescriptionID>30199</DescriptionID>
+		<LongDescriptionID>30199</LongDescriptionID>
+		<NPC />
+	</GameMode>
+	<GameMode>
+		<Name>Uncapped</Name>
+		<WorldScript>SkirmishWorld.triggerscript</WorldScript>
+		<PlayerScript>SkirmishPlayer.triggerscript</PlayerScript>
+		<Tech>uncapped_mode</Tech>
+		<DisplayNameID>27297</DisplayNameID>
+		<DescriptionID>27298</DescriptionID>
+		<LongDescriptionID>27298</LongDescriptionID>
+		<NPC />
+	</GameMode>
+	<GameMode>
+		<Name>KingRush</Name>
+		<WorldScript>kingrush\kingrushWorld.triggerscript</WorldScript>
+		<PlayerScript>kingrush\kingrushPlayer.triggerscript</PlayerScript>
+		<Tech />
+		<DisplayNameID>30543</DisplayNameID>
+		<DescriptionID>30544</DescriptionID>
+		<LongDescriptionID>30544</LongDescriptionID>
+		<NPC />
+	</GameMode>
+	<GameMode>
+		<Name>LimitedRessources</Name>
+		<WorldScript>SkirmishWorld.triggerscript</WorldScript>
+		<PlayerScript>LimitedRessources\LimitedRessourcesPlayer.triggerscript</PlayerScript>
+		<Tech>lr_mode</Tech>
+		<DisplayNameID>40026</DisplayNameID>
+		<DescriptionID>40027</DescriptionID>
+		<LongDescriptionID>40027</LongDescriptionID>
+		<NPC />
+	</GameMode>
+	<GameMode>
+		<Name>Extreme</Name>
+		<WorldScript>SkirmishWorld.triggerscript</WorldScript>
+		<PlayerScript>LimitedRessources\Extreme.triggerscript</PlayerScript>
+		<Tech>Extreme</Tech>
+		<DisplayNameID>27263</DisplayNameID>
+		<DescriptionID>27264</DescriptionID>
+		<LongDescriptionID>27264</LongDescriptionID>
+		<NPC />
+	</GameMode>
+	<GameMode>
+ 		<Name>Firefight</Name>
+ 		<WorldScript>floodfirefight\floodcontrol_main.triggerscript</WorldScript>
+ 		<PlayerScript>floodfirefight\floodcontrol_player.triggerscript</PlayerScript>
+ 		<Tech>onslaught_mode</Tech>
+		<DisplayNameID>30362</DisplayNameID>
+		<DescriptionID>30100</DescriptionID>
+		<LongDescriptionID>30100</LongDescriptionID>
+ 		<NPC />
+ 	</GameMode><!-- 
+	<GameMode>
+ 		<Name>Everything Firefight</Name>
+ 		<WorldScript>firefight\floodcontrol_main.triggerscript</WorldScript>
+ 		<PlayerScript>firefight\floodcontrol_player.triggerscript</PlayerScript>
+ 		<Tech>ff_mode</Tech>
+		<DisplayNameID>40006</DisplayNameID>
+		<DescriptionID>30547</DescriptionID>
+		<LongDescriptionID>30547</LongDescriptionID>
+ 		<NPC />
+ 	</GameMode>
+	<GameMode>
+		<Name>Old Firefight</Name>
+		<WorldScript>Firefight_Everything\floodcontrol_main.triggerscript</WorldScript>
+		<PlayerScript>Firefight_Everything\floodcontrol_player.triggerscript</PlayerScript>
+		<Tech />
+		<DisplayNameID>30362</DisplayNameID>
+		<DescriptionID>30100</DescriptionID>
+		<LongDescriptionID>30100</LongDescriptionID>
+		<NPC />
+	</GameMode> -->
+	<GameMode>
+		<Name>WaveAttackVersus</Name>
+		<WorldScript>floodfirefightversus\floodcontrol_main.triggerscript</WorldScript>
+		<PlayerScript>floodfirefight\floodcontrol_player.triggerscript</PlayerScript>
+		<Tech />
+		<DisplayNameID>30545</DisplayNameID>
+		<DescriptionID>30546</DescriptionID>
+		<LongDescriptionID>30546</LongDescriptionID>
+		<NPC />
+	</GameMode>
+	<GameMode>
+ 		<Name>FirefightUncapped</Name>
+ 		<WorldScript>floodfirefight\floodcontrol_main.triggerscript</WorldScript>
+ 		<PlayerScript>floodfirefight\floodcontrol_player.triggerscript</PlayerScript>
+ 		<Tech>uncappedonslaught_mode</Tech>
+		<DisplayNameID>27286</DisplayNameID>
+		<DescriptionID>27287</DescriptionID>
+		<LongDescriptionID>30100</LongDescriptionID>
+ 		<NPC />
+ 	</GameMode>
+	<GameMode>
+		<Name>CovenantSurvival</Name>
+		<WorldScript>covenantsurvival\covenantsurvival_waves.triggerscript</WorldScript>
+		<PlayerScript>covenantsurvival\covenantsurvival_player.triggerscript</PlayerScript>
+ 		<Tech>onslaught_mode</Tech>
+		<DisplayNameID>27228</DisplayNameID>
+		<DescriptionID>27229</DescriptionID>
+		<LongDescriptionID>27229</LongDescriptionID>
+		<NPC />
+	</GameMode>
+	<GameMode>
+		<Name>CovenantSurvivalUncapped</Name>
+		<WorldScript>covenantsurvival\covenantsurvival_waves.triggerscript</WorldScript>
+		<PlayerScript>covenantsurvival\covenantsurvival_player.triggerscript</PlayerScript>
+ 		<Tech>uncappedonslaught_mode</Tech>
+		<DisplayNameID>27278</DisplayNameID>
+		<DescriptionID>27279</DescriptionID>
+		<LongDescriptionID>27229</LongDescriptionID>
+		<NPC />
+	</GameMode>
+	<GameMode>
+		<Name>UNSCSurvival</Name>
+		<WorldScript>unscsurvival\unscsurvival_waves.triggerscript</WorldScript>
+		<PlayerScript>unscsurvival\unscsurvival_player.triggerscript</PlayerScript>
+ 		<Tech>onslaught_mode</Tech>
+		<DisplayNameID>27230</DisplayNameID>
+		<DescriptionID>27231</DescriptionID>
+		<LongDescriptionID>27231</LongDescriptionID>
+		<NPC />
+	</GameMode>
+	<GameMode>
+		<Name>UNSCSurvivalUncapped</Name>
+		<WorldScript>unscsurvival\unscsurvival_waves.triggerscript</WorldScript>
+		<PlayerScript>unscsurvival\unscsurvival_player.triggerscript</PlayerScript>
+ 		<Tech>uncappedonslaught_mode</Tech>
+		<DisplayNameID>27280</DisplayNameID>
+		<DescriptionID>27281</DescriptionID>
+		<LongDescriptionID>27231</LongDescriptionID>
+		<NPC />
+	</GameMode>
+	<GameMode>
+		<Name>TestMode</Name>
+		<WorldScript>SkirmishWorld.triggerscript</WorldScript>
+		<PlayerScript>TestModePlayer.triggerscript</PlayerScript>
+		<Tech />
+		<DisplayNameID>50050</DisplayNameID>
+		<DescriptionID>50051</DescriptionID>
+		<LongDescriptionID>50051</LongDescriptionID>
+		<NPC />
+	</GameMode>
+</GameModes>

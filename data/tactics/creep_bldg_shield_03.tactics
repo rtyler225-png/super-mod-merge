@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>PlasmaShieldGen</Name>
+		<ActionType>PlasmaShieldGen</ActionType>
+		<ParticleEffect>effects\building_fx\unsc\damage\electricity_01</ParticleEffect>
+		<Duration>5</Duration>
+		<DeflectTimeout>15</DeflectTimeout>
+		<ProtoObject>creep_forerunner_base_shield_03</ProtoObject>
+		<Count>25136</Count>
+	</Action>
+	<Tactic>
+		<PersistentAction>PlasmaShieldGen</PersistentAction>
+	</Tactic>
+</TacticData>

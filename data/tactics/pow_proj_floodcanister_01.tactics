@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>CarpetBomb</Name>
+		<AllowFriendlyFire />
+		<DamagePerSecond>1</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Basic</WeaponType>
+		<Projectile>pow_proj_floodcanister</Projectile>
+		<ImpactCameraShake duration="0.2" strength="0.2" />
+		<ImpactRumble leftRumbleType="Fixed" leftStrength="0.2" rightRumbleType="Fixed" rightStrength="0.2" duration="0.2" />
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>CarpetBombingAttackAction</Name>
+		<Weapon>CarpetBomb</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

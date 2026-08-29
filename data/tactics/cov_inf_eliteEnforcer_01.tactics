@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>InCoverPlasmaRifle</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>60</DamagePerSecond>
+		<WeaponType>SmallArmsPlasma</WeaponType>
+		<Projectile>fx_proj_plasmaRifle_01</Projectile>
+		<ImpactEffect size="small">cov_plasmarifle_01</ImpactEffect>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<MaxRange>80</MaxRange>
+		<Accuracy>0.1</Accuracy>
+		<MaxDeviation>0.2</MaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="TurretBuilding">10</TargetPriority>
+		<TargetPriority type="Infantry">4</TargetPriority>
+		<TargetPriority type="GroundVehicle">3</TargetPriority>
+		<TargetPriority type="Flying">0</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>PlasmaRifle</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>50</DamagePerSecond>
+		<WeaponType>SmallArmsPlasma</WeaponType>
+		<Projectile>fx_proj_plasmaRifle_01</Projectile>
+		<ImpactEffect size="small">cov_plasmarifle_01</ImpactEffect>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>0.1</Accuracy>
+		<MaxDeviation>0.2</MaxDeviation>
+		<MovingAccuracy>0.2</MovingAccuracy>
+		<MovingMaxDeviation>0.3</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="TurretBuilding">10</TargetPriority>
+		<TargetPriority type="Infantry">4</TargetPriority>
+		<TargetPriority type="GroundVehicle">3</TargetPriority>
+		<TargetPriority type="Flying">0</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>Grenade</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>100</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>PlasmaGrenade</WeaponType>
+		<Projectile>fx_proj_plasmaGrenade_01</Projectile>
+		<ImpactEffect size="Medium">cov_plasmagrenade_01</ImpactEffect>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>0.1</Accuracy>
+		<AOERadius>20</AOERadius>
+		<MaxDeviation>0.2</MaxDeviation>
+		<MovingAccuracy>0.2</MovingAccuracy>
+		<MovingMaxDeviation>0.3</MovingMaxDeviation>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<Daze TargetType="EmpEffectNormal" MovementModifier="0">0.3f</Daze>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>35</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1000</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<PreAttackCooldownMin>1</PreAttackCooldownMin>
+		<PreAttackCooldownMax>1</PreAttackCooldownMax>
+		<PostAttackCooldownMin>15</PostAttackCooldownMin>
+		<PostAttackCooldownMax>15</PostAttackCooldownMax>
+		<Dodgeable />
+	</Weapon>
+	<Weapon>
+		<Name>InCoverGrenade</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>100</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>LightExplosive</WeaponType>
+		<Projectile>fx_proj_plasmaGrenade_01</Projectile>
+		<ImpactEffect size="Medium">cov_plasmagrenade_01</ImpactEffect>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>0.3</Accuracy>
+		<MaxDeviation>4</MaxDeviation>
+		<MovingAccuracy>0.3</MovingAccuracy>
+		<MovingMaxDeviation>4</MovingMaxDeviation>
+		<AOERadius>4</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>900</PhysicsForceMin>
+		<PhysicsForceMax>1100</PhysicsForceMax>
+		<PreAttackCooldownMin>1</PreAttackCooldownMin>
+		<PreAttackCooldownMax>14</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>44</PostAttackCooldownMax>
+		<Dodgeable />
+	</Weapon>
+	<Action>
+		<Name>InCoverPlasmaRifleAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>plasmaRifleAttack</Anim>
+		<Weapon>InCoverPlasmaRifle</Weapon>
+		<MainAttack />
+		<DisableAttackWaitTimer />
+	</Action>
+	<Action>
+		<Name>PlasmaRifleAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>plasmaRifleAttack</Anim>
+		<Weapon>PlasmaRifle</Weapon>
+		<MainAttack />
+		<DisableAttackWaitTimer />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>GrenadeAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>PlasmaGrenadeAttack</Anim>
+		<Weapon>Grenade</Weapon>
+		<MainAttack />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>InCoverGrenadeAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>PlasmaGrenadeAttack</Anim>
+		<SupportAnim>Support</SupportAnim>
+		<Weapon>InCoverGrenade</Weapon>
+		<BaseDPSWeapon>InCoverPlasmaRifleAttackAction</BaseDPSWeapon>
+		<MainAttack />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>5</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>7</WorkRate>
+		<WorkRange>3</WorkRange>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Build</Anim>
+		<WorkRate>0.4</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonSpirit</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>13</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonSpirit</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>Dodge</Name>
+		<ActionType>Dodge</ActionType>
+		<DodgeChanceMin>0.4</DodgeChanceMin>
+		<DodgeChanceMax>0.4</DodgeChanceMax>
+		<DodgeMaxAngle>90</DodgeMaxAngle>
+		<DodgeCooldown>5</DodgeCooldown>
+	</Action>
+	<Action>
+		<Name>GarrisonHotDrop</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonHotDrop</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>3</WorkRange>
+	</Action>
+	<Tactic>
+	<PersistentAction>Dodge</PersistentAction>
+	<PersistentAction>ShieldAction</PersistentAction>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>GaiaGarrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Neutral</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>GrenadeAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>InCoverGrenadeAttackAction</Action>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>InCoverPlasmaRifleAttackAction</Action>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>PlasmaRifleAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>StasisGrenadeAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>GarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>UngarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>MissileLauncherAir</Name>
+		<AttackRate>6</AttackRate>
+		<DamagePerSecond>115.1325</DamagePerSecond>
+		<WeaponType>Missile</WeaponType>
+		<Projectile>fx_proj_missile_01</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>65</MaxRange>
+		<AOERadius>5</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<Hardpoint>Turret</Hardpoint>
+		<TargetPriority type="Aircraft">10</TargetPriority>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<Dodgeable />
+		<UseGroupRange />
+		<PreAttackCooldownMin>2</PreAttackCooldownMin>
+		<PreAttackCooldownMax>2</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1</PostAttackCooldownMax>
+	</Weapon>
+	<Weapon>
+		<Name>MissileLauncher</Name>
+		<AttackRate>6</AttackRate>
+		<DamagePerSecond>115.1325</DamagePerSecond>
+		<WeaponType>Missile</WeaponType>
+		<Projectile>fx_proj_missile_03</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>65</MaxRange>
+		<Accuracy>0.8</Accuracy>
+		<AOERadius>5</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<Hardpoint>Turret</Hardpoint>
+		<TargetPriority type="Aircraft">10</TargetPriority>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<Dodgeable />
+		<UseGroupRange />
+		<PreAttackCooldownMin>1</PreAttackCooldownMin>
+		<PreAttackCooldownMax>1</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1</PostAttackCooldownMax>
+	</Weapon>
+	<Weapon>
+		<Name>GrenadeLauncher</Name>
+		<DamagePerSecond>60</DamagePerSecond>
+		<WeaponType>LightExplosive</WeaponType>
+		<Projectile>fx_proj_rocket_01</Projectile>
+		<ImpactEffect size="Medium">unsc_rocket_01</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>40</MaxRange>
+		<Accuracy>1</Accuracy>
+		<AOERadius>5</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<Hardpoint>PassengerTurret</Hardpoint>
+		<TargetPriority type="Infantry">4</TargetPriority>
+		<TargetPriority type="GroundVehicle">3</TargetPriority>
+		<TargetPriority type="TurretBuilding">0</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>Ram</Name>
+		<DamagePerSecond>500</DamagePerSecond>
+		<WeaponType>MediumRam</WeaponType>
+		<MaxRange>5</MaxRange>
+		<AOERadius>40</AOERadius>
+		<ThrowUnits />
+		<FlailThrownUnits />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>30</PhysicsLaunchAngleMax>
+		<PhysicsLaunchAxial />
+		<PhysicsForceMin>1000</PhysicsForceMin>
+		<PhysicsForceMax>1400</PhysicsForceMax>
+		<ImpactCameraShake duration="0.4" strength="0.38" />
+		<ImpactRumble leftRumbleType="RandomNoise" leftStrength="0.3" rightRumbleType="RandomNoise" rightStrength="0.3" duration="0.25" />
+		<MaxDamagePerRam>10000</MaxDamagePerRam>
+		<ReflectDamageFactor>1</ReflectDamageFactor>
+	</Weapon>
+	<Action>
+		<Name>GrenadeLauncherAttackAction</Name>
+		<ActionType>SecondaryTurretAttack</ActionType>
+		<Anim>GrenadeLauncherAttack</Anim>
+		<Weapon>GrenadeLauncher</Weapon>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>MissileLauncherAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>AddOnAttack</Anim>
+		<Weapon>MissileLauncher</Weapon>
+		<Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20" />
+		<MainAttack />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>MissileLauncherAirAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>AddOnAttack</Anim>
+		<Weapon>MissileLauncherAir</Weapon>
+		<Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20" />
+		<MainAttack />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>PersistentCollisionAttack</Name>
+		<ActionType>CollisionAttack</ActionType>
+		<Weapon>Ram</Weapon>
+	</Action>
+	<Action>
+		<Name>RamAttack</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Weapon>Ram</Weapon>
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>3.75</WorkRate>
+		<WorkRange>3</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>5</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonPelican</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>PelicanGarrison</Anim>
+		<WorkRange>14</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonPelican</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>PelicanUngarrison</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>3</WorkRange>
+	</Action>
+	<Tactic>
+		<PersistentAction>PersistentCollisionAttack</PersistentAction>
+		<PersistentAction>GrenadeLauncherAttackAction</PersistentAction>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>RamAttack</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>MissileLauncherAttackAction</Action>
+			<TargetType>NonFlying</TargetType>
+			<AutoTargetSquadMode>Normal</AutoTargetSquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>MissileLauncherAirAttackAction</Action>
+			<TargetType>Flying</TargetType>
+			<AutoTargetSquadMode>Normal</AutoTargetSquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>GrenadeLauncherAttackAction</Action>
+			<AutoTargetSquadMode>Normal</AutoTargetSquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

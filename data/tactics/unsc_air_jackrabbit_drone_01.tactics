@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>MachineGun</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>96</DamagePerSecond>
+		<WeaponType>SmallArms</WeaponType>
+		<Projectile>fx_proj_rotaryMG_01</Projectile>
+		<ImpactEffect size="Medium">unsc_rotarymg_01</ImpactEffect>
+		<MaxVelocityLead>12</MaxVelocityLead>
+		<MaxRange>35</MaxRange>
+		<SmallArmsDeflectable />
+	</Weapon>
+	<Weapon>
+		<Name>BeamCannon</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>96</DamagePerSecond>
+		<WeaponType>Fire</WeaponType>
+		<Projectile>fx_proj_beam_01</Projectile>
+		<ImpactEffect size="Medium">smallGreenPlasma</ImpactEffect>
+		<MaxVelocityLead>12</MaxVelocityLead>
+		<MaxRange>35</MaxRange>
+	</Weapon>
+	<Action>
+		<Name>MachineGunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MachineGunAttack</Anim>
+		<Weapon>MachineGun</Weapon>
+		<MainAttack />
+		<TargetOfTarget />
+	</Action>
+	<Action>
+		<Name>BeamCannonAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>BeamAttack</Anim>
+		<Weapon>BeamCannon</Weapon>
+		<MainAttack />
+		<TargetOfTarget />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>Join</Name>
+		<ActionType>Join</ActionType>
+		<WorkRange>0.5</WorkRange>
+		<JoinType>FollowAttack</JoinType>
+		<MergeType>Air</MergeType>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>MachineGunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>BeamCannonAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<Action>Join</Action>
+			<Ability>Command</Ability>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

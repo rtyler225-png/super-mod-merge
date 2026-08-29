@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<damagetemplate>
+	<percentagebased>
+		<event />
+		<event>
+			<action type="attachparticle" effect="effects\building_FX\cov\damage\smallelectricity_01">bone_generator_01</action>
+			<action type="swappart">generator_01,generator_01_damaged</action>
+			<action type="swappart">fence.005,fence.005_damaged</action>
+		</event>
+		<event>
+			<action type="attachparticle" effect="effects\building_fx\unsc\damage\smokecolumn_01">controlpanel</action>
+			<action type="swappart">fence.001,fence.001_damaged</action>
+		</event>
+		<event>
+			<action type="attachparticle" effect="effects\building_FX\cov\damage\smallelectricity_01">bone_generator_04</action>
+			<action type="swappart">generator_04,generator_04_damaged</action>
+			<action type="swappart">fence.003,fence.003_damaged</action>
+		</event>
+		<event>
+			<action type="swappart">fence.009,fence.009_damaged</action>
+		</event>
+		<event>
+			<action type="attachparticle" effect="effects\building_fx\unsc\damage\deathdebris_01">GrannyRootBone</action>
+			<action type="throwpart">fence,fence.001,fence.002,fence.003</action>
+			<action type="throwpart">fence.004</action>
+			<action type="throwpart">fence.005,fence.006</action>
+			<action type="throwpart">fence.007,fence.008</action>
+			<action type="throwpart">fence.009,fence.010,controlpanel</action>
+			<action type="throwpart" blueprint="heavypart" impactsound="impact_large_metal" streamereffect="effects\fire\flaming_debris_02" releaseeffect="effects\building_fx\unsc\damage\techdamage_01">generator_01_damaged,generator_04_damaged</action>
+			<action type="playsound">play_unsc_cobra_death</action>
+		</event>
+	</percentagebased>
+	<impactpointbased />
+	<cryopercentagebased>
+		<event />
+		<event />
+		<event />
+		<event />
+		<event>
+			<action type="attachparticle" effect="effects\cryo_bomb\unit_freezing_large">GrannyRootBone</action>
+			<action type="playsound">play_cryo_bomb_freezing</action>
+		</event>
+	</cryopercentagebased>
+	<shatterdeathevent>
+		<action type="attachparticle" effect="effects\cryo_bomb\unit_shatter_large">GrannyRootBone</action>
+		<action type="throwpart" blueprint="icePart" impactsound="impact_large_metal" streamereffect="effects\fire\flaming_debris_02" releaseeffect="effects\building_fx\unsc\damage\techdamage_01">barracks10</action>
+		<action type="throwpart" blueprint="icePart">barracks1,barracks7,barracks12,object01</action>
+		<action type="throwpart" blueprint="icePart">barracks6</action>
+		<action type="throwpart" blueprint="icePart">barracks8,barracks11</action>
+		<action type="throwpart" blueprint="icePart">barracks3,barracks13</action>
+		<action type="throwpart" blueprint="icePart">barracks2,barracks5</action>
+		<action type="throwpart" blueprint="icePart">barracks4,barracks9</action>
+		<action type="playsound">play_cryo_impact</action>
+	</shatterdeathevent>
+</damagetemplate>

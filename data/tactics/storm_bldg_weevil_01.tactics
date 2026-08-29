@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>megaTurret1</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>6000</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>LeaderPower</WeaponType>
+		<Projectile>pow_gp_custommegaTurret</Projectile>
+		<ImpactEffect size="Large">cov_plasmamortar_02</ImpactEffect>
+		<MaxVelocityLead>0</MaxVelocityLead>
+		<MaxRange>1250</MaxRange>
+		<Accuracy>0.35</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0</AccuracyDeviationFactor>
+		<AOERadius>20</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.25</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1200</PhysicsForceMin>
+		<PhysicsForceMax>1500</PhysicsForceMax>
+		<Hardpoint>Turret</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>megaTurret2</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>10000</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>LeaderPower</WeaponType>
+		<Projectile>pow_gp_custommegaTurret</Projectile>
+		<ImpactEffect size="Large">cov_plasmamortar_02</ImpactEffect>
+		<MaxVelocityLead>0</MaxVelocityLead>
+		<MaxRange>1250</MaxRange>
+		<Accuracy>0.35</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0</AccuracyDeviationFactor>
+		<AOERadius>20</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.25</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1200</PhysicsForceMin>
+		<PhysicsForceMax>1500</PhysicsForceMax>
+		<Hardpoint>Turret</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>megaTurret3</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>14000</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>LeaderPower</WeaponType>
+		<Projectile>pow_gp_custommegaTurret</Projectile>
+		<ImpactEffect size="Large">cov_plasmamortar_02</ImpactEffect>
+		<MaxVelocityLead>0</MaxVelocityLead>
+		<MaxRange>1250</MaxRange>
+		<Accuracy>0.35</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0</AccuracyDeviationFactor>
+		<AOERadius>20</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.25</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1200</PhysicsForceMin>
+		<PhysicsForceMax>1500</PhysicsForceMax>
+		<Hardpoint>Turret</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>megaTurret4</Name>
+		<AttackRate>4</AttackRate>
+		<DamagePerSecond>18000</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>LeaderPower</WeaponType>
+		<Projectile>pow_gp_custommegaTurret</Projectile>
+		<ImpactEffect size="Large">cov_plasmamortar_02</ImpactEffect>
+		<MaxVelocityLead>0</MaxVelocityLead>
+		<MaxRange>1250</MaxRange>
+		<Accuracy>0.35</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0</AccuracyDeviationFactor>
+		<AOERadius>20</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.25</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1200</PhysicsForceMin>
+		<PhysicsForceMax>1500</PhysicsForceMax>
+		<Hardpoint>Turret</Hardpoint>
+	</Weapon>
+	<Action>
+		<Name>megaTurret1AttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MegaTurretAttack1</Anim>
+		<Weapon>megaTurret1</Weapon>
+		<MainAttack />
+		<DontLoopAttackAnim />
+		<DontAutoRestart />
+	</Action>
+	<Action>
+		<Name>megaTurret2AttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MegaTurretAttack2</Anim>
+		<Weapon>megaTurret2</Weapon>
+		<MainAttack />
+		<DontLoopAttackAnim />
+		<DontAutoRestart />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>megaTurret3AttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MegaTurretAttack3</Anim>
+		<Weapon>megaTurret3</Weapon>
+		<MainAttack />
+		<DontLoopAttackAnim />
+		<DontAutoRestart />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>megaTurret4AttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MegaTurretAttack4</Anim>
+		<Weapon>megaTurret4</Weapon>
+		<MainAttack />
+		<DontLoopAttackAnim />
+		<DontAutoRestart />
+		<StartDisabled />
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<TargetsGround />
+			<Action>megaTurret1AttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<TargetsGround />
+			<Action>megaTurret2AttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<TargetsGround />
+			<Action>megaTurret3AttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<TargetsGround />
+			<Action>megaTurret4AttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

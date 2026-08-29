@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Artillery</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>1400</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>HeavyExplosive</WeaponType>
+		<Projectile>fx_proj_suicide_plasmaGrenade_01</Projectile>
+		<ImpactEffect size="Medium">cov_plasmagrenade_01</ImpactEffect>
+		<MaxRange>8</MaxRange>
+		<AOERadius>12</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.75</AOEDistanceFactor>
+		<AOEDamageFactor>0.75</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>700</PhysicsForceMax>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>GenericInfoAttackAction</Name>
+		<Weapon>Artillery</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

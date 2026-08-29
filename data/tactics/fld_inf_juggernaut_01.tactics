@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Melee</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>495</DamagePerSecond>
+		<WeaponType>HeavyExplosive</WeaponType>
+		<MaxRange>5</MaxRange>
+		<TargetPriority type="Infantry">25</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>GroundAttack</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>495</DamagePerSecond>
+		<WeaponType>HeavyExplosive</WeaponType>
+		<MaxRange>5</MaxRange>
+		<TargetPriority type="Infantry">25</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+	</Weapon>
+	<Action>
+		<Name>GroundAttackAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim>GroundAttack</Anim>
+		<Weapon>GroundAttack</Weapon>
+		<MainAttack />
+		<DontLoopAttackAnim />
+	</Action>
+	<Action>
+		<Name>MeleeAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim>MeleeAttack</Anim>
+		<Weapon>Melee</Weapon>
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>5</WorkRange>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Build</Anim>
+		<WorkRate>0.167</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>3.75</WorkRate>
+		<WorkRange>3</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>Jump</Name>
+		<ActionType>Jump</ActionType>
+		<Weapon>Melee</Weapon>
+		<Anim>Jump</Anim>
+		<Duration>100</Duration>
+		<VelocityScalar>30</VelocityScalar>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>JumpGather</Name>
+		<ActionType>JumpGather</ActionType>
+		<Weapon>Melee</Weapon>
+		<Anim>Jump</Anim>
+		<Duration>100</Duration>
+		<VelocityScalar>30</VelocityScalar>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>JumpGarrison</Name>
+		<ActionType>JumpGarrison</ActionType>
+		<Weapon>Melee</Weapon>
+		<Anim>Jump</Anim>
+		<Duration>100</Duration>
+		<VelocityScalar>30</VelocityScalar>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>JumpAttackAction</Name>
+		<ActionType>JumpAttack</ActionType>
+		<Anim>Jump</Anim>
+		<Weapon>Melee</Weapon>
+		<Duration>100</Duration>
+		<VelocityScalar>30</VelocityScalar>
+		<StartDisabled />
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>Jump</Action>
+			<SquadMode>Normal</SquadMode>
+			<TargetsGround />
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<SquadMode>Normal</SquadMode>
+			<Action>JumpGather</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>JumpGarrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<GaiaOwned />
+			<TargetType>GaiaGarrison</TargetType>
+			<Action>JumpGarrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>JumpGarrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>JumpGarrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>JumpGarrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>JumpGarrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<Action>JumpAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>MeleeAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

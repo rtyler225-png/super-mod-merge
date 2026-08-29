@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>FrontFlamethrower</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>40.5</DamagePerSecond>
+		<DOTrate>6.8</DOTrate>
+		<DOTduration>1</DOTduration>
+		<DOTEffect small="fx_flameThrowerSm_01" medium="fx_flameThrowerMed_01" large="fx_flameThrowerLg_01">fx_flameThrower_01</DOTEffect>
+		<WeaponType>Fire</WeaponType>
+		<MaxVelocityLead>5</MaxVelocityLead>
+		<MaxRange>40</MaxRange>
+		<AOERadius>8</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.75</AOEDistanceFactor>
+		<AOEDamageFactor>0.75</AOEDamageFactor>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">3</TargetPriority>
+		<Hardpoint>frontFlamethrowerTurret</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>FrontFlamethrower2</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>47.2</DamagePerSecond>
+		<DOTrate>13.3</DOTrate>
+		<DOTduration>10</DOTduration>
+		<DOTEffect>fx_flameThrower_02</DOTEffect>
+		<WeaponType>Fire</WeaponType>
+		<MaxVelocityLead>5</MaxVelocityLead>
+		<MaxRange>40</MaxRange>
+		<AOERadius>10</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.25</AOEDamageFactor>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">3</TargetPriority>
+		<Hardpoint>frontFlamethrowerTurret</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>RightFlamethrower</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>40.5</DamagePerSecond>
+		<DOTrate>6.8</DOTrate>
+		<DOTduration>1</DOTduration>
+		<DOTEffect small="fx_flameThrowerSm_01" medium="fx_flameThrowerMed_01" large="fx_flameThrowerLg_01">fx_flameThrower_01</DOTEffect>
+		<WeaponType>Fire</WeaponType>
+		<MaxVelocityLead>5</MaxVelocityLead>
+		<MaxRange>40</MaxRange>
+		<AOERadius>8</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.75</AOEDistanceFactor>
+		<AOEDamageFactor>0.75</AOEDamageFactor>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">3</TargetPriority>
+		<Hardpoint>rightFlamethrowerTurret</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>RightFlamethrower2</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>47.2</DamagePerSecond>
+		<DOTrate>13.3</DOTrate>
+		<DOTduration>10</DOTduration>
+		<DOTEffect>fx_flameThrower_02</DOTEffect>
+		<WeaponType>Fire</WeaponType>
+		<MaxVelocityLead>5</MaxVelocityLead>
+		<MaxRange>40</MaxRange>
+		<AOERadius>10</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.25</AOEDamageFactor>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">3</TargetPriority>
+		<Hardpoint>rightFlamethrowerTurret</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>LeftFlamethrower</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>40.5</DamagePerSecond>
+		<DOTrate>6.8</DOTrate>
+		<DOTduration>1</DOTduration>
+		<DOTEffect small="fx_flameThrowerSm_01" medium="fx_flameThrowerMed_01" large="fx_flameThrowerLg_01">fx_flameThrower_01</DOTEffect>
+		<WeaponType>Fire</WeaponType>
+		<MaxVelocityLead>5</MaxVelocityLead>
+		<MaxRange>40</MaxRange>
+		<AOERadius>8</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.75</AOEDistanceFactor>
+		<AOEDamageFactor>0.75</AOEDamageFactor>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">3</TargetPriority>
+		<Hardpoint>leftFlamethrowerTurret</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>LeftFlamethrower2</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>47.2</DamagePerSecond>
+		<DOTrate>13.3</DOTrate>
+		<DOTduration>10</DOTduration>
+		<DOTEffect>fx_flameThrower_02</DOTEffect>
+		<WeaponType>Fire</WeaponType>
+		<MaxVelocityLead>5</MaxVelocityLead>
+		<MaxRange>40</MaxRange>
+		<AOERadius>10</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.25</AOEDamageFactor>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">3</TargetPriority>
+		<Hardpoint>leftFlamethrowerTurret</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>LightCannon</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>112.5</DamagePerSecond>
+		<WeaponType>HeavySmallArms</WeaponType>
+		<Projectile>fx_proj_lightCannon_01</Projectile>
+		<ImpactEffect size="Medium">unsc_flamemortar_01</ImpactEffect>
+		<DOTrate>8.5</DOTrate>
+		<DOTduration>1</DOTduration>
+		<DOTEffect small="fx_flameThrowerSm_01" medium="fx_flameThrowerMed_01" large="fx_flameThrowerLg_01">fx_flameThrower_01</DOTEffect>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>0.5</Accuracy>
+		<MaxDeviation>5</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>1.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<Hardpoint>LockDownTurret</Hardpoint>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="Aircraft">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+	</Weapon>
+	<Action>
+		<Name>LightCannonAttackAction</Name>
+		<ActionType>SecondaryTurretAttack</ActionType>
+		<Anim>LockDownCannonAttack</Anim>
+		<Weapon>lightCannon</Weapon>
+		<Strafing maxDistance="45" turnRate="180" trackingSpeed="40" jitter="20" />
+		<RequiresLockdown />
+		<PersistBetweenOpps />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>FrontFlamethrowerAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>FlamethrowerAttackF</Anim>
+		<Weapon>FrontFlamethrower</Weapon>
+		<DisableAttackWaitTimer />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>RightFlamethrowerAttackAction</Name>
+		<ActionType>SecondaryTurretAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>FlamethrowerAttackR</Anim>
+		<Weapon>RightFlamethrower</Weapon>
+		<DisableAttackWaitTimer />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>LeftFlamethrowerAttackAction</Name>
+		<ActionType>SecondaryTurretAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>FlamethrowerAttackL</Anim>
+		<Weapon>LeftFlamethrower</Weapon>
+		<DisableAttackWaitTimer />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>FrontFlamethrower2AttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>FlameThrowerAttack2F</Anim>
+		<Weapon>FrontFlamethrower2</Weapon>
+		<DisableAttackWaitTimer />
+		<PersistBetweenOpps />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>RightFlamethrower2AttackAction</Name>
+		<ActionType>SecondaryTurretAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>FlameThrowerAttack2R</Anim>
+		<Weapon>RightFlamethrower2</Weapon>
+		<DisableAttackWaitTimer />
+		<PersistBetweenOpps />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>LeftFlamethrower2AttackAction</Name>
+		<ActionType>SecondaryTurretAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>FlamethrowerAttack2L</Anim>
+		<Weapon>LeftFlamethrower2</Weapon>
+		<DisableAttackWaitTimer />
+		<PersistBetweenOpps />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>LockdownMove</Name>
+		<ActionType>Move</ActionType>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>5</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonPelican</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>PelicanGarrison</Anim>
+		<WorkRange>14</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonPelican</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>PelicanUngarrison</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>3</WorkRange>
+	</Action>
+	<Action>
+		<Name>Hitch</Name>
+		<ActionType>Hitch</ActionType>
+		<WorkRange>1</WorkRange>
+	</Action>
+	<Action>
+		<Name>Unhitch</Name>
+		<ActionType>Unhitch</ActionType>
+		<WorkRange>1</WorkRange>
+	</Action>
+	<Action>
+		<Name>Deflect</Name>
+		<ActionType>Deflect</ActionType>
+		<DeflectChanceMin>0.7</DeflectChanceMin>
+		<DeflectChanceMax>0.7</DeflectChanceMax>
+		<DeflectMaxAngle>360</DeflectMaxAngle>
+		<DeflectCooldown>0</DeflectCooldown>
+		<DeflectMaxDmg>99999999</DeflectMaxDmg>
+		<MultiDeflect />
+		<StartDisabled />
+	</Action>
+	<Tactic>
+		<PersistentAction>FrontFlamethrowerAttackAction</PersistentAction>
+		<PersistentAction>LeftFlamethrowerAttackAction</PersistentAction>
+		<PersistentAction>RightFlamethrowerAttackAction</PersistentAction>
+		<PersistentAction>FrontFlamethrower2AttackAction</PersistentAction>
+		<PersistentAction>LeftFlamethrower2AttackAction</PersistentAction>
+		<PersistentAction>RightFlamethrower2AttackAction</PersistentAction>
+		<PersistentAction>LightCannonAttackAction</PersistentAction>
+		<PersistentAction>Deflect</PersistentAction>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Towable</TargetType>
+			<Action>Hitch</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Unhitch</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>Towable</TargetType>
+			<Action>Unhitch</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>LightCannonAttackAction</Action>
+			<SquadMode>LockDown</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>FrontFlamethrowerAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>RightFlamethrowerAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>LeftFlamethrowerAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>FrontFlamethrower2AttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>RightFlamethrower2AttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>LeftFlamethrower2AttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetsGround />
+			<Action>LockdownMove</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Ally</Relation>
+			<Action>LockdownMove</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<Action>LockdownMove</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>GaiaGarrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

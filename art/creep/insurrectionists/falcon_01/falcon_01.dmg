@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<damagetemplate>
+	<percentagebased>
+		<event />
+		<event>
+			<action type="throwpart" impactsound="impact_med_metal">wing_r_junk2_damaged</action>
+			<action type="throwpart" impactsound="impact_med_metal" streamereffect="effects\fire\flaming_debris_02">wing_r_junk3_damaged</action>
+			<action type="throwpart" impactsound="impact_med_metal" releaseeffect="effects\building_fx\unsc\damage\smalldebris_01">wing_r_junk4_damaged</action>
+			<action type="playsound">play_damage_warthog</action>
+		</event>
+		<event>
+			<action type="swappart">tail,tail_damaged</action>
+			<action type="swappart">tail,tail_wingl_damaged</action>
+			<action type="swappart">tail,tail_wingr_damaged</action>
+			<action type="throwpart" releaseeffect="effects\building_fx\unsc\damage\smalldebris_01" streamereffect="effects\fire\flaming_debris_02">tail_junk2_damaged>tail_junk1_damaged</action>
+			<action type="playsound">play_damage_warthog</action>
+			<action type="attachparticle" effect="effects\building_fx\unsc\damage\techdamage_01">impact_03</action>
+			<action type="attachparticle" effect="effects\building_fx\unsc\damage\deathdebris_01">impact_01</action>
+			
+			<action type="swappart">canopy,canopy_damaged</action>
+		</event>
+		<event>
+			<action type="attachparticle" effect="effects\building_fx\unsc\damage\LoopingSmokeFire_01">FX_engineexhaust_r</action>
+			<action type="throwpart" streamereffect="effects\fire\flaming_debris_02">tail_junk2_damaged</action>
+			<action type="throwpart" releaseeffect="effects\building_fx\unsc\damage\smalldebris_01">tail_junk3_damaged</action>
+			<action type="throwpart" releaseeffect="effects\building_fx\unsc\damage\techdamage_01" streamereffect="effects\fire\flaming_debris_02">tail_junk4_damaged</action>
+			<action type="throwpart" releaseeffect="effects\building_fx\unsc\damage\smalldebris_01" streamereffect="effects\fire\flaming_debris_02">tail_wingr_damaged</action>
+			<action type="attachparticle" effect="effects\building_fx\unsc\damage\techdamage_01">impact_05</action>
+			
+			<action type="swappart">wing_l,wing_l_damaged</action>
+			<action type="throwpart" impactsound="impact_med_metal">wing_l_junk1_damaged</action>
+			<action type="throwpart" impactsound="impact_med_metal">wing_l_junk2_damaged</action>
+			<action type="throwpart" impactsound="impact_med_metal">wing_l_junk3_damaged</action>
+			
+			<action type="playsound">play_damage_warthog</action>
+			<action type="attachparticle" effect="effects\building_fx\unsc\damage\techdamage_01">impact_07</action>
+		</event>
+		<event>
+			<action type="attachparticle" effect="effects\building_fx\unsc\damage\LoopingSmokeFire_02">impact_02</action>
+			<action type="swappart">hull,hull_damaged</action>
+			<action type="throwpart" impactsound="impact_med_metal" streamereffect="effects\fire\flaming_debris_02" releaseeffect="effects\building_fx\unsc\damage\smalldebris_01">hull_junk1_damaged</action>
+			<action type="throwpart" releaseeffect="effects\building_fx\unsc\damage\smalldebris_01">hull_junk2_damaged</action>
+			<action type="throwpart" streamereffect="effects\fire\flaming_debris_02">hull_junk3_damaged</action>
+			<action type="throwpart" releaseeffect="effects\building_fx\unsc\damage\smalldebris_01">hull_junk4_damaged</action>
+			<action type="throwpart" streamereffect="effects\fire\flaming_debris_02">hull_junk5_damaged</action>
+			<action type="attachparticle" effect="effects\building_fx\unsc\damage\techdamage_01">impact_06</action>
+			<action type="throwpart" releaseeffect="effects\building_fx\unsc\damage\smalldebris_01" streamereffect="effects\fire\flaming_debris_02">tail_wingl_damaged</action>
+			<action type="playsound">play_common_metal_debris_med</action>
+		</event>
+		<event>
+			<action type="throwpart" impactsound="impact_med_metal" streamereffect="effects\fire\flaming_debris_02" releaseeffect="effects\building_fx\unsc\damage\smalldebris_01">hull1_death_damaged</action>
+			<action type="throwpart" impactsound="impact_med_metal" streamereffect="effects\fire\flaming_debris_02" releaseeffect="effects\building_fx\unsc\damage\smalldebris_01">hull2_death_damaged</action>
+			<action type="throwpart" impactsound="impact_med_metal" streamereffect="effects\fire\flaming_debris_02" releaseeffect="effects\building_fx\unsc\damage\smalldebris_01">hull3_death_damaged</action>
+			<action type="throwpart" impactsound="impact_med_metal" streamereffect="effects\fire\flaming_debris_02" releaseeffect="effects\building_fx\unsc\damage\smalldebris_01">canopy_death_damaged</action>
+			<action type="throwpart" impactsound="impact_med_metal" streamereffect="effects\fire\flaming_debris_02" releaseeffect="effects\building_fx\unsc\damage\smalldebris_01">wing_l_death_damaged</action>
+			<action type="throwpart" impactsound="impact_med_metal" streamereffect="effects\fire\flaming_debris_02" releaseeffect="effects\building_fx\unsc\damage\smalldebris_01">wing_r_death_damaged</action>
+			<action type="throwpart" impactsound="impact_med_metal" streamereffect="effects\fire\flaming_debris_02" releaseeffect="effects\building_fx\unsc\damage\smalldebris_01">wing_l_death_turbine_damaged</action>
+			<action type="throwpart" impactsound="impact_med_metal" streamereffect="effects\fire\flaming_debris_02" releaseeffect="effects\building_fx\unsc\damage\smalldebris_01">wing_r_death_turbine_damaged</action>
+			<action type="playsound">play_vampire_death</action>
+		</event>
+	</percentagebased>
+	<impactpointbased>
+		<impactpoint bone="impact_03">
+			<event>
+				<action type="swappart">wing_r,wing_r_damaged</action>
+				<action type="swappart">wing_r,wing_r_junk2_damaged</action>
+				<action type="swappart">wing_r,wing_r_junk3_damaged</action>
+				<action type="swappart">wing_r,wing_r_junk4_damaged</action>
+				<action type="throwpart" impactsound="impact_med_metal" streamereffect="effects\fire\flaming_debris_02" releaseeffect="effects\building_fx\unsc\damage\smalldebris_01">wing_r_junk1_damaged</action>
+				<action type="attachparticle" effect="effects\building_fx\unsc\damage\techdamage_01">wing_r_damaged</action>
+			</event>
+		</impactpoint>
+	</impactpointbased>
+	<cryopercentagebased>
+		<event />
+		<event />
+		<event />
+		<event />
+		<event>
+			<action type="attachparticle" effect="effects\cryo_bomb\unit_freezing_medium">GrannyRootBone</action>
+			<action type="playsound">play_cryo_bomb_freezing</action>
+		</event>
+	</cryopercentagebased>
+	<shatterdeathevent>
+		<action type="throwpart" blueprint="icePart" releaseeffect="effects\building_fx\unsc\damage\smalldebris_01">death01</action>
+		<action type="throwpart" blueprint="icePart" releaseeffect="effects\building_fx\unsc\damage\smalldebris_01">death02</action>
+		<action type="throwpart" blueprint="icePart" releaseeffect="effects\building_fx\unsc\damage\smalldebris_01">death04</action>
+		<action type="throwpart" blueprint="icePart" releaseeffect="effects\building_fx\unsc\damage\smalldebris_01">death05</action>
+		<action type="throwpart" blueprint="icePart" impactsound="impact_med_metal" releaseeffect="effects\building_fx\unsc\damage\smalldebris_01">cockpit</action>
+		<action type="attachparticle" effect="effects\cryo_bomb\unit_shatter_medium">GrannyRootBone</action>
+		<action type="playsound">play_cryo_impact</action>
+	</shatterdeathevent>
+</damagetemplate>

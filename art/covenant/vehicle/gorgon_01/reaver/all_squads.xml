@@ -1,0 +1,49 @@
+<Squad name="cov_veh_gorgon_01_base" dbid="9688193681871967002">
+		<CombatRank>6</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>26140</DisplayNameID>
+		<RolloverTextID>26141</RolloverTextID>
+		<RoleTextID>505</RoleTextID>
+		<PrereqTextID>240</PrereqTextID>
+		<SubSelectSort>905</SubSelectSort>
+		<LeashDistance>0</LeashDistance>
+		<LeashDeadzone>12</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<AIAttackRank>2.70000005</AIAttackRank>
+		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
+		<BuildPoints>20</BuildPoints>
+		<Pop Type="Unit">5</Pop>
+		<Cost ResourceType="Supplies">175</Cost>
+		<Cost ResourceType="Power">225</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
+		<HPBar offset="0,5.53499985,0">COV_HealthShield</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">cov_veh_gorgon_01</Unit>
+		</Units>
+		<Flag>Chatter</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<TurnRadius min="0.100000001" max="4" />
+		<AvoidanceMass>Normal</AvoidanceMass>
+		<Counters>Reaver_01</Counters>
+		<MaxConvertedtoDroneSlots>1</MaxConvertedtoDroneSlots>
+	</Squad>
+	<Squad name="cov_veh_gorgon_01_mp" parent_element="cov_veh_gorgon_01_base" dbid="8254375656621589818">
+		<FrozenThreshold>300</FrozenThreshold>
+		<ChillDecayPerSecond>60</ChillDecayPerSecond>
+		<BuildPoints>22</BuildPoints>
+		<Cost ResourceType="Supplies">175</Cost>
+		<Cost ResourceType="Power">210</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
+	</Squad>

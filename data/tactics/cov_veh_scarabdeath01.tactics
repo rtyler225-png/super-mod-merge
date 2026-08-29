@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>ShadeTurret</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>300</DamagePerSecond>
+		<WeaponType>SmallArms</WeaponType>
+		<Projectile>fx_proj_shadePlasma_02</Projectile>
+		<ImpactEffect size="Medium">cov_shadeplasma_01</ImpactEffect>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>100</MaxRange>
+		<Hardpoint>ShadeTurret</Hardpoint>
+		<TargetPriority type="Aircraft">1</TargetPriority>
+	</Weapon>
+	<Action>
+		<Name>ShadeTurretAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>FrontShadeTurretAttack</Anim>
+		<Weapon>ShadeTurret</Weapon>
+		<Strafing maxDistance="35" turnRate="90" trackingSpeed="35" jitter="20" />
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>AvoidCollisionAir</Name>
+		<ActionType>AvoidCollisionAir</ActionType>
+		<HoverAltitudeOffset>0</HoverAltitudeOffset>
+		<MaxPitch>0.0f</MaxPitch>
+		<MaxRoll>0.0f</MaxRoll>
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>5</WorkRate>
+		<WorkRange>1</WorkRange>
+	</Action>
+	<Tactic>
+		<PersistentAction>AvoidCollisionAir</PersistentAction>
+		<PersistentAction>GatherSupplies</PersistentAction>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>ShadeTurretAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Bomb</Name>
+		<DamagePerSecond>8000</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>CarrierForm</WeaponType>
+		<Projectile>fx_proj_missile_01</Projectile>
+		<ImpactEffect size="Medium">flood_spit_01</ImpactEffect>
+		<MaxVelocityLead>4</MaxVelocityLead>
+		<MaxRange>150</MaxRange>
+		<Accuracy>0</Accuracy>
+		<MaxDeviation>18</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>18</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<AOERadius>8</AOERadius>
+		<ThrowUnits />
+		<ThrowAliveUnits />
+		<ThrowVelocity>20</ThrowVelocity>
+		<ThrowOffsetAngle>-90</ThrowOffsetAngle>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<DamageRatingOverride type="Unarmored">0.017</DamageRatingOverride>
+		<DamageRatingOverride type="Vehicle">0.017</DamageRatingOverride>
+		<DamageRatingOverride type="Air">0</DamageRatingOverride>
+		<DamageRatingOverride type="Building">0.017</DamageRatingOverride>
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>600</PhysicsForceMax>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>BombAttackAction</Name>
+		<Weapon>Bomb</Weapon>
+		<Infection />
+	</Action>
+	<Action>
+		<Default>true</Default>
+		<Name>InfectBombAttackAction</Name>
+		<Weapon>Bomb</Weapon>
+		<Infection />
+		<StartDisabled />
+	</Action>
+	<Tactic />
+</TacticData>

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Pistol</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>221.5</DamagePerSecond>
+		<WeaponType>SmallArms</WeaponType>
+		<Projectile>fx_proj_rifle_01</Projectile>
+		<ImpactEffect size="Medium">SmallArmsBullet</ImpactEffect>
+		<MaxVelocityLead>16</MaxVelocityLead>
+		<MaxRange>50</MaxRange>
+		<Accuracy>0.66</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>1.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="Infantry">5</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<SmallArmsDeflectable />
+	</Weapon>
+	<Weapon>
+		<Name>StunPistol</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>221.5</DamagePerSecond>
+		<WeaponType>SmallArms</WeaponType>
+		<Projectile>fx_proj_rifle_01</Projectile>
+		<ImpactEffect size="Medium">cov_brutegun_02</ImpactEffect>
+		<MaxVelocityLead>16</MaxVelocityLead>
+		<MaxRange>50</MaxRange>
+		<Accuracy>0.66</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>1.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="Infantry">5</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<SmallArmsDeflectable />
+		<Daze TargetType="EmpEffectNormal" MovementModifier="0">3.0f</Daze>
+	</Weapon>
+	<Weapon>
+		<Name>SplashStunPistol</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>221.5</DamagePerSecond>
+		<WeaponType>HeavySmallArms</WeaponType>
+		<Projectile>fx_proj_rifle_01</Projectile>
+		<ImpactEffect size="Medium">foxEmp</ImpactEffect>
+		<MaxVelocityLead>16</MaxVelocityLead>
+		<MaxRange>50</MaxRange>
+		<Accuracy>0.66</Accuracy>
+		<AOERadius>7</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.33</AOEDamageFactor>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>1.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="Infantry">5</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<SmallArmsDeflectable />
+		<Daze TargetType="EmpEffectNormal" MovementModifier="0">3.0f</Daze>
+	</Weapon>
+	<Weapon>
+		<Name>InCoverPistol</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>221.5</DamagePerSecond>
+		<WeaponType>SmallArms</WeaponType>
+		<Projectile>fx_proj_rifle_01</Projectile>
+		<ImpactEffect size="Medium">SmallArmsBullet</ImpactEffect>
+		<MaxVelocityLead>16</MaxVelocityLead>
+		<MaxRange>50</MaxRange>
+		<Accuracy>0.66</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>1.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="Infantry">5</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<SmallArmsDeflectable />
+	</Weapon>
+	<Weapon>
+		<Name>InCoverStunPistol</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>221.5</DamagePerSecond>
+		<WeaponType>SmallArms</WeaponType>
+		<Projectile>fx_proj_rifle_01</Projectile>
+		<ImpactEffect size="Medium">cov_brutegun_02</ImpactEffect>
+		<MaxVelocityLead>16</MaxVelocityLead>
+		<MaxRange>50</MaxRange>
+		<Accuracy>0.66</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>1.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="Infantry">5</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<SmallArmsDeflectable />
+		<Daze TargetType="EmpEffectNormal" MovementModifier="0">3.0f</Daze>
+	</Weapon>
+	<Weapon>
+		<Name>InCoverSplashStunPistol</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>221.5</DamagePerSecond>
+		<WeaponType>HeavySmallArms</WeaponType>
+		<Projectile>fx_proj_rifle_01</Projectile>
+		<ImpactEffect size="Medium">foxEmp</ImpactEffect>
+		<MaxVelocityLead>16</MaxVelocityLead>
+		<MaxRange>50</MaxRange>
+		<Accuracy>0.66</Accuracy>
+		<AOERadius>7</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.33</AOEDamageFactor>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>1.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="Infantry">5</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<SmallArmsDeflectable />
+		<Daze TargetType="EmpEffectNormal" MovementModifier="0">3.0f</Daze>
+	</Weapon>
+	<Action>
+		<Name>PistolAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>PistolAttack</Anim>
+		<Weapon>Pistol</Weapon>
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>StunPistolAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>PistolAttack</Anim>
+		<Weapon>StunPistol</Weapon>
+		<MainAttack />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>SplashStunPistolAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>PistolAttack</Anim>
+		<Weapon>SplashStunPistol</Weapon>
+		<MainAttack />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>InCoverPistolAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>PistolAttack</Anim>
+		<Weapon>InCoverPistol</Weapon>
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>InCoverStunPistolAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>PistolAttack</Anim>
+		<Weapon>InCoverStunPistol</Weapon>
+		<MainAttack />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>InCoverSplashStunPistolAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>PistolAttack</Anim>
+		<Weapon>InCoverSplashStunPistol</Weapon>
+		<MainAttack />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>5</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonPelican</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>PelicanGarrison</Anim>
+		<WorkRange>14</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonPelican</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>PelicanUngarrison</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Build</Anim>
+		<WorkRate>1</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>15</WorkRate>
+		<WorkRange>3</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>CaptureScn03Console</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Build</Anim>
+		<WorkRate>1</WorkRate>
+		<WorkRange>5</WorkRange>
+	</Action>
+	<Action>
+		<Name>RepairOther</Name>
+		<ActionType>RepairOther</ActionType>
+		<Anim>Heal</Anim>
+		<WorkRange>6</WorkRange>
+		<WorkRate>0.8</WorkRate>
+		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="0.99" AutoRepairSearchDistance="45" />
+	</Action>
+	<Action>
+		<Name>UpgradedRepairOther</Name>
+		<ActionType>RepairOther</ActionType>
+		<Anim>Heal</Anim>
+		<WorkRange>6</WorkRange>
+		<WorkRate>1.6</WorkRate>
+		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="0.99" AutoRepairSearchDistance="45" />
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>3</WorkRange>
+	</Action>
+	<Action>
+		<Name>CampaignAction</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>CampaignFoo</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>1</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CampaignAction</TargetType>
+			<Action>CampaignAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>GaiaGarrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>CyclopsRepairable</TargetType>
+			<Action>UpgradedRepairOther</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>PistolAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>StunPistolAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>SplashStunPistolAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>InCoverPistolAttackAction</Action>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>InCoverStunPistolAttackAction</Action>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>InCoverSplashStunPistolAttackAction</Action>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>GaiaGarrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<PersistentAction>RepairOther</PersistentAction>
+	</Tactic>
+</TacticData>

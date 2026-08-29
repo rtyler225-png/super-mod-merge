@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<damagetemplate>
+	<percentagebased>
+		<event />
+		<event>
+			<action type="attachparticle" effect="effects\building_fx\unsc\damage\smokecolumn_01">bone_impact_01</action>
+		</event>
+		<event>
+			<action type="attachparticle" effect="effects\environment\harvest\wreckageFX_01">bone_impact_01</action>
+			<action type="attachparticle" effect="effects\building_fx\unsc\damage\smokecolumn_01">bone_impact_02</action>
+		</event>
+		<event>
+			<action type="attachparticle" effect="effects\building_fx\unsc\damage\smokecolumn_01">bone_impact_03</action>
+			<action type="attachparticle" effect="effects\environment\harvest\wreckageFX_01">bone_impact_02</action>
+		</event>
+		<event>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object001</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object002</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object003</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object004</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object005</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object006</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object013</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object014</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object015</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object016</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object017</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object018</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object028</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object029</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object030</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object031</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object032</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object033</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object034</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object035</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object036</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object037</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object041</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object042</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object043</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object044</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object045</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object046</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object047</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object048</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object049</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object055</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object056</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object057</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object058</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object059</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object060</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object061</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object062</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object063</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object064</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object065,Object066,Object067,Object068,Object069</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object070</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object071</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object072</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object073</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object074</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object075</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object076</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object077</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object078</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object079</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object080</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object081</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object082</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object083</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object084</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object085</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object086</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object087</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object088</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object089</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object090</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object091</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object092</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object093</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object094</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object095</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object096,Object097,Object098,Object099</action>
+			<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object0100</action>
+		</event>
+	</percentagebased>
+	<impactpointbased>
+		<impactpoint name="bone_impact_01" bone="bone_impact_01">
+			<event>
+				<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object007</action>
+				<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object008</action>
+				<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object009</action>
+				<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object010</action>
+				<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object011</action>
+				<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object012</action>
+				<action type="playsound">play_unsc_building_damage</action>
+			</event>
+		</impactpoint>
+		<impactpoint name="bone_impact_02" bone="bone_impact_02">
+			<event>
+				<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object050</action>
+				<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object051</action>
+				<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object052</action>
+				<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object053</action>
+				<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object054</action>
+				<action type="playsound">play_unsc_building_damage</action>
+			</event>
+		</impactpoint>
+		<impactpoint name="bone_impact_03" bone="bone_impact_03">
+			<event>
+				<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object020</action>
+				<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object021</action>
+				<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object022</action>
+				<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object023</action>
+				<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object026</action>
+				<action type="throwpart" blueprint="lightpart" streamereffect="effects\fire\flaming_debris_02" impactsound="impact_med_metal">Object027</action>
+				<action type="playsound">play_unsc_building_damage</action>
+			</event>
+		</impactpoint>
+	</impactpointbased>
+	<cryopercentagebased>
+		<event />
+		<event />
+		<event />
+		<event />
+		<event />
+	</cryopercentagebased>
+	<shatterdeathevent>
+		<action type="attachparticle" effect="effects\cryo_bomb\unit_shatter_medium">GrannyRootBone</action>
+		<action type="throwattachment" blueprint="icePart" streamereffect="effects\building_FX\cov\damage\smallelectricity_01">boneturret</action>
+	</shatterdeathevent>
+</damagetemplate>

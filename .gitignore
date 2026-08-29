@@ -1,0 +1,14 @@
+# Local working notes, generated experiments, and safety copies
+scratch/
+*.bak
+*.tmp
+*.log
+
+# Release archives are published separately, not versioned with the source
+*.zip
+*.7z
+*.rar
+
+# Windows Explorer metadata
+Thumbs.db
+Desktop.ini

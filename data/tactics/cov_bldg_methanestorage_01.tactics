@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>RepairOther</Name>
+		<ActionType>RepairOther</ActionType>
+		<WorkRange>15</WorkRange>
+		<WorkRate>0.5</WorkRate>
+		<AllowReinforce />
+		<AutoRepair AutoRepairIdleTime="0" AutoRepairThreshold="0.999" AutoRepairSearchDistance="45" />
+	</Action>
+	<Action>
+		<Name>MedicHeal</Name>
+		<ActionType>Heal</ActionType>
+		<WorkRate>50</WorkRate>
+		<MinIdleDuration>3</MinIdleDuration>
+		<StartDisabled />
+	</Action>
+	<Tactic>
+		<PersistentAction>MedicHeal</PersistentAction>
+		<PersistentAction>RepairOther</PersistentAction>
+	</Tactic>
+</TacticData>

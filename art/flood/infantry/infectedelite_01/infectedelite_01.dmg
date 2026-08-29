@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<damagetemplate>
+	<percentagebased>
+		<event />
+		<event />
+		<event>
+		</event>
+		<event />
+		<event>
+			<action type="throwpart" blueprint="heavypart">l_arm</action>
+		</event>
+		<event>
+			<action type="throwpart" blueprint="heavypart">head</action>
+		</event>
+		<event>
+			<action type="swappart">torso,torso_destroyed</action>
+		</event>
+		<event>
+			<action type="throwpart" blueprint="heavypart">r_arm</action>
+		</event>
+	</percentagebased>
+	<impactpointbased>
+	</impactpointbased>
+	<cryopercentagebased>
+		<event />
+		<event />
+		<event />
+		<event />
+		<event>
+		</event>
+	</cryopercentagebased>
+	<shatterdeathevent>
+		<action type="throwpart" blueprint="icePart">r_arm,l_arm,head,torso</action>
+		<action type="throwpart" blueprint="icePart">l_leg,head,torso,r_leg</action>
+			<action type="throwpart" blueprint="icePart">r_arm_destroyed,l_arm_destroyed,head_destroyed,torso_destroyed</action>
+	</shatterdeathevent>
+</damagetemplate>

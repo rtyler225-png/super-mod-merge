@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FlashMovieDefinition>
+   <!-- Controls -->
+      <!-- Control name="LabelButtonX">_root.UI_btns.x_text.value</Control -->
+               
+   <!-- Action Script Functions -->
+   <ASFunction>setSelectedLeader</ASFunction>
+   <ASFunction>easeIn</ASFunction>
+   <ASFunction>initLeaders</ASFunction>
+   <ASFunction>loadLeader</ASFunction>
+   <ASFunction>changeSelection</ASFunction>
+   <ASFunction>setTitle</ASFunction>
+      <!-- ASFunction>_root.UI_overlay.gotoAndPlay</ASFunction -->
+
+   <!-- Key Frame Names -->
+      <!-- KeyFrame>off</KeyFrame -->
+
+   <!--Icons-->   
+</FlashMovieDefinition>

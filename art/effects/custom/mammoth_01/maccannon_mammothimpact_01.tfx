@@ -1,0 +1,7 @@
+<TerrainEffect>
+
+   <default>
+      <particlefile>effects\custom\mammoth_01\maccannon_mammothimpact_01</particlefile>
+   </default>
+
+</TerrainEffect>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>PlasmaCannons</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>650</DamagePerSecond>
+		<WeaponType>SmallArmsPlasma</WeaponType>
+		<Projectile>for_proj_enforcer_01</Projectile>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>70</MaxRange>
+		<Accuracy>0.33</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>1.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<DamageRatingOverride type="Vehicle">0</DamageRatingOverride>
+		<DamageRatingOverride type="Building">0</DamageRatingOverride>
+		<OverridesRevive />
+	</Weapon>
+	<Weapon>
+		<Name>PlasmaCannonsAir</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>650</DamagePerSecond>
+		<WeaponType>SmallArmsPlasma</WeaponType>
+		<Projectile>for_proj_enforcer_02</Projectile>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>70</MaxRange>
+		<Accuracy>0.33</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>1.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<DamageRatingOverride type="Vehicle">0</DamageRatingOverride>
+		<DamageRatingOverride type="Building">0</DamageRatingOverride>
+		<OverridesRevive />
+	</Weapon>
+	<Weapon>
+		<Name>Mortar</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>550</DamagePerSecond>
+		<WeaponType>LightExplosive</WeaponType>
+		<Projectile>fx_proj_enforcerCannon_01</Projectile>
+		<ImpactEffect size="Medium">cov_brutechopper_01</ImpactEffect>
+		<MaxVelocityLead>15</MaxVelocityLead>
+		<MaxRange>70</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>5</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>16</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOERadius>5</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<DamageRatingOverride type="Unarmored">0</DamageRatingOverride>
+		<TargetPriority type="TurretBuilding">10</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>700</PhysicsForceMax>
+		<OverridesRevive />
+	</Weapon>
+	<Weapon>
+		<Name>ClawAttack</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>65</DamagePerSecond>
+		<WeaponType>HeavyExplosive</WeaponType>
+		<MaxRange>5</MaxRange>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">-3</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<OverridesRevive />
+		<Daze TargetType="unit" MovementModifier="0">3.0f</Daze>
+		<PullUnits />
+		<MaxPullRange>55</MaxPullRange>
+	</Weapon>
+	<Action>
+		<Name>Charge</Name>
+		<ActionType>Charge</ActionType>
+		<DamageCharge>10</DamageCharge>
+		<ChargeOnTaken />
+		<ChargeOnDealt />
+		<Anim>Pull</Anim>
+		<ProtoObject bone="BoneFX">fx_brutePullCharged</ProtoObject>
+	</Action>
+	<Action>
+		<Name>PlasmaCannonsAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>PlasmaCannonsAttack</Anim>
+		<Weapon>PlasmaCannons</Weapon>
+		<MainAttack />
+		<Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20" />
+		<DisableAttackWaitTimer />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>PlasmaCannonsAirAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>PlasmaCannonsAttack</Anim>
+		<Weapon>PlasmaCannonsAir</Weapon>
+		<MainAttack />
+		<Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20" />
+		<DisableAttackWaitTimer />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>MortarAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MortarAttack</Anim>
+		<Weapon>Mortar</Weapon>
+		<MainAttack />
+		<Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20" />
+		<DisableAttackWaitTimer />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>ClawAttack</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim>ClawAttack</Anim>
+		<Weapon>ClawAttack</Weapon>
+		<MainAttack />
+		<Chargable />
+		<VelocityScalar>40</VelocityScalar>
+		<EndAnim>Flail</EndAnim>
+		<ProtoObject>fx_brutePullVictim</ProtoObject>
+		<InvalidTarget>cov_veh_scarab_01</InvalidTarget>
+		<InvalidTarget>cov_veh_scarab_02</InvalidTarget>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>AvoidCollisionAir</Name>
+		<ActionType>AvoidCollisionAir</ActionType>
+		<HoverAltitudeOffset>0</HoverAltitudeOffset>
+		<MaxPitch>5.0f</MaxPitch>
+		<MaxRoll>20.0f</MaxRoll>
+	</Action>
+	<Action>
+		<Name>Deflect_01</Name>
+		<ActionType>Deflect</ActionType>
+		<DeflectChanceMin>1</DeflectChanceMin>
+		<DeflectChanceMax>1</DeflectChanceMax>
+		<DeflectMaxAngle>180</DeflectMaxAngle>
+		<DeflectCooldown>0</DeflectCooldown>
+		<DeflectMaxDmg>3500</DeflectMaxDmg>
+		<DeflectTimeout>1</DeflectTimeout>
+		<MultiDeflect />
+		<SmallArmsPlasma />
+		<ProtoObject>for_air_enforcer_shield_01</ProtoObject>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>3</WorkRange>
+	</Action>
+	<Tactic>
+		<PersistentAction>Charge</PersistentAction>
+		<PersistentAction>Deflect_01</PersistentAction>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>GroundVehicle</TargetType>
+			<Action>ClawAttack</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>GroundVehicle</TargetType>
+			<TargetType>Building</TargetType>
+			<TargetType>TurretBuilding</TargetType>
+			<Action>MortarAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>PlasmaCannonsAirAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>PlasmaCannonsAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<PersistentAction>AvoidCollisionAir</PersistentAction>
+	</Tactic>
+</TacticData>

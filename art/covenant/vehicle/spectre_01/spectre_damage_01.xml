@@ -1,0 +1,49 @@
+<Materials>
+    <Material>
+        <NameValues>
+            <SpecPower>500</SpecPower>
+            <SpecColorR>1</SpecColorR>
+            <SpecColorG>1</SpecColorG>
+            <SpecColorB>1</SpecColorB>
+            <EnvReflectivity>1</EnvReflectivity>
+            <EnvSharpness>1</EnvSharpness>
+            <EnvFresnel>0.5</EnvFresnel>
+            <EnvFresnelPower>4</EnvFresnelPower>
+            <AccessoryIndex>0</AccessoryIndex>
+            <Flags>5</Flags>
+            <BlendType>0</BlendType>
+            <Opacity>255</Opacity>
+        </NameValues>
+        <Maps>
+            <diffuse UVWVel="0,0,0">
+                <Map Name="\covenant\vehicle\spectre_01\spectre_01_df" Channel="0" Flags="7"/>
+            </diffuse>
+            <normal UVWVel="0,0,0">
+            </normal>
+            <gloss UVWVel="0,0,0">
+            </gloss>
+            <opacity UVWVel="0,0,0">
+                <Map Name="\covenant\vehicle\spectre_01\spectre_01_op" Channel="0" Flags="7"/>
+            </opacity>
+            <xform UVWVel="0,0,0">
+                <Map Name="\covenant\vehicle\spectre_01\spectre_01_xf" Channel="0" Flags="7"/>
+            </xform>
+            <emissive UVWVel="0,0,0">
+            </emissive>
+            <ao UVWVel="0,0,0">
+            </ao>
+            <env UVWVel="0,0,0">
+            </env>
+            <envmask UVWVel="0,0,0">
+            </envmask>            
+            <emxform UVWVel="0,0,0">
+            </emxform>
+            <distortion UVWVel="0,0,0">
+            </distortion>
+            <highlight UVWVel="0,0,0">
+            </highlight>
+            <modulate UVWVel="0,0,0">
+            </modulate>
+        </Maps>
+    </Material>
+</Materials>

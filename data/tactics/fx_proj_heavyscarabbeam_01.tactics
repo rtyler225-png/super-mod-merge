@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>scarabBeam</Name>
+		<DamagePerSecond>0</DamagePerSecond>
+		<UseDPSasDPA />
+		<Reapply>0.75</Reapply>
+		<Apply>6</Apply>
+		<DOTrate>16</DOTrate>
+		<DOTduration>10</DOTduration>
+		<DOTEffect small="fx_proj_plasmadotSm_01" medium="fx_proj_plasmadotMed_01" large="fx_proj_plasmadotLg_01">fx_proj_plasmadot_01</DOTEffect>
+		<WeaponType>HeavyFire</WeaponType>
+		<Projectile>fx_proj_HeavyscarabBeam_01</Projectile>
+		<ImpactEffect size="Large">cov_plasmaburn_01</ImpactEffect>
+		<MaxVelocityLead>4</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<EnableHeightBonusDamage />
+		<AOERadius>4</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.75</AOEDamageFactor>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>GenericInfoAttackAction</Name>
+		<Weapon>scarabBeam</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>FireBomb</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<UseDPSasDPA />
+		<Reapply>0.25</Reapply>
+		<Apply>3</Apply>
+		<DOTrate>8</DOTrate>
+		<DOTduration>10</DOTduration>
+		<DOTEffect small="fx_proj_plasmadotSm_01" medium="fx_proj_plasmadotMed_01" large="fx_proj_plasmadotLg_01">fx_proj_plasmadot_01</DOTEffect>
+		<WeaponType>HeavyFire</WeaponType>
+		<Projectile>fx_proj_suicide_plasmaGrenade_02</Projectile>
+		<ImpactEffect size="Medium">cov_plasmaburn_01</ImpactEffect>
+		<MaxRange>4</MaxRange>
+		<AOERadius>12</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.75</AOEDistanceFactor>
+		<AOEDamageFactor>0.75</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>700</PhysicsForceMax>
+	</Weapon>
+	<Weapon>
+		<Name>None</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<WeaponType>Explosive</WeaponType>
+		<MaxRange>1</MaxRange>
+	</Weapon>
+	<Action>
+		<Name>FireDetonate</Name>
+		<ActionType>Detonate</ActionType>
+		<Weapon>FireBomb</Weapon>
+		<DetonateWhenInRange>true</DetonateWhenInRange>
+	</Action>
+	<Tactic>
+		<PersistentAction>FireDetonate</PersistentAction>
+	</Tactic>
+</TacticData>

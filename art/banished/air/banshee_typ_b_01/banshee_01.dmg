@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<damagetemplate>
+	<percentagebased>
+		<event />
+		<event>
+			<action type="throwpart">wingRBack</action>
+		</event>
+		<event>
+			<action type="attachparticle" effect="effects\building_fx\cov\damage\plasmafire_01">Hull</action>
+			<action type="swappart">WingLeft,WingLeftdamaged</action>
+			<action type="swappart">WingLefttech1,WingLefttech1damaged</action>
+			<action type="swappart">WingLefttech2,WingLefttech2damaged</action>
+			<action type="swappart">WingLefttech3,WingLefttech3damaged</action>
+		</event>
+		<event>
+			<action type="swappart">wingRFront,wingRFrontdamaged</action>
+			<action type="swappart">wingRFronttech1,wingRFronttech1damaged</action>
+			<action type="swappart">wingRFronttech2,wingRFronttech2damaged</action>
+			<action type="swappart">wingRFronttech3,wingRFronttech3damaged</action>
+		</event>
+		<event>
+			<action type="swappart">Hull,Hulldamaged</action>
+			<action type="swappart">Hulltech1,Hulltech1damaged</action>
+			<action type="swappart">Hulltech2,Hulltech2damaged</action>
+			<action type="swappart">Hulltech3,Hulltech3damaged</action>
+		</event>
+		<event>
+			<action type="throwpart">Hulltech1damaged</action>
+			<action type="throwpart" impactsound="impact_med_metal" streamereffect="effects\building_FX\cov\damage\smallelectricity_01">Hulldamaged</action>
+			<action type="throwpart">Hulltech2damaged</action>
+			<action type="throwpart">Hulltech3damaged</action>
+			<action type="throwpart">wingRFrontdamaged</action>
+			<action type="throwpart">wingRFronttech1damaged</action>
+			<action type="throwpart">wingRFronttech2damaged</action>
+			<action type="throwpart">wingRFronttech3damaged</action>
+			<action type="throwpart">WingLeftdamaged</action>
+			<action type="throwpart">WingLefttech1damaged</action>
+			<action type="throwpart">WingLefttech2damaged</action>
+			<action type="throwpart">WingLefttech3damaged</action>
+			<action type="playsound">play_impact_building_damage_release_explosion_med</action>
+		</event>
+	</percentagebased>
+	<impactpointbased />
+	<cryopercentagebased>
+		<event />
+		<event />
+		<event />
+		<event />
+		<event>
+			<action type="attachparticle" effect="effects\cryo_bomb\unit_freezing_medium">GrannyRootBone</action>
+			<action type="playsound">play_cryo_bomb_freezing</action>
+		</event>
+	</cryopercentagebased>
+	<shatterdeathevent>
+		<action type="throwpart" blueprint="icePart" streamereffect="effects\building_FX\cov\damage\smallelectricity_01">wingRBack,WingLeft,wingRFront</action>
+		<action type="throwpart" blueprint="icePart" impactsound="impact_med_metal" streamereffect="effects\building_FX\cov\damage\smallelectricity_01">Hull,canopy</action>
+		<action type="attachparticle" effect="effects\cryo_bomb\unit_shatter_medium">GrannyRootBone</action>
+		<action type="playsound">play_cryo_impact</action>
+	</shatterdeathevent>
+</damagetemplate>

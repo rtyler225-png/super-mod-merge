@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Cannon</Name>
+		<AttackRate>4</AttackRate>
+		<DamagePerSecond>300</DamagePerSecond>
+		<WeaponType>HeavyExplosive</WeaponType>
+		<Projectile>fx_proj_cannon_01</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<MaxRange>65</MaxRange>
+		<Accuracy>0.2</Accuracy>
+		<MaxDeviation>7</MaxDeviation>
+		<MovingAccuracy>0.1</MovingAccuracy>
+		<MovingMaxDeviation>10</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOERadius>8</AOERadius>
+		<AOEPrimaryTargetFactor>0.25</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.25</AOEDamageFactor>
+		<Hardpoint>Turret</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>800</PhysicsForceMin>
+		<PhysicsForceMax>1200</PhysicsForceMax>
+		<PhysicsForceMaxAngle>0.8</PhysicsForceMaxAngle>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Infantry">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Dodgeable />
+		<Deflectable />
+	</Weapon>
+	<Weapon>
+		<Name>Machinegun</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>136.35</DamagePerSecond>
+		<WeaponType>HeavySmallArms</WeaponType>
+		<Projectile>fx_proj_lightCannon_01</Projectile>
+		<ImpactEffect size="Small">unsc_rifle_01</ImpactEffect>
+		<MaxVelocityLead>15</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>0.1</Accuracy>
+		<MaxDeviation>4</MaxDeviation>
+		<MovingAccuracy>0.05</MovingAccuracy>
+		<MovingMaxDeviation>6</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="Flying">5</TargetPriority>
+		<TargetPriority type="GroundVehicle">0</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<Hardpoint>MGTurret</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>CloseFlamethrower</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>60</DamagePerSecond>
+		<DOTrate>6.8</DOTrate>
+		<DOTduration>1</DOTduration>
+		<DOTEffect small="fx_flameThrowerSm_01" medium="fx_flameThrowerMed_01" large="fx_flameThrowerLg_01">fx_flameThrower_01</DOTEffect>
+		<WeaponType>Fire</WeaponType>
+		<MaxVelocityLead>5</MaxVelocityLead>
+		<MaxRange>20</MaxRange>
+		<AOERadius>6</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.75</AOEDistanceFactor>
+		<AOEDamageFactor>0.75</AOEDamageFactor>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">3</TargetPriority>
+		<Hardpoint>MGTurret</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>MidFlamethrower</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>60</DamagePerSecond>
+		<DOTrate>10.6000004</DOTrate>
+		<DOTduration>10</DOTduration>
+		<DOTEffect>fx_flameThrower_02</DOTEffect>
+		<WeaponType>Fire</WeaponType>
+		<MaxVelocityLead>5</MaxVelocityLead>
+		<MaxRange>40</MaxRange>
+		<AOERadius>6</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.75</AOEDistanceFactor>
+		<AOEDamageFactor>0.75</AOEDamageFactor>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">3</TargetPriority>
+		<Hardpoint>MGTurret</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>FarFlamethrower</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>105</DamagePerSecond>
+		<DOTrate>13.3</DOTrate>
+		<DOTduration>10</DOTduration>
+		<DOTEffect>fx_flameThrower_02</DOTEffect>
+		<WeaponType>Fire</WeaponType>
+		<MaxVelocityLead>5</MaxVelocityLead>
+		<MaxRange>50</MaxRange>
+		<AOERadius>8</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.25</AOEDamageFactor>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">3</TargetPriority>
+		<Hardpoint>MGTurret</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>FlameMortar</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>97.75</DamagePerSecond>
+		<Reapply>0.25</Reapply>
+		<Apply>2</Apply>
+		<DOTrate>8</DOTrate>
+		<DOTduration>10</DOTduration>
+		<DOTEffect small="fx_flameThrowerSm_01" medium="fx_flameThrowerMed_01" large="fx_flameThrowerLg_01">fx_flameThrower_01</DOTEffect>
+		<WeaponType>Fire</WeaponType>
+		<Projectile>fx_proj_flameMortar_scorpionheavy_01</Projectile>
+		<ImpactEffect size="Medium">unsc_flamemortar_01</ImpactEffect>
+		<MaxVelocityLead>15</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<AOERadius>8</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.75</AOEDistanceFactor>
+		<AOEDamageFactor>0.75</AOEDamageFactor>
+		<Hardpoint>MGTurret</Hardpoint>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<TargetsFootOfUnit />
+	</Weapon>
+	<Weapon>
+		<Name>ArtillerySpecial</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>2000</DamagePerSecond>
+		<WeaponType>HeavyExplosive</WeaponType>
+		<Projectile>fx_proj_cannon_03</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<MinRange>0</MinRange>
+		<Accuracy>0</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>0.05</MovingAccuracy>
+		<MovingMaxDeviation>5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.15</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.15</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Turret</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>600</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Infantry">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Dodgeable />
+		<Deflectable />
+	</Weapon>
+	<Action>
+		<Name>ArtillerySpecialAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>ArtillerySpecial</Anim>
+		<Weapon>ArtillerySpecial</Weapon>
+		<MainAttack />
+		<DontLoopAttackAnim />
+	</Action>
+	<Action>
+		<Name>CannonAttackAction</Name>
+		<ActionType>SlaveTurretAttack</ActionType>
+		<Anim>CannonAttack</Anim>
+		<Weapon>Cannon</Weapon>
+	</Action>
+	<Action>
+		<Name>MachinegunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MachinegunAttack</Anim>
+		<Weapon>Machinegun</Weapon>
+		<SlaveAttackAction>CannonAttackAction</SlaveAttackAction>
+		<Strafing maxDistance="20" turnRate="90" trackingSpeed="40" jitter="20" />
+		<PersistBetweenOpps />
+		<MainAttack />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>MidFlamethrowerAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MidFlameThrowerAttack</Anim>
+		<SlaveAttackAction>CannonAttackAction</SlaveAttackAction>
+		<AnimLowDetail actionCountThreshold="20">FlameThrowerAttackLowDetail</AnimLowDetail>
+		<Weapon>MidFlamethrower</Weapon>
+		<MainAttack />
+		<FindBetterAction />
+		<DisableAttackWaitTimer />
+	</Action>
+	<Action>
+		<Name>FarFlamethrowerAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>FarFlameThrowerAttack</Anim>
+		<SlaveAttackAction>CannonAttackAction</SlaveAttackAction>
+		<AnimLowDetail actionCountThreshold="20">FlameThrowerAttackLowDetail3</AnimLowDetail>
+		<Weapon>FarFlameThrower</Weapon>
+		<MainAttack />
+		<FindBetterAction />
+		<DisableAttackWaitTimer />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>FlameMortarAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MachinegunAttack</Anim>
+		<Weapon>FlameMortar</Weapon>
+		<SlaveAttackAction>CannonAttackAction</SlaveAttackAction>
+		<MainAttack />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>GarrisonPelican</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>PelicanGarrison</Anim>
+		<WorkRange>14</WorkRange>
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>5</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonPelican</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>PelicanUngarrison</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>3</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>MachinegunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>MidFlamethrowerAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>FarFlamethrowerAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>FlameMortarAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>ArtillerySpecialAttackAction</Action>
+			<TargetType>NonFlying</TargetType>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>unsc_air_pelican_01</TargetType>
+			<Action>UngarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<PersistentAction>CollisionAttack</PersistentAction>
+	</Tactic>
+</TacticData>

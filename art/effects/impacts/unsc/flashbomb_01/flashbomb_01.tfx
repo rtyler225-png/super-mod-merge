@@ -1,0 +1,8 @@
+<TerrainEffect>
+
+   <default weight="1">
+      <particlefile>effects\impacts\unsc\flashbomb_01\flashbomb_01</particlefile>
+      <light lifespan="6.9">effects\impacts\unsc\flashbomb_01\flashbomblight_01</light>
+   </default>
+
+</TerrainEffect>

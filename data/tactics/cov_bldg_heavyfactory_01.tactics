@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>AirTrafficControl</Name>
+		<ActionType>AirTrafficControl</ActionType>
+	</Action>
+	<Action>
+		<Name>MedicHeal</Name>
+		<ActionType>Heal</ActionType>
+		<WorkRate>100</WorkRate>
+		<MinIdleDuration>3</MinIdleDuration>
+		<StartDisabled />
+	</Action>
+	<Tactic>
+		<PersistentAction>MedicHeal</PersistentAction>
+		<PersistentAction>AirTrafficControl</PersistentAction>
+	</Tactic>
+</TacticData>

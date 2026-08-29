@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>AirToAirMissileLauncher</Name>
+		<DamagePerSecond>1000</DamagePerSecond>
+		<UseDPSasDPA />
+		<Reapply>0.25</Reapply>
+		<Apply>3</Apply>
+		<DOTrate>200</DOTrate>
+		<DOTduration>10</DOTduration>
+		<DOTEffect small="fx_flameThrowerSm_01" medium="fx_flameThrowerMed_01" large="fx_flameThrowerLg_01">fx_proj_plasmadot_01</DOTEffect>
+		<WeaponType>Missile</WeaponType>
+		<Projectile>fx_proj_plasmaClusterMini_01</Projectile>
+		<ImpactEffect size="Medium">PlasmaCluster</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<AOERadius>24</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>GenericInfoAttackAction</Name>
+		<Weapon>AirToAirMissileLauncher</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>

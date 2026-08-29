@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>StandardWeapon</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>250</DamagePerSecond>
+		<WeaponType>MediumRailgun</WeaponType>
+		<Projectile>fx_proj_banishedfuelRod_01</Projectile>
+		<ImpactEffect size="Medium">banishedfuelrod_01</ImpactEffect>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<MaxRange>85</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1.5</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<AOERadius>3</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.25</AOEDamageFactor>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Infantry">8</TargetPriority>
+		<TargetPriority type="Aircraft">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<UseGroupRange />
+		<Hardpoint>Gun_Standard</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>AntiVehicleWeapon</Name>
+		<AttackRate>4</AttackRate>
+		<DamagePerSecond>121.5</DamagePerSecond>
+		<WeaponType>MediumRailgun</WeaponType>
+		<Projectile>fx_proj_banishedfuelRod_01</Projectile>
+		<ImpactEffect size="Medium">banishedfuelrod_01</ImpactEffect>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<MaxRange>85</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1.5</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>2</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>400</PhysicsForceMin>
+		<PhysicsForceMax>600</PhysicsForceMax>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Infantry">8</TargetPriority>
+		<TargetPriority type="Aircraft">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<UseGroupRange />
+		<Hardpoint>Gun_AV</Hardpoint>
+	</Weapon>
+	<Action>
+		<Name>StandardAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<Weapon>StandardWeapon</Weapon>
+		<SlaveAttackAction>FuelRodAttackAction</SlaveAttackAction>
+		<MainAttack />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>FuelRodAttackAction</Name>
+		<ActionType>SlaveTurretAttack</ActionType>
+		<Anim>AV_Attack</Anim>
+		<Weapon>AntiVehicleWeapon</Weapon>
+		<DisableAttackWaitTimer />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>MedicHeal</Name>
+		<ActionType>Heal</ActionType>
+		<WorkRate>100</WorkRate>
+		<MinIdleDuration>3</MinIdleDuration>
+		<StartDisabled />
+	</Action>
+	<Tactic>
+		<PersistentAction>MedicHeal</PersistentAction><!-- 
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>GroundVehicle</TargetType>
+			<TargetType>TurretBuilding</TargetType>
+			<TargetType>Building</TargetType>	
+			<Action>FuelRodAttackAction</Action>
+		</TargetRule> -->
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>StandardAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<damagetemplate>
+	<percentagebased>
+		<event />
+		<event>
+			<action type="attachparticle" effect="effects\environment\harvest\wreckageFX_01">bone_impact_01</action>
+			<action type="playsound" stopSoundName="stop_burning_building">play_burning_building</action>
+		</event>
+		<event>
+			<action type="attachparticle" effect="effects\environment\harvest\wreckageFX_01">bone_impact_07</action>
+			<action type="attachparticle" effect="effects\environment\harvest\wreckageFX_04">bone_impact_03</action>
+		</event>
+		<event>
+			<action type="throwpart">Base4,BaseDestruction4</action>
+			<action type="throwpart">Base18,BaseDestruction18</action>
+			<action type="attachparticle" effect="effects\building_fx\unsc\damage\smokecolumn_01">Base17</action>
+		</event>
+		<event>
+			<action type="throwpart">Base19,BaseDestruction19</action>
+			<action type="throwpart">Base9,BaseDestruction9</action>
+		</event>
+		<event>
+			<action type="attachparticle" effect="effects\building_fx\unsc\damage\smokecolumn_01">bone_impact_07</action>
+		</event>
+		<event>
+			<action type="attachparticle" effect="effects\building_fx\unsc\damage\deathdebris_01">GrannyRootBone</action>
+			<action type="attachparticle" effect="effects\building_fx\unsc\damage\deathdebris_01">bone_impact_07</action>
+			<action type="throwpart" impactsound="impact_large_metal" streamereffect="effects\fire\flaming_debris_02" releaseeffect="effects\building_fx\unsc\damage\techdamage_01">Base15</action>
+			<action type="throwpart">Base1</action>
+			<action type="throwpart">Base2</action>
+			<action type="throwpart">Base3</action>
+			<action type="throwpart">Base5</action>
+			<action type="throwpart">Base6</action>
+			<action type="throwpart">Base7</action>
+			<action type="throwpart">Base8</action>
+			<action type="throwpart">Base10</action>
+			<action type="throwpart">Base11</action>
+			<action type="throwpart">Base12</action>
+			<action type="throwpart">Base13</action>
+			<action type="throwpart">Base14</action>
+			<action type="throwpart">Base16</action>
+			<action type="throwpart">Base17</action>
+			<action type="throwpart">Base20</action>
+			<action type="throwpart">Base21</action>
+			<action type="throwpart">Base22</action>
+			<action type="throwpart">Base23</action>
+			<action type="throwpart">BaseFoundation</action>
+			<action type="playsound">play_death_command_center</action>
+		</event>
+	</percentagebased>
+	<impactpointbased />
+	<cryopercentagebased>
+		<event />
+		<event />
+		<event />
+		<event />
+		<event>
+			<action type="attachparticle" effect="effects\cryo_bomb\unit_freezing_large">GrannyRootBone</action>
+			<action type="playsound">play_cryo_bomb_freezing</action>
+		</event>
+	</cryopercentagebased>
+	<shatterdeathevent>
+		<action type="attachparticle" effect="effects\cryo_bomb\unit_shatter_large">GrannyRootBone</action>
+		<action type="throwpart" blueprint="icePart" impactsound="impact_large_metal" streamereffect="effects\fire\flaming_debris_02" releaseeffect="effects\building_fx\unsc\damage\techdamage_01">Base15</action>
+		<action type="throwpart" blueprint="icePart">Base1</action>
+		<action type="throwpart" blueprint="icePart">Base2</action>
+		<action type="throwpart" blueprint="icePart">Base3</action>
+		<action type="throwpart" blueprint="icePart">Base5</action>
+		<action type="throwpart" blueprint="icePart">Base6</action>
+		<action type="throwpart" blueprint="icePart">Base7</action>
+		<action type="throwpart" blueprint="icePart">Base8</action>
+		<action type="throwpart" blueprint="icePart">Base10</action>
+		<action type="throwpart" blueprint="icePart">Base11</action>
+		<action type="throwpart" blueprint="icePart">Base12</action>
+		<action type="throwpart" blueprint="icePart">Base13</action>
+		<action type="throwpart" blueprint="icePart">Base14</action>
+		<action type="throwpart" blueprint="icePart">Base16</action>
+		<action type="throwpart" blueprint="icePart">Base17</action>
+		<action type="throwpart" blueprint="icePart">Base20</action>
+		<action type="throwpart" blueprint="icePart">Base21</action>
+		<action type="throwpart" blueprint="icePart">Base22</action>
+		<action type="throwpart" blueprint="icePart">Base23</action>
+		<action type="throwpart" blueprint="icePart">BaseFoundation</action>
+		<action type="throwpart" blueprint="icePart">Base4</action>
+		<action type="throwpart" blueprint="icePart">Base18</action>
+		<action type="throwpart" blueprint="icePart">Base19</action>
+		<action type="throwpart" blueprint="icePart">Base9</action>
+		<action type="playsound">play_cryo_impact</action>
+	</shatterdeathevent>
+</damagetemplate>

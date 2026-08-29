@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Laser</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>150</DamagePerSecond>
+		<WeaponType>SpartanLaser</WeaponType>
+		<Projectile>fx_proj_spartanlaser_01</Projectile>
+		<ImpactEffect size="Medium">unsc_spartanlaser_01</ImpactEffect>
+		<MaxVelocityLead>16</MaxVelocityLead>
+		<MaxRange>80</MaxRange>
+		<Accuracy>0.2</Accuracy>
+		<MaxDeviation>0.2</MaxDeviation>
+		<MovingAccuracy>0.2</MovingAccuracy>
+		<MovingMaxDeviation>0.2</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.3</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.3</AccuracyDeviationFactor>
+		<AOELinearDamage />
+		<AOERadius>15</AOERadius>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>600</PhysicsForceMax>
+		<TargetPriority type="Infantry">6</TargetPriority>
+		<TargetPriority type="Aircraft">8</TargetPriority>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">4</TargetPriority>
+		<TargetPriority type="Building">2</TargetPriority>
+		<EnableHeightBonusDamage />
+		<Hardpoint>RocketTurret</Hardpoint>
+		<ImpactCameraShake duration="0.3" strength="0.1" />
+		<ImpactRumble leftRumbleType="Fixed" leftStrength="0.25" rightRumbleType="Fixed" rightStrength="0.25" duration="0.5" />
+		<ImpactCameraEffect>
+			<ColorTransformFactor>
+				<Value time="0">0.1</Value>
+				<Value time="0.2">0.05</Value>
+				<Value time="0.5">0</Value>
+			</ColorTransformFactor>
+			<ColorTransformR>
+				<Value time="0">1,0,0</Value>
+			</ColorTransformR>
+			<ColorTransformG>
+				<Value time="0">0,0,0</Value>
+			</ColorTransformG>
+			<ColorTransformB>
+				<Value time="0">0,0,0</Value>
+			</ColorTransformB>
+		</ImpactCameraEffect>
+	</Weapon>
+	<Weapon>
+		<Name>Machinegun</Name>
+		<AttackRate>0.125</AttackRate>
+		<DamagePerSecond>160</DamagePerSecond>
+		<WeaponType>HornetTurret</WeaponType>
+		<Projectile>fx_proj_rotaryMG_01</Projectile>
+		<ImpactEffect size="Small">unsc_rifle_01</ImpactEffect>
+		<MaxVelocityLead>15</MaxVelocityLead>
+		<MaxRange>70</MaxRange>
+		<Hardpoint>MGTurret</Hardpoint>
+		<Accuracy>0.1</Accuracy>
+		<MaxDeviation>0.1</MaxDeviation>
+		<MovingAccuracy>0.1</MovingAccuracy>
+		<MovingMaxDeviation>0.1</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.2</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.2</AccuracyDeviationFactor>
+		<TargetPriority type="Infantry">5</TargetPriority>
+		<TargetPriority type="Aircraft">6</TargetPriority>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<SmallArmsDeflectable />
+	</Weapon>
+	<Action>
+		<Name>LaserAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>LaserAttack</Anim>
+		<Weapon>Laser</Weapon>
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>MedicHeal</Name>
+		<ActionType>Heal</ActionType>
+		<WorkRate>220</WorkRate>
+		<MinIdleDuration>2</MinIdleDuration>
+	</Action>
+	<Action>
+		<Name>CannonAttackAction</Name>
+		<ActionType>SecondaryTurretAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>MachinegunAttack</Anim>
+		<Weapon>Machinegun</Weapon>
+		<DisableAttackWaitTimer />
+	</Action>
+	<Action>
+		<Name>AvoidCollisionAir</Name>
+		<ActionType>AvoidCollisionAir</ActionType>
+		<HoverAltitudeOffset>0</HoverAltitudeOffset>
+		<MaxPitch>10.0f</MaxPitch>
+		<MaxRoll>30.0f</MaxRoll>
+	</Action>
+	<Action>
+		<Name>Deflect</Name>
+		<ActionType>Deflect</ActionType>
+		<DeflectChanceMin>0.5</DeflectChanceMin>
+		<DeflectChanceMax>0.5</DeflectChanceMax>
+		<DeflectMaxAngle>180</DeflectMaxAngle>
+		<DeflectCooldown>0</DeflectCooldown>
+		<MultiDeflect />
+		<SmallArms />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>Idle</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>Idle</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>LaserAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>CannonAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<PersistentAction>Deflect</PersistentAction>
+		<PersistentAction>AvoidCollisionAir</PersistentAction>
+		<PersistentAction>MedicHeal</PersistentAction>
+	</Tactic>
+</TacticData>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Objects>
+		<Object IsSquad="false" Player="0" ID="30000031" TintValue="1" EditorName="snd_play_cavern_scn_08_43404" Position="942.655884,28.4468994,938.075378" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_cavern_scn_08</Object>
+		<Object IsSquad="false" Player="0" ID="30000027" TintValue="1" EditorName="snd_play_ice_pressure_43400" Position="436.515503,3.21510005,121.690002" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_ice_pressure</Object>
+		<Object IsSquad="false" Player="0" ID="30000003" TintValue="1" EditorName="snd_play_ice_pressure_1173" Position="162.988693,26.2063007,167.901093" Forward="0,0,-1" Right="-1,0,0" Group="17" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_ice_pressure</Object>
+		<Object IsSquad="false" Player="0" ID="30000002" TintValue="1" EditorName="snd_play_ice_pressure_1174" Position="242.330795,43.4921989,922.548218" Forward="0,0,-1" Right="-1,0,0" Group="17" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_ice_pressure</Object>
+		<Object IsSquad="false" Player="0" ID="30000001" TintValue="1" EditorName="snd_play_ice_pressure_1175" Position="57.7797012,0.25940001,902.551086" Forward="0,0,-1" Right="-1,0,0" Group="17" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_ice_pressure</Object>
+		<Object IsSquad="false" Player="0" ID="30000004" TintValue="1" EditorName="snd_play_ice_pressure_normal_pitch_1859" Position="212.521393,14.7222004,939.402588" Forward="0,0,1" Right="1,0,0" Group="1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_ice_pressure_normal_pitch</Object>
+		<Object IsSquad="false" Player="0" ID="30000005" TintValue="1" EditorName="snd_play_ice_pressure_normal_pitch_1186" Position="103.636902,14.0946999,912.016418" Forward="0,0,-1" Right="-1,0,0" Group="17" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_ice_pressure_normal_pitch</Object>
+		<Object IsSquad="false" Player="0" ID="30000017" TintValue="1" EditorName="snd_play_ice_reverb_43390" Position="155.913696,-1.62269998,337.889191" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_ice_reverb</Object>
+		<Object IsSquad="false" Player="0" ID="30000016" TintValue="1" EditorName="snd_play_ice_reverb_43389" Position="123.306099,2.32340002,655.169983" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_ice_reverb</Object>
+		<Object IsSquad="false" Player="0" ID="30000015" TintValue="1" EditorName="snd_play_ice_reverb_43388" Position="811.741028,-2.99029994,469.19931" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_ice_reverb</Object>
+		<Object IsSquad="false" Player="0" ID="30000018" TintValue="1" EditorName="snd_play_ice_reverb_43391" Position="80.7675018,-10.7807999,249.8423" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_ice_reverb</Object>
+		<Object IsSquad="false" Player="0" ID="30000021" TintValue="1" EditorName="snd_play_ice_reverb_43394" Position="94.7863998,-0.451200008,498.770599" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_ice_reverb</Object>
+		<Object IsSquad="false" Player="0" ID="30000020" TintValue="1" EditorName="snd_play_ice_reverb_43393" Position="183.687607,0.657599986,377.529205" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_ice_reverb</Object>
+		<Object IsSquad="false" Player="0" ID="30000019" TintValue="1" EditorName="snd_play_ice_reverb_43392" Position="304.165985,-5.7507,186.522598" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_ice_reverb</Object>
+		<Object IsSquad="false" Player="0" ID="30000013" TintValue="1" EditorName="snd_play_ice_reverb_43386" Position="476.914307,-2.3836,253.806503" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_ice_reverb</Object>
+		<Object IsSquad="false" Player="0" ID="30000014" TintValue="1" EditorName="snd_play_ice_reverb_43387" Position="608.302185,-2.10560012,352.601807" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_ice_reverb</Object>
+		<Object IsSquad="false" Player="0" ID="30000022" TintValue="1" EditorName="snd_play_rock_debris_43395" Position="904.670105,-4.10820007,471.086609" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_rock_debris</Object>
+		<Object IsSquad="false" Player="0" ID="30000032" TintValue="1" EditorName="snd_play_scn_03_chasm_43405" Position="737.319397,33.0101013,595.40332" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_scn_03_chasm</Object>
+		<Object IsSquad="false" Player="0" ID="30000029" TintValue="1" EditorName="snd_play_scn_03_chasm_43402" Position="185.759995,3.51830006,1158.68896" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_scn_03_chasm</Object>
+		<Object IsSquad="false" Player="0" ID="30000030" TintValue="1" EditorName="snd_play_scn_03_chasm_43403" Position="143.690994,-12.2285995,1219.677" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_scn_03_chasm</Object>
+		<Object IsSquad="false" Player="0" ID="30000028" TintValue="1" EditorName="snd_play_scn_03_chasm_43401" Position="261.422394,26.1193008,1085.18994" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_scn_03_chasm</Object>
+		<Object IsSquad="false" Player="0" ID="30000007" TintValue="1" EditorName="snd_play_scn_03_harvest_wind_gust_811" Position="355.005005,37.5956001,978.851685" Forward="0,0,-1" Right="-1,0,0" Group="17" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_scn_03_harvest_wind_gust</Object>
+		<Object IsSquad="false" Player="0" ID="30000006" TintValue="1" EditorName="snd_play_scn_03_harvest_wind_gust_812" Position="212.7164,47.8967018,824.194702" Forward="0,0,-1" Right="-1,0,0" Group="17" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_scn_03_harvest_wind_gust</Object>
+		<Object IsSquad="false" Player="0" ID="30000009" TintValue="1" EditorName="snd_play_scn_03_harvest_wind_gust_1180" Position="264.40741,42.9076996,1071.59802" Forward="0,0,-1" Right="-1,0,0" Group="17" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_scn_03_harvest_wind_gust</Object>
+		<Object IsSquad="false" Player="0" ID="30000008" TintValue="1" EditorName="snd_play_scn_03_harvest_wind_gust_1177" Position="480.856293,107.376297,1089.48401" Forward="0,0,-1" Right="-1,0,0" Group="17" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_scn_03_harvest_wind_gust</Object>
+		<Object IsSquad="false" Player="0" ID="30000011" TintValue="1" EditorName="snd_play_wind_gust_wire_1183" Position="147.384201,8.9126997,1182.40698" Forward="0,0,-1" Right="-1,0,0" Group="17" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_wind_gust_wire</Object>
+		<Object IsSquad="false" Player="0" ID="30000023" TintValue="1" EditorName="snd_play_wind_gust_wire_43396" Position="866.141113,38.1646004,1036.73804" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_wind_gust_wire</Object>
+		<Object IsSquad="false" Player="0" ID="30000012" TintValue="1" EditorName="snd_play_wind_gust_wire_1181" Position="328.34549,53.4901009,1028.84595" Forward="0,0,-1" Right="-1,0,0" Group="17" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_wind_gust_wire</Object>
+		<Object IsSquad="false" Player="0" ID="30000025" TintValue="1" EditorName="snd_play_wind_gust_wire_43398" Position="627.168274,37.4193001,877.017273" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_wind_gust_wire</Object>
+		<Object IsSquad="false" Player="0" ID="30000024" TintValue="1" EditorName="snd_play_wind_gust_wire_43397" Position="999.736877,40.2924995,791.572021" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_wind_gust_wire</Object>
+		<Object IsSquad="false" Player="0" ID="30000010" TintValue="1" EditorName="snd_play_wind_gust_wire_1182" Position="250.631195,39.732399,1082.13501" Forward="0,0,-1" Right="-1,0,0" Group="17" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_wind_gust_wire</Object>
+		<Object IsSquad="false" Player="0" ID="30000026" TintValue="1" EditorName="snd_play_wind_gust_wire_43399" Position="1055.19104,10.5383997,168.340805" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>snd_play_wind_gust_wire</Object>
+	</Objects>
+</Scenario>

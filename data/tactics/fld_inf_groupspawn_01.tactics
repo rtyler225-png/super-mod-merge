@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>SpawnSentinel</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>fld_inf_infectedmarine_01</SquadType>
+		<WorkRate>0</WorkRate>
+		<Count>5</Count>
+	</Action>
+	<Action>
+		<Name>SpawnSentinel2</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>fld_inf_infectedcarrier_01</SquadType>
+		<WorkRate>0</WorkRate>
+		<Count>2</Count>
+	</Action>
+	<Tactic>
+		<PersistentAction>SpawnSentinel</PersistentAction>
+		<PersistentAction>SpawnSentinel2</PersistentAction>
+	</Tactic>
+</TacticData>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Tables>
+	<Table Name="Infantry" Type="BuildingBuildList">
+		<Row>
+			<c>fld_inf_InfectedGrunt_01,fld_inf_infectedSnipers_01,fld_inf_infectedjackal_beamrifle_01,fld_inf_infectedMarine_01,fld_inf_infectedMedicSingle_01,fld_inf_infectedMelee_01,fld_inf_InfectedMarine_01,fld_inf_InfectedBrute_01,fld_inf_infectedHeavy_01,fld_inf_infectedSnipers_01,fld_inf_InfectedBrute_01,fld_inf_infectedjackal_beamrifle_01,fld_inf_infectedMedicSingle_01,fld_inf_InfectedGrunt_01</c> <!-- Composition -->
+			<c>20000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>True</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>fld_air_lugee_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>fld_inf_InfectedGrunt_01,fld_inf_tankform_01,fld_inf_infestorform_01,fld_inf_infectedjackal_beamrifle_01,fld_inf_InfectedBrute_01,fld_inf_infectedMelee_01,fld_inf_InfectedElite_01,fld_inf_infectedMelee_01,fld_inf_infestorform_01,fld_inf_InfectedGrunt_01,fld_inf_tankform_01,fld_inf_infectedjackal_beamrifle_01,fld_inf_InfectedBrute_01,fld_inf_infectedMelee_01,fld_inf_InfectedElite_01,fld_inf_infectedMelee_01</c> <!-- Composition -->
+			<c>20000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>True</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>fld_air_lugee_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>fld_inf_InfectedElite_01,fld_inf_infectedSnipers_01,fld_inf_infectedjackal_beamrifle_01,fld_inf_tankform_01,fld_inf_InfectedODST_01,fld_inf_infectedflameMarine_01,fld_inf_InfectedGrunt_01,fld_inf_infectedElite_01,fld_inf_tankform_01,fld_inf_infectedHeavy_01,fld_inf_InfectedODST_01,fld_inf_infectedSnipers_01,fld_inf_infectedflameMarine_01,fld_inf_infectedHeavy_01</c> <!-- Composition -->
+			<c>20000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>True</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>fld_air_lugee_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedCarrier_01,fld_inf_infestorform_01,fld_inf_infectedMelee_01,fld_inf_InfectedODST_01,fld_inf_InfectedElite_01,fld_inf_infectedHeavy_01,fld_inf_infestorform_01,fld_inf_infectedCarrier_01,fld_inf_InfectedElite_01,fld_inf_InfectedODST_01,fld_inf_infectedMelee_01,fld_inf_InfectedElite_01</c> <!-- Composition -->
+			<c>20000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>True</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>fld_air_lugee_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>fld_inf_InfectedODST_01,fld_inf_infectedSnipers_01,fld_inf_tankform_01,fld_inf_infectedElite_01,fld_inf_InfectedODST_01,fld_inf_infectedMelee_01,fld_inf_flameMarine_01,fld_inf_infectedSnipers_01,fld_inf_infectedSnipers_01,fld_inf_flameMarine_01,fld_inf_infectedElite_01,fld_inf_infectedMelee_01</c> <!-- Composition -->
+			<c>20000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>True</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>fld_air_lugee_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedBrute_01,fld_inf_tankform_01,fld_inf_infestorform_01,fld_inf_infectedSnipers_01,fld_inf_rhinodillo_01,fld_inf_infectedElite_01,fld_inf_tankform_01,fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedSnipers_01,fld_inf_rhinodillo_01,fld_inf_infectedElite_01</c> <!-- Composition -->
+			<c>20000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>True</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>fld_air_lugee_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedMelee_01,fld_inf_infectedMelee_01,fld_inf_infectedElite_01,fld_inf_InfectedBrute_01,fld_inf_infectedSnipers_01,fld_inf_InfectedMarine_01,fld_inf_infectedMelee_01,fld_inf_infectedMelee_01,fld_inf_infectedElite_01,fld_inf_InfectedBrute_01,fld_inf_InfectedGrunt_01,fld_inf_InfectedMarine_01</c> <!-- Composition -->
+			<c>20000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>True</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>fld_air_lugee_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedGrunt_01,fld_inf_InfectedODST_01,fld_inf_tankform_01,fld_inf_infectedMelee_01,fld_inf_infectedSnipers_01,fld_inf_infectedGrunt_01,fld_inf_InfectedODST_01,fld_inf_InfectedBrute_01,fld_inf_tankform_01,fld_inf_infectedSnipers_01</c> <!-- Composition -->
+			<c>20000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>True</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>fld_air_lugee_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedMelee_01,fld_inf_infestorform_01,fld_inf_rangedform_01,fld_inf_rangedform_01,fld_inf_infectionForm_01,fld_inf_InfectedMarine_01,fld_inf_InfectedMarine_01,fld_inf_infectedMelee_01,fld_inf_infectedMelee_01,fld_inf_infestorform_01,fld_inf_rangedform_01,fld_inf_rangedform_01,fld_inf_infectedMelee_01,fld_inf_InfectedMarine_01,fld_inf_InfectedMarine_01,fld_inf_infectedMelee_01</c> <!-- Composition -->
+			<c>20000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>True</c> <!-- HotDropAble -->
+			<c>75</c> <!-- DropChance -->
+			<c>fld_air_lugee_01</c> <!-- AirDrop -->
+		</Row>
+	</Table>
+	<Table Name="Vehicle" Type="BuildingBuildList">
+		<Row>
+			<c>fld_inf_infestorform_01,fld_inf_tankform_01,fld_inf_InfectedMarine_01,fld_inf_infestorform_01,fld_inf_rhinodillo_01,fld_inf_InfectedMarine_01,fld_inf_spawnerform_01,fld_inf_tankform_01,fld_inf_spawnerform_01,fld_inf_rangedform_01,fld_inf_infectedMelee_01,fld_inf_infectedMelee_01,fld_inf_infectedMarine_01,fld_inf_infectedMarine_01</c> <!-- Composition -->
+			<c>20000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>fld_air_lugee_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>fld_inf_tankform_01,fld_inf_juggernaut_01,fld_inf_tankform_01,fld_inf_rhinodillo_01,fld_inf_spawnerform_01,fld_inf_spawnerform_01,fld_inf_infectedHeavy_01,fld_inf_infectedMelee_01,fld_inf_rhinodillo_01,fld_inf_infectedHeavy_01,fld_inf_infectedMelee_01,fld_inf_juggernaut_01,fld_inf_infectedMarine_01,fld_inf_infectedMarine_01</c> <!-- Composition -->
+			<c>20000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>fld_air_lugee_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>fld_inf_InfectedODST_01,fld_inf_infectedHeavy_01,fld_inf_tankform_01,fld_inf_infectedHeavy_01,fld_inf_infectedSnipers_01,fld_inf_infectedjackal_beamrifle_01,fld_inf_infectedjackal_beamrifle_01,fld_inf_tankform_01,fld_inf_InfectedODST_01,fld_inf_infectedSnipers_01,fld_inf_flameMarine_01,fld_inf_flameMarine_01</c> <!-- Composition -->
+			<c>20000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>fld_air_lugee_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedMelee_01,fld_inf_infectedMelee_01,fld_inf_infectedHeavy_01,fld_inf_infectedHeavy_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_infestorform_01,fld_inf_infestorform_01,fld_inf_infectedMelee_01,fld_inf_infectedMelee_01,fld_inf_infectedMarine_01,fld_inf_infectedMarine_01</c> <!-- Composition -->
+			<c>20000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>fld_air_lugee_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedMelee_01,fld_inf_infectedMelee_01,fld_inf_infectedHeavy_01,fld_inf_infectedHeavy_01,fld_inf_tankform_01,fld_inf_tankform_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_infectedCarrier_01,fld_inf_infectedCarrier_01,fld_inf_infectedMarine_01,fld_inf_infectedMarine_01</c> <!-- Composition -->
+			<c>20000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>fld_air_lugee_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedCarrier_01,fld_inf_infestorform_01,fld_inf_infectedMarine_01,fld_inf_infectedMarine_01,fld_inf_infestorform_01,fld_inf_rhinodillo_01,fld_inf_rhinodillo_01,fld_inf_infestorform_01,fld_inf_infectedCarrier_01,fld_inf_infectedMarine_01,fld_inf_infectedMarine_01</c> <!-- Composition -->
+			<c>20000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>fld_air_lugee_01</c> <!-- AirDrop -->
+		</Row>
+	</Table>
+	<Table Name="Air" Type="BuildingBuildList">
+		<Row>
+			<c>fld_air_swarm_01,fld_air_bomber_01,fld_air_seederform_01,fld_air_swarm_01,fld_air_bomber_01,fld_air_seederform_01,fld_air_swarm_01,fld_air_bomber_01,fld_air_seederform_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_inf_infectedMelee_01,fld_inf_infectedMelee_01,fld_inf_infectedMelee_01</c> <!-- Composition -->
+			<c>20000</c> <!-- TimeBetweenWaves -->
+			<c>40035</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>fld_air_lugee_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_seederform_01,fld_air_seederform_01,fld_inf_infectedMelee_01,fld_inf_infectedMelee_01,fld_inf_infectedMelee_01</c> <!-- Composition -->
+			<c>20000</c> <!-- TimeBetweenWaves -->
+			<c>40035</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>fld_air_lugee_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_seederform_01,fld_air_seederform_01,fld_air_seederform_01,fld_air_seederform_01,fld_inf_infectedMelee_01,fld_inf_infectedMelee_01,fld_inf_infectedMelee_01</c> <!-- Composition -->
+			<c>20000</c> <!-- TimeBetweenWaves -->
+			<c>40035</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>fld_air_lugee_01</c> <!-- AirDrop -->
+		</Row>
+	</Table>
+	<Table Name="Mixed" Type="BuildingBuildList">
+		<Row>
+			<c>fld_inf_infectedBrute_01,fld_inf_infectedBrute_01,fld_inf_infectedMarine_01,fld_air_swarm_01,fld_air_bomber_01,fld_inf_infectedMarine_01,fld_inf_InfectedODST_01,fld_inf_infectedMarine_01,fld_air_swarm_01,fld_air_bomber_01,fld_inf_infectedMarine_01,fld_inf_InfectedODST_01,fld_inf_juggernaut_01,fld_air_swarm_01,fld_air_bomber_01,fld_inf_juggernaut_01</c> <!-- Composition -->
+			<c>60000</c> <!-- TimeBetweenWaves -->
+			<c>40036</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>fld_air_lugee_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectedBrute_01,fld_inf_InfectedODST_01,fld_air_swarm_01,fld_inf_infestorform_01,fld_inf_InfectedODST_01,fld_inf_infectedMarine_01,fld_air_swarm_01,fld_inf_infestorform_01,fld_inf_infectedBrute_01,fld_inf_infectedMarine_01,fld_air_swarm_01,fld_inf_flameMarine_01,fld_inf_infectedjackal_beamrifle_01,fld_inf_infectedjackal_beamrifle_01</c> <!-- Composition -->
+			<c>60000</c> <!-- TimeBetweenWaves -->
+			<c>40036</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>fld_air_lugee_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>fld_inf_flameMarine_01,fld_inf_infectedjackal_beamrifle_01,fld_inf_infestorform_01,fld_air_swarm_01,fld_inf_juggernaut_01,fld_inf_infectedjackal_beamrifle_01,fld_inf_infestorform_01,fld_air_swarm_01,fld_inf_juggernaut_01,fld_inf_flameMarine_01,fld_inf_infestorform_01,fld_air_swarm_01,fld_inf_InfectedODST_01,fld_inf_InfectedODST_01</c> <!-- Composition -->
+			<c>60000</c> <!-- TimeBetweenWaves -->
+			<c>40036</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>fld_air_lugee_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>fld_inf_infectionform_06,fld_inf_rhinodillo_01,fld_inf_flameMarine_01,fld_inf_tankform_01,fld_inf_tankform_01,fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_infectionform_06,fld_inf_infectionform_06,fld_inf_flameMarine_01,fld_inf_tankform_01,fld_inf_tankform_01,fld_inf_rhinodillo_01,fld_inf_infectedMelee_01,fld_inf_juggernaut_01</c> <!-- Composition -->
+			<c>60000</c> <!-- TimeBetweenWaves -->
+			<c>40036</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>fld_air_lugee_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>fld_inf_rhinodillo_01,fld_inf_InfectedODST_01,fld_inf_infectedMelee_01,fld_inf_infectedjackal_beamrifle_01,fld_inf_infectedjackal_beamrifle_01,fld_inf_infectionform_06,fld_inf_InfectedODST_01,fld_inf_infectedMelee_01,fld_air_bomber_01,fld_inf_infectedElite_01,fld_inf_infectionform_06,fld_inf_InfectedODST_01,fld_inf_infectedMelee_01,fld_inf_infectedElite_01,fld_air_bomber_01</c> <!-- Composition -->
+			<c>60000</c> <!-- TimeBetweenWaves -->
+			<c>40036</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>fld_air_lugee_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>fld_inf_InfectedODST_01,fld_inf_InfectedODST_01,fld_inf_tankform_01,fld_inf_infectedjackal_beamrifle_01,fld_inf_rhinodillo_01,fld_air_swarm_01,fld_inf_infectedElite_01,fld_inf_infectedElite_01,fld_inf_tankform_01,fld_inf_infectedjackal_beamrifle_01,fld_inf_rhinodillo_01,fld_air_swarm_01,fld_inf_InfectedODST_01,fld_inf_InfectedODST_01</c> <!-- Composition -->
+			<c>60000</c> <!-- TimeBetweenWaves -->
+			<c>40036</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>fld_air_lugee_01</c> <!-- AirDrop -->
+		</Row>
+	</Table>
+	<Table Name="Boss" Type="BuildingBuildList">
+		<Row>
+			<c>fld_inf_rhinodillo_01,fld_inf_abomination_01,fld_inf_infectedHeavy_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_seederform_01,fld_air_seederform_01,fld_inf_abomination_01,fld_inf_infestorform_01,fld_inf_rhinodillo_01,fld_inf_juggernaut_01,fld_inf_abomination_01,fld_inf_juggernaut_01,fld_inf_infectedHeavy_01,fld_inf_infestorform_01</c> <!-- Composition -->
+			<c>90000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>fld_air_lugee_01</c> <!-- AirDrop -->
+		</Row>
+		<Row>
+			<c>fld_inf_juggernaut_01,fld_inf_juggernaut_01,fld_inf_infestorform_01,fld_inf_infestorform_01,fld_inf_infestorform_01,fld_air_swarm_01,fld_air_swarm_01,fld_air_bomber_01,fld_air_bomber_01,fld_air_seederform_01,fld_air_seederform_01,fld_inf_abomination_01,fld_inf_abomination_01,fld_inf_abomination_01</c> <!-- Composition -->
+			<c>90000</c> <!-- TimeBetweenWaves -->
+			<c>40033</c> <!-- TableRowString -->
+			<c>False</c> <!-- HotDropAble -->
+			<c>25</c> <!-- DropChance -->
+			<c>fld_air_lugee_01</c> <!-- AirDrop -->
+		</Row>
+	</Table>
+</Tables>

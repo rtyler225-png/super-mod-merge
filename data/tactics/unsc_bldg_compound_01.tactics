@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>MissileBattery1</Name>
+		<AttackRate>6</AttackRate>
+		<DamagePerSecond>151.225</DamagePerSecond>
+		<WeaponType>Missile</WeaponType>
+		<Projectile>fx_proj_missile_01</Projectile>
+		<ImpactEffect size="Medium">unsc_rocket_01</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>90</MaxRange>
+		<Hardpoint>Turret1</Hardpoint>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<Dodgeable />
+	</Weapon>
+	<Weapon>
+		<Name>MissileBattery2</Name>
+		<AttackRate>6</AttackRate>
+		<DamagePerSecond>151.225</DamagePerSecond>
+		<WeaponType>Missile</WeaponType>
+		<Projectile>fx_proj_missile_01</Projectile>
+		<ImpactEffect size="Medium">unsc_rocket_01</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>90</MaxRange>
+		<Hardpoint>Turret2</Hardpoint>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<Dodgeable />
+	</Weapon>
+	<Action>
+		<Name>MissileBatteryAttackAction1</Name>
+		<ActionType>SecondaryTurretAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>MissileAttack1</Anim>
+		<Weapon>MissileBattery1</Weapon>
+	</Action>
+	<Action>
+		<Name>MissileBatteryAttackAction2</Name>
+		<ActionType>SecondaryTurretAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>MissileAttack2</Anim>
+		<Weapon>MissileBattery2</Weapon>
+	</Action>
+	<Action>
+		<Name>MedicHeal</Name>
+		<ActionType>Heal</ActionType>
+		<WorkRate>50</WorkRate>
+		<MinIdleDuration>0</MinIdleDuration>
+		<StartDisabled />
+	</Action>
+	<Tactic>
+		<PersistentAction>MedicHeal</PersistentAction>
+		<PersistentAction>MissileBatteryAttackAction1</PersistentAction>
+		<PersistentAction>MissileBatteryAttackAction2</PersistentAction>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>MissileBatteryAttackAction1</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>MissileBatteryAttackAction2</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

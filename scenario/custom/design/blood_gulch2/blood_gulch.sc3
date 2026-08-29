@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Objects>
+		<Object IsSquad="false" Player="0" ID="30000012" TintValue="1" EditorName="snd_play_bird_16_196" Position="317.932098,6.38219976,100.233902" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_bird_16</Object>
+		<Object IsSquad="false" Player="0" ID="30000014" TintValue="1" EditorName="snd_play_bird_16_198" Position="902.837524,2.75149989,816.325989" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_bird_16</Object>
+		<Object IsSquad="false" Player="0" ID="30000013" TintValue="1" EditorName="snd_play_bird_16_197" Position="285.740906,38.1548004,797.866821" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_bird_16</Object>
+		<Object IsSquad="false" Player="0" ID="30000007" TintValue="1" EditorName="snd_play_bird_17_191" Position="778.067627,4.79180002,927.553894" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_bird_17</Object>
+		<Object IsSquad="false" Player="0" ID="30000001" TintValue="1" EditorName="snd_play_birds_09_185" Position="37.0017014,58.0987015,463.070587" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_birds_09</Object>
+		<Object IsSquad="false" Player="0" ID="30000011" TintValue="1" EditorName="snd_play_birds_09_195" Position="676.814209,0.000699999975,190.820206" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_birds_09</Object>
+		<Object IsSquad="false" Player="0" ID="30000006" TintValue="1" EditorName="snd_play_birds_11_190" Position="642.273804,3.6631999,897.820923" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_birds_11</Object>
+		<Object IsSquad="false" Player="0" ID="30000004" TintValue="1" EditorName="snd_play_insect_01_188" Position="524.672485,38.6465988,942.146973" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_insect_01</Object>
+		<Object IsSquad="false" Player="0" ID="30000008" TintValue="1" EditorName="snd_play_insect_01_192" Position="967.429626,19.3190002,953.990601" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_insect_01</Object>
+		<Object IsSquad="false" Player="0" ID="30000005" TintValue="1" EditorName="snd_play_insect_01_189" Position="646.28363,4.54110003,901.172913" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_insect_01</Object>
+		<Object IsSquad="false" Player="0" ID="30000002" TintValue="1" EditorName="snd_play_insect_01_186" Position="46.7538986,57.210701,460.944702" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_insect_01</Object>
+		<Object IsSquad="false" Player="0" ID="30000010" TintValue="1" EditorName="snd_play_insect_01_194" Position="788.453003,35.6674004,343.140808" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_insect_01</Object>
+		<Object IsSquad="false" Player="0" ID="30000009" TintValue="1" EditorName="snd_play_insect_01_193" Position="918.651794,37.2681007,577.039001" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_insect_01</Object>
+		<Object IsSquad="false" Player="0" ID="30000003" TintValue="1" EditorName="snd_play_insect_01_187" Position="287.831604,38.4109001,800.557373" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_insect_01</Object>
+		<Object IsSquad="false" Player="0" ID="30000015" TintValue="1" EditorName="snd_play_insect_04_199" Position="908.741821,36.1595993,573.540771" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_insect_04</Object>
+		<Object IsSquad="false" Player="0" ID="30000016" TintValue="1" EditorName="snd_play_insect_04_200" Position="637.176819,0.617600024,546.431885" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_insect_04</Object>
+		<Object IsSquad="false" Player="0" ID="30000017" TintValue="1" EditorName="snd_play_insect_04_201" Position="667.144226,38.9017982,42.6526985" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_insect_04</Object>
+		<Object IsSquad="false" Player="0" ID="30000018" TintValue="1" EditorName="snd_play_insect_04_202" Position="374.146912,49.6040001,54.8072014" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">snd_play_insect_04</Object>
+	</Objects>
+</Scenario>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>SwipMelee</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>400</DamagePerSecond>
+		<WeaponType>BuildingKillerMelee</WeaponType>
+		<MaxRange>3</MaxRange>
+		<ThrowUnits />
+		<ThrowAliveUnits />
+		<ThrowVelocity>20</ThrowVelocity>
+		<ThrowOffsetAngle>-90</ThrowOffsetAngle>
+		<PreAttackCooldownMin>1</PreAttackCooldownMin>
+		<PreAttackCooldownMax>3</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>3</PostAttackCooldownMax>
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+	</Weapon>
+	<Weapon>
+		<Name>BashMelee</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>350</DamagePerSecond>
+		<WeaponType>BuildingKillerMelee</WeaponType>
+		<MaxRange>3</MaxRange>
+		<AOERadius>12</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>65</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>800</PhysicsForceMin>
+		<PhysicsForceMax>1200</PhysicsForceMax>
+		<PhysicsForceMaxAngle>0.8</PhysicsForceMaxAngle>
+	</Weapon>
+	<Action>
+		<Name>SwipMeleeAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim>MeleeAttack</Anim>
+		<Weapon>SwipMelee</Weapon>
+		<FindBetterAction />
+		<MainAttack />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>BashMeleeAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim>BashAttack</Anim>
+		<Weapon>BashMelee</Weapon>
+		<FindBetterAction />
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>5</WorkRange>
+	</Action>
+	<Action>
+		<Name>RoarAction</Name>
+		<ActionType>Roar</ActionType>
+		<Anim>Roar</Anim>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Build</Anim>
+		<WorkRate>0.167</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>3.75</WorkRate>
+		<WorkRange>3</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>Deflect_01</Name>
+		<ActionType>Deflect</ActionType>
+		<DeflectChanceMin>0.25</DeflectChanceMin>
+		<DeflectChanceMax>0.25</DeflectChanceMax>
+		<DeflectMaxAngle>360</DeflectMaxAngle>
+		<DeflectCooldown>0</DeflectCooldown>
+		<DeflectMaxDmg>999999</DeflectMaxDmg>
+		<MultiDeflect />
+		<SmallArms />
+		<StartDisabled />
+	</Action>
+	<Tactic>
+		<PersistentAction>Deflect_01</PersistentAction>
+		<PersistentAction>RoarAction</PersistentAction>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Infantry</TargetType>
+			<TargetType>unsc_veh_warthog_01</TargetType>
+			<TargetType>unsc_veh_warthoggauss_01</TargetType>
+			<TargetType>unsc_veh_warthogrocket_01</TargetType>
+			<TargetType>unsc_veh_warthoglce_01</TargetType>
+			<TargetType>cov_veh_ghost_01</TargetType>
+			<TargetType>cov_veh_ghost_grunt_01</TargetType>
+			<TargetType>heretic_veh_ghost_01</TargetType>
+			<Action>SwipMeleeAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>BashMeleeAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

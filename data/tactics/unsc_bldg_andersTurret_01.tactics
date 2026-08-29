@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>LightCannon</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>300</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_lightCannon_01</Projectile>
+		<ImpactEffect size="Small">unsc_rifle_01</ImpactEffect>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>65</MaxRange>
+		<Accuracy>0.5</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Turret</Hardpoint>
+		<TargetPriority type="Infantry">8</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="Aircraft">8</TargetPriority>
+		<TargetPriority type="Turretbuilding">3</TargetPriority>
+		<TargetPriority type="building">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>Laser</Name>
+		<AttackRate>0.1</AttackRate>
+		<DamagePerSecond>1</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_laserdesignator_01</Projectile>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>65</MaxRange>
+		<Hardpoint>LaserDesignator</Hardpoint>
+		<Accuracy>0.2</Accuracy>
+		<MaxDeviation>4</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="Infantry">8</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="Aircraft">8</TargetPriority>
+		<TargetPriority type="Turretbuilding">3</TargetPriority>
+		<TargetPriority type="building">1</TargetPriority>
+	</Weapon>
+	<Action>
+		<Name>LaserDesignatorAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>LaserDesignation</Anim>
+		<Weapon>Laser</Weapon>
+		<Strafing maxDistance="45" turnRate="360" trackingSpeed="90" jitter="20" />
+		<Beam collideWithUnits="true" collideWithTerrain="true" />
+		<MainAttack />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>LightCannonAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>MachinegunAttack</Anim>
+		<Weapon>LightCannon</Weapon>
+		<Strafing maxDistance="45" turnRate="360" trackingSpeed="90" jitter="20" />
+		<MainAttack />
+		<PersistBetweenOpps />
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>LaserDesignatorAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>LightCannonAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>2</WorkRate>
+		<WorkRange>1</WorkRange>
+	</Action>
+	<Action>
+		<Name>Deflect_01</Name>
+		<ActionType>Deflect</ActionType>
+		<DeflectChanceMin>0.8</DeflectChanceMin>
+		<DeflectChanceMax>0.8</DeflectChanceMax>
+		<DeflectMaxAngle>360</DeflectMaxAngle>
+		<DeflectCooldown>0</DeflectCooldown>
+		<MultiDeflect />
+		<SmallArms />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>MedicHeal</Name>
+		<ActionType>Heal</ActionType>
+		<WorkRate>100</WorkRate>
+		<MinIdleDuration>0</MinIdleDuration>
+		<StartDisabled />
+	</Action>
+	<Tactic>
+		<PersistentAction>Deflect_01</PersistentAction>
+		<PersistentAction>MedicHeal</PersistentAction>
+		<PersistentAction>GatherSupplies</PersistentAction>
+	</Tactic>
+</TacticData>

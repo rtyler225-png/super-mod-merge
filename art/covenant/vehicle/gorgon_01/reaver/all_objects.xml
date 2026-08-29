@@ -1,0 +1,97 @@
+<Object name="cov_veh_gorgon_01_base" dbid="9688193681871967002">
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>units\covenant\vehicles\gorgon01\gorgon01.vis</Visual>
+		<PhysicsInfo>units\covenant\vehicles\gorgon01\physics\intact</PhysicsInfo>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<DisplayNameID>26140</DisplayNameID>
+		<RolloverTextID>26141</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Hardpoint name="RocketLauncher_Left" autocenter="true" yawrate="360" pitchrate="0" yawMaxAngle="0" yawattachment="RocketLauncher_Left" pitchattachment="RocketLauncher_Left" />
+		<Hardpoint name="RocketLauncher_Right" autocenter="true" yawrate="360" pitchrate="0" yawMaxAngle="0" yawattachment="RocketLauncher_Right" pitchattachment="RocketLauncher_Right" />
+		<Hardpoint name="AutocannonTurret" autocenter="true" yawrate="240" pitchrate="90" pitchMinAngle="-30" pitchMaxAngle="45" yawMinAngle="-70" yawMaxAngle="70" yawattachment="AutocannonTurret" pitchattachment="AutocannonTurret" />
+		<Velocity>16</Velocity>
+		<Acceleration>11.5</Acceleration>
+		<TurnRate>120</TurnRate>
+		<Hitpoints>5100</Hitpoints>
+		<Shieldpoints>2500</Shieldpoints>
+		<AttackGradeDPS>185.5</AttackGradeDPS>
+		<CombatValue>8</CombatValue>
+		<LOS>75</LOS>
+		<StealthDetectionRange>50</StealthDetectionRange>
+		<Bounty>10</Bounty>
+		<Veterancy Level="1" XP="26" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="65" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="117" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+		<AmmoMax>610</AmmoMax>
+		<AmmoRegenRate>30</AmmoRegenRate>
+		<AbilityCommand>CovGorgonJump</AbilityCommand>
+		<Tactics>cov_veh_gorgon_01.tactics</Tactics>
+		<RepairPoints>75</RepairPoints>
+		<ObstructionRadiusX>3.01999998</ObstructionRadiusX>
+		<ObstructionRadiusY>5.36000013</ObstructionRadiusY>
+		<ObstructionRadiusZ>3.3499999</ObstructionRadiusZ>
+		<PickRadius>2.9000001</PickRadius>
+		<PickOffset>6.30000019</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Vehicle</GotoType>
+		<SubSelectSort>630</SubSelectSort>
+		<SelectedRadiusX>1.4145</SelectedRadiusX>
+		<SelectedRadiusZ>1.4145</SelectedRadiusZ>
+		<Sound Type="Create" />
+		<Sound Type="Death">PLAY_SFX_3D_VFX_MediumPlasmaDestruction</Sound>
+		<Sound Type="Select" />
+		<Sound Type="Work" />
+		<Sound Type="Attack" />
+		<Sound Type="Ability" />
+		<Sound Type="StartMove" />
+		<Sound Type="StopMove" />
+		<Sound Type="Exist" />
+		<Sound Type="StopExist" />
+		<ExtendedSoundBank />
+		<DamageType direction="Full">Shielded</DamageType>
+		<DamageType direction="Full">MediumAA</DamageType>
+		<ObjectType>KeepsInGame</ObjectType>
+		<ObjectType>Covenant</ObjectType>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>GroundVehicle</ObjectType>
+		<ObjectType>Mechanical</ObjectType>
+		<ObjectType>EmpEffectNormal</ObjectType>
+		<ObjectType>_CanKite</ObjectType>
+		<ObjectType>_CanDetectStealth</ObjectType>
+		<ObjectType>CyclopsRepairable</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>CanBeProtected</ObjectType>
+		<ObjectType>SpartanBoard</ObjectType>
+		<ObjectType>BasicVehicle</ObjectType>
+		<ObjectType>_AnalysableMove</ObjectType>
+		<ObjectType>_AnalysableDeath</ObjectType>
+		<ObjectType>_CanUseTeleporter</ObjectType>
+		<ObjectType>_AIControllable</ObjectType>
+		<ObjectType>Mech</ObjectType>
+		<SurfaceType>Metal</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>OrientUnitWithGround</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>Obscurable</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>NoCorpse</Flag>
+		<Flag>ShowInMinimap</Flag>
+		<HPBar>COV_HealthShield</HPBar>
+		<FreezeVfx>vfx_dlc4_units_freeze1medium</FreezeVfx>
+		<ShatterVfx>vfx_dlc4_units_shatter1medium</ShatterVfx>
+		<ThawVfx>vfx_dlc4_units_thaw1medium</ThawVfx>
+	</Object>
+	<Object name="cov_veh_gorgon_01_mp" parent_element="cov_veh_gorgon_01_base" dbid="8254375656621589818">
+		<Tactics>cov_veh_gorgon_01_mp.tactics</Tactics>
+		<Visual>units\covenant\vehicles\gorgon01\gorgon02.vis</Visual>
+		<LOS>75</LOS>
+		<StealthDetectionRange>75</StealthDetectionRange>
+	</Object>

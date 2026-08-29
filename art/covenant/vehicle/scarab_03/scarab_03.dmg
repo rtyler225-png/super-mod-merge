@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<damagetemplate>
+	<percentagebased>
+		<event />
+		<event>
+			<action type="attachparticle" effect="effects\building_fx\unsc\damage\reactorleak_01">bone_fx_methane_04</action>
+			<action type="throwpart" blueprint="lightpart">Leg_RF_01.001,Leg_RF_01,Leg_RF_02.002</action>
+		</event>
+		<event>
+			<action type="playsound">play_unsc_cobra_death</action>
+		</event>
+	</percentagebased>
+	<impactpointbased />
+	<cryopercentagebased>
+		<event />
+		<event />
+		<event />
+		<event />
+		<event>
+			<action type="attachparticle" effect="effects\cryo_bomb\unit_freezing_large">GrannyRootBone</action>
+			<action type="playsound">play_cryo_bomb_freezing</action>
+		</event>
+	</cryopercentagebased>
+	<shatterdeathevent>
+		<action type="attachparticle" effect="effects\cryo_bomb\unit_shatter_large">GrannyRootBone</action>
+		<action type="throwpart" blueprint="icePart" impactsound="impact_large_metal" streamereffect="effects\fire\flaming_debris_02" releaseeffect="effects\building_fx\unsc\damage\techdamage_01">barracks10</action>
+		<action type="throwpart" blueprint="icePart">barracks1,barracks7,barracks12,object01</action>
+		<action type="throwpart" blueprint="icePart">barracks6</action>
+		<action type="throwpart" blueprint="icePart">barracks8,barracks11</action>
+		<action type="throwpart" blueprint="icePart">barracks3,barracks13</action>
+		<action type="throwpart" blueprint="icePart">barracks2,barracks5</action>
+		<action type="throwpart" blueprint="icePart">barracks4,barracks9</action>
+		<action type="playsound">play_cryo_impact</action>
+	</shatterdeathevent>
+</damagetemplate>

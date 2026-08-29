@@ -1,0 +1,14 @@
+*.ddx filter=lfs diff=lfs merge=lfs -text
+*.ugx filter=lfs diff=lfs merge=lfs -text
+*.xtd filter=lfs diff=lfs merge=lfs -text
+*.xtt filter=lfs diff=lfs merge=lfs -text
+*.lrp filter=lfs diff=lfs merge=lfs -text
+*.uax filter=lfs diff=lfs merge=lfs -text
+*.dds filter=lfs diff=lfs merge=lfs -text
+*.scn filter=lfs diff=lfs merge=lfs -text
+*.swf filter=lfs diff=lfs merge=lfs -text
+*.triggerscript filter=lfs diff=lfs merge=lfs -text
+*.vis filter=lfs diff=lfs merge=lfs -text
+*.xth filter=lfs diff=lfs merge=lfs -text
+*.xsd filter=lfs diff=lfs merge=lfs -text
+*.xcf filter=lfs diff=lfs merge=lfs -text

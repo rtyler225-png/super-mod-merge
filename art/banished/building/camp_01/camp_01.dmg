@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<damagetemplate>
+	<percentagebased>
+		<event>
+			<action type="attachparticle" effect="effects\building_fx\cov\damage\plasmafire_03">MiniHouse2</action>
+			<action type="throwpart" blueprint="heavypart">MiniHouse2Top,MiniHouseDown</action>
+		</event>
+		<event>
+			<action type="attachparticle" effect="effects\building_fx\cov\damage\plasmafire_01">MiniHouse</action>
+			<action type="throwpart">MiniHouseTop</action>
+		</event>
+		<event>
+			<action type="throwpart">Radar</action>
+			<action type="throwpart">LargeCrate</action>
+			<action type="attachparticle" effect="effects\building_fx\cov\damage\plasmafire_01">Ghost</action>
+			<action type="swappart">House,Housedamaged</action>
+			<action type="playsound">play_impact_building_damage_release_explosion_med</action>
+		</event>
+		<event>
+			<action type="attachparticle" effect="effects\building_fx\cov\damage\plasmafire_01">Housedamaged</action>
+		</event>
+		<event>
+			<action type="throwpart" impactsound="impact_large_metal" blueprint="heavypart" streamereffect="effects\building_FX\cov\damage\smallelectricity_01">Camp,Barracks</action>
+			<action type="throwpart" blueprint="heavypart" streamereffect="effects\building_FX\cov\damage\smallelectricity_01">CampParts</action>
+			<action type="throwpart" blueprint="heavypart" streamereffect="effects\building_FX\cov\damage\smallelectricity_01">Crates</action>
+			<action type="throwpart" blueprint="heavypart" streamereffect="effects\building_FX\cov\damage\smallelectricity_01">MiniHouse,MiniHouse2</action>
+			<action type="throwpart" blueprint="heavypart" streamereffect="effects\building_FX\cov\damage\smallelectricity_01">Housedamaged</action>
+			<action type="attachparticle" effect="effects\building_fx\cov\damage\buildingdeath_01">Camp</action>
+			<action type="attachparticle" effect="effects\building_fx\cov\damage\buildingdeath_01">grannyrootbone</action>
+			<action type="attachparticle" effect="effects\building_fx\cov\damage\buildingdeath_01">Barracks</action>
+			<action type="playsound">play_impact_building_damage_release_explosion</action>
+			<action type="playsound">play_impact_death_vulture</action>
+		</event>
+	</percentagebased>
+	<impactpointbased />
+	<cryopercentagebased>
+		<event />
+		<event />
+		<event />
+		<event />
+		<event />
+	</cryopercentagebased>
+	<shatterdeathevent>
+		<action type="attachparticle" effect="effects\cryo_bomb\unit_shatter_medium">GrannyRootBone</action>
+		<action type="throwattachment" blueprint="icePart" streamereffect="effects\building_FX\cov\damage\smallelectricity_01">boneturret</action>
+	</shatterdeathevent>
+</damagetemplate>

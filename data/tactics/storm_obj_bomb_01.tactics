@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Bomb</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>4500</DamagePerSecond>
+		<DOTrate>10</DOTrate>
+		<DOTduration>4</DOTduration>
+		<DOTEffect small="fx_proj_plasmadotSm_01" medium="fx_proj_plasmadotMed_01" large="fx_proj_plasmadotLg_01">fx_proj_plasmadot_01</DOTEffect>
+		<UseDPSasDPA />
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_missile_01</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxRange>4</MaxRange>
+		<AOERadius>8</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>600</PhysicsForceMax>
+		<TargetPriority type="Infantry">10</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>None</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<WeaponType>Explosive</WeaponType>
+		<MaxRange>1</MaxRange>
+	</Weapon>
+	<Action>
+		<Name>Detonate</Name>
+		<ActionType>Detonate</ActionType>
+		<Weapon>Bomb</Weapon>
+		<DetonateWhenInRange>true</DetonateWhenInRange>
+	</Action>
+	<Action>
+		<Name>RunAtAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim>None</Anim>
+		<Weapon>None</Weapon>
+		<MainAttack />
+		<Infection />
+	</Action>
+	<Tactic>
+		<PersistentAction>Detonate</PersistentAction>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>RunAtAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

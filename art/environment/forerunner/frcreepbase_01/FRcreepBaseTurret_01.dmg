@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<damagetemplate>
+	<percentagebased>
+		<event>
+			<action type="attachparticle" effect="effects\environment\harvest\electricaldamage_01">Bone Turret</action>
+		</event>
+		<event />
+		<event>
+			<action type="attachparticle" effect="effects\environment\harvest\electricaldamage_01">Bone Turret</action>
+		</event>
+		<event />
+		<event>
+			<action type="attachparticle" effect="effects\environment\harvest\electricaldamage_01">Bone Turret</action>
+		</event>
+		<event />
+		<event>
+			<action type="attachparticle" effect="effects\environment\harvest\electricaldamage_01">Bone Turret</action>
+			<action type="throwattachment" impactsound="impact_large_metal" streamereffect="effects\building_fx\unsc\damage\techdamage_01" releaseeffect="effects\building_fx\unsc\damage\techdamage_01">Bone Turret</action>
+		</event>
+	</percentagebased>
+	<impactpointbased />
+	<cryopercentagebased>
+		<event />
+		<event />
+		<event />
+		<event />
+		<event>
+			<action type="attachparticle" effect="effects\cryo_bomb\unit_freezing_large">Bone Turret</action>
+			<action type="playsound">play_cryo_bomb_freezing</action>
+		</event>
+	</cryopercentagebased>
+	<shatterdeathevent>
+		<action type="attachparticle" effect="effects\environment\harvest\electricaldamage_01">Bone Turret</action>
+		<action type="throwattachment" blueprint="icePart" impactsound="impact_large_metal" releaseeffect="effects\building_fx\unsc\damage\techdamage_01">Bone Turret</action>
+		<action type="playsound">play_cryo_impact</action>
+	</shatterdeathevent>
+</damagetemplate>

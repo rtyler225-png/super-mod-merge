@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>RepairOther</Name>
+		<ActionType>RepairOther</ActionType>
+		<Anim>Repair</Anim>
+		<WorkRange>20</WorkRange>
+		<WorkRate>1</WorkRate>
+		<AllowReinforce />
+		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="0.999" AutoRepairSearchDistance="60" />
+		<ProtoObject bone="GrannyRootBone">fx_covhealbeam</ProtoObject>
+		<StartDisabled />
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetState>Damaged</TargetState>
+			<Action>RepairOther</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

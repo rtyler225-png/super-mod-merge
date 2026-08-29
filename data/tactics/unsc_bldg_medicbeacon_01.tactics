@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>RepairOther</Name>
+		<ActionType>RepairOther</ActionType>
+		<Anim>Heal</Anim>
+		<WorkRange>24</WorkRange>
+		<WorkRate>0.15</WorkRate>
+		<AllowReinforce />
+		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="0.99" AutoRepairSearchDistance="45" />
+		<ProtoObject bone="bone_fx01">fx_covhealbeam</ProtoObject>
+	</Action>
+	<Action>
+		<Name>RepairScarab</Name>
+		<ActionType>RepairOther</ActionType>
+		<Anim>Heal</Anim>
+		<WorkRange>24</WorkRange>
+		<WorkRate>0.15</WorkRate>
+		<AllowReinforce />
+		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="0.99" AutoRepairSearchDistance="45" />
+		<ProtoObject bone="bone_fx01">fx_covhealbeam</ProtoObject>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Military</TargetType>
+			<Action>RepairOther</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>cov_veh_scarab_01</TargetType>
+			<TargetType>cov_veh_scarab_02</TargetType>
+			<Action>RepairScarab</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<damagetemplate>
+	<percentagebased>
+		<event />
+		<event>
+			<action type="attachparticle" effect="effects\building_fx\unsc\damage\LoopingSmokeFire_02">GrannyRootBone</action>
+		</event>
+		<event>
+			<action type="hidepart">interior</action>
+			<action type="throwpart" streamereffect="effects\fire\flaming_debris_02">back</action>
+			<action type="throwpart" streamereffect="effects\fire\flaming_debris_02">back_damaged</action>
+			<action type="throwpart" streamereffect="effects\fire\flaming_debris_02">front</action>
+			<action type="throwpart" streamereffect="effects\fire\flaming_debris_02">front_damaged</action>
+			<action type="throwattachment" streamereffect="effects\fire\flaming_debris_02">bone_wheel_01</action>
+			<action type="throwattachment" streamereffect="effects\fire\flaming_debris_02">bone_wheel_02</action>
+			<action type="throwattachment" streamereffect="effects\fire\flaming_debris_02">bone_wheel_03</action>
+			<action type="throwattachment" streamereffect="effects\fire\flaming_debris_02">bone_wheel_04</action>
+			<action type="throwpart">front_right</action>
+			<action type="throwpart">front_right_damaged</action>
+			<action type="throwpart">front_left</action>
+			<action type="throwpart">front_left_damaged</action>
+			<action type="playsound">play_unsc_warthog_death</action>
+		</event>
+	</percentagebased>
+	<impactpointbased>
+		<impactpoint name="bone_impact_01" bone="bone_impact_01">
+			<event>
+				<action type="swappart">front,front_damaged</action>
+				<action type="playsound">play_warthog_damage</action>
+				<action type="attachparticle" effect="effects\building_fx\unsc\damage\techdamage_01">front_damaged</action>
+			</event>
+		</impactpoint>
+		<impactpoint name="bone_impact_02" bone="bone_impact_02">
+			<event>
+				<action type="swappart">front_right,front_right_damaged</action>
+				<action type="attachparticle" effect="effects\building_fx\unsc\damage\techdamage_01">front_right_damaged</action>
+			</event>
+		</impactpoint>
+		<impactpoint name="bone_impact_03" bone="bone_impact_03">
+			<event>
+				<action type="swappart">back,back_damaged</action>
+				<action type="attachparticle" effect="effects\building_fx\unsc\damage\techdamage_01">back_damaged</action>
+			</event>
+		</impactpoint>
+		<impactpoint name="bone_impact_04" bone="bone_impact_04">
+			<event>
+				<action type="swappart">back,back_damaged</action>
+				<action type="playsound">play_warthog_damage</action>
+				<action type="attachparticle" effect="effects\building_fx\unsc\damage\techdamage_01">back_damaged</action>
+			</event>
+		</impactpoint>
+		<impactpoint name="bone_impact_05" bone="bone_impact_05">
+			<event>
+				<action type="swappart">front_left,front_left_damaged</action>
+				<action type="attachparticle" effect="effects\building_fx\unsc\damage\techdamage_01">front_left_damaged</action>
+			</event>
+		</impactpoint>
+	</impactpointbased>
+	<cryopercentagebased>
+		<event />
+		<event />
+		<event />
+		<event />
+		<event>
+			<action type="attachparticle" effect="effects\cryo_bomb\unit_freezing_medium">GrannyRootBone</action>
+			<action type="playsound">play_cryo_bomb_freezing</action>
+		</event>
+	</cryopercentagebased>
+	<shatterdeathevent>
+		<action type="attachparticle" effect="effects\cryo_bomb\unit_shatter_medium">GrannyRootBone</action>
+		<action type="playsound">play_cryo_impact</action>
+	</shatterdeathevent>
+</damagetemplate>

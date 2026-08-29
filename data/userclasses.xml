@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<UserClasses xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<UserClass DBID="0" Name="TechBuildList">
+		<Fields Name="Tech" Type="Tech" />
+		<Fields Name="Priority" Type="Integer" />
+	</UserClass>
+	<UserClass DBID="1" Name="SquadBuildList">
+		<Fields Name="Squad" Type="ProtoSquad" />
+		<Fields Name="Count" Type="Integer" />
+	</UserClass>
+	<UserClass DBID="2" Name="TechUpgradeTable">
+		<Fields Name="Tech" Type="Tech" />
+		<Fields Name="SquadType" Type="ObjectType" />
+		<Fields Name="NumRequired" Type="Integer" />
+	</UserClass>
+	<UserClass DBID="3" Name="BuildingBuildList">
+		<Fields Name="Building" Type="ObjectType" />
+		<Fields Name="BuildCount" Type="Integer" />
+		<Fields Name="Priority" Type="Integer" />
+	</UserClass>
+	<UserClass DBID="4" Name="FBSBuildingBuildList">
+ 		<Fields Name="Building" Type="ObjectType" />
+ 		<Fields Name="BuildCount" Type="Integer" />
+ 		<Fields Name="Priority" Type="Integer" />
+ 	</UserClass>
+ 	<UserClass DBID="5" Name="FF_Settings">
+ 		<Fields Name="WaveLimit" Type="Integer" />
+ 		<Fields Name="WaveSizeScale" Type="Float" />
+ 		<Fields Name="DamageInMultiplier" Type="Float" />
+ 		<Fields Name="DamageOutMultiplier" Type="Float" />
+ 		<Fields Name="IncreasingWaveStrenght" Type="Float" />
+ 		<Fields Name="NerfInitialTroops" Type="Bool" />
+ 		<Fields Name="NerfTech" Type="Tech" />
+ 		<Fields Name="NerfWave" Type="Integer" />
+ 		<Fields Name="PlayerIncomeRate" Type="Float" />
+ 		<Fields Name="FirstTimer" Type="Time" />
+ 		<Fields Name="SetFile1" Type="String" />
+ 		<Fields Name="SetFile2" Type="String" />
+ 		<Fields Name="SetFile3" Type="String" />
+ 		<Fields Name="SetFile4" Type="String" />
+ 		<Fields Name="SetFile5" Type="String" />
+ 		<Fields Name="InitialWave" Type="Techlist" />
+ 		<Fields Name="10thWave" Type="Techlist" />
+ 		<Fields Name="2ndTechWave" Type="Integer" />
+ 		<Fields Name="25thWave" Type="Techlist" />
+ 		<Fields Name="3rdTechWave" Type="Integer" />
+ 		<Fields Name="40thWave" Type="Techlist" />
+ 		<Fields Name="4thTechWave" Type="Integer" />
+ 	</UserClass>
+ 	<UserClass DBID="6" Name="FF_WaveList">
+ 		<Fields Name="Composition" Type="ProtoSquadList" />
+ 		<Fields Name="TimeBetweenWaves" Type="Time" />
+ 		<Fields Name="TableRowString" Type="LocStringID" />
+ 		<Fields Name="HotDropAble" Type="Bool" />
+ 		<Fields Name="DropChance" Type="Integer" />
+ 		<Fields Name="AirDrop" Type="ProtoObject" />
+ 	</UserClass>
+ 	<UserClass DBID="7" Name="FF_PlayerSettings">
+ 		<Fields Name="RessourceBonus" Type="Cost" />
+ 		<Fields Name="Faction1" Type="Civ" />
+ 		<Fields Name="Faction1Composition" Type="ProtoSquadList" />
+ 		<Fields Name="Faction1Techlist" Type="Techlist" />
+ 		<Fields Name="Faction1Production" Type="ProtoObject" />
+ 		<Fields Name="Faction1ProductionAmount" Type="Integer" />
+ 		<Fields Name="Faction1Turret" Type="ProtoObject" />
+ 		<Fields Name="Faction1TurretAmount" Type="Integer" />
+ 		<Fields Name="Faction2" Type="Civ" />
+ 		<Fields Name="Faction2Composition" Type="ProtoSquadList" />
+ 		<Fields Name="Faction2Techlist" Type="Techlist" />
+ 		<Fields Name="Faction2Production" Type="ProtoObject" />
+ 		<Fields Name="Faction2ProductionAmount" Type="Integer" />
+ 		<Fields Name="Faction2Turret" Type="ProtoObject" />
+ 		<Fields Name="Faction2TurretAmount" Type="Integer" />
+ 		<Fields Name="Faction3" Type="Civ" />
+ 		<Fields Name="Faction3Composition" Type="ProtoSquadList" />
+ 		<Fields Name="Faction3Techlist" Type="Techlist" />
+ 		<Fields Name="Faction3Production" Type="ProtoObject" />
+ 		<Fields Name="Faction3ProductionAmount" Type="Integer" />
+ 		<Fields Name="Faction3Turret" Type="ProtoObject" />
+ 		<Fields Name="Faction3TurretAmount" Type="Integer" />
+ 		<Fields Name="Faction4" Type="Civ" />
+ 		<Fields Name="Faction4Composition" Type="ProtoSquadList" />
+ 		<Fields Name="Faction4Techlist" Type="Techlist" />
+ 		<Fields Name="Faction4Production" Type="ProtoObject" />
+ 		<Fields Name="Faction4ProductionAmount" Type="Integer" />
+ 		<Fields Name="Faction4Turret" Type="ProtoObject" />
+ 		<Fields Name="Faction4TurretAmount" Type="Integer" />
+ 	</UserClass>
+</UserClasses>

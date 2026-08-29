@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>StandardWeapon</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>250</DamagePerSecond>
+		<WeaponType>Fire</WeaponType>
+		<Projectile>fx_proj_shadePlasma_03</Projectile>
+		<ImpactEffect size="Medium">unsc_spartanlaser_01</ImpactEffect>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<MaxRange>85</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1.5</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<AOERadius>5</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.25</AOEDamageFactor>
+		<TargetPriority type="Aircraft">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="Infantry">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<UseGroupRange />
+		<Hardpoint>Gun_Standard</Hardpoint>
+	</Weapon>
+	<Action>
+		<Name>StandardAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<Weapon>StandardWeapon</Weapon>
+		<FullBodyAttackAnim />
+	</Action>
+	<Action>
+		<Name>MedicHeal</Name>
+		<ActionType>Heal</ActionType>
+		<WorkRate>100</WorkRate>
+		<MinIdleDuration>3</MinIdleDuration>
+		<StartDisabled />
+	</Action>
+	<Tactic>
+		<PersistentAction>MedicHeal</PersistentAction>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>StandardAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

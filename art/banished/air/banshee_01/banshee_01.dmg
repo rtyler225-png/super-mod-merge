@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<damagetemplate>
+	<percentagebased>
+		<event />
+		<event>
+			<action type="throwpart">ShieldGen_L</action>
+		</event>
+		<event>
+			<action type="attachparticle" effect="effects\building_fx\cov\damage\plasmafire_01">Base</action>
+			<action type="throwpart" impactsound="impact_med_metal" streamereffect="effects\building_FX\cov\damage\smallelectricity_01">WingPlate4_L</action>
+		</event>
+		<event>
+			<action type="throwpart">ShieldGen_R,WingBack_R</action>
+			<action type="throwpart">EyeRight</action>
+		</event>
+		<event>
+			<action type="throwpart">MovingWingL,WingPlate4_R</action>
+		</event>
+		<event>
+			<action type="throwpart">Wing_L,WingPlate1_L,WingPlate2_L,WingPlate3_L,WingPlate4_L</action>
+			<action type="throwpart" impactsound="impact_med_metal" streamereffect="effects\building_FX\cov\damage\smallelectricity_01">Wing_R,WingPlate1_R,WingPlate2_R,WingPlate3_R,WingPlate4_R</action>
+			<action type="throwpart">WingBack_R,WingBack_L</action>
+			<action type="throwpart">MovingWingL,MovingWingR,ShieldGen_L,ShieldGen_R</action>
+			<action type="throwpart">EyeLeft,EyeRight,GunL,GunR</action>
+			<action type="throwpart">CockpitPlating1_L,CockpitPlating2_L,CockpitPlating3_L,CockpitPlating4_L</action>
+			<action type="throwpart">CockpitPlating1_R,CockpitPlating2_R,CockpitPlating3_R,CockpitPlating4_R</action>
+			<action type="throwpart">Cockpit</action>
+			<action type="throwpart">Base</action>
+			<action type="playsound">play_impact_building_damage_release_explosion_med</action>
+		</event>
+	</percentagebased>
+	<impactpointbased />
+	<cryopercentagebased>
+		<event />
+		<event />
+		<event />
+		<event />
+		<event>
+			<action type="attachparticle" effect="effects\cryo_bomb\unit_freezing_medium">GrannyRootBone</action>
+			<action type="playsound">play_cryo_bomb_freezing</action>
+		</event>
+	</cryopercentagebased>
+	<shatterdeathevent>
+		<action type="throwpart" blueprint="icePart" streamereffect="effects\building_FX\cov\damage\smallelectricity_01">Wing_R,WingPlate1_R,WingPlate2_R,WingPlate3_R,WingPlate4_R,MovingWingL,MovingWingR,ShieldGen_L,ShieldGen_R,CockpitPlating1_L,CockpitPlating2_L,CockpitPlating3_L,CockpitPlating4_L,CockpitPlating1_R,CockpitPlating2_R,CockpitPlating3_R,CockpitPlating4_R,Cockpit,Base</action>
+		<action type="throwpart" blueprint="icePart" impactsound="impact_med_metal" streamereffect="effects\building_FX\cov\damage\smallelectricity_01">Destroyeddamaged</action>
+		<action type="attachparticle" effect="effects\cryo_bomb\unit_shatter_medium">GrannyRootBone</action>
+		<action type="playsound">play_cryo_impact</action>
+	</shatterdeathevent>
+</damagetemplate>

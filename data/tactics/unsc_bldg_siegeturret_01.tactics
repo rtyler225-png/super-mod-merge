@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Artillery</Name>
+		<AttackRate>4</AttackRate>
+		<DamagePerSecond>250</DamagePerSecond>
+		<WeaponType>HeavyExplosive</WeaponType>
+		<Projectile>fx_proj_plasmaartillery_01</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxVelocityLead>32</MaxVelocityLead>
+		<MaxRange>300</MaxRange>
+		<MinRange>15</MinRange>
+		<Accuracy>0.5</Accuracy>
+		<MaxDeviation>4</MaxDeviation>
+		<MovingAccuracy>0.2</MovingAccuracy>
+		<MovingMaxDeviation>6</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOERadius>9</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<Hardpoint>Turret</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>600</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+		<TargetPriority type="Vehicle">10</TargetPriority>
+		<TargetPriority type="Infantry">8</TargetPriority>
+		<TargetPriority type="TurretBuilding">7</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<PreAttackCooldownMin>2</PreAttackCooldownMin>
+		<PreAttackCooldownMax>4</PreAttackCooldownMax>
+		<PostAttackCooldownMin>2</PostAttackCooldownMin>
+		<PostAttackCooldownMax>4</PostAttackCooldownMax>
+		<TargetsFootOfUnit />
+		<Dodgeable />
+		<UseGroupRange />
+	</Weapon>
+	<Weapon>
+		<Name>ArtilleryScorch</Name>
+		<AttackRate>4</AttackRate>
+		<DamagePerSecond>175</DamagePerSecond>
+		<UseDPSasDPA />
+		<Reapply>0.25</Reapply>
+		<Apply>3</Apply>
+		<DOTrate>8</DOTrate>
+		<DOTduration>10</DOTduration>
+		<DOTEffect small="fx_proj_plasmadotSm_01" medium="fx_proj_plasmadotMed_01" large="fx_proj_plasmadotLg_01">fx_proj_plasmadot_01</DOTEffect>
+		<WeaponType>HeavyExplosive</WeaponType>
+		<Projectile>fx_proj_plasmaburn_02</Projectile>
+		<ImpactEffect size="Medium">cov_plasmaburn_01</ImpactEffect>
+		<MaxVelocityLead>32</MaxVelocityLead>
+		<MaxRange>300</MaxRange>
+		<Accuracy>0.5</Accuracy>
+		<MaxDeviation>4</MaxDeviation>
+		<MovingAccuracy>0.2</MovingAccuracy>
+		<MovingMaxDeviation>6</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOERadius>8</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<Hardpoint>Turret</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>600</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+		<TargetPriority type="Vehicle">10</TargetPriority>
+		<TargetPriority type="Infantry">8</TargetPriority>
+		<TargetPriority type="TurretBuilding">7</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<PreAttackCooldownMin>2</PreAttackCooldownMin>
+		<PreAttackCooldownMax>4</PreAttackCooldownMax>
+		<PostAttackCooldownMin>2</PostAttackCooldownMin>
+		<PostAttackCooldownMax>4</PostAttackCooldownMax>
+		<TargetsFootOfUnit />
+		<Dodgeable />
+		<Deflectable />
+	</Weapon>
+	<Action>
+		<Name>ArtilleryAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>ArtilleryAttack</Anim>
+		<Weapon>Artillery</Weapon>
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>ArtilleryScorchAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>ArtilleryAttack</Anim>
+		<Weapon>ArtilleryScorch</Weapon>
+		<MainAttack />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>Deflect_01</Name>
+		<ActionType>Deflect</ActionType>
+		<DeflectChanceMin>0.8</DeflectChanceMin>
+		<DeflectChanceMax>0.8</DeflectChanceMax>
+		<DeflectMaxAngle>360</DeflectMaxAngle>
+		<DeflectCooldown>0</DeflectCooldown>
+		<MultiDeflect />
+		<SmallArms />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>MedicHeal</Name>
+		<ActionType>Heal</ActionType>
+		<WorkRate>100</WorkRate>
+		<MinIdleDuration>0</MinIdleDuration>
+		<StartDisabled />
+	</Action>
+	<Tactic>
+		<PersistentAction>Deflect_01</PersistentAction>
+		<PersistentAction>MedicHeal</PersistentAction>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>ArtilleryAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>ArtilleryScorchAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

@@ -1,0 +1,48 @@
+<Materials>
+    <Material>
+        <NameValues>
+            <SpecPower>50</SpecPower>
+            <SpecColorR>0.2</SpecColorR>
+            <SpecColorG>0.2</SpecColorG>
+            <SpecColorB>0.2</SpecColorB>
+            <EnvReflectivity>0</EnvReflectivity>
+            <EnvSharpness>1</EnvSharpness>
+            <EnvFresnel>0</EnvFresnel>
+            <EnvFresnelPower>4</EnvFresnelPower>
+            <AccessoryIndex>0</AccessoryIndex>
+            <Flags>1</Flags>
+            <BlendType>0</BlendType>
+            <Opacity>255</Opacity>
+        </NameValues>
+        <Maps>
+            <diffuse UVWVel="0,0,0">
+                <Map Name="\covenant\vehicle\shadow_01\shadow_01_df" Channel="0" Flags="7"/>
+            </diffuse>
+            <normal UVWVel="0,0,0">
+            </normal>
+            <gloss UVWVel="0,0,0">
+            </gloss>
+            <opacity UVWVel="0,0,0">
+            </opacity>
+            <xform UVWVel="0,0,0">
+                <Map Name="\covenant\vehicle\shadow_01\shadow_01_xf" Channel="0" Flags="7"/>
+            </xform>
+            <emissive UVWVel="0,0,0">
+            </emissive>
+            <ao UVWVel="0,0,0">
+            </ao>
+            <env UVWVel="0,0,0">
+            </env>
+            <envmask UVWVel="0,0,0">
+            </envmask>            
+            <emxform UVWVel="0,0,0">
+            </emxform>
+            <distortion UVWVel="0,0,0">
+            </distortion>
+            <highlight UVWVel="0,0,0">
+            </highlight>
+            <modulate UVWVel="0,0,0">
+            </modulate>
+        </Maps>
+    </Material>
+</Materials>

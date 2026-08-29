@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Objects>
+<!--New Objects-->
+		<Object IsSquad="false" Player="0" ID="10000063" TintValue="1" EditorName="env_shieldinterior_redriver_01_278" Position="444.9,-40,669.3" Forward="0.999899983,0,0.0164000001" Right="0.0164000001,0,-0.999899983" Group="3" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldinterior_redriver_01</Object>
+		<Object IsSquad="false" Player="0" ID="10000063" TintValue="1" EditorName="env_shieldinterior_redriver_01_278" Position="300,-40.1,715" Forward="0.999899983,0,0.0164000001" Right="0.0164000001,0,-0.999899983" Group="3" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldinterior_redriver_01</Object>
+<!--End of New Objects-->
+		<Object IsSquad="false" Player="2" ID="10004862" TintValue="1" EditorName="cpgn_scn06_oniawning_01_11733" Position="761.772522,23.2273998,1279.23999" Forward="0,0,1" Right="1,0,0" Group="3" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>cpgn_scn06_oniawning_01</Object>
+		<Object IsSquad="false" Player="2" ID="10004864" TintValue="1" EditorName="cpgn_scn06_oniawning_01_11735" Position="345.106598,23.2273998,1278.37903" Forward="0,0,1" Right="1,0,0" Group="3" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>cpgn_scn06_oniawning_01</Object>
+		<Object IsSquad="false" Player="2" ID="10004863" TintValue="1" EditorName="cpgn_scn06_oniawning_01_11734" Position="935.094727,23.2273998,1279.06299" Forward="0,0,1" Right="1,0,0" Group="3" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>cpgn_scn06_oniawning_01</Object>
+		<Object IsSquad="false" Player="2" ID="10004861" TintValue="1" EditorName="cpgn_scn06_oniawning_01_11732" Position="681.165527,23.2273998,1279.05103" Forward="0,0,1" Right="1,0,0" Group="3" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>cpgn_scn06_oniawning_01</Object>
+		<Object IsSquad="false" Player="2" ID="10004860" TintValue="1" EditorName="cpgn_scn06_oniawning_01_11731" Position="600.628174,23.2273998,1278.95605" Forward="0,0,1" Right="1,0,0" Group="3" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>cpgn_scn06_oniawning_01</Object>
+		<Object IsSquad="false" Player="2" ID="10004858" TintValue="1" EditorName="cpgn_scn06_oniawning_01_11729" Position="520.24469,23.2273998,1278.66394" Forward="0,0,1" Right="1,0,0" Group="3" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>cpgn_scn06_oniawning_01</Object>
+		<Object IsSquad="false" Player="0" ID="10005076" TintValue="1" EditorName="cpgn_scn06_onifence_02_11948" Position="501.90329,10.4337997,292.678497" Forward="-0.745700002,0,-0.666299999" Right="-0.666299999,0,0.745700002" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005077" TintValue="1" EditorName="cpgn_scn06_onifence_02_11949" Position="499.528503,10.8233004,295.297089" Forward="-0.745700002,0,-0.666299999" Right="-0.666299999,0,0.745700002" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005078" TintValue="1" EditorName="cpgn_scn06_onifence_02_11950" Position="497.287415,11.1632004,297.807007" Forward="-0.745700002,0,-0.666299999" Right="-0.666299999,0,0.745700002" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005073" TintValue="1" EditorName="cpgn_scn06_onifence_02_11945" Position="507.927399,10.9250002,285.386993" Forward="-0.745700002,0,-0.666299999" Right="-0.666299999,0,0.745700002" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005074" TintValue="1" EditorName="cpgn_scn06_onifence_02_11946" Position="506.304993,10.5913,287.571411" Forward="-0.745700002,0,-0.666299999" Right="-0.666299999,0,0.745700002" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005075" TintValue="1" EditorName="cpgn_scn06_onifence_02_11947" Position="504.16861,10.3859997,290.098694" Forward="-0.745700002,0,-0.666299999" Right="-0.666299999,0,0.745700002" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005079" TintValue="1" EditorName="cpgn_scn06_onifence_02_11951" Position="532.218628,16.0028,254.518707" Forward="-0.335000008,0,-0.942200005" Right="-0.942200005,0,0.335000008" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005083" TintValue="1" EditorName="cpgn_scn06_onifence_02_11955" Position="495.113892,11.4688997,303.225708" Forward="-0.973800004,0,-0.227200001" Right="-0.227200001,0,0.973800004" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005084" TintValue="1" EditorName="cpgn_scn06_onifence_02_11956" Position="494.575592,11.4293003,306.295807" Forward="-0.973800004,0,-0.227200001" Right="-0.227200001,0,0.973800004" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005085" TintValue="1" EditorName="cpgn_scn06_onifence_02_11957" Position="494.234192,11.4539003,309.319489" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005080" TintValue="1" EditorName="cpgn_scn06_onifence_02_11952" Position="535.414978,15.4088001,254.101807" Forward="-0.141100004,0,-0.99000001" Right="-0.99000001,0,0.141100004" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005081" TintValue="1" EditorName="cpgn_scn06_onifence_02_11953" Position="539.191223,14.1626997,254.775604" Forward="0.0584000014,0,-0.998300016" Right="-0.998300016,0,-0.0584000014" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005082" TintValue="1" EditorName="cpgn_scn06_onifence_02_11954" Position="495.69519,11.5165005,300.338013" Forward="-0.94630003,0,-0.323300004" Right="-0.323300004,0,0.94630003" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005072" TintValue="1" EditorName="cpgn_scn06_onifence_02_11944" Position="509.587799,11.2565002,283.236206" Forward="-0.745700002,0,-0.666299999" Right="-0.666299999,0,0.745700002" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005062" TintValue="1" EditorName="cpgn_scn06_onifence_02_11934" Position="527.143799,14.5632,260.476898" Forward="-0.745700002,0,-0.666299999" Right="-0.666299999,0,0.745700002" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005063" TintValue="1" EditorName="cpgn_scn06_onifence_02_11935" Position="525.426514,14.2343998,262.744598" Forward="-0.745700002,0,-0.666299999" Right="-0.666299999,0,0.745700002" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005064" TintValue="1" EditorName="cpgn_scn06_onifence_02_11936" Position="523.63092,14.0178003,264.917206" Forward="-0.745700002,0,-0.666299999" Right="-0.666299999,0,0.745700002" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005114" TintValue="1" EditorName="cpgn_scn06_onifence_02_11986" Position="763.131714,14.1328001,292.873901" Forward="0.961300015,0,-0.275599986" Right="-0.275599986,0,-0.961300015" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005060" TintValue="1" EditorName="cpgn_scn06_onifence_02_11932" Position="530.298218,15.4618998,256.139496" Forward="-0.745700002,0,-0.666299999" Right="-0.666299999,0,0.745700002" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005061" TintValue="1" EditorName="cpgn_scn06_onifence_02_11933" Position="528.807922,14.9741001,258.342896" Forward="-0.745700002,0,-0.666299999" Right="-0.666299999,0,0.745700002" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005065" TintValue="1" EditorName="cpgn_scn06_onifence_02_11937" Position="521.534729,13.7219,267.289703" Forward="-0.745700002,0,-0.666299999" Right="-0.666299999,0,0.745700002" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005069" TintValue="1" EditorName="cpgn_scn06_onifence_02_11941" Position="514.520325,12.3738003,276.904999" Forward="-0.745700002,0,-0.666299999" Right="-0.666299999,0,0.745700002" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005070" TintValue="1" EditorName="cpgn_scn06_onifence_02_11942" Position="512.814087,12.0675001,279.026794" Forward="-0.745700002,0,-0.666299999" Right="-0.666299999,0,0.745700002" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005071" TintValue="1" EditorName="cpgn_scn06_onifence_02_11943" Position="511.152191,11.6830997,281.160706" Forward="-0.745700002,0,-0.666299999" Right="-0.666299999,0,0.745700002" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005066" TintValue="1" EditorName="cpgn_scn06_onifence_02_11938" Position="519.557373,13.5769997,269.677704" Forward="-0.745700002,0,-0.666299999" Right="-0.666299999,0,0.745700002" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005067" TintValue="1" EditorName="cpgn_scn06_onifence_02_11939" Position="517.76947,13.1971998,271.971985" Forward="-0.745700002,0,-0.666299999" Right="-0.666299999,0,0.745700002" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005068" TintValue="1" EditorName="cpgn_scn06_onifence_02_11940" Position="516.030823,12.8162003,274.143188" Forward="-0.745700002,0,-0.666299999" Right="-0.666299999,0,0.745700002" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005086" TintValue="1" EditorName="cpgn_scn06_onifence_02_11958" Position="493.850189,11.5015001,312.587799" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005104" TintValue="1" EditorName="cpgn_scn06_onifence_02_11976" Position="754.92157,14.1201,262.657593" Forward="0.711499989,0,-0.702700019" Right="-0.702700019,0,-0.711499989" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005105" TintValue="1" EditorName="cpgn_scn06_onifence_02_11977" Position="756.474915,13.6484003,265.224304" Forward="0.836899996,0,-0.547399998" Right="-0.547399998,0,-0.836899996" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005106" TintValue="1" EditorName="cpgn_scn06_onifence_02_11978" Position="757.61792,13.2784996,267.891907" Forward="0.92900002,0,-0.370200008" Right="-0.370200008,0,-0.92900002" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005101" TintValue="1" EditorName="cpgn_scn06_onifence_02_11973" Position="747.129028,14.8558998,258.627991" Forward="0.190400004,0,-0.981700003" Right="-0.981700003,0,-0.190400004" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005102" TintValue="1" EditorName="cpgn_scn06_onifence_02_11974" Position="750.06073,14.6386995,259.307312" Forward="0.381700009,0,-0.924300015" Right="-0.924300015,0,-0.381700009" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005103" TintValue="1" EditorName="cpgn_scn06_onifence_02_11975" Position="752.65033,14.4169998,260.846008" Forward="0.557699978,0,-0.8301" Right="-0.8301,0,-0.557699978" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005107" TintValue="1" EditorName="cpgn_scn06_onifence_02_11979" Position="758.555725,12.9426003,270.876495" Forward="0.961300015,0,-0.275599986" Right="-0.275599986,0,-0.961300015" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005111" TintValue="1" EditorName="cpgn_scn06_onifence_02_11983" Position="761.128296,12.9253998,283.332397" Forward="0.984000027,0,-0.178200006" Right="-0.178200006,0,-0.984000027" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005112" TintValue="1" EditorName="cpgn_scn06_onifence_02_11984" Position="761.249329,13.0811996,286.562408" Forward="0.996900022,0,-0.0790999979" Right="-0.0790999979,0,-0.996900022" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005113" TintValue="1" EditorName="cpgn_scn06_onifence_02_11985" Position="762.05719,13.5374002,289.838593" Forward="0.984000027,0,-0.178200006" Right="-0.178200006,0,-0.984000027" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005108" TintValue="1" EditorName="cpgn_scn06_onifence_02_11980" Position="759.379578,12.7663002,273.995209" Forward="0.961300015,0,-0.275599986" Right="-0.275599986,0,-0.961300015" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005109" TintValue="1" EditorName="cpgn_scn06_onifence_02_11981" Position="759.969421,12.6633997,277.016998" Forward="0.984000027,0,-0.178200006" Right="-0.178200006,0,-0.984000027" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005110" TintValue="1" EditorName="cpgn_scn06_onifence_02_11982" Position="760.557312,12.7594995,280.132111" Forward="0.984000027,0,-0.178200006" Right="-0.178200006,0,-0.984000027" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005100" TintValue="1" EditorName="cpgn_scn06_onifence_02_11972" Position="491.105804,14.5718002,355.718597" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005090" TintValue="1" EditorName="cpgn_scn06_onifence_02_11962" Position="493.522705,11.8934002,324.608185" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005091" TintValue="1" EditorName="cpgn_scn06_onifence_02_11963" Position="492.864594,12.7353001,327.727386" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005092" TintValue="1" EditorName="cpgn_scn06_onifence_02_11964" Position="491.953308,14.0228996,330.76181" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005087" TintValue="1" EditorName="cpgn_scn06_onifence_02_11959" Position="493.587402,11.5595999,315.525604" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005088" TintValue="1" EditorName="cpgn_scn06_onifence_02_11960" Position="493.571411,11.5348997,318.484589" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005089" TintValue="1" EditorName="cpgn_scn06_onifence_02_11961" Position="493.666901,11.5566998,321.506409" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005093" TintValue="1" EditorName="cpgn_scn06_onifence_02_11965" Position="491.203705,15.4136,333.791687" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005097" TintValue="1" EditorName="cpgn_scn06_onifence_02_11969" Position="490.068512,16.5681,346.505005" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005098" TintValue="1" EditorName="cpgn_scn06_onifence_02_11970" Position="490.572205,15.6357002,349.467712" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005099" TintValue="1" EditorName="cpgn_scn06_onifence_02_11971" Position="490.723389,14.5857,352.696014" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005094" TintValue="1" EditorName="cpgn_scn06_onifence_02_11966" Position="490.362396,16.7509995,336.818512" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005095" TintValue="1" EditorName="cpgn_scn06_onifence_02_11967" Position="489.514587,17.7276993,340.304199" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005096" TintValue="1" EditorName="cpgn_scn06_onifence_02_11968" Position="489.564301,17.3516006,343.42749" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="7" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn06_onifence_02</Object>
+		<Object IsSquad="false" Player="2" ID="10004857" TintValue="1" EditorName="cpgn_scn06_onihanger_01_11728" Position="851.152527,23.2273998,1307.229" Forward="1,0,0" Right="0,0,-1" Group="3" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>cpgn_scn06_onihanger_01</Object>
+		<Object IsSquad="false" Player="2" ID="10004856" TintValue="1" EditorName="cpgn_scn06_onihanger_01_11727" Position="435.10611,23.2285995,1307.21704" Forward="1,0,0" Right="0,0,-1" Group="3" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>cpgn_scn06_onihanger_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004823" TintValue="1" EditorName="env_arcadia_FortDeenOniWalls_01_10123" Position="526.655579,-11.7890997,761.998413" Forward="0,0,1" Right="1,0,0" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>env_arcadia_FortDeenOniWalls_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004855" TintValue="1" EditorName="env_arcadia_FortDeenOniWalls_02_11724" Position="644.173096,5.90490007,352.418488" Forward="0,0,1" Right="1,0,0" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>env_arcadia_FortDeenOniWalls_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005118" TintValue="1" EditorName="env_arcadia_FortDeenStripes_01_11993" Position="639.172729,23.2273998,1073.34399" Forward="0,0,1" Right="1,0,0" Group="8" VisualVariationIndex="0">
+			<Flag>OrientUnitWithGround</Flag>
+			<Flag>IncludeInSimRep</Flag>env_arcadia_FortDeenStripes_01</Object>
+		<Object IsSquad="false" Player="0" ID="10005120" TintValue="1" EditorName="env_arcadia_FortDeenStripes_02_11995" Position="508.198608,-15.5500002,641.654602" Forward="0,0,1" Right="1,0,0" Group="8" VisualVariationIndex="0">
+			<Flag>OrientUnitWithGround</Flag>
+			<Flag>IncludeInSimRep</Flag>env_arcadia_FortDeenStripes_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005119" TintValue="1" EditorName="env_arcadia_FortDeenStripes_03_11994" Position="643.610779,34.1847992,344.172699" Forward="0,0,1" Right="1,0,0" Group="8" VisualVariationIndex="0">
+			<Flag>OrientUnitWithGround</Flag>
+			<Flag>IncludeInSimRep</Flag>env_arcadia_FortDeenStripes_03</Object>
+		<Object IsSquad="false" Player="0" ID="10004912" TintValue="1" EditorName="env_arcadia_industriallight_01_11783" Position="175.209198,25.8145008,726.25293" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004884" TintValue="1" EditorName="env_arcadia_industriallight_01_11755" Position="628.707825,25.2182999,876.377319" Forward="0,0,1" Right="1,0,0" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004901" TintValue="1" EditorName="env_arcadia_industriallight_01_11772" Position="303.874207,25.0898991,1203.16003" Forward="0.999599993,0,-0.0292000007" Right="-0.0292000007,0,-0.999599993" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004886" TintValue="1" EditorName="env_arcadia_industriallight_01_11757" Position="586.928223,25.2625999,876.508606" Forward="0,0,1" Right="1,0,0" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004883" TintValue="1" EditorName="env_arcadia_industriallight_01_11754" Position="649.582397,25.2556,876.335205" Forward="0,0,1" Right="1,0,0" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004879" TintValue="1" EditorName="env_arcadia_industriallight_01_11750" Position="974.344482,25.1438999,1244.96497" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004880" TintValue="1" EditorName="env_arcadia_industriallight_01_11751" Position="712.34082,25.3460999,876.264526" Forward="0,0,1" Right="1,0,0" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004946" TintValue="1" EditorName="env_arcadia_industriallight_01_11817" Position="366.567596,-10.5419998,605.484314" Forward="0.0584000014,0,-0.998300016" Right="-0.998300016,0,-0.0584000014" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004937" TintValue="1" EditorName="env_arcadia_industriallight_01_11808" Position="116.429604,-10.6110001,629.947998" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004903" TintValue="1" EditorName="env_arcadia_industriallight_01_11774" Position="303.838989,25.1646996,1245.01904" Forward="0.999599993,0,-0.0292000007" Right="-0.0292000007,0,-0.999599993" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004882" TintValue="1" EditorName="env_arcadia_industriallight_01_11753" Position="670.415527,25.3073997,876.039307" Forward="0,0,1" Right="1,0,0" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004942" TintValue="1" EditorName="env_arcadia_industriallight_01_11813" Position="282.932709,-10.5125999,605.535522" Forward="0.0584000014,0,-0.998300016" Right="-0.998300016,0,-0.0584000014" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004881" TintValue="1" EditorName="env_arcadia_industriallight_01_11752" Position="691.385193,25.3831005,876.354614" Forward="0,0,1" Right="1,0,0" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004869" TintValue="1" EditorName="env_arcadia_industriallight_01_11740" Position="792.276184,25.2301998,944.075623" Forward="-0.717400014,0,0.696699977" Right="0.696699977,0,0.717400014" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004877" TintValue="1" EditorName="env_arcadia_industriallight_01_11748" Position="974.280518,25.0877991,1203.11499" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004871" TintValue="1" EditorName="env_arcadia_industriallight_01_11742" Position="821.721191,24.9465008,973.664795" Forward="-0.717400014,0,0.696699977" Right="0.696699977,0,0.717400014" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004905" TintValue="1" EditorName="env_arcadia_industriallight_01_11776" Position="44.7476997,24.8973007,1189.73901" Forward="-0.717400014,0,0.696699977" Right="0.696699977,0,0.717400014" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004910" TintValue="1" EditorName="env_arcadia_industriallight_01_11781" Position="174.9767,25.4960003,684.355774" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004892" TintValue="1" EditorName="env_arcadia_industriallight_01_11763" Position="485.939087,25.1847992,944.005188" Forward="0.644200027,0,0.764800012" Right="0.764800012,0,-0.644200027" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004875" TintValue="1" EditorName="env_arcadia_industriallight_01_11746" Position="974.260376,24.9911995,1161.24402" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004887" TintValue="1" EditorName="env_arcadia_industriallight_01_11758" Position="565.910217,25.2359009,876.563293" Forward="0,0,1" Right="1,0,0" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004888" TintValue="1" EditorName="env_arcadia_industriallight_01_11759" Position="545.120728,25.1716995,884.908875" Forward="0.717400014,0,0.696699977" Right="0.696699977,0,-0.717400014" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004944" TintValue="1" EditorName="env_arcadia_industriallight_01_11815" Position="324.8284,-10.5649996,605.418274" Forward="0.0584000014,0,-0.998300016" Right="-0.998300016,0,-0.0584000014" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004885" TintValue="1" EditorName="env_arcadia_industriallight_01_11756" Position="607.792114,25.2024994,876.281799" Forward="0,0,1" Right="1,0,0" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004867" TintValue="1" EditorName="env_arcadia_industriallight_01_11738" Position="762.603882,24.9074993,914.428772" Forward="-0.717400014,0,0.696699977" Right="0.696699977,0,0.717400014" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004936" TintValue="1" EditorName="env_arcadia_industriallight_01_11807" Position="116.5923,-10.5942001,650.871521" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004957" TintValue="1" EditorName="env_arcadia_industriallight_01_11828" Position="408.231903,-10.6479998,676.900085" Forward="-0.0167999994,0,0.999899983" Right="0.999899983,0,0.0167999994" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004948" TintValue="1" EditorName="env_arcadia_industriallight_01_11819" Position="408.3703,-10.5614004,605.418213" Forward="0.0584000014,0,-0.998300016" Right="-0.998300016,0,-0.0584000014" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004952" TintValue="1" EditorName="env_arcadia_industriallight_01_11823" Position="464.723602,-10.5164003,630.950928" Forward="0.996200025,0,0.0874999985" Right="0.0874999985,0,-0.996200025" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004921" TintValue="1" EditorName="env_arcadia_industriallight_01_11792" Position="232.999603,25.8740005,440.813293" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004919" TintValue="1" EditorName="env_arcadia_industriallight_01_11790" Position="232.994995,25.8535995,482.555511" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004935" TintValue="1" EditorName="env_arcadia_industriallight_01_11806" Position="120.4944,25.7632008,810.656189" Forward="0.999899983,0,-0.0124000004" Right="-0.0124000004,0,-0.999899983" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004950" TintValue="1" EditorName="env_arcadia_industriallight_01_11821" Position="450.248596,-10.7180996,605.575378" Forward="0.0584000014,0,-0.998300016" Right="-0.998300016,0,-0.0584000014" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10005029" TintValue="1" EditorName="env_arcadia_industriallight_01_11900" Position="18.4855003,25.1811008,769.409119" Forward="0.997500002,0,0.0706999972" Right="0.0706999972,0,-0.997500002" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10005031" TintValue="1" EditorName="env_arcadia_industriallight_01_11902" Position="17.8703995,24.9733009,811.026123" Forward="0.997500002,0,0.0706999972" Right="0.0706999972,0,-0.997500002" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004915" TintValue="1" EditorName="env_arcadia_industriallight_01_11786" Position="233.248703,25.4118996,839.947021" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004955" TintValue="1" EditorName="env_arcadia_industriallight_01_11826" Position="449.97049,-10.6403999,676.533813" Forward="-0.0167999994,0,0.999899983" Right="0.999899983,0,0.0167999994" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004953" TintValue="1" EditorName="env_arcadia_industriallight_01_11824" Position="464.618011,-10.5549002,652.026611" Forward="0.996200025,0,0.0874999985" Right="0.0874999985,0,-0.996200025" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004922" TintValue="1" EditorName="env_arcadia_industriallight_01_11793" Position="120.491501,25.8446999,470.904785" Forward="0.999899983,0,-0.0124000004" Right="-0.0124000004,0,-0.999899983" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004933" TintValue="1" EditorName="env_arcadia_industriallight_01_11804" Position="120.524498,26.0319004,768.96759" Forward="0.999899983,0,-0.0124000004" Right="-0.0124000004,0,-0.999899983" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004926" TintValue="1" EditorName="env_arcadia_industriallight_01_11797" Position="120.588402,25.7779999,554.492371" Forward="0.999899983,0,-0.0124000004" Right="-0.0124000004,0,-0.999899983" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004929" TintValue="1" EditorName="env_arcadia_industriallight_01_11800" Position="120.349098,26.2702999,685.308716" Forward="0.999899983,0,-0.0124000004" Right="-0.0124000004,0,-0.999899983" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004938" TintValue="1" EditorName="env_arcadia_industriallight_01_11809" Position="199.243805,-10.4449997,605.493225" Forward="0.0584000014,0,-0.998300016" Right="-0.998300016,0,-0.0584000014" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004940" TintValue="1" EditorName="env_arcadia_industriallight_01_11811" Position="241.072403,-10.3850002,605.655396" Forward="0.0584000014,0,-0.998300016" Right="-0.998300016,0,-0.0584000014" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004928" TintValue="1" EditorName="env_arcadia_industriallight_01_11799" Position="120.336502,25.7262993,596.064087" Forward="0.999899983,0,-0.0124000004" Right="-0.0124000004,0,-0.999899983" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004924" TintValue="1" EditorName="env_arcadia_industriallight_01_11795" Position="120.4814,25.7665005,512.586914" Forward="0.999899983,0,-0.0124000004" Right="-0.0124000004,0,-0.999899983" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004913" TintValue="1" EditorName="env_arcadia_industriallight_01_11784" Position="233.244705,25.3092995,798.195618" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004918" TintValue="1" EditorName="env_arcadia_industriallight_01_11789" Position="175.152695,25.6699009,554.38092" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10005041" TintValue="1" EditorName="env_arcadia_industriallight_01_11912" Position="18.3579998,25.1368008,1020.22198" Forward="0.997500002,0,0.0706999972" Right="0.0706999972,0,-0.997500002" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004931" TintValue="1" EditorName="env_arcadia_industriallight_01_11802" Position="120.533997,26.1005001,727.099121" Forward="0.999899983,0,-0.0124000004" Right="-0.0124000004,0,-0.999899983" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004916" TintValue="1" EditorName="env_arcadia_industriallight_01_11787" Position="175.145004,25.7381001,596.150879" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004865" TintValue="1" EditorName="env_arcadia_industriallight_01_11736" Position="732.924683,25.0965004,884.922485" Forward="-0.717400014,0,0.696699977" Right="0.696699977,0,0.717400014" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10005035" TintValue="1" EditorName="env_arcadia_industriallight_01_11906" Position="18.0699997,25.0496006,894.986389" Forward="0.997500002,0,0.0706999972" Right="0.0706999972,0,-0.997500002" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004980" TintValue="1" EditorName="env_arcadia_industriallight_01_11851" Position="645.324097,16.2492008,458.853912" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004978" TintValue="1" EditorName="env_arcadia_industriallight_01_11849" Position="605.010925,16.2404995,458.73999" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004974" TintValue="1" EditorName="env_arcadia_industriallight_01_11845" Position="603.44342,36.1026993,433.229614" Forward="0.0584000014,0,-0.998300016" Right="-0.998300016,0,-0.0584000014" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10005011" TintValue="1" EditorName="env_arcadia_industriallight_01_11882" Position="18.3787994,24.993,392.814514" Forward="0.997500002,0,0.0706999972" Right="0.0706999972,0,-0.997500002" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004976" TintValue="1" EditorName="env_arcadia_industriallight_01_11847" Position="564.748413,16.2381001,458.906311" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10005033" TintValue="1" EditorName="env_arcadia_industriallight_01_11904" Position="18.0872002,25.0897999,853.018921" Forward="0.997500002,0,0.0706999972" Right="0.0706999972,0,-0.997500002" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004972" TintValue="1" EditorName="env_arcadia_industriallight_01_11843" Position="643.754578,36.1660004,433.264099" Forward="0.0584000014,0,-0.998300016" Right="-0.998300016,0,-0.0584000014" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004998" TintValue="1" EditorName="env_arcadia_industriallight_01_11869" Position="700.301697,36.0550995,428.4151" Forward="-0.745700002,0,-0.666299999" Right="-0.666299999,0,0.745700002" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004970" TintValue="1" EditorName="env_arcadia_industriallight_01_11841" Position="684.094788,36.0444984,433.168793" Forward="0.0584000014,0,-0.998300016" Right="-0.998300016,0,-0.0584000014" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10005037" TintValue="1" EditorName="env_arcadia_industriallight_01_11908" Position="18.6091003,24.9792004,936.73938" Forward="0.997500002,0,0.0706999972" Right="0.0706999972,0,-0.997500002" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004963" TintValue="1" EditorName="env_arcadia_industriallight_01_11834" Position="282.815613,-10.6505003,676.676575" Forward="-0.0167999994,0,0.999899983" Right="0.999899983,0,0.0167999994" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004961" TintValue="1" EditorName="env_arcadia_industriallight_01_11832" Position="324.522308,-10.6058998,676.732727" Forward="-0.0167999994,0,0.999899983" Right="0.999899983,0,0.0167999994" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10005021" TintValue="1" EditorName="env_arcadia_industriallight_01_11892" Position="18.1972008,25.0536003,601.835815" Forward="0.997500002,0,0.0706999972" Right="0.0706999972,0,-0.997500002" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10005019" TintValue="1" EditorName="env_arcadia_industriallight_01_11890" Position="18.1418991,25.0198002,560.574829" Forward="0.997500002,0,0.0706999972" Right="0.0706999972,0,-0.997500002" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10005050" TintValue="1" EditorName="env_arcadia_industriallight_01_11921" Position="177.642807,24.9974995,1259.92102" Forward="0.0584000014,0,-0.998300016" Right="-0.998300016,0,-0.0584000014" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10005015" TintValue="1" EditorName="env_arcadia_industriallight_01_11886" Position="17.9825993,25.0792999,476.813507" Forward="0.997500002,0,0.0706999972" Right="0.0706999972,0,-0.997500002" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10005013" TintValue="1" EditorName="env_arcadia_industriallight_01_11884" Position="18.4764004,25.1641998,434.831207" Forward="0.997500002,0,0.0706999972" Right="0.0706999972,0,-0.997500002" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10005017" TintValue="1" EditorName="env_arcadia_industriallight_01_11888" Position="18.0771008,25.2266006,518.397583" Forward="0.997500002,0,0.0706999972" Right="0.0706999972,0,-0.997500002" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10005048" TintValue="1" EditorName="env_arcadia_industriallight_01_11919" Position="135.615707,24.9220009,1260.19995" Forward="0.0584000014,0,-0.998300016" Right="-0.998300016,0,-0.0584000014" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10005039" TintValue="1" EditorName="env_arcadia_industriallight_01_11910" Position="18.4925003,25.0983009,978.476685" Forward="0.997500002,0,0.0706999972" Right="0.0706999972,0,-0.997500002" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10005045" TintValue="1" EditorName="env_arcadia_industriallight_01_11916" Position="17.8272991,24.9701004,1103.98999" Forward="0.997500002,0,0.0706999972" Right="0.0706999972,0,-0.997500002" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10005043" TintValue="1" EditorName="env_arcadia_industriallight_01_11914" Position="17.9986992,24.8924999,1061.68799" Forward="0.997500002,0,0.0706999972" Right="0.0706999972,0,-0.997500002" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10005047" TintValue="1" EditorName="env_arcadia_industriallight_01_11918" Position="18.0466995,25.1599007,1145.55896" Forward="0.997500002,0,0.0706999972" Right="0.0706999972,0,-0.997500002" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10005054" TintValue="1" EditorName="env_arcadia_industriallight_01_11925" Position="261.747498,24.8614998,1260.11096" Forward="0.0584000014,0,-0.998300016" Right="-0.998300016,0,-0.0584000014" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10005052" TintValue="1" EditorName="env_arcadia_industriallight_01_11923" Position="219.638901,25.0648994,1259.78198" Forward="0.0584000014,0,-0.998300016" Right="-0.998300016,0,-0.0584000014" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10005023" TintValue="1" EditorName="env_arcadia_industriallight_01_11894" Position="18.0799999,25.1706009,643.936096" Forward="0.997500002,0,0.0706999972" Right="0.0706999972,0,-0.997500002" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004995" TintValue="1" EditorName="env_arcadia_industriallight_01_11866" Position="587.166626,36.1880989,428.20929" Forward="0.745700002,0,-0.666299999" Right="-0.666299999,0,-0.745700002" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10005027" TintValue="1" EditorName="env_arcadia_industriallight_01_11898" Position="18.3728008,25.1646004,727.8172" Forward="0.997500002,0,0.0706999972" Right="0.0706999972,0,-0.997500002" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004994" TintValue="1" EditorName="env_arcadia_industriallight_01_11865" Position="491.876099,16.1811008,398.044312" Forward="-0.717400014,0,0.696699977" Right="0.696699977,0,0.717400014" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004959" TintValue="1" EditorName="env_arcadia_industriallight_01_11830" Position="366.425598,-10.6065998,676.87793" Forward="-0.0167999994,0,0.999899983" Right="0.999899983,0,0.0167999994" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004992" TintValue="1" EditorName="env_arcadia_industriallight_01_11863" Position="520.4104,16.3190994,426.398804" Forward="-0.717400014,0,0.696699977" Right="0.696699977,0,0.717400014" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004897" TintValue="1" EditorName="env_arcadia_industriallight_01_11768" Position="850.971313,25.0174999,1003.56598" Forward="0,0,1" Right="1,0,0" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004982" TintValue="1" EditorName="env_arcadia_industriallight_01_11853" Position="685.653503,16.2509995,458.82431" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004894" TintValue="1" EditorName="env_arcadia_industriallight_01_11765" Position="456.343811,25.0258999,973.608826" Forward="0.717400014,0,0.696699977" Right="0.696699977,0,-0.717400014" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004908" TintValue="1" EditorName="env_arcadia_industriallight_01_11779" Position="89.1052017,25.4463997,1233.85303" Forward="-0.717400014,0,0.696699977" Right="0.696699977,0,0.717400014" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004896" TintValue="1" EditorName="env_arcadia_industriallight_01_11767" Position="426.806091,25.2402992,1003.06702" Forward="0,0,1" Right="1,0,0" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004899" TintValue="1" EditorName="env_arcadia_industriallight_01_11770" Position="303.848297,25.1779003,1161.36401" Forward="0.999599993,0,-0.0292000007" Right="-0.0292000007,0,-0.999599993" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004890" TintValue="1" EditorName="env_arcadia_industriallight_01_11761" Position="515.341614,25.4757996,914.451904" Forward="0.717400014,0,0.696699977" Right="0.696699977,0,-0.717400014" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10005000" TintValue="1" EditorName="env_arcadia_industriallight_01_11871" Position="728.807129,36.3403015,399.804291" Forward="-0.745700002,0,-0.666299999" Right="-0.666299999,0,0.745700002" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004965" TintValue="1" EditorName="env_arcadia_industriallight_01_11836" Position="240.937607,-10.4611998,676.705688" Forward="-0.0167999994,0,0.999899983" Right="0.999899983,0,0.0167999994" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004987" TintValue="1" EditorName="env_arcadia_industriallight_01_11858" Position="769.036072,16.2992992,427.949402" Forward="0.717400014,0,0.696699977" Right="0.696699977,0,-0.717400014" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004984" TintValue="1" EditorName="env_arcadia_industriallight_01_11855" Position="725.8573,16.2416992,458.824493" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004985" TintValue="1" EditorName="env_arcadia_industriallight_01_11856" Position="740.523071,16.4116993,456.3815" Forward="0.717400014,0,0.696699977" Right="0.696699977,0,-0.717400014" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004967" TintValue="1" EditorName="env_arcadia_industriallight_01_11838" Position="199.119904,-10.5405998,676.474487" Forward="-0.0167999994,0,0.999899983" Right="0.999899983,0,0.0167999994" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10005009" TintValue="1" EditorName="env_arcadia_industriallight_01_11880" Position="18.4708996,25.1308002,351.151215" Forward="0.997500002,0,0.0706999972" Right="0.0706999972,0,-0.997500002" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004990" TintValue="1" EditorName="env_arcadia_industriallight_01_11861" Position="548.945923,16.4920998,454.944" Forward="-0.717400014,0,0.696699977" Right="0.696699977,0,0.717400014" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004989" TintValue="1" EditorName="env_arcadia_industriallight_01_11860" Position="797.513611,15.8403997,399.30719" Forward="0.717400014,0,0.696699977" Right="0.696699977,0,-0.717400014" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10005025" TintValue="1" EditorName="env_arcadia_industriallight_01_11896" Position="18.3735008,25.1767006,685.827087" Forward="0.997500002,0,0.0706999972" Right="0.0706999972,0,-0.997500002" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004997" TintValue="1" EditorName="env_arcadia_industriallight_01_11868" Position="558.521729,36.327301,399.860504" Forward="0.745700002,0,-0.666299999" Right="-0.666299999,0,-0.745700002" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10005005" TintValue="1" EditorName="env_arcadia_industriallight_01_11876" Position="18.4556007,25.1639004,267.518402" Forward="0.997500002,0,0.0706999972" Right="0.0706999972,0,-0.997500002" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10005007" TintValue="1" EditorName="env_arcadia_industriallight_01_11878" Position="18.5307999,25.0587006,309.439606" Forward="0.997500002,0,0.0706999972" Right="0.0706999972,0,-0.997500002" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_01</Object>
+		<Object IsSquad="false" Player="0" ID="10005057" TintValue="1" EditorName="env_arcadia_industriallight_02_11928" Position="658.550781,23.2273998,1257.17505" Forward="0,0,1" Right="1,0,0" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_02</Object>
+		<Object IsSquad="false" Player="0" ID="10005056" TintValue="1" EditorName="env_arcadia_industriallight_02_11927" Position="617.97168,23.2273998,1257.48999" Forward="0,0,1" Right="1,0,0" Group="5" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_industriallight_02</Object>
+		<Object IsSquad="false" Player="0" ID="10004824" TintValue="1" EditorName="env_arcadia_onibuilding_01_10124" Position="187.499802,23.2273998,475.036987" Forward="0.999599993,0,-0.0292000007" Right="-0.0292000007,0,-0.999599993" Group="3" VisualVariationIndex="0">
+			<Flag>IncludeInSimRep</Flag>env_arcadia_onibuilding_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004968" TintValue="1" EditorName="env_arcadia_onibuilding_01_11839" Position="765.563477,14.3267002,389.569702" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="3" VisualVariationIndex="0">
+			<Flag>IncludeInSimRep</Flag>env_arcadia_onibuilding_01</Object>
+		<Object IsSquad="false" Player="0" ID="10005115" TintValue="1" EditorName="env_arcadia_onibuilding_01_11989" Position="22.4246998,23.2273998,1255.69104" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="-1" VisualVariationIndex="0">
+			<Flag>IncludeInSimRep</Flag>env_arcadia_onibuilding_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004826" TintValue="1" EditorName="env_arcadia_onibuilding_01_10126" Position="197.099197,23.2273998,818.273315" Forward="0,0,1" Right="1,0,0" Group="3" VisualVariationIndex="0">
+			<Flag>IncludeInSimRep</Flag>env_arcadia_onibuilding_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004828" TintValue="1" EditorName="env_arcadia_onibuilding_02_10128" Position="162.374207,23.2273998,772.920898" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="3" VisualVariationIndex="0">
+			<Flag>IncludeInSimRep</Flag>env_arcadia_onibuilding_02</Object>
+		<Object IsSquad="false" Player="0" ID="10004829" TintValue="1" EditorName="env_arcadia_onibuilding_03_10129" Position="152.895004,23.2269993,497.424988" Forward="0,0,1" Right="1,0,0" Group="3" VisualVariationIndex="0">
+			<Flag>IncludeInSimRep</Flag>env_arcadia_onibuilding_03</Object>
+		<Object IsSquad="false" Player="1" ID="10005116" TintValue="1" EditorName="env_arcadia_onicontroltower_01_11990" Position="72.8143005,23.2273998,1266.13501" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>IncludeInSimRep</Flag>env_arcadia_onicontroltower_01</Object>
+		<Object IsSquad="false" Player="1" ID="10004830" TintValue="1" EditorName="env_arcadia_onicontroltower_01_10130" Position="149.528793,23.2068996,465.097107" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="3" VisualVariationIndex="0">
+			<Flag>IncludeInSimRep</Flag>env_arcadia_onicontroltower_01</Object>
+		<Object IsSquad="false" Player="1" ID="10004833" TintValue="1" EditorName="env_arcadia_onicontroltower_01_10133" Position="1011.90802,23.2273998,1276.85095" Forward="0,0,1" Right="1,0,0" Group="3" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>env_arcadia_onicontroltower_01</Object>
+		<Object IsSquad="false" Player="0" ID="10005117" TintValue="1" EditorName="env_arcadia_oniobtower_01_11991" Position="13.79,23.2273998,1227.90698" Forward="0.0416000001,0,-0.999100029" Right="-0.999100029,0,-0.0416000001" Group="-1" VisualVariationIndex="0">
+			<Flag>IncludeInSimRep</Flag>env_arcadia_oniobtower_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004969" TintValue="1" EditorName="env_arcadia_oniobtower_01_11840" Position="529.321289,14.2117004,398.509705" Forward="0,0,1" Right="1,0,0" Group="3" VisualVariationIndex="0">
+			<Flag>IncludeInSimRep</Flag>env_arcadia_oniobtower_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004383" TintValue="1" EditorName="env_arcadia_oniwallsfortress_01_4854" Position="301.623108,-12.2233,640.40802" Forward="0,0,1" Right="1,0,0" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>env_arcadia_oniwallsfortress_01</Object>
+		<Object IsSquad="false" Player="0" ID="10005059" TintValue="1" EditorName="env_arcadia_powertowerd_01_11931" Position="63.9613991,23.2273998,1221.64795" Forward="0.745700002,0,-0.666299999" Right="-0.666299999,0,-0.745700002" Group="3" VisualVariationIndex="0">env_arcadia_powertowerd_01</Object>
+		<Object IsSquad="false" Player="0" ID="10005122" TintValue="1" EditorName="env_arcadia_ruins_04_12016" Position="1259.29102,-12.6752005,497.038086" Forward="0,0,1" Right="1,0,0" Group="6" VisualVariationIndex="0">env_arcadia_ruins_04</Object>
+		<Object IsSquad="false" Player="0" ID="10005138" TintValue="1" EditorName="env_arcadia_ruins_04_12032" Position="611.549377,31.3953991,42.4101982" Forward="0,0,1" Right="1,0,0" Group="6" VisualVariationIndex="0">env_arcadia_ruins_04</Object>
+		<Object IsSquad="false" Player="0" ID="10005121" TintValue="1" EditorName="env_arcadia_ruins_04_12015" Position="1260.17505,-12.8301001,525.60553" Forward="0,0,1" Right="1,0,0" Group="6" VisualVariationIndex="0">env_arcadia_ruins_04</Object>
+		<Object IsSquad="false" Player="0" ID="10005136" TintValue="1" EditorName="env_arcadia_ruins_04_12030" Position="668.304321,31.0310993,42.7739983" Forward="0,0,1" Right="1,0,0" Group="6" VisualVariationIndex="0">env_arcadia_ruins_04</Object>
+		<Object IsSquad="false" Player="0" ID="10005137" TintValue="1" EditorName="env_arcadia_ruins_04_12031" Position="639.654907,31.0289001,42.5894012" Forward="0,0,1" Right="1,0,0" Group="6" VisualVariationIndex="0">env_arcadia_ruins_04</Object>
+		<Object IsSquad="false" Player="0" ID="10005135" TintValue="1" EditorName="env_arcadia_ruins_05_12029" Position="593.2995,31.0620003,27.2819004" Forward="0,0,1" Right="1,0,0" Group="6" VisualVariationIndex="0">env_arcadia_ruins_05</Object>
+		<Object IsSquad="false" Player="0" ID="10005134" TintValue="1" EditorName="env_arcadia_ruins_05_12028" Position="624.175598,31.0289001,27.0373001" Forward="0,0,1" Right="1,0,0" Group="6" VisualVariationIndex="0">env_arcadia_ruins_05</Object>
+		<Object IsSquad="false" Player="0" ID="10005133" TintValue="1" EditorName="env_arcadia_ruins_05_12027" Position="655.02063,31.0289001,27.2096004" Forward="0,0,1" Right="1,0,0" Group="6" VisualVariationIndex="0">env_arcadia_ruins_05</Object>
+		<Object IsSquad="false" Player="0" ID="10005132" TintValue="1" EditorName="env_arcadia_ruins_05_12026" Position="684.101318,31.0303001,27.3439999" Forward="0,0,1" Right="1,0,0" Group="6" VisualVariationIndex="0">env_arcadia_ruins_05</Object>
+		<Object IsSquad="false" Player="0" ID="10005125" TintValue="1" EditorName="env_arcadia_ruins_05_12019" Position="863.502991,-9.25399971,593.116577" Forward="0,0,1" Right="1,0,0" Group="6" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_ruins_05</Object>
+		<Object IsSquad="false" Player="0" ID="10005141" TintValue="1" EditorName="env_arcadia_ruins_05_12035" Position="1078.90295,-11.3636999,1268.87195" Forward="0,0,1" Right="1,0,0" Group="6" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_ruins_05</Object>
+		<Object IsSquad="false" Player="0" ID="10005140" TintValue="1" EditorName="env_arcadia_ruins_05_12034" Position="1123.17297,-12.1148996,1269.38" Forward="0,0,1" Right="1,0,0" Group="6" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_ruins_05</Object>
+		<Object IsSquad="false" Player="0" ID="10005126" TintValue="1" EditorName="env_arcadia_ruins_05_12020" Position="914.179321,-10.2927999,596.289673" Forward="0,0,1" Right="1,0,0" Group="6" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_ruins_05</Object>
+		<Object IsSquad="false" Player="0" ID="10005123" TintValue="1" EditorName="env_arcadia_ruins_05_12017" Position="1260.69702,-12.7753,511.167297" Forward="0,0,1" Right="1,0,0" Group="6" VisualVariationIndex="0">env_arcadia_ruins_05</Object>
+		<Object IsSquad="false" Player="0" ID="10005127" TintValue="1" EditorName="env_arcadia_ruins_06_12021" Position="889.676819,-11.5099001,588.184326" Forward="0,0,1" Right="1,0,0" Group="6" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_ruins_06</Object>
+		<Object IsSquad="false" Player="0" ID="10005139" TintValue="1" EditorName="env_arcadia_ruins_06_12033" Position="1101.27405,-11.2774,1268.28406" Forward="0,0,1" Right="1,0,0" Group="6" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_ruins_06</Object>
+		<Object IsSquad="false" Player="0" ID="10005129" TintValue="1" EditorName="env_arcadia_ruins_06_12023" Position="-51.4752998,-9999,2.57990003" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_ruins_06</Object>
+		<Object IsSquad="false" Player="0" ID="10005128" TintValue="1" EditorName="env_arcadia_ruins_06_12022" Position="1021.74902,-8.92959976,604.175781" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_ruins_06</Object>
+		<Object IsSquad="false" Player="0" ID="10005124" TintValue="1" EditorName="env_arcadia_ruins_06_12018" Position="1115.11902,-7.38079977,648.158691" Forward="0,0,1" Right="1,0,0" Group="6" VisualVariationIndex="0">env_arcadia_ruins_06</Object>
+		<Object IsSquad="false" Player="0" ID="10005142" TintValue="1" EditorName="env_arcadia_ruins_06_12036" Position="691.134399,31.0289001,1.13909996" Forward="0,0,1" Right="1,0,0" Group="6" VisualVariationIndex="0">env_arcadia_ruins_06</Object>
+		<Object IsSquad="false" Player="0" ID="10005131" TintValue="1" EditorName="env_arcadia_ruins_06_12025" Position="588.081177,31.0289001,3.01189995" Forward="0,0,1" Right="1,0,0" Group="6" VisualVariationIndex="0">env_arcadia_ruins_06</Object>
+		<Object IsSquad="false" Player="0" ID="10005130" TintValue="1" EditorName="env_arcadia_ruins_06_12024" Position="639.284973,31.0289001,3.13610005" Forward="0,0,1" Right="1,0,0" Group="6" VisualVariationIndex="0">env_arcadia_ruins_06</Object>
+		<Object IsSquad="false" Player="0" ID="10004757" TintValue="1" EditorName="env_arcadia_swamptree_01_10033" Position="1040,-10.9559002,741.999878" Forward="-0.615800023,-0.0171000008,-0.787699997" Right="-0.787299991,-0.0245999992,0.615999997" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004643" TintValue="1" EditorName="env_arcadia_swamptree_01_9919" Position="297.999908,0.715799987,98" Forward="-0.0137999998,0.0719999969,-0.997300029" Right="-0.99059999,-0.136999995,0.00380000006" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004597" TintValue="1" EditorName="env_arcadia_swamptree_01_9873" Position="1211.00403,-23.6369991,321.011902" Forward="0.648999989,-0.0185000002,-0.760599971" Right="-0.747300029,0.172099993,-0.641799986" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004685" TintValue="1" EditorName="env_arcadia_swamptree_01_9961" Position="1050,-8.42910004,705.999878" Forward="0.985800028,0.0423999988,-0.162599996" Right="-0.163200006,0.0115,-0.986500025" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004681" TintValue="1" EditorName="env_arcadia_swamptree_01_9957" Position="1071,-8.65690041,708.999878" Forward="0.0526000001,0.0220999997,-0.998399973" Right="-0.997799993,-0.0399000011,-0.0535000004" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004760" TintValue="1" EditorName="env_arcadia_swamptree_01_10036" Position="965.999878,-11.5360003,203" Forward="0.137999997,0.0472000018,-0.989300013" Right="-0.98150003,-0.127399996,-0.143000007" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004687" TintValue="1" EditorName="env_arcadia_swamptree_01_9963" Position="1273.70203,6.32289982,1000.98602" Forward="0.960900009,0.063000001,-0.269600004" Right="-0.261500001,-0.112800002,-0.958599985" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004724" TintValue="1" EditorName="env_arcadia_swamptree_01_10000" Position="1074.94397,-13.2788,928.485596" Forward="-0.971400023,0.00270000007,-0.237499997" Right="-0.237499997,-0.0173000004,0.971199989" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004598" TintValue="1" EditorName="env_arcadia_swamptree_01_9874" Position="1065,9.17140007,521.999878" Forward="-0.947799981,0.0204000007,-0.318100005" Right="-0.315699995,0.0763999969,0.945800006" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004684" TintValue="1" EditorName="env_arcadia_swamptree_01_9960" Position="1153,-10.0066996,672.999878" Forward="0.683099985,0.0237000007,0.729900002" Right="0.730199993,-0.00669999979,-0.683200002" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004809" TintValue="1" EditorName="env_arcadia_swamptree_01_9878" Position="1270.27905,-67.0455017,59.1792984" Forward="0.566600025,-0.059799999,-0.821799994" Right="-0.823400021,-0.00289999996,-0.567499995" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004688" TintValue="1" EditorName="env_arcadia_swamptree_01_9964" Position="1071,-7.72800016,738.999878" Forward="-0.739400029,0.00970000029,0.673200011" Right="0.671700001,0.079400003,0.736599982" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004722" TintValue="1" EditorName="env_arcadia_swamptree_01_9998" Position="876.999878,-5.93979979,717.999878" Forward="-0.872900009,0.0113000004,0.487800002" Right="0.482499987,-0.128099993,0.86650002" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004719" TintValue="1" EditorName="env_arcadia_swamptree_01_9995" Position="996.999878,10.1931,660.999878" Forward="0.907199979,-0.0529999994,-0.417299986" Right="-0.413199991,0.0734999999,-0.907700002" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004758" TintValue="1" EditorName="env_arcadia_swamptree_01_10034" Position="913.999878,16.8918991,126" Forward="0.969299972,0.141900003,0.201000005" Right="0.192000002,0.0742999986,-0.978600025" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004639" TintValue="1" EditorName="env_arcadia_swamptree_01_9915" Position="1244,-13.1147003,553.999878" Forward="0.66960001,0.0406999998,0.741599977" Right="0.7421,0.00609999988,-0.670300007" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004800" TintValue="1" EditorName="env_arcadia_swamptree_01_9878" Position="1010.203,-57.1862984,56.6641998" Forward="-0.640299976,-0.059799999,-0.765799999" Right="-0.76700002,-0.00289999996,0.641600013" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004726" TintValue="1" EditorName="env_arcadia_swamptree_01_10002" Position="1057,-9.31110001,556.999878" Forward="-0.997099996,-0.00680000009,-0.0751999989" Right="-0.0750999972,-0.0131000001,0.997099996" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004720" TintValue="1" EditorName="env_arcadia_swamptree_01_9996" Position="888.999878,-9.33460045,727.999878" Forward="0.607800007,-0.0956000015,0.788299978" Right="0.79369998,0.0395999998,-0.60710001" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004806" TintValue="1" EditorName="env_arcadia_swamptree_01_9878" Position="1251.46594,-75.3771973,24.2740993" Forward="0.995999992,-0.059799999,-0.0671000034" Right="-0.0672999993,-0.00289999996,-0.997699976" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004721" TintValue="1" EditorName="env_arcadia_swamptree_01_9997" Position="1003,-38.415699,121" Forward="0.00039999999,0.165999994,-0.986100018" Right="-1,0.00860000029,0.00109999999" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004645" TintValue="1" EditorName="env_arcadia_swamptree_01_9921" Position="1088,-11.2630997,349.999908" Forward="-0.871699989,0.0423000008,-0.488200009" Right="-0.484100014,0.0807999969,0.871299982" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004637" TintValue="1" EditorName="env_arcadia_swamptree_01_9913" Position="1275.65002,-5.15150023,680.806091" Forward="-0.277999997,-0.0274,0.960200012" Right="0.955299973,0.0966000035,0.279399991" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004765" TintValue="1" EditorName="env_arcadia_swamptree_01_10041" Position="1045,-0.256300002,612.999878" Forward="-0.936999977,-0.175799996,-0.301999986" Right="-0.29370001,-0.0719000027,0.953199983" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004761" TintValue="1" EditorName="env_arcadia_swamptree_01_10037" Position="985.999878,-35.6801987,164" Forward="0.507099986,0.151500002,0.848500013" Right="0.855099976,-0.211700007,-0.473199993" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004682" TintValue="1" EditorName="env_arcadia_swamptree_01_9958" Position="5.35169983,16.9605007,127.937599" Forward="-0.736899972,0.438499987,-0.514500022" Right="-0.567200005,0.0129000004,0.823499978" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004644" TintValue="1" EditorName="env_arcadia_swamptree_01_9920" Position="1243.51294,-84.1284027,9.67230034" Forward="0.428299993,-0.34799999,-0.833899975" Right="-0.893899977,-0.0284000002,-0.447299987" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004680" TintValue="1" EditorName="env_arcadia_swamptree_01_9956" Position="267.999908,-4.13500023,109" Forward="0.249200001,0.247700006,-0.936200023" Right="-0.83950001,-0.426800013,-0.336400002" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004603" TintValue="1" EditorName="env_arcadia_swamptree_01_9879" Position="998.999878,-51.6978989,73" Forward="0.0760999992,0.224700004,0.971499979" Right="0.976899981,-0.211899996,-0.0274999999" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004797" TintValue="1" EditorName="env_arcadia_swamptree_01_9878" Position="1044.28796,-9.03890038,573.11853" Forward="-0.983099997,-0.059799999,-0.173199996" Right="-0.173299998,-0.00289999996,0.984899998" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004803" TintValue="1" EditorName="env_arcadia_swamptree_01_9878" Position="1015.85699,-62.6716003,22.8696995" Forward="0.103200004,-0.059799999,-0.992900014" Right="-0.994700015,-0.00289999996,-0.103200004" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004600" TintValue="1" EditorName="env_arcadia_swamptree_01_9876" Position="1008,-10.1617002,715.999878" Forward="-0.987900019,-0.0181000009,0.153799996" Right="0.154499993,-0.0478999987,0.986800015" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004604" TintValue="1" EditorName="env_arcadia_swamptree_01_9880" Position="1274.828,3.72070003,1147.05505" Forward="-0.877900004,-0.0533000007,-0.475899994" Right="-0.456400007,-0.207599998,0.865199983" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004602" TintValue="1" EditorName="env_arcadia_swamptree_01_9878" Position="1053.479,-9.67889977,356.897308" Forward="-0.71359998,-0.059799999,-0.698000014" Right="-0.699199975,-0.00289999996,0.714999974" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004605" TintValue="1" EditorName="env_arcadia_swamptree_01_9881" Position="805.999878,-14.7828999,783.999878" Forward="-0.262800008,0.0252,-0.96450001" Right="-0.964299977,-0.0394000001,0.261700004" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004596" TintValue="1" EditorName="env_arcadia_swamptree_01_9872" Position="1069,6.1782999,646.999878" Forward="-0.902899981,-0.0489999987,0.426999986" Right="0.416099995,0.149399996,0.897000015" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004725" TintValue="1" EditorName="env_arcadia_swamptree_01_10001" Position="969.832886,-14.3772001,213.659698" Forward="-0.958999991,0.0736000016,-0.273499995" Right="-0.275999993,-0.0249000005,0.960799992" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_01</Object>
+		<Object IsSquad="false" Player="0" ID="10004770" TintValue="1" EditorName="env_arcadia_swamptree_02_10046" Position="870.184082,-11.2589998,740.709229" Forward="-0.93629998,0.0252999999,-0.350199997" Right="-0.351000011,-0.0377999991,0.935599983" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_02</Object>
+		<Object IsSquad="false" Player="0" ID="10004609" TintValue="1" EditorName="env_arcadia_swamptree_02_9885" Position="1016,-10.8221998,197" Forward="0.150000006,0.0193000007,-0.988499999" Right="-0.988600016,0.0161000006,-0.149700001" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_02</Object>
+		<Object IsSquad="false" Player="0" ID="10004695" TintValue="1" EditorName="env_arcadia_swamptree_02_9971" Position="873.999878,20.5321999,650.999878" Forward="-0.404100001,0.060800001,0.912699997" Right="0.914699972,0.0303000007,0.402999997" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_02</Object>
+		<Object IsSquad="false" Player="0" ID="10004771" TintValue="1" EditorName="env_arcadia_swamptree_02_10047" Position="1082.49597,-12.4546003,918.490784" Forward="-0.967000008,-0.00800000038,-0.254700005" Right="-0.254700005,0.000199999995,0.967000008" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_02</Object>
+		<Object IsSquad="false" Player="0" ID="10004655" TintValue="1" EditorName="env_arcadia_swamptree_02_9931" Position="23.5118999,8.89109993,152.063293" Forward="-0.7148,-0.0353999995,-0.698400021" Right="-0.699299991,0.0289999992,0.71420002" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_02</Object>
+		<Object IsSquad="false" Player="0" ID="10004607" TintValue="1" EditorName="env_arcadia_swamptree_02_9883" Position="1039,-9.5447998,716.999878" Forward="-0.991400003,-0.0298999995,0.127599999" Right="0.128299996,-0.0226000007,0.99150002" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_02</Object>
+		<Object IsSquad="false" Player="0" ID="10004606" TintValue="1" EditorName="env_arcadia_swamptree_02_9882" Position="824.999878,19.9452,655.999878" Forward="-0.450300008,-0.0967999995,-0.887600005" Right="-0.88380003,0.189400002,0.427700013" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_02</Object>
+		<Object IsSquad="false" Player="0" ID="10004728" TintValue="1" EditorName="env_arcadia_swamptree_02_10004" Position="1063,0.209000006,415.999908" Forward="0.0504000001,-0.0408999994,-0.997900009" Right="-0.990499973,0.125799999,-0.0551999994" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_02</Object>
+		<Object IsSquad="false" Player="0" ID="10004647" TintValue="1" EditorName="env_arcadia_swamptree_02_9923" Position="296.999908,-4.83669996,141" Forward="0.108199999,-0.0715999976,0.99150002" Right="0.992299974,0.0678000003,-0.103399999" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_02</Object>
+		<Object IsSquad="false" Player="0" ID="10004653" TintValue="1" EditorName="env_arcadia_swamptree_02_9929" Position="1246.00696,-20.8183002,316.033203" Forward="-0.897899985,-0.0377000012,0.438600004" Right="0.440200001,-0.072800003,0.894900024" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_02</Object>
+		<Object IsSquad="false" Player="0" ID="10004730" TintValue="1" EditorName="env_arcadia_swamptree_02_10006" Position="20.4325008,8.39920044,133.015503" Forward="0.933399975,-0.120200001,0.338200003" Right="0.344099998,0.0320999995,-0.938399971" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_02</Object>
+		<Object IsSquad="false" Player="0" ID="10004610" TintValue="1" EditorName="env_arcadia_swamptree_02_9886" Position="1210.04602,-18.7544003,339.01059" Forward="0.900699973,0.187999994,-0.3917" Right="-0.339899987,-0.256500006,-0.904799998" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_02</Object>
+		<Object IsSquad="false" Player="0" ID="10004694" TintValue="1" EditorName="env_arcadia_swamptree_02_9970" Position="963.999878,-6.91169977,594.999878" Forward="0.390300006,-0.303299993,-0.869300008" Right="-0.918099999,-0.198400006,-0.343100011" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_02</Object>
+		<Object IsSquad="false" Player="0" ID="10004692" TintValue="1" EditorName="env_arcadia_swamptree_02_9968" Position="1277.22998,-7.18730021,817.629578" Forward="0.493900001,0.0527000017,0.867900014" Right="0.850499988,0.178200006,-0.494899988" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_02</Object>
+		<Object IsSquad="false" Player="0" ID="10004773" TintValue="1" EditorName="env_arcadia_swamptree_02_10049" Position="59,-12.0079002,225" Forward="-0.629800022,0.0160000008,-0.776600003" Right="-0.77670002,-0.000300000014,0.629899979" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_02</Object>
+		<Object IsSquad="false" Player="0" ID="10004693" TintValue="1" EditorName="env_arcadia_swamptree_02_9969" Position="56,-11.7255001,194" Forward="-0.995700002,0.0013,0.0927999988" Right="0.0927999988,-0.000600000028,0.995700002" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_02</Object>
+		<Object IsSquad="false" Player="0" ID="10004651" TintValue="1" EditorName="env_arcadia_swamptree_02_9927" Position="266.999908,-9.57680035,152" Forward="-0.689700007,-0.00249999994,0.724099994" Right="0.723699987,-0.0340999998,0.689199984" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_02</Object>
+		<Object IsSquad="false" Player="0" ID="10004612" TintValue="1" EditorName="env_arcadia_swamptree_02_9888" Position="1195.58704,-14.9124002,297.056488" Forward="-0.702400029,0.00410000002,-0.711700022" Right="-0.711700022,-0.0186000001,0.702300012" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_02</Object>
+		<Object IsSquad="false" Player="0" ID="10004608" TintValue="1" EditorName="env_arcadia_swamptree_02_9884" Position="1064,3.57189989,458.999908" Forward="0.961000025,0.174799994,-0.214200005" Right="-0.212599993,-0.0281000007,-0.976700008" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_02</Object>
+		<Object IsSquad="false" Player="0" ID="10004768" TintValue="1" EditorName="env_arcadia_swamptree_02_10044" Position="1024,-40.2260017,60" Forward="-0.736000001,-0.483399987,-0.474000007" Right="-0.461600006,-0.153799996,0.873600006" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_02</Object>
+		<Object IsSquad="false" Player="0" ID="10004696" TintValue="1" EditorName="env_arcadia_swamptree_02_9972" Position="1066.375,-13.6070995,913.079285" Forward="0.943599999,0.0083999997,0.330900013" Right="0.330500007,0.0318999998,-0.943300009" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_02</Object>
+		<Object IsSquad="false" Player="0" ID="10004614" TintValue="1" EditorName="env_arcadia_swamptree_02_9890" Position="1058,-9.30099964,722.999878" Forward="0.784399986,0.0307,0.619499981" Right="0.619099975,0.0208000001,-0.785000026" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_02</Object>
+		<Object IsSquad="false" Player="0" ID="10004767" TintValue="1" EditorName="env_arcadia_swamptree_02_10043" Position="980.999878,-12.4506998,201" Forward="-0.336899996,0.0505000018,0.940199971" Right="0.939999998,-0.0388999991,0.338999987" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_02</Object>
+		<Object IsSquad="false" Player="0" ID="10004611" TintValue="1" EditorName="env_arcadia_swamptree_02_9887" Position="1137,-8.10830021,673.999878" Forward="0.425799996,0.100199997,0.899299979" Right="0.898000002,-0.168500006,-0.406399995" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_02</Object>
+		<Object IsSquad="false" Player="0" ID="10004654" TintValue="1" EditorName="env_arcadia_swamptree_02_9930" Position="1138,-1.30599999,681.999878" Forward="0.471399993,-0.3389,-0.814199984" Right="-0.881600022,-0.203099996,-0.425999999" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_02</Object>
+		<Object IsSquad="false" Player="0" ID="10004648" TintValue="1" EditorName="env_arcadia_swamptree_02_9924" Position="1241.51294,-77.8534012,17.6725006" Forward="-0.876900017,0.107299998,-0.468499988" Right="-0.418199986,0.309799999,0.853900015" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_02</Object>
+		<Object IsSquad="false" Player="0" ID="10004731" TintValue="1" EditorName="env_arcadia_swamptree_02_10007" Position="779.999878,-1.54859996,729.999878" Forward="-0.812900007,-0.472799987,0.339899987" Right="0.452800006,-0.146300003,0.879499972" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_02</Object>
+		<Object IsSquad="false" Player="0" ID="10004650" TintValue="1" EditorName="env_arcadia_swamptree_02_9926" Position="306.999908,-4.5939002,161" Forward="-0.305500001,-0.0337000005,0.951600015" Right="0.951300025,-0.0533999987,0.303499997" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_02</Object>
+		<Object IsSquad="false" Player="0" ID="10004613" TintValue="1" EditorName="env_arcadia_swamptree_02_9889" Position="1230.00696,-21.5167999,314.017914" Forward="-0.924399972,0.0496999994,-0.378300011" Right="-0.379799992,-0.213599995,0.900099993" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_02</Object>
+		<Object IsSquad="false" Player="0" ID="10004811" TintValue="1" EditorName="env_arcadia_swamptree_03_10055" Position="1290.28101,-68.3647995,52.1991005" Forward="0.166299999,-0.0976999998,-0.98119998" Right="-0.984499991,0.0397999994,-0.170900002" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_03</Object>
+		<Object IsSquad="false" Player="0" ID="10004777" TintValue="1" EditorName="env_arcadia_swamptree_03_10053" Position="1033.823,-11.1866999,359.466187" Forward="-0.810899973,-0.0520000011,-0.582899988" Right="-0.584500015,0.0248000007,0.81099999" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_03</Object>
+		<Object IsSquad="false" Player="0" ID="10004740" TintValue="1" EditorName="env_arcadia_swamptree_03_10016" Position="1226.51294,-84.2413025,0.667699993" Forward="-0.368299991,0.368699998,0.853500009" Right="0.924099982,0.0447000004,0.379500002" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_03</Object>
+		<Object IsSquad="false" Player="0" ID="10004703" TintValue="1" EditorName="env_arcadia_swamptree_03_9979" Position="998.999878,7.36740017,643.999878" Forward="-0.957400024,0.0384999998,-0.286199987" Right="-0.277500004,0.151500002,0.948700011" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_03</Object>
+		<Object IsSquad="false" Player="0" ID="10004656" TintValue="1" EditorName="env_arcadia_swamptree_03_9932" Position="1086,13.1584997,517.999878" Forward="0.693899989,0.171000004,-0.699500024" Right="-0.699400008,-0.0710000023,-0.711199999" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_03</Object>
+		<Object IsSquad="false" Player="0" ID="10004804" TintValue="1" EditorName="env_arcadia_swamptree_03_10053" Position="1001.62598,-66.6511993,9.06939983" Forward="-0.0474999994,-0.0520000011,-0.997500002" Right="-0.998600006,0.0248000007,0.0463000014" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_03</Object>
+		<Object IsSquad="false" Player="0" ID="10004739" TintValue="1" EditorName="env_arcadia_swamptree_03_10015" Position="1254.96997,-12.9434996,554.947083" Forward="0.773899972,0.0121999998,-0.63319999" Right="-0.633300006,0.0203000009,-0.773599982" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_03</Object>
+		<Object IsSquad="false" Player="0" ID="10004735" TintValue="1" EditorName="env_arcadia_swamptree_03_10011" Position="1263.44604,8.42870045,976.924683" Forward="0.644699991,0.0923999995,0.758899987" Right="0.718400002,0.266200006,-0.642700016" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_03</Object>
+		<Object IsSquad="false" Player="0" ID="10004661" TintValue="1" EditorName="env_arcadia_swamptree_03_9937" Position="1263.46497,-6.90350008,875.063477" Forward="0.597599983,0.0970000029,-0.795899987" Right="-0.800000012,0.139200002,-0.583599985" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_03</Object>
+		<Object IsSquad="false" Player="0" ID="10004618" TintValue="1" EditorName="env_arcadia_swamptree_03_9894" Position="1060,8.41829967,500.999908" Forward="0.132100001,-0.0724000037,0.988600016" Right="0.960399985,-0.237499997,-0.145699993" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_03</Object>
+		<Object IsSquad="false" Player="0" ID="10004807" TintValue="1" EditorName="env_arcadia_swamptree_03_10053" Position="1262.64697,-86.6951981,7.90490007" Forward="0.974900007,-0.0520000011,-0.216299996" Right="-0.215299994,0.0248000007,-0.976199985" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_03</Object>
+		<Object IsSquad="false" Player="0" ID="10004664" TintValue="1" EditorName="env_arcadia_swamptree_03_9940" Position="820.999878,25.8428001,679.999878" Forward="0.183899999,0.0817999989,0.979499996" Right="0.98269999,0.00710000005,-0.185100004" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_03</Object>
+		<Object IsSquad="false" Player="0" ID="10004808" TintValue="1" EditorName="env_arcadia_swamptree_03_10055" Position="1269.36804,-71.3023987,35.603199" Forward="0.871999979,-0.0976999998,-0.479600012" Right="-0.478100002,0.0397999994,-0.877399981" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_03</Object>
+		<Object IsSquad="false" Player="0" ID="10004742" TintValue="1" EditorName="env_arcadia_swamptree_03_10018" Position="1258.29297,22.6861992,1077.95605" Forward="0.143199995,-0.0399000011,-0.988900006" Right="-0.935599983,0.320499986,-0.148399994" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_03</Object>
+		<Object IsSquad="false" Player="0" ID="10004741" TintValue="1" EditorName="env_arcadia_swamptree_03_10017" Position="1224.51794,-14.5462999,293.435089" Forward="-0.403400004,-0.0284000002,0.914600015" Right="0.913999975,0.0355000012,0.404199988" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_03</Object>
+		<Object IsSquad="false" Player="0" ID="10004705" TintValue="1" EditorName="env_arcadia_swamptree_03_9981" Position="1068,-11.6900997,859.999878" Forward="-0.557699978,-0.0538999997,0.828299999" Right="0.828999996,0.0135000004,0.559000015" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_03</Object>
+		<Object IsSquad="false" Player="0" ID="10004658" TintValue="1" EditorName="env_arcadia_swamptree_03_9934" Position="1274.51294,-65.3238983,80.6734009" Forward="0.972500026,-0.00350000011,0.232700005" Right="0.228499994,-0.175300002,-0.957599998" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_03</Object>
+		<Object IsSquad="false" Player="0" ID="10004781" TintValue="1" EditorName="env_arcadia_swamptree_03_10057" Position="1261.75903,5.63689995,1029.00903" Forward="0.730499983,-0.340200007,-0.592199981" Right="-0.608399987,0.0697999969,-0.790600002" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_03</Object>
+		<Object IsSquad="false" Player="0" ID="10004805" TintValue="1" EditorName="env_arcadia_swamptree_03_10055" Position="1030.06396,-70.8851013,7.15439987" Forward="-0.324400008,-0.0976999998,-0.940900028" Right="-0.945900023,0.0397999994,0.321999997" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_03</Object>
+		<Object IsSquad="false" Player="0" ID="10004699" TintValue="1" EditorName="env_arcadia_swamptree_03_9975" Position="1229,-11.8734999,273.999908" Forward="0.413100004,-0.0412999988,-0.909699976" Right="-0.909399986,-0.0716999993,-0.409700006" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_03</Object>
+		<Object IsSquad="false" Player="0" ID="10004616" TintValue="1" EditorName="env_arcadia_swamptree_03_9892" Position="1242.55298,2.10019994,1016.02197" Forward="0.529100001,0,-0.84859997" Right="-0.841400027,-0.129999995,-0.524600029" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_03</Object>
+		<Object IsSquad="false" Player="0" ID="10004779" TintValue="1" EditorName="env_arcadia_swamptree_03_10055" Position="1050,-13.2395,335.999908" Forward="-0.93870002,-0.0976999998,-0.33070001" Right="-0.335700005,0.0397999994,0.941100001" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_03</Object>
+		<Object IsSquad="false" Player="0" ID="10004810" TintValue="1" EditorName="env_arcadia_swamptree_03_10053" Position="1264.40698,-67.7955017,40.2458992" Forward="0.4366,-0.0520000011,-0.898199975" Right="-0.898500025,0.0248000007,-0.438199997" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_03</Object>
+		<Object IsSquad="false" Player="0" ID="10004622" TintValue="1" EditorName="env_arcadia_swamptree_03_9898" Position="1040,-47.1236992,28" Forward="-0.451900005,0.199300006,0.869499981" Right="0.862399995,0.347000003,0.368699998" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_03</Object>
+		<Object IsSquad="false" Player="0" ID="10004802" TintValue="1" EditorName="env_arcadia_swamptree_03_10055" Position="1008.828,-57.6637001,35.5238991" Forward="-0.901000023,-0.0976999998,-0.422699988" Right="-0.428000003,0.0397999994,0.902899981" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_03</Object>
+		<Object IsSquad="false" Player="0" ID="10004620" TintValue="1" EditorName="env_arcadia_swamptree_03_9896" Position="1061,4.19680023,637.999878" Forward="0.859399974,-0.0636000037,-0.507300019" Right="-0.510900021,-0.0694999993,-0.85680002" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_03</Object>
+		<Object IsSquad="false" Player="0" ID="10004799" TintValue="1" EditorName="env_arcadia_swamptree_03_10055" Position="1029.61694,-10.3453999,557.83551" Forward="-0.961399972,-0.0976999998,0.257099986" Right="0.254299998,0.0397999994,0.966300011" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_03</Object>
+		<Object IsSquad="false" Player="0" ID="10004697" TintValue="1" EditorName="env_arcadia_swamptree_03_9973" Position="1260.38904,-4.8348999,672.87207" Forward="0.921500027,-0.187000006,0.340299994" Right="0.33829999,-0.0436000004,-0.939999998" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_03</Object>
+		<Object IsSquad="false" Player="0" ID="10004798" TintValue="1" EditorName="env_arcadia_swamptree_03_10053" Position="1029.51599,-9.08860016,586.33728" Forward="-0.998399973,-0.0520000011,-0.0231999997" Right="-0.0244999994,0.0248000007,0.99940002" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_03</Object>
+		<Object IsSquad="false" Player="0" ID="10004801" TintValue="1" EditorName="env_arcadia_swamptree_03_10053" Position="990.388794,-46.925499,57.2579002" Forward="-0.748600006,-0.0520000011,-0.660899997" Right="-0.662599981,0.0248000007,0.748600006" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_03</Object>
+		<Object IsSquad="false" Player="0" ID="10004702" TintValue="1" EditorName="env_arcadia_swamptree_03_9978" Position="815.999878,-13.2445002,771.999878" Forward="-0.42809999,-0.00329999998,-0.903699994" Right="-0.90170002,-0.0649999976,0.427399993" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_03</Object>
+		<Object IsSquad="false" Player="0" ID="10004671" TintValue="1" EditorName="env_arcadia_swamptree_04_9947" Position="1253.89697,9.45689964,704.298523" Forward="0.141800001,-0.00719999988,0.989899993" Right="0.975799978,0.169300005,-0.138500005" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_04</Object>
+		<Object IsSquad="false" Player="0" ID="10004748" TintValue="1" EditorName="env_arcadia_swamptree_04_10024" Position="891.999878,15.5593996,93" Forward="0.527499974,0.0542000011,-0.847800016" Right="-0.847599983,-0.0342999995,-0.529600024" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_04</Object>
+		<Object IsSquad="false" Player="0" ID="10004746" TintValue="1" EditorName="env_arcadia_swamptree_04_10022" Position="1009,-72.0502014,6" Forward="0.694899976,-0.246700004,-0.675499976" Right="-0.688199997,0.0445999987,-0.72420001" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_04</Object>
+		<Object IsSquad="false" Player="0" ID="10004623" TintValue="1" EditorName="env_arcadia_swamptree_04_9899" Position="1019,-3.72749996,689.999878" Forward="0.772099972,-0.274699986,0.573099971" Right="0.635399997,0.315499991,-0.70480001" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_04</Object>
+		<Object IsSquad="false" Player="0" ID="10004711" TintValue="1" EditorName="env_arcadia_swamptree_04_9987" Position="1048,-55.0075989,16" Forward="-0.868900001,0.0527999997,0.492199987" Right="0.469199985,0.404900014,0.784799993" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_04</Object>
+		<Object IsSquad="false" Player="0" ID="10004627" TintValue="1" EditorName="env_arcadia_swamptree_04_9903" Position="1007,-38.7328987,97" Forward="-0.365700006,-0.241799995,-0.898800015" Right="-0.878099978,-0.230399996,0.41929999" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_04</Object>
+		<Object IsSquad="false" Player="0" ID="10004785" TintValue="1" EditorName="env_arcadia_swamptree_04_10061" Position="1275.771,-4.65749979,837.985596" Forward="0.632799983,0.170300007,0.755299985" Right="0.772899985,-0.0808999985,-0.629299998" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_04</Object>
+		<Object IsSquad="false" Player="0" ID="10004668" TintValue="1" EditorName="env_arcadia_swamptree_04_9944" Position="997.999878,-8.48670006,701.999878" Forward="0.581200004,-0.0736000016,0.810400009" Right="0.813600004,0.071800001,-0.577000022" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_04</Object>
+		<Object IsSquad="false" Player="0" ID="10004787" TintValue="1" EditorName="env_arcadia_swamptree_04_10063" Position="1269.41895,-3.09730005,635.236694" Forward="-0.193800002,-0.0498000011,0.979799986" Right="0.981000006,-0.0230999999,0.1928" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_04</Object>
+		<Object IsSquad="false" Player="0" ID="10004790" TintValue="1" EditorName="env_arcadia_swamptree_04_10066" Position="1059,-6.63380003,581.999878" Forward="0.806400001,-0.000899999985,-0.591300011" Right="-0.589100003,-0.0878000036,-0.803300023" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_04</Object>
+		<Object IsSquad="false" Player="0" ID="10004792" TintValue="1" EditorName="env_arcadia_swamptree_04_10068" Position="1202.00195,-22.7905006,330.014709" Forward="-0.746500015,0.1008,0.657700002" Right="0.634299994,-0.190400004,0.749300003" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_04</Object>
+		<Object IsSquad="false" Player="0" ID="10004624" TintValue="1" EditorName="env_arcadia_swamptree_04_9900" Position="960.999878,16.8437004,628.999878" Forward="-0.407200009,-0.188899994,0.893599987" Right="0.912800014,-0.119199999,0.390700012" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_04</Object>
+		<Object IsSquad="false" Player="0" ID="10004712" TintValue="1" EditorName="env_arcadia_swamptree_04_9988" Position="1078,8.89159966,468.999908" Forward="0.0161000006,0.0171000008,0.99970001" Right="0.981400013,0.190899998,-0.0189999994" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_04</Object>
+		<Object IsSquad="false" Player="0" ID="10004750" TintValue="1" EditorName="env_arcadia_swamptree_04_10026" Position="1073,-7.3348999,726.999878" Forward="-0.992299974,-0.121600002,-0.0223999992" Right="-0.0216000006,-0.00779999979,0.99970001" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_04</Object>
+		<Object IsSquad="false" Player="0" ID="10004708" TintValue="1" EditorName="env_arcadia_swamptree_04_9984" Position="1252,-12.934,543.999878" Forward="0.167400002,-0.00540000014,-0.985899985" Right="-0.985499978,-0.0273000002,-0.167199999" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_04</Object>
+		<Object IsSquad="false" Player="0" ID="10004666" TintValue="1" EditorName="env_arcadia_swamptree_04_9942" Position="1049,4.09070015,622.999878" Forward="-0.323799998,0.0397999994,0.945299983" Right="0.939700007,0.129800007,0.316399992" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_04</Object>
+		<Object IsSquad="false" Player="0" ID="10004752" TintValue="1" EditorName="env_arcadia_swamptree_04_10028" Position="996.999878,-53.2505989,25" Forward="-0.256799996,-0.120099999,-0.958999991" Right="-0.8574,0.486200005,0.168699995" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_04</Object>
+		<Object IsSquad="false" Player="0" ID="10004789" TintValue="1" EditorName="env_arcadia_swamptree_04_10065" Position="854.999878,22.2472,659.999878" Forward="0.436500013,0.0405000001,0.898800015" Right="0.899500012,-0.0401999988,-0.435099989" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_04</Object>
+		<Object IsSquad="false" Player="0" ID="10004672" TintValue="1" EditorName="env_arcadia_swamptree_04_9948" Position="1276.91003,5.19189978,1136.16296" Forward="0.2465,0.237800002,-0.939499974" Right="-0.967199981,-0.000199999995,-0.253899992" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_04</Object>
+		<Object IsSquad="false" Player="0" ID="10004706" TintValue="1" EditorName="env_arcadia_swamptree_04_9982" Position="1002,-11.0158005,198" Forward="0.0170000009,0.0189999994,0.99970001" Right="0.997099996,0.0744000003,-0.0184000004" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_04</Object>
+		<Object IsSquad="false" Player="0" ID="10004673" TintValue="1" EditorName="env_arcadia_swamptree_04_9949" Position="798.999878,-14.1034002,761.999878" Forward="-0.573800027,0.056499999,-0.817099988" Right="-0.818899989,-0.0562999994,0.571200013" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_04</Object>
+		<Object IsSquad="false" Player="0" ID="10004667" TintValue="1" EditorName="env_arcadia_swamptree_04_9943" Position="1081,-39.5424995,17" Forward="0.684000015,0.370999992,0.628000021" Right="0.718299985,-0.193100005,-0.668299973" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_04</Object>
+		<Object IsSquad="false" Player="0" ID="10004631" TintValue="1" EditorName="env_arcadia_swamptree_04_9907" Position="1189.00195,-17.7119999,328.010986" Forward="0.364399999,0.0211999994,-0.930999994" Right="-0.924600005,0.127900004,-0.358900011" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_04</Object>
+		<Object IsSquad="false" Player="0" ID="10004630" TintValue="1" EditorName="env_arcadia_swamptree_04_9906" Position="1089,8.59090042,418.999908" Forward="0.453000009,0.230599999,-0.861199975" Right="-0.853600025,-0.166700006,-0.493600011" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_04</Object>
+		<Object IsSquad="false" Player="0" ID="10004751" TintValue="1" EditorName="env_arcadia_swamptree_04_10027" Position="1018,-58.0045013,32" Forward="0.351900011,-0.0628999993,-0.933899999" Right="-0.921199977,-0.200499997,-0.333600014" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_04</Object>
+		<Object IsSquad="false" Player="0" ID="10004747" TintValue="1" EditorName="env_arcadia_swamptree_04_10023" Position="990.999878,-12.6371002,214" Forward="0.825800002,-0.0439999998,0.562300026" Right="0.561800003,-0.0236000009,-0.826900005" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_04</Object>
+		<Object IsSquad="false" Player="0" ID="10004713" TintValue="1" EditorName="env_arcadia_swamptree_04_9989" Position="1073,8.82590008,500.999908" Forward="0.619000018,0.0637999997,-0.782800019" Right="-0.775600016,-0.106600001,-0.622099996" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_04</Object>
+		<Object IsSquad="false" Player="0" ID="10004710" TintValue="1" EditorName="env_arcadia_swamptree_04_9986" Position="1078,-6.2972002,762.999878" Forward="0.982200027,0.0505999997,0.180899993" Right="0.1796,0.0276999995,-0.983299971" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_04</Object>
+		<Object IsSquad="false" Player="0" ID="10004674" TintValue="1" EditorName="env_arcadia_swamptree_04_9950" Position="1268.00696,-9.22459984,897.147705" Forward="-0.0640999973,-0.0658999979,-0.995800018" Right="-0.990700006,0.124399997,0.0555000007" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_04</Object>
+		<Object IsSquad="false" Player="0" ID="10004791" TintValue="1" EditorName="env_arcadia_swamptree_04_10067" Position="959.999878,12.9743004,640.999878" Forward="0.995599985,-0.0798000023,-0.0483999997" Right="-0.0487999991,-0.00329999998,-0.99879998" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_04</Object>
+		<Object IsSquad="false" Player="0" ID="10004786" TintValue="1" EditorName="env_arcadia_swamptree_04_10062" Position="1029,-8.7901001,509.999908" Forward="0.750100017,0.106700003,0.652700007" Right="0.649299979,0.0683000013,-0.757399976" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_04</Object>
+		<Object IsSquad="false" Player="0" ID="10004707" TintValue="1" EditorName="env_arcadia_swamptree_04_9983" Position="1259.05505,-5.79879999,642.969421" Forward="-0.266099989,-0.231800005,0.935699999" Right="0.908100009,0.265399992,0.324000001" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_04</Object>
+		<Object IsSquad="false" Player="0" ID="10004756" TintValue="1" EditorName="env_arcadia_swamptree_05_10032" Position="795.999878,-10.5060997,748.999878" Forward="0.719299972,-0.157499999,0.676599979" Right="0.694400012,0.131899998,-0.707400024" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_05</Object>
+		<Object IsSquad="false" Player="0" ID="10004755" TintValue="1" EditorName="env_arcadia_swamptree_05_10031" Position="864.999878,23.4461994,672.999878" Forward="-0.444499999,0.0252,0.895399988" Right="0.895299971,0.0458999984,0.443100005" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_05</Object>
+		<Object IsSquad="false" Player="0" ID="10004632" TintValue="1" EditorName="env_arcadia_swamptree_05_9908" Position="908.999878,19.3328991,100" Forward="0.801599979,0.0798000023,-0.592499971" Right="-0.585699975,-0.0940999985,-0.805000007" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_05</Object>
+		<Object IsSquad="false" Player="0" ID="10004795" TintValue="1" EditorName="env_arcadia_swamptree_05_10071" Position="1106.04004,1.07969999,890.944885" Forward="-0.685899973,-0.316599995,0.655200005" Right="0.681999981,0.0346000008,0.730599999" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_05</Object>
+		<Object IsSquad="false" Player="0" ID="10004675" TintValue="1" EditorName="env_arcadia_swamptree_05_9951" Position="1214.00195,-18.9477005,309.005615" Forward="-0.781700015,-0.108599998,0.614199996" Right="0.622399986,-0.199200004,0.756900012" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_05</Object>
+		<Object IsSquad="false" Player="0" ID="10004793" TintValue="1" EditorName="env_arcadia_swamptree_05_10069" Position="1233.51294,-78.7020035,6.66949987" Forward="0.958999991,-0.255199999,0.123300001" Right="0.000300000014,-0.434199989,-0.90079999" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_05</Object>
+		<Object IsSquad="false" Player="0" ID="10004679" TintValue="1" EditorName="env_arcadia_swamptree_05_9955" Position="1144,-10.2652998,665.999878" Forward="0.362899989,-0.0417999998,-0.930899978" Right="-0.931699991,-0.00300000003,-0.363099992" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_05</Object>
+		<Object IsSquad="false" Player="0" ID="10004634" TintValue="1" EditorName="env_arcadia_swamptree_05_9910" Position="282.999908,-2.66750002,97" Forward="-0.0786999986,-0.0176999997,0.996699989" Right="0.992600024,0.0916000009,0.0799999982" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_05</Object>
+		<Object IsSquad="false" Player="0" ID="10004677" TintValue="1" EditorName="env_arcadia_swamptree_05_9953" Position="1003,-0.522199988,615.999878" Forward="-0.570800006,-0.217600003,-0.791700006" Right="-0.787800014,0.416999996,0.453299999" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_05</Object>
+		<Object IsSquad="false" Player="0" ID="10004718" TintValue="1" EditorName="env_arcadia_swamptree_05_9994" Position="1041,-9.99650002,550.999878" Forward="-0.616299987,0.0146000003,-0.787400007" Right="-0.787100017,-0.0445999987,0.615199983" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_05</Object>
+		<Object IsSquad="false" Player="0" ID="10004754" TintValue="1" EditorName="env_arcadia_swamptree_05_10030" Position="1002.625,-8.35410023,587.662598" Forward="0.0706999972,0.00270000007,0.997500002" Right="0.997099996,0.0281000007,-0.0707999989" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_05</Object>
+		<Object IsSquad="false" Player="0" ID="10004636" TintValue="1" EditorName="env_arcadia_swamptree_05_9912" Position="1089,-12.8000002,929.999878" Forward="0.795099974,0.0489999987,-0.604499996" Right="-0.605799973,0.0153999999,-0.79549998" Group="4" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_arcadia_swamptree_05</Object>
+		<Object IsSquad="false" Player="0" ID="10004715" TintValue="1" EditorName="env_arcadia_swamptree_05_9991" Position="1023,-9.4357996,579.999878" Forward="-0.999899983,0.0142000001,-0.00469999993" Right="-0.00410000002,0.0432999991,0.999100029" Group="4" VisualVariationIndex="0">env_arcadia_swamptree_05</Object>
+	</Objects>
+</Scenario>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Objects>
+		<Object IsSquad="false" Player="0" ID="10000978" TintValue="1" EditorName="env_arcadia_water_01_2100" Position="512,-5,512" Forward="0.9996,0,-0.0292" Right="-0.0292,0,-0.9996" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>env_arcadia_water_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_shieldexterior_4crevcntr_02_9341" ID="10000003" Position="512,-32.2267,512" Forward="-0.6722,0,0.7404" Right="0.7404,0,0.6722" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>env_shieldexterior_4crevcntr_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_shieldexterior_4Sail_01_8867" ID="10000004" Position="825.396,-5.4537,489.8744" Forward="0.9997,0,-0.0225" Right="-0.0225,0,-0.9997" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>env_shieldexterior_4Sail_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_shieldexterior_4Sail_01_8867" ID="10000005" Position="825.3959,-5.3635,563.2513" Forward="0.9997,0,-0.0225" Right="-0.0225,0,-0.9997" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>env_shieldexterior_4Sail_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_shieldexterior_4wallcrevice_01_7368" ID="10000006" Position="161.007,-3.8125,522.6742" Forward="0.9996,0,-0.0292" Right="-0.0292,0,-0.9996" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>env_shieldexterior_4wallcrevice_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_shieldexterior_4wallcrevice_01_7368" ID="10000007" Position="493.9605,-37.8128,855.5723" Forward="0.0166,0,-0.9999" Right="-0.9999,0,-0.0166" Group="2" VisualVariationIndex="0">
+			<Flag>IncludeInSimRep</Flag>env_shieldexterior_4wallcrevice_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_shieldexterior_4wallcrevice_01_7368" ID="10000008" Position="502.2278,-24.9665,160.0896" Forward="0,0,1" Right="1,0,0" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>env_shieldexterior_4wallcrevice_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_shieldexterior_4wallcrevice_01_7368" ID="10000009" Position="831.3445,-28.411,526.6714" Forward="-1,0,0.0082" Right="0.0082,0,1" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>env_shieldexterior_4wallcrevice_01</Object>
+			
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_shieldinterior_FRHaloVent_01_9454" ID="10000308" Position="332.9356,19.5639,998.0673" Forward="0.6442,0,0.7648" Right="0.7648,0,-0.6442" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>env_shieldinterior_FRHaloVent_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_shieldinterior_FRHaloVent_01_9455" ID="10000309" Position="534.2982,16.1448,1011.063" Forward="0.6442,0,0.7648" Right="0.7648,0,-0.6442" Group="-1" VisualVariationIndex="0">
+			<Flag>IncludeInSimRep</Flag>env_shieldinterior_FRHaloVent_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_shieldinterior_FRHaloVent_01_9456" ID="10000310" Position="566.2562,16.9075,1010.788" Forward="0.6442,0,0.7648" Right="0.7648,0,-0.6442" Group="-1" VisualVariationIndex="0">
+			<Flag>IncludeInSimRep</Flag>env_shieldinterior_FRHaloVent_01</Object>
+			
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_shieldinterior_FRHaloVent_01_9903" ID="10000737" Position="332.2485,18.9857,1051.082" Forward="-0.7174,0,0.6967" Right="0.6967,0,0.7174" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>env_shieldinterior_FRHaloVent_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_shieldexterior_spine_01_9925" ID="10000759" Position="73.0252,42.0126,66.9829" Forward="0.8883,0.2822,0.3624" Right="0.3453,0.1097,-0.9321" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_spine_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_shieldexterior_coralpocket_01_9902" ID="10000760" Position="566.9,-8.3008,631.2554" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">env_shieldexterior_coralpocket_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_shieldexterior_coralpocket_01_9903" ID="10000761" Position="578.4569,-7.954,612.1417" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">env_shieldexterior_coralpocket_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_shieldexterior_coralrock_12_9911" ID="10000769" Position="593.7845,-0.2764,647.461" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">env_shieldexterior_coralrock_12</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_shieldexterior_coralpocket_01_9916" ID="10000774" Position="610.0671,-8.3009,580.7229" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">env_shieldexterior_coralpocket_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_shieldexterior_CreviceHoleCover_01_9902" ID="10000777" Position="-154.2081,3.0519,515.2441" Forward="1,0,0" Right="0,0,-1" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_CreviceHoleCover_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_shieldexterior_CreviceHoleCover_01_9903" ID="10000778" Position="505.3715,-19.5449,1184.569" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_CreviceHoleCover_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_shieldexterior_CreviceHoleCover_01_9904" ID="10000779" Position="516.0374,-19.7826,-153.8927" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_CreviceHoleCover_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_shieldexterior_CreviceHoleCover_01_9905" ID="10000780" Position="1209.128,-26.0734,526.9633" Forward="1,0,0" Right="0,0,-1" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_CreviceHoleCover_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_shieldexterior_CreviceHoleCover_01_9906" ID="10000781" Position="1142.363,-28.1326,704.2635" Forward="-0.6627,0,0.7489" Right="0.7489,0,0.6627" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_CreviceHoleCover_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_shieldexterior_CreviceHoleCover_01_9907" ID="10000782" Position="840.2021,-28.9923,1301.433" Forward="-0.7174,0,0.6967" Right="0.6967,0,0.7174" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_CreviceHoleCover_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_shieldexterior_CreviceHoleCover_01_9908" ID="10000783" Position="1322.533,-28.8791,761.7097" Forward="0.5646,0,0.8253" Right="0.8253,0,-0.5646" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_CreviceHoleCover_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_shieldexterior_CreviceHoleCover_01_9909" ID="10000784" Position="750.696,-29.6939,1277.491" Forward="0.7174,0,0.6967" Right="0.6967,0,-0.7174" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_CreviceHoleCover_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_shieldexterior_bridge_01_9408" ID="10000199" Position="929.061829,5.71339989,710.257874" Forward="0.564599991,0,0.825299978" Right="0.825299978,0,-0.564599991" Group="3" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>env_shieldexterior_bridge_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_shieldexterior_bridge_01_9408" ID="10000201" Position="869.23053,6.61329985,754.788818" Forward="0.564599991,0,0.825299978" Right="0.825299978,0,-0.564599991" Group="3" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>env_shieldexterior_bridge_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_shieldexterior_4bigpit_02_9408" ID="10000216" Position="855.934204,-8.99190044,838.09198" Forward="0,0,1" Right="1,0,0" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldexterior_4bigpit_02</Object>
+			
+<!--Fire Effect-->
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="0,0,0" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="0,0,200" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="0,0,400" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="0,0,600" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="0,0,800" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="0,0,1000" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="0,0,1200" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="0,0,1400" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="200,0,0" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="200,0,200" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="200,0,400" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="200,0,600" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="200,0,800" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="200,0,1000" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="200,0,1200" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="200,0,1400" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="400,0,0" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="400,0,200" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="400,0,400" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="400,0,600" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="400,0,800" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="400,0,1000" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="400,0,1200" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="400,0,1400" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="600,0,0" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="600,0,200" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="600,0,400" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="600,0,600" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="600,0,800" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="600,0,1000" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="600,0,1200" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="600,0,1400" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="800,0,0" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="800,0,200" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="800,0,400" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="800,0,600" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="800,0,800" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="800,0,1000" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="800,0,1200" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="800,0,1400" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="1000,0,0" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="1000,0,200" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="1000,0,400" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="1000,0,600" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="1000,0,800" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="1000,0,1000" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="1000,0,1200" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="1000,0,1400" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="1200,0,0" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="1200,0,200" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="1200,0,400" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="1200,0,600" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="1200,0,800" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="1200,0,1000" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="1200,0,1200" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="1200,0,1400" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="1400,0,0" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="1400,0,200" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="1400,0,400" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="1400,0,600" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="1400,0,800" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="1400,0,1000" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="1400,0,1200" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="fx_env_harvest_flamingstreamers_02_820" ID="10000090" Position="1400,0,1400" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">fx_env_harvest_flamingstreamers_02</Object>
+	</Objects>
+</Scenario>

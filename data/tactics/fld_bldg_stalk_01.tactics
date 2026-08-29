@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>InfectAction</Name>
+		<ActionType>Infect</ActionType>
+		<Anim>Idle</Anim>
+		<WorkRate>10</WorkRate>
+		<MinIdleDuration>7</MinIdleDuration>
+		<HoverAltitude>0</HoverAltitude>
+		<WorkRange>5</WorkRange>
+		<ProtoObject>fx_sporecloud_infect</ProtoObject>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>2.5</WorkRate>
+		<WorkRange>1</WorkRange>
+	</Action>
+	<Action>
+		<Name>FiendishReturn</Name>
+		<ActionType>ReflectDamage</ActionType>
+		<WorkRate>0.35</WorkRate>
+		<StartDisabled />
+	</Action>
+	<Tactic>
+		<PersistentAction>GatherSupplies</PersistentAction>
+		<PersistentAction>InfectAction</PersistentAction>
+		<PersistentSquadAction>FiendishReturn</PersistentSquadAction>
+	</Tactic>
+</TacticData>

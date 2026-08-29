@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>PlasmaShieldGen</Name>
+		<ActionType>PlasmaShieldGen</ActionType>
+		<ParticleEffect>effects\building_fx\unsc\damage\electricity_01</ParticleEffect>
+		<Duration>5</Duration>
+		<DeflectTimeout>20</DeflectTimeout>
+		<ProtoObject>cov_bldg_shieldMed_01</ProtoObject>
+		<Count>25000</Count>
+	</Action>
+	<Action>
+		<Name>MedicHeal</Name>
+		<ActionType>Heal</ActionType>
+		<WorkRate>100</WorkRate>
+		<MinIdleDuration>3</MinIdleDuration>
+		<StartDisabled />
+	</Action>
+	<Tactic>
+		<PersistentAction>MedicHeal</PersistentAction>
+		<PersistentAction>PlasmaShieldGen</PersistentAction>
+	</Tactic>
+</TacticData>
