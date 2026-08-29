@@ -2,16 +2,16 @@
 <Tables>
 	<Table Name="CovMix_1" Type="SquadBuildList">
 		<Row>
-			<c>fld_inf_juggernaut_01</c>
-			<c>1</c>
+			<c>fld_inf_infectionform_01</c>
+			<c>24</c>
 		</Row>
 		<Row>
 			<c>fld_inf_abomination_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fld_inf_infectionform_01</c>
-			<c>24</c>
+			<c>fld_inf_juggernaut_01</c>
+			<c>1</c>
 		</Row>
 		<Row>
 			<c>fld_inf_stalkerform_01</c>
@@ -84,8 +84,8 @@
 	</Table>
 	<Table Name="CovMix_2" Type="SquadBuildList">
 		<Row>
-			<c>fld_air_bomber_01</c>
-			<c>6</c>
+			<c>fld_inf_infectionform_01</c>
+			<c>30</c>
 		</Row>
 		<Row>
 			<c>fld_inf_tankform_01</c>
@@ -104,8 +104,8 @@
 			<c>7</c>
 		</Row>
 		<Row>
-			<c>fld_inf_infectionform_01</c>
-			<c>30</c>
+			<c>fld_air_bomber_01</c>
+			<c>6</c>
 		</Row>
 		<Row>
 			<c>fld_inf_infectedranged_01</c>
@@ -150,8 +150,8 @@
 	</Table>
 	<Table Name="CovMix_3" Type="SquadBuildList">
 		<Row>
-			<c>fld_inf_juggernaut_01</c>
-			<c>2</c>
+			<c>fld_inf_infectionform_01</c>
+			<c>36</c>
 		</Row>
 		<Row>
 			<c>fld_inf_abomination_01</c>
@@ -202,8 +202,8 @@
 			<c>16</c>
 		</Row>
 		<Row>
-			<c>fld_inf_infectionform_01</c>
-			<c>36</c>
+			<c>fld_inf_juggernaut_01</c>
+			<c>2</c>
 		</Row>
 		<Row>
 			<c>fld_air_swarm_01</c>
@@ -252,8 +252,8 @@
 	</Table>
 	<Table Name="CovProphetElites" Type="SquadBuildList">
 		<Row>
-			<c>fld_inf_juggernaut_01</c>
-			<c>1</c>
+			<c>fld_inf_infectionform_01</c>
+			<c>25</c>
 		</Row>
 		<Row>
 			<c>fld_inf_abomination_01</c>
@@ -272,8 +272,8 @@
 			<c>5</c>
 		</Row>
 		<Row>
-			<c>fld_inf_infectionform_01</c>
-			<c>25</c>
+			<c>fld_inf_juggernaut_01</c>
+			<c>1</c>
 		</Row>
 		<Row>
 			<c>fld_inf_infectedCarrier_01</c>
@@ -294,16 +294,16 @@
 	</Table>
 	<Table Name="CovGeneral_1" Type="SquadBuildList">
 		<Row>
-			<c>fld_inf_juggernaut_01</c>
-			<c>1</c>
+			<c>fld_inf_infectionform_01</c>
+			<c>24</c>
 		</Row>
 		<Row>
 			<c>fld_inf_abomination_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fld_inf_infectionform_01</c>
-			<c>24</c>
+			<c>fld_inf_juggernaut_01</c>
+			<c>1</c>
 		</Row>
 		<Row>
 			<c>fld_inf_stalkerform_01</c>
@@ -376,8 +376,8 @@
 	</Table>
 	<Table Name="CovGeneral_2" Type="SquadBuildList">
 		<Row>
-			<c>fld_air_bomber_01</c>
-			<c>6</c>
+			<c>fld_inf_infectionform_01</c>
+			<c>30</c>
 		</Row>
 		<Row>
 			<c>fld_inf_tankform_01</c>
@@ -396,8 +396,8 @@
 			<c>7</c>
 		</Row>
 		<Row>
-			<c>fld_inf_infectionform_01</c>
-			<c>30</c>
+			<c>fld_air_bomber_01</c>
+			<c>6</c>
 		</Row>
 		<Row>
 			<c>fld_inf_infectedranged_01</c>
@@ -438,8 +438,8 @@
 	</Table>
 	<Table Name="CovGeneral_3" Type="SquadBuildList">
 		<Row>
-			<c>fld_inf_juggernaut_01</c>
-			<c>2</c>
+			<c>fld_inf_infectionform_01</c>
+			<c>36</c>
 		</Row>
 		<Row>
 			<c>fld_inf_abomination_01</c>
@@ -490,8 +490,8 @@
 			<c>16</c>
 		</Row>
 		<Row>
-			<c>fld_inf_infectionform_01</c>
-			<c>36</c>
+			<c>fld_inf_juggernaut_01</c>
+			<c>2</c>
 		</Row>
 		<Row>
 			<c>fld_air_swarm_01</c>
