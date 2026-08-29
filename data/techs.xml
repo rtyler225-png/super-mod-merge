@@ -4096,13 +4096,13 @@
       <Effect type="Data" subtype="PopCap" amount="8000" popType="Juggernaut" relativity="Absolute">
         <Target type="Player" />
       </Effect>
-      <Effect type="Data" amount="0.01" subtype="buildPoints" allactions="1" relativity="Percent">
+      <Effect type="Data" amount="0.03" subtype="buildPoints" allactions="1" relativity="Percent">
         <Target type="ProtoUnit">Building</Target>
       </Effect>
-      <Effect type="Data" amount="0.01" subtype="buildPoints" allactions="1" relativity="Percent">
+      <Effect type="Data" amount="0.03" subtype="buildPoints" allactions="1" relativity="Percent">
         <Target type="ProtoUnit">_Building</Target>
       </Effect>
-      <Effect type="Data" amount="0.01" subtype="buildPoints" allactions="1" relativity="Percent">
+      <Effect type="Data" amount="0.03" subtype="buildPoints" allactions="1" relativity="Percent">
         <Target type="ProtoUnit">TurretBuilding</Target>
       </Effect>
       <Effect type="Data" amount="0.01" subtype="buildPoints" allactions="1" relativity="Percent">
