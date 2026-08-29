@@ -3208,6 +3208,15 @@
 <File dir="Art">art\ui\flash\shared\textures\leaders\leaderpict_serina.ddx</File>
 <File dir="Art">art\ui\flash\shared\textures\leaders\leaderpict_grunt.ddx</File>
 <File dir="Art">art\ui\flash\shared\textures\leaders\leaderpict_brutechief.ddx</File>
+<File dir="Art">art\ui\flash\shared\textures\militia\icons\bldg\militia_bldg_airpad_01.ddx</File>
+<File dir="Art">art\ui\flash\shared\textures\militia\icons\bldg\militia_bldg_barracks_01.ddx</File>
+<File dir="Art">art\ui\flash\shared\textures\militia\icons\bldg\militia_bldg_command_01.ddx</File>
+<File dir="Art">art\ui\flash\shared\textures\militia\icons\bldg\militia_bldg_command_02.ddx</File>
+<File dir="Art">art\ui\flash\shared\textures\militia\icons\bldg\militia_bldg_fieldarmory_01.ddx</File>
+<File dir="Art">art\ui\flash\shared\textures\militia\icons\bldg\militia_bldg_fieldarmory_02.ddx</File>
+<File dir="Art">art\ui\flash\shared\textures\militia\icons\bldg\militia_bldg_vehicledepot_01.ddx</File>
+<File dir="Art">art\ui\flash\shared\textures\militia\icons\unit\militia_inf_volunteer_01.ddx</File>
+<File dir="Art">art\ui\flash\shared\textures\militia\icons\unit\militia_veh_spade_01.ddx</File>
 <File dir="Art">art\ui\flash\shared\textures\misc\bobbleheadbg.dds</File>
 <File dir="Art">art\ui\flash\shared\textures\misc\bobbleheadctf.ddx</File>
 <File dir="Art">art\ui\flash\shared\textures\misc\recoverybg.ddx</File>

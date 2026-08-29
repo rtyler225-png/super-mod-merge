@@ -106931,7 +106931,7 @@
     <TrainerType>0</TrainerType>
     <Visual>creep\rebel\playerbase_01\playerbase_01.vis</Visual>
     <PhysicsInfo>unsc_bldg_command_01</PhysicsInfo>
-    <PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_command1</PortraitIcon>
+    <PortraitIcon>ui\flash\shared\textures\militia\icons\bldg\militia_bldg_command_02</PortraitIcon>
     <MinimapIcon size="15">Command</MinimapIcon>
     <DisplayNameID>88771</DisplayNameID>
     <RolloverTextID>88770</RolloverTextID>
@@ -107028,7 +107028,7 @@
     <PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
     <ObjectClass>Squad</ObjectClass>
     <Visual>creep\insurrectionists\infantry_01\militia_civilian_pistol_01.vis</Visual>
-    <PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
+    <PortraitIcon>ui\flash\shared\textures\militia\icons\unit\militia_inf_volunteer_01</PortraitIcon>
     <MinimapIcon size="8">Circle</MinimapIcon>
     <DisplayNameID>7032</DisplayNameID>
     <RolloverTextID>7033</RolloverTextID>
@@ -107108,7 +107108,7 @@
     <PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
     <ObjectClass>Squad</ObjectClass>
     <Visual>creep\insurrectionists\infantry_01\militia_civilian_pistol_f_01.vis</Visual>
-    <PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
+    <PortraitIcon>ui\flash\shared\textures\militia\icons\unit\militia_inf_volunteer_01</PortraitIcon>
     <MinimapIcon size="8">Circle</MinimapIcon>
     <DisplayNameID>7032</DisplayNameID>
     <RolloverTextID>7033</RolloverTextID>
@@ -107189,7 +107189,7 @@
     <PhysicsInfo>warthog</PhysicsInfo>
     <ObjectClass>Squad</ObjectClass>
     <Visual>creep\insurrectionists\spade_01\spade_01.vis</Visual>
-    <PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_warthogROF</PortraitIcon>
+    <PortraitIcon>ui\flash\shared\textures\militia\icons\unit\militia_veh_spade_01</PortraitIcon>
     <MinimapIcon size="8">Square</MinimapIcon>
     <DisplayNameID>7034</DisplayNameID>
     <RolloverTextID>7035</RolloverTextID>
@@ -107275,7 +107275,7 @@
     <ObjectClass>Building</ObjectClass>
     <Visual>creep\rebel\barracks_01\barracks_01.vis</Visual>
     <PhysicsInfo>unsc_bldg_barracks_01</PhysicsInfo>
-    <PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_barracks</PortraitIcon>
+    <PortraitIcon>ui\flash\shared\textures\militia\icons\bldg\militia_bldg_barracks_01</PortraitIcon>
     <MinimapIcon size="5">Building</MinimapIcon>
     <DisplayNameID>88787</DisplayNameID>
     <RolloverTextID>88786</RolloverTextID>
@@ -107346,7 +107346,7 @@
     <ObjectClass>Building</ObjectClass>
     <Visual>creep\rebel\factory_01\factory_01.vis</Visual>
     <PhysicsInfo>unsc_bldg_vehicledepot_01</PhysicsInfo>
-    <PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_vehicledep</PortraitIcon>
+    <PortraitIcon>ui\flash\shared\textures\militia\icons\bldg\militia_bldg_vehicledepot_01</PortraitIcon>
     <MinimapIcon size="5">Building</MinimapIcon>
     <DisplayNameID>88785</DisplayNameID>
     <RolloverTextID>88784</RolloverTextID>
@@ -107417,7 +107417,7 @@
     <ObjectClass>Building</ObjectClass>
     <Visual>creep\rebel\airpad_01\airpad_01.vis</Visual>
     <PhysicsInfo>unsc_bldg_airpad</PhysicsInfo>
-    <PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_airpad</PortraitIcon>
+    <PortraitIcon>ui\flash\shared\textures\militia\icons\bldg\militia_bldg_airpad_01</PortraitIcon>
     <MinimapIcon size="5">Building</MinimapIcon>
     <DisplayNameID>88783</DisplayNameID>
     <RolloverTextID>88782</RolloverTextID>
@@ -107490,7 +107490,7 @@
     <ObjectClass>Building</ObjectClass>
     <Visual>creep\rebel\embassy_01\embassy_01.vis</Visual>
     <PhysicsInfo>unsc_bldg_fieldarmory_01</PhysicsInfo>
-    <PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_barracks</PortraitIcon>
+    <PortraitIcon>ui\flash\shared\textures\militia\icons\bldg\militia_bldg_fieldarmory_01</PortraitIcon>
     <MinimapIcon size="5">Building</MinimapIcon>
     <DisplayNameID>88781</DisplayNameID>
     <RolloverTextID>88780</RolloverTextID>
@@ -107563,7 +107563,7 @@
     <ObjectClass>Building</ObjectClass>
     <Visual>creep\rebel\embassy_01\embassy_01.vis</Visual>
     <PhysicsInfo>unsc_bldg_fieldarmory_01</PhysicsInfo>
-    <PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_barracks</PortraitIcon>
+    <PortraitIcon>ui\flash\shared\textures\militia\icons\bldg\militia_bldg_fieldarmory_02</PortraitIcon>
     <MinimapIcon size="5">Building</MinimapIcon>
     <DisplayNameID>88781</DisplayNameID>
     <RolloverTextID>88780</RolloverTextID>
@@ -107638,7 +107638,7 @@
     <TrainerType>0</TrainerType>
     <Visual>creep\rebel\playerbase_01\playerbase_01.vis</Visual>
     <PhysicsInfo>unsc_bldg_command_01</PhysicsInfo>
-    <PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_command1</PortraitIcon>
+    <PortraitIcon>ui\flash\shared\textures\militia\icons\bldg\militia_bldg_command_01</PortraitIcon>
     <MinimapIcon size="15">Command</MinimapIcon>
     <DisplayNameID>88773</DisplayNameID>
     <RolloverTextID>88772</RolloverTextID>

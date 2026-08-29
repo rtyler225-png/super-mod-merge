@@ -2024,7 +2024,7 @@ Also unlocks the standalone Combat Medic, who will passively heal nearby friendl
 		<String _locID="7031" category="Leaders" subtitle="false">Irregular colonial defense force relying on raw numbers, scavenged weaponry, and improvised civilian technicals.</String>
 		<String _locID="7032" category="Squads" subtitle="false">Armed Civilians</String>
 		<String _locID="7033" category="Squads" subtitle="false">Armed colonial civilians and irregular militia. Cheap 8-person frontline swarm unit with low health and light weapons.</String>
-		<String _locID="7034" category="Squads" subtitle="false">Armed Spade</String>
+		<String _locID="7034" category="Squads" subtitle="false">Spade</String>
 		<String _locID="7035" category="Squads" subtitle="false">Improvised technical truck equipped with a heavy machine gun. Fast and cheap scout vehicle.</String>
 		<String _locID="10154" category="Objects" subtitle="false">Aggressor Sentinel</String>
 		<String _locID="10155" category="Objects" subtitle="false">Light Forerunner air unit that has a Beam attack and a defensive shield.</String>
