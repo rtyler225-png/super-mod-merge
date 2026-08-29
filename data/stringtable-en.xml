@@ -2022,8 +2022,8 @@ Also unlocks the standalone Combat Medic, who will passively heal nearby friendl
 		<String _locID="7029" category="Leaders" subtitle="false">Use this to create unbalanced teams or to spectate the match.</String>
 		<String _locID="7030" category="Leaders" subtitle="false">Civilian Militia</String>
 		<String _locID="7031" category="Leaders" subtitle="false">Irregular colonial defense force relying on raw numbers, scavenged weaponry, and improvised civilian technicals.</String>
-		<String _locID="7032" category="Squads" subtitle="false">Militia Volunteers</String>
-		<String _locID="7033" category="Squads" subtitle="false">Colonial civilian conscripts and armed volunteers. Large squad size providing cheap frontline mass.</String>
+		<String _locID="7032" category="Squads" subtitle="false">Armed Civilians</String>
+		<String _locID="7033" category="Squads" subtitle="false">Armed colonial civilians and irregular militia. Cheap 8-person frontline swarm unit with low health and light weapons.</String>
 		<String _locID="7034" category="Squads" subtitle="false">Armed Spade</String>
 		<String _locID="7035" category="Squads" subtitle="false">Improvised technical truck equipped with a heavy machine gun. Fast and cheap scout vehicle.</String>
 		<String _locID="10154" category="Objects" subtitle="false">Aggressor Sentinel</String>

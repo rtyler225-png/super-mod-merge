@@ -107027,7 +107027,7 @@
   <Object name="militia_inf_volunteer_01" id="0" dbid="7032">
     <PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
     <ObjectClass>Squad</ObjectClass>
-    <Visual>creep\insurrectionists\infantry_01\infantryshotgun_01.vis</Visual>
+    <Visual>creep\insurrectionists\infantry_01\infantry_01.vis</Visual>
     <PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
     <MinimapIcon size="8">Circle</MinimapIcon>
     <DisplayNameID>7032</DisplayNameID>
@@ -107036,12 +107036,12 @@
     <Velocity>12</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
-    <Hitpoints>250</Hitpoints>
-    <AttackGradeDPS>60</AttackGradeDPS>
-    <CombatValue>2</CombatValue>
+    <Hitpoints>125</Hitpoints>
+    <AttackGradeDPS>10.5</AttackGradeDPS>
+    <CombatValue>0.5</CombatValue>
     <LOS>55</LOS>
-    <Pop Type="Unit">0.5</Pop>
-    <Bounty>2</Bounty>
+    <Pop Type="Unit">0.125</Pop>
+    <Bounty>0.5</Bounty>
     <RamDodgeFactor>0.5</RamDodgeFactor>
     <Veterancy Level="1" XP="2" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
     <Veterancy Level="2" XP="5" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
@@ -107051,7 +107051,7 @@
     <LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
     <AmmoMax>200</AmmoMax>
     <AmmoRegenRate>9</AmmoRegenRate>
-    <Tactics>rebel_inf_shotgun_01.tactics</Tactics>
+    <Tactics>militia_inf_volunteer_01.tactics</Tactics>
     <RepairPoints>25</RepairPoints>
     <ObstructionRadiusX>1</ObstructionRadiusX>
     <ObstructionRadiusY>2</ObstructionRadiusY>
@@ -107061,7 +107061,7 @@
     <PickPriority>Unit</PickPriority>
     <SelectType>Unit</SelectType>
     <GotoType>Infantry</GotoType>
-    <SubSelectSort>3004</SubSelectSort>
+    <SubSelectSort>3000</SubSelectSort>
     <SelectedRadiusX>1.3</SelectedRadiusX>
     <SelectedRadiusZ>1.3</SelectedRadiusZ>
     <SquadModeAnim Mode="Lockdown">DigIn</SquadModeAnim>
@@ -107072,7 +107072,86 @@
     <Sound Type="Work">play_unsc_marine_acknowledge</Sound>
     <Sound Type="Attack">play_unsc_marine_attack</Sound>
     <Sound Type="Ability">play_unsc_marine_ability</Sound>
-    <Sound Type="Ability" Action="RocketAttackAction">play_unsc_marine_ability2</Sound>
+    <Sound Type="Pain">play_unsc_marine_vo_hit</Sound>
+    <ExtendedSoundBank>xtnd_ui_marine.bnk</ExtendedSoundBank>
+    <DamageType direction="Full" mode="Normal">LightInfantry</DamageType>
+    <DamageType direction="Full" mode="Cover">LightInfantryInCover</DamageType>
+    <ObjectType>KeepsInGame</ObjectType>
+    <ObjectType>Military</ObjectType>
+    <ObjectType>NonFlying</ObjectType>
+    <ObjectType>Transportable</ObjectType>
+    <ObjectType>infantry</ObjectType>
+    <ObjectType>EasyInfection</ObjectType>
+    <ObjectType>_Infantry</ObjectType>
+    <ObjectType>CanBeFlashBanged</ObjectType>
+    <ObjectType>Unit</ObjectType>
+    <ObjectType>CanCryo</ObjectType>
+    <ObjectType>Rebel</ObjectType>
+    <SurfaceType>Flesh</SurfaceType>
+    <RallyPoint>Military</RallyPoint>
+    <Flag>KBAware</Flag>
+    <Flag>DontRotateObstruction</Flag>
+    <Flag>HasHPBar</Flag>
+    <Flag>HasTrackMask</Flag>
+    <Flag>TargetsFootOfUnit</Flag>
+    <Flag>Obscurable</Flag>
+    <Flag>Repairable</Flag>
+    <SingleBoneIK>Bip01 Spine</SingleBoneIK>
+    <Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="Bip01 Spine" />
+    <FlashUI>
+      <CircleMenuFrameIDNormal>6</CircleMenuFrameIDNormal>
+      <CircleMenuFrameIDHighlight>7</CircleMenuFrameIDHighlight>
+    </FlashUI>
+    <HPBar>UNSC_Health</HPBar>
+  </Object>
+  <Object name="militia_inf_volunteer_f_01" id="0" dbid="7032">
+    <PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
+    <ObjectClass>Squad</ObjectClass>
+    <Visual>creep\insurrectionists\infantry_01\infantry_f_01.vis</Visual>
+    <PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
+    <MinimapIcon size="8">Circle</MinimapIcon>
+    <DisplayNameID>7032</DisplayNameID>
+    <RolloverTextID>7033</RolloverTextID>
+    <MovementType>Land</MovementType>
+    <Velocity>12</Velocity>
+    <Acceleration>26</Acceleration>
+    <TurnRate>540</TurnRate>
+    <Hitpoints>125</Hitpoints>
+    <AttackGradeDPS>10.5</AttackGradeDPS>
+    <CombatValue>0.5</CombatValue>
+    <LOS>55</LOS>
+    <Pop Type="Unit">0.125</Pop>
+    <Bounty>0.5</Bounty>
+    <RamDodgeFactor>0.5</RamDodgeFactor>
+    <Veterancy Level="1" XP="2" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+    <Veterancy Level="2" XP="5" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+    <Veterancy Level="3" XP="10" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+    <Veterancy Level="4" XP="0" Damage="1.45" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+    <Veterancy Level="5" XP="0" Damage="1.55" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+    <LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
+    <AmmoMax>200</AmmoMax>
+    <AmmoRegenRate>9</AmmoRegenRate>
+    <Tactics>militia_inf_volunteer_01.tactics</Tactics>
+    <RepairPoints>25</RepairPoints>
+    <ObstructionRadiusX>1</ObstructionRadiusX>
+    <ObstructionRadiusY>2</ObstructionRadiusY>
+    <ObstructionRadiusZ>1</ObstructionRadiusZ>
+    <PickRadius>2</PickRadius>
+    <PickOffset>1.5</PickOffset>
+    <PickPriority>Unit</PickPriority>
+    <SelectType>Unit</SelectType>
+    <GotoType>Infantry</GotoType>
+    <SubSelectSort>3000</SubSelectSort>
+    <SelectedRadiusX>1.3</SelectedRadiusX>
+    <SelectedRadiusZ>1.3</SelectedRadiusZ>
+    <SquadModeAnim Mode="Lockdown">DigIn</SquadModeAnim>
+    <SquadModeAnim Mode="Normal">DigOut</SquadModeAnim>
+    <Sound Type="Create">play_unsc_marine_birth</Sound>
+    <Sound Type="Death">play_unsc_marine_vo_death</Sound>
+    <Sound Type="Select">play_unsc_marine_select</Sound>
+    <Sound Type="Work">play_unsc_marine_acknowledge</Sound>
+    <Sound Type="Attack">play_unsc_marine_attack</Sound>
+    <Sound Type="Ability">play_unsc_marine_ability</Sound>
     <Sound Type="Pain">play_unsc_marine_vo_hit</Sound>
     <ExtendedSoundBank>xtnd_ui_marine.bnk</ExtendedSoundBank>
     <DamageType direction="Full" mode="Normal">LightInfantry</DamageType>
@@ -107590,8 +107669,7 @@
     <ExitFromDirection>1</ExitFromDirection>
     <Command Type="Research" Position="0">rebel_base_upgrade1</Command>
     <Command Type="TrainSquad" Position="1">militia_veh_spade_01</Command>
-    <Command Type="TrainSquad" Position="1">rebel_veh_warthogrocket_01</Command>
-    <Command Type="TrainSquad" Position="2">rebel_veh_solenodon_01</Command>
+    <Command Type="TrainSquad" Position="2">militia_inf_volunteer_01</Command>
     <Command Type="Research" Position="7">rebel_spade_upgrade1</Command>
     <Command Type="Research" Position="7">rebel_spade_upgrade2</Command>
     <Command Type="Research" Position="7">rebel_spade_upgrade3</Command>

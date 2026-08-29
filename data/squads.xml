@@ -27958,11 +27958,10 @@
     <MinimapScale>1</MinimapScale>
     <DisplayNameID>7032</DisplayNameID>
     <RolloverTextID>7033</RolloverTextID>
-    <RoleTextID>503</RoleTextID>
-    <BuildPoints>8</BuildPoints>
-    <Cost resourcetype="Supplies">125</Cost>
-    <BuildPoints>8</BuildPoints>
-    <SubSelectSort>3004</SubSelectSort>
+    <RoleTextID>500</RoleTextID>
+    <BuildPoints>5</BuildPoints>
+    <Cost resourcetype="Supplies">20</Cost>
+    <SubSelectSort>3000</SubSelectSort>
     <LeashDistance>55</LeashDistance>
     <LeashDeadzone>25</LeashDeadzone>
     <LeashRecallDelay>2500</LeashRecallDelay>
@@ -27971,7 +27970,9 @@
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
     <Units>
-      <Unit count="6" role="normal">militia_inf_volunteer_01</Unit></Units>
+      <Unit count="4" role="normal">militia_inf_volunteer_01</Unit>
+      <Unit count="4" role="normal">militia_inf_volunteer_f_01</Unit>
+    </Units>
     <Sound Type="StartMove">play_ani_marine_walk_01</Sound>
     <Sound Type="StopMove">stop_ani_marine_walk_01</Sound>
     <Sound Type="StopExist">stop_ani_marine_exist</Sound>
