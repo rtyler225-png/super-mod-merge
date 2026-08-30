@@ -4723,6 +4723,7 @@
         <Target type="ProtoSquad">unsc_veh_warthogtroop_01</Target>
         <Target type="ProtoSquad">unsc_veh_wolverine_01</Target>
         <Target type="ProtoSquad">militia_inf_volunteer_01</Target>
+        <Target type="ProtoSquad">militia_inf_shotgunvolunteer_01</Target>
         <Target type="ProtoSquad">militia_veh_spade_01</Target>
       </Effect>
       <Effect type="Data" subtype="Cost" Resource="Supplies" amount="0" relativity="Percent">
