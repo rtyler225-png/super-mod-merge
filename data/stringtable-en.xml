@@ -2505,7 +2505,7 @@ Elite Banshees do not have the Sacrifice ability, but can instead be upgraded to
 		<String _locID="30552" category="Squads" subtitle="false">The Blisterback is a unique Heavy Air unit. It can lock down into a long-range missile battery capable of hitting both ground and air units with a barrage of rockets.</String>
 		<String _locID="30553" category="Squads" subtitle="false">Mark a location on the battlefield to allow UNSC buildings to be constructed there.</String>
 		<String _locID="30554" category="Powers" subtitle="false">Turret Drop</String>
-		<String _locID="30555" category="Powers" subtitle="false">Drop a temporary turret onto the battlefield. While short lived, it can be upgraded.</String>
+		<String _locID="30555" category="Powers" subtitle="false">Deploy a permanent combat turret onto the battlefield. Can be upgraded into specialized defense variants.</String>
 		<String _locID="3074" category="Tech" subtitle="false">Upgrades Blisterbacks to fire Incendiary Rockets and Scorching Plasma.</String>
 		<String _locID="3075" category="Tech" subtitle="false">Equips Blisterbacks with a heavy shield that absorbs some incoming damage.</String>
 		<String _locID="3076" category="Tech" subtitle="false">Blisterback</String>

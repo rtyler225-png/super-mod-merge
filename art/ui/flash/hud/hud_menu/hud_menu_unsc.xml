@@ -313,6 +313,7 @@
 	<Icon type="powericon" name="RebelBeaconDrop" name2="specialPWR3" texture="art\ui\flash\shared\textures\rebel\icons\bldg\rebel_bldg_supplydepo_01" owner="RebelBeaconDrop">-1</Icon>
 	<Icon type="powericon" name="ForgeMarineDrop" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_flameMarine_upgrade2" owner="ForgeMarineDrop">-1</Icon>
 	<Icon type="powericon" name="SerTurretDrop" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_turret_upgradeAnders" owner="SerTurretDrop">-1</Icon>
+	<Icon type="powericon" name="SerTurretDrop" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_turret_upgradeAnders" owner="AndTurretDrop">-1</Icon>
 	<Icon type="powericon" name="SerBuildingDrop" texture="art\ui\flash\shared\textures\unsc\icons\tech\unsc_bldg_supplypad_02" owner="SerBuildingDrop">-1</Icon>
 	<Icon type="powericon" name="SerOmegaTeamDrop" texture="art\ui\flash\shared\textures\unsc\icons\power\SerOmegaTeamDrop" owner="SerOmegaTeamDrop">-1</Icon>
 	<Icon type="powericon" name="SerColossiDrop" texture="art\ui\flash\shared\textures\unsc\icons\power\colossusdrop" owner="SerColossiDrop">-1</Icon>

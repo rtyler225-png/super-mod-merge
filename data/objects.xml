@@ -41412,9 +41412,9 @@
     <Command Type="Research" Position="6">unsc_marineshotgun_upgrade1</Command>
     <Command Type="Research" Position="6">unsc_marineshotgun_upgrade2</Command>
     <Command Type="Research" Position="6">unsc_marineshotgun_upgrade3</Command>
-    <Command Type="Research" Position="7">unsc_Andersmarine_upgrade1</Command>
-    <Command Type="Research" Position="7">unsc_Andersmarine_upgrade2</Command>
-    <Command Type="Research" Position="7">unsc_Andersmarine_upgrade3</Command>
+    <Command Type="Research" Position="7">unsc_andersmarine_upgrade1</Command>
+    <Command Type="Research" Position="7">unsc_andersmarine_upgrade2</Command>
+    <Command Type="Research" Position="7">unsc_andersmarine_upgrade3</Command>
     <Command Type="TrainSquad" Position="">unsc_inf_spartansmg_01</Command>
     <Command Type="TrainSquad" Position="">unsc_inf_spartanshotgun_01</Command>
     <Command Type="TrainSquad" Position="">unsc_inf_spartanlaser_01</Command>
@@ -41624,9 +41624,9 @@
     <Command Type="Research" Position="7">unsc_Forgemarine_upgrade1</Command>
     <Command Type="Research" Position="7">unsc_Forgemarine_upgrade2</Command>
     <Command Type="Research" Position="7">unsc_Forgemarine_upgrade3</Command>
-    <Command Type="Research" Position="7">unsc_Andersmarine_upgrade1</Command>
-    <Command Type="Research" Position="7">unsc_Andersmarine_upgrade2</Command>
-    <Command Type="Research" Position="7">unsc_Andersmarine_upgrade3</Command>
+    <Command Type="Research" Position="7">unsc_andersmarine_upgrade1</Command>
+    <Command Type="Research" Position="7">unsc_andersmarine_upgrade2</Command>
+    <Command Type="Research" Position="7">unsc_andersmarine_upgrade3</Command>
     <Command Type="Research" Position="7">rebel_infantry_upgrade1</Command>
     <Command Type="Research" Position="7">rebel_infantry_upgrade2</Command>
     <Command Type="Research" Position="7">rebel_infantry_upgrade3</Command>
@@ -65305,7 +65305,6 @@
     <Sound Type="Death">play_turret_01_death</Sound>
     <DamageType direction="Full">Shielded</DamageType>
     <DamageType direction="Full">Building</DamageType>
-    <Ability>Holodrone_expire_01.triggerscript</Ability>
     <DazeResist>0.25</DazeResist>
     <ObjectType>HiddenFromStats</ObjectType>
     <ObjectType>TurretBuilding</ObjectType>
@@ -65375,7 +65374,6 @@
     <Sound Type="Death">play_turret_01_death</Sound>
     <DamageType direction="Full">Shielded</DamageType>
     <DamageType direction="Full">Building</DamageType>
-    <Ability>Holodrone_expire_01.triggerscript</Ability>
     <DazeResist>0.25</DazeResist>
     <ObjectType>HiddenFromStats</ObjectType>
     <ObjectType>TurretBuilding</ObjectType>
@@ -65448,7 +65446,6 @@
     <Sound Type="Death">play_turret_01_death</Sound>
     <DamageType direction="Full">Shielded</DamageType>
     <DamageType direction="Full">Building</DamageType>
-    <Ability>Holodrone_expire_01.triggerscript</Ability>
     <DazeResist>0.25</DazeResist>
     <ObjectType>HiddenFromStats</ObjectType>
     <ObjectType>TurretBuilding</ObjectType>
@@ -65521,7 +65518,6 @@
     <Sound Type="Death">play_turret_01_death</Sound>
     <DamageType direction="Full">Shielded</DamageType>
     <DamageType direction="Full">Building</DamageType>
-    <Ability>Holodrone_expire_01.triggerscript</Ability>
     <DazeResist>0.25</DazeResist>
     <ObjectType>HiddenFromStats</ObjectType>
     <ObjectType>TurretBuilding</ObjectType>
@@ -65594,7 +65590,6 @@
     <Sound Type="Death">play_turret_01_death</Sound>
     <DamageType direction="Full">Shielded</DamageType>
     <DamageType direction="Full">Building</DamageType>
-    <Ability>Holodrone_expire_01.triggerscript</Ability>
     <DazeResist>0.25</DazeResist>
     <ObjectType>HiddenFromStats</ObjectType>
     <ObjectType>TurretBuilding</ObjectType>
@@ -65741,7 +65736,6 @@
     <Sound Type="Death">play_turret_01_death</Sound>
     <DamageType direction="Full">Shielded</DamageType>
     <DamageType direction="Full">Building</DamageType>
-    <Ability>Holodrone_expire_01.triggerscript</Ability>
     <DazeResist>0.25</DazeResist>
     <ObjectType>HiddenFromStats</ObjectType>
     <ObjectType>TurretBuilding</ObjectType>
@@ -65814,7 +65808,6 @@
     <Sound Type="Death">play_turret_01_death</Sound>
     <DamageType direction="Full">Shielded</DamageType>
     <DamageType direction="Full">Building</DamageType>
-    <Ability>Holodrone_expire_01.triggerscript</Ability>
     <DazeResist>0.25</DazeResist>
     <ObjectType>HiddenFromStats</ObjectType>
     <ObjectType>TurretBuilding</ObjectType>
@@ -65887,7 +65880,6 @@
     <Sound Type="Death">play_turret_01_death</Sound>
     <DamageType direction="Full">Shielded</DamageType>
     <DamageType direction="Full">Building</DamageType>
-    <Ability>Holodrone_expire_01.triggerscript</Ability>
     <DazeResist>0.25</DazeResist>
     <ObjectType>HiddenFromStats</ObjectType>
     <ObjectType>TurretBuilding</ObjectType>
@@ -65960,7 +65952,6 @@
     <Sound Type="Death">play_turret_01_death</Sound>
     <DamageType direction="Full">Shielded</DamageType>
     <DamageType direction="Full">Building</DamageType>
-    <Ability>Holodrone_expire_01.triggerscript</Ability>
     <DazeResist>0.25</DazeResist>
     <ObjectType>HiddenFromStats</ObjectType>
     <ObjectType>TurretBuilding</ObjectType>

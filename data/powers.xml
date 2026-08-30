@@ -788,6 +788,44 @@
     </Attributes>
     <TriggerScript>SerBuildingDrop.triggerscript</TriggerScript>
   </Power>
+  <Power name="AndTurretDrop">
+    <Attributes>
+      <Cost Supplies="350" Power="2" />
+      <AutoRecharge>90000</AutoRecharge>
+      <SequentialRecharge />
+      <UIRadius>10</UIRadius>
+      <DisplayNameID>30554</DisplayNameID>
+      <RolloverTextID>30555</RolloverTextID>
+      <PrereqTextID>252</PrereqTextID>
+      <ShowLimit />
+      <LeaderPower />
+      <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+      <IconLocation>4</IconLocation>
+      <CameraZoomMin>200</CameraZoomMin>
+      <CameraZoomMax>200</CameraZoomMax>
+      <CameraPitchMin>55</CameraPitchMin>
+      <CameraPitchMax>55</CameraPitchMax>
+      <CameraEnableUserScroll>true</CameraEnableUserScroll>
+      <CameraEnableUserYaw>false</CameraEnableUserYaw>
+      <CameraEnableUserZoom>false</CameraEnableUserZoom>
+      <FlashUI>
+        <CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+        <CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+      </FlashUI>
+      <DataLevel level="0">
+        <Data type="bool" name="RequiresLOS">true</Data>
+        <Data type="float" name="SquadSpawnDelay">0.75</Data>
+        <Data type="sound" name="HudUpSound">play_unsc_odstdrop_vo_ready</Data>
+        <Data type="sound" name="HudAbortSound">play_unsc_odstdrop_vo_exit</Data>
+        <Data type="sound" name="HudFireSound">play_unsc_odstdrop_vo_fire</Data>
+        <Data type="sound" name="HudLastFireSound">play_unsc_odstdrop_vo_out</Data>
+        <Data type="sound" name="HudStartEnvSound">hud_mac_open</Data>
+        <Data type="sound" name="HudStopEnvSound">hud_mac_close</Data>
+        <Data type="protoobject" name="Projectile">unsc_air_odstPod_01</Data>
+      </DataLevel>
+    </Attributes>
+    <TriggerScript>SerTurretDrop.triggerscript</TriggerScript>
+  </Power>
   <Power name="UnscBuildingDrop">
     <Attributes>
       <InfiniteUses />
