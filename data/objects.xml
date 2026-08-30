@@ -15411,7 +15411,7 @@
     <TurnRate>240</TurnRate>
     <Hitpoints>8000</Hitpoints>
     <Shieldpoints>0</Shieldpoints>
-    <AttackGradeDPS>200</AttackGradeDPS>
+    <AttackGradeDPS>240</AttackGradeDPS>
     <CombatValue>24</CombatValue>
     <LOS>65</LOS>
     <Pop Type="Unit">8</Pop>

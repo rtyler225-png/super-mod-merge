@@ -115,8 +115,8 @@
 	<Weapon>
 		<Name>Machinegun1</Name>
 		<AttackRate>0.125</AttackRate>
-		<DamagePerSecond>100</DamagePerSecond>
-		<WeaponType>SmallArms</WeaponType>
+		<DamagePerSecond>120</DamagePerSecond>
+		<WeaponType>HeavyMachineGun</WeaponType>
 		<Projectile>fx_proj_rotaryMG_01</Projectile>
 		<ImpactEffect size="small">unsc_rotarymg_01</ImpactEffect>
 		<MaxVelocityLead>15</MaxVelocityLead>
@@ -137,8 +137,8 @@
 	<Weapon>
 		<Name>Machinegun2</Name>
 		<AttackRate>0.125</AttackRate>
-		<DamagePerSecond>100</DamagePerSecond>
-		<WeaponType>SmallArms</WeaponType>
+		<DamagePerSecond>120</DamagePerSecond>
+		<WeaponType>HeavyMachineGun</WeaponType>
 		<Projectile>fx_proj_rotaryMG_01</Projectile>
 		<ImpactEffect size="small">unsc_rotarymg_01</ImpactEffect>
 		<MaxVelocityLead>15</MaxVelocityLead>
