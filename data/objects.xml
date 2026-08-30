@@ -15322,7 +15322,7 @@
     <Hardpoint name="MissileR" autocenter="true" yawrate="0" pitchrate="0" yawattachment="MissileR" pitchattachment="MissileR" />
     <Hardpoint name="SuperMissile" autocenter="true" yawrate="0" pitchrate="0" yawattachment="SuperMissile" pitchattachment="SuperMissile" />
     <Hitpoints>3000</Hitpoints>
-    <AttackGradeDPS>800</AttackGradeDPS>
+    <AttackGradeDPS>1000</AttackGradeDPS>
     <CombatValue>36</CombatValue>
     <LOS>80</LOS>
     <Pop Type="Unit">20</Pop>

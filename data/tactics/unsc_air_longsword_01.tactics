@@ -3,7 +3,7 @@
   <Weapon>
     <Name>LeftMissileLauncher</Name>
     <AttackRate>2</AttackRate>
-    <DamagePerSecond>400</DamagePerSecond>
+    <DamagePerSecond>500</DamagePerSecond>
     <WeaponType>Explosive</WeaponType>
     <Projectile>fx_proj_longswordMissile_01</Projectile>
     <ImpactEffect size="Medium">Tankshell</ImpactEffect>
@@ -23,7 +23,7 @@
   <Weapon>
     <Name>RightMissileLauncher</Name>
     <AttackRate>2</AttackRate>
-    <DamagePerSecond>400</DamagePerSecond>
+    <DamagePerSecond>500</DamagePerSecond>
     <WeaponType>Explosive</WeaponType>
     <Projectile>fx_proj_longswordMissile_01</Projectile>
     <ImpactEffect size="Medium">Tankshell</ImpactEffect>
@@ -43,7 +43,7 @@
   <Weapon>
     <Name>Cannons</Name>
     <AttackRate>2</AttackRate>
-    <DamagePerSecond>500</DamagePerSecond>
+    <DamagePerSecond>625</DamagePerSecond>
     <WeaponType>Explosive</WeaponType>
     <Projectile>fx_proj_longswordCannon_01</Projectile>
     <ImpactEffect size="small">Tankshell</ImpactEffect>
