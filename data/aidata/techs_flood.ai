@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version='1.0' encoding='us-ascii'?>
 <Tables>
 	<Table Name="CovBasic" Type="TechUpgradeTable">
 		<Row>
@@ -176,5 +176,5 @@
 			<c>fld_bldg_nest_01</c>
 			<c>1</c>
 		</Row>
-	</Table>
+	<Row><c>floodcontrol_wave_buff_00</c><c>fld_bldg_gravemind_01</c><c>1</c></Row><Row><c>floodcontrol_wave_buff_01</c><c>Military</c><c>1</c></Row><Row><c>floodcontrol_wave_buff_02</c><c>Military</c><c>1</c></Row><Row><c>fld_stalk_upgrade1</c><c>fld_bldg_stalk_01</c><c>1</c></Row><Row><c>fld_stalk_upgrade2</c><c>fld_bldg_stalk_01</c><c>1</c></Row><Row><c>fld_combatform_upgrade0</c><c>fld_inf_InfectedElite_01</c><c>1</c></Row><Row><c>fld_juggernaut_upgrade1</c><c>fld_inf_juggernaut_01</c><c>1</c></Row><Row><c>fld_juggernaut_upgrade2</c><c>fld_inf_juggernaut_01</c><c>1</c></Row><Row><c>fld_juggernaut_upgrade3</c><c>fld_inf_juggernaut_01</c><c>1</c></Row><Row><c>fld_stemegg_upgrade1</c><c>fld_bldg_gravemind_01</c><c>1</c></Row><Row><c>fld_command_upgrade1</c><c>cov_bldg_builder_01</c><c>1</c></Row><Row><c>fld_command_upgrade2</c><c>cov_bldg_builder_01</c><c>1</c></Row><Row><c>fld_builder_upgrade1</c><c>fld_bldg_gravemind_01</c><c>1</c></Row><Row><c>fld_builder_upgrade2</c><c>fld_bldg_gravemind_01</c><c>1</c></Row><Row><c>fld_stalkcluster_upgrade1</c><c>fld_bldg_gravemind_01</c><c>1</c></Row><Row><c>fld_stalkcluster_upgrade2</c><c>fld_bldg_gravemind_01</c><c>1</c></Row><Row><c>fld_powerstalkcluster_upgrade1</c><c>fld_bldg_gravemind_01</c><c>1</c></Row><Row><c>fld_base_upgrade1</c><c>cov_bldg_builder_01</c><c>1</c></Row><Row><c>fld_base_upgrade2</c><c>cov_bldg_builder_01</c><c>1</c></Row><Row><c>cpgn_flood_upgrade1</c><c>flood</c><c>1</c></Row><Row><c>cpgn_flood_upgrade2</c><c>flood</c><c>1</c></Row><Row><c>cpgn_flood_upgrade3</c><c>flood</c><c>1</c></Row><Row><c>flood_leader_gravemind</c><c>fld_air_swarm_01</c><c>1</c></Row></Table>
 </Tables>
