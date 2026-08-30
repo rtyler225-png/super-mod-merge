@@ -2026,6 +2026,8 @@ Also unlocks the standalone Combat Medic, who will passively heal nearby friendl
 		<String _locID="7033" category="Squads" subtitle="false">Armed colonial civilians and irregular militia. Cheap 8-person frontline swarm unit with low health and light weapons.</String>
 		<String _locID="7034" category="Squads" subtitle="false">Spade</String>
 		<String _locID="7035" category="Squads" subtitle="false">Improvised technical truck equipped with a heavy machine gun. Fast and cheap scout vehicle.</String>
+		<String _locID="7036" category="Squads" subtitle="false">Shotgun Volunteers</String>
+		<String _locID="7037" category="Squads" subtitle="false">Militia volunteers armed with shotguns. Deadly against infantry at close range, but vulnerable to vehicles and ranged fire.</String>
 		<String _locID="10154" category="Objects" subtitle="false">Aggressor Sentinel</String>
 		<String _locID="10155" category="Objects" subtitle="false">Light Forerunner air unit that has a Beam attack and a defensive shield.</String>
 
@@ -7299,6 +7301,8 @@ Unlocks Repair Drones.</String>
 		<String _locID="40027" category="Skirmish" scenario="game mode" subtitle="false" Update="true">Start with a stockpile of supplies but no supply generators. Additional supplies will be granted every ten minutes.</String>
 		<String _locID="50050" category="Skirmish" subtitle="false">Sandbox Test Mode</String>
 		<String _locID="50051" category="Skirmish" subtitle="false">Human testing mode with 999,999 Supplies, Tech Level 5, uncapped population, 1-second training and construction, and 1-second upgrade research. AI opponents play with standard rules.</String>
+		<String _locID="50052" category="Skirmish" subtitle="false">AI vs AI Spectator Mode</String>
+		<String _locID="50053" category="Skirmish" subtitle="false">Watch AI players battle each other. The human player is an invincible spectator with a protected anchor base, high-speed cloaked observer drone, and full line of sight.</String>
 		<!-- Missing Mod Entities & Powers -->
 		<String _locID="30364" category="Squads" subtitle="false">Lich</String>
 		<String _locID="30365" category="Squads" subtitle="false">The Lich is a heavily armed flying deployment craft capable of devastating ground and air forces.</String>

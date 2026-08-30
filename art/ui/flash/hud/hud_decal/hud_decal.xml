@@ -220,6 +220,7 @@
 	<Icon type="uniticon" name="Infantry" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="rebel_inf_heavyinfantry_01">-1</Icon>
 	<Icon type="uniticon" name="Infantry" SizeX="4" SizeZ="4" Intensity1="8" Intensity2="18" Intensity3="28" owner="rebel_inf_shotgun_01">-1</Icon>
 	<Icon type="uniticon" name="Infantry" SizeX="7" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="militia_inf_volunteer_01">-1</Icon>
+	<Icon type="uniticon" name="Infantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="18" Intensity3="28" owner="militia_inf_shotgunvolunteer_01">-1</Icon>
 	<Icon type="uniticon" name="Infantry" SizeX="7" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="rebel_inf_odst_01">-1</Icon>
 	<Icon type="uniticon" name="Infantry" SizeX="7" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="creep_Rebel_civ_01">-1</Icon>
 	<Icon type="uniticon" name="Infantry" SizeX="7" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="creep_Rebel_civ_02">-1</Icon>
@@ -1030,6 +1031,7 @@
 	<Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_inf_marinearmored_01">-1</Icon>
 	<Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_inf_marine_01">-1</Icon>
 	<Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="7" SizeZ="7" Intensity1="8" Intensity2="18" Intensity3="28" owner="militia_inf_volunteer_01">-1</Icon>
+	<Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="18" Intensity3="28" owner="militia_inf_shotgunvolunteer_01">-1</Icon>
 	<Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_inf_marine_02">-1</Icon>
 	<Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_inf_marine_03">-1</Icon>
 	<Icon type="clumpdecal" name="DecalTextureInfantry" name2="DecalMaskInfantry" SizeX="5" SizeZ="5" Intensity1="8" Intensity2="18" Intensity3="28" owner="unsc_inf_marine_04">-1</Icon>
@@ -1088,4 +1090,5 @@
 	<Icon type="staticdecal" name="StaticDecalTextureSpartan" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="cpgn_npc_Jerome_01">-1</Icon>
 	<Icon type="staticdecal" name="StaticDecalTextureSpartan" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="cpgn_npc_Forge_01">-1</Icon>
 	<Icon type="staticdecal" name="StaticDecalTextureSpartan" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="cpgn_npc_Anders_02">-1</Icon>
-	<Icon type="staticdecal" name="StaticDecalTextureSpartan" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="cpgn_npc_Forge_02">-1</Icon>a</FlashMovieDefinition>
+	<Icon type="staticdecal" name="StaticDecalTextureSpartan" SizeX="6" SizeZ="6" Intensity1="8" Intensity2="18" Intensity3="28" owner="cpgn_npc_Forge_02">-1</Icon>
+</FlashMovieDefinition>

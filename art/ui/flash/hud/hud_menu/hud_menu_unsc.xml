@@ -2202,9 +2202,9 @@
 	<Icon type="unitselection" name="marine" owner="militia_inf_volunteer_01">2</Icon>
 	<Icon type="unitselection" name="marine" owner="militia_inf_volunteer_f_01">2</Icon>
 	<Icon type="unitselection" name="warthog" owner="militia_veh_spade_01">8</Icon>
-	<Icon type="uniticon" name="militia_inf_volunteer_01" texture="art\ui\flash\shared\textures\militia\icons\unit\militia_inf_volunteer_01" owner="militia_inf_volunteer_01">-1</Icon>
-	<Icon type="uniticon" name="militia_inf_volunteer_f_01" texture="art\ui\flash\shared\textures\militia\icons\unit\militia_inf_volunteer_01" owner="militia_inf_volunteer_f_01">-1</Icon>
-	<Icon type="uniticon" name="spade" texture="art\ui\flash\shared\textures\militia\icons\unit\militia_veh_spade_01" owner="militia_veh_spade_01">-1</Icon>
+	<Icon type="uniticon" name="marine" texture="art\ui\flash\shared\textures\militia\icons\unit\militia_inf_volunteer_01" owner="militia_inf_volunteer_01">-1</Icon>
+	<Icon type="uniticon" name="marine" texture="art\ui\flash\shared\textures\militia\icons\unit\militia_inf_volunteer_01" owner="militia_inf_volunteer_f_01">-1</Icon>
+	<Icon type="uniticon" name="warthog" texture="art\ui\flash\shared\textures\militia\icons\unit\militia_veh_spade_01" owner="militia_veh_spade_01">-1</Icon>
 	<Icon type="buildingicon" name="command1" texture="art\ui\flash\shared\textures\militia\icons\bldg\militia_bldg_command_01" owner="militia_bldg_command_01">-1</Icon>
 	<Icon type="uniticon" name="command1" texture="art\ui\flash\shared\textures\militia\icons\bldg\militia_bldg_command_01" owner="militia_bldg_command_01">-1</Icon>
 	<Icon type="buildingicon" name="command1" texture="art\ui\flash\shared\textures\militia\icons\bldg\militia_bldg_command_02" owner="militia_bldg_command_02">-1</Icon>

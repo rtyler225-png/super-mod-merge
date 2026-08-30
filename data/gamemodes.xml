@@ -200,4 +200,14 @@
 		<LongDescriptionID>50051</LongDescriptionID>
 		<NPC />
 	</GameMode>
+	<GameMode>
+		<Name>AIVsAISpectator</Name>
+		<WorldScript>SkirmishWorld.triggerscript</WorldScript>
+		<PlayerScript>AIVsAIPlayer.triggerscript</PlayerScript>
+		<Tech />
+		<DisplayNameID>50052</DisplayNameID>
+		<DescriptionID>50053</DescriptionID>
+		<LongDescriptionID>50053</LongDescriptionID>
+		<NPC />
+	</GameMode>
 </GameModes>

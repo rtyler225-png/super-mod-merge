@@ -27953,7 +27953,7 @@
     <ShieldBubble target="ban_air_lich_02">sys_bubbleshield_large_01</ShieldBubble>
     <ShieldBubble target="cov_veh_scarab_02">sys_bubbleshield_large_01</ShieldBubble>sys_bubbleshield_small_01</ShieldBubbleTypes>
 <Squad name="militia_inf_volunteer_01" formationType="Flock" dbid="877">
-    <PortraitIcon>ui\flash\shared\textures\militia\icons\unit\militia_inf_volunteer_01</PortraitIcon>
+    <PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
     <MinimapIcon size="8">Circle</MinimapIcon>
     <MinimapScale>1</MinimapScale>
     <DisplayNameID>7032</DisplayNameID>
@@ -28063,8 +28063,60 @@
       <ConformToTerrain>true</ConformToTerrain>
     </Selection>
   </Squad>
+  <Squad name="militia_inf_shotgunvolunteer_01" formationType="Flock" dbid="887">
+    <PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
+    <MinimapIcon size="8">Circle</MinimapIcon>
+    <MinimapScale>1</MinimapScale>
+    <DisplayNameID>7036</DisplayNameID>
+    <RolloverTextID>7037</RolloverTextID>
+    <RoleTextID>503</RoleTextID>
+    <BuildPoints>8</BuildPoints>
+    <Cost resourcetype="Supplies">125</Cost>
+    <SubSelectSort>3004</SubSelectSort>
+    <LeashDistance>55</LeashDistance>
+    <LeashDeadzone>25</LeashDeadzone>
+    <LeashRecallDelay>2500</LeashRecallDelay>
+    <AggroDistance>35</AggroDistance>
+    <HPBar offset="0,9,0">UNSC_Health</HPBar>
+    <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+    <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+    <Units>
+      <Unit count="2" role="normal">militia_inf_shotgunvolunteer_01</Unit>
+    </Units>
+    <Sound Type="StartMove">play_ani_marine_walk_01</Sound>
+    <Sound Type="StopMove">stop_ani_marine_walk_01</Sound>
+    <Sound Type="StopExist">stop_ani_marine_exist</Sound>
+    <Sound Type="MoveChatter">play_unsc_batchat_marines_move</Sound>
+    <Sound Type="AttackChatter">play_unsc_batchat_marines_action</Sound>
+    <Sound Type="MoveAttackChatter">play_unsc_batchat_marines_moveattack</Sound>
+    <Sound Type="IdleChatter">play_unsc_batchat_marines_idle</Sound>
+    <Sound Type="KilledEnemy">play_unsc_batchat_marines_killenemy</Sound>
+    <Sound Type="AllyKilled">play_unsc_batchat_marines_allykilled</Sound>
+    <Sound Type="Cheer">play_unsc_batchat_marines_cheer</Sound>
+    <Sound Type="ReactPowCarpetBomb">play_unsc_batchat_marines_unscleader_carpet</Sound>
+    <Sound Type="ReactPowOrbital">play_unsc_batchat_marines_unscleader_mac</Sound>
+    <Sound Type="ReactPowCryo">play_unsc_batchat_marines_unscleader_cryo</Sound>
+    <Sound Type="ReactPowWave">play_unsc_batchat_marines_covleader_tidalwave</Sound>
+    <Sound Type="ReactPowRage" CastingUnitOnly="false">play_unsc_batchat_marines_covleader_rage</Sound>
+    <Sound Type="ReactPowCleansing">play_unsc_batchat_marines_covleader_cleansing</Sound>
+    <Sound Type="ReactFatalityUNSC">play_unsc_batchat_marines_unscleader_fatality</Sound>
+    <Sound Type="ReactFatalityCOV">play_unsc_batchat_marines_covleader_fatality</Sound>
+    <Sound Type="ReactJacking">play_unsc_batchat_marines_unscleader_jacking</Sound>
+    <Sound Type="ReactCommandeer">play_unsc_batchat_marines_unscleader_commandeering</Sound>
+    <Sound Type="ReactHotDrop">play_unsc_batchat_marines_covleader_hotdrop</Sound>
+    <Sound Type="ReactDeath" Squad="Spartan">play_unsc_batchat_marines_spartan_death</Sound>
+    <Sound Type="ReactBirth" Squad="Spartan">play_unsc_batchat_marines_spartan_birth</Sound>
+    <Sound Type="ReactJoinBattle" Squad="Spartan">play_unsc_batchat_marines_spartan_join</Sound>
+    <Flag>Repairable</Flag>
+    <Flag>Chatter</Flag>
+    <Flag>KBAware</Flag>
+    <Flag>Rebel</Flag>
+    <Selection>
+      <ConformToTerrain>true</ConformToTerrain>
+    </Selection>
+  </Squad>
   <Squad name="militia_veh_spade_01" dbid="885">
-    <PortraitIcon>ui\flash\shared\textures\militia\icons\unit\militia_veh_spade_01</PortraitIcon>
+    <PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_warthogROF</PortraitIcon>
     <MinimapIcon size="8">Square</MinimapIcon>
     <MinimapScale>1</MinimapScale>
     <DisplayNameID>7034</DisplayNameID>
@@ -28171,4 +28223,18 @@
       <ConformToTerrain>true</ConformToTerrain>
     </Selection>
   </Squad>
-  </Squads>
+    <Squad name="sys_squad_observer_01" dbid="4990">
+    <PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\air_wasp</PortraitIcon>
+    <DisplayNameID>50052</DisplayNameID>
+    <RolloverTextID>50053</RolloverTextID>
+    <MinimapIcon size="8">Triangle</MinimapIcon>
+    <MinimapScale>1</MinimapScale>
+    <Units>
+      <Unit count="1" role="normal">sys_veh_observer_01</Unit>
+    </Units>
+    <Selection>
+      <ConformToTerrain>false</ConformToTerrain>
+    </Selection>
+    <Flag>KBAware</Flag>
+  </Squad>
+</Squads>

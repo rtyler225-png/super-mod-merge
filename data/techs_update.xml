@@ -434,4 +434,18 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	<Tech name="militia_shotgunvolunteer_unlock" type="Normal">
+		<DBID>0</DBID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">militia_inf_shotgunvolunteer_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="militia_inf_shotgunvolunteer_01" relativity="Absolute">
+				<Target type="ProtoUnit">militia_bldg_barracks_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
 </TechTree>
