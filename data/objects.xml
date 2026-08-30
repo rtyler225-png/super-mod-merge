@@ -81111,7 +81111,7 @@
     <Acceleration>17</Acceleration>
     <TurnRate>270</TurnRate>
     <Hitpoints>10</Hitpoints>
-    <CombatValue>0.4</CombatValue>
+    <CombatValue>1.0</CombatValue>
     <Pop Type="InfectionForm">0.3333333333</Pop>
     <LOS>55</LOS>
     <Bounty>0.1</Bounty>
@@ -81163,7 +81163,7 @@
     <TurnRate>270</TurnRate>
     <Hitpoints>10</Hitpoints>
     <Lifespan>45</Lifespan>
-    <CombatValue>0.4</CombatValue>
+    <CombatValue>1.0</CombatValue>
     <Pop Type="InfectionForm">0.3333333333</Pop>
     <LOS>55</LOS>
     <Bounty>0.1</Bounty>
@@ -81214,7 +81214,7 @@
     <Acceleration>17</Acceleration>
     <TurnRate>270</TurnRate>
     <Hitpoints>10</Hitpoints>
-    <CombatValue>0.4</CombatValue>
+    <CombatValue>1.0</CombatValue>
     <Pop Type="InfectionForm">0</Pop>
     <LOS>55</LOS>
     <Bounty>0.1</Bounty>
@@ -81266,7 +81266,7 @@
     <TurnRate>270</TurnRate>
     <Hitpoints>10</Hitpoints>
     <Lifespan>75</Lifespan>
-    <CombatValue>0.4</CombatValue>
+    <CombatValue>1.0</CombatValue>
     <Pop Type="InfectionForm">0.3333333333</Pop>
     <LOS>55</LOS>
     <Bounty>0.1</Bounty>
@@ -81318,7 +81318,7 @@
     <TurnRate>270</TurnRate>
     <Hitpoints>10</Hitpoints>
     <Lifespan>75</Lifespan>
-    <CombatValue>0.4</CombatValue>
+    <CombatValue>1.0</CombatValue>
     <Pop Type="InfectionForm">0</Pop>
     <LOS>55</LOS>
     <Bounty>0.1</Bounty>

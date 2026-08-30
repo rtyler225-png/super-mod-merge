@@ -2,6 +2,16 @@
 <Tables>
 	<Table Name="CovBasic" Type="TechUpgradeTable">
 		<Row>
+			<c>fld_infectionform_upgrade1</c>
+			<c>fld_inf_infectionform_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>fld_infectionform_upgrade2</c>
+			<c>fld_inf_infectionform_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
 			<c>fld_stalkerform_upgrade1</c>
 			<c>fld_inf_stalkerform_01</c>
 			<c>1</c>
@@ -14,16 +24,6 @@
 		<Row>
 			<c>fld_stalkerform_upgrade3</c>
 			<c>fld_inf_stalkerform_01</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>fld_infectionform_upgrade1</c>
-			<c>fld_inf_infectionform_01</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>fld_infectionform_upgrade2</c>
-			<c>fld_inf_infectionform_01</c>
 			<c>1</c>
 		</Row>
 		<Row>

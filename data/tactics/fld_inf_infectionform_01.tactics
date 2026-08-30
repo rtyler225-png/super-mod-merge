@@ -5,33 +5,39 @@
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>700</DamagePerSecond>
 		<UseDPSasDPA />
-		<MaxRange>2</MaxRange>
+		<MaxRange>3.5</MaxRange>
 		<WeaponType>InfectionForm</WeaponType>
-		<MaxRange>0.35</MaxRange>
 		<TargetPriority type="Infantry">10</TargetPriority>
-		<PreAttackCooldownMin>1</PreAttackCooldownMin>
-		<PreAttackCooldownMax>4</PreAttackCooldownMax>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Building">2</TargetPriority>
+		<TargetPriority type="Flying">-10</TargetPriority>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
 	</Weapon>
 	<Weapon>
 		<Name>LesserFloodInfection</Name>
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>600</DamagePerSecond>
 		<UseDPSasDPA />
-		<MaxRange>2</MaxRange>
+		<MaxRange>3.5</MaxRange>
 		<WeaponType>InfectionForm</WeaponType>
-		<MaxRange>0.35</MaxRange>
 		<TargetPriority type="Infantry">10</TargetPriority>
-		<PreAttackCooldownMin>1</PreAttackCooldownMin>
-		<PreAttackCooldownMax>9</PreAttackCooldownMax>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Building">2</TargetPriority>
+		<TargetPriority type="Flying">-10</TargetPriority>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
 	</Weapon>
 	<Weapon>
 		<Name>FloodMelee</Name>
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>150</DamagePerSecond>
-		<MaxRange>2</MaxRange>
+		<MaxRange>3.5</MaxRange>
 		<WeaponType>InfectionForm</WeaponType>
-		<MaxRange>0.35</MaxRange>
 		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Building">2</TargetPriority>
+		<TargetPriority type="Flying">-10</TargetPriority>
 	</Weapon>
 	<Action>
 		<Name>FloodInfectionAttackAction</Name>
@@ -68,7 +74,55 @@
 		<Name>GaggleMove</Name>
 		<ActionType>GaggleMove</ActionType>
 	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>5</WorkRange>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Build</Anim>
+		<WorkRate>0.167</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>3.75</WorkRate>
+		<WorkRange>3</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
 	<Tactic>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>HardInfection</TargetType>
