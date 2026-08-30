@@ -7,6 +7,10 @@
 				<Control name="StickLeftDown" command="next" event="start" digital="" threshold="0.9" repeat="" delay="0.5" rate="0.2" sound="" />
 				<Control name="DpadUp" command="prev" event="start" repeat="" delay="0.5" rate="0.2" sound="" />
 				<Control name="DpadDown" command="next" event="start" repeat="" delay="0.5" rate="0.2" sound="" />
+				<Control name="KeyUp" command="prev" event="start" repeat="" delay="0.2" rate="0.1" sound="" />
+				<Control name="KeyDown" command="next" event="start" repeat="" delay="0.2" rate="0.1" sound="" />
+				<Control name="MouseWheelUp" command="prev" event="start" threshold="0.9" sound="" />
+				<Control name="MouseWheelDown" command="next" event="start" threshold="0.9" sound="" />
 			</Mode>
 			<Mode name="Horizontal">
 				<Control name="StickLeftLeft" command="prev" event="start" digital="" threshold="0.9" repeat="" delay="0.5" rate="0.2" sound="" />
@@ -38,6 +42,8 @@
 			<Mode name="Main">
 				<Control name="ButtonA" command="accept" event="start" sound="" />
 				<Control name="MouseLeft" command="accept" event="start" sound="" />
+				<Control name="KeyEnter" command="accept" event="start" sound="" />
+				<Control name="KeyNumpadEnter" command="accept" event="start" sound="" />
 			</Mode>
 		</Controls>
 	</UIMenuItemControl>
