@@ -28223,18 +28223,4 @@
       <ConformToTerrain>true</ConformToTerrain>
     </Selection>
   </Squad>
-    <Squad name="sys_squad_observer_01" dbid="4990">
-    <PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\air_wasp</PortraitIcon>
-    <DisplayNameID>50052</DisplayNameID>
-    <RolloverTextID>50053</RolloverTextID>
-    <MinimapIcon size="8">Triangle</MinimapIcon>
-    <MinimapScale>1</MinimapScale>
-    <Units>
-      <Unit count="1" role="normal">sys_veh_observer_01</Unit>
-    </Units>
-    <Selection>
-      <ConformToTerrain>false</ConformToTerrain>
-    </Selection>
-    <Flag>KBAware</Flag>
-  </Squad>
 </Squads>

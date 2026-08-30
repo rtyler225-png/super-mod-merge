@@ -107814,42 +107814,4 @@
     <SquadModeAnim Mode="Lockdown">AnchorDown</SquadModeAnim>
     <SquadModeAnim Mode="Normal">AnchorUp</SquadModeAnim>
   </Object>
-  <Object name="sys_veh_observer_01" is="0" id="2790" dbid="4990">
-    <PhysicsInfo>sentinel</PhysicsInfo>
-    <ObjectClass>Unit</ObjectClass>
-    <Visual>unsc\vehicle\jackrabbit_01\jackrabbit_drone_01.vis</Visual>
-    <FlightLevel>30</FlightLevel>
-    <PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_warthogROF</PortraitIcon>
-    <MinimapIcon size="8">Triangle</MinimapIcon>
-    <DisplayNameID>50052</DisplayNameID>
-    <RolloverTextID>50053</RolloverTextID>
-    <MovementType>Air</MovementType>
-    <Velocity>60</Velocity>
-    <TurnRate>450</TurnRate>
-    <Hitpoints>50000</Hitpoints>
-    <AttackGradeDPS>0</AttackGradeDPS>
-    <CombatValue>0</CombatValue>
-    <LOS>120</LOS>
-    <Tactics>sys_veh_observer_01.tactics</Tactics>
-    <PickRadius>3.4</PickRadius>
-    <PickOffset>-0.1</PickOffset>
-    <PickPriority>Unit</PickPriority>
-    <SelectType>Target</SelectType>
-    <ObjectType>KeepsInGame</ObjectType>
-    <ObjectType>Flying</ObjectType>
-    <ObjectType>Unit</ObjectType>
-    <ObjectType>AirCraft</ObjectType>
-    <ObjectType>HiddenFromStats</ObjectType>
-    <Flag>Invulnerable</Flag>
-    <Flag>Cloaked</Flag>
-    <Flag>PassiveCloak</Flag>
-    <Flag>DontAutoAttackMe</Flag>
-    <Flag>IgnoreSquadAI</Flag>
-    <Flag>NonCollideable</Flag>
-    <Flag>NonSolid</Flag>
-    <Flag>MustOwnToSelect</Flag>
-    <Flag>DontRotateObstruction</Flag>
-    <Flag>KBAware</Flag>
-    <PhysicsReplacementInfo>aircraft_default</PhysicsReplacementInfo>
-  </Object>
 </Objects>

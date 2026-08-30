@@ -7299,10 +7299,8 @@ Unlocks Repair Drones.</String>
 		<String _locID="26991" >The Mammoth is a massive ground vehicle functioning as a mobile base. It comes equipped with several Rocket Turrets and even a small MAC cannon to decimate enemy units.</String>
 		<String _locID="40026" category="Skirmish" subtitle="false">Resource Control</String>
 		<String _locID="40027" category="Skirmish" scenario="game mode" subtitle="false" Update="true">Start with a stockpile of supplies but no supply generators. Additional supplies will be granted every ten minutes.</String>
-		<String _locID="50050" category="Skirmish" subtitle="false">Sandbox Test Mode</String>
-		<String _locID="50051" category="Skirmish" subtitle="false">Human testing mode with 999,999 Supplies, Tech Level 5, uncapped population, 1-second training and construction, and 1-second upgrade research. AI opponents play with standard rules.</String>
-		<String _locID="50052" category="Skirmish" subtitle="false">AI vs AI Spectator Mode</String>
-		<String _locID="50053" category="Skirmish" subtitle="false">Watch AI players battle each other. The human player is an invincible spectator with a protected anchor base, high-speed cloaked observer drone, and full line of sight.</String>
+		<String _locID="50050" category="Skirmish" subtitle="false">Sandbox Mode</String>
+		<String _locID="50051" category="Skirmish" subtitle="false">Testing mode with 999,999 Supplies, Tech Level 5, uncapped population, 1-second training, construction, and upgrade research, plus an invulnerable anchor that keeps the human player in the match. AI opponents play with standard rules.</String>
 		<!-- Missing Mod Entities & Powers -->
 		<String _locID="30364" category="Squads" subtitle="false">Lich</String>
 		<String _locID="30365" category="Squads" subtitle="false">The Lich is a heavily armed flying deployment craft capable of devastating ground and air forces.</String>
