@@ -46,8 +46,8 @@
     <Pop Type="Juggernaut" Max="8000">4</Pop>
     <Pop Type="Hippo" Max="8000">1</Pop>
     <Pop Type="Vulture" Max="8000">2</Pop>
-    <Pop Type="Longsword" Max="8000">2</Pop>
-    <Pop Type="Sabre" Max="8000">4</Pop>
+    <Pop Type="Longsword" Max="8000">8000</Pop>
+    <Pop Type="Sabre" Max="8000">8000</Pop>
     <Pop Type="Seraph" Max="8000">4</Pop>
   </Leader>
   <Leader Name="Cutter" Icon="ui\game\icon\unsc\leader\Captain Cutter" LeaderPickerOrder="1" StatsID="1" DefaultPlayerSlotFlags="0x81">
@@ -87,8 +87,8 @@
     <Pop Type="Juggernaut" Max="8000">4</Pop>
     <Pop Type="Hippo" Max="8000">1</Pop>
     <Pop Type="Vulture" Max="8000">2</Pop>
-    <Pop Type="Longsword" Max="8000">2</Pop>
-    <Pop Type="Sabre" Max="8000">4</Pop>
+    <Pop Type="Longsword" Max="8000">8000</Pop>
+    <Pop Type="Sabre" Max="8000">8000</Pop>
     <Pop Type="Seraph" Max="8000">4</Pop>
   </Leader>
   <Leader Name="Forge" Icon="ui\game\icon\unsc\leader\Sergeant Forge" LeaderPickerOrder="2" StatsID="2" DefaultPlayerSlotFlags="0x2">
@@ -128,8 +128,8 @@
     <Pop Type="Juggernaut" Max="8000">4</Pop>
     <Pop Type="Hippo" Max="8000">1</Pop>
     <Pop Type="Vulture" Max="8000">2</Pop>
-    <Pop Type="Longsword" Max="8000">2</Pop>
-    <Pop Type="Sabre" Max="8000">4</Pop>
+    <Pop Type="Longsword" Max="8000">8000</Pop>
+    <Pop Type="Sabre" Max="8000">8000</Pop>
     <Pop Type="Seraph" Max="8000">4</Pop>
   </Leader>
   <Leader Name="Anders" Icon="ui\game\icon\unsc\leader\Serina" Alpha="0" LeaderPickerOrder="3" StatsID="3" DefaultPlayerSlotFlags="0x4">
@@ -169,8 +169,8 @@
     <Pop Type="Juggernaut" Max="8000">4</Pop>
     <Pop Type="Hippo" Max="8000">1</Pop>
     <Pop Type="Vulture" Max="8000">2</Pop>
-    <Pop Type="Longsword" Max="8000">2</Pop>
-    <Pop Type="Sabre" Max="8000">4</Pop>
+    <Pop Type="Longsword" Max="8000">8000</Pop>
+    <Pop Type="Sabre" Max="8000">8000</Pop>
     <Pop Type="Seraph" Max="8000">4</Pop>
   </Leader>
   <Leader Name="Serina" Icon="ui\game\icon\unsc\leader\Serina" Alpha="0" LeaderPickerOrder="10" StatsID="10" DefaultPlayerSlotFlags="0x4">
@@ -211,8 +211,8 @@
     <Pop Type="Juggernaut" Max="8000">4</Pop>
     <Pop Type="Hippo" Max="8000">1</Pop>
     <Pop Type="Vulture" Max="8000">2</Pop>
-    <Pop Type="Longsword" Max="8000">2</Pop>
-    <Pop Type="Sabre" Max="8000">4</Pop>
+    <Pop Type="Longsword" Max="8000">8000</Pop>
+    <Pop Type="Sabre" Max="8000">8000</Pop>
     <Pop Type="Seraph" Max="8000">4</Pop>
   </Leader>
   <Leader Name="Gravemind" Icon="ui\game\icon\covenant\leader\heretics" Alpha="0" LeaderPickerOrder="11" StatsID="11" DefaultPlayerSlotFlags="0x8">
@@ -249,8 +249,8 @@
     <Pop Type="Mammoth" Max="8000">1</Pop>
     <Pop Type="Hippo" Max="8000">1</Pop>
     <Pop Type="Vulture" Max="8000">2</Pop>
-    <Pop Type="Longsword" Max="8000">2</Pop>
-    <Pop Type="Sabre" Max="8000">4</Pop>
+    <Pop Type="Longsword" Max="8000">8000</Pop>
+    <Pop Type="Sabre" Max="8000">8000</Pop>
     <Pop Type="Seraph" Max="8000">4</Pop>
   </Leader>
   <Leader Name="Spectator" LeaderPickerOrder="4">
@@ -299,8 +299,8 @@
     <Pop Type="Juggernaut" Max="8000">4</Pop>
     <Pop Type="Hippo" Max="8000">1</Pop>
     <Pop Type="Vulture" Max="8000">2</Pop>
-    <Pop Type="Longsword" Max="8000">2</Pop>
-    <Pop Type="Sabre" Max="8000">4</Pop>
+    <Pop Type="Longsword" Max="8000">8000</Pop>
+    <Pop Type="Sabre" Max="8000">8000</Pop>
     <Pop Type="Seraph" Max="8000">4</Pop>
   </Leader>
   <Leader Name="Brute Chieftain" Icon="ui\game\icon\covenant\leader\Brute General" Alpha="0" LeaderPickerOrder="6" StatsID="6" DefaultPlayerSlotFlags="0x10">
@@ -341,8 +341,8 @@
     <Pop Type="Juggernaut" Max="8000">4</Pop>
     <Pop Type="Hippo" Max="8000">1</Pop>
     <Pop Type="Vulture" Max="8000">2</Pop>
-    <Pop Type="Longsword" Max="8000">2</Pop>
-    <Pop Type="Sabre" Max="8000">4</Pop>
+    <Pop Type="Longsword" Max="8000">8000</Pop>
+    <Pop Type="Sabre" Max="8000">8000</Pop>
     <Pop Type="Seraph" Max="8000">4</Pop>
   </Leader>
   <Leader Name="Prophet of Mercy" Icon="ui\game\icon\covenant\leader\Elite General" Alpha="0" LeaderPickerOrder="7" StatsID="7" DefaultPlayerSlotFlags="0x20">
@@ -383,8 +383,8 @@
     <Pop Type="Juggernaut" Max="8000">4</Pop>
     <Pop Type="Hippo" Max="8000">1</Pop>
     <Pop Type="Vulture" Max="8000">2</Pop>
-    <Pop Type="Longsword" Max="8000">2</Pop>
-    <Pop Type="Sabre" Max="8000">4</Pop>
+    <Pop Type="Longsword" Max="8000">8000</Pop>
+    <Pop Type="Sabre" Max="8000">8000</Pop>
     <Pop Type="Seraph" Max="8000">4</Pop>
   </Leader>
   <Leader Name="YapYap" Icon="ui\game\icon\covenant\leader\heretics" Alpha="0" LeaderPickerOrder="14" StatsID="14" DefaultPlayerSlotFlags="0x8">
@@ -424,8 +424,8 @@
     <Pop Type="Juggernaut" Max="8000">4</Pop>
     <Pop Type="Hippo" Max="8000">1</Pop>
     <Pop Type="Vulture" Max="8000">2</Pop>
-    <Pop Type="Longsword" Max="8000">2</Pop>
-    <Pop Type="Sabre" Max="8000">4</Pop>
+    <Pop Type="Longsword" Max="8000">8000</Pop>
+    <Pop Type="Sabre" Max="8000">8000</Pop>
     <Pop Type="Seraph" Max="8000">4</Pop>
   </Leader>
   <Leader Name="Heretics" Icon="ui\game\icon\covenant\leader\heretics" Alpha="0" LeaderPickerOrder="13" StatsID="13" DefaultPlayerSlotFlags="0x8">
@@ -465,8 +465,8 @@
     <Pop Type="Juggernaut" Max="8000">4</Pop>
     <Pop Type="Hippo" Max="8000">1</Pop>
     <Pop Type="Vulture" Max="8000">2</Pop>
-    <Pop Type="Longsword" Max="8000">2</Pop>
-    <Pop Type="Sabre" Max="8000">4</Pop>
+    <Pop Type="Longsword" Max="8000">8000</Pop>
+    <Pop Type="Sabre" Max="8000">8000</Pop>
     <Pop Type="Seraph" Max="8000">4</Pop>
   </Leader>
   <Leader Name="Blademaster" Icon="ui\game\icon\unsc\leader\Captain Cutter" LeaderPickerOrder="12" StatsID="12" DefaultPlayerSlotFlags="0x8">
@@ -505,8 +505,8 @@
     <Pop Type="Juggernaut" Max="8000">4</Pop>
     <Pop Type="Hippo" Max="8000">1</Pop>
     <Pop Type="Vulture" Max="8000">2</Pop>
-    <Pop Type="Longsword" Max="8000">2</Pop>
-    <Pop Type="Sabre" Max="8000">4</Pop>
+    <Pop Type="Longsword" Max="8000">8000</Pop>
+    <Pop Type="Sabre" Max="8000">8000</Pop>
     <Pop Type="Seraph" Max="8000">4</Pop>
   </Leader>
   <Leader Name="Random Covenant" LeaderPickerOrder="8" Random="true">
@@ -571,8 +571,8 @@
     <Pop Type="Juggernaut" Max="8000">4</Pop>
     <Pop Type="Hippo" Max="8000">1</Pop>
     <Pop Type="Vulture" Max="8000">2</Pop>
-    <Pop Type="Longsword" Max="8000">2</Pop>
-    <Pop Type="Sabre" Max="8000">4</Pop>
+    <Pop Type="Longsword" Max="8000">8000</Pop>
+    <Pop Type="Sabre" Max="8000">8000</Pop>
     <Pop Type="Seraph" Max="8000">4</Pop>
   </Leader>
   <Leader Name="Prophet of Pudding" Icon="ui\game\icon\covenant\leader\Prophet of truth" Test="true" Alpha="0">
@@ -606,8 +606,8 @@
     <Pop Type="Juggernaut" Max="8000">4</Pop>
     <Pop Type="Hippo" Max="8000">1</Pop>
     <Pop Type="Vulture" Max="8000">2</Pop>
-    <Pop Type="Longsword" Max="8000">2</Pop>
-    <Pop Type="Sabre" Max="8000">4</Pop>
+    <Pop Type="Longsword" Max="8000">8000</Pop>
+    <Pop Type="Sabre" Max="8000">8000</Pop>
     <Pop Type="Seraph" Max="8000">4</Pop>
   </Leader>
   <Leader Name="FloodMap" Test="true" Alpha="0">
@@ -648,8 +648,8 @@
     <Pop Type="Juggernaut" Max="8000">4</Pop>
     <Pop Type="Hippo" Max="8000">1</Pop>
     <Pop Type="Vulture" Max="8000">2</Pop>
-    <Pop Type="Longsword" Max="8000">2</Pop>
-    <Pop Type="Sabre" Max="8000">4</Pop>
+    <Pop Type="Longsword" Max="8000">8000</Pop>
+    <Pop Type="Sabre" Max="8000">8000</Pop>
     <Pop Type="Seraph" Max="8000">4</Pop>
   </Leader>
 </Leaders>
