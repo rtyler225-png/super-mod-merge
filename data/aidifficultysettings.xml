@@ -5,7 +5,7 @@
 		<PiecewiseFunc>
 			<DataPoint Input="0" Output="10" />
 			<DataPoint Input="0.34" Output="6" />
-			<DataPoint Input="0.67" Output="3" />
+			<DataPoint Input="0.67" Output="1.5" Comment="Heroic: faster strategic retasking, below Legendary" />
 			<DataPoint Input="1" Output="0.8" />
 			<DataPoint Input="2" Output="0.4" />
 		</PiecewiseFunc>
@@ -26,7 +26,7 @@
 		<PiecewiseFunc>
 			<DataPoint Input="0" Output="0.05" />
 			<DataPoint Input="0.34" Output="0.02" />
-			<DataPoint Input="0.67" Output="0.01" />
+			<DataPoint Input="0.67" Output="0.00125" Comment="Heroic: 80% of Legendary minimum think cadence" />
 			<DataPoint Input="1" Output="0.001" />
 			<DataPoint Input="2" Output="0.0005" />
 		</PiecewiseFunc>
@@ -35,7 +35,7 @@
 		<PiecewiseFunc>
 			<DataPoint Input="0" Output="0.10" />
 			<DataPoint Input="0.34" Output="0.05" />
-			<DataPoint Input="0.67" Output="0.02" />
+			<DataPoint Input="0.67" Output="0.00375" Comment="Heroic: 80% of Legendary maximum think cadence" />
 			<DataPoint Input="1" Output="0.003" />
 			<DataPoint Input="2" Output="0.001" />
 		</PiecewiseFunc>
@@ -44,7 +44,7 @@
 		<PiecewiseFunc>
 			<DataPoint Input="0" Output="0.10" />
 			<DataPoint Input="0.34" Output="0.03" />
-			<DataPoint Input="0.67" Output="0.01" />
+			<DataPoint Input="0.67" Output="0.00125" Comment="Heroic: 80% of Legendary minimum action cadence" />
 			<DataPoint Input="1" Output="0.001" />
 			<DataPoint Input="2" Output="0.0005" />
 		</PiecewiseFunc>
@@ -53,7 +53,7 @@
 		<PiecewiseFunc>
 			<DataPoint Input="0" Output="0.20" />
 			<DataPoint Input="0.34" Output="0.06" />
-			<DataPoint Input="0.67" Output="0.02" />
+			<DataPoint Input="0.67" Output="0.00375" Comment="Heroic: 80% of Legendary maximum action cadence" />
 			<DataPoint Input="1" Output="0.003" />
 			<DataPoint Input="2" Output="0.001" />
 		</PiecewiseFunc>
@@ -62,7 +62,7 @@
 		<PiecewiseFunc>
 			<DataPoint Input="0" Output="2.0" />
 			<DataPoint Input="0.34" Output="0.8" />
-			<DataPoint Input="0.67" Output="0.3" />
+			<DataPoint Input="0.67" Output="0.0625" Comment="Heroic: 80% of Legendary power evaluation cadence" />
 			<DataPoint Input="1" Output="0.05" />
 			<DataPoint Input="2" Output="0.02" />
 		</PiecewiseFunc>
@@ -71,7 +71,7 @@
 		<PiecewiseFunc>
 			<DataPoint Input="0" Output="4.0" />
 			<DataPoint Input="0.34" Output="1.5" />
-			<DataPoint Input="0.67" Output="0.6" />
+			<DataPoint Input="0.67" Output="0.125" Comment="Heroic: 80% of Legendary power evaluation cadence" />
 			<DataPoint Input="1" Output="0.10" />
 			<DataPoint Input="2" Output="0.05" />
 		</PiecewiseFunc>
@@ -116,7 +116,7 @@
 		<PiecewiseFunc>
 			<DataPoint Input="0" Output="3" Comment="3 on Easy" />
 			<DataPoint Input="0.34" Output="4" Comment="4 on Normal" />
-			<DataPoint Input="0.67" Output="5" Comment="5 on Hard" />
+			<DataPoint Input="0.67" Output="6" Comment="Heroic: 6 base targets, below Legendary's 8" />
 			<DataPoint Input="1" Output="8" Comment="8 on Legendary" />
 			<DataPoint Input="2" Output="10" Comment="10 on Hyper-Legendary" />
 		</PiecewiseFunc>
@@ -149,7 +149,7 @@
 		<PiecewiseFunc>
 			<DataPoint Input="0" Output="3" Comment="Decent scouting on Easy" />
 			<DataPoint Input="0.34" Output="6" Comment="Good scouting on Normal" />
-			<DataPoint Input="0.67" Output="9" Comment="High scouting on Hard" />
+			<DataPoint Input="0.67" Output="10" Comment="Heroic: max scouting quality" />
 			<DataPoint Input="1" Output="10" Comment="Max scouting on Legendary" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
@@ -165,7 +165,7 @@
 		<PiecewiseFunc>
 			<DataPoint Input="0" Output="0.35" Comment="35% on Easy" />
 			<DataPoint Input="0.34" Output="0.85" Comment="85% on Normal" />
-			<DataPoint Input="0.67" Output="1.00" Comment="100% on Hard" />
+			<DataPoint Input="0.67" Output="1.10" Comment="Heroic: 81% of Legendary counter focus" />
 			<DataPoint Input="1" Output="1.35" Comment="135% on Legendary" />
 			<DataPoint Input="2" Output="1.60" Comment="160% on Hyper-Legendary" />
 		</PiecewiseFunc>
@@ -174,7 +174,7 @@
 		<PiecewiseFunc>
 			<DataPoint Input="0" Output="4.0" />
 			<DataPoint Input="0.34" Output="1.0" />
-			<DataPoint Input="0.67" Output="0.5" />
+			<DataPoint Input="0.67" Output="0.125" Comment="Heroic: 80% of Legendary counter recalculation cadence" />
 			<DataPoint Input="1" Output="0.10" />
 			<DataPoint Input="2" Output="0.05" />
 		</PiecewiseFunc>
@@ -183,7 +183,7 @@
 		<PiecewiseFunc>
 			<DataPoint Input="0" Output="20" Comment="20 on Easy" />
 			<DataPoint Input="0.34" Output="40" Comment="40 on Normal" />
-			<DataPoint Input="0.67" Output="60" Comment="60 on Hard" />
+			<DataPoint Input="0.67" Output="80" Comment="Heroic: 80% of Legendary building bid capacity" />
 			<DataPoint Input="1" Output="100" Comment="100 on Legendary" />
 			<DataPoint Input="2" Output="150" Comment="150 on Hyper-Legendary" />
 		</PiecewiseFunc>
@@ -192,7 +192,7 @@
 		<PiecewiseFunc>
 			<DataPoint Input="0" Output="16" Comment="16 on Easy" />
 			<DataPoint Input="0.34" Output="30" Comment="30 on Normal" />
-			<DataPoint Input="0.67" Output="48" Comment="48 on Hard" />
+			<DataPoint Input="0.67" Output="64" Comment="Heroic: 80% of Legendary unapproved building bids" />
 			<DataPoint Input="1" Output="80" Comment="80 on Legendary" />
 			<DataPoint Input="2" Output="120" Comment="120 on Hyper-Legendary" />
 		</PiecewiseFunc>
@@ -201,7 +201,7 @@
 		<PiecewiseFunc>
 			<DataPoint Input="0" Output="6.0" />
 			<DataPoint Input="0.34" Output="4.0" />
-			<DataPoint Input="0.67" Output="2.5" />
+			<DataPoint Input="0.67" Output="1.8" Comment="Heroic: shorter distractions to sustain pressure" />
 			<DataPoint Input="1" Output="1.5" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
@@ -209,7 +209,7 @@
 		<PiecewiseFunc>
 			<DataPoint Input="0" Output="3.0" />
 			<DataPoint Input="0.34" Output="1.5" />
-			<DataPoint Input="0.67" Output="0.8" />
+			<DataPoint Input="0.67" Output="0.25" Comment="Heroic: 80% of Legendary build-topic urgency cadence" />
 			<DataPoint Input="1" Output="0.2" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
