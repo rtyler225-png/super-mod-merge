@@ -60,13 +60,12 @@
 	<Action>
 		<Name>SporeCloudAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>MeleeAttack</Anim>
+		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Anim>SporeCloudAttack</Anim>
 		<Weapon>SporeCloud</Weapon>
-		<MainAttack />
 		<Infection />
 		<DontCheckOrientTolerance />
 		<DisableAttackWaitTimer />
-		<PersistBetweenOpps />
 		<FindBetterAction />
 	</Action>
 	<Action>
@@ -186,6 +185,7 @@
 			<TargetType>Flying</TargetType>
 			<Action>SporeCloudAttackAction</Action>
 		</TargetRule>
+		<PersistentAction>SporeCloudAttackAction</PersistentAction>
 		<PersistentAction>GaggleMove</PersistentAction>
 	</Tactic>
 </TacticData>
