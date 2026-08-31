@@ -65258,7 +65258,7 @@
     <Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="gun" />
     <MovementType>Land</MovementType>
     <Hitpoints>6528.9</Hitpoints>
-    <Shieldpoints>6528</Shieldpoints>
+    <Shieldpoints>0</Shieldpoints>
     <AttackGradeDPS>187</AttackGradeDPS>
     <CombatValue>12</CombatValue>
     <LOS>80</LOS>
@@ -65313,7 +65313,7 @@
     <Flag>ForceAnimRate</Flag>
     <Flag>SelectionDontConformToTerrain</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>UNSC_Bldg_HealthShield</HPBar>
+    <HPBar>UNSC_Bldg_Health</HPBar>
     <TrueLOSHeight>10</TrueLOSHeight>
   </Object>
   <Object name="unsc_bldg_dropwatchtower_01" id="0" dbid="3093">
@@ -65327,7 +65327,7 @@
     <RoleTextID>516</RoleTextID>
     <MovementType>Land</MovementType>
     <Hitpoints>6528.9</Hitpoints>
-    <Shieldpoints>6528</Shieldpoints>
+    <Shieldpoints>0</Shieldpoints>
     <AttackGradeDPS>187</AttackGradeDPS>
     <CombatValue>12</CombatValue>
     <LOS>150</LOS>
@@ -65382,7 +65382,7 @@
     <Flag>ForceAnimRate</Flag>
     <Flag>SelectionDontConformToTerrain</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>UNSC_Bldg_HealthShield</HPBar>
+    <HPBar>UNSC_Bldg_Health</HPBar>
     <TrueLOSHeight>10</TrueLOSHeight>
   </Object>
   <Object name="unsc_bldg_dropturretAI_01" id="0" dbid="958">
@@ -65398,7 +65398,7 @@
     <Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="gun" />
     <MovementType>Land</MovementType>
     <Hitpoints>6528.9</Hitpoints>
-    <Shieldpoints>6528</Shieldpoints>
+    <Shieldpoints>0</Shieldpoints>
     <AttackGradeDPS>262</AttackGradeDPS>
     <CombatValue>14</CombatValue>
     <LOS>80</LOS>
@@ -65454,7 +65454,7 @@
     <Flag>ForceAnimRate</Flag>
     <Flag>SelectionDontConformToTerrain</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>UNSC_Bldg_HealthShield</HPBar>
+    <HPBar>UNSC_Bldg_Health</HPBar>
     <TrueLOSHeight>10</TrueLOSHeight>
   </Object>
   <Object name="unsc_bldg_dropturretAV_01" id="0" dbid="144">
@@ -65470,7 +65470,7 @@
     <Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="gun" />
     <MovementType>Land</MovementType>
     <Hitpoints>6528.9</Hitpoints>
-    <Shieldpoints>6528</Shieldpoints>
+    <Shieldpoints>0</Shieldpoints>
     <AttackGradeDPS>400</AttackGradeDPS>
     <CombatValue>14</CombatValue>
     <LOS>80</LOS>
@@ -65526,7 +65526,7 @@
     <Flag>ForceAnimRate</Flag>
     <Flag>SelectionDontConformToTerrain</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>UNSC_Bldg_HealthShield</HPBar>
+    <HPBar>UNSC_Bldg_Health</HPBar>
     <TrueLOSHeight>10</TrueLOSHeight>
   </Object>
   <Object name="unsc_bldg_dropturretAA_01" id="0" dbid="145">
@@ -65542,7 +65542,7 @@
     <Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="gun" />
     <MovementType>Land</MovementType>
     <Hitpoints>6528.9</Hitpoints>
-    <Shieldpoints>6528</Shieldpoints>
+    <Shieldpoints>0</Shieldpoints>
     <AttackGradeDPS>400</AttackGradeDPS>
     <CombatValue>14</CombatValue>
     <LOS>80</LOS>
@@ -65598,7 +65598,7 @@
     <Flag>ForceAnimRate</Flag>
     <Flag>SelectionDontConformToTerrain</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>UNSC_Bldg_HealthShield</HPBar>
+    <HPBar>UNSC_Bldg_Health</HPBar>
     <TrueLOSHeight>10</TrueLOSHeight>
   </Object>
   <Object name="unsc_bldg_dropArtilleryturret_01" id="0" dbid="3093">
@@ -65613,7 +65613,7 @@
     <Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="gun" />
     <MovementType>Land</MovementType>
     <Hitpoints>13000</Hitpoints>
-    <Shieldpoints>6528</Shieldpoints>
+    <Shieldpoints>0</Shieldpoints>
     <AttackGradeDPS>400</AttackGradeDPS>
     <CombatValue>12</CombatValue>
     <LOS>80</LOS>
@@ -65688,7 +65688,7 @@
     <Hardpoint name="Turret" autocenter="true" yawrate="30" pitchrate="30" pitchMinAngle="-15" pitchMaxAngle="90" yawattachment="Turret" pitchattachment="Cannon" />
     <MovementType>Land</MovementType>
     <Hitpoints>13000</Hitpoints>
-    <Shieldpoints>6528</Shieldpoints>
+    <Shieldpoints>0</Shieldpoints>
     <AttackGradeDPS>400</AttackGradeDPS>
     <CombatValue>12</CombatValue>
     <LOS>80</LOS>
@@ -65744,7 +65744,7 @@
     <Flag>ForceAnimRate</Flag>
     <Flag>SelectionDontConformToTerrain</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>UNSC_Bldg_HealthShield</HPBar>
+    <HPBar>UNSC_Bldg_Health</HPBar>
     <TrueLOSHeight>10</TrueLOSHeight>
   </Object>
   <Object name="unsc_bldg_dropturretAI_02" id="0" dbid="958">
@@ -65760,7 +65760,7 @@
     <Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="gun" />
     <MovementType>Land</MovementType>
     <Hitpoints>12000</Hitpoints>
-    <Shieldpoints>6528</Shieldpoints>
+    <Shieldpoints>0</Shieldpoints>
     <AttackGradeDPS>262</AttackGradeDPS>
     <CombatValue>14</CombatValue>
     <LOS>80</LOS>
@@ -65816,7 +65816,7 @@
     <Flag>ForceAnimRate</Flag>
     <Flag>SelectionDontConformToTerrain</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>UNSC_Bldg_HealthShield</HPBar>
+    <HPBar>UNSC_Bldg_Health</HPBar>
     <TrueLOSHeight>10</TrueLOSHeight>
   </Object>
   <Object name="unsc_bldg_dropturretAV_02" id="0" dbid="144">
@@ -65832,7 +65832,7 @@
     <Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="gun" />
     <MovementType>Land</MovementType>
     <Hitpoints>12000</Hitpoints>
-    <Shieldpoints>6528</Shieldpoints>
+    <Shieldpoints>0</Shieldpoints>
     <AttackGradeDPS>400</AttackGradeDPS>
     <CombatValue>14</CombatValue>
     <LOS>80</LOS>
@@ -65888,7 +65888,7 @@
     <Flag>ForceAnimRate</Flag>
     <Flag>SelectionDontConformToTerrain</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>UNSC_Bldg_HealthShield</HPBar>
+    <HPBar>UNSC_Bldg_Health</HPBar>
     <TrueLOSHeight>10</TrueLOSHeight>
   </Object>
   <Object name="unsc_bldg_dropturretAA_02" id="0" dbid="145">
@@ -65904,7 +65904,7 @@
     <Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="turret" pitchattachment="gun" />
     <MovementType>Land</MovementType>
     <Hitpoints>12000</Hitpoints>
-    <Shieldpoints>6528</Shieldpoints>
+    <Shieldpoints>0</Shieldpoints>
     <AttackGradeDPS>262</AttackGradeDPS>
     <CombatValue>14</CombatValue>
     <LOS>80</LOS>
@@ -65960,7 +65960,7 @@
     <Flag>ForceAnimRate</Flag>
     <Flag>SelectionDontConformToTerrain</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>UNSC_Bldg_HealthShield</HPBar>
+    <HPBar>UNSC_Bldg_Health</HPBar>
     <TrueLOSHeight>10</TrueLOSHeight>
   </Object>
   <Object name="cov_bldg_powernode_01" is="0" id="8925" dbid="3758">

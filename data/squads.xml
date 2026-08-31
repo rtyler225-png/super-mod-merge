@@ -12875,7 +12875,7 @@
     <LeashDeadzone>15</LeashDeadzone>
     <LeashRecallDelay>2500</LeashRecallDelay>
     <AggroDistance>10</AggroDistance>
-    <HPBar offset="0,16,0">UNSC_Bldg_HealthShield</HPBar>
+    <HPBar offset="0,16,0">UNSC_Bldg_Health</HPBar>
     <Birth spawnpoint="bone_spawnPoint01">Flyin</Birth>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>

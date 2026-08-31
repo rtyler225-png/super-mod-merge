@@ -31293,6 +31293,24 @@
       <Effect type="Data" amount="13750" subtype="Shieldpoints" relativity="Absolute">
         <Target type="ProtoUnit">unsc_bldg_fieldArmoryAnders_02</Target>
       </Effect>
+      <Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+        <Target type="ProtoSquad">unsc_bldg_turretdrop_01</Target>
+      </Effect>
+      <Effect type="Data" hpbar="UNSC_Bldg_HealthShield" subtype="HPBar" relativity="Absolute">
+        <Target type="ProtoSquad">unsc_bldg_turretdrop_01</Target>
+      </Effect>
+      <Effect type="Data" amount="6528" subtype="Shieldpoints" relativity="Absolute">
+        <Target type="ProtoUnit">unsc_bldg_turretdrop_01</Target>
+        <Target type="ProtoUnit">unsc_bldg_dropwatchtower_01</Target>
+        <Target type="ProtoUnit">unsc_bldg_dropturretAI_01</Target>
+        <Target type="ProtoUnit">unsc_bldg_dropturretAV_01</Target>
+        <Target type="ProtoUnit">unsc_bldg_dropturretAA_01</Target>
+        <Target type="ProtoUnit">unsc_bldg_dropArtilleryturret_01</Target>
+        <Target type="ProtoUnit">unsc_bldg_dropsiegeturret_01</Target>
+        <Target type="ProtoUnit">unsc_bldg_dropturretAI_02</Target>
+        <Target type="ProtoUnit">unsc_bldg_dropturretAV_02</Target>
+        <Target type="ProtoUnit">unsc_bldg_dropturretAA_02</Target>
+      </Effect>
     </Effects>
   </Tech>
   <Tech name="unsc_LOS_upgradeSerina" type="Normal">

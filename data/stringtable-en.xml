@@ -963,7 +963,7 @@ Also unlocks the standalone Combat Medic, who can passively heal nearby friendly
 		<String _locID="88745" category="Squads" subtitle="false">A pair of Rebel Snipers armed with Anti-Tank rifles, making them extremely effective against most everything. They will also heal themselves out of combat.</String>
 		<String _locID="88744" category="Techs" subtitle="false">Priority Request</String>
 		<String _locID="88743" category="Techs" subtitle="false">Reduces the cooldown of Turret Drop.</String>
-		<String _locID="88742" category="Techs" subtitle="false">Increases the Health and Shield strength of all Turret Drops.</String>
+		<String _locID="88742" category="Techs" subtitle="false">Increases the Health of all Turret Drops.</String>
 		<String _locID="88741" category="Techs" subtitle="false">Double Defense</String>
 		<String _locID="88740" category="Techs" subtitle="false">Turret Drop gains an additional charge.</String>
 		<String _locID="88739" category="Techs" subtitle="false">Incoming!</String>
