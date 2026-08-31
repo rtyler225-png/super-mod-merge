@@ -12187,13 +12187,13 @@
     <Flag>HasPivotingEngines</Flag>
     <Hardpoint name="TurbineFL" autocenter="true" yawrate="0" yawmaxangle="0" pitchrate="60" pitchMaxAngle="9" pitchMinAngle="-9" pitchattachment="Turbine FL" />
     <Hardpoint name="TurbineFR" autocenter="true" yawrate="0" yawmaxangle="0" pitchrate="60" pitchMaxAngle="9" pitchMinAngle="-9" pitchattachment="Turbine FR" />
-    <Hardpoint name="FrontCentreGun" autocenter="true" yawrate="90" pitchrate="180" pitchMinAngle="-90" pitchMaxAngle="15" pitchattachment="front_centre_laser" yawattachment="front_centre_laser_base" />
-    <Hardpoint name="FrontRightGun" autocenter="true" yawrate="90" pitchrate="180" pitchMinAngle="-90" pitchMaxAngle="15" pitchattachment="front_right_laser" yawattachment="front_right_laser_base" />
-    <Hardpoint name="FrontLeftGun" autocenter="true" yawrate="90" pitchrate="180" pitchMinAngle="-90" pitchMaxAngle="15" pitchattachment="front_left_laser" yawattachment="front_left_laser_base" />
-    <Hardpoint name="RearRightGun" autocenter="true" yawrate="90" pitchrate="180" pitchMinAngle="-90" pitchMaxAngle="15" pitchattachment="rear_right_laser" yawattachment="rear_right_laser_base" />
-    <Hardpoint name="RearLeftGun" autocenter="true" yawrate="90" pitchrate="180" pitchMinAngle="-90" pitchMaxAngle="15" pitchattachment="rear_left_laser" yawattachment="rear_left_laser_base" />
-    <Hardpoint name="MacCannon" autocenter="true" yawrate="90" pitchrate="180" pitchMinAngle="-90" pitchMaxAngle="15" pitchattachment="mac_cannon" yawattachment="mac_cannon_base" />
-    <Hardpoint name="Spotlight" autocenter="true" yawrate="90" pitchrate="180" yawmaxangle="90" pitchMinAngle="-90" pitchMaxAngle="15" yawattachment="TurretYaw" pitchattachment="TurretPitch" />
+    <Hardpoint name="FrontCentreGun" autocenter="true" yawrate="90" pitchrate="180" pitchMinAngle="-90" pitchMaxAngle="60" pitchattachment="front_centre_laser" yawattachment="front_centre_laser_base" />
+    <Hardpoint name="FrontRightGun" autocenter="true" yawrate="90" pitchrate="180" pitchMinAngle="-90" pitchMaxAngle="60" pitchattachment="front_right_laser" yawattachment="front_right_laser_base" />
+    <Hardpoint name="FrontLeftGun" autocenter="true" yawrate="90" pitchrate="180" pitchMinAngle="-90" pitchMaxAngle="60" pitchattachment="front_left_laser" yawattachment="front_left_laser_base" />
+    <Hardpoint name="RearRightGun" autocenter="true" yawrate="90" pitchrate="180" pitchMinAngle="-90" pitchMaxAngle="60" pitchattachment="rear_right_laser" yawattachment="rear_right_laser_base" />
+    <Hardpoint name="RearLeftGun" autocenter="true" yawrate="90" pitchrate="180" pitchMinAngle="-90" pitchMaxAngle="60" pitchattachment="rear_left_laser" yawattachment="rear_left_laser_base" />
+    <Hardpoint name="MacCannon" autocenter="true" yawrate="90" pitchrate="180" pitchMinAngle="-90" pitchMaxAngle="60" pitchattachment="mac_cannon" yawattachment="mac_cannon_base" />
+    <Hardpoint name="Spotlight" autocenter="true" yawrate="90" pitchrate="180" yawmaxangle="90" pitchMinAngle="-90" pitchMaxAngle="60" yawattachment="TurretYaw" pitchattachment="TurretPitch" />
     <Hitpoints>50000</Hitpoints>
     <AttackGradeDPS>1200</AttackGradeDPS>
     <CombatValue>150</CombatValue>
