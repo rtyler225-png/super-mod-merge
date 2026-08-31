@@ -19459,7 +19459,7 @@
     <AttackGradeDPS>272.700012</AttackGradeDPS>
     <CombatValue>20</CombatValue>
     <LOS>65</LOS>
-    <Pop Type="Unit">20</Pop>
+    <Pop Type="Unit">10</Pop>
     <Bounty>30</Bounty>
     <Veterancy Level="1" XP="40" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
     <Veterancy Level="2" XP="100" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
