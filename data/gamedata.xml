@@ -39,23 +39,10 @@
     <Pop>Gravemind</Pop>
     <Pop>MegaTurret</Pop>
     <Pop>MegaTurret2</Pop>
-    <Pop>Juggernaut</Pop>
     <Pop>SilentShadow</Pop>
     <Pop>OmegaTeam</Pop>
     <Pop>Mercenary</Pop>
     <Pop>SuperBase</Pop>
-    <Pop>Scarab</Pop>
-    <Pop>Vulture</Pop>
-    <Pop>Colossus</Pop>
-    <Pop>Abomination</Pop>
-    <Pop>Enforcer</Pop>
-    <Pop>SuperSentinel</Pop>
-    <Pop>Condor</Pop>
-    <Pop>Mammoth</Pop>
-    <Pop>Hippo</Pop>
-    <Pop>Longsword</Pop>
-    <Pop>Sabre</Pop>
-    <Pop>Seraph</Pop>
   </Pops>
   <RefCounts>
     <RefCount>EMP</RefCount>

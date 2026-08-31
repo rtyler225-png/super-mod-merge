@@ -1122,7 +1122,7 @@
     <TurnRate>14</TurnRate>
     <Hitpoints>40000</Hitpoints>
     <LOS>80</LOS>
-    <Pop Type="Unit">20</Pop>
+    <Pop Type="Unit">60</Pop>
     <CombatValue>150</CombatValue>
     <Bounty>200</Bounty>
     <AttackGradeDPS>1200</AttackGradeDPS>
@@ -1217,7 +1217,6 @@
       <CircleMenuFrameIDHighlight>25</CircleMenuFrameIDHighlight>
     </FlashUI>
     <HPBar>UNSC_Health</HPBar>
-    <Pop Type="Mammoth">1</Pop>
   </Object>
   <Object name="fx_proj_MammothMac_01" id="0" dbid="3614">
     <ObjectClass>Projectile</ObjectClass>
@@ -2478,7 +2477,7 @@
     <AttackGradeDPS>132</AttackGradeDPS>
     <CombatValue>24</CombatValue>
     <LOS>65</LOS>
-    <Pop Type="Unit">4</Pop>
+    <Pop Type="Unit">15</Pop>
     <Bounty>24</Bounty>
     <AbilityCommand />
     <Veterancy Level="1" XP="60" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
@@ -2535,7 +2534,6 @@
     <Flag>Repairable</Flag>
     <HPBar>COV_Health</HPBar>
     <PhysicsReplacementInfo>aircraft_default</PhysicsReplacementInfo>
-    <Pop Type="Seraph">1</Pop>
   </Object>
   <Object name="cov_bldg_sniperplatform_02" is="0" id="2047" dbid="3215">
     <ObjectClass>Building</ObjectClass>
@@ -12200,7 +12198,7 @@
     <AttackGradeDPS>1200</AttackGradeDPS>
     <CombatValue>150</CombatValue>
     <LOS>55</LOS>
-    <Pop Type="Unit">20</Pop>
+    <Pop Type="Unit">60</Pop>
     <Veterancy Level="1" XP="120" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.87" />
     <Veterancy Level="2" XP="180" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.8" />
     <Veterancy Level="3" XP="360" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74" />
@@ -12256,7 +12254,6 @@
       <CircleMenuFrameIDHighlight>35</CircleMenuFrameIDHighlight>
     </FlashUI>
     <HPBar>UNSC_Health</HPBar>
-    <Pop Type="Condor">1</Pop>
   </Object>
   <Object name="cov_seraphshield" is="0" dbid="3814">
     <ObjectClass>Object</ObjectClass>
@@ -12297,7 +12294,7 @@
     <AttackGradeDPS>132</AttackGradeDPS>
     <CombatValue>24</CombatValue>
     <LOS>65</LOS>
-    <Pop Type="Unit">4</Pop>
+    <Pop Type="Unit">15</Pop>
     <Bounty>24</Bounty>
     <AbilityCommand />
     <Veterancy Level="1" XP="60" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
@@ -12355,7 +12352,6 @@
     <Flag>Repairable</Flag>
     <HPBar>COV_Health</HPBar>
     <PhysicsReplacementInfo>aircraft_default</PhysicsReplacementInfo>
-    <Pop Type="Seraph">1</Pop>
   </Object>
   <Object name="unsc_inf_douglas_02" id="0" dbid="3395">
     <Ability>lockdownability\serinaleader.triggerscript</Ability>
@@ -14311,7 +14307,7 @@
     <Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
     <LevelUpEffect>fx_unitLevelUpHigh</LevelUpEffect>
     <LOS>80</LOS>
-    <Pop Type="Unit">20</Pop>
+    <Pop Type="Unit">60</Pop>
     <Bounty>120</Bounty>
     <AmmoMax>500000</AmmoMax>
     <AmmoRegenRate>40000</AmmoRegenRate>
@@ -14372,7 +14368,6 @@
     <GroundIK ikRange="5" linkCount="3" x="-1" z="-1">LB_Toe</GroundIK>
     <GroundIK ikRange="5" linkCount="3" x="1" z="-1">RB_Toe</GroundIK>
     <TrueLOSHeight>14</TrueLOSHeight>
-    <Pop Type="Scarab">1</Pop>
   </Object>
   <Object name="fx_proj_BanishedMissile_01" id="0" dbid="2380">
     <ObjectClass>Projectile</ObjectClass>
@@ -15325,7 +15320,7 @@
     <AttackGradeDPS>1000</AttackGradeDPS>
     <CombatValue>36</CombatValue>
     <LOS>80</LOS>
-    <Pop Type="Unit">20</Pop>
+    <Pop Type="Unit">60</Pop>
     <Bounty>90</Bounty>
     <Veterancy Level="1" XP="60" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
     <Veterancy Level="2" XP="120" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
@@ -15389,7 +15384,6 @@
       <CircleMenuFrameIDHighlight>35</CircleMenuFrameIDHighlight>
     </FlashUI>
     <HPBar>UNSC_Health</HPBar>
-    <Pop Type="Longsword">1</Pop>
   </Object>
   <Object name="unsc_air_sabre_01" id="0" dbid="1144">
     <PhysicsInfo>hornet</PhysicsInfo>
@@ -15414,7 +15408,7 @@
     <AttackGradeDPS>240</AttackGradeDPS>
     <CombatValue>24</CombatValue>
     <LOS>65</LOS>
-    <Pop Type="Unit">8</Pop>
+    <Pop Type="Unit">15</Pop>
     <Bounty>24</Bounty>
     <Veterancy Level="1" XP="60" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
     <Veterancy Level="2" XP="100" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
@@ -15477,7 +15471,6 @@
       <CircleMenuFrameIDHighlight>27</CircleMenuFrameIDHighlight>
     </FlashUI>
     <HPBar>UNSC_Health</HPBar>
-    <Pop Type="Sabre">1</Pop>
   </Object>
   <Object name="sys_obj_dummy_01" id="0" dbid="2719">
     <ObjectClass>Squad</ObjectClass>
@@ -15600,7 +15593,7 @@
     <AttackGradeDPS>702</AttackGradeDPS>
     <CombatValue>36</CombatValue>
     <LOS>80</LOS>
-    <Pop Type="Unit">10</Pop>
+    <Pop Type="Unit">20</Pop>
     <Bounty>36</Bounty>
     <Veterancy Level="1" XP="72" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
     <Veterancy Level="2" XP="180" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
@@ -15659,7 +15652,6 @@
       <CircleMenuFrameIDHighlight>35</CircleMenuFrameIDHighlight>
     </FlashUI>
     <HPBar>UNSC_Health</HPBar>
-    <Pop Type="Vulture">1</Pop>
   </Object>
   <Object name="unsc_bldg_landingpad_02" is="0" id="2018" dbid="3183">
     <ObjectClass>Object</ObjectClass>
@@ -19467,7 +19459,7 @@
     <AttackGradeDPS>272.700012</AttackGradeDPS>
     <CombatValue>20</CombatValue>
     <LOS>65</LOS>
-    <Pop Type="Unit">6</Pop>
+    <Pop Type="Unit">20</Pop>
     <Bounty>30</Bounty>
     <Veterancy Level="1" XP="40" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
     <Veterancy Level="2" XP="100" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
@@ -19529,7 +19521,6 @@
     <GroundIK ikRange="2" linkCount="1" x="-1" z="1">bone_foot_left_0</GroundIK>
     <GroundIK ikRange="2" linkCount="1" x="1" z="1">bone_foot_right_0</GroundIK>
     <HPBar>COV_Health</HPBar>
-    <Pop Type="Colossus">1</Pop>
   </Object>
   <Object name="unsc_veh_colossus_02" id="0" dbid="203">
     <ObjectClass>Squad</ObjectClass>
@@ -19550,7 +19541,7 @@
     <AttackGradeDPS>272.700012</AttackGradeDPS>
     <CombatValue>20</CombatValue>
     <LOS>65</LOS>
-    <Pop Type="Unit">6</Pop>
+    <Pop Type="Unit">20</Pop>
     <Bounty>30</Bounty>
     <Veterancy Level="1" XP="40" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
     <Veterancy Level="2" XP="100" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
@@ -19613,7 +19604,6 @@
     <GroundIK ikRange="2" linkCount="1" x="-1" z="1">bone_foot_left_0</GroundIK>
     <GroundIK ikRange="2" linkCount="1" x="1" z="1">bone_foot_right_0</GroundIK>
     <HPBar>COV_Health</HPBar>
-    <Pop Type="Colossus">1</Pop>
   </Object>
   <Object name="creep_bldg_firefight_01" id="0" dbid="4304">
     <ObjectClass>Building</ObjectClass>
@@ -20187,7 +20177,7 @@
     <Hitpoints>4400</Hitpoints>
     <CombatValue>16</CombatValue>
     <LOS>55</LOS>
-    <Pop Type="Unit">6</Pop>
+    <Pop Type="Unit">20</Pop>
     <Hardpoint name="RightTurret" autocenter="true" yawrate="60" pitchrate="0" pitchMinAngle="-15" pitchMaxAngle="30" yawattachment="RightTurret" pitchattachment="RightTurret" />
     <Hardpoint name="LeftTurret" autocenter="true" yawrate="60" pitchrate="0" pitchMinAngle="-15" pitchMaxAngle="30" yawattachment="LeftTurret" pitchattachment="LeftTurret" />
     <Bounty>16</Bounty>
@@ -20239,7 +20229,6 @@
     <Flag>Repairable</Flag>
     <PhysicsReplacementInfo>aircraft_default</PhysicsReplacementInfo>
     <HPBar>UNSC_Health</HPBar>
-    <Pop Type="SuperSentinel">1</Pop>
   </Object>
   <Object name="cpgn_scn11_supersentinel_01" is="0" id="1247" dbid="1466">
     <PhysicsInfo>vulture</PhysicsInfo>
@@ -20694,7 +20683,7 @@
     <AttackGradeDPS>702</AttackGradeDPS>
     <CombatValue>36</CombatValue>
     <LOS>80</LOS>
-    <Pop Type="Unit">6</Pop>
+    <Pop Type="Unit">15</Pop>
     <Bounty>36</Bounty>
     <Veterancy Level="1" XP="50" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
     <Veterancy Level="2" XP="100" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
@@ -20751,7 +20740,6 @@
       <CircleMenuFrameIDHighlight>35</CircleMenuFrameIDHighlight>
     </FlashUI>
     <HPBar>UNSC_Health</HPBar>
-    <Pop Type="Enforcer">1</Pop>
   </Object>
   <Object name="heretic_veh_locust_01" id="0" dbid="206">
     <ObjectClass>Squad</ObjectClass>
@@ -29276,7 +29264,7 @@
     <Veterancy Level="5" XP="0" Damage="1.55" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
     <LevelUpEffect>fx_unitLevelUpHigh</LevelUpEffect>
     <LOS>80</LOS>
-    <Pop Type="Unit">20</Pop>
+    <Pop Type="Unit">60</Pop>
     <Bounty>120</Bounty>
     <AmmoMax>500000</AmmoMax>
     <AmmoRegenRate>40000</AmmoRegenRate>
@@ -29327,7 +29315,6 @@
     <GroundIK ikRange="5" linkCount="2" x="-1" z="-1">Bone_Leg_LR_Tip</GroundIK>
     <GroundIK ikRange="5" linkCount="2" x="1" z="-1">Bone_Leg_RR_Tip</GroundIK>
     <TrueLOSHeight>14</TrueLOSHeight>
-    <Pop Type="Scarab">1</Pop>
   </Object>
   <Object name="fld_veh_bruteChopper_01" id="0" dbid="2453">
     <PhysicsInfo>chopper</PhysicsInfo>
@@ -53861,7 +53848,7 @@
     <AttackGradeDPS>702</AttackGradeDPS>
     <CombatValue>36</CombatValue>
     <LOS>80</LOS>
-    <Pop Type="Unit">10</Pop>
+    <Pop Type="Unit">20</Pop>
     <Bounty>36</Bounty>
     <Veterancy Level="1" XP="72" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
     <Veterancy Level="2" XP="180" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
@@ -53924,7 +53911,6 @@
       <CircleMenuFrameIDHighlight>35</CircleMenuFrameIDHighlight>
     </FlashUI>
     <HPBar>UNSC_Health</HPBar>
-    <Pop Type="Vulture">1</Pop>
   </Object>
   <Object name="rebel_air_pelican_01" id="0" dbid="168">
     <Ability>rubble\rebel_rubbleprojectile_pelican.triggerscript</Ability>
@@ -54827,7 +54813,7 @@
     <AttackGradeDPS>702</AttackGradeDPS>
     <CombatValue>36</CombatValue>
     <LOS>80</LOS>
-    <Pop Type="Unit">10</Pop>
+    <Pop Type="Unit">20</Pop>
     <Bounty>36</Bounty>
     <Veterancy Level="1" XP="72" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
     <Veterancy Level="2" XP="180" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
@@ -54891,7 +54877,6 @@
       <CircleMenuFrameIDHighlight>35</CircleMenuFrameIDHighlight>
     </FlashUI>
     <HPBar>UNSC_Health</HPBar>
-    <Pop Type="Vulture">1</Pop>
   </Object>
   <Object name="unsc_air_pelican_01" id="0" dbid="168">
     <PhysicsInfo>pelican</PhysicsInfo>
@@ -72776,7 +72761,7 @@
     <Veterancy Level="5" XP="0" Damage="1.55" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
     <LevelUpEffect>fx_unitLevelUpHigh</LevelUpEffect>
     <LOS>90</LOS>
-    <Pop Type="Unit">20</Pop>
+    <Pop Type="Unit">60</Pop>
     <Bounty>120</Bounty>
     <AmmoMax>500000</AmmoMax>
     <AmmoRegenRate>40000</AmmoRegenRate>
@@ -72837,7 +72822,6 @@
     <GroundIK ikRange="5" linkCount="3" x="-1" z="-1">LB_Toe</GroundIK>
     <GroundIK ikRange="5" linkCount="3" x="1" z="-1">RB_Toe</GroundIK>
     <TrueLOSHeight>14</TrueLOSHeight>
-    <Pop Type="Scarab">1</Pop>
   </Object>
   <Object name="cov_veh_scarab_01" id="0" dbid="209">
     <ObjectClass>Squad</ObjectClass>
@@ -72864,7 +72848,7 @@
     <Veterancy Level="5" XP="0" Damage="1.55" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
     <LevelUpEffect>fx_unitLevelUpHigh</LevelUpEffect>
     <LOS>80</LOS>
-    <Pop Type="Unit">20</Pop>
+    <Pop Type="Unit">60</Pop>
     <Bounty>120</Bounty>
     <AmmoMax>500000</AmmoMax>
     <AmmoRegenRate>40000</AmmoRegenRate>
@@ -72924,7 +72908,6 @@
     <GroundIK ikRange="5" linkCount="3" x="-1" z="-1">LB_Toe</GroundIK>
     <GroundIK ikRange="5" linkCount="3" x="1" z="-1">RB_Toe</GroundIK>
     <TrueLOSHeight>14</TrueLOSHeight>
-    <Pop Type="Scarab">1</Pop>
   </Object>
   <Object name="cov_veh_scarab_02" id="0" dbid="209">
     <ObjectClass>Squad</ObjectClass>
@@ -72951,7 +72934,7 @@
     <Veterancy Level="5" XP="0" Damage="1.55" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
     <LevelUpEffect>fx_unitLevelUpHigh</LevelUpEffect>
     <LOS>90</LOS>
-    <Pop Type="Unit">20</Pop>
+    <Pop Type="Unit">60</Pop>
     <Bounty>120</Bounty>
     <AmmoMax>500000</AmmoMax>
     <AmmoRegenRate>40000</AmmoRegenRate>
@@ -73010,7 +72993,6 @@
     <GroundIK ikRange="5" linkCount="2" x="-1" z="-1">rb_toe.002</GroundIK>
     <GroundIK ikRange="5" linkCount="2" x="1" z="-1">rf_toe.002</GroundIK>
     <TrueLOSHeight>14</TrueLOSHeight>
-    <Pop Type="Scarab">1</Pop>
   </Object>
   <Object name="cov_veh_scarab_03" id="0" dbid="209">
     <ObjectClass>Squad</ObjectClass>
@@ -73037,7 +73019,7 @@
     <Veterancy Level="5" XP="0" Damage="1.55" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
     <LevelUpEffect>fx_unitLevelUpHigh</LevelUpEffect>
     <LOS>80</LOS>
-    <Pop Type="Unit">20</Pop>
+    <Pop Type="Unit">60</Pop>
     <Bounty>120</Bounty>
     <AmmoMax>500000</AmmoMax>
     <AmmoRegenRate>40000</AmmoRegenRate>
@@ -73097,7 +73079,6 @@
     <GroundIK ikRange="5" linkCount="3" x="-1" z="-1">LB_Toe</GroundIK>
     <GroundIK ikRange="5" linkCount="3" x="1" z="-1">RB_Toe</GroundIK>
     <TrueLOSHeight>14</TrueLOSHeight>
-    <Pop Type="Scarab">1</Pop>
   </Object>
   <Object name="cov_veh_bruteChopper_01" id="0" dbid="2453">
     <PhysicsInfo>chopper</PhysicsInfo>
@@ -76549,7 +76530,7 @@
     <AttackGradeDPS>702</AttackGradeDPS>
     <CombatValue>36</CombatValue>
     <LOS>80</LOS>
-    <Pop Type="Unit">10</Pop>
+    <Pop Type="Unit">20</Pop>
     <Bounty>36</Bounty>
     <Veterancy Level="1" XP="72" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
     <Veterancy Level="2" XP="180" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
@@ -76610,7 +76591,6 @@
       <CircleMenuFrameIDHighlight>35</CircleMenuFrameIDHighlight>
     </FlashUI>
     <HPBar>UNSC_Health</HPBar>
-    <Pop Type="Vulture">1</Pop>
   </Object>
   <Object name="creep_rebel_pelican_01" id="0" dbid="168">
     <PhysicsInfo>pelican</PhysicsInfo>
@@ -80602,7 +80582,7 @@
     <Hitpoints>40000</Hitpoints>
     <AttackGradeDPS>1500.0</AttackGradeDPS>
     <CombatValue>120</CombatValue>
-    <Pop Type="Unit">20</Pop>
+    <Pop Type="Unit">60</Pop>
     <LOS>80</LOS>
     <Bounty>120</Bounty>
     <Veterancy Level="1" XP="120" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.87" />
@@ -80650,7 +80630,6 @@
     <Flag>TargetsFootOfUnit</Flag>
     <Flag>Obscurable</Flag>
     <HPBar>UNSC_Health</HPBar>
-    <Pop Type="Abomination">1</Pop>
   </Object>
   <Object name="fld_inf_juggernaut_01" id="0" dbid="1150">
     <Ability>lockdownability\flooddefensepots.triggerscript</Ability>
@@ -80667,7 +80646,7 @@
     <Hitpoints>20000</Hitpoints>
     <AttackGradeDPS>600</AttackGradeDPS>
     <CombatValue>120</CombatValue>
-    <Pop Type="Juggernaut">1</Pop>
+    <Pop Type="Unit">60</Pop>
     <LOS>65</LOS>
     <Bounty>20</Bounty>
     <Veterancy Level="1" XP="60" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
@@ -80733,7 +80712,7 @@
     <Hitpoints>20000</Hitpoints>
     <AttackGradeDPS>600</AttackGradeDPS>
     <CombatValue>120</CombatValue>
-    <Pop Type="Juggernaut">1</Pop>
+    <Pop Type="Unit">60</Pop>
     <LOS>65</LOS>
     <Bounty>20</Bounty>
     <Veterancy Level="1" XP="60" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
@@ -85186,7 +85165,7 @@
     <AttackGradeDPS>702</AttackGradeDPS>
     <CombatValue>36</CombatValue>
     <LOS>80</LOS>
-    <Pop Type="Unit">6</Pop>
+    <Pop Type="Unit">15</Pop>
     <Bounty>36</Bounty>
     <Veterancy Level="1" XP="50" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
     <Veterancy Level="2" XP="100" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
@@ -85243,7 +85222,6 @@
       <CircleMenuFrameIDHighlight>35</CircleMenuFrameIDHighlight>
     </FlashUI>
     <HPBar>UNSC_Health</HPBar>
-    <Pop Type="Enforcer">1</Pop>
   </Object>
   <Object name="for_air_sentinel_01" id="0" dbid="239">
     <PhysicsInfo>sentinel</PhysicsInfo>
@@ -106209,7 +106187,7 @@
     <TurnRate>60</TurnRate>
     <Hitpoints>7000</Hitpoints>
     <LOS>55</LOS>
-    <Pop Type="Unit">4</Pop>
+    <Pop Type="Unit">20</Pop>
     <CombatValue>16</CombatValue>
     <Bounty>12</Bounty>
     <Veterancy Level="1" XP="120" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
@@ -106284,7 +106262,6 @@
       <CircleMenuFrameIDHighlight>25</CircleMenuFrameIDHighlight>
     </FlashUI>
     <HPBar>UNSC_Health</HPBar>
-    <Pop Type="Hippo">1</Pop>
   </Object>
   <Object name="exp_inf_mgmerc_01" id="0" dbid="155">
     <PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
