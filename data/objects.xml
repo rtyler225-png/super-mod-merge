@@ -41204,7 +41204,6 @@
     <Command Type="TrainSquad" Position="1">unsc_inf_marine_01</Command>
     <Command Type="TrainSquad" Position="2">unsc_inf_marinesniper_01</Command>
     <Command Type="TrainSquad" Position="3">unsc_inf_marinerocket_01</Command>
-    <Command Type="TrainSquad" Position="7">unsc_inf_MedicBR_01</Command>
     <Command Type="Research" Position="5">unsc_marinerocket_upgrade1</Command>
     <Command Type="Research" Position="5">unsc_marinerocket_upgrade2</Command>
     <Command Type="Research" Position="5">unsc_marinerocket_upgrade3</Command>
@@ -41214,6 +41213,7 @@
     <Command Type="Research" Position="7">unsc_Cuttermarine_upgrade1</Command>
     <Command Type="Research" Position="7">unsc_Cuttermarine_upgrade2</Command>
     <Command Type="Research" Position="7">unsc_Cuttermarine_upgrade3</Command>
+    <Command Type="TrainSquad" Position="7">unsc_inf_MedicBR_01</Command>
     <Command Type="TrainSquad" Position="">unsc_inf_spartansmg_01</Command>
     <Command Type="TrainSquad" Position="">unsc_inf_spartanshotgun_01</Command>
     <Command Type="TrainSquad" Position="">unsc_inf_spartanlaser_01</Command>
@@ -41297,7 +41297,6 @@
     <Command Type="TrainSquad" Position="1">unsc_inf_marine_01</Command>
     <Command Type="TrainSquad" Position="2">unsc_inf_flameMarine_01</Command>
     <Command Type="TrainSquad" Position="3">unsc_inf_marinerocket_01</Command>
-    <Command Type="TrainSquad" Position="7">unsc_inf_MedicBR_01</Command>
     <Command Type="Research" Position="5">unsc_marinerocket_upgrade1</Command>
     <Command Type="Research" Position="5">unsc_marinerocket_upgrade2</Command>
     <Command Type="Research" Position="5">unsc_marinerocket_upgrade3</Command>
@@ -41307,6 +41306,7 @@
     <Command Type="Research" Position="7">unsc_Forgemarine_upgrade1</Command>
     <Command Type="Research" Position="7">unsc_Forgemarine_upgrade2</Command>
     <Command Type="Research" Position="7">unsc_Forgemarine_upgrade3</Command>
+    <Command Type="TrainSquad" Position="7">unsc_inf_MedicBR_01</Command>
     <Command Type="TrainSquad" Position="">unsc_inf_spartansmg_01</Command>
     <Command Type="TrainSquad" Position="">unsc_inf_spartanshotgun_01</Command>
     <Command Type="TrainSquad" Position="">unsc_inf_spartanlaser_01</Command>
@@ -41392,7 +41392,6 @@
     <Command Type="TrainSquad" Position="1">unsc_inf_marine_05</Command>
     <Command Type="TrainSquad" Position="2">unsc_inf_marineshotgun_01</Command>
     <Command Type="TrainSquad" Position="3">unsc_inf_marinerocket_01</Command>
-    <Command Type="TrainSquad" Position="7">unsc_inf_MedicBR_01</Command>
     <Command Type="Research" Position="5">unsc_marinerocket_upgrade1</Command>
     <Command Type="Research" Position="5">unsc_marinerocket_upgrade2</Command>
     <Command Type="Research" Position="5">unsc_marinerocket_upgrade3</Command>
@@ -41402,6 +41401,7 @@
     <Command Type="Research" Position="7">unsc_andersmarine_upgrade1</Command>
     <Command Type="Research" Position="7">unsc_andersmarine_upgrade2</Command>
     <Command Type="Research" Position="7">unsc_andersmarine_upgrade3</Command>
+    <Command Type="TrainSquad" Position="7">unsc_inf_MedicBR_01</Command>
     <Command Type="TrainSquad" Position="">unsc_inf_spartansmg_01</Command>
     <Command Type="TrainSquad" Position="">unsc_inf_spartanshotgun_01</Command>
     <Command Type="TrainSquad" Position="">unsc_inf_spartanlaser_01</Command>
@@ -41486,7 +41486,6 @@
     <Command Type="TrainSquad" Position="1">unsc_inf_marine_01</Command>
     <Command Type="TrainSquad" Position="2">unsc_inf_cryoMarine_01</Command>
     <Command Type="TrainSquad" Position="3">unsc_inf_marinegrenade_02</Command>
-    <Command Type="TrainSquad" Position="7">unsc_inf_MedicBR_01</Command>
     <Command Type="Research" Position="5">unsc_marinegrenade_upgrade1</Command>
     <Command Type="Research" Position="5">unsc_marinegrenade_upgrade2</Command>
     <Command Type="Research" Position="5">unsc_marinegrenade_upgrade3</Command>
@@ -41495,6 +41494,7 @@
     <Command Type="Research" Position="7">unsc_Cuttermarine_upgrade1</Command>
     <Command Type="Research" Position="7">unsc_Cuttermarine_upgrade2</Command>
     <Command Type="Research" Position="7">unsc_Cuttermarine_upgrade3</Command>
+    <Command Type="TrainSquad" Position="7">unsc_inf_MedicBR_01</Command>
     <Command Type="TrainSquad" Position="">unsc_inf_spartansmg_01</Command>
     <Command Type="TrainSquad" Position="">unsc_inf_spartanshotgun_01</Command>
     <Command Type="TrainSquad" Position="">unsc_inf_spartanlaser_01</Command>
@@ -41583,7 +41583,6 @@
     <Command Type="TrainSquad" Position="2">unsc_inf_marineshotgun_01</Command>
     <Command Type="TrainSquad" Position="3">unsc_inf_marinerocket_01</Command>
     <Command Type="TrainSquad" Position="3">rebel_inf_infantrygrenade_01</Command>
-    <Command Type="TrainSquad" Position="7">unsc_inf_MedicBR_01</Command>
     <Command Type="Research" Position="5">unsc_marinerocket_upgrade1</Command>
     <Command Type="Research" Position="5">unsc_marinerocket_upgrade2</Command>
     <Command Type="Research" Position="5">unsc_marinerocket_upgrade3</Command>
@@ -41617,6 +41616,7 @@
     <Command Type="Research" Position="7">rebel_infantry_upgrade1</Command>
     <Command Type="Research" Position="7">rebel_infantry_upgrade2</Command>
     <Command Type="Research" Position="7">rebel_infantry_upgrade3</Command>
+    <Command Type="TrainSquad" Position="7">unsc_inf_MedicBR_01</Command>
     <Command Type="TrainSquad" Position="9">unsc_inf_spartansmg_01</Command>
     <Command Type="TrainSquad" Position="9">unsc_inf_spartanshotgun_01</Command>
     <Command Type="TrainSquad" Position="9">unsc_inf_spartanlaser_01</Command>
@@ -41701,10 +41701,10 @@
     <Command Type="TrainSquad" Position="1">unsc_inf_marine_01</Command>
     <Command Type="TrainSquad" Position="2">unsc_inf_flameMarine_01</Command>
     <Command Type="TrainSquad" Position="3">unsc_inf_marinerocket_01</Command>
-    <Command Type="TrainSquad" Position="7">unsc_inf_MedicBR_01</Command>
     <Command Type="Research" Position="7">unsc_Cuttermarine_upgrade1</Command>
     <Command Type="Research" Position="7">unsc_Cuttermarine_upgrade2</Command>
     <Command Type="Research" Position="7">unsc_Cuttermarine_upgrade3</Command>
+    <Command Type="TrainSquad" Position="7">unsc_inf_MedicBR_01</Command>
     <Command Type="Research" Position="6">unsc_flameMarine_upgrade1</Command>
     <Command Type="Research" Position="6">unsc_flameMarine_upgrade2</Command>
     <Command Type="Research" Position="6">unsc_flameMarine_upgrade3</Command>
