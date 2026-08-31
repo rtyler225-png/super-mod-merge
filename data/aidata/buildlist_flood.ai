@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="us-ascii"?>
+<?xml version='1.0' encoding='us-ascii'?>
 <Tables>
 	<Table Name="CovStartBalanced1" Type="BuildingBuildList">
 		<Row>
@@ -7,11 +7,6 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>creep_flood_base_02</c>
-			<c>2</c>
-			<c>1</c>
-		</Row>
-		<Row>
 			<c>fld_bldg_stalkcluster_01</c>
 			<c>5</c>
 			<c>1</c>
@@ -37,12 +32,12 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>creep_flood_base_03</c>
+			<c>fld_bldg_powerstalkcluster_01</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fld_bldg_powerstalkcluster_01</c>
+			<c>creep_flood_base_02</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
@@ -57,11 +52,6 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>creep_flood_base_02</c>
-			<c>3</c>
-			<c>1</c>
-		</Row>
-		<Row>
 			<c>fld_bldg_stalkcluster_01</c>
 			<c>8</c>
 			<c>1</c>
@@ -71,7 +61,17 @@
 			<c>2</c>
 			<c>1</c>
 		</Row>
-	</Table>
+	<Row>
+			<c>creep_flood_base_03</c>
+			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>creep_flood_base_02</c>
+			<c>3</c>
+			<c>1</c>
+		</Row>
+		</Table>
 	<Table Name="CovStartBalanced2" Type="BuildingBuildList">
 		<Row>
 			<c>fld_bldg_stalkcluster_01</c>
@@ -79,11 +79,6 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>creep_flood_base_02</c>
-			<c>1</c>
-			<c>1</c>
-		</Row>
-		<Row>
 			<c>fld_bldg_gravemind_01</c>
 			<c>1</c>
 			<c>1</c>
@@ -114,8 +109,8 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>creep_flood_base_03</c>
-			<c>2</c>
+			<c>creep_flood_base_02</c>
+			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -129,11 +124,6 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>creep_flood_base_02</c>
-			<c>3</c>
-			<c>1</c>
-		</Row>
-		<Row>
 			<c>fld_bldg_stalkcluster_01</c>
 			<c>8</c>
 			<c>1</c>
@@ -143,7 +133,17 @@
 			<c>2</c>
 			<c>1</c>
 		</Row>
-	</Table>
+	<Row>
+			<c>creep_flood_base_03</c>
+			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>creep_flood_base_02</c>
+			<c>3</c>
+			<c>1</c>
+		</Row>
+		</Table>
 	<Table Name="CovStartBalanced3" Type="BuildingBuildList">
 		<Row>
 			<c>fld_bldg_stalkcluster_01</c>
@@ -201,23 +201,18 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>creep_flood_base_03</c>
-			<c>1</c>
-			<c>1</c>
-		</Row>
-		<Row>
 			<c>fld_bldg_barracks_02</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fld_bldg_tentacle_01</c>
-			<c>4</c>
+			<c>creep_flood_base_03</c>
+			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>creep_flood_base_02</c>
-			<c>3</c>
+			<c>fld_bldg_tentacle_01</c>
+			<c>4</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -230,7 +225,12 @@
 			<c>2</c>
 			<c>1</c>
 		</Row>
-	</Table>
+	<Row>
+			<c>creep_flood_base_02</c>
+			<c>3</c>
+			<c>1</c>
+		</Row>
+		</Table>
 	<Table Name="CovStartBalanced4" Type="BuildingBuildList">
 		<Row>
 			<c>fld_bldg_stalkcluster_01</c>
@@ -263,18 +263,13 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>creep_flood_base_02</c>
-			<c>2</c>
-			<c>1</c>
-		</Row>
-		<Row>
 			<c>fld_bldg_stalkcluster_01</c>
 			<c>5</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>creep_flood_base_03</c>
-			<c>1</c>
+			<c>creep_flood_base_02</c>
+			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -288,11 +283,6 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>creep_flood_base_02</c>
-			<c>3</c>
-			<c>1</c>
-		</Row>
-		<Row>
 			<c>fld_bldg_stalkcluster_01</c>
 			<c>8</c>
 			<c>1</c>
@@ -303,11 +293,21 @@
 			<c>1</c>
 		</Row>
 		<Row>
+			<c>creep_flood_base_03</c>
+			<c>1</c>
+			<c>1</c>
+		</Row>
+		<Row>
 			<c>fld_bldg_tentacle_01</c>
 			<c>5</c>
 			<c>1</c>
 		</Row>
-	</Table>
+	<Row>
+			<c>creep_flood_base_02</c>
+			<c>3</c>
+			<c>1</c>
+		</Row>
+		</Table>
 	<Table Name="CovOnlyBases" Type="BuildingBuildList">
 		<Row>
 			<c>creep_flood_base_02</c>
@@ -352,12 +352,12 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fld_bldg_powerstalkcluster_01</c>
+			<c>creep_flood_base_02</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>creep_flood_base_02</c>
+			<c>fld_bldg_powerstalkcluster_01</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
@@ -372,23 +372,18 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>creep_flood_base_03</c>
-			<c>1</c>
-			<c>1</c>
-		</Row>
-		<Row>
 			<c>fld_bldg_barracks_02</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fld_bldg_tentacle_01</c>
-			<c>4</c>
+			<c>creep_flood_base_03</c>
+			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>creep_flood_base_02</c>
-			<c>3</c>
+			<c>fld_bldg_tentacle_01</c>
+			<c>4</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -406,7 +401,12 @@
 			<c>5</c>
 			<c>1</c>
 		</Row>
-	</Table>
+	<Row>
+			<c>creep_flood_base_02</c>
+			<c>3</c>
+			<c>1</c>
+		</Row>
+		</Table>
 	<Table Name="CovStart1ProdNormal" Type="BuildingBuildList">
 		<Row>
 			<c>fld_bldg_powerstalkcluster_01</c>
@@ -444,6 +444,11 @@
 			<c>1</c>
 		</Row>
 		<Row>
+			<c>creep_flood_base_02</c>
+			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
 			<c>fld_bldg_barracks_02</c>
 			<c>1</c>
 			<c>1</c>
@@ -454,11 +459,6 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>creep_flood_base_02</c>
-			<c>2</c>
-			<c>1</c>
-		</Row>
-		<Row>
 			<c>_ProductionBuildingNotBase</c>
 			<c>2</c>
 			<c>1</c>
@@ -466,6 +466,11 @@
 		<Row>
 			<c>fld_bldg_tentacle_01</c>
 			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>creep_flood_base_02</c>
+			<c>4</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -491,11 +496,6 @@
 		<Row>
 			<c>_ProductionBuildingNotBase</c>
 			<c>3</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>creep_flood_base_02</c>
-			<c>4</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -583,6 +583,11 @@
 			<c>1</c>
 		</Row>
 		<Row>
+			<c>creep_flood_base_02</c>
+			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
 			<c>fld_bldg_stalkcluster_02</c>
 			<c>4</c>
 			<c>1</c>
@@ -604,7 +609,7 @@
 		</Row>
 		<Row>
 			<c>creep_flood_base_02</c>
-			<c>2</c>
+			<c>4</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -645,11 +650,6 @@
 		<Row>
 			<c>_ProductionBuildingNotBase</c>
 			<c>3</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>creep_flood_base_02</c>
-			<c>4</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -749,11 +749,6 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>creep_flood_base_03</c>
-			<c>1</c>
-			<c>1</c>
-		</Row>
-		<Row>
 			<c>fld_bldg_stalkcluster_01</c>
 			<c>4</c>
 			<c>1</c>
@@ -784,6 +779,11 @@
 			<c>1</c>
 		</Row>
 		<Row>
+			<c>creep_flood_base_03</c>
+			<c>1</c>
+			<c>1</c>
+		</Row>
+		<Row>
 			<c>fld_bldg_stalkcluster_02</c>
 			<c>4</c>
 			<c>1</c>
@@ -799,18 +799,13 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>creep_flood_base_02</c>
-			<c>2</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>creep_flood_base_03</c>
-			<c>2</c>
-			<c>1</c>
-		</Row>
-		<Row>
 			<c>fld_bldg_stalkcluster_01</c>
 			<c>8</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>creep_flood_base_02</c>
+			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -830,6 +825,11 @@
 		</Row>
 		<Row>
 			<c>fld_bldg_nest_04</c>
+			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>creep_flood_base_03</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
@@ -881,13 +881,13 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>fld_bldg_stalkcluster_01</c>
-			<c>5</c>
+			<c>creep_flood_base_02</c>
+			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>creep_flood_base_02</c>
-			<c>2</c>
+			<c>fld_bldg_stalkcluster_01</c>
+			<c>5</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -1010,17 +1010,12 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>creep_flood_base_02</c>
-			<c>2</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>creep_flood_base_03</c>
-			<c>2</c>
-			<c>1</c>
-		</Row>
-		<Row>
 			<c>fld_bldg_launcher_01</c>
+			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>creep_flood_base_02</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
@@ -1041,6 +1036,11 @@
 		</Row>
 		<Row>
 			<c>fld_bldg_barracks_02</c>
+			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>creep_flood_base_03</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
@@ -1087,16 +1087,6 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>creep_flood_base_02</c>
-			<c>4</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>creep_flood_base_03</c>
-			<c>4</c>
-			<c>1</c>
-		</Row>
-		<Row>
 			<c>_ProductionBuildingNotBase</c>
 			<c>3</c>
 			<c>1</c>
@@ -1104,6 +1094,11 @@
 		<Row>
 			<c>fld_bldg_nest_04</c>
 			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>creep_flood_base_02</c>
+			<c>4</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -1124,6 +1119,11 @@
 		<Row>
 			<c>fld_bldg_nest_04</c>
 			<c>1</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>creep_flood_base_03</c>
+			<c>4</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -1169,16 +1169,16 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>creep_flood_base_02</c>
-			<c>2</c>
-			<c>2</c>
-		</Row>
-		<Row>
 			<c>fld_bldg_stalkcluster_01</c>
 			<c>6</c>
 			<c>2</c>
 		</Row>
-	</Table>
+	<Row>
+			<c>creep_flood_base_02</c>
+			<c>2</c>
+			<c>2</c>
+		</Row>
+		</Table>
 	<Table Name="CovStartBoom2" Type="BuildingBuildList">
 		<Row>
 			<c>fld_bldg_powerstalkcluster_01</c>
@@ -1206,16 +1206,16 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>creep_flood_base_02</c>
-			<c>1</c>
-			<c>2</c>
-		</Row>
-		<Row>
 			<c>fld_bldg_stalkcluster_01</c>
 			<c>6</c>
 			<c>2</c>
 		</Row>
-	</Table>
+	<Row>
+			<c>creep_flood_base_02</c>
+			<c>1</c>
+			<c>2</c>
+		</Row>
+		</Table>
 	<Table Name="CovStartTech1" Type="BuildingBuildList">
 		<Row>
 			<c>fld_bldg_stalkcluster_01</c>
@@ -1253,6 +1253,11 @@
 			<c>1</c>
 		</Row>
 		<Row>
+			<c>creep_flood_base_02</c>
+			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
 			<c>fld_bldg_gravemind_01</c>
 			<c>1</c>
 			<c>1</c>
@@ -1263,11 +1268,6 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>creep_flood_base_02</c>
-			<c>2</c>
-			<c>1</c>
-		</Row>
-		<Row>
 			<c>_ProductionBuildingNotBase</c>
 			<c>2</c>
 			<c>1</c>
@@ -1275,6 +1275,11 @@
 		<Row>
 			<c>fld_bldg_stalkcluster_02</c>
 			<c>3</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>creep_flood_base_02</c>
+			<c>4</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -1300,11 +1305,6 @@
 		<Row>
 			<c>_ProductionBuildingNotBase</c>
 			<c>3</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>creep_flood_base_02</c>
-			<c>4</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -1360,6 +1360,11 @@
 			<c>1</c>
 		</Row>
 		<Row>
+			<c>creep_flood_base_02</c>
+			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
 			<c>fld_bldg_gravemind_01</c>
 			<c>1</c>
 			<c>1</c>
@@ -1380,13 +1385,13 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>_ProductionBuildingNotBase</c>
-			<c>1</c>
+			<c>creep_flood_base_02</c>
+			<c>4</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>creep_flood_base_02</c>
-			<c>2</c>
+			<c>_ProductionBuildingNotBase</c>
+			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -1427,11 +1432,6 @@
 		<Row>
 			<c>_ProductionBuildingNotBase</c>
 			<c>3</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>creep_flood_base_02</c>
-			<c>4</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -1472,11 +1472,6 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>creep_flood_base_02</c>
-			<c>2</c>
-			<c>1</c>
-		</Row>
-		<Row>
 			<c>fld_bldg_launcher_01</c>
 			<c>1</c>
 			<c>1</c>
@@ -1489,6 +1484,11 @@
 		<Row>
 			<c>fld_bldg_stalkcluster_01</c>
 			<c>3</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>creep_flood_base_02</c>
+			<c>2</c>
 			<c>1</c>
 		</Row>
 		<Row>
