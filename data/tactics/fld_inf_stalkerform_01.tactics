@@ -4,7 +4,7 @@
 		<Name>Melee</Name>
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>75</DamagePerSecond>
-		<WeaponType>FloodLightMelee</WeaponType>
+		<WeaponType>BuildingKillerMelee</WeaponType>
 		<MaxRange>4</MaxRange>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
@@ -12,14 +12,16 @@
 		<PhysicsForceMin>800</PhysicsForceMin>
 		<PhysicsForceMax>1200</PhysicsForceMax>
 		<PhysicsForceMaxAngle>0.8</PhysicsForceMaxAngle>
-		<TargetPriority type="Infantry">25</TargetPriority>
-		<TargetPriority type="Building">-3</TargetPriority>
+		<TargetPriority type="Infantry">8</TargetPriority>
+		<TargetPriority type="GroundVehicle">6</TargetPriority>
+		<TargetPriority type="TurretBuilding">14</TargetPriority>
+		<TargetPriority type="Building">12</TargetPriority>
 	</Weapon>
 	<Weapon>
 		<Name>Lunge</Name>
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>75</DamagePerSecond>
-		<WeaponType>FloodLightMelee</WeaponType>
+		<WeaponType>BuildingKillerMelee</WeaponType>
 		<MaxRange>3</MaxRange>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
@@ -27,8 +29,10 @@
 		<PhysicsForceMin>800</PhysicsForceMin>
 		<PhysicsForceMax>1200</PhysicsForceMax>
 		<PhysicsForceMaxAngle>0.8</PhysicsForceMaxAngle>
-		<TargetPriority type="Infantry">25</TargetPriority>
-		<TargetPriority type="Building">-3</TargetPriority>
+		<TargetPriority type="Infantry">8</TargetPriority>
+		<TargetPriority type="GroundVehicle">6</TargetPriority>
+		<TargetPriority type="TurretBuilding">14</TargetPriority>
+		<TargetPriority type="Building">12</TargetPriority>
 		<Daze TargetType="unit" MovementModifier="0">3.0f</Daze>
 	</Weapon>
 	<Action>

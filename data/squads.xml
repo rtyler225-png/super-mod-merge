@@ -24185,7 +24185,7 @@
     <Flag>KBAware</Flag>
     <Flag>Flood</Flag>
     <Cost ResourceType="Supplies">20</Cost>
-    <BuildPoints>1</BuildPoints>
+    <BuildPoints>0.2</BuildPoints>
   </Squad>
   <Squad name="fld_inf_infectionForm_02" formationType="Gaggle" dbid="2739">
     <MinimapIcon size="8">Circle</MinimapIcon>
@@ -24349,7 +24349,7 @@
     <LeashDeadzone>0</LeashDeadzone>
     <LeashRecallDelay>2500</LeashRecallDelay>
     <AggroDistance>40</AggroDistance>
-    <BuildPoints>1</BuildPoints>
+    <BuildPoints>0.2</BuildPoints>
     <Cost ResourceType="Supplies">20</Cost>
     <Cost resourcetype="Power">0</Cost>
     <Units>
@@ -24381,7 +24381,7 @@
     <LeashDeadzone>0</LeashDeadzone>
     <LeashRecallDelay>2500</LeashRecallDelay>
     <AggroDistance>40</AggroDistance>
-    <BuildPoints>1</BuildPoints>
+    <BuildPoints>0.2</BuildPoints>
     <Cost ResourceType="Supplies">20</Cost>
     <Cost resourcetype="Power">0</Cost>
     <Units>
