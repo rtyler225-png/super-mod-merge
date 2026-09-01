@@ -47,6 +47,11 @@
 			<c>1</c>
 		</Row>
 		<Row>
+			<c>fld_bldg_launcher_01</c>
+			<c>1</c>
+			<c>1</c>
+		</Row>
+		<Row>
 			<c>fld_bldg_tentacle_01</c>
 			<c>4</c>
 			<c>1</c>
@@ -57,8 +62,18 @@
 			<c>1</c>
 		</Row>
 		<Row>
+			<c>fld_bldg_launcher_01</c>
+			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
 			<c>fld_bldg_gravemind_01</c>
 			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>fld_bldg_launcher_01</c>
+			<c>4</c>
 			<c>1</c>
 		</Row>
 	<Row>
@@ -119,6 +134,11 @@
 			<c>1</c>
 		</Row>
 		<Row>
+			<c>fld_bldg_launcher_01</c>
+			<c>1</c>
+			<c>1</c>
+		</Row>
+		<Row>
 			<c>fld_bldg_tentacle_01</c>
 			<c>4</c>
 			<c>1</c>
@@ -129,8 +149,18 @@
 			<c>1</c>
 		</Row>
 		<Row>
+			<c>fld_bldg_launcher_01</c>
+			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
 			<c>fld_bldg_gravemind_01</c>
 			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>fld_bldg_launcher_01</c>
+			<c>4</c>
 			<c>1</c>
 		</Row>
 	<Row>
@@ -177,7 +207,7 @@
 		</Row>
 		<Row>
 			<c>fld_bldg_launcher_01</c>
-			<c>0</c>
+			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -206,6 +236,11 @@
 			<c>1</c>
 		</Row>
 		<Row>
+			<c>fld_bldg_launcher_01</c>
+			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
 			<c>creep_flood_base_03</c>
 			<c>1</c>
 			<c>1</c>
@@ -225,7 +260,12 @@
 			<c>2</c>
 			<c>1</c>
 		</Row>
-	<Row>
+		<Row>
+			<c>fld_bldg_launcher_01</c>
+			<c>4</c>
+			<c>1</c>
+		</Row>
+		<Row>
 			<c>creep_flood_base_02</c>
 			<c>3</c>
 			<c>1</c>
@@ -263,6 +303,11 @@
 			<c>1</c>
 		</Row>
 		<Row>
+			<c>fld_bldg_launcher_01</c>
+			<c>1</c>
+			<c>1</c>
+		</Row>
+		<Row>
 			<c>fld_bldg_stalkcluster_01</c>
 			<c>5</c>
 			<c>1</c>
@@ -274,6 +319,11 @@
 		</Row>
 		<Row>
 			<c>fld_bldg_barracks_02</c>
+			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>fld_bldg_launcher_01</c>
 			<c>2</c>
 			<c>1</c>
 		</Row>
@@ -290,6 +340,11 @@
 		<Row>
 			<c>fld_bldg_gravemind_01</c>
 			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>fld_bldg_launcher_01</c>
+			<c>4</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -394,6 +449,11 @@
 		<Row>
 			<c>fld_bldg_gravemind_01</c>
 			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>fld_bldg_launcher_01</c>
+			<c>4</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -799,6 +859,11 @@
 			<c>1</c>
 		</Row>
 		<Row>
+			<c>fld_bldg_launcher_01</c>
+			<c>1</c>
+			<c>1</c>
+		</Row>
+		<Row>
 			<c>fld_bldg_stalkcluster_01</c>
 			<c>8</c>
 			<c>1</c>
@@ -824,6 +889,11 @@
 			<c>1</c>
 		</Row>
 		<Row>
+			<c>fld_bldg_launcher_01</c>
+			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
 			<c>fld_bldg_nest_04</c>
 			<c>2</c>
 			<c>1</c>
@@ -841,6 +911,11 @@
 		<Row>
 			<c>fld_bldg_nest_02</c>
 			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>fld_bldg_launcher_01</c>
+			<c>4</c>
 			<c>1</c>
 		</Row>
 	</Table>
@@ -878,6 +953,11 @@
 		<Row>
 			<c>_ProductionBuildingNotBase</c>
 			<c>3</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>fld_bldg_launcher_01</c>
+			<c>1</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -933,6 +1013,11 @@
 		<Row>
 			<c>fld_bldg_stalkcluster_02</c>
 			<c>10</c>
+			<c>2</c>
+		</Row>
+		<Row>
+			<c>fld_bldg_launcher_01</c>
+			<c>4</c>
 			<c>2</c>
 		</Row>
 	</Table>
@@ -975,6 +1060,16 @@
 		<Row>
 			<c>fld_bldg_launcher_01</c>
 			<c>1</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>fld_bldg_launcher_01</c>
+			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>fld_bldg_launcher_01</c>
+			<c>4</c>
 			<c>1</c>
 		</Row>
 	</Table>
@@ -1050,6 +1145,11 @@
 			<c>1</c>
 		</Row>
 		<Row>
+			<c>fld_bldg_launcher_01</c>
+			<c>4</c>
+			<c>1</c>
+		</Row>
+		<Row>
 			<c>fld_bldg_stalkcluster_01</c>
 			<c>10</c>
 			<c>1</c>
@@ -1087,6 +1187,11 @@
 			<c>1</c>
 		</Row>
 		<Row>
+			<c>fld_bldg_launcher_01</c>
+			<c>1</c>
+			<c>1</c>
+		</Row>
+		<Row>
 			<c>_ProductionBuildingNotBase</c>
 			<c>3</c>
 			<c>1</c>
@@ -1117,6 +1222,11 @@
 			<c>1</c>
 		</Row>
 		<Row>
+			<c>fld_bldg_launcher_01</c>
+			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
 			<c>fld_bldg_nest_04</c>
 			<c>1</c>
 			<c>1</c>
@@ -1134,6 +1244,11 @@
 		<Row>
 			<c>fld_bldg_stalkcluster_02</c>
 			<c>10</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>fld_bldg_launcher_01</c>
+			<c>4</c>
 			<c>1</c>
 		</Row>
 	</Table>
@@ -1497,8 +1612,18 @@
 			<c>1</c>
 		</Row>
 		<Row>
+			<c>fld_bldg_launcher_01</c>
+			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
 			<c>fld_bldg_stalkcluster_01</c>
 			<c>6</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>fld_bldg_launcher_01</c>
+			<c>4</c>
 			<c>1</c>
 		</Row>
 	</Table>
@@ -1546,6 +1671,16 @@
 		<Row>
 			<c>_ProductionBuildingNotBase</c>
 			<c>1</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>fld_bldg_launcher_01</c>
+			<c>2</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>fld_bldg_launcher_01</c>
+			<c>4</c>
 			<c>1</c>
 		</Row>
 	</Table>
