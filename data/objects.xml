@@ -865,7 +865,7 @@
     <Hardpoint name="PassengerTurret" autocenter="true" yawrate="180" pitchrate="180" pitchMaxAngle="60" pitchMinAngle="0" yawattachment="PassengerTop" pitchattachment="PassengerTop" />
     <Velocity>30</Velocity>
     <TurnRate>450</TurnRate>
-    <Hitpoints>7500</Hitpoints>
+    <Hitpoints>1500</Hitpoints>
     <AttackGradeDPS>138.5</AttackGradeDPS>
     <CombatValue>6</CombatValue>
     <Veterancy Level="1" XP="12" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />

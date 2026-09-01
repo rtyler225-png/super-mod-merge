@@ -9060,10 +9060,10 @@
       <Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
         <Target type="ProtoUnit">unsc_veh_warthoglaser_01</Target>
       </Effect>
-      <Effect type="Data" amount="0" subtype="ActionEnable" action="laserCannonAttackAction" relativity="Absolute">
+      <Effect type="Data" amount="0" subtype="ActionEnable" action="LaserCannonAttackAction" relativity="Absolute">
         <Target type="ProtoUnit">unsc_veh_warthoglaser_01</Target>
       </Effect>
-      <Effect type="Data" amount="1" subtype="ActionEnable" action="UpgradedlaserCannonAttackAction" relativity="Absolute">
+      <Effect type="Data" amount="1" subtype="ActionEnable" action="UpgradedLaserCannonAttackAction" relativity="Absolute">
         <Target type="ProtoUnit">unsc_veh_warthoglaser_01</Target>
       </Effect>
     </Effects>
