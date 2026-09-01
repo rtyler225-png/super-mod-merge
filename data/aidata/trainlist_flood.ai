@@ -12,7 +12,7 @@
 		<Row><c>fld_inf_infectionform_01</c><c>24</c></Row>
 		<Row><c>fld_inf_infectionform_05</c><c>24</c></Row>
 		<Row><c>fld_inf_infectionform_06</c><c>24</c></Row>
-		<Row><c>fld_inf_stalkerform_01</c><c>1</c></Row>
+		<Row><c>fld_inf_stalkerform_01</c><c>2</c></Row>
 		<Row><c>fld_inf_infestorform_01</c><c>5</c></Row>
 		<Row><c>fld_inf_spawnerform_01</c><c>3</c></Row>
 		<Row><c>fld_inf_rangedform_01</c><c>4</c></Row>
@@ -33,7 +33,7 @@
 		<Row><c>fld_inf_infectionform_01</c><c>80</c></Row>
 		<Row><c>fld_inf_infectionform_05</c><c>80</c></Row>
 		<Row><c>fld_inf_infectionform_06</c><c>80</c></Row>
-		<Row><c>fld_inf_stalkerform_01</c><c>1</c></Row>
+		<Row><c>fld_inf_stalkerform_01</c><c>2</c></Row>
 		<Row><c>fld_inf_infestorform_01</c><c>7</c></Row>
 		<Row><c>fld_inf_spawnerform_01</c><c>6</c></Row>
 		<Row><c>fld_inf_rangedform_01</c><c>8</c></Row>
@@ -78,7 +78,7 @@
 		<Row><c>fld_inf_infectionform_01</c><c>40</c></Row>
 		<Row><c>fld_inf_infectionform_05</c><c>40</c></Row>
 		<Row><c>fld_inf_infectionform_06</c><c>40</c></Row>
-		<Row><c>fld_inf_stalkerform_01</c><c>1</c></Row>
+		<Row><c>fld_inf_stalkerform_01</c><c>2</c></Row>
 		<Row><c>fld_inf_infestorform_01</c><c>6</c></Row>
 		<Row><c>fld_inf_spawnerform_01</c><c>5</c></Row>
 		<Row><c>fld_inf_rangedform_01</c><c>7</c></Row>
@@ -97,7 +97,7 @@
 		<Row><c>fld_inf_infectionform_01</c><c>24</c></Row>
 		<Row><c>fld_inf_infectionform_05</c><c>24</c></Row>
 		<Row><c>fld_inf_infectionform_06</c><c>24</c></Row>
-		<Row><c>fld_inf_stalkerform_01</c><c>1</c></Row>
+		<Row><c>fld_inf_stalkerform_01</c><c>2</c></Row>
 		<Row><c>fld_inf_infestorform_01</c><c>5</c></Row>
 		<Row><c>fld_inf_spawnerform_01</c><c>3</c></Row>
 		<Row><c>fld_inf_rangedform_01</c><c>4</c></Row>
@@ -117,7 +117,7 @@
 		<Row><c>fld_inf_infectionform_01</c><c>80</c></Row>
 		<Row><c>fld_inf_infectionform_05</c><c>80</c></Row>
 		<Row><c>fld_inf_infectionform_06</c><c>80</c></Row>
-		<Row><c>fld_inf_stalkerform_01</c><c>1</c></Row>
+		<Row><c>fld_inf_stalkerform_01</c><c>2</c></Row>
 		<Row><c>fld_inf_infestorform_01</c><c>7</c></Row>
 		<Row><c>fld_inf_spawnerform_01</c><c>6</c></Row>
 		<Row><c>fld_inf_rangedform_01</c><c>8</c></Row>
