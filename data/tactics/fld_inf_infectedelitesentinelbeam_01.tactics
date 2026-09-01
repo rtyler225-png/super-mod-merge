@@ -29,6 +29,7 @@
 		<Anim>SentinelBeamAttack</Anim>
 		<ReloadAnim>SentinelBeamReload</ReloadAnim>
 		<Weapon>SentinelBeam</Weapon>
+		<Infection />
 		<MainAttack />
 	</Action>
 	<Action>

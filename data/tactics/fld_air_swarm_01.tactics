@@ -28,6 +28,7 @@
 		<ActionType>RangedAttack</ActionType>
 		<Weapon>Spikes</Weapon>
 		<Anim>PlasmaRifleAttack</Anim>
+		<Infection />
 		<MainAttack />
 	</Action>
 	<Action>

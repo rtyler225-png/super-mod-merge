@@ -20,6 +20,7 @@
 		<ActionType>HandAttack</ActionType>
 		<Anim>MeleeAttack</Anim>
 		<Weapon>Melee</Weapon>
+		<Infection />
 		<MainAttack />
 	</Action>
 	<Action>

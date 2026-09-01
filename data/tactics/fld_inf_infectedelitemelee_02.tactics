@@ -23,6 +23,7 @@
 		<ActionType>HandAttack</ActionType>
 		<Anim>ClawAttack</Anim>
 		<Weapon>Claw</Weapon>
+		<Infection />
 		<MainAttack />
 	</Action>
 	<Action>

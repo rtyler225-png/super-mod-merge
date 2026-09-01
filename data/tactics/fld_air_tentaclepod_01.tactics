@@ -23,6 +23,7 @@
 		<Default>true</Default>
 		<Name>GenericInfoAttackAction</Name>
 		<Weapon>Artillery</Weapon>
+		<Infection />
 	</Action>
 	<Tactic />
 </TacticData>

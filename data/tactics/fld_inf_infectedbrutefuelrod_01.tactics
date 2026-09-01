@@ -66,6 +66,7 @@
 		<Anim>IncendiaryGrenadeAttack</Anim>
 		<SupportAnim>Support</SupportAnim>
 		<Weapon>IncendiaryGrenade</Weapon>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 		<StartDisabled />
@@ -75,6 +76,7 @@
 		<ActionType>RangedAttack</ActionType>
 		<Anim>RocketAttack</Anim>
 		<Weapon>RocketWeapon</Weapon>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 	</Action>
@@ -172,6 +174,7 @@
 		<ActionType>JumpAttack</ActionType>
 		<Anim>Flail</Anim>
 		<Weapon>Brutegun</Weapon>
+		<Infection />
 		<Duration>100</Duration>
 		<VelocityScalar>30</VelocityScalar>
 	</Action>

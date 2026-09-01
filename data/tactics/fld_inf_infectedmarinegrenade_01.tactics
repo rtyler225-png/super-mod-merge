@@ -272,6 +272,7 @@
 		<Anim>GrenadeLauncherAttack</Anim>
 		<Weapon>GrenadeLauncher</Weapon>
 		<ReloadAnim>GrenadeLauncherReload</ReloadAnim>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 	</Action>
@@ -281,6 +282,7 @@
 		<Anim>GrenadeLauncherAttack</Anim>
 		<Weapon>InCoverGrenadeLauncher</Weapon>
 		<ReloadAnim>GrenadeLauncherReload</ReloadAnim>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 	</Action>
@@ -290,6 +292,7 @@
 		<Anim>GrenadeLauncherAttack</Anim>
 		<Weapon>StunGrenadeLauncher</Weapon>
 		<ReloadAnim>GrenadeLauncherReload</ReloadAnim>
+		<Infection />
 		<MainAttack />
 		<DontLoopAttackAnim />
 		<StartDisabled />
@@ -300,6 +303,7 @@
 		<Anim>GrenadeLauncherAttack</Anim>
 		<Weapon>InCoverStunGrenadeLauncher</Weapon>
 		<ReloadAnim>GrenadeLauncherReload</ReloadAnim>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 		<StartDisabled />
@@ -310,6 +314,7 @@
 		<Anim>GrenadeLauncherAttack</Anim>
 		<ReloadAnim>GrenadeLauncherReload</ReloadAnim>
 		<Weapon>CorrosiveGrenadeLauncher</Weapon>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 		<StartDisabled />
@@ -320,6 +325,7 @@
 		<Anim>GrenadeLauncherAttack</Anim>
 		<ReloadAnim>GrenadeLauncherReload</ReloadAnim>
 		<Weapon>InCoverCorrosiveGrenadeLauncher</Weapon>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 		<StartDisabled />
@@ -330,6 +336,7 @@
 		<Anim>MultishotGrenadeLauncherAttack</Anim>
 		<ReloadAnim>MultishotGrenadeLauncherReload</ReloadAnim>
 		<Weapon>MultishotGrenadeLauncher</Weapon>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 		<StartDisabled />
@@ -340,6 +347,7 @@
 		<Anim>MultishotGrenadeLauncherAttack</Anim>
 		<ReloadAnim>MultishotGrenadeLauncherReload</ReloadAnim>
 		<Weapon>InCoverMultishotGrenadeLauncher</Weapon>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 		<StartDisabled />

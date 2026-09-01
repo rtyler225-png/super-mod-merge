@@ -28,6 +28,7 @@
 		<WalkLeftAnim>CombatWalkLeftAssaultRifleAttack</WalkLeftAnim>
 		<WalkRightAnim>CombatWalkRightAssaultRifleAttack</WalkRightAnim>
 		<Weapon>AssaultRifle</Weapon>
+		<Infection />
 		<MainAttack />
 	</Action>
 	<Action>

@@ -165,6 +165,7 @@
 		<Anim>PlasmaGrenadeAttack</Anim>
 		<SupportAnim>Support</SupportAnim>
 		<Weapon>IncendiaryGrenade</Weapon>
+		<Infection />
 		<MainAttack />
 		<MaxNumUnitsPerformAction>2</MaxNumUnitsPerformAction>
 		<DontLoopAttackAnim />
@@ -175,6 +176,7 @@
 		<Anim>PlasmaGrenadeAttack</Anim>
 		<Weapon>InCoverIncendiaryGrenade</Weapon>
 		<BaseDPSWeapon>InCoverSpikerAttackAction</BaseDPSWeapon>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 	</Action>
@@ -184,6 +186,7 @@
 		<Anim>SpikerAttack</Anim>
 		<ReloadAnim>SpikerReload</ReloadAnim>
 		<Weapon>InCoverSpiker</Weapon>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 	</Action>
@@ -193,6 +196,7 @@
 		<Anim>SpikerAttack</Anim>
 		<ReloadAnim>SpikerReload</ReloadAnim>
 		<Weapon>Spiker</Weapon>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 	</Action>
@@ -202,6 +206,7 @@
 		<Anim>MaulerAttack</Anim>
 		<ReloadAnim>MaulerReload</ReloadAnim>
 		<Weapon>InCoverMauler</Weapon>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 		<StartDisabled />
@@ -212,6 +217,7 @@
 		<Anim>MaulerAttack</Anim>
 		<ReloadAnim>MaulerReload</ReloadAnim>
 		<Weapon>Mauler</Weapon>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 		<StartDisabled />
@@ -315,6 +321,7 @@
 		<ActionType>JumpAttack</ActionType>
 		<Anim>Flail</Anim>
 		<Weapon>Brutegun</Weapon>
+		<Infection />
 		<Duration>100</Duration>
 		<VelocityScalar>30</VelocityScalar>
 	</Action>

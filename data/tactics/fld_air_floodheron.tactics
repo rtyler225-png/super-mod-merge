@@ -165,6 +165,7 @@
 		<Anim>CannonAttackRight</Anim>
 		<Weapon>RightCannon</Weapon>
 		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Infection />
 		<MainAttack />
 	</Action>
 	<Action>
@@ -173,6 +174,7 @@
 		<Anim>CannonAttackRight2</Anim>
 		<Weapon>RightCannon2</Weapon>
 		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Infection />
 		<MainAttack />
 	</Action>
 	<Action>
@@ -181,6 +183,7 @@
 		<Anim>CannonAttackLeft</Anim>
 		<Weapon>LeftCannon</Weapon>
 		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Infection />
 		<MainAttack />
 	</Action>
 	<Action>
@@ -189,6 +192,7 @@
 		<Anim>CannonAttackLeft2</Anim>
 		<Weapon>LeftCannon2</Weapon>
 		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
+		<Infection />
 		<MainAttack />
 	</Action>
 	<Action>

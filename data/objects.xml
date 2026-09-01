@@ -26583,7 +26583,7 @@
     <Veterancy Level="3" XP="0" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
     <Veterancy Level="4" XP="0" Damage="1.45" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
     <Veterancy Level="5" XP="0" Damage="1.55" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
-    <Tactics>cov_inf_gruntfuelrod_01.tactics</Tactics>
+    <Tactics>fld_inf_infectedfuelrodgrunt_01.tactics</Tactics>
     <RepairPoints>20</RepairPoints>
     <ObstructionRadiusX>1</ObstructionRadiusX>
     <ObstructionRadiusY>1.6</ObstructionRadiusY>
@@ -29101,7 +29101,7 @@
     <AmmoMax>610</AmmoMax>
     <AmmoRegenRate>30</AmmoRegenRate>
     <AbilityCommand>CovSpectreBoost</AbilityCommand>
-    <Tactics>cov_veh_spectre_01.tactics</Tactics>
+    <Tactics>fld_veh_spectre_01.tactics</Tactics>
     <RepairPoints>75</RepairPoints>
     <ObstructionRadiusX>3.5</ObstructionRadiusX>
     <ObstructionRadiusY>1.6</ObstructionRadiusY>
@@ -29179,7 +29179,7 @@
     <AmmoMax>610</AmmoMax>
     <AmmoRegenRate>30</AmmoRegenRate>
     <AbilityCommand>CovWraithSpecial</AbilityCommand>
-    <Tactics>cov_veh_revenant_01.tactics</Tactics>
+    <Tactics>fld_veh_revenant_01.tactics</Tactics>
     <RepairPoints>75</RepairPoints>
     <ObstructionRadiusX>3.5</ObstructionRadiusX>
     <ObstructionRadiusY>1.6</ObstructionRadiusY>
@@ -29256,7 +29256,7 @@
     <AmmoMax>610</AmmoMax>
     <AmmoRegenRate>30</AmmoRegenRate>
     <AbilityCommand>CovChopperRunOver</AbilityCommand>
-    <Tactics>cov_veh_prowler_01.tactics</Tactics>
+    <Tactics>fld_veh_prowler_01.tactics</Tactics>
     <RepairPoints>75</RepairPoints>
     <ObstructionRadiusX>6.5</ObstructionRadiusX>
     <ObstructionRadiusY>4</ObstructionRadiusY>
@@ -29321,7 +29321,7 @@
     <AmmoMax>610</AmmoMax>
     <AmmoRegenRate>30</AmmoRegenRate>
     <AbilityCommand>CovGhostRam</AbilityCommand>
-    <Tactics>cov_veh_ghost_01.tactics</Tactics>
+    <Tactics>fld_veh_ghost_01.tactics</Tactics>
     <RepairPoints>75</RepairPoints>
     <ObstructionRadiusX>3.5</ObstructionRadiusX>
     <ObstructionRadiusY>1.6</ObstructionRadiusY>
@@ -29393,7 +29393,7 @@
     <Bounty>120</Bounty>
     <AmmoMax>500000</AmmoMax>
     <AmmoRegenRate>40000</AmmoRegenRate>
-    <Tactics>cov_veh_scarab_01.tactics</Tactics>
+    <Tactics>fld_veh_scarab_01.tactics</Tactics>
     <RepairPoints>300</RepairPoints>
     <ObstructionRadiusX>11</ObstructionRadiusX>
     <ObstructionRadiusY>15</ObstructionRadiusY>
@@ -54376,7 +54376,7 @@
     <Veterancy Level="4" XP="0" Damage="1.45" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
     <Veterancy Level="5" XP="0" Damage="1.55" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
     <LevelUpEffect>fx_unitLevelUp</LevelUpEffect>
-    <Tactics>unsc_veh_scorpionsundevil_01.tactics</Tactics>
+    <Tactics>fld_veh_scorpionsundevil_01.tactics</Tactics>
     <RepairPoints>300</RepairPoints>
     <ObstructionRadiusX>8</ObstructionRadiusX>
     <ObstructionRadiusY>4</ObstructionRadiusY>

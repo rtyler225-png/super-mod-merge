@@ -20,6 +20,7 @@
 		<ActionType>HandAttack</ActionType>
 		<Anim>SwordAttack</Anim>
 		<Weapon>Sword</Weapon>
+		<Infection />
 		<MainAttack />
 	</Action>
 	<Action>

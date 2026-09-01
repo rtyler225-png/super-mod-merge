@@ -12,6 +12,7 @@
 		<ActionType>RangedAttack</ActionType>
 		<Anim>MeleeAttack</Anim>
 		<Weapon>FloodMelee</Weapon>
+		<Infection />
 		<MainAttack />
 		<KillSelfOnAttack />
 		<InstantAttack />

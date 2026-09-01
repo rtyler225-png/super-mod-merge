@@ -64,6 +64,7 @@
 		<Anim>Spawner</Anim>
 		<Weapon>GroundAttack</Weapon>
 		<Strafing maxDistance="45" turnRate="90" trackingSpeed="40" jitter="20" />
+		<Infection />
 		<MainAttack />
 		<DontLoopAttackAnim />
 		<StartDisabled />
@@ -74,6 +75,7 @@
 		<Anim>MeleeAttack</Anim>
 		<Weapon>Melee</Weapon>
 		<FindBetterAction />
+		<Infection />
 		<MainAttack />
 	</Action>
 	<Action>
@@ -82,6 +84,7 @@
 		<Anim>MeleeAttack</Anim>
 		<Weapon>StunMelee</Weapon>
 		<FindBetterAction />
+		<Infection />
 		<MainAttack />
 		<StartDisabled />
 	</Action>

@@ -23,6 +23,7 @@
 		<ActionType>HandAttack</ActionType>
 		<Anim>GroundAttack</Anim>
 		<Weapon>GroundAttack</Weapon>
+		<Infection />
 		<MainAttack />
 		<DontLoopAttackAnim />
 	</Action>
@@ -31,6 +32,7 @@
 		<ActionType>HandAttack</ActionType>
 		<Anim>MeleeAttack</Anim>
 		<Weapon>Melee</Weapon>
+		<Infection />
 		<MainAttack />
 	</Action>
 	<Action>
@@ -86,6 +88,7 @@
 		<ActionType>JumpAttack</ActionType>
 		<Anim>Jump</Anim>
 		<Weapon>Melee</Weapon>
+		<Infection />
 		<Duration>100</Duration>
 		<VelocityScalar>30</VelocityScalar>
 		<StartDisabled />

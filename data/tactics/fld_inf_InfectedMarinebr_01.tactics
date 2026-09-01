@@ -52,6 +52,7 @@
 		<Anim>BattleRifleAttack</Anim>
 		<ReloadAnim>BattleRifleReload</ReloadAnim>
 		<Weapon>InCoverBattleRifle</Weapon>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 	</Action>
@@ -61,6 +62,7 @@
 		<Anim>BattleRifleAttack</Anim>
 		<ReloadAnim>BattleRifleReload</ReloadAnim>
 		<Weapon>BattleRifle</Weapon>
+		<Infection />
 		<MainAttack />
 	</Action>
 	<Action>

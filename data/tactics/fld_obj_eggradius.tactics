@@ -27,6 +27,7 @@
 		<Name>Detonate</Name>
 		<ActionType>Detonate</ActionType>
 		<Weapon>DetonateTrigger</Weapon>
+		<Infection />
 		<DetonateWhenInRange>true</DetonateWhenInRange>
 	</Action>
 	<Tactic>

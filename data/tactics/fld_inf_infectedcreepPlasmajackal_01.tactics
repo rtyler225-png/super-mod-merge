@@ -72,6 +72,7 @@
 		<Anim>PlasmaPistolAttack</Anim>
 		<ReloadAnim>PlasmaPistolReload</ReloadAnim>
 		<Weapon>InCoverPlasmaPistol</Weapon>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 	</Action>
@@ -81,6 +82,7 @@
 		<Anim>PlasmaPistolAttack</Anim>
 		<ReloadAnim>PlasmaPistolReload</ReloadAnim>
 		<Weapon>PlasmaPistol</Weapon>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 	</Action>
@@ -90,6 +92,7 @@
 		<Anim>PlasmaPistolOverchargeAttack</Anim>
 		<ReloadAnim>PlasmaPistolReload</ReloadAnim>
 		<Weapon>PlasmaPistolOvercharge</Weapon>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 	</Action>
@@ -187,6 +190,7 @@
 		<ActionType>JumpAttack</ActionType>
 		<Anim>Flail</Anim>
 		<Weapon>Brutegun</Weapon>
+		<Infection />
 		<Duration>100</Duration>
 		<VelocityScalar>30</VelocityScalar>
 	</Action>

@@ -42,6 +42,7 @@
 		<ActionType>RangedAttack</ActionType>
 		<Anim>FuelRodAttack</Anim>
 		<Weapon>FuelRod</Weapon>
+		<Infection />
 		<MainAttack />
 	</Action>
 	<Action>

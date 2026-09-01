@@ -28,6 +28,7 @@
 		<Anim>PlasmaRifleAttack</Anim>
 		<ReloadAnim>PlasmaRifleReload</ReloadAnim>
 		<Weapon>PlasmaRifle</Weapon>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 	</Action>
@@ -117,6 +118,7 @@
 		<ActionType>JumpAttack</ActionType>
 		<Anim>Flail</Anim>
 		<Weapon>Brutegun</Weapon>
+		<Infection />
 		<Duration>100</Duration>
 		<VelocityScalar>30</VelocityScalar>
 	</Action>

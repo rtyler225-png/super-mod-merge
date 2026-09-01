@@ -30,6 +30,7 @@
 		<ActionType>RangedAttack</ActionType>
 		<Weapon>Spikes</Weapon>
 		<Anim>PlasmaRifleAttack</Anim>
+		<Infection />
 		<MainAttack />
 		<MaxNumUnitsPerformAction>4</MaxNumUnitsPerformAction>
 	</Action>

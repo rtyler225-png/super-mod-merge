@@ -36,6 +36,7 @@
 		<Anim>FocusRifleAttack</Anim>
 		<ReloadAnim>FocusRifleReload</ReloadAnim>
 		<Weapon>FocusRifle</Weapon>
+		<Infection />
 		<MainAttack />
 		<Strafing maxDistance="2" turnRate="360" trackingSpeed="50" jitter="0" />
 		<PersistBetweenOpps />

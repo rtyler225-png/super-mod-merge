@@ -29,6 +29,7 @@
 		<Anim>SniperRifleAttack</Anim>
 		<ReloadAnim>SniperRifleReload</ReloadAnim>
 		<Weapon>SniperRifle</Weapon>
+		<Infection />
 		<MainAttack />
 	</Action>
 	<Action>

@@ -133,6 +133,7 @@
 		<Anim>FlashBangAttack</Anim>
 		<Weapon>FlashBang</Weapon>
 		<BaseDPSWeapon>Shotgun</BaseDPSWeapon>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 		<DontLoopAttackAnim />
@@ -144,6 +145,7 @@
 		<Anim>FragGrenadeAttack</Anim>
 		<Weapon>Grenade</Weapon>
 		<BaseDPSWeapon>Shotgun</BaseDPSWeapon>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 		<DontLoopAttackAnim />
@@ -154,6 +156,7 @@
 		<ActionType>RangedAttack</ActionType>
 		<Anim>ShotgunBurstAttack</Anim>
 		<Weapon>SpecialWeapon</Weapon>
+		<Infection />
 		<MainAttack />
 		<DontLoopAttackAnim />
 	</Action>
@@ -163,6 +166,7 @@
 		<Anim>ShotgunAttack</Anim>
 		<ReloadAnim>ShotgunReload</ReloadAnim>
 		<Weapon>InCoverShotgun</Weapon>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 	</Action>
@@ -172,6 +176,7 @@
 		<Anim>ShotgunAttack</Anim>
 		<ReloadAnim>ShotgunReload</ReloadAnim>
 		<Weapon>Shotgun</Weapon>
+		<Infection />
 		<MainAttack />
 	</Action>
 	<Action>

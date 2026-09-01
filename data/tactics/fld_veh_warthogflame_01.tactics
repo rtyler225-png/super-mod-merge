@@ -43,6 +43,7 @@
 		<Anim>FlameThrowerAttack</Anim>
 		<AnimLowDetail actionCountThreshold="20">FlameThrowerAttackLowDetail</AnimLowDetail>
 		<Weapon>Flamethrower</Weapon>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 		<DisableAttackWaitTimer />
@@ -51,11 +52,13 @@
 		<Name>PersistentCollisionAttack</Name>
 		<ActionType>CollisionAttack</ActionType>
 		<Weapon>Ram</Weapon>
+		<Infection />
 	</Action>
 	<Action>
 		<Name>RamAttack</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Weapon>Ram</Weapon>
+		<Infection />
 	</Action>
 	<Action>
 		<Name>GatherSupplies</Name>

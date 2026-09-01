@@ -67,6 +67,7 @@
 		<ActionType>RangedAttack</ActionType>
 		<Anim>RocketAttack</Anim>
 		<Weapon>RocketWeapon</Weapon>
+		<Infection />
 		<MainAttack />
 		<StartDisabled />
 	</Action>
@@ -75,6 +76,7 @@
 		<ActionType>RangedAttack</ActionType>
 		<Anim>AssaultRifleAttack</Anim>
 		<Weapon>AssaultRifle</Weapon>
+		<Infection />
 		<MainAttack />
 		<StartDisabled />
 	</Action>
@@ -82,11 +84,13 @@
 		<Name>PersistentCollisionAttack</Name>
 		<ActionType>CollisionAttack</ActionType>
 		<Weapon>Ram</Weapon>
+		<Infection />
 	</Action>
 	<Action>
 		<Name>RamAttack</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Weapon>Ram</Weapon>
+		<Infection />
 	</Action>
 	<Action>
 		<Name>GatherSupplies</Name>

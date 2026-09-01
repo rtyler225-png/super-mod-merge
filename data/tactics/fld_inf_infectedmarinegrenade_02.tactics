@@ -37,6 +37,7 @@
 		<Anim>GrenadeLauncherAttack</Anim>
 		<ReloadAnim>GrenadeLauncherReload</ReloadAnim>
 		<Weapon>GrenadeLauncherLarge</Weapon>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 	</Action>

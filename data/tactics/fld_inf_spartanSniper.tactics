@@ -29,6 +29,7 @@
 		<WalkBackAnim>CombatWalkBackAssaultRifleAttack</WalkBackAnim>
 		<WalkLeftAnim>CombatWalkLeftAssaultRifleAttack</WalkLeftAnim>
 		<WalkRightAnim>CombatWalkRightAssaultRifleAttack</WalkRightAnim>
+		<Infection />
 		<MainAttack />
 	</Action>
 	<Action>

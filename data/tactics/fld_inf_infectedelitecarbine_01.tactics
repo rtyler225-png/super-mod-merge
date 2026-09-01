@@ -28,6 +28,7 @@
 		<Anim>CarbineAttack</Anim>
 		<ReloadAnim>CarbineReload</ReloadAnim>
 		<Weapon>Carbine</Weapon>
+		<Infection />
 		<MainAttack />
 	</Action>
 	<Action>

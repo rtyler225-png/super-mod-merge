@@ -71,6 +71,7 @@
 		<Anim>AddOnAttack</Anim>
 		<Weapon>MissileLauncher</Weapon>
 		<Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20" />
+		<Infection />
 		<MainAttack />
 		<PersistBetweenOpps />
 	</Action>
@@ -80,6 +81,7 @@
 		<Anim>AddOnAttack</Anim>
 		<Weapon>MissileLauncherAir</Weapon>
 		<Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20" />
+		<Infection />
 		<MainAttack />
 		<PersistBetweenOpps />
 	</Action>
@@ -87,11 +89,13 @@
 		<Name>PersistentCollisionAttack</Name>
 		<ActionType>CollisionAttack</ActionType>
 		<Weapon>Ram</Weapon>
+		<Infection />
 	</Action>
 	<Action>
 		<Name>RamAttack</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Weapon>Ram</Weapon>
+		<Infection />
 	</Action>
 	<Action>
 		<Name>GatherSupplies</Name>

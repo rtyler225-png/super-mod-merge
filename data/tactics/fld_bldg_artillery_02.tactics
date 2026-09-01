@@ -83,6 +83,7 @@
 		<ActionType>RangedAttack</ActionType>
 		<Anim>RangedAttack</Anim>
 		<Weapon>AirAttack</Weapon>
+		<Infection />
 		<MainAttack />
 		<DontCheckOrientTolerance />
 	</Action>

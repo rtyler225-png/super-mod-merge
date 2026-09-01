@@ -25,6 +25,7 @@
 		<ActionType>RangedAttack</ActionType>
 		<Anim>FlameThrowerAttack</Anim>
 		<Weapon>Flamethrower</Weapon>
+		<Infection />
 		<MainAttack />
 		<DisableAttackWaitTimer />
 	</Action>

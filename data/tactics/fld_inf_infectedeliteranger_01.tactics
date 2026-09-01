@@ -45,6 +45,7 @@
 		<ActionType>RangedAttack</ActionType>
 		<Anim>PlasmaRifleAttack</Anim>
 		<Weapon>InCoverPlasmaRifle</Weapon>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 	</Action>
@@ -53,6 +54,7 @@
 		<ActionType>RangedAttack</ActionType>
 		<Anim>PlasmaRifleAttack</Anim>
 		<Weapon>PlasmaRifle</Weapon>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 	</Action>
@@ -61,6 +63,7 @@
 		<ActionType>RangedAttack</ActionType>
 		<Anim>DualWieldPlasmaRifleAttack</Anim>
 		<Weapon>InCoverPlasmaRifle</Weapon>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 		<StartDisabled />
@@ -70,6 +73,7 @@
 		<ActionType>RangedAttack</ActionType>
 		<Anim>DualWieldPlasmaRifleAttack</Anim>
 		<Weapon>PlasmaRifle</Weapon>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 		<StartDisabled />

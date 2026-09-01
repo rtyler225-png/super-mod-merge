@@ -28,6 +28,7 @@
 		<Anim>PlasmaPistolAttack</Anim>
 		<ReloadAnim>PlasmaPistolReload</ReloadAnim>
 		<Weapon>PlasmaPistol</Weapon>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 	</Action>

@@ -140,6 +140,7 @@
 		<ActionType>RangedAttack</ActionType>
 		<Anim>CannonAttack</Anim>
 		<Weapon>AirAttack</Weapon>
+		<Infection />
 		<MainAttack />
 		<DontCheckOrientTolerance />
 	</Action>

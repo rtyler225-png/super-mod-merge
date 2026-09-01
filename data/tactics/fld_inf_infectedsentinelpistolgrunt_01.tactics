@@ -105,6 +105,7 @@
 		<Anim>PlasmaPistolAttack</Anim>
 		<ReloadAnim>PlasmaPistolReload</ReloadAnim>
 		<Weapon>InCoverPlasmaPistol</Weapon>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 	</Action>
@@ -114,6 +115,7 @@
 		<Anim>PlasmaPistolAttack</Anim>
 		<ReloadAnim>PlasmaPistolReload</ReloadAnim>
 		<Weapon>PlasmaPistol</Weapon>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 	</Action>
@@ -123,6 +125,7 @@
 		<Anim>PlasmaGrenadeAttack</Anim>
 		<Weapon>InCoverGrenade</Weapon>
 		<BaseDPSWeapon>InCoverPlasmaPistolAttackAction</BaseDPSWeapon>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 	</Action>
@@ -131,6 +134,7 @@
 		<ActionType>RangedAttack</ActionType>
 		<Anim>PlasmaGrenadeAttack</Anim>
 		<Weapon>Grenade</Weapon>
+		<Infection />
 		<MainAttack />
 		<DontLoopAttackAnim />
 	</Action>

@@ -131,6 +131,7 @@
 		<ActionType>RangedAttack</ActionType>
 		<Anim>RocketAttack</Anim>
 		<Weapon>InCoverRocketWeapon</Weapon>
+		<Infection />
 		<MainAttack />
 	</Action>
 	<Action>
@@ -139,6 +140,7 @@
 		<Anim>RocketAttack</Anim>
 		<SupportAnim>Support</SupportAnim>
 		<Weapon>RocketWeapon</Weapon>
+		<Infection />
 		<MainAttack />
 	</Action>
 	<Action>
@@ -146,6 +148,7 @@
 		<ActionType>RangedAttack</ActionType>
 		<Anim>RocketAttack</Anim>
 		<Weapon>InCoverURocketWeapon</Weapon>
+		<Infection />
 		<MainAttack />
 		<StartDisabled />
 	</Action>
@@ -155,6 +158,7 @@
 		<Anim>RocketAttack</Anim>
 		<SupportAnim>Support</SupportAnim>
 		<Weapon>URocketWeapon</Weapon>
+		<Infection />
 		<MainAttack />
 		<StartDisabled />
 	</Action>
@@ -163,6 +167,7 @@
 		<ActionType>RangedAttack</ActionType>
 		<Anim>RocketAttack</Anim>
 		<Weapon>InCoverTRocketWeapon</Weapon>
+		<Infection />
 		<MainAttack />
 		<StartDisabled />
 	</Action>
@@ -172,6 +177,7 @@
 		<Anim>RocketAttack</Anim>
 		<SupportAnim>Support</SupportAnim>
 		<Weapon>TRocketWeapon</Weapon>
+		<Infection />
 		<MainAttack />
 		<StartDisabled />
 	</Action>

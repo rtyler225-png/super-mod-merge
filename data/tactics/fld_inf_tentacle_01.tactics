@@ -78,6 +78,7 @@
 		<Weapon>StunPullHammer</Weapon>
 		<VelocityScalar>40</VelocityScalar>
 		<EndAnim>Flail</EndAnim>
+		<Infection />
 		<MainAttack />
 		<Chargable />
 		<ProtoObject>fx_brutePullVictim</ProtoObject>
@@ -95,6 +96,7 @@
 		<ActionType>RangedAttack</ActionType>
 		<Anim>InfantryAttack</Anim>
 		<Weapon>InfantryMelee</Weapon>
+		<Infection />
 		<MainAttack />
 		<Fatality attacker="Fatality_TenticleInfantry_01" target="Spin" cooldown="0" offsetTolerance="30" orientationOffset="180" noMove="true">unsc_inf_marine_01</Fatality>
 		<Fatality attacker="Fatality_TenticleInfantry_01" target="Spin" cooldown="0" offsetTolerance="30" orientationOffset="180" noMove="true">unsc_inf_flamemarine_01</Fatality>
@@ -107,6 +109,7 @@
 		<ActionType>RangedAttack</ActionType>
 		<Anim>VehicleAttack</Anim>
 		<Weapon>VehicleMelee</Weapon>
+		<Infection />
 		<MainAttack />
 		<Fatality attacker="Fatality_TenticleVehicle_01" target="Idle" cooldown="0" offsetTolerance="30" orientationOffset="180" noMove="true">unsc_veh_warthog_01</Fatality>
 	</Action>

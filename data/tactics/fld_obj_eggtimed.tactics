@@ -34,6 +34,7 @@
 		<Name>Detonate</Name>
 		<ActionType>Detonate</ActionType>
 		<Weapon>Bomb</Weapon>
+		<Infection />
 		<Duration DurationSpread="2">10</Duration>
 	</Action>
 	<Tactic>

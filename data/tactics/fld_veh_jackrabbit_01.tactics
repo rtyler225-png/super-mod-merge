@@ -55,17 +55,20 @@
 		<ActionType>RangedAttack</ActionType>
 		<Anim>GrenadeLauncherAttack</Anim>
 		<Weapon>GrenadeLauncher</Weapon>
+		<Infection />
 		<MainAttack />
 	</Action>
 	<Action>
 		<Name>PersistentCollisionAttack</Name>
 		<ActionType>CollisionAttack</ActionType>
 		<Weapon>Ram</Weapon>
+		<Infection />
 	</Action>
 	<Action>
 		<Name>RamAttack</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Weapon>Ram</Weapon>
+		<Infection />
 	</Action>
 	<Action>
 		<Name>GatherSupplies</Name>

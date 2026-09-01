@@ -102,6 +102,7 @@
 		<Anim>NeedlerAttack</Anim>
 		<Weapon>SuperCombineNeedler</Weapon>
 		<ReloadAnim>NeedlerReload</ReloadAnim>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 		<StartDisabled />
@@ -112,6 +113,7 @@
 		<Anim>NeedlerAttack</Anim>
 		<Weapon>InCoverSuperCombineNeedler</Weapon>
 		<ReloadAnim>NeedlerReload</ReloadAnim>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 		<StartDisabled />
@@ -122,6 +124,7 @@
 		<Anim>NeedlerAttack</Anim>
 		<ReloadAnim>NeedlerReload</ReloadAnim>
 		<Weapon>InCoverNeedler</Weapon>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 	</Action>
@@ -131,6 +134,7 @@
 		<Anim>NeedlerAttack</Anim>
 		<ReloadAnim>NeedlerReload</ReloadAnim>
 		<Weapon>Needler</Weapon>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 	</Action>
@@ -140,6 +144,7 @@
 		<Anim>NeedlerAttack</Anim>
 		<ReloadAnim>NeedlerReload</ReloadAnim>
 		<Weapon>InCoverNeedlerNoTrack</Weapon>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 	</Action>
@@ -149,6 +154,7 @@
 		<Anim>NeedlerAttack</Anim>
 		<ReloadAnim>NeedlerReload</ReloadAnim>
 		<Weapon>NeedlerNoTrack</Weapon>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 	</Action>
@@ -156,6 +162,7 @@
 		<Name>SuperCombineAction</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Weapon>SuperCombine</Weapon>
+		<Infection />
 		<StartDisabled />
 	</Action>
 	<Action>

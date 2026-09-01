@@ -3,37 +3,51 @@
 	<Weapon>
 		<Name>PlasmaCannon</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>180</DamagePerSecond>
-		<WeaponType>LightExplosive</WeaponType>
-		<Projectile>fx_proj_bruteGun_01</Projectile>
-		<ImpactEffect size="Medium">cov_brutechopper_01</ImpactEffect>
-		<MaxVelocityLead>15</MaxVelocityLead>
+		<DamagePerSecond>160</DamagePerSecond>
+		<WeaponType>HeavySmallArmsPlasma</WeaponType>
+		<Projectile>fx_proj_SpectreCannon_01</Projectile>
+		<ImpactEffect size="small">cov_plasmacannon_01</ImpactEffect>
+		<MaxVelocityLead>45</MaxVelocityLead>
 		<MaxRange>45</MaxRange>
-		<AOERadius>3</AOERadius>
-		<AOEPrimaryTargetFactor>0.5</AOEPrimaryTargetFactor>
-		<AOEDistanceFactor>0.5</AOEDistanceFactor>
-		<AOEDamageFactor>0.75</AOEDamageFactor>
-		<Hardpoint>PlasmaTurret</Hardpoint>
-		<Accuracy>0.2</Accuracy>
-		<MaxDeviation>4</MaxDeviation>
-		<MovingAccuracy>0.1</MovingAccuracy>
-		<MovingMaxDeviation>6</MovingMaxDeviation>
+		<Accuracy>0.4</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>0.05</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
 		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
-		<ThrowUnits />
-		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
-		<PhysicsForceMin>500</PhysicsForceMin>
-		<PhysicsForceMax>700</PhysicsForceMax>
+		<Hardpoint>Turret</Hardpoint>
 		<TargetPriority type="Infantry">10</TargetPriority>
 		<TargetPriority type="Aircraft">5</TargetPriority>
 		<TargetPriority type="Building">-3</TargetPriority>
+		<SmallArmsDeflectable />
+	</Weapon>
+	<Weapon>
+		<Name>RepeatingPlasmaCannon</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>240</DamagePerSecond>
+		<WeaponType>HeavySmallArmsPlasma</WeaponType>
+		<Projectile>fx_proj_SpectreCannon_01</Projectile>
+		<ImpactEffect size="small">cov_plasmacannon_01</ImpactEffect>
+		<MaxVelocityLead>45</MaxVelocityLead>
+		<MaxRange>45</MaxRange>
+		<Accuracy>0.4</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>0.05</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Turret</Hardpoint>
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="Aircraft">5</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<SmallArmsDeflectable />
 	</Weapon>
 	<Weapon>
 		<Name>Ram</Name>
 		<DamagePerSecond>500</DamagePerSecond>
-		<WeaponType>HeavyRam</WeaponType>
+		<WeaponType>MediumRam</WeaponType>
 		<MaxRange>5</MaxRange>
 		<AOERadius>40</AOERadius>
 		<ThrowUnits />
@@ -45,29 +59,51 @@
 		<PhysicsForceMax>100</PhysicsForceMax>
 		<ImpactCameraShake duration="0.4" strength="0.38" />
 		<ImpactRumble leftRumbleType="RandomNoise" leftStrength="0.3" rightRumbleType="RandomNoise" rightStrength="0.3" duration="0.25" />
-		<MaxDamagePerRam>50000</MaxDamagePerRam>
-		<ReflectDamageFactor>0.5</ReflectDamageFactor>
+		<MaxDamagePerRam>35000</MaxDamagePerRam>
+		<ReflectDamageFactor>0.66</ReflectDamageFactor>
 	</Weapon>
 	<Action>
 		<Name>PlasmaCannonAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>MachinegunAttack</Anim>
+		<Anim>PlasmaCannonAttack</Anim>
 		<Weapon>PlasmaCannon</Weapon>
+		<Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20" />
 		<Infection />
 		<MainAttack />
+		<DisableAttackWaitTimer />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>RepeatingPlasmaCannonAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>UpgradedPlasmaCannonAttack</Anim>
+		<Weapon>RepeatingPlasmaCannon</Weapon>
+		<Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20" />
+		<Infection />
+		<MainAttack />
+		<DisableAttackWaitTimer />
+		<PersistBetweenOpps />
+		<StartDisabled />
+	</Action>
+	<State>
+		<Name>RamState</Name>
+		<WalkAnim>Run</WalkAnim>
+		<RunAnim>Run</RunAnim>
+		<JogAnim>Run</JogAnim>
+	</State>
+	<Action>
+		<Name>RamAttack</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Weapon>Ram</Weapon>
+		<Infection />
+		<Overrun />
 	</Action>
 	<Action>
 		<Name>PersistentCollisionAttack</Name>
 		<ActionType>CollisionAttack</ActionType>
 		<Weapon>Ram</Weapon>
 		<Infection />
-		<Overrun />
-	</Action>
-	<Action>
-		<Name>RamAttack</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Weapon>Ram</Weapon>
-		<Infection />
+		<NewTacticState>RamState</NewTacticState>
 		<Overrun />
 	</Action>
 	<Action>
@@ -121,6 +157,21 @@
 		<WorkRange>0</WorkRange>
 	</Action>
 	<Action>
+		<Name>Dodge</Name>
+		<ActionType>Dodge</ActionType>
+		<DodgeChanceMin>0</DodgeChanceMin>
+		<DodgeChanceMax>1.5</DodgeChanceMax>
+		<DodgeMaxAngle>135</DodgeMaxAngle>
+		<DodgeCooldown>1</DodgeCooldown>
+		<DodgePhysicsImpulse>60</DodgePhysicsImpulse>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>ShieldAction</Name>
+		<ActionType>EnergyShield</ActionType>
+		<ProtoObject>cov_ghostshield</ProtoObject>
+	</Action>
+	<Action>
 		<Name>GatherCollectables</Name>
 		<ActionType>Gather</ActionType>
 		<Anim>Gather</Anim>
@@ -129,7 +180,9 @@
 		<WorkRange>3</WorkRange>
 	</Action>
 	<Tactic>
+		<PersistentAction>Dodge</PersistentAction>
 		<PersistentAction>PersistentCollisionAttack</PersistentAction>
+		<PersistentAction>ShieldAction</PersistentAction>
 		<TargetRule>
 			<GaiaOwned />
 			<TargetType>Collectable</TargetType>
@@ -144,7 +197,10 @@
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>PlasmaCannonAttackAction</Action>
-			<AutoTargetSquadMode>Normal</AutoTargetSquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>RepeatingPlasmaCannonAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Ally</Relation>

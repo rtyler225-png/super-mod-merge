@@ -14,6 +14,7 @@
 		<Name>Detonate</Name>
 		<ActionType>Detonate</ActionType>
 		<Weapon>Bomb</Weapon>
+		<Infection />
 		<DetonateWhenInRange>true</DetonateWhenInRange>
 	</Action>
 	<Action>

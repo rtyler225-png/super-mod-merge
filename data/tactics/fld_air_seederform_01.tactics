@@ -53,6 +53,7 @@
 		<ActionType>RangedAttack</ActionType>
 		<Weapon>Spikes</Weapon>
 		<Anim>PlasmaRifleAttack</Anim>
+		<Infection />
 		<MainAttack />
 	</Action>
 	<Action>
@@ -60,6 +61,7 @@
 		<ActionType>RangedAttack</ActionType>
 		<Weapon>UpgradedSpikes</Weapon>
 		<Anim>PlasmaRifleAttack</Anim>
+		<Infection />
 		<MainAttack />
 		<StartDisabled />
 	</Action>

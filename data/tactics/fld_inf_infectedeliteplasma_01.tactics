@@ -28,6 +28,7 @@
 		<Anim>PlasmaRifleAttack</Anim>
 		<ReloadAnim>PlasmaRifleReload</ReloadAnim>
 		<Weapon>PlasmaRifle</Weapon>
+		<Infection />
 		<MainAttack />
 	</Action>
 	<Action>

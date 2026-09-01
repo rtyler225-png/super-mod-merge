@@ -100,6 +100,7 @@
 		<ActionType>SecondaryTurretAttack</ActionType>
 		<Anim>GrenadeLauncherAttack</Anim>
 		<Weapon>GrenadeLauncher</Weapon>
+		<Infection />
 		<StartDisabled />
 	</Action>
 	<Action>
@@ -110,6 +111,7 @@
 		<EndAnim noInterrupt="true" SoundCue="stop_weapon_warthog_mg_loop">Postfire</EndAnim>
 		<Weapon>Machinegun</Weapon>
 		<Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20" />
+		<Infection />
 		<MainAttack />
 		<DisableAttackWaitTimer />
 		<PersistBetweenOpps />
@@ -119,6 +121,7 @@
 		<ActionType>RangedAttack</ActionType>
 		<Anim>CannonAttack</Anim>
 		<Weapon>GaussCannon</Weapon>
+		<Infection />
 		<MainAttack />
 		<StartDisabled />
 	</Action>
@@ -126,11 +129,13 @@
 		<Name>PersistentCollisionAttack</Name>
 		<ActionType>CollisionAttack</ActionType>
 		<Weapon>Ram</Weapon>
+		<Infection />
 	</Action>
 	<Action>
 		<Name>RamAttack</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Weapon>Ram</Weapon>
+		<Infection />
 	</Action>
 	<Action>
 		<Name>GatherSupplies</Name>

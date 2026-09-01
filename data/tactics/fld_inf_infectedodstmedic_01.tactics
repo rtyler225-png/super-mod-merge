@@ -47,6 +47,7 @@
 		<WalkLeftAnim>CombatWalkLeftAssaultRifleAttack</WalkLeftAnim>
 		<WalkRightAnim>CombatWalkRightAssaultRifleAttack</WalkRightAnim>
 		<Weapon>AssaultRifle</Weapon>
+		<Infection />
 		<MainAttack />
 	</Action>
 	<Action>
@@ -54,6 +55,7 @@
 		<ActionType>RangedAttack</ActionType>
 		<Anim>AssaultRifleAttack</Anim>
 		<Weapon>InCoverAssaultRifle</Weapon>
+		<Infection />
 		<MainAttack />
 	</Action>
 	<Action>

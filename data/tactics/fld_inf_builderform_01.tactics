@@ -52,6 +52,7 @@
 		<Anim>MeleeAttack</Anim>
 		<Weapon>SwipMelee</Weapon>
 		<FindBetterAction />
+		<Infection />
 		<MainAttack />
 	</Action>
 	<Action>
@@ -60,6 +61,7 @@
 		<Anim>BashAttack</Anim>
 		<Weapon>BashMelee</Weapon>
 		<FindBetterAction />
+		<Infection />
 		<MainAttack />
 	</Action>
 	<Action>

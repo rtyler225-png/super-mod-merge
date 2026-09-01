@@ -87,6 +87,7 @@
 		<ActionType>HandAttack</ActionType>
 		<Anim>Slam</Anim>
 		<Weapon>GroundAttack</Weapon>
+		<Infection />
 		<MainAttack />
 		<DontLoopAttackAnim />
 	</Action>
@@ -95,6 +96,7 @@
 		<ActionType>HandAttack</ActionType>
 		<Anim>MeleeAttack</Anim>
 		<Weapon>Melee</Weapon>
+		<Infection />
 		<MainAttack />
 	</Action>
 	<Action>
@@ -102,6 +104,7 @@
 		<ActionType>HandAttack</ActionType>
 		<Anim>AirAttack</Anim>
 		<Weapon>Melee</Weapon>
+		<Infection />
 		<MainAttack />
 	</Action>
 	<Action>
@@ -109,6 +112,7 @@
 		<ActionType>HandAttack</ActionType>
 		<Anim>Slam</Anim>
 		<Weapon>StunGroundAttack</Weapon>
+		<Infection />
 		<MainAttack />
 		<DontLoopAttackAnim />
 		<StartDisabled />
@@ -118,6 +122,7 @@
 		<ActionType>HandAttack</ActionType>
 		<Anim>MeleeAttack</Anim>
 		<Weapon>StunMelee</Weapon>
+		<Infection />
 		<MainAttack />
 		<StartDisabled />
 	</Action>
@@ -126,6 +131,7 @@
 		<ActionType>HandAttack</ActionType>
 		<Anim>AirAttack</Anim>
 		<Weapon>StunMelee</Weapon>
+		<Infection />
 		<MainAttack />
 		<StartDisabled />
 	</Action>

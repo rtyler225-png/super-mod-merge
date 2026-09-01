@@ -40,6 +40,7 @@
 		<ActionType>HandAttack</ActionType>
 		<Anim>MeleeAttack</Anim>
 		<Weapon>Melee</Weapon>
+		<Infection />
 		<MainAttack />
 	</Action>
 	<Action>
@@ -48,6 +49,7 @@
 		<Anim>LungeAttack</Anim>
 		<Weapon>Lunge</Weapon>
 		<DontLoopAttackAnim />
+		<Infection />
 		<MainAttack />
 	</Action>
 	<Action>
@@ -76,6 +78,7 @@
 		<ActionType>JumpAttack</ActionType>
 		<Anim>LungeAttack</Anim>
 		<Weapon>Lunge</Weapon>
+		<Infection />
 		<Duration>100</Duration>
 		<VelocityScalar>40</VelocityScalar>
 		<StartDisabled />

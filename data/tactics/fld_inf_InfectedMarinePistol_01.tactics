@@ -126,6 +126,7 @@
 		<Anim>RocketAttack</Anim>
 		<Weapon>InCoverRocketWeapon</Weapon>
 		<BaseDPSWeapon>InCoverAssaultRifle</BaseDPSWeapon>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 		<StartDisabled />
@@ -136,6 +137,7 @@
 		<Anim>FragGrenadeAttack</Anim>
 		<Weapon>InCoverGrenade</Weapon>
 		<BaseDPSWeapon>InCoverAssaultRifle</BaseDPSWeapon>
+		<Infection />
 		<MainAttack />
 		<FindBetterAction />
 	</Action>
@@ -145,6 +147,7 @@
 		<Anim>RocketAttack</Anim>
 		<SupportAnim>Support</SupportAnim>
 		<Weapon>RocketWeapon</Weapon>
+		<Infection />
 		<MainAttack />
 		<DontLoopAttackAnim />
 		<MaxNumUnitsPerformAction>2</MaxNumUnitsPerformAction>
@@ -156,6 +159,7 @@
 		<Anim>FragGrenadeAttack</Anim>
 		<SupportAnim>Support</SupportAnim>
 		<Weapon>Grenade</Weapon>
+		<Infection />
 		<MainAttack />
 		<DontLoopAttackAnim />
 		<MaxNumUnitsPerformAction>2</MaxNumUnitsPerformAction>
@@ -166,6 +170,7 @@
 		<Anim>PistolAttack</Anim>
 		<ReloadAnim>PistolReload</ReloadAnim>
 		<Weapon>Pistol</Weapon>
+		<Infection />
 		<MainAttack />
 	</Action>
 	<Action>
