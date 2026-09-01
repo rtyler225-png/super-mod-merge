@@ -61,11 +61,13 @@
 		<Name>SporeCloudAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
 		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
-		<Anim>SporeCloudAttack</Anim>
+		<Anim>MeleeAttack</Anim>
 		<Weapon>SporeCloud</Weapon>
+		<MainAttack />
 		<Infection />
 		<DontCheckOrientTolerance />
 		<DisableAttackWaitTimer />
+		<PersistBetweenOpps />
 		<FindBetterAction />
 	</Action>
 	<Action>
@@ -154,24 +156,6 @@
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<TargetType>HardInfection</TargetType>
-			<MeleeAttacker />
-			<Action>LesserFloodInfectionAttackAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>EasyInfection</TargetType>
-			<MeleeAttacker />
-			<Action>FloodInfectionAttackAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>NonFlying</TargetType>
-			<MeleeAttacker />
-			<Action>FloodMeleeAttackAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
 			<TargetType>Infantry</TargetType>
 			<Action>SporeCloudAttackAction</Action>
 		</TargetRule>
@@ -184,6 +168,21 @@
 			<Relation>Enemy</Relation>
 			<TargetType>Flying</TargetType>
 			<Action>SporeCloudAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>HardInfection</TargetType>
+			<Action>LesserFloodInfectionAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>EasyInfection</TargetType>
+			<Action>FloodInfectionAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>FloodMeleeAttackAction</Action>
 		</TargetRule>
 		<PersistentAction>SporeCloudAttackAction</PersistentAction>
 		<PersistentAction>GaggleMove</PersistentAction>
