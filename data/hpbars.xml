@@ -1220,4 +1220,25 @@
 		<SizeY>6</SizeY>
 		<Padding>3.2f</Padding>
 	</BuildingStrength>
+	<BobbleHead name="Cov_Elite">
+		<BackgroundTexture>ui\flash\shared\textures\misc\bobbleheadBG</BackgroundTexture>
+		<VetTexture>ui\flash\shared\textures\misc\star_texture</VetTexture>
+		<PortraitTexture>ui\flash\shared\textures\misc\elitemajorhead</PortraitTexture>
+		<VetAnchor><Anchor offsetX="-0.75" offsetY="0.25" /><Anchor offsetX="-1.5" offsetY="1" /><Anchor offsetX="-2" offsetY="2" /><Anchor offsetX="-2" offsetY="3" /><Anchor offsetX="-2" offsetY="4" /><Anchor offsetX="-1.5" offsetY="5" /><Anchor offsetX="-1" offsetY="6" /><Anchor offsetX="1" offsetY="6" /><Anchor offsetX="1.5" offsetY="5" /><Anchor offsetX="2" offsetY="4" /><Anchor offsetX="2" offsetY="3" /><Anchor offsetX="2" offsetY="2" /><Anchor offsetX="1.5" offsetY="1.5" /><Anchor offsetX="0.75" offsetY="0.5" /></VetAnchor>
+		<VetRadius>3.1f</VetRadius><VetAngleRange>150.0f</VetAngleRange><VetOffsetX>0.0f</VetOffsetX><VetOffsetY>4.3f</VetOffsetY><VetScaleX>1.4f</VetScaleX><VetScaleY>1.4f</VetScaleY><VetSkewX>1.0f</VetSkewX><VetSkewY>1.0f</VetSkewY><PortraitSizeX>4.1</PortraitSizeX><PortraitSizeY>4.1</PortraitSizeY><PortraitOffsetX>0</PortraitOffsetX><PortraitOffsetY>4.6f</PortraitOffsetY><BackgroundSizeX>6.6f</BackgroundSizeX><BackgroundSizeY>6.6f</BackgroundSizeY><BackgroundOffsetX>0</BackgroundOffsetX><BackgroundOffsetY>4.3f</BackgroundOffsetY>
+	</BobbleHead>
+	<BobbleHead name="Cov_Zealot">
+		<BackgroundTexture>ui\flash\shared\textures\misc\bobbleheadBG</BackgroundTexture>
+		<VetTexture>ui\flash\shared\textures\misc\star_texture</VetTexture>
+		<PortraitTexture>ui\flash\shared\textures\misc\zealotelitehead</PortraitTexture>
+		<VetAnchor><Anchor offsetX="-0.75" offsetY="0.25" /><Anchor offsetX="-1.5" offsetY="1" /><Anchor offsetX="-2" offsetY="2" /><Anchor offsetX="-2" offsetY="3" /><Anchor offsetX="-2" offsetY="4" /><Anchor offsetX="-1.5" offsetY="5" /><Anchor offsetX="-1" offsetY="6" /><Anchor offsetX="1" offsetY="6" /><Anchor offsetX="1.5" offsetY="5" /><Anchor offsetX="2" offsetY="4" /><Anchor offsetX="2" offsetY="3" /><Anchor offsetX="2" offsetY="2" /><Anchor offsetX="1.5" offsetY="1.5" /><Anchor offsetX="0.75" offsetY="0.5" /></VetAnchor>
+		<VetRadius>3.1f</VetRadius><VetAngleRange>150.0f</VetAngleRange><VetOffsetX>0.0f</VetOffsetX><VetOffsetY>4.3f</VetOffsetY><VetScaleX>1.4f</VetScaleX><VetScaleY>1.4f</VetScaleY><VetSkewX>1.0f</VetSkewX><VetSkewY>1.0f</VetSkewY><PortraitSizeX>4.1</PortraitSizeX><PortraitSizeY>4.1</PortraitSizeY><PortraitOffsetX>0</PortraitOffsetX><PortraitOffsetY>4.6f</PortraitOffsetY><BackgroundSizeX>6.6f</BackgroundSizeX><BackgroundSizeY>6.6f</BackgroundSizeY><BackgroundOffsetX>0</BackgroundOffsetX><BackgroundOffsetY>4.3f</BackgroundOffsetY>
+	</BobbleHead>
+	<BobbleHead name="Cov_Brute">
+		<BackgroundTexture>ui\flash\shared\textures\misc\bobbleheadBG</BackgroundTexture>
+		<VetTexture>ui\flash\shared\textures\misc\star_texture</VetTexture>
+		<PortraitTexture>ui\flash\shared\textures\misc\brutewarchieftainhead</PortraitTexture>
+		<VetAnchor><Anchor offsetX="-0.75" offsetY="0.25" /><Anchor offsetX="-1.5" offsetY="1" /><Anchor offsetX="-2" offsetY="2" /><Anchor offsetX="-2" offsetY="3" /><Anchor offsetX="-2" offsetY="4" /><Anchor offsetX="-1.5" offsetY="5" /><Anchor offsetX="-1" offsetY="6" /><Anchor offsetX="1" offsetY="6" /><Anchor offsetX="1.5" offsetY="5" /><Anchor offsetX="2" offsetY="4" /><Anchor offsetX="2" offsetY="3" /><Anchor offsetX="2" offsetY="2" /><Anchor offsetX="1.5" offsetY="1.5" /><Anchor offsetX="0.75" offsetY="0.5" /></VetAnchor>
+		<VetRadius>3.1f</VetRadius><VetAngleRange>150.0f</VetAngleRange><VetOffsetX>0.0f</VetOffsetX><VetOffsetY>4.3f</VetOffsetY><VetScaleX>1.4f</VetScaleX><VetScaleY>1.4f</VetScaleY><VetSkewX>1.0f</VetSkewX><VetSkewY>1.0f</VetSkewY><PortraitSizeX>4.1</PortraitSizeX><PortraitSizeY>4.1</PortraitSizeY><PortraitOffsetX>0</PortraitOffsetX><PortraitOffsetY>4.6f</PortraitOffsetY><BackgroundSizeX>6.6f</BackgroundSizeX><BackgroundSizeY>6.6f</BackgroundSizeY><BackgroundOffsetX>0</BackgroundOffsetX><BackgroundOffsetY>4.3f</BackgroundOffsetY>
+	</BobbleHead>
 </HPBarDefinition>

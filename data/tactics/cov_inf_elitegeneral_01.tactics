@@ -180,7 +180,123 @@
 		<Anim>TeleportIn</Anim>
 		<WorkRange>0</WorkRange>
 	</Action>
-	<Tactic>
+		<Action>
+		<Name>VehicleJoin</Name>
+		<ActionType>Join</ActionType>
+		<WorkRange>5</WorkRange>
+		<MergeType>Ground</MergeType>
+		<ProtoObject>fx_hijacked</ProtoObject>
+		<JoinType revertDamagePct="0.5" veterancyOverride="true" levels="2" unjoinMaxDist="25">Board</JoinType>
+		<DamageModifiers damage="1.15" damageTaken="0.87" byCombatValue="false" />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>VehicleTakeOver</Name>
+		<ActionType>Join</ActionType>
+		<WorkRange>15</WorkRange>
+		<MergeType>Ground</MergeType>
+		<ProtoObject>fx_hijacked</ProtoObject>
+		<JoinType revertDamagePct="0.5" veterancyOverride="true" levels="2" boardTime="13" boardAnim="HijackIdle" unjoinMaxDist="25">Board</JoinType>
+		<DamageModifiers damage="1.15" damageTaken="0.87" byCombatValue="false" />
+		<Fatality attacker="HijackWraithStart" attackerEnd="HijackWraithEnd" target="Idle" targetEnd="SpartanWraithJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">cov_veh_wraith_01</Fatality>
+		<Fatality attacker="HijackWraithStart" attackerEnd="HijackWraithEnd" target="Idle" targetEnd="SpartanWraithJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">cov_veh_wraithaa_01</Fatality>
+		<Fatality attacker="HijackWraithStart" attackerEnd="HijackWraithEnd" target="Idle" targetEnd="SpartanWraithJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">cov_veh_wraithLCE_01</Fatality>
+		<Fatality attacker="HijackWraithStart" attackerEnd="HijackWraithEnd" target="Idle" targetEnd="SpartanWraithJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">cov_veh_heavywraith_01</Fatality>
+		<Fatality attacker="HijackGhostStart" attackerEnd="HijackGhostEnd" target="Idle" targetEnd="SpartanGhostJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" cooldown="0">cov_veh_ghost_01</Fatality>
+		<Fatality attacker="HijackGhostStart" attackerEnd="HijackGhostEnd" target="Idle" targetEnd="SpartanGhostJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" cooldown="0">cov_veh_needlerghost_01</Fatality>
+		<Fatality attacker="HijackChopperStart" attackerEnd="HijackChopperEnd" target="Idle" targetEnd="SpartanChopperJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" cooldown="0">cov_veh_bruteChopper_01</Fatality>
+		<Fatality attacker="HijackLocustStart" attackerEnd="HijackLocustEnd" target="Idle" targetEnd="SpartanLocustJack" boarding="true" offsetTolerance="20" orientationOffset="360" transitionBeforeAnimating="true" cooldown="0">cov_veh_locust_01</Fatality>
+		<Fatality attacker="HijackScorpionStart" attackerEnd="HijackScorpionEnd" target="Idle" targetEnd="SpartanScorpionJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_scorpion_01</Fatality>
+		<Fatality attacker="HijackWarthogStart" attackerEnd="HijackWarthogEnd" target="Idle" targetEnd="SpartanWarthogJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_warthog_01</Fatality>
+		<Fatality attacker="HijackWarthogStart" attackerEnd="HijackWarthogEnd" target="Idle" targetEnd="SpartanWarthogJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_gausswarthog_01</Fatality>
+		<Fatality attacker="HijackWarthogStart" attackerEnd="HijackWarthogEnd" target="Idle" targetEnd="SpartanWarthogJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_warthogLCE_01</Fatality>
+		<Fatality attacker="HijackWolverineStart" attackerEnd="HijackWolverineEnd" target="Idle" targetEnd="SpartanWolverineJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_wolverine_01</Fatality>
+		<Fatality attacker="HijackElephantStart" attackerEnd="HijackElephantEnd" target="Idle" targetEnd="SpartanElephantJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_elephant_01</Fatality>
+		<Fatality attacker="HijackElephantStart" attackerEnd="HijackElephantEnd" target="Idle" targetEnd="SpartanElephantJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_elephant_02</Fatality>
+		<Fatality attacker="HijackCobraStart" attackerEnd="HijackCobraEnd" target="Idle" targetEnd="SpartanCobraJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_cobra_01</Fatality>
+		<Fatality attacker="HijackGremlinStart" attackerEnd="HijackGremlinEnd" target="Idle" targetEnd="SpartanGremlinJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_gremlin_01</Fatality>
+		<Fatality attacker="HijackGrizzlyStart" attackerEnd="HijackGrizzlyEnd" target="Idle" targetEnd="SpartanGrizzlyJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="0.5" cooldown="0">unsc_veh_grizzly_01</Fatality>
+		<Fatality attacker="HijackCobraStart" attackerEnd="HijackCobraEnd" target="Idle" targetEnd="SpartanCobraJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_sliverback_01</Fatality>
+		<Fatality attacker="HijackElephantStart" attackerEnd="HijackElephantEnd" target="Idle" targetEnd="SpartanElephantJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_deployElephant_01</Fatality>
+		<Fatality attacker="HijackScorpionStart" attackerEnd="HijackScorpionEnd" target="Idle" targetEnd="SpartanScorpionJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_mjolnirScorpion_01</Fatality>
+		<Fatality attacker="HijackGrizzlyStart" attackerEnd="HijackGrizzlyEnd" target="Idle" targetEnd="SpartanGrizzlyJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="0.5" cooldown="0">unsc_veh_puma_01</Fatality>
+		<Fatality attacker="HijackWarthogStart" attackerEnd="HijackWarthogEnd" target="Idle" targetEnd="SpartanWarthogJack" boarding="true" offsetTolerance="15" transitionBeforeAnimating="false" transitionDelay="0.25" transitionTime="1" cooldown="0">unsc_veh_Rocketwarthog_01</Fatality>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>AircraftTakeOver</Name>
+		<ActionType>Join</ActionType>
+		<WorkRange>15</WorkRange>
+		<MergeType>Ground</MergeType>
+		<ProtoObject>fx_hijacked</ProtoObject>
+		<JoinType revertDamagePct="0.5" veterancyOverride="true" levels="2" boardTime="13" boardAnim="HijackIdle" unjoinMaxDist="25">Board</JoinType>
+		<DamageModifiers damage="1.15" damageTaken="0.87" byCombatValue="false" />
+		<Fatality attacker="HijackBansheeStart" attackerEnd="HijackBansheeEnd" target="Idle" targetEnd="SpartanBansheeJack" boarding="true" offsetTolerance="20" orientationOffset="360" transitionBeforeAnimating="false" cooldown="0" transitionDelay="0" transitionTime="0.8" toBoneRelative="true" air="true" airApexPercent="0.63" airHeight="8">cov_air_banshee_01</Fatality>
+		<Fatality attacker="HijackBansheeStart" attackerEnd="HijackBansheeEnd" target="Idle" targetEnd="SpartanBansheeJack" boarding="true" offsetTolerance="20" orientationOffset="360" transitionBeforeAnimating="false" cooldown="0" transitionDelay="0" transitionTime="0.8" toBoneRelative="true" air="true" airApexPercent="0.63" airHeight="8">cov_air_honorbanshee_01</Fatality>
+		<Fatality attacker="HijackVampireStart" attackerEnd="HijackVampireEnd" target="Idle" targetEnd="SpartanVampireJack" boarding="true" offsetTolerance="20" orientationOffset="360" transitionBeforeAnimating="false" cooldown="0" transitionDelay="0" transitionTime="0.8" toBoneRelative="true" air="true" airApexPercent="0.63" airHeight="8">cov_air_vampire_01</Fatality>
+		<Fatality attacker="HijackHawkStart" attackerEnd="HijackHawkEnd" target="Idle" targetEnd="SpartanHawkJack" boarding="true" offsetTolerance="20" orientationOffset="360" transitionBeforeAnimating="false" cooldown="0" transitionDelay="0" transitionTime="0.8" toBoneRelative="true" air="true" airApexPercent="0.63" airHeight="8">unsc_air_hawk_01</Fatality>
+		<Fatality attacker="HijackHornetStart" attackerEnd="HijackHornetEnd" target="Idle" targetEnd="SpartanHornetJack" boarding="true" offsetTolerance="20" orientationOffset="360" transitionBeforeAnimating="false" cooldown="0" transitionDelay="0" transitionTime="0.8" toBoneRelative="true" air="true" airApexPercent="0.63" airHeight="8">unsc_air_hornet_01</Fatality>
+		<Fatality attacker="HijackHornetStart" attackerEnd="HijackHornetEnd" target="Idle" targetEnd="SpartanHornetJack" boarding="true" offsetTolerance="20" orientationOffset="360" transitionBeforeAnimating="false" cooldown="0" transitionDelay="0" transitionTime="0.8" toBoneRelative="true" air="true" airApexPercent="0.63" airHeight="8">unsc_air_Rescuehornet_01</Fatality>
+		<StartDisabled />
+	</Action>
+<Tactic>
+	<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>GaiaGarrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<MeleeAttacker />
+			<Action>SwordAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Neutral</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>SpartanBoard</TargetType>
+			<TargetType>SpartanBoardFlying</TargetType>
+			<Action>VehicleJoin</Action>
+			<Ability>Command</Ability>
+		</TargetRule>
+	<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>SpartanBoardFlying</TargetType>
+			<Action>AircraftTakeOver</Action>
+			<Ability>Command</Ability>
+		</TargetRule>
+	<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>SpartanBoard</TargetType>
+			<Action>VehicleTakeOver</Action>
+			<Ability>Command</Ability>
+		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>FuelRodAttackAction</Action>

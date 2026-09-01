@@ -2205,6 +2205,7 @@
     <LeashRecallDelay>2500</LeashRecallDelay>
     <AggroDistance>40</AggroDistance>
     <BobbleHead>Ban_honorguard</BobbleHead>
+    <Flag>OnlyShowBobbleHeadWhenContained</Flag>
     <Birth spawnpoint="bone_spawnPoint01">Flyin</Birth>
     <HPBar offset="0,10,0">COV_HealthShield</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
@@ -3806,6 +3807,8 @@
       <Unit count="1" role="normal">cov_inf_elitefieldmarshal_01</Unit>
     </Units>
     <Flag>KBAware</Flag>
+    <BobbleHead>Cov_Elite</BobbleHead>
+    <Flag>OnlyShowBobbleHeadWhenContained</Flag>
     <Flag>Chatter</Flag>
     <Selection>
       <ConformToTerrain>true</ConformToTerrain>
@@ -4899,6 +4902,8 @@
       <Unit count="2" role="normal">storm_inf_marauder_01</Unit>
       <Unit count="3" role="normal">cov_inf_EliteVanguardMinor_01</Unit>
     </Units>
+    <BobbleHead>Cov_Elite</BobbleHead>
+    <Flag>OnlyShowBobbleHeadWhenContained</Flag>
     <Sound Type="MoveChatter">play_cov_batchat_elite_move</Sound>
     <Sound Type="MoveChatter" World="Harvest">play_cov_batchat_elite_world_harvest_moving</Sound>
     <Sound Type="MoveChatter" World="Arcadia">play_cov_batchat_elite_world_arcadia_moving</Sound>
@@ -5244,9 +5249,11 @@
     <HPBar offset="0,8,0">Cov_HealthShield</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+    <BobbleHead>Cov_Elite</BobbleHead>
     <Units>
       <Unit count="1" role="normal">cov_inf_elitegeneral_01</Unit>
     </Units>
+    <Flag>OnlyShowBobbleHeadWhenContained</Flag>
     <Flag>KBAware</Flag>
     <Flag>Chatter</Flag>
     <Selection>
@@ -5359,9 +5366,11 @@
     <HPBar offset="0,8,0">Cov_HealthShield</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+    <BobbleHead>Cov_Zealot</BobbleHead>
     <Units>
       <Unit count="1" role="normal">cov_inf_elitezealot_01</Unit>
     </Units>
+    <Flag>OnlyShowBobbleHeadWhenContained</Flag>
     <Flag>KBAware</Flag>
     <Flag>Chatter</Flag>
     <Selection>
@@ -5387,9 +5396,11 @@
     <HPBar offset="0,8,0">Cov_HealthShield</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+    <BobbleHead>Cov_Elite</BobbleHead>
     <Units>
       <Unit count="1" role="normal">cov_inf_elitefieldmarshal_01</Unit>
     </Units>
+    <Flag>OnlyShowBobbleHeadWhenContained</Flag>
     <Flag>KBAware</Flag>
     <Flag>Chatter</Flag>
     <Selection>
@@ -8459,9 +8470,11 @@
     <LeashDeadzone>15</LeashDeadzone>
     <LeashRecallDelay>2500</LeashRecallDelay>
     <AggroDistance>30</AggroDistance>
+    <BobbleHead>Cov_Elite</BobbleHead>
     <Units>
       <Unit count="1" role="normal">cov_inf_elitefuelrod_01</Unit>
     </Units>
+    <Flag>OnlyShowBobbleHeadWhenContained</Flag>
     <Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
     <Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
     <Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
@@ -8493,6 +8506,8 @@
       <Unit count="1" role="normal">cov_inf_elitefuelrod_01</Unit>
     </Units>
     <Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
+    <BobbleHead>Cov_Elite</BobbleHead>
+    <Flag>OnlyShowBobbleHeadWhenContained</Flag>
     <Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
     <Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
     <Flag>Repairable</Flag>
@@ -18270,9 +18285,11 @@
     <HPBar offset="0,10,0">COV_HealthShield</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+    <BobbleHead>Cov_Brute</BobbleHead>
     <Units>
       <Unit count="1" role="normal">cov_inf_bruteChief_01</Unit>
     </Units>
+    <Flag>OnlyShowBobbleHeadWhenContained</Flag>
     <Sound Type="MoveChatter" World="Harvest">play_cov_batchat_chieftain_world_harvest_moving</Sound>
     <Sound Type="MoveChatter" World="Arcadia">play_cov_batchat_chieftain_world_arcadia_moving</Sound>
     <Sound Type="MoveChatter" World="SWI">play_cov_batchat_chieftain_world_swi_moving</Sound>
@@ -18329,9 +18346,11 @@
     <HPBar offset="0,10,0">COV_HealthShield</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+    <BobbleHead>Cov_Brute</BobbleHead>
     <Units>
       <Unit count="1" role="normal">cov_inf_brutewarChieftain_01</Unit>
     </Units>
+    <Flag>OnlyShowBobbleHeadWhenContained</Flag>
     <Sound Type="MoveChatter" World="Harvest">play_cov_batchat_chieftain_world_harvest_moving</Sound>
     <Sound Type="MoveChatter" World="Arcadia">play_cov_batchat_chieftain_world_arcadia_moving</Sound>
     <Sound Type="MoveChatter" World="SWI">play_cov_batchat_chieftain_world_swi_moving</Sound>
@@ -18386,9 +18405,11 @@
     <HPBar offset="0,10,0">COV_HealthShield</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+    <BobbleHead>Cov_Brute</BobbleHead>
     <Units>
       <Unit count="1" role="normal">cov_inf_brutewarlord_01</Unit>
     </Units>
+    <Flag>OnlyShowBobbleHeadWhenContained</Flag>
     <Sound Type="MoveChatter" World="Harvest">play_cov_batchat_chieftain_world_harvest_moving</Sound>
     <Sound Type="MoveChatter" World="Arcadia">play_cov_batchat_chieftain_world_arcadia_moving</Sound>
     <Sound Type="MoveChatter" World="SWI">play_cov_batchat_chieftain_world_swi_moving</Sound>
@@ -19206,9 +19227,11 @@
     <HPBar offset="0,8,0">COV_Health</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+    <BobbleHead>Cov_Brute</BobbleHead>
     <Units>
       <Unit count="1" role="normal">cov_inf_bruteHonorGuard_01</Unit>
     </Units>
+    <Flag>OnlyShowBobbleHeadWhenContained</Flag>
     <Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
     <Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
     <Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
@@ -19324,9 +19347,11 @@
     <HPBar offset="0,8,0">COV_Health</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+    <BobbleHead>Cov_Brute</BobbleHead>
     <Units>
       <Unit count="1" role="normal">cov_inf_bruteHonorGuard_plasmarifle_01</Unit>
     </Units>
+    <Flag>OnlyShowBobbleHeadWhenContained</Flag>
     <Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
     <Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
     <Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>

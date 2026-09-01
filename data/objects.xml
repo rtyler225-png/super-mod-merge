@@ -17006,6 +17006,7 @@
     <AmmoMax>1</AmmoMax>
     <AmmoRegenRate>1</AmmoRegenRate>
     <Tactics>cov_inf_elitegeneral_01.tactics</Tactics>
+    <DamageType direction="Full" mode="Normal">SpartanArmor</DamageType>
     <SubSelectSort>4902</SubSelectSort>
     <RepairPoints>33</RepairPoints>
     <ObstructionRadiusX>1.5</ObstructionRadiusX>
@@ -17045,6 +17046,7 @@
     <ObjectType>HighValueUnit</ObjectType>
     <SurfaceType>EliteFlesh</SurfaceType>
     <RallyPoint>Military</RallyPoint>
+    <AbilityCommand>UnscSpartanTakeOver</AbilityCommand>
     <Flag>KBAware</Flag>
     <Flag>DontRotateObstruction</Flag>
     <Flag>HasHPBar</Flag>
@@ -17314,6 +17316,7 @@
     <AmmoMax>1</AmmoMax>
     <AmmoRegenRate>1</AmmoRegenRate>
     <Tactics>cov_inf_elitezealot_01.tactics</Tactics>
+    <DamageType direction="Full" mode="Normal">SpartanArmor</DamageType>
     <SubSelectSort>99024</SubSelectSort>
     <RepairPoints>33</RepairPoints>
     <ObstructionRadiusX>1.5</ObstructionRadiusX>
@@ -17351,6 +17354,7 @@
     <ObjectType>CanBeProtected</ObjectType>
     <SurfaceType>EliteFlesh</SurfaceType>
     <RallyPoint>Military</RallyPoint>
+    <AbilityCommand>UnscSpartanTakeOver</AbilityCommand>
     <Flag>KBAware</Flag>
     <Flag>DontRotateObstruction</Flag>
     <Flag>HasHPBar</Flag>
@@ -17391,6 +17395,7 @@
     <AmmoMax>1</AmmoMax>
     <AmmoRegenRate>1</AmmoRegenRate>
     <Tactics>cov_inf_elitefieldmarshal_01.tactics</Tactics>
+    <DamageType direction="Full" mode="Normal">SpartanArmor</DamageType>
     <SubSelectSort>4901</SubSelectSort>
     <RepairPoints>33</RepairPoints>
     <ObstructionRadiusX>1.5</ObstructionRadiusX>
@@ -17433,6 +17438,7 @@
     <ObjectType>CanBeProtected</ObjectType>
     <SurfaceType>EliteFlesh</SurfaceType>
     <RallyPoint>Military</RallyPoint>
+    <AbilityCommand>UnscSpartanTakeOver</AbilityCommand>
     <Flag>KBAware</Flag>
     <Flag>DontRotateObstruction</Flag>
     <Flag>HasHPBar</Flag>
@@ -30132,6 +30138,7 @@
     <AmmoMax>1</AmmoMax>
     <AmmoRegenRate>1</AmmoRegenRate>
     <Tactics>cov_inf_EliteVanguardfuelrod_01.tactics</Tactics>
+    <DamageType direction="Full" mode="Normal">SpartanArmor</DamageType>
     <SubSelectSort>81177</SubSelectSort>
     <RepairPoints>33</RepairPoints>
     <ObstructionRadiusX>1.4</ObstructionRadiusX>
@@ -30175,6 +30182,7 @@
     <ObjectType>HighValueUnit</ObjectType>
     <SurfaceType>EliteFlesh</SurfaceType>
     <RallyPoint>Military</RallyPoint>
+    <AbilityCommand>UnscSpartanTakeOver</AbilityCommand>
     <Flag>KBAware</Flag>
     <Flag>DontRotateObstruction</Flag>
     <Flag>DieLast</Flag>
@@ -30213,6 +30221,7 @@
     <AmmoMax>1</AmmoMax>
     <AmmoRegenRate>1</AmmoRegenRate>
     <Tactics>cov_inf_Elitefuelrod_01.tactics</Tactics>
+    <DamageType direction="Full" mode="Normal">SpartanArmor</DamageType>
     <SubSelectSort>4650</SubSelectSort>
     <RepairPoints>33</RepairPoints>
     <ObstructionRadiusX>1.4</ObstructionRadiusX>
@@ -30250,7 +30259,7 @@
     <ObjectType>CanBeFlashBanged</ObjectType>
     <SurfaceType>EliteFlesh</SurfaceType>
     <RallyPoint>Military</RallyPoint>
-    <AbilityCommand>CovGruntGrenade</AbilityCommand>
+    <AbilityCommand>UnscSpartanTakeOver</AbilityCommand>
     <Flag>KBAware</Flag>
     <Flag>DontRotateObstruction</Flag>
     <Flag>DieLast</Flag>
@@ -69661,6 +69670,7 @@
   </Object>
   <Object name="cov_inf_bruteHonorGuard_01" id="0" dbid="196">
     <Ability>cov_honorguardaura.ability</Ability>
+    <AbilityCommand>UnscSpartanTakeOver</AbilityCommand>
     <PhysicsReplacementInfo>brute</PhysicsReplacementInfo>
     <ObjectClass>Squad</ObjectClass>
     <Visual>covenant\infantry\bruteHonorGuard_01\bruteHonorGuard_01.vis</Visual>
@@ -69686,6 +69696,7 @@
     <Veterancy Level="5" XP="0" Damage="1.55" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
     <LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
     <Tactics>cov_inf_bruteHonorGuard_01.tactics</Tactics>
+    <DamageType direction="Full" mode="Normal">SpartanArmor</DamageType>
     <RepairPoints>33</RepairPoints>
     <ObstructionRadiusX>1.5</ObstructionRadiusX>
     <ObstructionRadiusY>2.6</ObstructionRadiusY>
@@ -69732,6 +69743,7 @@
   </Object>
   <Object name="cov_inf_bruteHonorGuard_berserk_01" id="0" dbid="196">
     <Ability>cov_honorguardaura.ability</Ability>
+    <AbilityCommand>UnscSpartanTakeOver</AbilityCommand>
     <PhysicsReplacementInfo>brute</PhysicsReplacementInfo>
     <ObjectClass>Squad</ObjectClass>
     <Visual>covenant\infantry\bruteHonorGuard_01\bruteHonorGuard_berserk_01.vis</Visual>
@@ -69757,6 +69769,7 @@
     <Veterancy Level="5" XP="0" Damage="1.55" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
     <LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
     <Tactics>cov_inf_bruteHonorGuard_berserk_01.tactics</Tactics>
+    <DamageType direction="Full" mode="Normal">SpartanArmor</DamageType>
     <RepairPoints>33</RepairPoints>
     <ObstructionRadiusX>1.5</ObstructionRadiusX>
     <ObstructionRadiusY>2.6</ObstructionRadiusY>
@@ -69803,6 +69816,7 @@
   </Object>
   <Object name="cov_inf_brutehonorguard_PlasmaRifle_01" id="0" dbid="196">
     <Ability>cov_honorguardaura.ability</Ability>
+    <AbilityCommand>UnscSpartanTakeOver</AbilityCommand>
     <PhysicsReplacementInfo>brute</PhysicsReplacementInfo>
     <ObjectClass>Squad</ObjectClass>
     <Visual>covenant\infantry\bruteHonorGuard_01\bruteHonorGuard_plasmarifle_01.vis</Visual>
@@ -69828,6 +69842,7 @@
     <Veterancy Level="5" XP="0" Damage="1.55" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
     <LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
     <Tactics>cov_inf_brutehonorguard_PlasmaRifle_01.tactics</Tactics>
+    <DamageType direction="Full" mode="Normal">SpartanArmor</DamageType>
     <RepairPoints>33</RepairPoints>
     <ObstructionRadiusX>1.5</ObstructionRadiusX>
     <ObstructionRadiusY>2.6</ObstructionRadiusY>
@@ -70703,6 +70718,7 @@
     <AmmoMax>120</AmmoMax>
     <AmmoRegenRate>1</AmmoRegenRate>
     <Tactics>cov_inf_bruteChief_01.tactics</Tactics>
+    <DamageType direction="Full" mode="Normal">SpartanArmor</DamageType>
     <RepairPoints>200</RepairPoints>
     <ObstructionRadiusX>2</ObstructionRadiusX>
     <ObstructionRadiusY>3</ObstructionRadiusY>
@@ -70743,6 +70759,7 @@
     <ObjectType>_Leader</ObjectType>
     <SurfaceType>Flesh</SurfaceType>
     <RallyPoint>Military</RallyPoint>
+    <AbilityCommand>UnscSpartanTakeOver</AbilityCommand>
     <Flag>KBAware</Flag>
     <Flag>DontRotateObstruction</Flag>
     <Flag>HasHPBar</Flag>
@@ -71006,6 +71023,7 @@
     <AmmoMax>120</AmmoMax>
     <AmmoRegenRate>1</AmmoRegenRate>
     <Tactics>cov_inf_bruteChief_01.tactics</Tactics>
+    <DamageType direction="Full" mode="Normal">SpartanArmor</DamageType>
     <RepairPoints>200</RepairPoints>
     <ObstructionRadiusX>2</ObstructionRadiusX>
     <ObstructionRadiusY>3</ObstructionRadiusY>
@@ -71044,6 +71062,7 @@
     <ObjectType>CanBeFlashBanged</ObjectType>
     <SurfaceType>Flesh</SurfaceType>
     <RallyPoint>Military</RallyPoint>
+    <AbilityCommand>UnscSpartanTakeOver</AbilityCommand>
     <Flag>KBAware</Flag>
     <Flag>DontRotateObstruction</Flag>
     <Flag>HasHPBar</Flag>
@@ -71078,6 +71097,7 @@
     <Veterancy Level="5" XP="0" Damage="1.55" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
     <LevelUpEffect>fx_unitLevelUpLow</LevelUpEffect>
     <Tactics>cov_inf_brutewarchieftain_01.tactics</Tactics>
+    <DamageType direction="Full" mode="Normal">SpartanArmor</DamageType>
     <RepairPoints>200</RepairPoints>
     <ObstructionRadiusX>2</ObstructionRadiusX>
     <ObstructionRadiusY>3</ObstructionRadiusY>
@@ -71117,7 +71137,7 @@
     <ObjectType>CanBeProtected</ObjectType>
     <SurfaceType>Flesh</SurfaceType>
     <RallyPoint>Military</RallyPoint>
-    <AbilityCommand>CovGruntGrenade</AbilityCommand>
+    <AbilityCommand>UnscSpartanTakeOver</AbilityCommand>
     <Flag>KBAware</Flag>
     <Flag>DontRotateObstruction</Flag>
     <Flag>HasHPBar</Flag>

@@ -211,7 +211,7 @@ Medic - Spartan Laser</String>
 		<String _locID="99483" category="Squads" subtitle="false">Elite Ultra</String>
 		<String _locID="99482" category="Squads" subtitle="false">Elite Ultras are equipped with heavy weapons that shred vehicles.</String>
 		<String _locID="99481" category="Techs" subtitle="false">Elite Ultra Upgrade 1</String>
-		<String _locID="99480" category="Techs" subtitle="false"></String>
+		<String _locID="99480" category="Techs" subtitle="false"> Elite Ultras, Generals, Zealots, and Field Marshals can hijack enemy vehicles and commandeer friendly ones.</String>
 		<String _locID="99479" category="Techs" subtitle="false">Incendiary Grenades</String>
 		<String _locID="99478" category="Techs" subtitle="false">Elite Ultras gain the ability to throw incendiary grenades and repair nearby units or buildings.</String>
 		<String _locID="99477" category="Techs" subtitle="false">Plasma Launcher</String>
@@ -2424,7 +2424,7 @@ Also unlocks the standalone Combat Medic, who will passively heal nearby friendl
 		<String _locID="1166" category="Techs" subtitle="false">Stabilizers</String>
 		<String _locID="1167" category="Techs" subtitle="false">Improves autocannon accuracy and damage.</String>
 		<String _locID="1168" category="Techs" subtitle="false">BRUTE 1</String>
-		<String _locID="1169" category="Techs" subtitle="false">Shadow tech for Brutes</String>
+		<String _locID="1169" category="Techs" subtitle="false">Shadow tech for Brutes Brute Chieftains can now hijack enemy vehicles and commandeer friendly ones.</String>
 		<String _locID="1170" category="Techs" subtitle="false">Jump Pack Ability</String>
 		<String _locID="1171" category="Techs" subtitle="false">Brute Majors are promoted to Jump Pack Brutes, allowing them to cross impassable terrain.</String>
 		<String _locID="1172" category="Techs" subtitle="false">Followers</String>
@@ -4826,7 +4826,7 @@ Unlocks Repair Drones.</String>
 		<String _locID="24406" category="Techs" subtitle="false">Regret's Sentence</String>
 		<String _locID="24407" category="Techs" subtitle="false">The Cleansing Beam Ability is larger and does more damage.</String>
 		<String _locID="24408" category="Techs" subtitle="false">Regret's Doom</String>
-		<String _locID="24409" category="Techs" subtitle="false">The Cleansing Beam Ability is larger and does more damage.</String>
+		<String _locID="24409" category="Techs" subtitle="false">The Cleansing Beam Ability is larger and does more damage. Brute Chieftains can now hijack enemy vehicles and commandeer friendly ones.</String>
 		<String _locID="24410" category="Techs" subtitle="false">Regret's Condemnation</String>
 		<String _locID="24411" category="Techs" subtitle="false">The Cleansing Beam Ability burns even brighter, doing area damage.</String>
 		<String _locID="24412" category="Techs" subtitle="false">Inheritance</String>
