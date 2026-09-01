@@ -117,21 +117,7 @@
 		<WorkRate>0.167</WorkRate>
 		<WorkRange>4</WorkRange>
 	</Action>
-	<Action>
-		<Name>GatherSupplies</Name>
-		<ActionType>Gather</ActionType>
-		<Anim>Gather</Anim>
-		<Resource>Supplies</Resource>
-		<WorkRate>3.75</WorkRate>
-		<WorkRange>3</WorkRange>
-		<RestrictedAutoTarget>true</RestrictedAutoTarget>
-	</Action>
 	<Tactic>
-		<TargetRule>
-			<GaiaOwned />
-			<TargetType>Resource_Supplies</TargetType>
-			<Action>GatherSupplies</Action>
-		</TargetRule>
 		<TargetRule>
 			<GaiaOwned />
 			<TargetType>CapturePoint</TargetType>
