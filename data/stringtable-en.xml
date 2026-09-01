@@ -6182,7 +6182,7 @@ Unlocks Repair Drones.</String>
 		<String _locID="25840" subtitle="false">The Prophet of Regret's third combat upgrade converts his wheelchair into a flying wheelchair, giving him exciting new tactical potential.</String>
 		<String _locID="25841" subtitle="false">While The Rebel faction dominates the beginning of the round, they will start to struggle in the late game.</String>
 		<String _locID="25842" subtitle="false">Jump Pack Brutes complement Tartarus. These heavy infantry units can use their jump packs to cross impassable terrain.</String>
-		<String _locID="25843" subtitle="false">Thanks for downloading Fluffy's mod merge! If you have any ideas, requests, or bugs to report, please visit the NexusMods page and leave a comment.</String>
+		<String _locID="25843" subtitle="false">Thanks for downloading Super Mod Merge! If you have any ideas, requests, or bugs to report, please visit the NexusMods page and leave a comment.</String>
 		<String _locID="25844" subtitle="false">Counter-units are great at killing one type of unit, but are worse against any other unit. One counter-unit example is the anti-infantry UNSC Flamethrower.</String>
 		<String _locID="25845" subtitle="false">Remember to multi-task in Halo Wars. Units will continue to think on their own even if you're off someplace else.</String>
 		<String _locID="25846" subtitle="false">The Fog of War covers the areas of the map that your units cannot currently see. Scout frequently to make sure you know what your enemies are up to.</String>
@@ -6327,7 +6327,7 @@ Unlocks Repair Drones.</String>
 		<String _locID="26000" subtitle="false">Loser</String>
 		<String _locID="26001" category="UI" scenario="SaveGames" subtitle="false">CAMPAIGN SAVE FILE</String>
 		<String _locID="26002" category="UI" scenario="SaveGames" subtitle="false">There is not enough space on the storage device to create a save file. Your progress was not saved.</String>
-		<String _locID="26003" category="UI" scenario="US Only - No Need to Localize" subtitle="false">Fluffy's mod merge</String>
+		<String _locID="26003" category="UI" scenario="US Only - No Need to Localize" subtitle="false">Super Mod Merge</String>
 		<String _locID="26004" category="UI" scenario="UI Title" subtitle="false">HALO WARS</String>
 		<String _locID="26006" category="UI" scenario="CommandMenu" subtitle="false">%1!s! %2!d!s</String>
 		<String _locID="26007" category="UI" scenario="UIAttract Screen" subtitle="false">(c) and (p) 2016 Microsoft Corporation. All Rights Reserved.</String>
@@ -6521,7 +6521,7 @@ Unlocks Repair Drones.</String>
 		<String _locID="26215" category="UI" subtitle="false">Concept Image 12</String>
 		<String _locID="26216" category="UI" subtitle="false">Click here for the free Prima Halo Wars strategy guide!&lt;br&gt;Get the maps, strats, and build orders you need to conquer multiplayer or campaign in this free interactive guide from Prima.</String>
 		<String _locID="26217" category="UI" subtitle="false">Press any key or button to continue.</String>
-		<String _locID="26218" category="UI" subtitle="false">Version 3.9.7</String>
+		<String _locID="26218" category="UI" subtitle="false">You may change the desired peripheral in the Start Screen via the Main Menu.</String>
 		<String _locID="26219" category="UI" subtitle="false">Saving content... please do not exit the game.</String>
 		<String _locID="26220" category="Skirmish" scenario="Hint Chat" subtitle="false">Use $$LS$$ to center the cursor over the Warthog next to your base.</String>
 		<String _locID="26221" category="Skirmish" scenario="Hint Chat" subtitle="false">Use $$LS$$ to move the cursor over the beacon. Press $$X$$ to tell your Warthog to move there.</String>
