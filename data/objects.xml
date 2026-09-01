@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Objects>
   <Object name="ban_air_spirit_02" id="0" dbid="965">
     <ObjectClass>Squad</ObjectClass>
@@ -80851,7 +80851,7 @@
     <Hitpoints>20000</Hitpoints>
     <AttackGradeDPS>600</AttackGradeDPS>
     <CombatValue>120</CombatValue>
-    <Pop Type="Unit">60</Pop>
+    <Pop Type="Unit">20</Pop>
     <LOS>65</LOS>
     <Bounty>20</Bounty>
     <Veterancy Level="1" XP="60" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
@@ -80919,7 +80919,7 @@
     <Hitpoints>20000</Hitpoints>
     <AttackGradeDPS>600</AttackGradeDPS>
     <CombatValue>120</CombatValue>
-    <Pop Type="Unit">60</Pop>
+    <Pop Type="Unit">20</Pop>
     <LOS>65</LOS>
     <Bounty>20</Bounty>
     <Veterancy Level="1" XP="60" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
