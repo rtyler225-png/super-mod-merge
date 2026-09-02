@@ -7314,5 +7314,90 @@ Unlocks Repair Drones.</String>
 		<String _locID="27814" category="Objects" subtitle="false">Spire Shield Generator</String>
 		<String _locID="26987" category="Objects" subtitle="false">Mombasa Gate Controls</String>
 		<String _locID="71" category="Objects" subtitle="false">Forerunner Sentinel Drone</String>
+		<String _locID="26845" category="Techs" subtitle="false">COMPLEX</String>
+		<String _locID="26846" category="Techs" subtitle="false">Upgrades base to a Complex, which adds two more building sites and eight turret sites. Each building adds to the strength of the central structure.</String>
+		<String _locID="26847" category="Techs" subtitle="false">INSTALLATION</String>
+		<String _locID="26848" category="Techs" subtitle="false">Upgrades base to an Installation, which adds two more building sites. Each building adds to the strength of the central structure.</String>
+		<String _locID="26853" category="Techs" subtitle="false">ADVANCED SUPPLY ELEVATOR</String>
+		<String _locID="26859" category="Techs" subtitle="false">PRIMARY REACTOR</String>
+		<String _locID="26860" category="Techs" subtitle="false">This Reactor provides enough energy to match the output of two Reactors.</String>
+		<String _locID="26869" category="Techs" subtitle="false">Desc</String>
+		<String _locID="26870" category="Techs" subtitle="false">Desc.</String>
+		<String _locID="26871" category="Techs" subtitle="false">LIGHT SHIELD</String>
+		<String _locID="26872" category="Techs" subtitle="false">Equips aggressors with a light shield that reflects incoming damage.</String>
+		<String _locID="26873" category="Techs" subtitle="false">HEAVY BEAM</String>
+		<String _locID="26877" category="Techs" subtitle="false">HEAVY STUN</String>
+		<String _locID="26878" category="Techs" subtitle="false">Greatly improves the main beam attack, increasing stun range, duration, and damage.</String>
+		<String _locID="26881" category="Techs" subtitle="false">ENHANCED MENDING</String>
+		<String _locID="26882" category="Techs" subtitle="false">Increases repair rate.</String>
+		<String _locID="26883" category="Techs" subtitle="false">LIGHT SHIELD</String>
+		<String _locID="26884" category="Techs" subtitle="false">Equips protectors with a light shield that reflects incoming damage.</String>
+		<String _locID="26887" category="Techs" subtitle="false">HEAVY SHIELD</String>
+		<String _locID="26888" category="Techs" subtitle="false">Adds an energy shield that deflects some incoming damage.</String>
+		<String _locID="26889" category="Techs" subtitle="false">RAPID BURST</String>
+		<String _locID="26890" category="Techs" subtitle="false">Enables the Burst Ability that fires a barrage of beams at the target.</String>
+		<String _locID="26891" category="Techs" subtitle="false">ADVANCED TARGETING</String>
+		<String _locID="26892" category="Techs" subtitle="false">Increases range and enables air tracking. Cannot use Burst Ability on air units.</String>
+		<String _locID="26895" category="Techs" subtitle="false">REINFORCED CHASSIS</String>
+		<String _locID="26896" category="Techs" subtitle="false">Greatly improves hitpoints.</String>
+		<String _locID="26897" category="Techs" subtitle="false">ENERGY MISSILE</String>
+		<String _locID="26898" category="Techs" subtitle="false">Equips Moths with a tacking missile launcher that fires superheated plasma.</String>
+		<String _locID="26899" category="Techs" subtitle="false">SCOUT SHIELD</String>
+		<String _locID="26900" category="Techs" subtitle="false">Adds an energy shield to Moths that deflects some incoming damage.</String>
+		<String _locID="26903" category="Techs" subtitle="false">LIGHT SHIELD</String>
+		<String _locID="26904" category="Techs" subtitle="false">Equips Gorgons with a light energy shield that reflects incoming fire.</String>
+		<String _locID="26905" category="Techs" subtitle="false">ENERGY BLAST</String>
+		<String _locID="26906" category="Techs" subtitle="false">Equips Gorgons with an energy cannon that can attack ground units. Use ability to overcharge it, disabling vehicles.</String>
+		<String _locID="26907" category="Techs" subtitle="false">HEAVY MISSILES</String>
+		<String _locID="26908" category="Techs" subtitle="false">Improves missile damage and speed, while also slowing air units.</String>
+		<String _locID="26911" category="Techs" subtitle="false">IMPULSE</String>
+		<String _locID="26912" category="Techs" subtitle="false">Beam Cannon now stuns ground targets, including buildings.</String>
+		<String _locID="26913" category="Techs" subtitle="false">TECHNIQUE</String>
+		<String _locID="26914" category="Techs" subtitle="false">Increases the Beam Cannon's damage.</String>
+		<String _locID="26915" category="Techs" subtitle="false">POWER</String>
+		<String _locID="26916" category="Techs" subtitle="false">Further increases damage output.</String>
+		<String _locID="26917" category="Techs" subtitle="false">ENERGY CANNON I</String>
+		<String _locID="26918" category="Techs" subtitle="false">Upgrades the Energy Cannon ability's damage.</String>
+		<String _locID="26919" category="Techs" subtitle="false">ENERGY CANNON II</String>
+		<String _locID="26920" category="Techs" subtitle="false">Upgrades the Energy Cannon ability's damage.</String>
+		<String _locID="26921" category="Techs" subtitle="false">ENERGY CANNON III</String>
+		<String _locID="26922" category="Techs" subtitle="false">Upgrades the Energy Cannon ability's damage.</String>
+		<String _locID="26925" category="Techs" subtitle="false">PAGE 2</String>
+		<String _locID="26926" category="Techs" subtitle="false">Access page 2 of this command menu.</String>
+		<String _locID="26927" category="Techs" subtitle="false">PAGE 1</String>
+		<String _locID="26928" category="Techs" subtitle="false">Access page 1 of this command menu.</String>
+		<String _locID="26929" category="Techs" subtitle="false">REINFORCEMENTS</String>
+		<String _locID="26930" category="Techs" subtitle="false">Increases the maximum size of your army by 10.</String>
+		<String _locID="26931" category="Techs" subtitle="false">MECHANICS</String>
+		<String _locID="26932" category="Techs" subtitle="false">Train times for all units are drastically reduced.</String>
+		<String _locID="26941" category="Techs" subtitle="false">PULSE GRENADE</String>
+		<String _locID="26942" category="Techs" subtitle="false">Equips soldiers with powerful pulse grenades that can briefly stun infantry.</String>
+		<String _locID="26943" category="Techs" subtitle="false">ENHANCED MECHANICS</String>
+		<String _locID="26957" category="Techs" subtitle="false">ENERGY RESEVES</String>
+		<String _locID="26958" category="Techs" subtitle="false">Greatly improves shield resilience and regeneration.</String>
+		<String _locID="26977" category="Techs" subtitle="false">AERODYNAMICS</String>
+		<String _locID="26978" category="Techs" subtitle="false">Improves maximum velocity.</String>
+		<String _locID="26979" category="Techs" subtitle="false">PHAETON HELIOS</String>
+		<String _locID="26980" category="Techs" subtitle="false">Upgrades the main turret to a beam turret, and the rocket volley is improved, firing 6 rockets instead of 2 per volley.</String>
+		<String _locID="26993" category="Techs" subtitle="false">BINARY RIFLE</String>
+		<String _locID="26994" category="Techs" subtitle="false">Adds bonus Anti-Infantry attack to the Turret.</String>
+		<String _locID="26995" category="Techs" subtitle="false">INCINERATION CANNON</String>
+		<String _locID="26996" category="Techs" subtitle="false">Adds bonus Anti-Vehicle attack to the Turret.</String>
+		<String _locID="26997" category="Techs" subtitle="false">SPLINTER CANNON</String>
+		<String _locID="26998" category="Techs" subtitle="false">Adds bonus Anti-Air attack to the Turret.</String>
+		<String _locID="27673" category="Techs" subtitle="false">SUPER BEAM BARRAGE</String>
+		<String _locID="27674" category="Techs" subtitle="false">Doubles beams fired, doubles damage, and increases AOE range by 50% for the Beam Barrage.</String>
+		<String _locID="27675" category="Techs" subtitle="false">SUPER SOLDIER DROP</String>
+		<String _locID="27676" category="Techs" subtitle="false">Adds 3 Crawlers to the Soldier Drop.</String>
+		<String _locID="27679" category="Techs" subtitle="false">SUPER SHIELD ENHANCEMENT</String>
+		<String _locID="27680" category="Techs" subtitle="false">Further increases shield regeneration for all units and buildings.</String>
+		<String _locID="27687" category="Techs" subtitle="false">MEDIUM EMP MAC BLAST</String>
+		<String _locID="27688" category="Techs" subtitle="false">EMP MAC Blast ammo capacity upgraded to provide two shots.</String>
+		<String _locID="27689" category="Techs" subtitle="false">LARGE EMP MAC BLAST</String>
+		<String _locID="27690" category="Techs" subtitle="false">EMP MAC Blast ammo capacity upgraded to provide three shots.</String>
+		<String _locID="27691" category="Techs" subtitle="false">SUPER EMP MAC BLAST</String>
+		<String _locID="27692" category="Techs" subtitle="false">EMP MAC Blast ammo capacity upgraded to provide four shots.</String>
+		<String _locID="27808" category="Techs" subtitle="false">ENERGY SHIELDING</String>
+		<String _locID="27809" category="Techs" subtitle="false">Adds a heavy shield that reflects incoming damage.</String>
 	</Language>
 </StringTable>
