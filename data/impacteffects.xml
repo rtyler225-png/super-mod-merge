@@ -66,4 +66,7 @@
 	<TerrainEffect name="banishedfuelrod_01" limit="5">effects\banished\impacts\fuelrod_01\fuelrod_01</TerrainEffect>
 	<TerrainEffect name="MacCannonImpact" limit="5" >effects\custom\mammoth_01\maccannon_mammothimpact_01</TerrainEffect>
 	<TerrainEffect name="ban_plasmaburn_01" limit="5">effects\banished\impacts\cov\plasmaburn_01\plasmaburn_01</TerrainEffect>
+	<TerrainEffect name="beamGold_01" limit="5">effects\impacts\for\beamGold\beamGold_01</TerrainEffect>
+	<TerrainEffect name="beamOrange_01" limit="5">effects\impacts\for\beamOrange\beamOrange_01</TerrainEffect>
+	<TerrainEffect name="pulsegrenade_01" limit="5">effects\impacts\for\pulsegrenade\pulsegrenade_01</TerrainEffect>
 </ImpactEffects>

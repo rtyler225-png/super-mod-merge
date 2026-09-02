@@ -1,0 +1,8 @@
+<TerrainEffect>
+
+   <default>
+      <particlefile>effects\impacts\for\beamOrange\beamOrange_01</particlefile>
+
+   </default>
+
+</TerrainEffect>

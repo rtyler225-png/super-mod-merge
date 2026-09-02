@@ -111276,4 +111276,216 @@
 		<Flag>Update</Flag>
 		<Flag>Build</Flag>
 	</Object>
+	<Object name="fx_proj_beamGold_01" id="0" dbid="69">
+		<ObjectClass>Projectile</ObjectClass>
+		<Visual>effects\projectiles\for\beamGold_01\beamGold_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Velocity>300</Velocity>
+		<Tactics>fx_proj_beamGold_01.tactics</Tactics>
+		<Lifespan>0.5</Lifespan>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<ImpactDecal sizeX="1" sizeZ="1" timeFullyOpaque="5" fadeOutTime="10" orientation="random">decals\plasma_scorch01</ImpactDecal>
+	</Object>
+	<Object name="fx_proj_beamOrange_01" id="0" dbid="69">
+		<ObjectClass>Projectile</ObjectClass>
+		<Visual>effects\projectiles\for\beamOrange_01\beamOrange_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Velocity>300</Velocity>
+		<Tactics>fx_proj_beamGold_01.tactics</Tactics>
+		<Lifespan>0.5</Lifespan>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<ImpactDecal sizeX="1" sizeZ="1" timeFullyOpaque="5" fadeOutTime="10" orientation="random">decals\plasma_scorch01</ImpactDecal>
+	</Object>
+	<Object name="fx_proj_bikeMissile_01" id="0" dbid="2380">
+		<ObjectClass>Projectile</ObjectClass>
+		<Visual>effects/projectiles/for/bikeMissile_01/bikeMissile_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Velocity>150</Velocity>
+		<Tactics>fx_proj_missile_01.tactics</Tactics>
+		<Lifespan>12</Lifespan>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Tracking</Flag>
+		<TrackInterceptDistance>25</TrackInterceptDistance>
+		<StartingVelocity>10</StartingVelocity>
+		<Acceleration>60</Acceleration>
+		<Fuel>4</Fuel>
+		<TurnRate>180</TurnRate>
+		<PerturbanceChance>0.25</PerturbanceChance>
+		<PerturbanceVelocity>15</PerturbanceVelocity>
+		<PerturbanceMinTime>0.06</PerturbanceMinTime>
+		<PerturbanceMaxTime>0.1</PerturbanceMaxTime>
+		<ImpactDecal sizeX="1" sizeZ="1" timeFullyOpaque="5" fadeOutTime="10" orientation="random">decals\plasma_scorch01</ImpactDecal>
+	</Object>
+	<Object name="fx_proj_incinerationCannon_01" id="0" dbid="48">
+		<ObjectClass>Projectile</ObjectClass>
+		<Visual>effects\projectiles\for\incinerationCannon_01\incinerationCannon_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Velocity>150</Velocity>
+		<Tactics>fx_proj_fuelRod_01.tactics</Tactics>
+		<Lifespan>2</Lifespan>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<Sound Type="Exist">start_exist_proj_fuelrod_01</Sound>
+		<Sound Type="StopExist">stop_exist_proj_fuelrod_01</Sound>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+	</Object>
+	<Object name="fx_proj_mechMissile_01" id="0" dbid="2380">
+		<ObjectClass>Projectile</ObjectClass>
+		<Visual>effects/projectiles/for/bikeMissile_01/bikeMissile_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Velocity>150</Velocity>
+		<Tactics>fx_proj_missile_01.tactics</Tactics>
+		<Lifespan>12</Lifespan>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Tracking</Flag>
+		<TrackInterceptDistance>25</TrackInterceptDistance>
+		<StartingVelocity>10</StartingVelocity>
+		<Acceleration>60</Acceleration>
+		<Fuel>4</Fuel>
+		<TurnRate>180</TurnRate>
+		<PerturbanceChance>0.25</PerturbanceChance>
+		<PerturbanceVelocity>15</PerturbanceVelocity>
+		<PerturbanceMinTime>0.06</PerturbanceMinTime>
+		<PerturbanceMaxTime>0.1</PerturbanceMaxTime>
+		<ImpactDecal sizeX="1" sizeZ="1" timeFullyOpaque="5" fadeOutTime="10" orientation="random">decals\plasma_scorch01</ImpactDecal>
+	</Object>
+	<Object name="fx_proj_mechMissile_02" id="0" dbid="2380">
+		<ObjectClass>Projectile</ObjectClass>
+		<Visual>effects/projectiles/for/bikeMissile_01/bikeMissile_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Velocity>200</Velocity>
+		<Tactics>fx_proj_missile_01.tactics</Tactics>
+		<Lifespan>12</Lifespan>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Tracking</Flag>
+		<TrackInterceptDistance>25</TrackInterceptDistance>
+		<StartingVelocity>20</StartingVelocity>
+		<Acceleration>100</Acceleration>
+		<Fuel>4</Fuel>
+		<TurnRate>180</TurnRate>
+		<PerturbanceChance>0.25</PerturbanceChance>
+		<PerturbanceVelocity>15</PerturbanceVelocity>
+		<PerturbanceMinTime>0.06</PerturbanceMinTime>
+		<PerturbanceMaxTime>0.1</PerturbanceMaxTime>
+		<ImpactDecal sizeX="1" sizeZ="1" timeFullyOpaque="5" fadeOutTime="10" orientation="random">decals\plasma_scorch01</ImpactDecal>
+	</Object>
+	<Object name="fx_proj_phaetonBeam_01" id="1850" dbid="2968">
+		<ObjectClass>Projectile</ObjectClass>
+		<Visual>effects\projectiles\for\phaetonBeam_01\phaetonBeam_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Velocity>300</Velocity>
+		<Tactics>fx_proj_chimeraBeam_01.tactics</Tactics>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<Sound Type="Exist">play_cov_scarab_beam</Sound>
+		<Sound Type="StopExist">stop_cov_scarab_beam</Sound>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Beam</Flag>
+		<BeamHead>fx_proj_phaetonBeamHead_01</BeamHead>
+		<BeamTail>fx_proj_phaetonBeamTail_01</BeamTail>
+		<ImpactDecal sizeX="3" sizeZ="3" timeFullyOpaque="2" fadeOutTime="5" orientation="random">decals\beam_scorch01</ImpactDecal>
+	</Object>
+	<Object name="fx_proj_phaetonBeamHead_01" is="0" id="1852" dbid="2969">
+		<ObjectClass>Object</ObjectClass>
+		<Visual>effects\projectiles\for\phaetonBeam_01\phaeton_head_01.vis</Visual>
+		<Flag>NoTieToGround</Flag>
+	</Object>
+	<Object name="fx_proj_phaetonBeamTail_01" is="0" id="1854" dbid="2970">
+		<ObjectClass>Object</ObjectClass>
+			<Visual>effects\projectiles\for\phaetonBeam_01\phaeton_tail_01.vis</Visual>
+		<Flag>NoTieToGround</Flag>
+	</Object>
+	<Object name="fx_proj_phaetonMissile_01" id="0" dbid="2380">
+		<ObjectClass>Projectile</ObjectClass>
+		<Visual>effects/projectiles/for/phaetonMissile_01/phaetonMissile_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Velocity>150</Velocity>
+		<Tactics>fx_proj_missile_01.tactics</Tactics>
+		<Lifespan>12</Lifespan>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>Tracking</Flag>
+		<TrackInterceptDistance>25</TrackInterceptDistance>
+		<StartingVelocity>50</StartingVelocity>
+		<Acceleration>60</Acceleration>
+		<Fuel>4</Fuel>
+		<TurnRate>180</TurnRate>
+		<PerturbanceChance>0.25</PerturbanceChance>
+		<PerturbanceVelocity>15</PerturbanceVelocity>
+		<PerturbanceMinTime>0.06</PerturbanceMinTime>
+		<PerturbanceMaxTime>0.1</PerturbanceMaxTime>
+		<ImpactDecal sizeX="1" sizeZ="1" timeFullyOpaque="5" fadeOutTime="10" orientation="random">decals\plasma_scorch01</ImpactDecal>
+	</Object>
+	<Object name="fx_proj_pulseGrenade_01" id="0" dbid="57">
+		<ObjectClass>Projectile</ObjectClass>
+		<Visual>effects/projectiles/for/pulsegrenade_01/pulsegrenade_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Velocity>70</Velocity>
+		<Tactics>fx_proj_plasmaGrenade_01.tactics</Tactics>
+		<Lifespan>4</Lifespan>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>IsAffectedByGravity</Flag>
+		<MaxProjectileHeight>6</MaxProjectileHeight>
+		<ImpactDecal sizeX="2" sizeZ="2" timeFullyOpaque="5" fadeOutTime="10" orientation="random">decals\missle_scorch01</ImpactDecal>
+	</Object>
+	<Object name="fx_proj_sniper_01" id="0" dbid="35">
+		<ObjectClass>Projectile</ObjectClass>
+		<Visual>effects/projectiles/unsc/rifle_01/rifle_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Velocity>200</Velocity>
+		<Tactics>fx_proj_rifle_01.tactics</Tactics>
+		<Lifespan>2</Lifespan>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<ImpactDecal sizeX="1" sizeZ="1" timeFullyOpaque="5" fadeOutTime="10" orientation="random">decals\bullet_scorch01</ImpactDecal>
+	</Object>
+	<Object name="fx_proj_splinterTurret_01" id="0" dbid="4003">
+		<ObjectClass>Projectile</ObjectClass>
+		<Visual>effects/projectiles/for/splinterTurret_01/splinterTurret_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Velocity>150</Velocity>
+		<Tactics>fx_proj_artillery_01.tactics</Tactics>
+		<Lifespan>20</Lifespan>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>IsAffectedByGravity</Flag>
+		<MaxProjectileHeight>40</MaxProjectileHeight>
+	</Object>
 </Objects>

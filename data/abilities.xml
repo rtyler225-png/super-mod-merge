@@ -626,4 +626,65 @@
 		<Type>Work</Type>
 		<TargetType>Unit</TargetType>
 	</Ability>
+	<Ability Name="ForCryptum">
+		<DisplayNameID>6004</DisplayNameID>
+		<RolloverTextID>6005</RolloverTextID>
+		<Type>CommandMenu</Type>
+	</Ability>
+	<Ability Name="ForDidactSpecial">
+		<DisplayNameID>24553</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>Unit</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>30</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+	</Ability>
+	<Ability Name="ForMechSpecial">
+		<DisplayNameID>24551</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>Unit</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>30</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<SmartTargetRange>30.0f</SmartTargetRange>
+	</Ability>
+	<Ability Name="ForSoldierGrenade">
+		<DisplayNameID>6014</DisplayNameID>
+		<RolloverTextID>6015</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>Unit</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>20</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+	</Ability>
+	<Ability Name="ForTankBarrage">
+		<DisplayNameID>24552</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>Unit</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>30</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+	</Ability>
+	<Ability Name="ForWardenSlam">
+		<DisplayNameID>24553</DisplayNameID>
+		<Type>Work</Type>
+		<TargetType>Unit</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>30</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+	</Ability>
+	<Ability Name="KnightHijack">
+		<DisplayNameID>24236</DisplayNameID>
+		<RolloverTextID>24237</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>Unit</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>10</RecoverTime>
+	</Ability>
 </Abilities>
