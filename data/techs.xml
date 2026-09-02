@@ -33820,6 +33820,21 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	<Tech name="forfaction_phaeton_upgrade0" type="Normal">
+		<Status>OBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="Data" amount="2" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">forfaction_air_phaeton_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.95000005" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">forfaction_air_phaeton_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.95000005" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">forfaction_air_phaeton_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="forfaction_phaeton_upgrade1" type="Normal">
 		<DisplayNameID>26977</DisplayNameID>
 		<RolloverTextID>26978</RolloverTextID>
@@ -33871,6 +33886,21 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="BeamCannonAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">forfaction_air_phaeton_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="forfaction_phoenix_upgrade0" type="Normal">
+		<Status>OBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="Data" amount="2" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">forfaction_air_phoenix_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.95000005" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">forfaction_air_phoenix_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.95000005" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">forfaction_air_phoenix_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>

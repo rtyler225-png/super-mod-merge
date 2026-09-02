@@ -7314,6 +7314,68 @@ Unlocks Repair Drones.</String>
 		<String _locID="27814" category="Objects" subtitle="false">Spire Shield Generator</String>
 		<String _locID="26987" category="Objects" subtitle="false">Mombasa Gate Controls</String>
 		<String _locID="71" category="Objects" subtitle="false">Forerunner Sentinel Drone</String>
+		<String _locID="26833" category="Objects" subtitle="false">CANTONMENT</String>
+		<String _locID="26834" category="Objects" subtitle="false">The Cantonment trains the bulk of the Forerunner infantry units. Infantry technology upgrades can also be found here.</String>
+		<String _locID="26835" category="Objects" subtitle="false">FOUNDRY</String>
+		<String _locID="26836" category="Objects" subtitle="false">The Foundry constructs all Forerunner vehicles. Vehicle technology upgrades can also be found here.</String>
+		<String _locID="26837" category="Objects" subtitle="false">AIRDROME</String>
+		<String _locID="26838" category="Objects" subtitle="false">The Airdrome creates all Forerunner air units. Air unit technology upgrades can also be found here.</String>
+		<String _locID="26839" category="Objects" subtitle="false">OUTPOST</String>
+		<String _locID="26840" category="Objects" subtitle="false">The most basic Forerunner base. Can be upgraded to support additional buildings.</String>
+		<String _locID="26841" category="Objects" subtitle="false">COMPLEX</String>
+		<String _locID="26842" category="Objects" subtitle="false">Similar to the Forerunner Outpost, but with more available building sites, including turret sites. Can be upgraded to support additional buildings.</String>
+		<String _locID="26843" category="Objects" subtitle="false">INSTALLATION</String>
+		<String _locID="26844" category="Objects" subtitle="false">The most advanced Forerunner base. Cannot be further upgraded.</String>
+		<String _locID="26849" category="Objects" subtitle="false">SUPPLY ELEVATOR</String>
+		<String _locID="26850" category="Objects" subtitle="false">The Forerunner Supply Elevator produces the resources needed to train units, build buildings, and buy technology upgrades. Bases that have great economic production might have 6 Supply Elevators.</String>
+		<String _locID="26851" category="Objects" subtitle="false">ADVANCED SUPPLY ELEVATOR</String>
+		<String _locID="26852" category="Objects" subtitle="false">40% more effective than the Forerunner Supply Elevator.</String>
+		<String _locID="26855" category="Objects" subtitle="false">SECONDARY REACTOR</String>
+		<String _locID="26856" category="Objects" subtitle="false">Forerunner Reactors provide the energy needed to access advanced buildings, units and technology upgrades. High-tech bases may have as many as 4 or 5 Reactors.</String>
+		<String _locID="26857" category="Objects" subtitle="false">PRIMARY REACTOR</String>
+		<String _locID="26858" category="Objects" subtitle="false">Forerunner Reactors provide the energy needed to access advanced buildings, units and technology upgrades. High-tech bases may have as many as 4 or 5 Reactors.</String>
+		<String _locID="26861" category="Objects" subtitle="false">NEURAL CENTER</String>
+		<String _locID="26862" category="Objects" subtitle="false">The Forerunner Neural Center is a combination machine shop and high-tech laboratory. Many advanced technology upgrades can be found here.</String>
+		<String _locID="26863" category="Objects" subtitle="false">ENERGY TURRET</String>
+		<String _locID="26864" category="Objects" subtitle="false">A light Forerunner Turret effective against all unit types.</String>
+		<String _locID="26981" category="Objects" subtitle="false">SHIELD GENERATOR</String>
+		<String _locID="26986" category="Objects" subtitle="false">A powerful forerunner base that can heal units around it. Promethean watchers can be trained here.</String>
+		<String _locID="26988" category="Objects" subtitle="false">A light Forerunner Turret equipped with a powerful Binary Rifle. Deals heavy damage to individual targets. Effective against infantry.</String>
+		<String _locID="26989" category="Objects" subtitle="false">INCINERATION TURRET</String>
+		<String _locID="26992" category="Objects" subtitle="false">A light Forerunner Turret equipped with a powerful Splinter Cannon. Deals large aoe damage. Effective against air units.</String>
+		<String _locID="27308" category="Objects" subtitle="false">ARC TOWER</String>
+		<String _locID="27309" category="Objects" subtitle="false">Arc Tower.</String>
+		<String _locID="27804" category="Objects" subtitle="false">FOCUS TURRET</String>
+		<String _locID="27805" category="Objects" subtitle="false">A heavy Forerunner turret that fires a concentrated beam at its target. Extremely high range and good all-round damage.</String>
+		<String _locID="26865" category="Squads" subtitle="false">SOLDIER</String>
+		<String _locID="26866" category="Squads" subtitle="false">The mainline infantry for the Forerunners, the Promethean Soldier is effective against all unit types.</String>
+		<String _locID="26867" category="Squads" subtitle="false">AGGRESSOR</String>
+		<String _locID="26868" category="Squads" subtitle="false">A flying Forerunner unit, the Sentinels inflict corrosive damage with a dangerous beam weapon.</String>
+		<String _locID="26875" category="Squads" subtitle="false">SUPER SENTINEL</String>
+		<String _locID="26876" category="Squads" subtitle="false">The Forerunner Super Sentinel has the unique ability to slow down enemy units while also preempting their attacks.</String>
+		<String _locID="26879" category="Squads" subtitle="false">PROTECTOR</String>
+		<String _locID="26880" category="Squads" subtitle="false">Attach this to a single squad to have the Protector heal the protected squad out of combat. Can also heal units without being attached.</String>
+		<String _locID="26885" category="Squads" subtitle="false">ZEPHYR</String>
+		<String _locID="26886" category="Squads" subtitle="false">Mainline forerunner battle tank, effective against ground forces, especially infantry.</String>
+		<String _locID="26893" category="Squads" subtitle="false">MOTH</String>
+		<String _locID="26894" category="Squads" subtitle="false">Fast assault recon unit. Effective against all unit types.</String>
+		<String _locID="26901" category="Squads" subtitle="false">GORGON</String>
+		<String _locID="26902" category="Squads" subtitle="false">An anti-air forerunner mech that fires small energy missiles. Can be upgraded to target ground forces.</String>
+		<String _locID="26909" category="Squads" subtitle="false">UR-DIDACT</String>
+		<String _locID="26910" category="Squads" subtitle="false">Leader of the entire Forerunner military, the Ur-Didact can fire powerful beams, which can be upgraded to stun ground targets, including buildings.</String>
+		<String _locID="26923" category="Squads" subtitle="false">CRYPTUM</String>
+		<String _locID="26924" category="Squads" subtitle="false">Shields the Ur-Didact when he is garrisoned. Fires a powerful beam not dissimilar to the scarab beam.</String>
+		<String _locID="26935" category="Squads" subtitle="false">WARDEN ETERNAL</String>
+		<String _locID="26936" category="Squads" subtitle="false">Protector of the Domain, controlled by Cortana. Wields a powerful hardlight blade that eviscerates any ground forces. Has 2 protector sentinels to attack air units.</String>
+		<String _locID="26937" category="Squads" subtitle="false">CRAWLER</String>
+		<String _locID="26938" category="Squads" subtitle="false">Small autonomous defense units often deployed as cannon fodder. Has the ability to scale walls and impassable terrain. Effective against infantry.</String>
+		<String _locID="26939" category="Squads" subtitle="false">KNIGHT</String>
+		<String _locID="26940" category="Squads" subtitle="false">A special forces autonomous unit created by the composer, the Promethean Knight is highly effective against all units. Can be upgraded to leap large distances via an ability, similar to the Covenant Brutes.</String>
+		<String _locID="26975" category="Squads" subtitle="false">PHAETON</String>
+		<String _locID="26976" category="Squads" subtitle="false">A powerful autonomous Forerunner VTOL that can obliterate most ground forces.</String>
+		<String _locID="26984" category="Squads" subtitle="false">A flying autonomous Forerunner unit that can shield allied forces.</String>
+		<String _locID="27806" category="Squads" subtitle="false">PHOENIX</String>
+		<String _locID="27807" category="Squads" subtitle="false">An autonomous Forerunner strike aircraft that heavily counters enemy air units. Deals decent damage against other unit types.</String>
 		<String _locID="26845" category="Techs" subtitle="false">COMPLEX</String>
 		<String _locID="26846" category="Techs" subtitle="false">Upgrades base to a Complex, which adds two more building sites and eight turret sites. Each building adds to the strength of the central structure.</String>
 		<String _locID="26847" category="Techs" subtitle="false">INSTALLATION</String>
