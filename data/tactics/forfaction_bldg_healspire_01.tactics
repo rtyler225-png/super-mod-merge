@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>RepairOther</Name>
+		<ActionType>RepairOther</ActionType>
+		<Anim>Heal</Anim>
+		<WorkRange>45</WorkRange>
+		<WorkRate>0.30000006</WorkRate>
+		<AllowReinforce />
+		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="0.99000001" AutoRepairSearchDistance="45" />
+	</Action>
+	<Tactic>
+		<PersistentAction>RepairOther</PersistentAction>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Military</TargetType>
+			<Action>RepairOther</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

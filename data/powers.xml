@@ -3650,4 +3650,375 @@
       </DataLevel>
     </Attributes>
   </Power>
+  <Power name="ForerunnerTransport">
+    <Attributes>
+      <PowerType>Transport</PowerType>
+      <InfiniteUses />
+      <Cost Supplies="200" />
+      <UIRadius>30</UIRadius>
+      <ShowTransportArrows>true</ShowTransportArrows>
+      <DisplayNameID>90152</DisplayNameID>
+      <RolloverTextID>90153</RolloverTextID>
+      <PrereqTextID>90153</PrereqTextID>
+      <Icon>ui\flash\shared\textures\forerunner\icons\power\ForerunnerTransport</Icon>
+      <IconLocation>1</IconLocation>
+      <CameraZoomMin>150</CameraZoomMin>
+      <CameraZoomMax>150</CameraZoomMax>
+      <CameraPitchMin>55</CameraPitchMin>
+      <CameraPitchMax>55</CameraPitchMax>
+      <CameraEnableUserScroll>true</CameraEnableUserScroll>
+      <CameraEnableUserYaw>false</CameraEnableUserYaw>
+      <CameraEnableUserZoom>false</CameraEnableUserZoom>
+      <FlashUI>
+        <CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+        <CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+      </FlashUI>
+      <DataLevel level="0">
+        <Data type="sound" name="HudUpSound">play_unsc_transport_vo_ready</Data>
+        <Data type="sound" name="HudAbortSound">play_unsc_transport_vo_exit</Data>
+        <Data type="sound" name="HudFireSound">play_unsc_transport_vo_pickup</Data>
+        <Data type="sound" name="HudLastFireSound">play_unsc_transport_vo_dropoff</Data>
+        <Data type="sound" name="HudStartEnvSound">hud_mac_open</Data>
+        <Data type="sound" name="HudStopEnvSound">hud_mac_close</Data>
+        <Data type="int" name="MaxGroundVehicles">3</Data>
+        <Data type="int" name="MaxInfantryUnits">6</Data>
+        <Data type="texture" name="Base">ui\flash\shared\textures\powers\TransportBase</Data>
+        <Data type="texture" name="Mover">ui\flash\shared\textures\powers\TransportMover</Data>
+        <Data type="float" name="MinTransportDistance">45</Data>
+      </DataLevel>
+    </Attributes>
+  </Power>
+  <Power name="ForerunnerRepair">
+    <Attributes>
+      <PowerType>Repair</PowerType>
+      <Cost Supplies="350" />
+      <AutoRecharge>60000</AutoRecharge>
+      <UIRadius>35</UIRadius>
+      <DisplayNameID>90154</DisplayNameID>
+      <RolloverTextID>90155</RolloverTextID>
+      <ShowLimit />
+      <LeaderPower />
+      <ShowTargetHighlight ObjectType="Military" Relation="Ally" />
+      <Icon>ui\flash\shared\textures\forerunner\icons\power\ForerunnerRepair</Icon>
+      <IconLocation>2</IconLocation>
+      <FlashUI>
+        <CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+        <CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+      </FlashUI>
+      <CameraZoomMin>150</CameraZoomMin>
+      <CameraZoomMax>150</CameraZoomMax>
+      <CameraPitchMin>55</CameraPitchMin>
+      <CameraPitchMax>55</CameraPitchMax>
+      <CameraEnableUserScroll>true</CameraEnableUserScroll>
+      <CameraEnableUserYaw>false</CameraEnableUserYaw>
+      <CameraEnableUserZoom>false</CameraEnableUserZoom>
+      <DataLevel level="0">
+        <Data type="protoobject" name="RepairObject">fx_repairPowerForerunner</Data>
+        <Data type="protoobject" name="RepairAttachment">fx_repairing</Data>
+        <Data type="float" name="RepairRadius">35</Data>
+        <Data type="objecttype" name="FilterType">Military</Data>
+        <Data type="float" name="TickDuration">0.125</Data>
+        <Data type="int" name="NumTicks">100</Data>
+        <Data type="float" name="RepairCombatValuePerTick">0.200000001</Data>
+        <Data type="bool" name="SpreadAmongSquads">true</Data>
+        <Data type="float" name="CooldownTimeIfDamaged">5</Data>
+        <Data type="bool" name="AllowReinforce">true</Data>
+        <Data type="bool" name="IgnorePlacement">false</Data>
+        <Data type="bool" name="HealAny">false</Data>
+        <Data type="sound" name="HudUpSound">play_unsc_heal_vo_ready</Data>
+        <Data type="sound" name="HudAbortSound">play_unsc_heal_vo_exit</Data>
+        <Data type="sound" name="HudFireSound">play_unsc_heal_vo_target</Data>
+      </DataLevel>
+    </Attributes>
+  </Power>
+  <Power name="ForerunnerArcTower">
+    <Attributes>
+      <Cost Supplies="450" Power="2" />
+      <AutoRecharge>360000</AutoRecharge>
+      <UIRadius>10</UIRadius>
+      <DisplayNameID>90158</DisplayNameID>
+      <RolloverTextID>90159</RolloverTextID>
+      <PrereqTextID>90159</PrereqTextID>
+      <ShowLimit />
+      <LeaderPower />
+      <Icon>ui\flash\shared\textures\forerunner\icons\power\ForerunnerArcTower</Icon>
+      <IconLocation>3</IconLocation>
+      <CameraZoomMin>200</CameraZoomMin>
+      <CameraZoomMax>200</CameraZoomMax>
+      <CameraPitchMin>55</CameraPitchMin>
+      <CameraPitchMax>55</CameraPitchMax>
+      <CameraEnableUserScroll>true</CameraEnableUserScroll>
+      <CameraEnableUserYaw>false</CameraEnableUserYaw>
+      <CameraEnableUserZoom>false</CameraEnableUserZoom>
+      <FlashUI>
+        <CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+        <CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+      </FlashUI>
+      <DataLevel level="0">
+        <Data type="float" name="SquadSpawnDelay">0.75</Data>
+        <Data type="sound" name="HudUpSound">play_unsc_odstdrop_vo_ready</Data>
+        <Data type="sound" name="HudAbortSound">play_unsc_odstdrop_vo_exit</Data>
+        <Data type="sound" name="HudFireSound">play_unsc_odstdrop_vo_fire</Data>
+        <Data type="sound" name="HudLastFireSound">play_unsc_odstdrop_vo_out</Data>
+        <Data type="sound" name="HudStartEnvSound">hud_mac_open</Data>
+        <Data type="sound" name="HudStopEnvSound">hud_mac_close</Data>
+        <Data type="protoobject" name="Projectile">unsc_air_odstPod_01</Data>
+      </DataLevel>
+    </Attributes>
+    <TriggerScript>powers\forerunner\arctower.triggerscript</TriggerScript>
+  </Power>
+  <Power name="ForerunnerBeamBarrage">
+    <Attributes>
+      <Cost Supplies="400" Power="2" />
+      <AutoRecharge>120000</AutoRecharge>
+      <UIRadius>10</UIRadius>
+      <DisplayNameID>90160</DisplayNameID>
+      <RolloverTextID>90161</RolloverTextID>
+      <PrereqTextID>90161</PrereqTextID>
+      <ShowLimit />
+      <LeaderPower />
+      <Icon>ui\flash\shared\textures\forerunner\icons\power\ForerunnerBeamBarrage</Icon>
+      <IconLocation>4</IconLocation>
+      <CameraZoomMin>200</CameraZoomMin>
+      <CameraZoomMax>200</CameraZoomMax>
+      <CameraPitchMin>55</CameraPitchMin>
+      <CameraPitchMax>55</CameraPitchMax>
+      <CameraEnableUserScroll>true</CameraEnableUserScroll>
+      <CameraEnableUserYaw>false</CameraEnableUserYaw>
+      <CameraEnableUserZoom>false</CameraEnableUserZoom>
+      <FlashUI>
+        <CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+        <CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+      </FlashUI>
+      <DataLevel level="0">
+        <Data type="float" name="SquadSpawnDelay">0.75</Data>
+        <Data type="sound" name="HudUpSound">play_unsc_odstdrop_vo_ready</Data>
+        <Data type="sound" name="HudAbortSound">play_unsc_odstdrop_vo_exit</Data>
+        <Data type="sound" name="HudFireSound">play_unsc_odstdrop_vo_fire</Data>
+        <Data type="sound" name="HudLastFireSound">play_unsc_odstdrop_vo_out</Data>
+        <Data type="sound" name="HudStartEnvSound">hud_mac_open</Data>
+        <Data type="sound" name="HudStopEnvSound">hud_mac_close</Data>
+        <Data type="protoobject" name="Projectile">unsc_air_odstPod_01</Data>
+      </DataLevel>
+    </Attributes>
+    <TriggerScript>powers\forerunner\beambarrage.triggerscript</TriggerScript>
+  </Power>
+  <Power name="ForerunnerSoldierDrop">
+    <Attributes>
+      <Cost Supplies="400" Power="2" />
+      <Pop type="Unit">3</Pop>
+      <AutoRecharge>90000</AutoRecharge>
+      <UIRadius>10</UIRadius>
+      <DisplayNameID>90162</DisplayNameID>
+      <RolloverTextID>90163</RolloverTextID>
+      <PrereqTextID>90163</PrereqTextID>
+      <ShowLimit />
+      <LeaderPower />
+      <Icon>ui\flash\shared\textures\forerunner\icons\power\ForerunnerSoldierDrop</Icon>
+      <IconLocation>5</IconLocation>
+      <CameraZoomMin>200</CameraZoomMin>
+      <CameraZoomMax>200</CameraZoomMax>
+      <CameraPitchMin>55</CameraPitchMin>
+      <CameraPitchMax>55</CameraPitchMax>
+      <CameraEnableUserScroll>true</CameraEnableUserScroll>
+      <CameraEnableUserYaw>false</CameraEnableUserYaw>
+      <CameraEnableUserZoom>false</CameraEnableUserZoom>
+      <FlashUI>
+        <CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+        <CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+      </FlashUI>
+      <DataLevel level="0">
+        <Data type="float" name="SquadSpawnDelay">0.75</Data>
+        <Data type="sound" name="HudUpSound">play_unsc_odstdrop_vo_ready</Data>
+        <Data type="sound" name="HudAbortSound">play_unsc_odstdrop_vo_exit</Data>
+        <Data type="sound" name="HudFireSound">play_unsc_odstdrop_vo_fire</Data>
+        <Data type="sound" name="HudLastFireSound">play_unsc_odstdrop_vo_out</Data>
+        <Data type="sound" name="HudStartEnvSound">hud_mac_open</Data>
+        <Data type="sound" name="HudStopEnvSound">hud_mac_close</Data>
+        <Data type="protoobject" name="Projectile">unsc_air_odstPod_01</Data>
+      </DataLevel>
+    </Attributes>
+    <TriggerScript>powers\forerunner\soldierdrop.triggerscript</TriggerScript>
+  </Power>
+  <Power name="ForerunnerSoldierDrop2">
+    <Attributes>
+      <Cost Supplies="400" Power="2" />
+      <Pop type="Unit">6</Pop>
+      <AutoRecharge>90000</AutoRecharge>
+      <UIRadius>10</UIRadius>
+      <DisplayNameID>90172</DisplayNameID>
+      <RolloverTextID>90173</RolloverTextID>
+      <PrereqTextID>90173</PrereqTextID>
+      <ShowLimit />
+      <LeaderPower />
+      <Icon>ui\flash\shared\textures\forerunner\icons\power\ForerunnerSoldierDrop2</Icon>
+      <IconLocation>5</IconLocation>
+      <CameraZoomMin>200</CameraZoomMin>
+      <CameraZoomMax>200</CameraZoomMax>
+      <CameraPitchMin>55</CameraPitchMin>
+      <CameraPitchMax>55</CameraPitchMax>
+      <CameraEnableUserScroll>true</CameraEnableUserScroll>
+      <CameraEnableUserYaw>false</CameraEnableUserYaw>
+      <CameraEnableUserZoom>false</CameraEnableUserZoom>
+      <FlashUI>
+        <CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+        <CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+      </FlashUI>
+      <DataLevel level="0">
+        <Data type="float" name="SquadSpawnDelay">0.75</Data>
+        <Data type="sound" name="HudUpSound">play_unsc_odstdrop_vo_ready</Data>
+        <Data type="sound" name="HudAbortSound">play_unsc_odstdrop_vo_exit</Data>
+        <Data type="sound" name="HudFireSound">play_unsc_odstdrop_vo_fire</Data>
+        <Data type="sound" name="HudLastFireSound">play_unsc_odstdrop_vo_out</Data>
+        <Data type="sound" name="HudStartEnvSound">hud_mac_open</Data>
+        <Data type="sound" name="HudStopEnvSound">hud_mac_close</Data>
+        <Data type="protoobject" name="Projectile">unsc_air_odstPod_01</Data>
+      </DataLevel>
+    </Attributes>
+    <TriggerScript>powers\forerunner\soldierdrop2.triggerscript</TriggerScript>
+  </Power>
+  <Power name="ForerunnerShieldEnhancement">
+    <Attributes>
+      <Cost Supplies="800" Power="3" />
+      <AutoRecharge>1</AutoRecharge>
+      <UIRadius>10</UIRadius>
+      <DisplayNameID>90164</DisplayNameID>
+      <RolloverTextID>90165</RolloverTextID>
+      <PrereqTextID>90165</PrereqTextID>
+      <ShowLimit />
+      <LeaderPower />
+      <Icon>ui\flash\shared\textures\forerunner\icons\power\ForerunnerShieldEnhancement</Icon>
+      <IconLocation>6</IconLocation>
+      <CameraZoomMin>200</CameraZoomMin>
+      <CameraZoomMax>200</CameraZoomMax>
+      <CameraPitchMin>55</CameraPitchMin>
+      <CameraPitchMax>55</CameraPitchMax>
+      <CameraEnableUserScroll>true</CameraEnableUserScroll>
+      <CameraEnableUserYaw>false</CameraEnableUserYaw>
+      <CameraEnableUserZoom>false</CameraEnableUserZoom>
+      <FlashUI>
+        <CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+        <CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+      </FlashUI>
+      <DataLevel level="0">
+        <Data type="float" name="SquadSpawnDelay">0.75</Data>
+        <Data type="sound" name="HudUpSound">play_unsc_odstdrop_vo_ready</Data>
+        <Data type="sound" name="HudAbortSound">play_unsc_odstdrop_vo_exit</Data>
+        <Data type="sound" name="HudFireSound">play_unsc_odstdrop_vo_fire</Data>
+        <Data type="sound" name="HudLastFireSound">play_unsc_odstdrop_vo_out</Data>
+        <Data type="sound" name="HudStartEnvSound">hud_mac_open</Data>
+        <Data type="sound" name="HudStopEnvSound">hud_mac_close</Data>
+        <Data type="protoobject" name="Projectile">unsc_air_odstPod_01</Data>
+      </DataLevel>
+    </Attributes>
+    <TriggerScript>powers\forerunner\shieldenhancement.triggerscript</TriggerScript>
+  </Power>
+  <Power name="ForerunnerSentinelDrop">
+    <Attributes>
+      <Cost Supplies="450" Power="3" />
+      <Pop type="Unit">5</Pop>
+      <AutoRecharge>120000</AutoRecharge>
+      <UIRadius>10</UIRadius>
+      <DisplayNameID>90166</DisplayNameID>
+      <RolloverTextID>90167</RolloverTextID>
+      <PrereqTextID>90167</PrereqTextID>
+      <ShowLimit />
+      <LeaderPower />
+      <Icon>ui\flash\shared\textures\forerunner\icons\power\ForerunnerSentinelDrop</Icon>
+      <IconLocation>7</IconLocation>
+      <CameraZoomMin>200</CameraZoomMin>
+      <CameraZoomMax>200</CameraZoomMax>
+      <CameraPitchMin>55</CameraPitchMin>
+      <CameraPitchMax>55</CameraPitchMax>
+      <CameraEnableUserScroll>true</CameraEnableUserScroll>
+      <CameraEnableUserYaw>false</CameraEnableUserYaw>
+      <CameraEnableUserZoom>false</CameraEnableUserZoom>
+      <FlashUI>
+        <CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+        <CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+      </FlashUI>
+      <DataLevel level="0">
+        <Data type="float" name="SquadSpawnDelay">0.75</Data>
+        <Data type="sound" name="HudUpSound">play_unsc_odstdrop_vo_ready</Data>
+        <Data type="sound" name="HudAbortSound">play_unsc_odstdrop_vo_exit</Data>
+        <Data type="sound" name="HudFireSound">play_unsc_odstdrop_vo_fire</Data>
+        <Data type="sound" name="HudLastFireSound">play_unsc_odstdrop_vo_out</Data>
+        <Data type="sound" name="HudStartEnvSound">hud_mac_open</Data>
+        <Data type="sound" name="HudStopEnvSound">hud_mac_close</Data>
+        <Data type="protoobject" name="Projectile">unsc_air_odstPod_01</Data>
+      </DataLevel>
+    </Attributes>
+    <TriggerScript>powers\forerunner\sentineldrop.triggerscript</TriggerScript>
+  </Power>
+  <Power name="ForerunnerOrbitalBombard">
+    <Attributes>
+      <PowerType>Orbital</PowerType>
+      <Cost Supplies="750" Power="1" />
+      <AutoRecharge>200000</AutoRecharge>
+      <UIRadius>18</UIRadius>
+      <DisplayNameID>90102</DisplayNameID>
+      <RolloverTextID>90103</RolloverTextID>
+      <PrereqTextID>5027</PrereqTextID>
+      <ShowLimit />
+      <LeaderPower />
+      <Icon>ui\flash\shared\textures\forerunner\icons\power\ForerunnerOrbitalBombard</Icon>
+      <IconLocation>0</IconLocation>
+      <FlashUI>
+        <CircleMenuFrameIDNormal>14</CircleMenuFrameIDNormal>
+        <CircleMenuFrameIDHighlight>15</CircleMenuFrameIDHighlight>
+      </FlashUI>
+      <CameraZoomMin>200</CameraZoomMin>
+      <CameraZoomMax>200</CameraZoomMax>
+      <CameraPitchMin>55</CameraPitchMin>
+      <CameraPitchMax>55</CameraPitchMax>
+      <CameraEnableUserScroll>true</CameraEnableUserScroll>
+      <CameraEnableUserYaw>false</CameraEnableUserYaw>
+      <CameraEnableUserZoom>false</CameraEnableUserZoom>
+      <CameraEffectIn>OrbitalPower</CameraEffectIn>
+      <CameraEffectOut>OrbitalPowerToNormal</CameraEffectOut>
+      <BaseDataLevel>
+        <Data type="bool" name="RequiresLOS">true</Data>
+        <Data type="protoobject" name="TargetBeam">fx_proj_maccannontargetbeam_01</Data>
+        <Data type="protoobject" name="RockSmall"></Data>
+        <Data type="protoobject" name="RockMedium"></Data>
+        <Data type="protoobject" name="RockLarge"></Data>
+        <Data type="float" name="TargetingDelay">1.5</Data>
+        <Data type="float" name="AutoShotDelay">0.5</Data>
+        <Data type="float" name="AutoShotInnerRadius">5</Data>
+        <Data type="float" name="AutoShotOuterRadius">20</Data>
+        <Data type="float" name="XOffset">15</Data>
+        <Data type="float" name="YOffset">35</Data>
+        <Data type="float" name="ZOffset">15</Data>
+        <Data type="float" name="CommandInterval">0.200000003</Data>
+        <Data type="float" name="ShotInterval">0</Data>
+        <Data type="sound" name="HudUpSound">play_unsc_mac_vo_ready</Data>
+        <Data type="sound" name="HudAbortSound">play_unsc_mac_vo_exit</Data>
+        <Data type="sound" name="HudFireSound">play_unsc_mac_vo_fire</Data>
+        <Data type="sound" name="HudLastFireSound">play_unsc_mac_vo_out</Data>
+        <Data type="sound" name="FiredSound">play_mac_cannon_fire_from_space</Data>
+        <Data type="sound" name="HudStartEnvSound">hud_mac_open</Data>
+        <Data type="sound" name="HudStopEnvSound">hud_mac_close</Data>
+      </BaseDataLevel>
+      <DataLevel level="0">
+        <Data type="protoobject" name="Projectile">pow_gp_EMPmacCannonSmall</Data>
+        <Data type="protoobject" name="Effect">pow_gp_EMPmacCannonVisualSmall</Data>
+        <Data type="int" name="NumShots">1</Data>
+      </DataLevel>
+      <DataLevel level="1">
+        <Data type="protoobject" name="Projectile">pow_gp_EMPmacCannonSmall</Data>
+        <Data type="protoobject" name="Effect">pow_gp_EMPmacCannonVisualSmall</Data>
+        <Data type="int" name="NumShots">2</Data>
+      </DataLevel>
+      <DataLevel level="2">
+        <Data type="protoobject" name="Projectile">pow_gp_EMPmacCannonSmall</Data>
+        <Data type="protoobject" name="Effect">pow_gp_EMPmacCannonVisualSmall</Data>
+        <Data type="int" name="NumShots">3</Data>
+      </DataLevel>
+      <DataLevel level="3">
+        <Data type="protoobject" name="Projectile">pow_gp_EMPmacCannonSmall</Data>
+        <Data type="protoobject" name="Effect">pow_gp_EMPmacCannonVisualSmall</Data>
+        <Data type="int" name="NumShots">4</Data>
+      </DataLevel>
+    </Attributes>
+  </Power>
 </Powers>

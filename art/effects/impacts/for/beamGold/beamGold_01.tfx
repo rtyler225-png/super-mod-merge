@@ -1,0 +1,8 @@
+<TerrainEffect>
+
+   <default>
+      <particlefile>effects\impacts\for\beamGold\beamGold_01</particlefile>
+
+   </default>
+
+</TerrainEffect>

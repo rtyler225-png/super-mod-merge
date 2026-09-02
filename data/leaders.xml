@@ -501,4 +501,33 @@
     <Pop Type="Engi" Max="8000">100</Pop>
     <Pop Type="Hornet" Max="8000">5</Pop>
   </Leader>
+  <Leader Name="Didact" Icon="ui\game\icon\unsc\leader\Captain Cutter" LeaderPickerOrder="16" StatsID="16" DefaultPlayerSlotFlags="0x81">
+    <Civ>UNSC</Civ>
+    <Tech>forfaction_LeaderForerunner</Tech>
+    <NameID>90000</NameID>
+    <DescriptionID>90001</DescriptionID>
+    <FlashCivID>2</FlashCivID>
+    <FlashImg>orbital</FlashImg>
+    <FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\forerunners.ddx</FlashPortrait>
+    <UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_forerunners.ddx</UIControlBackground>
+    <Resource Type="Supplies">1000</Resource>
+    <Resource Type="CampaignFoo">0</Resource>
+    <Resource Type="Collectable">0</Resource>
+    <Resource Type="Power">0</Resource>
+    <StartingUnit Offset="0,0,0" BuildOther="forfaction_bldg_base_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+    <StartingSquad FlyIn="false" Offset="60,0,-20">forfaction_veh_bike_01</StartingSquad>
+    <RallyPointOffset>50,0,0</RallyPointOffset>
+    <RepairRate>1</RepairRate>
+    <RepairDelay>20</RepairDelay>
+    <RepairCost Type="Supplies">35</RepairCost>
+    <RepairTime>30</RepairTime>
+    <Pop Type="Unit" Max="99">40</Pop>
+    <Pop Type="Knight" Max="3">3</Pop>
+    <Pop Type="Leader" Max="1">1</Pop>
+    <Pop Type="Temple" Max="1">1</Pop>
+    <Pop Type="Cryptum" Max="1">1</Pop>
+    <Pop Type="SuperBase" Max="1">1</Pop>
+    <Pop Type="Starfighter" Max="3">3</Pop>
+    <Pop Type="CovEngineer" Max="10">10</Pop>
+  </Leader>
 </Leaders>

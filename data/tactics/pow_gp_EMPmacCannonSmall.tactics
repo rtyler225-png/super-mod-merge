@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>OrbitalBombardmentShockwave</Name>
+		<AllowFriendlyFire />
+		<DamagePerSecond>200</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<AOERadius>75</AOERadius>
+		<AOEDistanceFactor>0.330000013</AOEDistanceFactor>
+		<AOEDamageFactor>1</AOEDamageFactor>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1000</PhysicsForceMin>
+		<PhysicsForceMax>1200</PhysicsForceMax>
+		<DamageRatingOverride type="Building" halfKillCutoffFactor="10">1</DamageRatingOverride>
+		<DamageRatingOverride type="TurretBuilding" halfKillCutoffFactor="10">1</DamageRatingOverride>
+		<Daze TargetType="unit" MovementModifier="0">8.0f</Daze>
+		<Bounces>8</Bounces>
+		<BounceRange>25</BounceRange>
+	</Weapon>
+	<Weapon>
+		<Name>OrbitalBombardment</Name>
+		<AllowFriendlyFire />
+		<DamagePerSecond>30000</DamagePerSecond>
+		<WeaponType>LeaderPower</WeaponType>
+		<Projectile>pow_gp_EMPmacCannonSmall</Projectile>
+		<ImpactCameraShake duration="0.300000012" strength="1.20000005" />
+		<ImpactRumble leftRumbleType="Fixed" leftStrength="1" rightRumbleType="Fixed" rightStrength="1" duration="0.5" />
+		<ImpactEffect size="Large">stasisbomb_01</ImpactEffect>
+		<ImpactCameraEffect>
+			<ColorTransformFactor>
+				<Value time="0">0.600000024</Value>
+				<Value time="0.300000012">0.300000012</Value>
+				<Value time="0.600000024">0</Value>
+			</ColorTransformFactor>
+			<BlurFactor>
+				<Value time="0">0.600000024</Value>
+				<Value time="0.300000012">0.600000024</Value>
+				<Value time="0.600000024">0</Value>
+			</BlurFactor>
+			<ColorTransformR>
+				<Value time="0">0.899999976,0,0</Value>
+			</ColorTransformR>
+			<ColorTransformG>
+				<Value time="0">0,0.899999976,0</Value>
+			</ColorTransformG>
+			<ColorTransformB>
+				<Value time="0">0,0,1</Value>
+			</ColorTransformB>
+			<BlurXY />
+			<RadialBlurFactor use3DPos="true">
+				<Value time="0">0.100000001,0.200000003</Value>
+				<Value time="0.300000012">0.200000003,0.200000003</Value>
+				<Value time="0.600000024">0,0</Value>
+			</RadialBlurFactor>
+			<FOV />
+		</ImpactCameraEffect>
+		<AOERadius>50</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.400000006</AOEDistanceFactor>
+		<AOEDamageFactor>0.100000001</AOEDamageFactor>
+		<AOEIgnoresYAxis />
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1600</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<Daze TargetType="unit" MovementModifier="0">8.0f</Daze>
+		<Bounces>8</Bounces>
+		<BounceRange>25</BounceRange>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>OrbitalBombardmentAttackAction</Name>
+		<Weapon>OrbitalBombardment</Weapon>
+	</Action>
+	<Action>
+		<Name>OrbitalBombardmentShockwaveAction</Name>
+		<Weapon>OrbitalBombardmentShockwave</Weapon>
+		<Shockwave />
+	</Action>
+	<Tactic />
+</TacticData>

@@ -22356,7 +22356,7 @@
     <DisplayNameID>88835</DisplayNameID>
     <RolloverTextID>88834</RolloverTextID>
     <RoleTextID>506</RoleTextID>
-    <PortraitIcon>ui\npc\air\sentinel\sentinel</PortraitIcon>
+    <PortraitIcon>ui\flash\shared\textures\forerunner\icons\unit\for_air_constructor_01</PortraitIcon>
     <MinimapIcon size="8">Triangle</MinimapIcon>
     <MinimapScale>1</MinimapScale>
     <HPBar offset="0,5,0">COV_Health</HPBar>
@@ -28248,4 +28248,519 @@
       <ConformToTerrain>true</ConformToTerrain>
     </Selection>
   </Squad>
+	<Squad name="forfaction_inf_soldier_01" formationType="Flock" dbid="877">
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\unit\forfaction_inf_soldier_01</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>90034</DisplayNameID>
+		<RolloverTextID>90035</RolloverTextID>
+		<StatsNameID>25679</StatsNameID>
+		<RoleTextID>500</RoleTextID>
+		<BuildPoints>8</BuildPoints>
+		<Cost resourcetype="Supplies">100</Cost>
+		<SubSelectSort>3000195</SubSelectSort>
+		<LeashDistance>55</LeashDistance>
+		<LeashDeadzone>25</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>35</AggroDistance>
+		<Birth anim0="Train" anim1="Train" anim2="TrainAirlock" anim3="ElephantTrain" trainerAnim="TrainInfantry" spawnpoint="bone_spawnPoint02" endPoint="bone_endPoint02">Trained</Birth>
+		<HPBar offset="0,9,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="4" role="normal">forfaction_inf_soldier_01</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="forfaction_inf_crawler_01" formationType="Line" dbid="877">
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\unit\forfaction_inf_crawler_01</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>90106</DisplayNameID>
+		<RolloverTextID>90107</RolloverTextID>
+		<StatsNameID>25679</StatsNameID>
+		<RoleTextID>503</RoleTextID>
+		<BuildPoints>8</BuildPoints>
+		<Cost resourcetype="Supplies">100</Cost>
+		<SubSelectSort>3000196</SubSelectSort>
+		<LeashDistance>55</LeashDistance>
+		<LeashDeadzone>25</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>35</AggroDistance>
+		<Birth anim0="Train" anim1="Train" anim2="TrainAirlock" anim3="ElephantTrain" trainerAnim="TrainInfantry" spawnpoint="bone_spawnPoint02" endPoint="bone_endPoint02">Trained</Birth>
+		<HPBar offset="0,9,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="2" role="normal">forfaction_inf_crawler_01</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="forfaction_inf_knight_01" dbid="877">
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\unit\forfaction_inf_knight_01</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>90108</DisplayNameID>
+		<RolloverTextID>90109</RolloverTextID>
+		<StatsNameID>25679</StatsNameID>
+		<RoleTextID>519</RoleTextID>
+		<BuildPoints>16</BuildPoints>
+		<Cost resourcetype="Supplies">300</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<SubSelectSort>3000197</SubSelectSort>
+		<LeashDistance>55</LeashDistance>
+		<LeashDeadzone>25</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>35</AggroDistance>
+		<Birth anim0="Train" anim1="Train" anim2="TrainAirlock" anim3="ElephantTrain" trainerAnim="TrainInfantry" spawnpoint="bone_spawnPoint02" endPoint="bone_endPoint02">Trained</Birth>
+		<HPBar offset="0,9,0">COV_HealthShield</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<BobbleHead>FOR_Knight</BobbleHead>
+		<Units>
+			<Unit count="1" role="normal">forfaction_inf_knight_01</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>OnlyShowBobbleHeadWhenContained</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="forfaction_air_wardenMonitor_01" dbid="3835">
+		<DisplayNameID>23944</DisplayNameID>
+		<RolloverTextID>23945</RolloverTextID>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<HPBar offset="0,5,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Cost resourcetype="Supplies">50</Cost>
+		<BuildPoints>0</BuildPoints>
+		<SubSelectSort>10007</SubSelectSort>
+		<LeashDistance>0</LeashDistance>
+		<Units>
+			<Unit count="1" role="normal">forfaction_air_wardenMonitor_01</Unit>
+		</Units>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+		</Selection>
+		<Flag>InstantTrainWithRecharge</Flag>
+		<Flag>JoinAll</Flag>
+		<Flag>AlwaysAttackReviveUnits</Flag>
+		<Flag>KBAware</Flag>
+	</Squad>
+	<Squad name="forfaction_air_sentinel_01" dbid="919">
+		<DisplayNameID>90036</DisplayNameID>
+		<RolloverTextID>90037</RolloverTextID>
+		<RoleTextID>502</RoleTextID>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\unit\for_air_enforcer_01</PortraitIcon>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<Birth spawnpoint="bone_spawnPoint03">FlyIn</Birth>
+		<MinimapScale>1</MinimapScale>
+		<HPBar offset="0,5,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Cost resourcetype="Supplies">100</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<BuildPoints>15</BuildPoints>
+		<SubSelectSort>1000122</SubSelectSort>
+		<LeashDistance>45</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>25</AggroDistance>
+		<Units>
+			<Unit count="1" role="normal">forfaction_air_sentinel_01</Unit>
+		</Units>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+		</Selection>
+		<Flag>DiesWhenFrozen</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>AlwaysAttackReviveUnits</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>Forerunner</Flag>
+	</Squad>
+	<Squad name="forfaction_air_supersentinel_01" dbid="1478">
+		<DisplayNameID>90044</DisplayNameID>
+		<RolloverTextID>90045</RolloverTextID>
+		<RoleTextID>506</RoleTextID>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\unit\for_air_supersentinel_01</PortraitIcon>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<Birth spawnpoint="bone_spawnPoint03">FlyIn</Birth>
+		<MinimapScale>1</MinimapScale>
+		<BuildPoints>60</BuildPoints>
+		<HPBar offset="0,5,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Cost resourcetype="Supplies">300</Cost>
+		<Cost resourcetype="Power">2</Cost>
+		<BuildPoints>30</BuildPoints>
+		<SubSelectSort>1000222</SubSelectSort>
+		<LeashDistance>15</LeashDistance>
+		<LeashDeadzone>5</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>0</AggroDistance>
+		<Units>
+			<Unit count="1" role="normal">forfaction_air_supersentinel_01</Unit>
+		</Units>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+		</Selection>
+		<Flag>DiesWhenFrozen</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>AlwaysAttackReviveUnits</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>Forerunner</Flag>
+	</Squad>
+	<Squad name="forfaction_air_protector_01" dbid="3238">
+		<DisplayNameID>90048</DisplayNameID>
+		<RolloverTextID>90049</RolloverTextID>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\unit\forfaction_air_protector_01</PortraitIcon>
+		<RoleTextID>24167</RoleTextID>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\unit\forfaction_air_protector_01</PortraitIcon>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<Birth spawnpoint="bone_spawnPoint03">FlyIn</Birth>
+		<HPBar offset="0,5,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Cost resourcetype="Supplies">175</Cost>
+		<Cost resourcetype="Power">2</Cost>
+		<BuildPoints>30</BuildPoints>
+		<SubSelectSort>1000488</SubSelectSort>
+		<LeashDistance>0</LeashDistance>
+		<Units>
+			<Unit count="1" role="normal">forfaction_air_protector_01</Unit>
+		</Units>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+		</Selection>
+		<Flag>DiesWhenFrozen</Flag>
+		<Flag>AlwaysAttackReviveUnits</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>Forerunner</Flag>
+	</Squad>
+	<Squad name="forfaction_air_phaeton_01" dbid="1478">
+		<DisplayNameID>90128</DisplayNameID>
+		<RolloverTextID>90129</RolloverTextID>
+		<RoleTextID>524</RoleTextID>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\unit\forfaction_air_phaeton_01</PortraitIcon>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<Birth spawnpoint="bone_spawnPoint03">FlyIn</Birth>
+		<BuildPoints>60</BuildPoints>
+		<HPBar offset="0,5,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Cost resourcetype="Supplies">750</Cost>
+		<Cost resourcetype="Power">3</Cost>
+		<BuildPoints>30</BuildPoints>
+		<SubSelectSort>1000223</SubSelectSort>
+		<LeashDistance>15</LeashDistance>
+		<LeashDeadzone>5</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>0</AggroDistance>
+		<Units>
+			<Unit count="1" role="normal">forfaction_air_phaeton_01</Unit>
+		</Units>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+		</Selection>
+		<DazeResist>0.25</DazeResist>
+		<Flag>DiesWhenFrozen</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>AlwaysAttackReviveUnits</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>Forerunner</Flag>
+	</Squad>
+	<Squad name="forfaction_air_phoenix_01" dbid="1478">
+		<DisplayNameID>90184</DisplayNameID>
+		<RolloverTextID>90185</RolloverTextID>
+		<RoleTextID>533</RoleTextID>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\unit\forfaction_air_phoenix_01</PortraitIcon>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<Birth spawnpoint="bone_spawnPoint03">FlyIn</Birth>
+		<BuildPoints>60</BuildPoints>
+		<HPBar offset="0,5,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Cost resourcetype="Supplies">700</Cost>
+		<Cost resourcetype="Power">3</Cost>
+		<BuildPoints>30</BuildPoints>
+		<SubSelectSort>1000224</SubSelectSort>
+		<LeashDistance>15</LeashDistance>
+		<LeashDeadzone>5</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>0</AggroDistance>
+		<Units>
+			<Unit count="1" role="normal">forfaction_air_phoenix_01</Unit>
+		</Units>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+		</Selection>
+		<DazeResist>0.25</DazeResist>
+		<Flag>DiesWhenFrozen</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>AlwaysAttackReviveUnits</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>Forerunner</Flag>
+	</Squad>
+	<Squad name="forfaction_air_phaetonFX_01" dbid="3082">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\air_wasp</PortraitIcon>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>23675</DisplayNameID>
+		<RolloverTextID>23676</RolloverTextID>
+		<RoleTextID>509</RoleTextID>
+		<PrereqTextID>233</PrereqTextID>
+		<BuildPoints>18</BuildPoints>
+		<Cost resourcetype="Supplies">150</Cost>
+		<Cost resourcetype="Power">3</Cost>
+		<SubSelectSort>7300</SubSelectSort>
+		<HPBar offset="0,5,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">forfaction_air_phaetonFX_01</Unit>
+		</Units>
+		<Flag>DiesWhenFrozen</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>NoPlatoonMerge</Flag>
+		<Flag>Forerunner</Flag>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="forfaction_air_watcher_01" dbid="919">
+		<DisplayNameID>90136</DisplayNameID>
+		<RolloverTextID>90137</RolloverTextID>
+		<RoleTextID>24167</RoleTextID>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\unit\forfaction_air_watcher_01</PortraitIcon>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<Birth spawnpoint="bone_spawnPoint03">FlyIn</Birth>
+		<HPBar offset="0,5,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Cost resourcetype="Supplies">200</Cost>
+		<Cost resourcetype="Power">2</Cost>
+		<BuildPoints>30</BuildPoints>
+		<SubSelectSort>1000125</SubSelectSort>
+		<LeashDistance>45</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>25</AggroDistance>
+		<Units>
+			<Unit count="1" role="normal">forfaction_air_watcher_01</Unit>
+		</Units>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+		</Selection>
+		<Flag>DiesWhenFrozen</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>AlwaysAttackReviveUnits</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>Forerunner</Flag>
+	</Squad>
+	<Squad name="forfaction_veh_tank_01" dbid="917">
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\unit\forfaction_veh_tank_01</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>90054</DisplayNameID>
+		<RolloverTextID>90055</RolloverTextID>
+		<PrereqTextID>242</PrereqTextID>
+		<RoleTextID>501</RoleTextID>
+		<BuildPoints>26</BuildPoints>
+		<Cost resourcetype="Supplies">400</Cost>
+		<Cost resourcetype="Power">2</Cost>
+		<SubSelectSort>50190</SubSelectSort>
+		<LeashDistance>20</LeashDistance>
+		<LeashDeadzone>5</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>0</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint04" endPoint="bone_spawnPoint04">Trained</Birth>
+		<HPBar offset="0,12,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">forfaction_veh_tank_01</Unit>
+		</Units>
+		<TurnRadius min="0.1" max="4" />
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="forfaction_veh_bike_01" formationType="Line" dbid="913">
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\unit\forfaction_veh_bike_01</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>90062</DisplayNameID>
+		<RolloverTextID>90063</RolloverTextID>
+		<PrereqTextID>240</PrereqTextID>
+		<RoleTextID>518</RoleTextID>
+		<BuildPoints>8</BuildPoints>
+		<Cost resourcetype="Supplies">125</Cost>
+		<SubSelectSort>60078</SubSelectSort>
+		<LeashDistance>45</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>25</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
+		<HPBar offset="0,9,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">forfaction_veh_bike_01</Unit>
+		</Units>
+		<TurnRadius min="0.1" max="4" />
+		<Flag>Chatter</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="forfaction_veh_mech_01" formationType="Flock" dbid="2825">
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\unit\forfaction_veh_mech_01</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>90070</DisplayNameID>
+		<RolloverTextID>90071</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<RoleTextID>505</RoleTextID>
+		<BuildPoints>20</BuildPoints>
+		<Cost resourcetype="Supplies">300</Cost>
+		<Cost resourcetype="Power">3</Cost>
+		<SubSelectSort>3200124</SubSelectSort>
+		<LeashDistance>80</LeashDistance>
+		<LeashDeadzone>20</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>40</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
+		<HPBar offset="0,9,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">forfaction_veh_mech_01</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="forfaction_inf_didact_01" dbid="2826">
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\unit\forfaction_inf_didact_01</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>90078</DisplayNameID>
+		<RolloverTextID>90079</RolloverTextID>
+		<PrereqTextID>244</PrereqTextID>
+		<RoleTextID>520</RoleTextID>
+		<BuildPoints>60</BuildPoints>
+		<Cost resourcetype="Supplies">400</Cost>
+		<SubSelectSort>2000</SubSelectSort>
+		<LeashDistance>80</LeashDistance>
+		<LeashDeadzone>40</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>40</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
+		<HPBar offset="0,13,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<BobbleHead>FOR_Didact</BobbleHead>
+		<Units>
+			<Unit count="1" role="normal">forfaction_inf_didact_01</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>CreateAudioReactions</Flag>
+		<DazeResist>0</DazeResist>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="forfaction_inf_warden_01" dbid="2826">
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\unit\forfaction_inf_warden_01</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>90104</DisplayNameID>
+		<RolloverTextID>90105</RolloverTextID>
+		<PrereqTextID>244</PrereqTextID>
+		<RoleTextID>508</RoleTextID>
+		<BuildPoints>100</BuildPoints>
+		<Cost resourcetype="Supplies">2000</Cost>
+		<Cost resourcetype="Power">3</Cost>
+		<SubSelectSort>200077</SubSelectSort>
+		<LeashDistance>80</LeashDistance>
+		<LeashDeadzone>40</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>40</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
+		<HPBar sizeX="12.0f" sizeY="3.0f" offset="0,21,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="COV_Star_Scarab_Centered">COV_Star_Scarab</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">forfaction_inf_warden_01</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>CreateAudioReactions</Flag>
+		<DazeResist>0</DazeResist>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="forfaction_air_cryptum_01" dbid="871">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\air_vulture</PortraitIcon>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>90092</DisplayNameID>
+		<RolloverTextID>90093</RolloverTextID>
+		<PrereqTextID>236</PrereqTextID>
+		<RoleTextID>508</RoleTextID>
+		<BuildPoints>60</BuildPoints>
+		<Cost resourcetype="Supplies">900</Cost>
+		<Cost resourcetype="Power">4</Cost>
+		<SubSelectSort>720077</SubSelectSort>
+		<Birth spawnpoint="bone_spawnPoint03">FlyIn</Birth>
+		<LeashDistance>15</LeashDistance>
+		<LeashDeadzone>5</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>0</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
+		<HPBar offset="0,13,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<DazeResist>0.25</DazeResist>
+		<Units>
+			<Unit count="1" role="normal">forfaction_air_cryptum_01</Unit>
+		</Units>
+		<CryoPoints>150</CryoPoints>
+		<Flag>DiesWhenFrozen</Flag>
+		<Flag>InstantTrainWithRecharge</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+		</Selection>
+	</Squad>
 </Squads>
