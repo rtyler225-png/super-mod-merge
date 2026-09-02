@@ -7417,5 +7417,7 @@ Unlocks Repair Drones.</String>
 		<String _locID="27319" category="Powers" subtitle="false">Calls in 3 Sentinels and 1 Super Sentinel.</String>
 		<String _locID="26933" category="Powers" subtitle="false">EMP MAC BLAST</String>
 		<String _locID="26934" category="Powers" subtitle="false">Fires a modified UNSC MAC Blast from a commandeered UNSC ship that disables all units temporarily.</String>
+		<String _locID="26831" category="Leaders" subtitle="false">THE DIDACT</String>
+		<String _locID="26832" category="Leaders" subtitle="false">Leader: THE UR-DIDACT, Unique Units: SENTINEL FORCES and PROMETHEAN FORCES, Ultimate Power: EMP MAC BLAST</String>
 	</Language>
 </StringTable>
