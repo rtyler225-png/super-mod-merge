@@ -3657,9 +3657,9 @@
       <Cost Supplies="200" />
       <UIRadius>30</UIRadius>
       <ShowTransportArrows>true</ShowTransportArrows>
-      <DisplayNameID>27304</DisplayNameID>
-      <RolloverTextID>27305</RolloverTextID>
-      <PrereqTextID>27305</PrereqTextID>
+      <DisplayNameID>90152</DisplayNameID>
+      <RolloverTextID>90153</RolloverTextID>
+      <PrereqTextID>90153</PrereqTextID>
       <Icon>ui\flash\shared\textures\forerunner\icons\power\ForerunnerTransport</Icon>
       <IconLocation>1</IconLocation>
       <CameraZoomMin>150</CameraZoomMin>
@@ -3694,8 +3694,8 @@
       <Cost Supplies="350" />
       <AutoRecharge>60000</AutoRecharge>
       <UIRadius>35</UIRadius>
-      <DisplayNameID>27306</DisplayNameID>
-      <RolloverTextID>27307</RolloverTextID>
+      <DisplayNameID>90154</DisplayNameID>
+      <RolloverTextID>90155</RolloverTextID>
       <ShowLimit />
       <LeaderPower />
       <ShowTargetHighlight ObjectType="Military" Relation="Ally" />
@@ -3736,9 +3736,9 @@
       <Cost Supplies="450" Power="2" />
       <AutoRecharge>360000</AutoRecharge>
       <UIRadius>10</UIRadius>
-      <DisplayNameID>27310</DisplayNameID>
-      <RolloverTextID>27311</RolloverTextID>
-      <PrereqTextID>27311</PrereqTextID>
+      <DisplayNameID>90158</DisplayNameID>
+      <RolloverTextID>90159</RolloverTextID>
+      <PrereqTextID>90159</PrereqTextID>
       <ShowLimit />
       <LeaderPower />
       <Icon>ui\flash\shared\textures\forerunner\icons\power\ForerunnerArcTower</Icon>
@@ -3772,9 +3772,9 @@
       <Cost Supplies="400" Power="2" />
       <AutoRecharge>120000</AutoRecharge>
       <UIRadius>10</UIRadius>
-      <DisplayNameID>27312</DisplayNameID>
-      <RolloverTextID>27313</RolloverTextID>
-      <PrereqTextID>27313</PrereqTextID>
+      <DisplayNameID>90160</DisplayNameID>
+      <RolloverTextID>90161</RolloverTextID>
+      <PrereqTextID>90161</PrereqTextID>
       <ShowLimit />
       <LeaderPower />
       <Icon>ui\flash\shared\textures\forerunner\icons\power\ForerunnerBeamBarrage</Icon>
@@ -3809,9 +3809,9 @@
       <Pop type="Unit">3</Pop>
       <AutoRecharge>90000</AutoRecharge>
       <UIRadius>10</UIRadius>
-      <DisplayNameID>27314</DisplayNameID>
-      <RolloverTextID>27315</RolloverTextID>
-      <PrereqTextID>27315</PrereqTextID>
+      <DisplayNameID>90162</DisplayNameID>
+      <RolloverTextID>90163</RolloverTextID>
+      <PrereqTextID>90163</PrereqTextID>
       <ShowLimit />
       <LeaderPower />
       <Icon>ui\flash\shared\textures\forerunner\icons\power\ForerunnerSoldierDrop</Icon>
@@ -3846,9 +3846,9 @@
       <Pop type="Unit">6</Pop>
       <AutoRecharge>90000</AutoRecharge>
       <UIRadius>10</UIRadius>
-      <DisplayNameID>27677</DisplayNameID>
-      <RolloverTextID>27678</RolloverTextID>
-      <PrereqTextID>27678</PrereqTextID>
+      <DisplayNameID>90172</DisplayNameID>
+      <RolloverTextID>90173</RolloverTextID>
+      <PrereqTextID>90173</PrereqTextID>
       <ShowLimit />
       <LeaderPower />
       <Icon>ui\flash\shared\textures\forerunner\icons\power\ForerunnerSoldierDrop2</Icon>
@@ -3882,9 +3882,9 @@
       <Cost Supplies="800" Power="3" />
       <AutoRecharge>1</AutoRecharge>
       <UIRadius>10</UIRadius>
-      <DisplayNameID>27316</DisplayNameID>
-      <RolloverTextID>27317</RolloverTextID>
-      <PrereqTextID>27317</PrereqTextID>
+      <DisplayNameID>90164</DisplayNameID>
+      <RolloverTextID>90165</RolloverTextID>
+      <PrereqTextID>90165</PrereqTextID>
       <ShowLimit />
       <LeaderPower />
       <Icon>ui\flash\shared\textures\forerunner\icons\power\ForerunnerShieldEnhancement</Icon>
@@ -3919,9 +3919,9 @@
       <Pop type="Unit">5</Pop>
       <AutoRecharge>120000</AutoRecharge>
       <UIRadius>10</UIRadius>
-      <DisplayNameID>27318</DisplayNameID>
-      <RolloverTextID>27319</RolloverTextID>
-      <PrereqTextID>27319</PrereqTextID>
+      <DisplayNameID>90166</DisplayNameID>
+      <RolloverTextID>90167</RolloverTextID>
+      <PrereqTextID>90167</PrereqTextID>
       <ShowLimit />
       <LeaderPower />
       <Icon>ui\flash\shared\textures\forerunner\icons\power\ForerunnerSentinelDrop</Icon>
@@ -3956,8 +3956,8 @@
       <Cost Supplies="750" Power="1" />
       <AutoRecharge>200000</AutoRecharge>
       <UIRadius>18</UIRadius>
-      <DisplayNameID>26933</DisplayNameID>
-      <RolloverTextID>26934</RolloverTextID>
+      <DisplayNameID>90102</DisplayNameID>
+      <RolloverTextID>90103</RolloverTextID>
       <PrereqTextID>5027</PrereqTextID>
       <ShowLimit />
       <LeaderPower />

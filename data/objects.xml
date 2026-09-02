@@ -109335,7 +109335,7 @@
 	<Object name="forfaction_bldg_turretsocket_01" id="0" dbid="3092">
 		<ObjectClass>Building</ObjectClass>
 		<Visual>forerunner\building\turretsocket_01\turretsocket_01.vis</Visual>
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_turretsocket_01</PortraitIcon>
 		<DisplayNameID>23624</DisplayNameID>
 		<RolloverTextID>23625</RolloverTextID>
 		<Hitpoints>10</Hitpoints>
@@ -109441,10 +109441,10 @@
 		<ObjectClass>Building</ObjectClass>
 		<Visual>forerunner\building\base_01\base_01.vis</Visual>
 		<PhysicsInfo>creep_forerunner_base_01</PhysicsInfo>
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_command1</PortraitIcon>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_base_01</PortraitIcon>
 		<MinimapIcon size="15">Command</MinimapIcon>
-		<DisplayNameID>26839</DisplayNameID>
-		<RolloverTextID>26840</RolloverTextID>
+		<DisplayNameID>90008</DisplayNameID>
+		<RolloverTextID>90009</RolloverTextID>
 		<StatsNameID>25741</StatsNameID>
 		<MovementType>Land</MovementType>
 		<Hitpoints>10000</Hitpoints>
@@ -109530,10 +109530,10 @@
 		<ObjectClass>Building</ObjectClass>
 		<Visual>forerunner\building\base_02\base_02.vis</Visual>
 		<PhysicsInfo>creep_forerunner_base_01</PhysicsInfo>
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_command1</PortraitIcon>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_base_02</PortraitIcon>
 		<MinimapIcon size="15">Command</MinimapIcon>
-		<DisplayNameID>26841</DisplayNameID>
-		<RolloverTextID>26842</RolloverTextID>
+		<DisplayNameID>90010</DisplayNameID>
+		<RolloverTextID>90011</RolloverTextID>
 		<StatsNameID>25741</StatsNameID>
 		<MovementType>Land</MovementType>
 		<Hitpoints>15000</Hitpoints>
@@ -109633,10 +109633,10 @@
 		<ObjectClass>Building</ObjectClass>
 		<Visual>forerunner\building\base_03\base_03.vis</Visual>
 		<PhysicsInfo>creep_forerunner_base_01</PhysicsInfo>
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_command1</PortraitIcon>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_base_03</PortraitIcon>
 		<MinimapIcon size="15">Command</MinimapIcon>
-		<DisplayNameID>26843</DisplayNameID>
-		<RolloverTextID>26844</RolloverTextID>
+		<DisplayNameID>90012</DisplayNameID>
+		<RolloverTextID>90013</RolloverTextID>
 		<StatsNameID>25741</StatsNameID>
 		<MovementType>Land</MovementType>
 		<Hitpoints>20000</Hitpoints>
@@ -109738,10 +109738,10 @@
 		<ObjectClass>Building</ObjectClass>
 		<Visual>forerunner\building\healspire_01\healspire_01.vis</Visual>
 		<PhysicsInfo>creep_forerunner_base_01</PhysicsInfo>
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_command1</PortraitIcon>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_healspire_01</PortraitIcon>
 		<MinimapIcon size="15">Command</MinimapIcon>
-		<DisplayNameID>26985</DisplayNameID>
-		<RolloverTextID>26986</RolloverTextID>
+		<DisplayNameID>90138</DisplayNameID>
+		<RolloverTextID>90139</RolloverTextID>
 		<StatsNameID>25741</StatsNameID>
 		<MovementType>Land</MovementType>
 		<Ability>HealSpire.triggerscript</Ability>
@@ -109895,10 +109895,10 @@
 		<ObjectClass>Building</ObjectClass>
 		<Visual>forerunner\building\barracks_01\barracks_01.vis</Visual>
 		<PhysicsInfo>unsc_bldg_barracks_01</PhysicsInfo>
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_barracks</PortraitIcon>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_barracks_01</PortraitIcon>
 		<MinimapIcon size="5">Building</MinimapIcon>
-		<DisplayNameID>26833</DisplayNameID>
-		<RolloverTextID>26834</RolloverTextID>
+		<DisplayNameID>90002</DisplayNameID>
+		<RolloverTextID>90003</RolloverTextID>
 		<RoleTextID>511</RoleTextID>
 		<MovementType>Land</MovementType>
 		<Hitpoints>15000</Hitpoints>
@@ -109975,10 +109975,10 @@
 		<ObjectClass>Building</ObjectClass>
 		<Visual>forerunner\building\vehicledepot_01\vehicledepot_01.vis</Visual>
 		<PhysicsInfo>unsc_bldg_vehicledepot_01</PhysicsInfo>
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_vehicledep</PortraitIcon>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_vehicledepot_01</PortraitIcon>
 		<MinimapIcon size="5">Building</MinimapIcon>
-		<DisplayNameID>26835</DisplayNameID>
-		<RolloverTextID>26836</RolloverTextID>
+		<DisplayNameID>90004</DisplayNameID>
+		<RolloverTextID>90005</RolloverTextID>
 		<PrereqTextID>232</PrereqTextID>
 		<RoleTextID>512</RoleTextID>
 		<MovementType>Land</MovementType>
@@ -110057,10 +110057,10 @@
 		<ObjectClass>Building</ObjectClass>
 		<Visual>forerunner\building\airpad_01\airpad_01.vis</Visual>
 		<PhysicsInfo>unsc_bldg_airpad</PhysicsInfo>
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_airpad</PortraitIcon>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_airpad_01</PortraitIcon>
 		<MinimapIcon size="5">Building</MinimapIcon>
-		<DisplayNameID>26837</DisplayNameID>
-		<RolloverTextID>26838</RolloverTextID>
+		<DisplayNameID>90006</DisplayNameID>
+		<RolloverTextID>90007</RolloverTextID>
 		<PrereqTextID>232</PrereqTextID>
 		<RoleTextID>513</RoleTextID>
 		<MovementType>Land</MovementType>
@@ -110143,8 +110143,8 @@
 		<PhysicsInfo>unsc_bldg_airpad</PhysicsInfo>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_airpad</PortraitIcon>
 		<MinimapIcon size="5">Building</MinimapIcon>
-		<DisplayNameID>26837</DisplayNameID>
-		<RolloverTextID>26838</RolloverTextID>
+		<DisplayNameID>90006</DisplayNameID>
+		<RolloverTextID>90007</RolloverTextID>
 		<PrereqTextID>232</PrereqTextID>
 		<RoleTextID>513</RoleTextID>
 		<MovementType>Land</MovementType>
@@ -110225,10 +110225,10 @@
 		<Visual>forerunner\building\supplypad_01\supplypad_01.vis</Visual>
 		<PhysicsInfo>unsc_bldg_supplypad_01</PhysicsInfo>
 		<UIVisual>unsc\building\supplypad_01\ui\supplypad_ui_01.vis</UIVisual>
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_supply1</PortraitIcon>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_supplypad_01</PortraitIcon>
 		<MinimapIcon size="5">Building</MinimapIcon>
-		<DisplayNameID>26849</DisplayNameID>
-		<RolloverTextID>26850</RolloverTextID>
+		<DisplayNameID>90018</DisplayNameID>
+		<RolloverTextID>90019</RolloverTextID>
 		<RoleTextID>510</RoleTextID>
 		<MovementType>Land</MovementType>
 		<Hitpoints>10000</Hitpoints>
@@ -110297,10 +110297,10 @@
 		<Visual>forerunner\building\supplypad_02\supplypad_02.vis</Visual>
 		<PhysicsInfo>unsc_bldg_supplypad_01</PhysicsInfo>
 		<UIVisual>unsc\building\supplypad_01\ui\supplypad_ui_01.vis</UIVisual>
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_supply1</PortraitIcon>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_supplypad_02</PortraitIcon>
 		<MinimapIcon size="5">Building</MinimapIcon>
-		<DisplayNameID>26851</DisplayNameID>
-		<RolloverTextID>26852</RolloverTextID>
+		<DisplayNameID>90020</DisplayNameID>
+		<RolloverTextID>90021</RolloverTextID>
 		<RoleTextID>510</RoleTextID>
 		<MovementType>Land</MovementType>
 		<Hitpoints>10000</Hitpoints>
@@ -110368,10 +110368,10 @@
 		<ObjectClass>Building</ObjectClass>
 		<Visual>forerunner\building\reactor_01\reactor_01.vis</Visual>
 		<PhysicsInfo>unsc_bldg_reactor_01</PhysicsInfo>
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_pwrextractor</PortraitIcon>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_reactor_01</PortraitIcon>
 		<MinimapIcon size="5">Building</MinimapIcon>
-		<DisplayNameID>26855</DisplayNameID>
-		<RolloverTextID>26856</RolloverTextID>
+		<DisplayNameID>90024</DisplayNameID>
+		<RolloverTextID>90025</RolloverTextID>
 		<RoleTextID>515</RoleTextID>
 		<MovementType>Land</MovementType>
 		<AIAssetValueAdjust>4000</AIAssetValueAdjust>
@@ -110445,10 +110445,10 @@
 		<ObjectClass>Building</ObjectClass>
 		<Visual>forerunner\building\reactor_02\reactor_02.vis</Visual>
 		<PhysicsInfo>unsc_bldg_reactor_01</PhysicsInfo>
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_pwrextractor</PortraitIcon>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_reactor_02</PortraitIcon>
 		<MinimapIcon size="5">Building</MinimapIcon>
-		<DisplayNameID>26857</DisplayNameID>
-		<RolloverTextID>26858</RolloverTextID>
+		<DisplayNameID>90026</DisplayNameID>
+		<RolloverTextID>90027</RolloverTextID>
 		<RoleTextID>515</RoleTextID>
 		<MovementType>Land</MovementType>
 		<AIAssetValueAdjust>4000</AIAssetValueAdjust>
@@ -110522,10 +110522,10 @@
 		<ObjectClass>Building</ObjectClass>
 		<Visual>forerunner\building\fieldArmory_01\fieldArmory_01.vis</Visual>
 		<PhysicsInfo>unsc_bldg_fieldarmory_01</PhysicsInfo>
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_barracks</PortraitIcon>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_fieldArmory_01</PortraitIcon>
 		<MinimapIcon size="5">Building</MinimapIcon>
-		<DisplayNameID>26861</DisplayNameID>
-		<RolloverTextID>26862</RolloverTextID>
+		<DisplayNameID>90030</DisplayNameID>
+		<RolloverTextID>90031</RolloverTextID>
 		<PrereqTextID>231</PrereqTextID>
 		<RoleTextID>514</RoleTextID>
 		<MovementType>Land</MovementType>
@@ -110628,8 +110628,8 @@
 		<PhysicsInfo>unsc_bldg_fieldarmory_01</PhysicsInfo>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_barracks</PortraitIcon>
 		<MinimapIcon size="5">Building</MinimapIcon>
-		<DisplayNameID>26861</DisplayNameID>
-		<RolloverTextID>26862</RolloverTextID>
+		<DisplayNameID>90030</DisplayNameID>
+		<RolloverTextID>90031</RolloverTextID>
 		<PrereqTextID>231</PrereqTextID>
 		<RoleTextID>514</RoleTextID>
 		<MovementType>Land</MovementType>
@@ -110761,8 +110761,8 @@
 		<PhysicsInfo>unsc_bldg_fieldarmory_01</PhysicsInfo>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_barracks</PortraitIcon>
 		<MinimapIcon size="5">Building</MinimapIcon>
-		<DisplayNameID>26981</DisplayNameID>
-		<RolloverTextID>26982</RolloverTextID>
+		<DisplayNameID>90134</DisplayNameID>
+		<RolloverTextID>90135</RolloverTextID>
 		<PrereqTextID>231</PrereqTextID>
 		<RoleTextID>514</RoleTextID>
 		<MovementType>Land</MovementType>
@@ -110831,10 +110831,10 @@
 		<ObjectClass>Building</ObjectClass>
 		<Visual>forerunner\building\turret_01\turret_01.vis</Visual>
 		<PhysicsInfo>unsc_bldg_turret_01</PhysicsInfo>
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_turret_cannon</PortraitIcon>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_turret_01</PortraitIcon>
 		<MinimapIcon size="5">Building</MinimapIcon>
-		<DisplayNameID>26863</DisplayNameID>
-		<RolloverTextID>26864</RolloverTextID>
+		<DisplayNameID>90032</DisplayNameID>
+		<RolloverTextID>90033</RolloverTextID>
 		<RoleTextID>516</RoleTextID>
 		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="Turret" pitchattachment="Turret" />
 		<MovementType>Land</MovementType>
@@ -110902,10 +110902,10 @@
 		<ObjectClass>Building</ObjectClass>
 		<Visual>forerunner\building\turret_01\turretai_01.vis</Visual>
 		<PhysicsInfo>unsc_bldg_turret_01</PhysicsInfo>
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_turret_cannon</PortraitIcon>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_turretAI_01</PortraitIcon>
 		<MinimapIcon size="5">Building</MinimapIcon>
-		<DisplayNameID>26987</DisplayNameID>
-		<RolloverTextID>26988</RolloverTextID>
+		<DisplayNameID>90140</DisplayNameID>
+		<RolloverTextID>90141</RolloverTextID>
 		<RoleTextID>516</RoleTextID>
 		<Hardpoint name="AddOnTurret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="Turret" pitchattachment="TurretAttach" />
 		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="Turret" pitchattachment="Turret" />
@@ -110974,10 +110974,10 @@
 		<ObjectClass>Building</ObjectClass>
 		<Visual>forerunner\building\turret_01\turretav_01.vis</Visual>
 		<PhysicsInfo>unsc_bldg_turret_01</PhysicsInfo>
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_turret_cannon</PortraitIcon>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_turretAV_01</PortraitIcon>
 		<MinimapIcon size="5">Building</MinimapIcon>
-		<DisplayNameID>26989</DisplayNameID>
-		<RolloverTextID>26990</RolloverTextID>
+		<DisplayNameID>90142</DisplayNameID>
+		<RolloverTextID>90143</RolloverTextID>
 		<RoleTextID>516</RoleTextID>
 		<Hardpoint name="AddOnTurret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="Turret" pitchattachment="TurretAttach" />
 		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="Turret" pitchattachment="Turret" />
@@ -111046,10 +111046,10 @@
 		<ObjectClass>Building</ObjectClass>
 		<Visual>forerunner\building\turret_01\turretaa_01.vis</Visual>
 		<PhysicsInfo>unsc_bldg_turret_01</PhysicsInfo>
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_turret_cannon</PortraitIcon>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_turretAA_01</PortraitIcon>
 		<MinimapIcon size="5">Building</MinimapIcon>
-		<DisplayNameID>26991</DisplayNameID>
-		<RolloverTextID>26992</RolloverTextID>
+		<DisplayNameID>90144</DisplayNameID>
+		<RolloverTextID>90145</RolloverTextID>
 		<RoleTextID>516</RoleTextID>
 		<Hardpoint name="AddOnTurret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="Turret" pitchattachment="TurretAttach" />
 		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="Turret" pitchattachment="Turret" />
@@ -111118,10 +111118,10 @@
 		<ObjectClass>Building</ObjectClass>
 		<Visual>forerunner\building\beamTurret_01\beamTurret_01.vis</Visual>
 		<PhysicsInfo>unsc_bldg_turret_01</PhysicsInfo>
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_turret_cannon</PortraitIcon>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_beamTurret_01</PortraitIcon>
 		<MinimapIcon size="5">Building</MinimapIcon>
-		<DisplayNameID>27804</DisplayNameID>
-		<RolloverTextID>27805</RolloverTextID>
+		<DisplayNameID>90182</DisplayNameID>
+		<RolloverTextID>90183</RolloverTextID>
 		<RoleTextID>516</RoleTextID>
 		<Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-80" pitchMaxAngle="90" yawattachment="Turret" pitchattachment="Turret" />
 		<MovementType>Land</MovementType>
@@ -111190,10 +111190,10 @@
 		<ObjectClass>Building</ObjectClass>
 		<Visual>forerunner\building\arctower_01\arctower_01.vis</Visual>
 		<PhysicsInfo>unsc_bldg_turret_01</PhysicsInfo>
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_turret_cannon</PortraitIcon>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_arctower_01</PortraitIcon>
 		<MinimapIcon size="5">Building</MinimapIcon>
-		<DisplayNameID>27308</DisplayNameID>
-		<RolloverTextID>27309</RolloverTextID>
+		<DisplayNameID>90156</DisplayNameID>
+		<RolloverTextID>90157</RolloverTextID>
 		<RoleTextID>530</RoleTextID>
 		<MovementType>Land</MovementType>
 		<Hitpoints>20000</Hitpoints>

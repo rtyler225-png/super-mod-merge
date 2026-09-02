@@ -22356,7 +22356,7 @@
     <DisplayNameID>88835</DisplayNameID>
     <RolloverTextID>88834</RolloverTextID>
     <RoleTextID>506</RoleTextID>
-    <PortraitIcon>ui\npc\air\sentinel\sentinel</PortraitIcon>
+    <PortraitIcon>ui\flash\shared\textures\forerunner\icons\unit\for_air_constructor_01</PortraitIcon>
     <MinimapIcon size="8">Triangle</MinimapIcon>
     <MinimapScale>1</MinimapScale>
     <HPBar offset="0,5,0">COV_Health</HPBar>
@@ -28249,11 +28249,11 @@
     </Selection>
   </Squad>
 	<Squad name="forfaction_inf_soldier_01" formationType="Flock" dbid="877">
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\unit\forfaction_inf_soldier_01</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>26865</DisplayNameID>
-		<RolloverTextID>26866</RolloverTextID>
+		<DisplayNameID>90034</DisplayNameID>
+		<RolloverTextID>90035</RolloverTextID>
 		<StatsNameID>25679</StatsNameID>
 		<RoleTextID>500</RoleTextID>
 		<BuildPoints>8</BuildPoints>
@@ -28278,11 +28278,11 @@
 		</Selection>
 	</Squad>
 	<Squad name="forfaction_inf_crawler_01" formationType="Line" dbid="877">
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\unit\forfaction_inf_crawler_01</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>26937</DisplayNameID>
-		<RolloverTextID>26938</RolloverTextID>
+		<DisplayNameID>90106</DisplayNameID>
+		<RolloverTextID>90107</RolloverTextID>
 		<StatsNameID>25679</StatsNameID>
 		<RoleTextID>503</RoleTextID>
 		<BuildPoints>8</BuildPoints>
@@ -28307,11 +28307,11 @@
 		</Selection>
 	</Squad>
 	<Squad name="forfaction_inf_knight_01" dbid="877">
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\unit\forfaction_inf_knight_01</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>26939</DisplayNameID>
-		<RolloverTextID>26940</RolloverTextID>
+		<DisplayNameID>90108</DisplayNameID>
+		<RolloverTextID>90109</RolloverTextID>
 		<StatsNameID>25679</StatsNameID>
 		<RoleTextID>519</RoleTextID>
 		<BuildPoints>16</BuildPoints>
@@ -28362,10 +28362,10 @@
 		<Flag>KBAware</Flag>
 	</Squad>
 	<Squad name="forfaction_air_sentinel_01" dbid="919">
-		<DisplayNameID>26867</DisplayNameID>
-		<RolloverTextID>26868</RolloverTextID>
+		<DisplayNameID>90036</DisplayNameID>
+		<RolloverTextID>90037</RolloverTextID>
 		<RoleTextID>502</RoleTextID>
-		<PortraitIcon>ui\npc\air\sentinel\sentinel</PortraitIcon>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\unit\for_air_enforcer_01</PortraitIcon>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<Birth spawnpoint="bone_spawnPoint03">FlyIn</Birth>
 		<MinimapScale>1</MinimapScale>
@@ -28393,10 +28393,10 @@
 		<Flag>Forerunner</Flag>
 	</Squad>
 	<Squad name="forfaction_air_supersentinel_01" dbid="1478">
-		<DisplayNameID>26875</DisplayNameID>
-		<RolloverTextID>26876</RolloverTextID>
+		<DisplayNameID>90044</DisplayNameID>
+		<RolloverTextID>90045</RolloverTextID>
 		<RoleTextID>506</RoleTextID>
-		<PortraitIcon>ui\npc\air\sentinel\sentinel</PortraitIcon>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\unit\for_air_supersentinel_01</PortraitIcon>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<Birth spawnpoint="bone_spawnPoint03">FlyIn</Birth>
 		<MinimapScale>1</MinimapScale>
@@ -28425,9 +28425,11 @@
 		<Flag>Forerunner</Flag>
 	</Squad>
 	<Squad name="forfaction_air_protector_01" dbid="3238">
-		<DisplayNameID>26879</DisplayNameID>
-		<RolloverTextID>26880</RolloverTextID>
+		<DisplayNameID>90048</DisplayNameID>
+		<RolloverTextID>90049</RolloverTextID>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\unit\forfaction_air_protector_01</PortraitIcon>
 		<RoleTextID>24167</RoleTextID>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\unit\forfaction_air_protector_01</PortraitIcon>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<MinimapScale>1</MinimapScale>
 		<Birth spawnpoint="bone_spawnPoint03">FlyIn</Birth>
@@ -28451,10 +28453,10 @@
 		<Flag>Forerunner</Flag>
 	</Squad>
 	<Squad name="forfaction_air_phaeton_01" dbid="1478">
-		<DisplayNameID>26975</DisplayNameID>
-		<RolloverTextID>26976</RolloverTextID>
+		<DisplayNameID>90128</DisplayNameID>
+		<RolloverTextID>90129</RolloverTextID>
 		<RoleTextID>524</RoleTextID>
-		<PortraitIcon>ui\npc\air\sentinel\sentinel</PortraitIcon>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\unit\forfaction_air_phaeton_01</PortraitIcon>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<MinimapScale>1</MinimapScale>
 		<Birth spawnpoint="bone_spawnPoint03">FlyIn</Birth>
@@ -28484,10 +28486,10 @@
 		<Flag>Forerunner</Flag>
 	</Squad>
 	<Squad name="forfaction_air_phoenix_01" dbid="1478">
-		<DisplayNameID>27806</DisplayNameID>
-		<RolloverTextID>27807</RolloverTextID>
+		<DisplayNameID>90184</DisplayNameID>
+		<RolloverTextID>90185</RolloverTextID>
 		<RoleTextID>533</RoleTextID>
-		<PortraitIcon>ui\npc\air\sentinel\sentinel</PortraitIcon>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\unit\forfaction_air_phoenix_01</PortraitIcon>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<MinimapScale>1</MinimapScale>
 		<Birth spawnpoint="bone_spawnPoint03">FlyIn</Birth>
@@ -28544,10 +28546,10 @@
 		</Selection>
 	</Squad>
 	<Squad name="forfaction_air_watcher_01" dbid="919">
-		<DisplayNameID>26983</DisplayNameID>
-		<RolloverTextID>26984</RolloverTextID>
+		<DisplayNameID>90136</DisplayNameID>
+		<RolloverTextID>90137</RolloverTextID>
 		<RoleTextID>24167</RoleTextID>
-		<PortraitIcon>ui\npc\air\sentinel\sentinel</PortraitIcon>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\unit\forfaction_air_watcher_01</PortraitIcon>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<MinimapScale>1</MinimapScale>
 		<Birth spawnpoint="bone_spawnPoint03">FlyIn</Birth>
@@ -28575,11 +28577,11 @@
 		<Flag>Forerunner</Flag>
 	</Squad>
 	<Squad name="forfaction_veh_tank_01" dbid="917">
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\veh_wraith</PortraitIcon>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\unit\forfaction_veh_tank_01</PortraitIcon>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>26885</DisplayNameID>
-		<RolloverTextID>26886</RolloverTextID>
+		<DisplayNameID>90054</DisplayNameID>
+		<RolloverTextID>90055</RolloverTextID>
 		<PrereqTextID>242</PrereqTextID>
 		<RoleTextID>501</RoleTextID>
 		<BuildPoints>26</BuildPoints>
@@ -28605,11 +28607,11 @@
 		</Selection>
 	</Squad>
 	<Squad name="forfaction_veh_bike_01" formationType="Line" dbid="913">
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\veh_ghost</PortraitIcon>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\unit\forfaction_veh_bike_01</PortraitIcon>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>26893</DisplayNameID>
-		<RolloverTextID>26894</RolloverTextID>
+		<DisplayNameID>90062</DisplayNameID>
+		<RolloverTextID>90063</RolloverTextID>
 		<PrereqTextID>240</PrereqTextID>
 		<RoleTextID>518</RoleTextID>
 		<BuildPoints>8</BuildPoints>
@@ -28635,11 +28637,11 @@
 		</Selection>
 	</Squad>
 	<Squad name="forfaction_veh_mech_01" formationType="Flock" dbid="2825">
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\unit\forfaction_veh_mech_01</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>26901</DisplayNameID>
-		<RolloverTextID>26902</RolloverTextID>
+		<DisplayNameID>90070</DisplayNameID>
+		<RolloverTextID>90071</RolloverTextID>
 		<PrereqTextID>231</PrereqTextID>
 		<RoleTextID>505</RoleTextID>
 		<BuildPoints>20</BuildPoints>
@@ -28664,11 +28666,11 @@
 		</Selection>
 	</Squad>
 	<Squad name="forfaction_inf_didact_01" dbid="2826">
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_arbiter</PortraitIcon>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\unit\forfaction_inf_didact_01</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>26909</DisplayNameID>
-		<RolloverTextID>26910</RolloverTextID>
+		<DisplayNameID>90078</DisplayNameID>
+		<RolloverTextID>90079</RolloverTextID>
 		<PrereqTextID>244</PrereqTextID>
 		<RoleTextID>520</RoleTextID>
 		<BuildPoints>60</BuildPoints>
@@ -28696,11 +28698,11 @@
 		</Selection>
 	</Squad>
 	<Squad name="forfaction_inf_warden_01" dbid="2826">
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_arbiter</PortraitIcon>
+		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\unit\forfaction_inf_warden_01</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>26935</DisplayNameID>
-		<RolloverTextID>26936</RolloverTextID>
+		<DisplayNameID>90104</DisplayNameID>
+		<RolloverTextID>90105</RolloverTextID>
 		<PrereqTextID>244</PrereqTextID>
 		<RoleTextID>508</RoleTextID>
 		<BuildPoints>100</BuildPoints>
@@ -28731,8 +28733,8 @@
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\air_vulture</PortraitIcon>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>26923</DisplayNameID>
-		<RolloverTextID>26924</RolloverTextID>
+		<DisplayNameID>90092</DisplayNameID>
+		<RolloverTextID>90093</RolloverTextID>
 		<PrereqTextID>236</PrereqTextID>
 		<RoleTextID>508</RoleTextID>
 		<BuildPoints>60</BuildPoints>

@@ -504,8 +504,8 @@
   <Leader Name="Didact" Icon="ui\game\icon\unsc\leader\Captain Cutter" LeaderPickerOrder="16" StatsID="16" DefaultPlayerSlotFlags="0x81">
     <Civ>UNSC</Civ>
     <Tech>forfaction_LeaderForerunner</Tech>
-    <NameID>26831</NameID>
-    <DescriptionID>26832</DescriptionID>
+    <NameID>90000</NameID>
+    <DescriptionID>90001</DescriptionID>
     <FlashCivID>2</FlashCivID>
     <FlashImg>orbital</FlashImg>
     <FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\forerunners.ddx</FlashPortrait>

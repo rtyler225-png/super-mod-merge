@@ -7481,5 +7481,194 @@ Unlocks Repair Drones.</String>
 		<String _locID="26934" category="Powers" subtitle="false">Fires a modified UNSC MAC Blast from a commandeered UNSC ship that disables all units temporarily.</String>
 		<String _locID="26831" category="Leaders" subtitle="false">THE DIDACT</String>
 		<String _locID="26832" category="Leaders" subtitle="false">Leader: THE UR-DIDACT, Unique Units: SENTINEL FORCES and PROMETHEAN FORCES, Ultimate Power: EMP MAC BLAST</String>
+		<!-- Didact collision-safe localization -->
+		<String _locID="90000" category="Leaders" subtitle="false">THE DIDACT</String>
+		<String _locID="90001" category="Leaders" subtitle="false">Leader: THE UR-DIDACT, Unique Units: SENTINEL FORCES and PROMETHEAN FORCES, Ultimate Power: EMP MAC BLAST</String>
+		<String _locID="90002" category="Objects" subtitle="false">CANTONMENT</String>
+		<String _locID="90003" category="Objects" subtitle="false">The Cantonment trains the bulk of the Forerunner infantry units. Infantry technology upgrades can also be found here.</String>
+		<String _locID="90004" category="Objects" subtitle="false">FOUNDRY</String>
+		<String _locID="90005" category="Objects" subtitle="false">The Foundry constructs all Forerunner vehicles. Vehicle technology upgrades can also be found here.</String>
+		<String _locID="90006" category="Objects" subtitle="false">AIRDROME</String>
+		<String _locID="90007" category="Objects" subtitle="false">The Airdrome creates all Forerunner air units. Air unit technology upgrades can also be found here.</String>
+		<String _locID="90008" category="Objects" subtitle="false">OUTPOST</String>
+		<String _locID="90009" category="Objects" subtitle="false">The most basic Forerunner base. Can be upgraded to support additional buildings.</String>
+		<String _locID="90010" category="Objects" subtitle="false">COMPLEX</String>
+		<String _locID="90011" category="Objects" subtitle="false">Similar to the Forerunner Outpost, but with more available building sites, including turret sites. Can be upgraded to support additional buildings.</String>
+		<String _locID="90012" category="Objects" subtitle="false">INSTALLATION</String>
+		<String _locID="90013" category="Objects" subtitle="false">The most advanced Forerunner base. Cannot be further upgraded.</String>
+		<String _locID="90014" category="Techs" subtitle="false">COMPLEX</String>
+		<String _locID="90015" category="Techs" subtitle="false">Upgrades base to a Complex, which adds two more building sites and eight turret sites. Each building adds to the strength of the central structure.</String>
+		<String _locID="90016" category="Techs" subtitle="false">INSTALLATION</String>
+		<String _locID="90017" category="Techs" subtitle="false">Upgrades base to an Installation, which adds two more building sites. Each building adds to the strength of the central structure.</String>
+		<String _locID="90018" category="Objects" subtitle="false">SUPPLY ELEVATOR</String>
+		<String _locID="90019" category="Objects" subtitle="false">The Forerunner Supply Elevator produces the resources needed to train units, build buildings, and buy technology upgrades. Bases that have great economic production might have 6 Supply Elevators.</String>
+		<String _locID="90020" category="Objects" subtitle="false">ADVANCED SUPPLY ELEVATOR</String>
+		<String _locID="90021" category="Objects" subtitle="false">40% more effective than the Forerunner Supply Elevator.</String>
+		<String _locID="90022" category="Techs" subtitle="false">ADVANCED SUPPLY ELEVATOR</String>
+		<String _locID="90023" category="Techs" subtitle="false">Supply production massively increased for this Supply Elevator.</String>
+		<String _locID="90024" category="Objects" subtitle="false">SECONDARY REACTOR</String>
+		<String _locID="90025" category="Objects" subtitle="false">Forerunner Reactors provide the energy needed to access advanced buildings, units and technology upgrades. High-tech bases may have as many as 4 or 5 Reactors.</String>
+		<String _locID="90026" category="Objects" subtitle="false">PRIMARY REACTOR</String>
+		<String _locID="90027" category="Objects" subtitle="false">Forerunner Reactors provide the energy needed to access advanced buildings, units and technology upgrades. High-tech bases may have as many as 4 or 5 Reactors.</String>
+		<String _locID="90028" category="Techs" subtitle="false">PRIMARY REACTOR</String>
+		<String _locID="90029" category="Techs" subtitle="false">This Reactor provides enough energy to match the output of two Reactors.</String>
+		<String _locID="90030" category="Objects" subtitle="false">NEURAL CENTER</String>
+		<String _locID="90031" category="Objects" subtitle="false">The Forerunner Neural Center is a combination machine shop and high-tech laboratory. Many advanced technology upgrades can be found here.</String>
+		<String _locID="90032" category="Objects" subtitle="false">ENERGY TURRET</String>
+		<String _locID="90033" category="Objects" subtitle="false">A light Forerunner Turret effective against all unit types.</String>
+		<String _locID="90034" category="Squads" subtitle="false">SOLDIER</String>
+		<String _locID="90035" category="Squads" subtitle="false">The mainline infantry for the Forerunners, the Promethean Soldier is effective against all unit types.</String>
+		<String _locID="90036" category="Squads" subtitle="false">AGGRESSOR</String>
+		<String _locID="90037" category="Squads" subtitle="false">A flying Forerunner unit, the Sentinels inflict corrosive damage with a dangerous beam weapon.</String>
+		<String _locID="90038" category="Techs" subtitle="false">Desc</String>
+		<String _locID="90039" category="Techs" subtitle="false">Desc.</String>
+		<String _locID="90040" category="Techs" subtitle="false">LIGHT SHIELD</String>
+		<String _locID="90041" category="Techs" subtitle="false">Equips aggressors with a light shield that reflects incoming damage.</String>
+		<String _locID="90042" category="Techs" subtitle="false">HEAVY BEAM</String>
+		<String _locID="90043" category="Techs" subtitle="false">Upgrades the beam attack, improving damage and fire rate.</String>
+		<String _locID="90044" category="Squads" subtitle="false">SUPER SENTINEL</String>
+		<String _locID="90045" category="Squads" subtitle="false">The Forerunner Super Sentinel has the unique ability to slow down enemy units while also preempting their attacks.</String>
+		<String _locID="90046" category="Techs" subtitle="false">HEAVY STUN</String>
+		<String _locID="90047" category="Techs" subtitle="false">Greatly improves the main beam attack, increasing stun range, duration, and damage.</String>
+		<String _locID="90048" category="Squads" subtitle="false">PROTECTOR</String>
+		<String _locID="90049" category="Squads" subtitle="false">Attach this to a single squad to have the Protector heal the protected squad out of combat. Can also heal units without being attached.</String>
+		<String _locID="90050" category="Techs" subtitle="false">ENHANCED MENDING</String>
+		<String _locID="90051" category="Techs" subtitle="false">Increases repair rate.</String>
+		<String _locID="90052" category="Techs" subtitle="false">LIGHT SHIELD</String>
+		<String _locID="90053" category="Techs" subtitle="false">Equips protectors with a light shield that reflects incoming damage.</String>
+		<String _locID="90054" category="Squads" subtitle="false">ZEPHYR</String>
+		<String _locID="90055" category="Squads" subtitle="false">Mainline forerunner battle tank, effective against ground forces, especially infantry.</String>
+		<String _locID="90056" category="Techs" subtitle="false">HEAVY SHIELD</String>
+		<String _locID="90057" category="Techs" subtitle="false">Adds an energy shield that deflects some incoming damage.</String>
+		<String _locID="90058" category="Techs" subtitle="false">RAPID BURST</String>
+		<String _locID="90059" category="Techs" subtitle="false">Enables the Burst Ability that fires a barrage of beams at the target.</String>
+		<String _locID="90060" category="Techs" subtitle="false">ADVANCED TARGETING</String>
+		<String _locID="90061" category="Techs" subtitle="false">Increases range and enables air tracking. Cannot use Burst Ability on air units.</String>
+		<String _locID="90062" category="Squads" subtitle="false">MOTH</String>
+		<String _locID="90063" category="Squads" subtitle="false">Fast assault recon unit. Effective against all unit types.</String>
+		<String _locID="90064" category="Techs" subtitle="false">REINFORCED CHASSIS</String>
+		<String _locID="90065" category="Techs" subtitle="false">Greatly improves hitpoints.</String>
+		<String _locID="90066" category="Techs" subtitle="false">ENERGY MISSILE</String>
+		<String _locID="90067" category="Techs" subtitle="false">Equips Moths with a tacking missile launcher that fires superheated plasma.</String>
+		<String _locID="90068" category="Techs" subtitle="false">SCOUT SHIELD</String>
+		<String _locID="90069" category="Techs" subtitle="false">Adds an energy shield to Moths that deflects some incoming damage.</String>
+		<String _locID="90070" category="Squads" subtitle="false">GORGON</String>
+		<String _locID="90071" category="Squads" subtitle="false">An anti-air forerunner mech that fires small energy missiles. Can be upgraded to target ground forces.</String>
+		<String _locID="90072" category="Techs" subtitle="false">LIGHT SHIELD</String>
+		<String _locID="90073" category="Techs" subtitle="false">Equips Gorgons with a light energy shield that reflects incoming fire.</String>
+		<String _locID="90074" category="Techs" subtitle="false">ENERGY BLAST</String>
+		<String _locID="90075" category="Techs" subtitle="false">Equips Gorgons with an energy cannon that can attack ground units. Use ability to overcharge it, disabling vehicles.</String>
+		<String _locID="90076" category="Techs" subtitle="false">HEAVY MISSILES</String>
+		<String _locID="90077" category="Techs" subtitle="false">Improves missile damage and speed, while also slowing air units.</String>
+		<String _locID="90078" category="Squads" subtitle="false">UR-DIDACT</String>
+		<String _locID="90079" category="Squads" subtitle="false">Leader of the entire Forerunner military, the Ur-Didact can fire powerful beams, which can be upgraded to stun ground targets, including buildings.</String>
+		<String _locID="90080" category="Techs" subtitle="false">IMPULSE</String>
+		<String _locID="90081" category="Techs" subtitle="false">Beam Cannon now stuns ground targets, including buildings.</String>
+		<String _locID="90082" category="Techs" subtitle="false">TECHNIQUE</String>
+		<String _locID="90083" category="Techs" subtitle="false">Increases the Beam Cannon's damage.</String>
+		<String _locID="90084" category="Techs" subtitle="false">POWER</String>
+		<String _locID="90085" category="Techs" subtitle="false">Further increases damage output.</String>
+		<String _locID="90086" category="Techs" subtitle="false">ENERGY CANNON I</String>
+		<String _locID="90087" category="Techs" subtitle="false">Upgrades the Energy Cannon ability's damage.</String>
+		<String _locID="90088" category="Techs" subtitle="false">ENERGY CANNON II</String>
+		<String _locID="90089" category="Techs" subtitle="false">Upgrades the Energy Cannon ability's damage.</String>
+		<String _locID="90090" category="Techs" subtitle="false">ENERGY CANNON III</String>
+		<String _locID="90091" category="Techs" subtitle="false">Upgrades the Energy Cannon ability's damage.</String>
+		<String _locID="90092" category="Squads" subtitle="false">CRYPTUM</String>
+		<String _locID="90093" category="Squads" subtitle="false">Shields the Ur-Didact when he is garrisoned. Fires a powerful beam not dissimilar to the scarab beam.</String>
+		<String _locID="90094" category="Techs" subtitle="false">PAGE 2</String>
+		<String _locID="90095" category="Techs" subtitle="false">Access page 2 of this command menu.</String>
+		<String _locID="90096" category="Techs" subtitle="false">PAGE 1</String>
+		<String _locID="90097" category="Techs" subtitle="false">Access page 1 of this command menu.</String>
+		<String _locID="90098" category="Techs" subtitle="false">REINFORCEMENTS</String>
+		<String _locID="90099" category="Techs" subtitle="false">Increases the maximum size of your army by 10.</String>
+		<String _locID="90100" category="Techs" subtitle="false">MECHANICS</String>
+		<String _locID="90101" category="Techs" subtitle="false">Train times for all units are drastically reduced.</String>
+		<String _locID="90102" category="Powers" subtitle="false">EMP MAC BLAST</String>
+		<String _locID="90103" category="Powers" subtitle="false">Fires a modifed UNSC Mac Blast from a commandeered UNSC ship that disables all units temporarily.</String>
+		<String _locID="90104" category="Squads" subtitle="false">WARDEN ETERNAL</String>
+		<String _locID="90105" category="Squads" subtitle="false">Protector of the Domain, controlled by Cortana. Wields a powerful hardlight blade that eviscerates any ground forces. Has 2 protector sentinels to attack air units.</String>
+		<String _locID="90106" category="Squads" subtitle="false">CRAWLER</String>
+		<String _locID="90107" category="Squads" subtitle="false">Small autonomous defense units often deployed as cannon fodder. Has the ability to scale walls and impassable terrain. Effective against infantry.</String>
+		<String _locID="90108" category="Squads" subtitle="false">KNIGHT</String>
+		<String _locID="90109" category="Squads" subtitle="false">A special forces autonomous unit created by the composer, the Promethean Knight is highly effective against all units. Can be upgraded to leap large distances via an ability, similar to the Covenant Brutes.</String>
+		<String _locID="90110" category="Techs" subtitle="false">PULSE GRENADE</String>
+		<String _locID="90111" category="Techs" subtitle="false">Equips soldiers with powerful pulse grenades that can briefly stun infantry.</String>
+		<String _locID="90112" category="Techs" subtitle="false">ENHANCED MECHANICS</String>
+		<String _locID="90113" category="Techs" subtitle="false">Greatly improves movement speed.</String>
+		<String _locID="90114" category="Techs" subtitle="false">LIGHT SHIELD</String>
+		<String _locID="90115" category="Techs" subtitle="false">Equips soldiers with a light energy shield.</String>
+		<String _locID="90116" category="Techs" subtitle="false">LIGHTWEIGHT CHASSIS</String>
+		<String _locID="90117" category="Techs" subtitle="false">Greatly improves movement speed.</String>
+		<String _locID="90118" category="Techs" subtitle="false">INCENDIARY SHOTS</String>
+		<String _locID="90119" category="Techs" subtitle="false">Light Rifle shots now ignite targets.</String>
+		<String _locID="90120" category="Techs" subtitle="false">LIGHT SHIELD</String>
+		<String _locID="90121" category="Techs" subtitle="false">Equips crawlers with a light energy shield.</String>
+		<String _locID="90122" category="Techs" subtitle="false">EVASIVE MANEUVERS</String>
+		<String _locID="90123" category="Techs" subtitle="false">Improves reflexes, allowing knights to dodge incoming fire easily.</String>
+		<String _locID="90124" category="Techs" subtitle="false">NEURAL UPGRADE</String>
+		<String _locID="90125" category="Techs" subtitle="false">Improved reflexes allow Knights to Jack enemy vehicles much more effectively.</String>
+		<String _locID="90126" category="Techs" subtitle="false">ENERGY RESEVES</String>
+		<String _locID="90127" category="Techs" subtitle="false">Greatly improves shield resilience and regeneration.</String>
+		<String _locID="90128" category="Squads" subtitle="false">PHAETON</String>
+		<String _locID="90129" category="Squads" subtitle="false">A powerful autonomous Forerunner VTOL that can obliterate most ground forces.</String>
+		<String _locID="90130" category="Techs" subtitle="false">AERODYNAMICS</String>
+		<String _locID="90131" category="Techs" subtitle="false">Improves maximum velocity.</String>
+		<String _locID="90132" category="Techs" subtitle="false">PHAETON HELIOS</String>
+		<String _locID="90133" category="Techs" subtitle="false">Upgrades the main turret to a beam turret, and the rocket volley is improved, firing 6 rockets instead of 2 per volley.</String>
+		<String _locID="90134" category="Objects" subtitle="false">SHIELD GENERATOR</String>
+		<String _locID="90135" category="Objects" subtitle="false">A powerful shield generator that shields the entire base from incoming fire.</String>
+		<String _locID="90136" category="Squads" subtitle="false">WATCHER</String>
+		<String _locID="90137" category="Squads" subtitle="false">A flying autonomous Forerunner unit that can shield allied forces.</String>
+		<String _locID="90138" category="Objects" subtitle="false">HEALING SPIRE</String>
+		<String _locID="90139" category="Objects" subtitle="false">A powerful forerunner base that can heal units around it. Promethean watchers can be trained here.</String>
+		<String _locID="90140" category="Objects" subtitle="false">BINARY TURRET</String>
+		<String _locID="90141" category="Objects" subtitle="false">A light Forerunner Turret equipped with a powerful Binary Rifle. Deals heavy damage to individual targets. Effective against infantry.</String>
+		<String _locID="90142" category="Objects" subtitle="false">INCINERATION TURRET</String>
+		<String _locID="90143" category="Objects" subtitle="false">A light Forerunner Turret equipped with a powerful Incineration Cannon. Deals large aoe damage. Effective against vehicles.</String>
+		<String _locID="90144" category="Objects" subtitle="false">SPLINTER TURRET</String>
+		<String _locID="90145" category="Objects" subtitle="false">A light Forerunner Turret equipped with a powerful Splinter Cannon. Deals large aoe damage. Effective against air units.</String>
+		<String _locID="90146" category="Techs" subtitle="false">BINARY RIFLE</String>
+		<String _locID="90147" category="Techs" subtitle="false">Adds bonus Anti-Infantry attack to the Turret.</String>
+		<String _locID="90148" category="Techs" subtitle="false">INCINERATION CANNON</String>
+		<String _locID="90149" category="Techs" subtitle="false">Adds bonus Anti-Vehicle attack to the Turret.</String>
+		<String _locID="90150" category="Techs" subtitle="false">SPLINTER CANNON</String>
+		<String _locID="90151" category="Techs" subtitle="false">Adds bonus Anti-Air attack to the Turret.</String>
+		<String _locID="90152" category="Powers" subtitle="false">FORERUNNER TRANSPORT</String>
+		<String _locID="90153" category="Powers" subtitle="false">Call in Phaetons to transport a small group of units from one place to another.</String>
+		<String _locID="90154" category="Powers" subtitle="false">HYPER HEAL</String>
+		<String _locID="90155" category="Powers" subtitle="false">Heals all units/buildings in surrounding area in quick succession.</String>
+		<String _locID="90156" category="Objects" subtitle="false">ARC TOWER</String>
+		<String _locID="90157" category="Objects" subtitle="false">Arc Tower.</String>
+		<String _locID="90158" category="Powers" subtitle="false">ARC TOWER</String>
+		<String _locID="90159" category="Powers" subtitle="false">Teleports in an arc tower that slows and damages surrounding enemy units. Cannot attack air.</String>
+		<String _locID="90160" category="Powers" subtitle="false">BEAM BARRAGE</String>
+		<String _locID="90161" category="Powers" subtitle="false">Fires a barrage of beams at target location. Deals bonus damage to vehicles.</String>
+		<String _locID="90162" category="Powers" subtitle="false">SOLDIER DROP</String>
+		<String _locID="90163" category="Powers" subtitle="false">Calls in 3 Promethean Soldiers.</String>
+		<String _locID="90164" category="Powers" subtitle="false">SHIELD ENHANCEMENT</String>
+		<String _locID="90165" category="Powers" subtitle="false">Greatly improves shield regeneration for all units and buildings.</String>
+		<String _locID="90166" category="Powers" subtitle="false">SENTINEL DROP</String>
+		<String _locID="90167" category="Powers" subtitle="false">Calls in 3 Sentinels and 1 Super Sentinel.</String>
+		<String _locID="90168" category="Techs" subtitle="false">SUPER BEAM BARRAGE</String>
+		<String _locID="90169" category="Techs" subtitle="false">Doubles beams fired, doubles damage, and increases AOE range by 50% for the Beam Barrage.</String>
+		<String _locID="90170" category="Techs" subtitle="false">SUPER SOLDIER DROP</String>
+		<String _locID="90171" category="Techs" subtitle="false">Adds 3 Crawlers to the Soldier Drop.</String>
+		<String _locID="90172" category="Powers" subtitle="false">SOLDIER DROP</String>
+		<String _locID="90173" category="Powers" subtitle="false">Calls in 3 Promethean Soldiers and 3 Crawlers.</String>
+		<String _locID="90174" category="Techs" subtitle="false">SUPER SHIELD ENHANCEMENT</String>
+		<String _locID="90175" category="Techs" subtitle="false">Further increases shield regeneration for all units and buildings.</String>
+		<String _locID="90176" category="Techs" subtitle="false">MEDIUM EMP MAC BLAST</String>
+		<String _locID="90177" category="Techs" subtitle="false">EMP MAC Blast ammo capacity upgraded to provide two shots.</String>
+		<String _locID="90178" category="Techs" subtitle="false">LARGE EMP MAC BLAST</String>
+		<String _locID="90179" category="Techs" subtitle="false">EMP MAC Blast ammo capacity upgraded to provide three shots.</String>
+		<String _locID="90180" category="Techs" subtitle="false">SUPER EMP MAC BLAST</String>
+		<String _locID="90181" category="Techs" subtitle="false">EMP MAC Blast ammo capacity upgraded to provide four shots.</String>
+		<String _locID="90182" category="Objects" subtitle="false">FOCUS TURRET</String>
+		<String _locID="90183" category="Objects" subtitle="false">A heavy Forerunner turret that fires a concentrated beam at its target. Extremely high range and good all-round damage.</String>
+		<String _locID="90184" category="Squads" subtitle="false">PHOENIX</String>
+		<String _locID="90185" category="Squads" subtitle="false">An autonomous Forerunner strike aircraft that heavily counters enemy air units. Deals decent damage against other unit types.</String>
+		<String _locID="90186" category="Techs" subtitle="false">ENERGY SHIELDING</String>
+		<String _locID="90187" category="Techs" subtitle="false">Adds a heavy shield that reflects incoming damage.</String>
 	</Language>
 </StringTable>
