@@ -111488,4 +111488,83 @@
 		<Flag>IsAffectedByGravity</Flag>
 		<MaxProjectileHeight>40</MaxProjectileHeight>
 	</Object>
+	<Object name="pow_cp_arctower_01" id="0" dbid="69">
+		<ObjectClass>Projectile</ObjectClass>
+		<Visual>effects\projectiles\beam\small_beam\small_beam_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Velocity>300</Velocity>
+		<Tactics>fx_proj_beam_01.tactics</Tactics>
+		<Lifespan>0.5</Lifespan>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<Sound Type="Exist">play_weap_unsc_gremlin_cannon</Sound>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<ImpactDecal sizeX="1" sizeZ="1" timeFullyOpaque="5" fadeOutTime="10" orientation="random">decals\plasma_scorch01</ImpactDecal>
+	</Object>
+	<Object name="pow_cp_beambarrage_01" id="0" dbid="69">
+		<ObjectClass>Projectile</ObjectClass>
+		<Visual>effects\projectiles\beam\small_beam\small_beam_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Velocity>1000</Velocity>
+		<Tactics>pow_cp_beambarrage_01.tactics</Tactics>
+		<Lifespan>0.5</Lifespan>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<Sound Type="Exist">play_unsc_rhino_cannon</Sound>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<ImpactDecal sizeX="1" sizeZ="1" timeFullyOpaque="5" fadeOutTime="10" orientation="random">decals\plasma_scorch01</ImpactDecal>
+	</Object>
+	<Object name="pow_cp_beambarrage_02" id="0" dbid="69">
+		<ObjectClass>Projectile</ObjectClass>
+		<Visual>effects\projectiles\beam\small_beam\small_beam_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Velocity>1000</Velocity>
+		<Tactics>pow_cp_beambarrage_02.tactics</Tactics>
+		<Lifespan>0.5</Lifespan>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<Sound Type="Exist">play_unsc_rhino_cannon</Sound>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<ImpactDecal sizeX="1" sizeZ="1" timeFullyOpaque="5" fadeOutTime="10" orientation="random">decals\plasma_scorch01</ImpactDecal>
+	</Object>
+	<Object name="fx_repairPowerForerunner" id="0" dbid="3080">
+		<Visual>effects\powers\for\repair_01.vis</Visual>
+		<Flag>NoTieToGround</Flag>
+	</Object>
+	<Object name="pow_gp_EMPmacCannonSmall" id="0" dbid="3248">
+		<ObjectClass>Projectile</ObjectClass>
+		<MovementType>Air</MovementType>
+		<Velocity>75</Velocity>
+		<Lifespan>15</Lifespan>
+		<Tactics>pow_gp_EMPmacCannonSmall.tactics</Tactics>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<ImpactDecal sizeX="15" sizeZ="15" timeFullyOpaque="30" fadeOutTime="10" orientation="random">decals\bigscorch_01</ImpactDecal>
+		<Sound Type="StopExist">play_weap_emp_blast</Sound>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>VisibleToAll</Flag>
+	</Object>
+	<Object name="pow_gp_EMPmacCannonVisualSmall" id="0" dbid="3846">
+		<ObjectClass>Unit</ObjectClass>
+		<Visual>effects\impacts\for\EMPmaccannon_01\EMPmaccannon_01.vis</Visual>
+		<MovementType>Air</MovementType>
+		<Lifespan>15</Lifespan>
+		<ObstructionRadiusX>0.1</ObstructionRadiusX>
+		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<ImpactDecal sizeX="15" sizeZ="15" timeFullyOpaque="30" fadeOutTime="10" orientation="random">decals\bigscorch_01</ImpactDecal>
+		<Sound Type="Exist">play_unsc_gp_orbital_bombardment</Sound>
+		<Sound Type="StopExist">stop_unsc_gp_orbital_bombardment</Sound>
+		<Flag>IgnoreSquadAI</Flag>
+		<Flag>NoTieToGround</Flag>
+		<Flag>NonCollideable</Flag>
+		<Flag>DontRotateObstruction</Flag>
+	</Object>
 </Objects>

@@ -7399,5 +7399,23 @@ Unlocks Repair Drones.</String>
 		<String _locID="27692" category="Techs" subtitle="false">EMP MAC Blast ammo capacity upgraded to provide four shots.</String>
 		<String _locID="27808" category="Techs" subtitle="false">ENERGY SHIELDING</String>
 		<String _locID="27809" category="Techs" subtitle="false">Adds a heavy shield that reflects incoming damage.</String>
+		<String _locID="27304" category="Powers" subtitle="false">FORERUNNER TRANSPORT</String>
+		<String _locID="27305" category="Powers" subtitle="false">Call in Phaetons to transport a small group of units from one place to another.</String>
+		<String _locID="27306" category="Powers" subtitle="false">HYPER HEAL</String>
+		<String _locID="27307" category="Powers" subtitle="false">Heals all units/buildings in surrounding area in quick succession.</String>
+		<String _locID="27310" category="Powers" subtitle="false">ARC TOWER</String>
+		<String _locID="27311" category="Powers" subtitle="false">Teleports in an arc tower that slows and damages surrounding enemy units. Cannot attack air.</String>
+		<String _locID="27312" category="Powers" subtitle="false">BEAM BARRAGE</String>
+		<String _locID="27313" category="Powers" subtitle="false">Fires a barrage of beams at target location. Deals bonus damage to vehicles.</String>
+		<String _locID="27314" category="Powers" subtitle="false">SOLDIER DROP</String>
+		<String _locID="27315" category="Powers" subtitle="false">Calls in 3 Promethean Soldiers.</String>
+		<String _locID="27677" category="Powers" subtitle="false">SOLDIER DROP</String>
+		<String _locID="27678" category="Powers" subtitle="false">Calls in 3 Promethean Soldiers and 3 Crawlers.</String>
+		<String _locID="27316" category="Powers" subtitle="false">SHIELD ENHANCEMENT</String>
+		<String _locID="27317" category="Powers" subtitle="false">Greatly improves shield regeneration for all units and buildings.</String>
+		<String _locID="27318" category="Powers" subtitle="false">SENTINEL DROP</String>
+		<String _locID="27319" category="Powers" subtitle="false">Calls in 3 Sentinels and 1 Super Sentinel.</String>
+		<String _locID="26933" category="Powers" subtitle="false">EMP MAC BLAST</String>
+		<String _locID="26934" category="Powers" subtitle="false">Fires a modified UNSC MAC Blast from a commandeered UNSC ship that disables all units temporarily.</String>
 	</Language>
 </StringTable>

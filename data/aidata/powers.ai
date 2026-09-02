@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Tables>
+	<Table Name="Powers" Type="PowerList">
+		<!-- Preserve the stock UNSC repair registration from the source table. -->
+		<Row>
+			<c>UnscLeaderRepair</c>
+			<c>0</c>
+			<c>-1</c>
+		</Row>
+		<!-- Didact / Forerunner powers supported by Judgement Edition's AI. -->
+		<Row>
+			<c>ForerunnerRepair</c>
+			<c>0</c>
+			<c>-1</c>
+		</Row>
+		<Row>
+			<c>ForerunnerArcTower</c>
+			<c>1</c>
+			<c>powers\forerunner\arcDOtower.triggerscript</c>
+		</Row>
+		<Row>
+			<c>ForerunnerBeamBarrage</c>
+			<c>1</c>
+			<c>powers\forerunner\beamDObarrage.triggerscript</c>
+		</Row>
+		<Row>
+			<c>ForerunnerOrbitalBombard</c>
+			<c>1</c>
+			<c>-1</c>
+		</Row>
+	</Table>
+</Tables>
