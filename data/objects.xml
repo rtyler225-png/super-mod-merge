@@ -1033,7 +1033,7 @@
     <MovementType>Air</MovementType>
     <Velocity>25</Velocity>
     <TurnRate>210</TurnRate>
-    <Hitpoints>7000</Hitpoints>
+    <Hitpoints>2800</Hitpoints>
     <Shieldpoints>0</Shieldpoints>
     <AttackGradeDPS>165</AttackGradeDPS>
     <CombatValue>10</CombatValue>
@@ -2074,7 +2074,7 @@
     <Velocity>30</Velocity>
     <ReverseSpeed>15.0f</ReverseSpeed>
     <TurnRate>120</TurnRate>
-    <Hitpoints>7000</Hitpoints>
+    <Hitpoints>2800</Hitpoints>
     <Shieldpoints>0</Shieldpoints>
     <AttackGradeDPS>165</AttackGradeDPS>
     <CombatValue>10</CombatValue>
@@ -54782,7 +54782,7 @@
     <Velocity>30</Velocity>
     <ReverseSpeed>15.0f</ReverseSpeed>
     <TurnRate>120</TurnRate>
-    <Hitpoints>7000</Hitpoints>
+    <Hitpoints>3500</Hitpoints>
     <AttackGradeDPS>165</AttackGradeDPS>
     <CombatValue>10</CombatValue>
     <LOS>55</LOS>
@@ -75533,7 +75533,7 @@
     <Velocity>30</Velocity>
     <ReverseSpeed>15.0f</ReverseSpeed>
     <TurnRate>120</TurnRate>
-    <Hitpoints>7000</Hitpoints>
+    <Hitpoints>3500</Hitpoints>
     <AttackGradeDPS>165</AttackGradeDPS>
     <CombatValue>10</CombatValue>
     <LOS>55</LOS>
