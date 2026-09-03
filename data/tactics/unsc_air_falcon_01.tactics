@@ -71,7 +71,7 @@
 	<Weapon>
 		<Name>GrenadeL</Name>
 		<AttackRate>0.125</AttackRate>
-		<DamagePerSecond>75</DamagePerSecond>
+		<DamagePerSecond>60</DamagePerSecond>
 		<WeaponType>LightExplosive</WeaponType>
 		<Projectile>fx_proj_falcongrenade_01</Projectile>
 		<ImpactEffect size="Medium">unsc_grenade_01</ImpactEffect>
@@ -103,7 +103,7 @@
 	<Weapon>
 		<Name>GrenadeR</Name>
 		<AttackRate>0.125</AttackRate>
-		<DamagePerSecond>75</DamagePerSecond>
+		<DamagePerSecond>60</DamagePerSecond>
 		<WeaponType>LightExplosive</WeaponType>
 		<Projectile>fx_proj_falcongrenade_01</Projectile>
 		<ImpactEffect size="Medium">unsc_grenade_01</ImpactEffect>
@@ -135,7 +135,7 @@
 	<Weapon>
 		<Name>ScorchGrenadeL</Name>
 		<AttackRate>0.125</AttackRate>
-		<DamagePerSecond>75</DamagePerSecond>
+		<DamagePerSecond>60</DamagePerSecond>
 		<WeaponType>LightExplosive</WeaponType>
 		<Projectile>fx_proj_falconscorchgrenade_01</Projectile>
 		<ImpactEffect size="Medium">unsc_flamemortar_01</ImpactEffect>
@@ -172,7 +172,7 @@
 	<Weapon>
 		<Name>ScorchGrenadeR</Name>
 		<AttackRate>0.125</AttackRate>
-		<DamagePerSecond>75</DamagePerSecond>
+		<DamagePerSecond>60</DamagePerSecond>
 		<WeaponType>LightExplosive</WeaponType>
 		<Projectile>fx_proj_falconscorchgrenade_01</Projectile>
 		<ImpactEffect size="Medium">unsc_flamemortar_01</ImpactEffect>

@@ -398,7 +398,7 @@
     <Flag>Obscurable</Flag>
     <Flag>Repairable</Flag>
     <Flag>AirMovement</Flag>
-    <HPBar>COV_Health</HPBar>
+    <HPBar>COV_HealthShield</HPBar>
   </Object>
   <Object name="unsc_scorpionshield" is="0" dbid="3999">
     <ObjectClass>Object</ObjectClass>
@@ -2476,7 +2476,7 @@
     <ReverseSpeed>0.0f</ReverseSpeed>
     <TurnRate>360</TurnRate>
     <Hitpoints>3500</Hitpoints>
-    <AttackGradeDPS>132</AttackGradeDPS>
+    <AttackGradeDPS>204</AttackGradeDPS>
     <CombatValue>24</CombatValue>
     <LOS>65</LOS>
     <Pop Type="Unit">15</Pop>
@@ -6904,7 +6904,7 @@
     <Flag>HasHPBar</Flag>
     <Flag>Obscurable</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>COV_Health</HPBar>
+    <HPBar>COV_HealthShield</HPBar>
   </Object>
   <Object name="ban_inf_bruteHammer_01" id="0" dbid="196">
     <PhysicsReplacementInfo>brute</PhysicsReplacementInfo>
@@ -12293,7 +12293,7 @@
     <TurnRate>360</TurnRate>
     <Hitpoints>8000</Hitpoints>
     <Shieldpoints>0</Shieldpoints>
-    <AttackGradeDPS>132</AttackGradeDPS>
+    <AttackGradeDPS>204</AttackGradeDPS>
     <CombatValue>24</CombatValue>
     <LOS>65</LOS>
     <Pop Type="Unit">15</Pop>
@@ -16521,7 +16521,7 @@
     <TurnRate>540</TurnRate>
     <Hitpoints>400</Hitpoints>
     <Shieldpoints>800</Shieldpoints>
-    <AttackGradeDPS>24.7</AttackGradeDPS>
+    <AttackGradeDPS>50</AttackGradeDPS>
     <CombatValue>1.6</CombatValue>
     <LOS>55</LOS>
     <Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="Bip01 Spine" />
@@ -16580,6 +16580,7 @@
     <SurfaceType>EliteFlesh</SurfaceType>
     <RallyPoint>Military</RallyPoint>
     <AbilityCommand>CovGruntGrenade</AbilityCommand>
+    <AbilityCommand>UnscSpartanTakeOver</AbilityCommand>
     <Flag>AutoCloak</Flag>
     <Flag>MoveWhileCloaked</Flag>
     <Flag>KBAware</Flag>
@@ -16587,7 +16588,7 @@
     <Flag>HasHPBar</Flag>
     <Flag>Obscurable</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>COV_Health</HPBar>
+    <HPBar>COV_HealthShield</HPBar>
   </Object>
   <Object name="cov_inf_silentshadow_02" id="0" dbid="195">
     <PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
@@ -16604,7 +16605,7 @@
     <TurnRate>540</TurnRate>
     <Hitpoints>400</Hitpoints>
     <Shieldpoints>800</Shieldpoints>
-    <AttackGradeDPS>24.7</AttackGradeDPS>
+    <AttackGradeDPS>50</AttackGradeDPS>
     <CombatValue>1.6</CombatValue>
     <LOS>55</LOS>
     <Hardpoint name="Torso" autocenter="true" singleboneik="true" relativeToUnit="true" yawrate="360" yawMaxAngle="90" yawattachment="Bip01 Spine" />
@@ -16663,6 +16664,7 @@
     <SurfaceType>EliteFlesh</SurfaceType>
     <RallyPoint>Military</RallyPoint>
     <AbilityCommand>CovGruntGrenade</AbilityCommand>
+    <AbilityCommand>UnscSpartanTakeOver</AbilityCommand>
     <Flag>AutoCloak</Flag>
     <Flag>MoveWhileCloaked</Flag>
     <Flag>KBAware</Flag>
@@ -16670,7 +16672,7 @@
     <Flag>HasHPBar</Flag>
     <Flag>Obscurable</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>COV_Health</HPBar>
+    <HPBar>COV_HealthShield</HPBar>
   </Object>
   <Object name="cov_inf_brutestalker_01" id="0" dbid="197">
     <PhysicsReplacementInfo>brute</PhysicsReplacementInfo>
@@ -17052,7 +17054,7 @@
     <Flag>HasHPBar</Flag>
     <Flag>Obscurable</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>COV_Health</HPBar>
+    <HPBar>COV_HealthShield</HPBar>
   </Object>
   <Object name="cov_inf_elitecarbine_01" id="0" dbid="195">
     <PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
@@ -17128,7 +17130,7 @@
     <Flag>HasHPBar</Flag>
     <Flag>Obscurable</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>COV_Health</HPBar>
+    <HPBar>COV_HealthShield</HPBar>
   </Object>
   <Object name="cov_inf_elitecarbine_02" id="0" dbid="195">
     <PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
@@ -17204,7 +17206,7 @@
     <Flag>HasHPBar</Flag>
     <Flag>Obscurable</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>COV_Health</HPBar>
+    <HPBar>COV_HealthShield</HPBar>
     <Flag>DieLast</Flag>
   </Object>
   <Object name="cov_inf_elitecarbine_03" id="0" dbid="195">
@@ -17282,7 +17284,7 @@
     <Flag>Obscurable</Flag>
     <Flag>Repairable</Flag>
     <Flag>DieLast</Flag>
-    <HPBar>COV_Health</HPBar>
+    <HPBar>COV_HealthShield</HPBar>
   </Object>
   <Object name="cov_inf_elitezealot_01" id="0" dbid="195">
     <PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
@@ -17360,7 +17362,7 @@
     <Flag>HasHPBar</Flag>
     <Flag>Obscurable</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>COV_Health</HPBar>
+    <HPBar>COV_HealthShield</HPBar>
   </Object>
   <Object name="cov_inf_elitefieldmarshal_01" id="0" dbid="195">
     <Ability>elitefieldmarshal_berserk_01.triggerscript</Ability>
@@ -17444,7 +17446,7 @@
     <Flag>HasHPBar</Flag>
     <Flag>Obscurable</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>COV_Health</HPBar>
+    <HPBar>COV_HealthShield</HPBar>
   </Object>
   <Object name="cov_inf_elitefieldmarshal_02" id="0" dbid="195">
     <PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
@@ -17524,7 +17526,7 @@
     <Flag>HasHPBar</Flag>
     <Flag>Obscurable</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>COV_Health</HPBar>
+    <HPBar>COV_HealthShield</HPBar>
   </Object>
   <Object name="unsc_obj_flare_01" id="0" dbid="2719">
     <ObjectClass>Squad</ObjectClass>
@@ -20031,7 +20033,7 @@
     <Flag>HasHPBar</Flag>
     <Flag>Obscurable</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>COV_Health</HPBar>
+    <HPBar>COV_HealthShield</HPBar>
   </Object>
   <Object name="fld_droptestsquad_01" id="0" dbid="148">
     <PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
@@ -22259,7 +22261,7 @@
     <Flag>HasHPBar</Flag>
     <Flag>Obscurable</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>COV_Health</HPBar>
+    <HPBar>COV_HealthShield</HPBar>
   </Object>
   <Object name="heretic_inf_elite_carbine_01" id="0" dbid="195">
     <Ability>lockdownability\hereticleader.triggerscript</Ability>
@@ -22334,7 +22336,7 @@
     <Flag>HasHPBar</Flag>
     <Flag>Obscurable</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>COV_Health</HPBar>
+    <HPBar>COV_HealthShield</HPBar>
   </Object>
   <Object name="heretic_inf_elite_sword_01" id="0" dbid="195">
     <PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
@@ -22404,7 +22406,7 @@
     <Flag>HasHPBar</Flag>
     <Flag>Obscurable</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>COV_Health</HPBar>
+    <HPBar>COV_HealthShield</HPBar>
   </Object>
   <Object name="cov_bldg_droppod_01" is="0" id="8925" dbid="3758">
     <ObjectClass>Building</ObjectClass>
@@ -30191,7 +30193,7 @@
     <Flag>HasHPBar</Flag>
     <Flag>Obscurable</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>COV_Health</HPBar>
+    <HPBar>COV_HealthShield</HPBar>
   </Object>
   <Object name="cov_inf_elitefuelrod_01" id="0" dbid="3013">
     <PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
@@ -30268,7 +30270,7 @@
     <Flag>HasHPBar</Flag>
     <Flag>Obscurable</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>COV_Health</HPBar>
+    <HPBar>COV_HealthShield</HPBar>
   </Object>
   <Object name="cov_inf_brutesniper_01" id="0" dbid="196">
     <PhysicsReplacementInfo>brute</PhysicsReplacementInfo>
@@ -67749,7 +67751,7 @@
     <Flag>HasHPBar</Flag>
     <Flag>Obscurable</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>COV_Health</HPBar>
+    <HPBar>COV_HealthShield</HPBar>
   </Object>
   <Object name="cov_inf_EliteVanguardOfficer_01" id="0" dbid="195">
     <PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
@@ -67826,7 +67828,7 @@
     <Flag>HasHPBar</Flag>
     <Flag>Obscurable</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>COV_Health</HPBar>
+    <HPBar>COV_HealthShield</HPBar>
   </Object>
   <Object name="cov_inf_eliteLeader_01" id="0" dbid="195">
     <PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
@@ -67903,7 +67905,7 @@
     <Flag>HasHPBar</Flag>
     <Flag>Obscurable</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>COV_Health</HPBar>
+    <HPBar>COV_HealthShield</HPBar>
   </Object>
   <Object name="cov_inf_eliteLeader_02" id="0" dbid="195">
     <PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
@@ -67980,7 +67982,7 @@
     <Flag>HasHPBar</Flag>
     <Flag>Obscurable</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>COV_Health</HPBar>
+    <HPBar>COV_HealthShield</HPBar>
   </Object>
   <Object name="cov_inf_EliteVanguardMinor_01" id="0" dbid="195">
     <PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
@@ -68057,7 +68059,7 @@
     <Flag>HasHPBar</Flag>
     <Flag>Obscurable</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>COV_Health</HPBar>
+    <HPBar>COV_HealthShield</HPBar>
   </Object>
   <Object name="cov_inf_elitedrop_01" id="0" dbid="195">
     <PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
@@ -68133,7 +68135,7 @@
     <Flag>HasHPBar</Flag>
     <Flag>Obscurable</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>COV_Health</HPBar>
+    <HPBar>COV_HealthShield</HPBar>
   </Object>
   <Object name="cov_inf_EliteVanguardDualWield_01" id="0" dbid="198">
     <PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
@@ -68280,7 +68282,7 @@
     <Flag>HasHPBar</Flag>
     <Flag>Obscurable</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>COV_Health</HPBar>
+    <HPBar>COV_HealthShield</HPBar>
   </Object>
   <Object name="cov_inf_eliteranger_01" id="0" dbid="198">
     <PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
@@ -68502,7 +68504,7 @@
     <Flag>Obscurable</Flag>
     <Flag>Repairable</Flag>
     <Flag>AirMovement</Flag>
-    <HPBar>COV_Health</HPBar>
+    <HPBar>COV_HealthShield</HPBar>
   </Object>
   <Object name="cov_inf_drones_01" id="0" dbid="1151">
     <ObjectClass>Squad</ObjectClass>
@@ -69216,7 +69218,7 @@
     <Flag>HasHPBar</Flag>
     <Flag>Obscurable</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>COV_Health</HPBar>
+    <HPBar>COV_HealthShield</HPBar>
   </Object>
   <Object name="cov_inf_eliteCommando_plasmarifle_02" id="0" dbid="2452">
     <Ability>elitecommando_berserk_01.triggerscript</Ability>
@@ -69297,7 +69299,7 @@
     <Flag>HasHPBar</Flag>
     <Flag>Obscurable</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>COV_Health</HPBar>
+    <HPBar>COV_HealthShield</HPBar>
   </Object>
   <Object name="cov_inf_eliteCommando_01" id="0" dbid="2452">
     <Ability>cov_honorguardaura.ability</Ability>
@@ -69376,7 +69378,7 @@
     <Flag>HasHPBar</Flag>
     <Flag>Obscurable</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>COV_Health</HPBar>
+    <HPBar>COV_HealthShield</HPBar>
   </Object>
   <Object name="cov_inf_eliteCommando_02" id="0" dbid="2452">
     <Ability>cov_honorguardaura.ability</Ability>
@@ -69455,7 +69457,7 @@
     <Flag>HasHPBar</Flag>
     <Flag>Obscurable</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>COV_Health</HPBar>
+    <HPBar>COV_HealthShield</HPBar>
   </Object>
   <Object name="cov_inf_brutePlasmaRifle_01" id="0" dbid="196">
     <PhysicsReplacementInfo>brute</PhysicsReplacementInfo>
@@ -86075,7 +86077,7 @@
     <Flag>HasHPBar</Flag>
     <Flag>Obscurable</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>COV_Health</HPBar>
+    <HPBar>COV_HealthShield</HPBar>
   </Object>
   <Object name="cpgn_inf_needlerElite_02" id="0" dbid="3013">
     <PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
@@ -86147,7 +86149,7 @@
     <Flag>HasHPBar</Flag>
     <Flag>Obscurable</Flag>
     <Flag>Repairable</Flag>
-    <HPBar>COV_Health</HPBar>
+    <HPBar>COV_HealthShield</HPBar>
   </Object>
   <Object name="cpgn_building_powersupply_01" is="0" id="358" dbid="385">
     <ObjectClass>Building</ObjectClass>

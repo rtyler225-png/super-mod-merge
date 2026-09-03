@@ -150,7 +150,7 @@
     <CombatValue>17</CombatValue>
     <LeashRecallDelay>2500</LeashRecallDelay>
     <AggroDistance>10</AggroDistance>
-    <HPBar offset="0,8,0">Cov_Health</HPBar>
+    <HPBar offset="0,8,0">Cov_HealthShield</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
     <Units>
@@ -4591,6 +4591,7 @@
     <HPBar offset="0,8,0">COV_HealthShield</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+    <BobbleHead>Cov_Elite</BobbleHead>
     <LeashDistance>80</LeashDistance>
     <LeashDeadzone>40</LeashDeadzone>
     <LeashRecallDelay>2500</LeashRecallDelay>
@@ -4605,6 +4606,7 @@
     <Flag>Chatter</Flag>
     <Flag>KBAware</Flag>
     <Flag>Elite</Flag>
+    <Flag>OnlyShowBobbleHeadWhenContained</Flag>
     <DazeResist>0</DazeResist>
     <Selection>
       <ConformToTerrain>true</ConformToTerrain>
@@ -4624,6 +4626,7 @@
     <HPBar offset="0,8,0">COV_HealthShield</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+    <BobbleHead>Cov_Elite</BobbleHead>
     <LeashDistance>80</LeashDistance>
     <LeashDeadzone>40</LeashDeadzone>
     <LeashRecallDelay>2500</LeashRecallDelay>
@@ -4638,6 +4641,7 @@
     <Flag>Chatter</Flag>
     <Flag>KBAware</Flag>
     <Flag>Elite</Flag>
+    <Flag>OnlyShowBobbleHeadWhenContained</Flag>
     <DazeResist>0</DazeResist>
     <Selection>
       <ConformToTerrain>true</ConformToTerrain>
@@ -6144,7 +6148,7 @@
     <Cost ResourceType="Supplies">250</Cost>
     <RoleTextID>519</RoleTextID>
     <SubSelectSort>4800</SubSelectSort>
-    <HPBar offset="0,8,0">COV_Health</HPBar>
+    <HPBar offset="0,8,0">COV_HealthShield</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
     <LeashDistance>45</LeashDistance>
@@ -6176,7 +6180,7 @@
     <Cost ResourceType="Supplies">250</Cost>
     <RoleTextID>519</RoleTextID>
     <SubSelectSort>4799</SubSelectSort>
-    <HPBar offset="0,8,0">COV_Health</HPBar>
+    <HPBar offset="0,8,0">COV_HealthShield</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
     <LeashDistance>45</LeashDistance>
@@ -18519,7 +18523,7 @@
     <AggroDistance>40</AggroDistance>
     <Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
     <SubSelectSort>4003</SubSelectSort>
-    <HPBar offset="0,10,0">COV_Health</HPBar>
+    <HPBar offset="0,10,0">COV_HealthShield</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
     <Units>
@@ -18635,7 +18639,7 @@
     <AggroDistance>40</AggroDistance>
     <Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint01" endPoint="bone_spawnPoint01">Trained</Birth>
     <SubSelectSort>4005</SubSelectSort>
-    <HPBar offset="0,10,0">COV_Health</HPBar>
+    <HPBar offset="0,10,0">COV_HealthShield</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
     <Units>
@@ -22793,7 +22797,7 @@
     <Cost ResourceType="Supplies">250</Cost>
     <RoleTextID>503</RoleTextID>
     <SubSelectSort>4002</SubSelectSort>
-    <HPBar offset="0,8,0">COV_Health</HPBar>
+    <HPBar offset="0,8,0">COV_HealthShield</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
     <LeashDistance>45</LeashDistance>
