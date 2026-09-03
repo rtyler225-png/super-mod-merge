@@ -3201,7 +3201,7 @@ Elite Banshees do not have the Sacrifice ability, but can instead be upgraded to
 		<String _locID="22498" category="Objects" subtitle="false">New base site</String>
 		<String _locID="22499" category="Objects" subtitle="false">A new base is cleared for placement here</String>
 		<String _locID="22500" category="Code" subtitle="false">Recycle</String>
-		<String _locID="22501" category="Code" subtitle="false">Recycle this building and return some supplies back to your bank.</String>
+		<String _locID="22501" category="Code" subtitle="false">Recycle this building and return 100% of the supplies back to your bank.</String>
 		<String _locID="22502" category="Code" subtitle="false">Cancel - %1!.f! seconds</String>
 		<String _locID="22503" category="Code" subtitle="false">Recycle:  %1!.f! seconds</String>
 		<String _locID="22505" category="Techs" subtitle="false">Building 1</String>

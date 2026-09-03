@@ -674,10 +674,10 @@
     <DamageModifier rating="1" type="MediumInfantryInCover">0.75</DamageModifier>
     <DamageModifier rating="1" type="HeavyInfantry">1.5</DamageModifier>
     <DamageModifier rating="1" type="HeavyInfantryInCover">0.75</DamageModifier>
-    <DamageModifier rating="1" type="LightVehicle">0.5</DamageModifier>
-    <DamageModifier rating="1" type="MediumVehicle">0.25</DamageModifier>
-    <DamageModifier rating="1" type="HeavyVehicle">0.1</DamageModifier>
-    <DamageModifier rating="1" type="UberVehicle">0.05</DamageModifier>
+    <DamageModifier rating="1" type="LightVehicle">0.75</DamageModifier>
+    <DamageModifier rating="1" type="MediumVehicle">0.5</DamageModifier>
+    <DamageModifier rating="1" type="HeavyVehicle">0.25</DamageModifier>
+    <DamageModifier rating="1" type="UberVehicle">0.1</DamageModifier>
     <DamageModifier rating="1" type="LightAir">0</DamageModifier>
     <DamageModifier rating="1" type="MediumAir">0</DamageModifier>
     <DamageModifier rating="1" type="HeavyAir">0</DamageModifier>
@@ -700,10 +700,10 @@
     <DamageModifier rating="1" type="MediumInfantryInCover">0.75</DamageModifier>
     <DamageModifier rating="1" type="HeavyInfantry">1.5</DamageModifier>
     <DamageModifier rating="1" type="HeavyInfantryInCover">0.75</DamageModifier>
-    <DamageModifier rating="1" type="LightVehicle">0.5</DamageModifier>
-    <DamageModifier rating="1" type="MediumVehicle">0.25</DamageModifier>
-    <DamageModifier rating="1" type="HeavyVehicle">0.1</DamageModifier>
-    <DamageModifier rating="1" type="UberVehicle">0.05</DamageModifier>
+    <DamageModifier rating="1" type="LightVehicle">1.0</DamageModifier>
+    <DamageModifier rating="1" type="MediumVehicle">0.8</DamageModifier>
+    <DamageModifier rating="1" type="HeavyVehicle">0.6</DamageModifier>
+    <DamageModifier rating="1" type="UberVehicle">0.3</DamageModifier>
     <DamageModifier rating="1" type="LightAir">0</DamageModifier>
     <DamageModifier rating="1" type="MediumAir">0</DamageModifier>
     <DamageModifier rating="1" type="HeavyAir">0</DamageModifier>

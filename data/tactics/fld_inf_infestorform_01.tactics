@@ -25,8 +25,8 @@
 		<AOEDamageFactor>0.5</AOEDamageFactor>
 		<ThrowUnits />
 		<DamageRatingOverride type="Unarmored">0.017</DamageRatingOverride>
-		<DamageRatingOverride type="Vehicle">0.017</DamageRatingOverride>
-		<DamageRatingOverride type="Air">0</DamageRatingOverride>
+		<DamageRatingOverride type="Vehicle">0.25</DamageRatingOverride>
+		<DamageRatingOverride type="Air">0.15</DamageRatingOverride>
 		<DamageRatingOverride type="Building">0.017</DamageRatingOverride>
 		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
 		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
@@ -50,8 +50,8 @@
 		<AOEDamageFactor>0.5</AOEDamageFactor>
 		<ThrowUnits />
 		<DamageRatingOverride type="Unarmored">0.017</DamageRatingOverride>
-		<DamageRatingOverride type="Vehicle">0.017</DamageRatingOverride>
-		<DamageRatingOverride type="Air">0</DamageRatingOverride>
+		<DamageRatingOverride type="Vehicle">0.25</DamageRatingOverride>
+		<DamageRatingOverride type="Air">0.15</DamageRatingOverride>
 		<DamageRatingOverride type="Building">0.017</DamageRatingOverride>
 		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
 		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
