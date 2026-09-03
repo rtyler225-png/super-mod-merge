@@ -2476,7 +2476,7 @@
     <ReverseSpeed>0.0f</ReverseSpeed>
     <TurnRate>360</TurnRate>
     <Hitpoints>3500</Hitpoints>
-    <AttackGradeDPS>132</AttackGradeDPS>
+    <AttackGradeDPS>204</AttackGradeDPS>
     <CombatValue>24</CombatValue>
     <LOS>65</LOS>
     <Pop Type="Unit">15</Pop>
@@ -12293,7 +12293,7 @@
     <TurnRate>360</TurnRate>
     <Hitpoints>8000</Hitpoints>
     <Shieldpoints>0</Shieldpoints>
-    <AttackGradeDPS>132</AttackGradeDPS>
+    <AttackGradeDPS>204</AttackGradeDPS>
     <CombatValue>24</CombatValue>
     <LOS>65</LOS>
     <Pop Type="Unit">15</Pop>
