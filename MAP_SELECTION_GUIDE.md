@@ -110,15 +110,15 @@ print('1 map per category active.')
 
 ## Map Inventory Overview
 
-All **125 scenarios** registered in `data/scenariodescriptions.xml`:
+All **124 scenarios** registered in `data/scenariodescriptions.xml`:
 - **Campaign / Dev / Tutorial Scenarios**: 61 entries
-- **1v1 Skirmish Maps**: 22 entries (7 Vanilla + 15 Modded)
+- **1v1 Skirmish Maps**: 21 entries (7 Vanilla + 14 Modded)
 - **2v2 Skirmish Maps**: 21 entries (7 Vanilla + 13 Modded + 1 Dev)
 - **3v3 Skirmish Maps**: 21 entries (4 Vanilla + 17 Modded)
 
 ### 1v1 Maps (2 Players)
 - **Vanilla (7)**: Blood Gulch, Barrens, Blood River, Chasms, Pirth Outskirts, Release, Tundra
-- **Modded (15)**: Arcadia Embassy, Arcadia Outskirts, Ascension, Black Ice, Closed Circuit, Containment, Desolation, Dome of Night, Feign River, Flash Freeze, Gateway, Graveyard, Nighttime Pass, Release Night, Whiteout
+- **Modded (14)**: Arcadia Outskirts, Ascension, Black Ice, Closed Circuit, Containment, Desolation, Dome of Night, Feign River, Flash Freeze, Gateway, Graveyard, Nighttime Pass, Release Night, Whiteout
 
 ### 2v2 Maps (4 Players)
 - **Vanilla (7)**: Beasley's Plateau, Crevice, Labyrinth, Memorial Basin, Repository, Terminal Moraine, The Docks
