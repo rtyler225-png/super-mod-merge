@@ -80,9 +80,9 @@
 		<PiecewiseFunc>
 			<DataPoint Input="0" Output="1.0" Comment="Easy: normal supplies" />
 			<DataPoint Input="0.34" Output="1.0" Comment="Normal: normal supplies" />
-			<DataPoint Input="0.67" Output="1.25" Comment="Hard: 25% boost" />
-			<DataPoint Input="1" Output="1.75" Comment="Legendary: 75% boost" />
-			<DataPoint Input="2" Output="2.50" Comment="Hyper-Legendary: 2.5x boost" />
+			<DataPoint Input="0.67" Output="1.0" Comment="Heroic: no econ cheat, plays on skill instead" />
+			<DataPoint Input="1" Output="2.25" Comment="Legendary: 125% boost - quantity-focused cheat" />
+			<DataPoint Input="2" Output="3.25" Comment="Hyper-Legendary: 3.25x boost - quantity-focused cheat" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DeathMatchMultiplier" InputLabel="Difficulty" OutputLabel="Multiplier" Comment="1.00 = normal speed, 0.0 (illegal!!) infinitely slow training/building, 2.0 means double speed">
@@ -98,25 +98,25 @@
 		<PiecewiseFunc>
 			<DataPoint Input="0" Output="0.90" Comment="Easy: 10% less damage" />
 			<DataPoint Input="0.34" Output="1.0" Comment="Normal: normal damage" />
-			<DataPoint Input="0.67" Output="1.10" Comment="Hard: 10% boost" />
-			<DataPoint Input="1" Output="1.35" Comment="Legendary: 35% boost" />
-			<DataPoint Input="2" Output="1.75" Comment="Hyper-Legendary: 75% boost" />
+			<DataPoint Input="0.67" Output="1.0" Comment="Heroic: no damage cheat, plays on skill instead" />
+			<DataPoint Input="1" Output="1.10" Comment="Legendary: small 10% edge - quantity over quality" />
+			<DataPoint Input="2" Output="1.20" Comment="Hyper-Legendary: small 20% edge - quantity over quality" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DamageTakenMultiplier" InputLabel="Difficulty" OutputLabel="Multiplier" Comment="2.0 means the AI's units TAKE double damage.  High values are easy, low are hard.">
 		<PiecewiseFunc>
 			<DataPoint Input="0" Output="1.10" Comment="Easy: takes 10% more damage" />
 			<DataPoint Input="0.34" Output="1.0" Comment="Normal: normal damage taken" />
-			<DataPoint Input="0.67" Output="0.90" Comment="Hard: takes 10% less damage" />
-			<DataPoint Input="1" Output="0.75" Comment="Legendary: takes 25% less damage" />
-			<DataPoint Input="2" Output="0.55" Comment="Hyper-Legendary: takes 45% less damage" />
+			<DataPoint Input="0.67" Output="1.0" Comment="Heroic: no damage-reduction cheat, plays on skill instead" />
+			<DataPoint Input="1" Output="0.90" Comment="Legendary: takes 10% less damage - quantity over quality" />
+			<DataPoint Input="2" Output="0.85" Comment="Hyper-Legendary: takes 15% less damage - quantity over quality" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="LogMaxBases" InputLabel="Difficulty" OutputLabel="Int" Comment="Maximum bases the AI will attempt to claim.">
 		<PiecewiseFunc>
 			<DataPoint Input="0" Output="3" Comment="3 on Easy" />
 			<DataPoint Input="0.34" Output="4" Comment="4 on Normal" />
-			<DataPoint Input="0.67" Output="6" Comment="Heroic: 6 base targets, below Legendary's 8" />
+			<DataPoint Input="0.67" Output="7" Comment="Heroic: more expansion ambition, below Legendary's 8" />
 			<DataPoint Input="1" Output="8" Comment="8 on Legendary" />
 			<DataPoint Input="2" Output="10" Comment="10 on Hyper-Legendary" />
 		</PiecewiseFunc>
@@ -165,7 +165,7 @@
 		<PiecewiseFunc>
 			<DataPoint Input="0" Output="0.35" Comment="35% on Easy" />
 			<DataPoint Input="0.34" Output="0.85" Comment="85% on Normal" />
-			<DataPoint Input="0.67" Output="1.10" Comment="Heroic: 81% of Legendary counter focus" />
+			<DataPoint Input="0.67" Output="1.35" Comment="Heroic: matches Legendary's counter focus - skill, not stat cheats" />
 			<DataPoint Input="1" Output="1.35" Comment="135% on Legendary" />
 			<DataPoint Input="2" Output="1.60" Comment="160% on Hyper-Legendary" />
 		</PiecewiseFunc>
@@ -174,7 +174,7 @@
 		<PiecewiseFunc>
 			<DataPoint Input="0" Output="4.0" />
 			<DataPoint Input="0.34" Output="1.0" />
-			<DataPoint Input="0.67" Output="0.125" Comment="Heroic: 80% of Legendary counter recalculation cadence" />
+			<DataPoint Input="0.67" Output="0.10" Comment="Heroic: matches Legendary's recalculation cadence - skill, not stat cheats" />
 			<DataPoint Input="1" Output="0.10" />
 			<DataPoint Input="2" Output="0.05" />
 		</PiecewiseFunc>
@@ -201,7 +201,7 @@
 		<PiecewiseFunc>
 			<DataPoint Input="0" Output="6.0" />
 			<DataPoint Input="0.34" Output="4.0" />
-			<DataPoint Input="0.67" Output="1.8" Comment="Heroic: shorter distractions to sustain pressure" />
+			<DataPoint Input="0.67" Output="1.5" Comment="Heroic: matches Legendary's attention recovery - skill, not stat cheats" />
 			<DataPoint Input="1" Output="1.5" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
@@ -209,7 +209,7 @@
 		<PiecewiseFunc>
 			<DataPoint Input="0" Output="3.0" />
 			<DataPoint Input="0.34" Output="1.5" />
-			<DataPoint Input="0.67" Output="0.25" Comment="Heroic: 80% of Legendary build-topic urgency cadence" />
+			<DataPoint Input="0.67" Output="0.2" Comment="Heroic: matches Legendary's build-topic urgency - skill, not stat cheats" />
 			<DataPoint Input="1" Output="0.2" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
