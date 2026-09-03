@@ -23195,9 +23195,10 @@
     <PickPriority>Building</PickPriority>
     <SelectType>Command</SelectType>
     <Tactics>fld_bldg_floodskullspawner_02.tactics</Tactics>
-    <Command Type="TrainSquad" Position="0">fld_inf_infectionform_01</Command>
-    <Command Type="TrainSquad" Position="0">fld_inf_infectionform_05</Command>
-    <Command Type="TrainSquad" Position="0">fld_inf_infectionform_06</Command>
+    <Command Type="TrainSquad" Position="0">fld_inf_infectionForm_01</Command>
+    <Command Type="TrainSquad" Position="0">fld_inf_infectionForm_05</Command>
+    <Command Type="TrainSquad" Position="0">fld_inf_infectionForm_06</Command>
+    <Command Type="TrainSquad" Position="0">fld_inf_infectionForm_07</Command>
     <Command Type="TrainSquad" Position="1">fld_inf_infestorform_01</Command>
     <Command Type="TrainSquad" Position="2">fld_inf_spawnerform_01</Command>
     <Command Type="TrainSquad" Position="3">fld_inf_rhinodillo_01</Command>
@@ -23294,6 +23295,8 @@
     <Command Type="TrainSquad" Position="">fld_inf_infectedSnipers_01</Command>
     <Command Type="TrainSquad" Position="">fld_inf_infectedHeavy_01</Command>
     <Command Type="TrainSquad" Position="">fld_inf_flameMarine_01</Command>
+    <Command Type="TrainSquad" Position="">fld_inf_infectedmarine_01</Command>
+    <Command Type="TrainSquad" Position="">fld_inf_infectedjackal_beamrifle_01</Command>
     <Command Type="Research" Position="">fld_combatform_upgrade1</Command>
     <Command Type="Research" Position="">fld_combatform_upgrade2</Command>
     <Command Type="Research" Position="">fld_combatform_upgrade3</Command>
@@ -27712,9 +27715,10 @@
     <PickPriority>Building</PickPriority>
     <SelectType>Command</SelectType>
     <Tactics>fld_bldg_floodskullspawner_02.tactics</Tactics>
-    <Command Type="TrainSquad" Position="0">fld_inf_infectionform_01</Command>
-    <Command Type="TrainSquad" Position="0">fld_inf_infectionform_05</Command>
-    <Command Type="TrainSquad" Position="0">fld_inf_infectionform_06</Command>
+    <Command Type="TrainSquad" Position="0">fld_inf_infectionForm_01</Command>
+    <Command Type="TrainSquad" Position="0">fld_inf_infectionForm_05</Command>
+    <Command Type="TrainSquad" Position="0">fld_inf_infectionForm_06</Command>
+    <Command Type="TrainSquad" Position="0">fld_inf_infectionForm_07</Command>
     <Command Type="TrainSquad" Position="1">fld_air_swarm_01</Command>
     <Command Type="TrainSquad" Position="2">fld_air_bomber_01</Command>
     <Command Type="TrainSquad" Position="3">fld_air_seederform_01</Command>
@@ -74202,9 +74206,10 @@
     <ExitFromDirection>1</ExitFromDirection>
     <Tactics>fld_bldg_floodskullspawner_01.tactics</Tactics>
     <Command Type="TrainSquad" Position="0">fld_inf_abomination_01</Command>
-    <Command Type="TrainSquad" Position="1">fld_inf_infectionform_01</Command>
-    <Command Type="TrainSquad" Position="1">fld_inf_infectionform_05</Command>
-    <Command Type="TrainSquad" Position="1">fld_inf_infectionform_06</Command>
+    <Command Type="TrainSquad" Position="1">fld_inf_infectionForm_01</Command>
+    <Command Type="TrainSquad" Position="1">fld_inf_infectionForm_05</Command>
+    <Command Type="TrainSquad" Position="1">fld_inf_infectionForm_06</Command>
+    <Command Type="TrainSquad" Position="1">fld_inf_infectionForm_07</Command>
     <Command Type="TrainSquad" Position="2">fld_inf_stalkerform_01</Command>
     <Command Type="Research" Position="6">fld_stalkerform_upgrade1</Command>
     <Command Type="Research" Position="6">fld_stalkerform_upgrade2</Command>
@@ -74304,9 +74309,10 @@
     <ExitFromDirection>1</ExitFromDirection>
     <Tactics>fld_bldg_floodskullspawner_01.tactics</Tactics>
     <Command Type="Research" Position="0">fld_base_upgrade1</Command>
-    <Command Type="TrainSquad" Position="1">fld_inf_infectionform_01</Command>
-    <Command Type="TrainSquad" Position="1">fld_inf_infectionform_05</Command>
-    <Command Type="TrainSquad" Position="1">fld_inf_infectionform_06</Command>
+    <Command Type="TrainSquad" Position="1">fld_inf_infectionForm_01</Command>
+    <Command Type="TrainSquad" Position="1">fld_inf_infectionForm_05</Command>
+    <Command Type="TrainSquad" Position="1">fld_inf_infectionForm_06</Command>
+    <Command Type="TrainSquad" Position="1">fld_inf_infectionForm_07</Command>
     <Command Type="TrainSquad" Position="2">fld_inf_juggernaut_01</Command>
     <Command Type="Research" Position="6">fld_juggernaut_upgrade1</Command>
     <Command Type="Research" Position="6">fld_juggernaut_upgrade2</Command>
@@ -74401,9 +74407,10 @@
     <ExitFromDirection>1</ExitFromDirection>
     <Tactics>fld_bldg_floodskullspawner_01.tactics</Tactics>
     <Command Type="Research" Position="0">fld_base_upgrade2</Command>
-    <Command Type="TrainSquad" Position="1">fld_inf_infectionform_01</Command>
-    <Command Type="TrainSquad" Position="1">fld_inf_infectionform_05</Command>
-    <Command Type="TrainSquad" Position="1">fld_inf_infectionform_06</Command>
+    <Command Type="TrainSquad" Position="1">fld_inf_infectionForm_01</Command>
+    <Command Type="TrainSquad" Position="1">fld_inf_infectionForm_05</Command>
+    <Command Type="TrainSquad" Position="1">fld_inf_infectionForm_06</Command>
+    <Command Type="TrainSquad" Position="1">fld_inf_infectionForm_07</Command>
     <Command Type="TrainSquad" Position="2">fld_inf_juggernaut_01</Command>
     <Command Type="Research" Position="6">fld_juggernaut_upgrade1</Command>
     <Command Type="Research" Position="6">fld_juggernaut_upgrade2</Command>
@@ -74505,9 +74512,10 @@
     <ExitFromDirection>1</ExitFromDirection>
     <Tactics>fld_bldg_floodskullspawner_01.tactics</Tactics>
     <Command Type="TrainSquad" Position="0">fld_inf_abomination_01</Command>
-    <Command Type="TrainSquad" Position="1">fld_inf_infectionform_01</Command>
-    <Command Type="TrainSquad" Position="1">fld_inf_infectionform_05</Command>
-    <Command Type="TrainSquad" Position="1">fld_inf_infectionform_06</Command>
+    <Command Type="TrainSquad" Position="1">fld_inf_infectionForm_01</Command>
+    <Command Type="TrainSquad" Position="1">fld_inf_infectionForm_05</Command>
+    <Command Type="TrainSquad" Position="1">fld_inf_infectionForm_06</Command>
+    <Command Type="TrainSquad" Position="1">fld_inf_infectionForm_07</Command>
     <Command Type="TrainSquad" Position="2">fld_inf_juggernaut_01</Command>
     <Command Type="Research" Position="6">fld_juggernaut_upgrade1</Command>
     <Command Type="Research" Position="6">fld_juggernaut_upgrade2</Command>
@@ -81323,7 +81331,7 @@
     <MaxVelocity>24</MaxVelocity>
     <Acceleration>17</Acceleration>
     <TurnRate>270</TurnRate>
-    <Hitpoints>10</Hitpoints>
+    <Hitpoints>20</Hitpoints>
     <CombatValue>1.0</CombatValue>
     <Pop Type="InfectionForm">0.3333333333</Pop>
     <LOS>55</LOS>
@@ -81376,7 +81384,7 @@
     <MaxVelocity>24</MaxVelocity>
     <Acceleration>17</Acceleration>
     <TurnRate>270</TurnRate>
-    <Hitpoints>10</Hitpoints>
+    <Hitpoints>20</Hitpoints>
     <Lifespan>45</Lifespan>
     <CombatValue>1.0</CombatValue>
     <Pop Type="InfectionForm">0.3333333333</Pop>
@@ -81430,7 +81438,7 @@
     <MaxVelocity>24</MaxVelocity>
     <Acceleration>17</Acceleration>
     <TurnRate>270</TurnRate>
-    <Hitpoints>10</Hitpoints>
+    <Hitpoints>20</Hitpoints>
     <CombatValue>1.0</CombatValue>
     <Pop Type="InfectionForm">0</Pop>
     <LOS>55</LOS>
@@ -81483,7 +81491,7 @@
     <MaxVelocity>24</MaxVelocity>
     <Acceleration>17</Acceleration>
     <TurnRate>270</TurnRate>
-    <Hitpoints>10</Hitpoints>
+    <Hitpoints>20</Hitpoints>
     <Lifespan>75</Lifespan>
     <CombatValue>1.0</CombatValue>
     <Pop Type="InfectionForm">0.3333333333</Pop>
@@ -81537,7 +81545,7 @@
     <MaxVelocity>24</MaxVelocity>
     <Acceleration>17</Acceleration>
     <TurnRate>270</TurnRate>
-    <Hitpoints>10</Hitpoints>
+    <Hitpoints>20</Hitpoints>
     <Lifespan>75</Lifespan>
     <CombatValue>1.0</CombatValue>
     <Pop Type="InfectionForm">0</Pop>

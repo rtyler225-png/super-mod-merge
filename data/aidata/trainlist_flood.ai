@@ -3,8 +3,10 @@
 	<!-- Early pressure: infection forms remain the core, supported by combat forms, carriers, and bombers. -->
 	<Table Name="CovMix_1" Type="SquadBuildList">
 		<Row><c>fld_inf_infectedCarrier_01</c><c>14</c></Row>
-		<Row><c>fld_inf_infectedmelee_01</c><c>10</c></Row>
-		<Row><c>fld_inf_infectedranged_01</c><c>6</c></Row>
+		<Row><c>fld_inf_infectedmelee_01</c><c>3</c></Row>
+		<Row><c>fld_inf_infectedranged_01</c><c>5</c></Row>
+		<Row><c>fld_inf_infectedmarine_01</c><c>4</c></Row>
+		<Row><c>fld_inf_infectedjackal_beamrifle_01</c><c>4</c></Row>
 		<Row><c>fld_inf_infectedheavy_01</c><c>10</c></Row>
 		<Row><c>fld_inf_infectedsnipers_01</c><c>2</c></Row>
 		<Row><c>fld_inf_flameMarine_01</c><c>2</c></Row>
@@ -25,8 +27,10 @@
 	<!-- Midgame pressure: bomber and carrier production rises while the infection swarm remains dominant. -->
 	<Table Name="CovMix_2" Type="SquadBuildList">
 		<Row><c>fld_inf_infectedCarrier_01</c><c>20</c></Row>
-		<Row><c>fld_inf_infectedmelee_01</c><c>12</c></Row>
-		<Row><c>fld_inf_infectedranged_01</c><c>8</c></Row>
+		<Row><c>fld_inf_infectedmelee_01</c><c>4</c></Row>
+		<Row><c>fld_inf_infectedranged_01</c><c>6</c></Row>
+		<Row><c>fld_inf_infectedmarine_01</c><c>5</c></Row>
+		<Row><c>fld_inf_infectedjackal_beamrifle_01</c><c>5</c></Row>
 		<Row><c>fld_inf_infectedheavy_01</c><c>14</c></Row>
 		<Row><c>fld_inf_infectedsnipers_01</c><c>3</c></Row>
 		<Row><c>fld_inf_flameMarine_01</c><c>2</c></Row>
@@ -47,8 +51,10 @@
 	<!-- Late game: full Flood combined arms with only one of each oversized support form. -->
 	<Table Name="CovMix_3" Type="SquadBuildList">
 		<Row><c>fld_inf_infectedCarrier_01</c><c>26</c></Row>
-		<Row><c>fld_inf_infectedmelee_01</c><c>16</c></Row>
-		<Row><c>fld_inf_infectedranged_01</c><c>11</c></Row>
+		<Row><c>fld_inf_infectedmelee_01</c><c>5</c></Row>
+		<Row><c>fld_inf_infectedranged_01</c><c>8</c></Row>
+		<Row><c>fld_inf_infectedmarine_01</c><c>7</c></Row>
+		<Row><c>fld_inf_infectedjackal_beamrifle_01</c><c>7</c></Row>
 		<Row><c>fld_inf_infectedheavy_01</c><c>18</c></Row>
 		<Row><c>fld_inf_infectedsnipers_01</c><c>5</c></Row>
 		<Row><c>fld_inf_flameMarine_01</c><c>3</c></Row>
@@ -71,8 +77,10 @@
 	<!-- This fallback is intentionally swarm-oriented and contains no Thrashers or oversized forms. -->
 	<Table Name="CovProphetElites" Type="SquadBuildList">
 		<Row><c>fld_inf_infectedCarrier_01</c><c>18</c></Row>
-		<Row><c>fld_inf_infectedmelee_01</c><c>12</c></Row>
-		<Row><c>fld_inf_infectedranged_01</c><c>8</c></Row>
+		<Row><c>fld_inf_infectedmelee_01</c><c>4</c></Row>
+		<Row><c>fld_inf_infectedranged_01</c><c>6</c></Row>
+		<Row><c>fld_inf_infectedmarine_01</c><c>5</c></Row>
+		<Row><c>fld_inf_infectedjackal_beamrifle_01</c><c>5</c></Row>
 		<Row><c>fld_inf_infectedheavy_01</c><c>14</c></Row>
 		<Row><c>fld_inf_infectedsnipers_01</c><c>3</c></Row>
 		<Row><c>fld_air_bomber_01</c><c>12</c></Row>
@@ -89,8 +97,10 @@
 
 	<Table Name="CovGeneral_1" Type="SquadBuildList">
 		<Row><c>fld_inf_infectedCarrier_01</c><c>14</c></Row>
-		<Row><c>fld_inf_infectedmelee_01</c><c>10</c></Row>
-		<Row><c>fld_inf_infectedranged_01</c><c>6</c></Row>
+		<Row><c>fld_inf_infectedmelee_01</c><c>3</c></Row>
+		<Row><c>fld_inf_infectedranged_01</c><c>5</c></Row>
+		<Row><c>fld_inf_infectedmarine_01</c><c>4</c></Row>
+		<Row><c>fld_inf_infectedjackal_beamrifle_01</c><c>4</c></Row>
 		<Row><c>fld_inf_infectedheavy_01</c><c>10</c></Row>
 		<Row><c>fld_inf_infectedsnipers_01</c><c>2</c></Row>
 		<Row><c>fld_inf_flameMarine_01</c><c>2</c></Row>
@@ -110,8 +120,10 @@
 
 	<Table Name="CovGeneral_2" Type="SquadBuildList">
 		<Row><c>fld_inf_infectedCarrier_01</c><c>20</c></Row>
-		<Row><c>fld_inf_infectedmelee_01</c><c>12</c></Row>
-		<Row><c>fld_inf_infectedranged_01</c><c>8</c></Row>
+		<Row><c>fld_inf_infectedmelee_01</c><c>4</c></Row>
+		<Row><c>fld_inf_infectedranged_01</c><c>6</c></Row>
+		<Row><c>fld_inf_infectedmarine_01</c><c>5</c></Row>
+		<Row><c>fld_inf_infectedjackal_beamrifle_01</c><c>5</c></Row>
 		<Row><c>fld_inf_infectedheavy_01</c><c>14</c></Row>
 		<Row><c>fld_inf_infectedsnipers_01</c><c>3</c></Row>
 		<Row><c>fld_inf_flameMarine_01</c><c>2</c></Row>
@@ -131,8 +143,10 @@
 
 	<Table Name="CovGeneral_3" Type="SquadBuildList">
 		<Row><c>fld_inf_infectedCarrier_01</c><c>26</c></Row>
-		<Row><c>fld_inf_infectedmelee_01</c><c>16</c></Row>
-		<Row><c>fld_inf_infectedranged_01</c><c>11</c></Row>
+		<Row><c>fld_inf_infectedmelee_01</c><c>5</c></Row>
+		<Row><c>fld_inf_infectedranged_01</c><c>8</c></Row>
+		<Row><c>fld_inf_infectedmarine_01</c><c>7</c></Row>
+		<Row><c>fld_inf_infectedjackal_beamrifle_01</c><c>7</c></Row>
 		<Row><c>fld_inf_infectedheavy_01</c><c>18</c></Row>
 		<Row><c>fld_inf_infectedsnipers_01</c><c>5</c></Row>
 		<Row><c>fld_inf_flameMarine_01</c><c>3</c></Row>

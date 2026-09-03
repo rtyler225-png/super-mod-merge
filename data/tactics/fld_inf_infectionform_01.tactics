@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>SporeCloud</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>8</DamagePerSecond>
+		<DamagePerSecond>10</DamagePerSecond>
 		<WeaponType>InfectionSpore</WeaponType>
 		<Projectile>fx_proj_shotgun_01</Projectile>
 		<MaxVelocityLead>18</MaxVelocityLead>
@@ -21,7 +21,7 @@
 	<Weapon>
 		<Name>FloodInfection</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>700</DamagePerSecond>
+		<DamagePerSecond>800</DamagePerSecond>
 		<UseDPSasDPA />
 		<MaxRange>3.5</MaxRange>
 		<WeaponType>InfectionForm</WeaponType>
@@ -49,7 +49,7 @@
 	<Weapon>
 		<Name>FloodMelee</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>150</DamagePerSecond>
+		<DamagePerSecond>200</DamagePerSecond>
 		<MaxRange>3.5</MaxRange>
 		<WeaponType>InfectionForm</WeaponType>
 		<TargetPriority type="Infantry">25</TargetPriority>
