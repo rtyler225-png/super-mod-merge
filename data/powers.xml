@@ -1169,7 +1169,7 @@
   <Power name="AndersRhinoDrop">
     <Attributes>
       <Cost Supplies="300" Power="2" />
-      <AutoRecharge>90000</AutoRecharge>
+      <AutoRecharge>15000</AutoRecharge>
       <SequentialRecharge />
       <UIRadius>10</UIRadius>
       <DisplayNameID>69989</DisplayNameID>
