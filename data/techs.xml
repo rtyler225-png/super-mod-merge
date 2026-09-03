@@ -5835,6 +5835,7 @@
         <Target type="Tech">fld_infectedcarrier_upgrade3</Target>
         <Target type="Tech">fld_infectionform_upgrade1</Target>
         <Target type="Tech">fld_infectionform_upgrade2</Target>
+        <Target type="Tech">fld_infectionform_upgrade3</Target>
         <Target type="Tech">fld_infestorform_upgrade1</Target>
         <Target type="Tech">fld_infestorform_upgrade2</Target>
         <Target type="Tech">fld_infestorform_upgrade3</Target>
@@ -6546,6 +6547,7 @@
         <Target type="Tech">fld_infectedcarrier_upgrade3</Target>
         <Target type="Tech">fld_infectionform_upgrade1</Target>
         <Target type="Tech">fld_infectionform_upgrade2</Target>
+        <Target type="Tech">fld_infectionform_upgrade3</Target>
         <Target type="Tech">fld_infestorform_upgrade1</Target>
         <Target type="Tech">fld_infestorform_upgrade2</Target>
         <Target type="Tech">fld_infestorform_upgrade3</Target>
@@ -18886,19 +18888,23 @@
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Effects>
       <Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
-        <Target type="ProtoUnit">fld_inf_infectionform_01</Target>
+        <Target type="ProtoUnit">fld_inf_InfectionForm_01</Target>
       </Effect>
       <Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
-        <Target type="ProtoUnit">fld_inf_infectionform_01</Target>
+        <Target type="ProtoUnit">fld_inf_InfectionForm_01</Target>
       </Effect>
       <Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
-        <Target type="ProtoUnit">fld_inf_infectionform_03</Target>
+        <Target type="ProtoUnit">fld_inf_InfectionForm_03</Target>
       </Effect>
       <Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
-        <Target type="ProtoUnit">fld_inf_infectionform_03</Target>
+        <Target type="ProtoUnit">fld_inf_InfectionForm_03</Target>
       </Effect>
-      <Effect type="TransformProtoSquad" FromType="fld_inf_infectionForm_01" ToType="fld_inf_infectionform_05" />
-      <Effect type="TransformProtoSquad" FromType="fld_inf_infectionForm_11" ToType="fld_inf_infectionform_05" />
+      <Effect type="TransformProtoSquad" FromType="fld_inf_infectionForm_01" ToType="fld_inf_infectionForm_05" />
+      <Effect type="TransformProtoSquad" FromType="fld_inf_infectionForm_02" ToType="fld_inf_infectionForm_05" />
+      <Effect type="TransformProtoSquad" FromType="fld_inf_infectionForm_11" ToType="fld_inf_infectionForm_05" />
+      <Effect type="TransformProtoSquad" FromType="fld_inf_infectionForm_22" ToType="fld_inf_infectionForm_05" />
+      <Effect type="TransformProtoSquad" FromType="fld_inf_infectionForm_03" ToType="fld_inf_infectionForm_05" />
+      <Effect type="TransformProtoSquad" FromType="fld_inf_infectionForm_08" ToType="fld_inf_infectionForm_05" />
     </Effects>
   </Tech>
   <Tech name="fld_infectionform_upgrade2" type="Normal">
@@ -18916,20 +18922,60 @@
     </Prereqs>
     <Effects>
       <Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
-        <Target type="ProtoUnit">fld_inf_infectionform_01</Target>
+        <Target type="ProtoUnit">fld_inf_InfectionForm_01</Target>
       </Effect>
       <Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
-        <Target type="ProtoUnit">fld_inf_infectionform_01</Target>
+        <Target type="ProtoUnit">fld_inf_InfectionForm_01</Target>
       </Effect>
       <Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
-        <Target type="ProtoUnit">fld_inf_infectionform_03</Target>
+        <Target type="ProtoUnit">fld_inf_InfectionForm_03</Target>
       </Effect>
       <Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
-        <Target type="ProtoUnit">fld_inf_infectionform_03</Target>
+        <Target type="ProtoUnit">fld_inf_InfectionForm_03</Target>
       </Effect>
-      <Effect type="TransformProtoSquad" FromType="fld_inf_infectionForm_01" ToType="fld_inf_infectionform_06" />
-      <Effect type="TransformProtoSquad" FromType="fld_inf_infectionForm_11" ToType="fld_inf_infectionform_06" />
-      <Effect type="TransformProtoSquad" FromType="fld_inf_infectionform_05" ToType="fld_inf_infectionform_06" />
+      <Effect type="TransformProtoSquad" FromType="fld_inf_infectionForm_01" ToType="fld_inf_infectionForm_06" />
+      <Effect type="TransformProtoSquad" FromType="fld_inf_infectionForm_02" ToType="fld_inf_infectionForm_06" />
+      <Effect type="TransformProtoSquad" FromType="fld_inf_infectionForm_11" ToType="fld_inf_infectionForm_06" />
+      <Effect type="TransformProtoSquad" FromType="fld_inf_infectionForm_22" ToType="fld_inf_infectionForm_06" />
+      <Effect type="TransformProtoSquad" FromType="fld_inf_infectionForm_05" ToType="fld_inf_infectionForm_06" />
+      <Effect type="TransformProtoSquad" FromType="fld_inf_infectionForm_03" ToType="fld_inf_infectionForm_06" />
+      <Effect type="TransformProtoSquad" FromType="fld_inf_infectionForm_08" ToType="fld_inf_infectionForm_06" />
+    </Effects>
+  </Tech>
+  <Tech name="fld_infectionform_upgrade3" type="Normal">
+    <DBID>1915</DBID>
+    <DisplayNameID>79968</DisplayNameID>
+    <RolloverTextID>79967</RolloverTextID>
+    <PrereqTextID>233</PrereqTextID>
+    <Cost resourcetype="Supplies">600</Cost>
+    <Cost resourcetype="Power">3</Cost>
+    <ResearchPoints>20</ResearchPoints>
+    <Status>OBTAINABLE</Status>
+    <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+    <Prereqs>
+      <TechStatus status="Active">fld_infectionform_upgrade2</TechStatus>
+    </Prereqs>
+    <Effects>
+      <Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+        <Target type="ProtoUnit">fld_inf_InfectionForm_01</Target>
+      </Effect>
+      <Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+        <Target type="ProtoUnit">fld_inf_InfectionForm_01</Target>
+      </Effect>
+      <Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+        <Target type="ProtoUnit">fld_inf_InfectionForm_03</Target>
+      </Effect>
+      <Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+        <Target type="ProtoUnit">fld_inf_InfectionForm_03</Target>
+      </Effect>
+      <Effect type="TransformProtoSquad" FromType="fld_inf_infectionForm_01" ToType="fld_inf_infectionForm_07" />
+      <Effect type="TransformProtoSquad" FromType="fld_inf_infectionForm_02" ToType="fld_inf_infectionForm_07" />
+      <Effect type="TransformProtoSquad" FromType="fld_inf_infectionForm_11" ToType="fld_inf_infectionForm_07" />
+      <Effect type="TransformProtoSquad" FromType="fld_inf_infectionForm_22" ToType="fld_inf_infectionForm_07" />
+      <Effect type="TransformProtoSquad" FromType="fld_inf_infectionForm_05" ToType="fld_inf_infectionForm_07" />
+      <Effect type="TransformProtoSquad" FromType="fld_inf_infectionForm_06" ToType="fld_inf_infectionForm_07" />
+      <Effect type="TransformProtoSquad" FromType="fld_inf_infectionForm_03" ToType="fld_inf_infectionForm_07" />
+      <Effect type="TransformProtoSquad" FromType="fld_inf_infectionForm_08" ToType="fld_inf_infectionForm_07" />
     </Effects>
   </Tech>
   <Tech name="fld_base_upgrade1" type="Normal">

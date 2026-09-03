@@ -24096,7 +24096,7 @@
     <LeashRecallDelay>2500</LeashRecallDelay>
     <AggroDistance>40</AggroDistance>
     <Units>
-      <Unit count="3" role="normal">fld_inf_infectionFormspawner_01</Unit>
+      <Unit count="6" role="normal">fld_inf_infectionFormspawner_01</Unit>
     </Units>
     <Sound Type="StartMove">play_fif_movement</Sound>
     <Sound Type="StopMove">stop_fif_movement</Sound>
@@ -24122,7 +24122,7 @@
     <LeashRecallDelay>2500</LeashRecallDelay>
     <AggroDistance>40</AggroDistance>
     <Units>
-      <Unit count="5" role="normal">fld_inf_infectionFormspawner_01</Unit>
+      <Unit count="6" role="normal">fld_inf_infectionFormspawner_01</Unit>
     </Units>
     <Sound Type="StartMove">play_fif_movement</Sound>
     <Sound Type="StopMove">stop_fif_movement</Sound>
@@ -24191,8 +24191,10 @@
   <Squad name="fld_inf_infectionForm_01" formationType="Gaggle" dbid="921">
     <MinimapIcon size="8">Circle</MinimapIcon>
     <MinimapScale>1</MinimapScale>
-    <DisplayNameID>22686</DisplayNameID>
-    <RolloverTextID>22687</RolloverTextID>
+    <DisplayNameID>79950</DisplayNameID>
+    <RolloverTextID>79949</RolloverTextID>
+    <RoleTextID>536</RoleTextID>
+    <SubSelectSort>1992</SubSelectSort>
     <HPBar offset="0,5,0">UNSC_Health</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -24201,7 +24203,7 @@
     <LeashRecallDelay>2500</LeashRecallDelay>
     <AggroDistance>65</AggroDistance>
     <Units>
-      <Unit count="9" role="normal">fld_inf_infectionForm_01</Unit>
+      <Unit count="6" role="normal">fld_inf_InfectionForm_01</Unit>
     </Units>
     <Sound Type="StartMove">play_fif_movement</Sound>
     <Sound Type="StopMove">stop_fif_movement</Sound>
@@ -24219,8 +24221,10 @@
   <Squad name="fld_inf_infectionForm_02" formationType="Gaggle" dbid="2739">
     <MinimapIcon size="8">Circle</MinimapIcon>
     <MinimapScale>1</MinimapScale>
-    <DisplayNameID>22686</DisplayNameID>
-    <RolloverTextID>22687</RolloverTextID>
+    <DisplayNameID>79950</DisplayNameID>
+    <RolloverTextID>79949</RolloverTextID>
+    <RoleTextID>536</RoleTextID>
+    <SubSelectSort>1992</SubSelectSort>
     <HPBar offset="0,5,0">UNSC_Health</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -24229,7 +24233,7 @@
     <LeashRecallDelay>2500</LeashRecallDelay>
     <AggroDistance>65</AggroDistance>
     <Units>
-      <Unit count="3" role="normal">fld_inf_infectionForm_01</Unit>
+      <Unit count="6" role="normal">fld_inf_InfectionForm_01</Unit>
     </Units>
     <Sound Type="StartMove">play_fif_movement</Sound>
     <Sound Type="StopMove">stop_fif_movement</Sound>
@@ -24242,7 +24246,7 @@
     <Flag>KBAware</Flag>
     <Flag>Flood</Flag>
     <Cost ResourceType="Supplies">20</Cost>
-    <BuildPoints>0.5</BuildPoints>
+    <BuildPoints>0.1</BuildPoints>
   </Squad>
   <Squad name="fld_inf_infectionForm_11" formationType="Gaggle" dbid="921">
     <MinimapIcon size="8">Circle</MinimapIcon>
@@ -24262,7 +24266,7 @@
     <Cost ResourceType="Supplies">20</Cost>
     <Cost resourcetype="Power">0</Cost>
     <Units>
-      <Unit count="3" role="normal">fld_inf_infectionForm_01</Unit>
+      <Unit count="6" role="normal">fld_inf_InfectionForm_01</Unit>
     </Units>
     <Sound Type="StartMove">play_fif_movement</Sound>
     <Sound Type="StopMove">stop_fif_movement</Sound>
@@ -24290,7 +24294,7 @@
     <LeashRecallDelay>2500</LeashRecallDelay>
     <AggroDistance>40</AggroDistance>
     <Units>
-      <Unit count="6" role="normal">fld_inf_infectionForm_01</Unit>
+      <Unit count="6" role="normal">fld_inf_InfectionForm_01</Unit>
     </Units>
     <Sound Type="StartMove">play_fif_movement</Sound>
     <Sound Type="StopMove">stop_fif_movement</Sound>
@@ -24320,7 +24324,7 @@
     <LeashRecallDelay>2500</LeashRecallDelay>
     <AggroDistance>40</AggroDistance>
     <Units>
-      <Unit count="3" role="normal">fld_inf_infectionForm_02</Unit>
+      <Unit count="6" role="normal">fld_inf_InfectionForm_01</Unit>
     </Units>
     <Sound Type="StartMove">play_fif_movement</Sound>
     <Sound Type="StopMove">stop_fif_movement</Sound>
@@ -24383,8 +24387,8 @@
     <Cost ResourceType="Supplies">20</Cost>
     <Cost resourcetype="Power">0</Cost>
     <Units>
-      <Unit count="3" role="normal">fld_inf_infectionForm_01</Unit>
-      <Unit count="2" role="normal">fld_inf_infectionForm_03</Unit>
+      <Unit count="6" role="normal">fld_inf_InfectionForm_01</Unit>
+      <Unit count="2" role="normal">fld_inf_InfectionForm_03</Unit>
     </Units>
     <Sound Type="StartMove">play_fif_movement</Sound>
     <Sound Type="StopMove">stop_fif_movement</Sound>
@@ -24416,8 +24420,8 @@
     <Cost ResourceType="Supplies">20</Cost>
     <Cost resourcetype="Power">0</Cost>
     <Units>
-      <Unit count="3" role="normal">fld_inf_infectionForm_01</Unit>
-      <Unit count="4" role="normal">fld_inf_infectionForm_03</Unit>
+      <Unit count="6" role="normal">fld_inf_InfectionForm_01</Unit>
+      <Unit count="4" role="normal">fld_inf_InfectionForm_03</Unit>
     </Units>
     <Sound Type="StartMove">play_fif_movement</Sound>
     <Sound Type="StopMove">stop_fif_movement</Sound>
@@ -24441,17 +24445,21 @@
     <HPBar offset="0,5,0">UNSC_Health</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-    <LeashDistance>70</LeashDistance>
+    <LeashDistance>100</LeashDistance>
     <LeashDeadzone>0</LeashDeadzone>
     <LeashRecallDelay>2500</LeashRecallDelay>
-    <AggroDistance>40</AggroDistance>
+    <AggroDistance>65</AggroDistance>
+    <BuildPoints>0.1</BuildPoints>
+    <Cost ResourceType="Supplies">20</Cost>
+    <Cost resourcetype="Power">0</Cost>
     <Units>
-      <Unit count="3" role="normal">fld_inf_infectionForm_01</Unit>
-      <Unit count="5" role="normal">fld_inf_infectionForm_03</Unit>
+      <Unit count="6" role="normal">fld_inf_InfectionForm_01</Unit>
+      <Unit count="6" role="normal">fld_inf_InfectionForm_03</Unit>
     </Units>
     <Sound Type="StartMove">play_fif_movement</Sound>
     <Sound Type="StopMove">stop_fif_movement</Sound>
     <Sound Type="StopExist">stop_fif_movement</Sound>
+    <CanAttackWhileMoving>true</CanAttackWhileMoving>
     <Selection>
       <ConformToTerrain>true</ConformToTerrain>
     </Selection>
@@ -24459,8 +24467,6 @@
     <Flag>KBAware</Flag>
     <Flag>Repairable</Flag>
     <Flag>Flood</Flag>
-    <Cost ResourceType="Supplies">20</Cost>
-    <BuildPoints>0.5</BuildPoints>
   </Squad>
   <Squad name="fld_inf_infectionForm_08" formationType="Gaggle" dbid="3763">
     <MinimapIcon size="8">Circle</MinimapIcon>
@@ -24477,8 +24483,8 @@
     <LeashRecallDelay>2500</LeashRecallDelay>
     <AggroDistance>40</AggroDistance>
     <Units>
-      <Unit count="3" role="normal">fld_inf_infectionForm_02</Unit>
-      <Unit count="2" role="normal">fld_inf_infectionForm_05</Unit>
+      <Unit count="6" role="normal">fld_inf_InfectionForm_01</Unit>
+      <Unit count="2" role="normal">fld_inf_InfectionForm_03</Unit>
     </Units>
     <Sound Type="StartMove">play_fif_movement</Sound>
     <Sound Type="StopMove">stop_fif_movement</Sound>

@@ -1004,11 +1004,11 @@ Also unlocks the standalone Combat Medic, who can passively heal nearby friendly
 		<String _locID="79974" category="Squads" subtitle="false">Thrashing Floor</String>
 		<String _locID="79973" category="Squads" subtitle="false">Deploy a trio of Thrasher Forms to your target location.</String>
 		<String _locID="79972" category="Techs" subtitle="false">Infection Form Upgrade 1</String>
-		<String _locID="79971" category="Techs" subtitle="false">Increases the number of Infection Forms from 3 to 5.</String>
+		<String _locID="79971" category="Techs" subtitle="false">Increases the number of Infection Forms from 6 to 8.</String>
 		<String _locID="79970" category="Techs" subtitle="false">Infection Form Upgrade 2</String>
-		<String _locID="79969" category="Techs" subtitle="false">Increases the number of Infection Forms from 5 to 7.</String>
+		<String _locID="79969" category="Techs" subtitle="false">Increases the number of Infection Forms from 8 to 10.</String>
 		<String _locID="79968" category="Techs" subtitle="false">Infection Form Upgrade 3</String>
-		<String _locID="79967" category="Techs" subtitle="false">Increases the health of Infection Forms.</String>
+		<String _locID="79967" category="Techs" subtitle="false">Increases the number of Infection Forms from 10 to 12.</String>
 		<String _locID="79966" category="Squads" subtitle="false">Infected Marine</String>
 		<String _locID="79965" category="Squads" subtitle="false"></String>
 		<String _locID="79964" category="Squads" subtitle="false">Infected Grunt</String>
