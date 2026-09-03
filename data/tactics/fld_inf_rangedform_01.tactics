@@ -4,7 +4,7 @@
 		<Name>RangedAttack</Name>
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>80</DamagePerSecond>
-		<WeaponType>DMR</WeaponType>
+		<WeaponType>Missile</WeaponType>
 		<Projectile>fx_proj_floodspit_01</Projectile>
 		<ImpactEffect size="Small">SmallArmsBullet</ImpactEffect>
 		<MaxVelocityLead>10</MaxVelocityLead>
@@ -29,7 +29,7 @@
 		<Name>2RangedAttack</Name>
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>80</DamagePerSecond>
-		<WeaponType>DMR</WeaponType>
+		<WeaponType>Missile</WeaponType>
 		<Projectile>fx_proj_floodspit_01</Projectile>
 		<ImpactEffect size="Small">SmallArmsBullet</ImpactEffect>
 		<MaxVelocityLead>10</MaxVelocityLead>
@@ -54,7 +54,7 @@
 		<Name>InCoverRangedAttack</Name>
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>80</DamagePerSecond>
-		<WeaponType>DMR</WeaponType>
+		<WeaponType>Missile</WeaponType>
 		<Projectile>fx_proj_floodspit_01</Projectile>
 		<ImpactEffect size="Small">SmallArmsBullet</ImpactEffect>
 		<MaxVelocityLead>10</MaxVelocityLead>
@@ -79,7 +79,7 @@
 		<Name>InCover2RangedAttack</Name>
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>80</DamagePerSecond>
-		<WeaponType>DMR</WeaponType>
+		<WeaponType>Missile</WeaponType>
 		<Projectile>fx_proj_floodspit_01</Projectile>
 		<ImpactEffect size="Small">SmallArmsBullet</ImpactEffect>
 		<MaxVelocityLead>10</MaxVelocityLead>

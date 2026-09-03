@@ -12267,7 +12267,7 @@
     <PrereqTextID>233</PrereqTextID>
     <Cost resourcetype="Supplies">1500</Cost>
     <Cost resourcetype="Power">4</Cost>
-    <ResearchPoints>60</ResearchPoints>
+    <ResearchPoints>30</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Effects>
@@ -12283,7 +12283,7 @@
     <PrereqTextID>234</PrereqTextID>
     <Cost resourcetype="Supplies">2000</Cost>
     <Cost resourcetype="Power">5</Cost>
-    <ResearchPoints>60</ResearchPoints>
+    <ResearchPoints>30</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Effects>
@@ -12638,7 +12638,7 @@
     <PrereqTextID>231</PrereqTextID>
     <Cost resourcetype="Supplies">200</Cost>
     <Cost resourcetype="Power">1</Cost>
-    <ResearchPoints>20</ResearchPoints>
+    <ResearchPoints>10</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Prereqs>
@@ -12704,7 +12704,7 @@
     <PrereqTextID>231</PrereqTextID>
     <Cost resourcetype="Supplies">200</Cost>
     <Cost resourcetype="Power">1</Cost>
-    <ResearchPoints>20</ResearchPoints>
+    <ResearchPoints>10</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Effects>
@@ -13020,7 +13020,7 @@
     <PrereqTextID>232</PrereqTextID>
     <Cost resourcetype="Supplies">400</Cost>
     <Cost resourcetype="Power">2</Cost>
-    <ResearchPoints>40</ResearchPoints>
+    <ResearchPoints>20</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Prereqs>
@@ -13339,7 +13339,7 @@
     <PrereqTextID>233</PrereqTextID>
     <Cost resourcetype="Supplies">700</Cost>
     <Cost resourcetype="Power">3</Cost>
-    <ResearchPoints>60</ResearchPoints>
+    <ResearchPoints>30</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Prereqs>
@@ -13877,7 +13877,7 @@
     <PrereqTextID>231</PrereqTextID>
     <Cost resourcetype="Supplies">200</Cost>
     <Cost resourcetype="Power">1</Cost>
-    <ResearchPoints>20</ResearchPoints>
+    <ResearchPoints>10</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Flag>Shadow</Flag>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -13900,7 +13900,7 @@
     <PrereqTextID>232</PrereqTextID>
     <Cost resourcetype="Supplies">400</Cost>
     <Cost resourcetype="Power">2</Cost>
-    <ResearchPoints>40</ResearchPoints>
+    <ResearchPoints>20</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Prereqs>
@@ -13928,7 +13928,7 @@
     <PrereqTextID>233</PrereqTextID>
     <Cost resourcetype="Supplies">700</Cost>
     <Cost resourcetype="Power">3</Cost>
-    <ResearchPoints>60</ResearchPoints>
+    <ResearchPoints>30</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Prereqs>
@@ -13959,7 +13959,7 @@
     <PrereqTextID>231</PrereqTextID>
     <Cost resourcetype="Supplies">200</Cost>
     <Cost resourcetype="Power">1</Cost>
-    <ResearchPoints>20</ResearchPoints>
+    <ResearchPoints>10</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Effects>
@@ -13981,7 +13981,7 @@
     <PrereqTextID>232</PrereqTextID>
     <Cost resourcetype="Supplies">400</Cost>
     <Cost resourcetype="Power">2</Cost>
-    <ResearchPoints>40</ResearchPoints>
+    <ResearchPoints>20</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Prereqs>
@@ -14005,7 +14005,7 @@
     <PrereqTextID>233</PrereqTextID>
     <Cost resourcetype="Supplies">700</Cost>
     <Cost resourcetype="Power">3</Cost>
-    <ResearchPoints>60</ResearchPoints>
+    <ResearchPoints>30</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Prereqs>
@@ -14030,7 +14030,7 @@
     <PrereqTextID>231</PrereqTextID>
     <Cost resourcetype="Supplies">200</Cost>
     <Cost resourcetype="Power">1</Cost>
-    <ResearchPoints>20</ResearchPoints>
+    <ResearchPoints>10</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Flag>Shadow</Flag>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -14050,7 +14050,7 @@
     <PrereqTextID>232</PrereqTextID>
     <Cost resourcetype="Supplies">400</Cost>
     <Cost resourcetype="Power">2</Cost>
-    <ResearchPoints>40</ResearchPoints>
+    <ResearchPoints>20</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Prereqs>
@@ -14074,7 +14074,7 @@
     <PrereqTextID>233</PrereqTextID>
     <Cost resourcetype="Supplies">700</Cost>
     <Cost resourcetype="Power">3</Cost>
-    <ResearchPoints>60</ResearchPoints>
+    <ResearchPoints>30</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Prereqs>
@@ -14102,7 +14102,7 @@
     <PrereqTextID>231</PrereqTextID>
     <Cost resourcetype="Supplies">200</Cost>
     <Cost resourcetype="Power">1</Cost>
-    <ResearchPoints>20</ResearchPoints>
+    <ResearchPoints>10</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Flag>Shadow</Flag>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -14127,7 +14127,7 @@
     <PrereqTextID>232</PrereqTextID>
     <Cost resourcetype="Supplies">400</Cost>
     <Cost resourcetype="Power">2</Cost>
-    <ResearchPoints>40</ResearchPoints>
+    <ResearchPoints>20</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Prereqs>
@@ -14155,7 +14155,7 @@
     <PrereqTextID>233</PrereqTextID>
     <Cost resourcetype="Supplies">700</Cost>
     <Cost resourcetype="Power">3</Cost>
-    <ResearchPoints>60</ResearchPoints>
+    <ResearchPoints>30</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Prereqs>
@@ -14190,7 +14190,7 @@
     <PrereqTextID>231</PrereqTextID>
     <Cost resourcetype="Supplies">200</Cost>
     <Cost resourcetype="Power">1</Cost>
-    <ResearchPoints>20</ResearchPoints>
+    <ResearchPoints>10</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Flag>Shadow</Flag>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -14240,7 +14240,7 @@
     <PrereqTextID>232</PrereqTextID>
     <Cost resourcetype="Supplies">300</Cost>
     <Cost resourcetype="Power">2</Cost>
-    <ResearchPoints>40</ResearchPoints>
+    <ResearchPoints>20</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Prereqs>
@@ -14275,7 +14275,7 @@
     <PrereqTextID>233</PrereqTextID>
     <Cost resourcetype="Supplies">450</Cost>
     <Cost resourcetype="Power">3</Cost>
-    <ResearchPoints>60</ResearchPoints>
+    <ResearchPoints>30</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Prereqs>
@@ -14330,7 +14330,7 @@
     <PrereqTextID>231</PrereqTextID>
     <Cost resourcetype="Supplies">200</Cost>
     <Cost resourcetype="Power">1</Cost>
-    <ResearchPoints>20</ResearchPoints>
+    <ResearchPoints>10</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Flag>Shadow</Flag>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -14359,7 +14359,7 @@
     <PrereqTextID>232</PrereqTextID>
     <Cost resourcetype="Supplies">400</Cost>
     <Cost resourcetype="Power">2</Cost>
-    <ResearchPoints>40</ResearchPoints>
+    <ResearchPoints>20</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Prereqs>
@@ -14420,7 +14420,7 @@
     <PrereqTextID>233</PrereqTextID>
     <Cost resourcetype="Supplies">700</Cost>
     <Cost resourcetype="Power">3</Cost>
-    <ResearchPoints>60</ResearchPoints>
+    <ResearchPoints>30</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Prereqs>
@@ -14473,7 +14473,7 @@
     <PrereqTextID>232</PrereqTextID>
     <Cost resourcetype="Supplies">400</Cost>
     <Cost resourcetype="Power">2</Cost>
-    <ResearchPoints>40</ResearchPoints>
+    <ResearchPoints>20</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Prereqs>
@@ -14504,7 +14504,7 @@
     <PrereqTextID>233</PrereqTextID>
     <Cost resourcetype="Supplies">700</Cost>
     <Cost resourcetype="Power">3</Cost>
-    <ResearchPoints>60</ResearchPoints>
+    <ResearchPoints>30</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Prereqs>
@@ -14535,7 +14535,7 @@
     <PrereqTextID>231</PrereqTextID>
     <Cost resourcetype="Supplies">200</Cost>
     <Cost resourcetype="Power">1</Cost>
-    <ResearchPoints>20</ResearchPoints>
+    <ResearchPoints>10</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Effects>
@@ -14567,7 +14567,7 @@
     <PrereqTextID>232</PrereqTextID>
     <Cost resourcetype="Supplies">400</Cost>
     <Cost resourcetype="Power">2</Cost>
-    <ResearchPoints>40</ResearchPoints>
+    <ResearchPoints>20</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Prereqs>
@@ -14610,7 +14610,7 @@
     <PrereqTextID>233</PrereqTextID>
     <Cost resourcetype="Supplies">700</Cost>
     <Cost resourcetype="Power">3</Cost>
-    <ResearchPoints>60</ResearchPoints>
+    <ResearchPoints>30</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Prereqs>
@@ -14662,7 +14662,7 @@
     <PrereqTextID>231</PrereqTextID>
     <Cost resourcetype="Supplies">150</Cost>
     <Cost resourcetype="Power">1</Cost>
-    <ResearchPoints>20</ResearchPoints>
+    <ResearchPoints>10</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Effects>
@@ -14687,7 +14687,7 @@
     <PrereqTextID>232</PrereqTextID>
     <Cost resourcetype="Supplies">300</Cost>
     <Cost resourcetype="Power">2</Cost>
-    <ResearchPoints>30</ResearchPoints>
+    <ResearchPoints>15</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Prereqs>
@@ -14724,7 +14724,7 @@
     <PrereqTextID>233</PrereqTextID>
     <Cost resourcetype="Supplies">500</Cost>
     <Cost resourcetype="Power">3</Cost>
-    <ResearchPoints>40</ResearchPoints>
+    <ResearchPoints>20</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Prereqs>
@@ -14752,7 +14752,7 @@
     <PrereqTextID>231</PrereqTextID>
     <Cost resourcetype="Supplies">200</Cost>
     <Cost resourcetype="Power">1</Cost>
-    <ResearchPoints>20</ResearchPoints>
+    <ResearchPoints>10</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Flag>Shadow</Flag>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -14775,7 +14775,7 @@
     <PrereqTextID>232</PrereqTextID>
     <Cost resourcetype="Supplies">400</Cost>
     <Cost resourcetype="Power">2</Cost>
-    <ResearchPoints>40</ResearchPoints>
+    <ResearchPoints>20</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Prereqs>
@@ -14806,7 +14806,7 @@
     <PrereqTextID>233</PrereqTextID>
     <Cost resourcetype="Supplies">700</Cost>
     <Cost resourcetype="Power">3</Cost>
-    <ResearchPoints>60</ResearchPoints>
+    <ResearchPoints>30</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Prereqs>
@@ -14843,7 +14843,7 @@
     <PrereqTextID>231</PrereqTextID>
     <Cost resourcetype="Supplies">200</Cost>
     <Cost resourcetype="Power">1</Cost>
-    <ResearchPoints>20</ResearchPoints>
+    <ResearchPoints>10</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Flag>Shadow</Flag>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -14863,7 +14863,7 @@
     <PrereqTextID>232</PrereqTextID>
     <Cost resourcetype="Supplies">400</Cost>
     <Cost resourcetype="Power">2</Cost>
-    <ResearchPoints>40</ResearchPoints>
+    <ResearchPoints>20</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Prereqs>
@@ -14888,7 +14888,7 @@
     <PrereqTextID>233</PrereqTextID>
     <Cost resourcetype="Supplies">700</Cost>
     <Cost resourcetype="Power">3</Cost>
-    <ResearchPoints>60</ResearchPoints>
+    <ResearchPoints>30</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Prereqs>
@@ -15065,7 +15065,7 @@
     <PrereqTextID>233</PrereqTextID>
     <Cost resourcetype="Supplies">100</Cost>
     <Cost resourcetype="Power">1</Cost>
-    <ResearchPoints>15</ResearchPoints>
+    <ResearchPoints>7.5</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Flag>UniqueProtoUnitInstance</Flag>
@@ -15079,7 +15079,7 @@
     <RolloverTextID>1001</RolloverTextID>
     <PrereqTextID>231</PrereqTextID>
     <Cost resourcetype="Supplies">300</Cost>
-    <ResearchPoints>15</ResearchPoints>
+    <ResearchPoints>7.5</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <ResearchCompleteSound>play_vog_upgrade_station</ResearchCompleteSound>
@@ -15094,7 +15094,7 @@
     <RolloverTextID>1003</RolloverTextID>
     <PrereqTextID>231</PrereqTextID>
     <Cost resourcetype="Supplies">400</Cost>
-    <ResearchPoints>15</ResearchPoints>
+    <ResearchPoints>7.5</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <ResearchCompleteSound>play_vog_upgrade_fortress</ResearchCompleteSound>
@@ -15108,7 +15108,7 @@
     <DisplayNameID>1070</DisplayNameID>
     <RolloverTextID>1071</RolloverTextID>
     <Cost resourcetype="Supplies">300</Cost>
-    <ResearchPoints>15</ResearchPoints>
+    <ResearchPoints>7.5</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <ResearchCompleteSound>play_vog_upgrade_keep</ResearchCompleteSound>
@@ -15123,7 +15123,7 @@
     <DisplayNameID>1072</DisplayNameID>
     <RolloverTextID>1073</RolloverTextID>
     <Cost resourcetype="Supplies">400</Cost>
-    <ResearchPoints>15</ResearchPoints>
+    <ResearchPoints>7.5</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <ResearchAnim>Upgrade</ResearchAnim>
@@ -15140,7 +15140,7 @@
     <PrereqTextID>233</PrereqTextID>
     <Cost resourcetype="Supplies">225</Cost>
     <Cost resourcetype="Power">1</Cost>
-    <ResearchPoints>15</ResearchPoints>
+    <ResearchPoints>7.5</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <ResearchCompleteSound>play_vog_upgrade_supplypad</ResearchCompleteSound>
@@ -15157,7 +15157,7 @@
     <PrereqTextID>234</PrereqTextID>
     <Cost resourcetype="Supplies">450</Cost>
     <Cost resourcetype="Power">3</Cost>
-    <ResearchPoints>15</ResearchPoints>
+    <ResearchPoints>7.5</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <ResearchCompleteSound>play_vog_upgrade_supplypad</ResearchCompleteSound>
@@ -15173,7 +15173,7 @@
     <RolloverTextID>79775</RolloverTextID>
     <PrereqTextID>233</PrereqTextID>
     <Cost resourcetype="Supplies">1000</Cost>
-    <ResearchPoints>15</ResearchPoints>
+    <ResearchPoints>7.5</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <ResearchCompleteSound>play_vog_upgrade_supplypad</ResearchCompleteSound>
@@ -18881,7 +18881,7 @@
     <PrereqTextID>233</PrereqTextID>
     <Cost resourcetype="Supplies">200</Cost>
     <Cost resourcetype="Power">1</Cost>
-    <ResearchPoints>20</ResearchPoints>
+    <ResearchPoints>10</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Effects>
@@ -18908,7 +18908,7 @@
     <PrereqTextID>233</PrereqTextID>
     <Cost resourcetype="Supplies">400</Cost>
     <Cost resourcetype="Power">2</Cost>
-    <ResearchPoints>40</ResearchPoints>
+    <ResearchPoints>20</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Prereqs>
@@ -18938,7 +18938,7 @@
     <RolloverTextID>79933</RolloverTextID>
     <PrereqTextID>231</PrereqTextID>
     <Cost resourcetype="Supplies">300</Cost>
-    <ResearchPoints>15</ResearchPoints>
+    <ResearchPoints>7.5</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Flag>UniqueProtoUnitInstance</Flag>
@@ -18952,7 +18952,7 @@
     <RolloverTextID>79931</RolloverTextID>
     <PrereqTextID>231</PrereqTextID>
     <Cost resourcetype="Supplies">400</Cost>
-    <ResearchPoints>15</ResearchPoints>
+    <ResearchPoints>7.5</ResearchPoints>
     <Status>OBTAINABLE</Status>
     <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
     <Flag>UniqueProtoUnitInstance</Flag>

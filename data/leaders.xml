@@ -164,28 +164,28 @@
     <Resource Type="CampaignFoo">0</Resource>
     <Resource Type="Power">0</Resource>
     <StartingUnit Offset="0, 0, 0" BuildOther="fld_bldg_gravemind_01" DoppleOnStart="true">game_base_socket_01</StartingUnit>
-    <StartingSquad FlyIn="false" Offset="65,0,-15">fld_inf_stalkerform_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="65,0,15">fld_inf_stalkerform_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="55,0,-25">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="55,0,-15">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="55,0,-5">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="55,0,5">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="55,0,15">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="55,0,25">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="45,0,-30">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="45,0,-20">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="45,0,-10">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="45,0,0">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="45,0,10">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="45,0,20">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="45,0,30">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="35,0,-30">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="35,0,-20">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="35,0,-10">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="35,0,0">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="35,0,10">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="35,0,20">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="35,0,30">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="88,0,-12">fld_inf_stalkerform_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="88,0,12">fld_inf_stalkerform_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="80,0,-20">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="80,0,-12">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="80,0,-4">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="80,0,4">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="80,0,12">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="80,0,20">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="72,0,-24">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="72,0,-16">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="72,0,-8">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="72,0,0">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="72,0,8">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="72,0,16">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="72,0,24">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="64,0,-24">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="64,0,-16">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="64,0,-8">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="64,0,0">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="64,0,8">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="64,0,16">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="64,0,24">fld_inf_infectionForm_01</StartingSquad>
     <RallyPointOffset>50,0,0</RallyPointOffset>
     <RepairRate>1</RepairRate>
     <RepairDelay>20</RepairDelay>
@@ -463,28 +463,28 @@
     <Resource Type="CampaignFoo">0</Resource>
     <Resource Type="Collectable">0</Resource>
     <Resource Type="Power">20000</Resource>
-    <StartingSquad FlyIn="false" Offset="65,0,-15">fld_inf_stalkerform_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="65,0,15">fld_inf_stalkerform_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="55,0,-25">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="55,0,-15">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="55,0,-5">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="55,0,5">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="55,0,15">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="55,0,25">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="45,0,-30">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="45,0,-20">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="45,0,-10">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="45,0,0">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="45,0,10">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="45,0,20">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="45,0,30">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="35,0,-30">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="35,0,-20">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="35,0,-10">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="35,0,0">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="35,0,10">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="35,0,20">fld_inf_infectionForm_01</StartingSquad>
-    <StartingSquad FlyIn="false" Offset="35,0,30">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="88,0,-12">fld_inf_stalkerform_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="88,0,12">fld_inf_stalkerform_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="80,0,-20">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="80,0,-12">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="80,0,-4">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="80,0,4">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="80,0,12">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="80,0,20">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="72,0,-24">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="72,0,-16">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="72,0,-8">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="72,0,0">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="72,0,8">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="72,0,16">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="72,0,24">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="64,0,-24">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="64,0,-16">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="64,0,-8">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="64,0,0">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="64,0,8">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="64,0,16">fld_inf_infectionForm_01</StartingSquad>
+    <StartingSquad FlyIn="false" Offset="64,0,24">fld_inf_infectionForm_01</StartingSquad>
     <RallyPointOffset>50,0,0</RallyPointOffset>
     <RepairRate>1</RepairRate>
     <RepairDelay>20</RepairDelay>

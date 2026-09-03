@@ -5,7 +5,7 @@
 		<Row><c>fld_inf_infectedCarrier_01</c><c>14</c></Row>
 		<Row><c>fld_inf_infectedmelee_01</c><c>10</c></Row>
 		<Row><c>fld_inf_infectedranged_01</c><c>6</c></Row>
-		<Row><c>fld_inf_infectedheavy_01</c><c>3</c></Row>
+		<Row><c>fld_inf_infectedheavy_01</c><c>10</c></Row>
 		<Row><c>fld_inf_infectedsnipers_01</c><c>2</c></Row>
 		<Row><c>fld_inf_flameMarine_01</c><c>2</c></Row>
 		<Row><c>fld_air_bomber_01</c><c>8</c></Row>
@@ -15,10 +15,11 @@
 		<Row><c>fld_inf_stalkerform_01</c><c>2</c></Row>
 		<Row><c>fld_inf_infestorform_01</c><c>5</c></Row>
 		<Row><c>fld_inf_spawnerform_01</c><c>3</c></Row>
-		<Row><c>fld_inf_rangedform_01</c><c>4</c></Row>
+		<Row><c>fld_inf_rangedform_01</c><c>10</c></Row>
 		<Row><c>fld_inf_tankform_01</c><c>2</c></Row>
 		<Row><c>fld_inf_rhinodillo_01</c><c>1</c></Row>
-		<Row><c>fld_air_swarm_01</c><c>5</c></Row>
+		<Row><c>fld_air_swarm_01</c><c>12</c></Row>
+			<Row><c>fld_air_seederform_01</c><c>10</c></Row>
 	</Table>
 
 	<!-- Midgame pressure: bomber and carrier production rises while the infection swarm remains dominant. -->
@@ -26,7 +27,7 @@
 		<Row><c>fld_inf_infectedCarrier_01</c><c>20</c></Row>
 		<Row><c>fld_inf_infectedmelee_01</c><c>12</c></Row>
 		<Row><c>fld_inf_infectedranged_01</c><c>8</c></Row>
-		<Row><c>fld_inf_infectedheavy_01</c><c>5</c></Row>
+		<Row><c>fld_inf_infectedheavy_01</c><c>14</c></Row>
 		<Row><c>fld_inf_infectedsnipers_01</c><c>3</c></Row>
 		<Row><c>fld_inf_flameMarine_01</c><c>2</c></Row>
 		<Row><c>fld_air_bomber_01</c><c>14</c></Row>
@@ -36,11 +37,11 @@
 		<Row><c>fld_inf_stalkerform_01</c><c>2</c></Row>
 		<Row><c>fld_inf_infestorform_01</c><c>7</c></Row>
 		<Row><c>fld_inf_spawnerform_01</c><c>6</c></Row>
-		<Row><c>fld_inf_rangedform_01</c><c>8</c></Row>
+		<Row><c>fld_inf_rangedform_01</c><c>15</c></Row>
 		<Row><c>fld_inf_tankform_01</c><c>4</c></Row>
 		<Row><c>fld_inf_rhinodillo_01</c><c>2</c></Row>
-		<Row><c>fld_air_seederform_01</c><c>3</c></Row>
-		<Row><c>fld_air_swarm_01</c><c>7</c></Row>
+		<Row><c>fld_air_seederform_01</c><c>18</c></Row>
+		<Row><c>fld_air_swarm_01</c><c>16</c></Row>
 	</Table>
 
 	<!-- Late game: full Flood combined arms with only one of each oversized support form. -->
@@ -48,7 +49,7 @@
 		<Row><c>fld_inf_infectedCarrier_01</c><c>26</c></Row>
 		<Row><c>fld_inf_infectedmelee_01</c><c>16</c></Row>
 		<Row><c>fld_inf_infectedranged_01</c><c>11</c></Row>
-		<Row><c>fld_inf_infectedheavy_01</c><c>7</c></Row>
+		<Row><c>fld_inf_infectedheavy_01</c><c>18</c></Row>
 		<Row><c>fld_inf_infectedsnipers_01</c><c>5</c></Row>
 		<Row><c>fld_inf_flameMarine_01</c><c>3</c></Row>
 		<Row><c>fld_air_bomber_01</c><c>20</c></Row>
@@ -58,11 +59,11 @@
 		<Row><c>fld_inf_stalkerform_01</c><c>2</c></Row>
 		<Row><c>fld_inf_infestorform_01</c><c>10</c></Row>
 		<Row><c>fld_inf_spawnerform_01</c><c>9</c></Row>
-		<Row><c>fld_inf_rangedform_01</c><c>11</c></Row>
+		<Row><c>fld_inf_rangedform_01</c><c>20</c></Row>
 		<Row><c>fld_inf_tankform_01</c><c>6</c></Row>
 		<Row><c>fld_inf_rhinodillo_01</c><c>3</c></Row>
-		<Row><c>fld_air_seederform_01</c><c>5</c></Row>
-		<Row><c>fld_air_swarm_01</c><c>9</c></Row>
+		<Row><c>fld_air_seederform_01</c><c>24</c></Row>
+		<Row><c>fld_air_swarm_01</c><c>20</c></Row>
 		<Row><c>fld_inf_juggernaut_01</c><c>1</c></Row>
 		<Row><c>fld_inf_abomination_01</c><c>1</c></Row>
 	</Table>
@@ -72,7 +73,7 @@
 		<Row><c>fld_inf_infectedCarrier_01</c><c>18</c></Row>
 		<Row><c>fld_inf_infectedmelee_01</c><c>12</c></Row>
 		<Row><c>fld_inf_infectedranged_01</c><c>8</c></Row>
-		<Row><c>fld_inf_infectedheavy_01</c><c>4</c></Row>
+		<Row><c>fld_inf_infectedheavy_01</c><c>14</c></Row>
 		<Row><c>fld_inf_infectedsnipers_01</c><c>3</c></Row>
 		<Row><c>fld_air_bomber_01</c><c>12</c></Row>
 		<Row><c>fld_inf_infectionform_01</c><c>40</c></Row>
@@ -81,16 +82,16 @@
 		<Row><c>fld_inf_stalkerform_01</c><c>2</c></Row>
 		<Row><c>fld_inf_infestorform_01</c><c>6</c></Row>
 		<Row><c>fld_inf_spawnerform_01</c><c>5</c></Row>
-		<Row><c>fld_inf_rangedform_01</c><c>7</c></Row>
+		<Row><c>fld_inf_rangedform_01</c><c>15</c></Row>
 		<Row><c>fld_inf_tankform_01</c><c>4</c></Row>
-		<Row><c>fld_air_swarm_01</c><c>6</c></Row>
+		<Row><c>fld_air_swarm_01</c><c>16</c></Row>
 	</Table>
 
 	<Table Name="CovGeneral_1" Type="SquadBuildList">
 		<Row><c>fld_inf_infectedCarrier_01</c><c>14</c></Row>
 		<Row><c>fld_inf_infectedmelee_01</c><c>10</c></Row>
 		<Row><c>fld_inf_infectedranged_01</c><c>6</c></Row>
-		<Row><c>fld_inf_infectedheavy_01</c><c>3</c></Row>
+		<Row><c>fld_inf_infectedheavy_01</c><c>10</c></Row>
 		<Row><c>fld_inf_infectedsnipers_01</c><c>2</c></Row>
 		<Row><c>fld_inf_flameMarine_01</c><c>2</c></Row>
 		<Row><c>fld_air_bomber_01</c><c>8</c></Row>
@@ -100,17 +101,18 @@
 		<Row><c>fld_inf_stalkerform_01</c><c>2</c></Row>
 		<Row><c>fld_inf_infestorform_01</c><c>5</c></Row>
 		<Row><c>fld_inf_spawnerform_01</c><c>3</c></Row>
-		<Row><c>fld_inf_rangedform_01</c><c>4</c></Row>
+		<Row><c>fld_inf_rangedform_01</c><c>10</c></Row>
 		<Row><c>fld_inf_tankform_01</c><c>2</c></Row>
 		<Row><c>fld_inf_rhinodillo_01</c><c>1</c></Row>
-		<Row><c>fld_air_swarm_01</c><c>5</c></Row>
+		<Row><c>fld_air_swarm_01</c><c>12</c></Row>
+			<Row><c>fld_air_seederform_01</c><c>10</c></Row>
 	</Table>
 
 	<Table Name="CovGeneral_2" Type="SquadBuildList">
 		<Row><c>fld_inf_infectedCarrier_01</c><c>20</c></Row>
 		<Row><c>fld_inf_infectedmelee_01</c><c>12</c></Row>
 		<Row><c>fld_inf_infectedranged_01</c><c>8</c></Row>
-		<Row><c>fld_inf_infectedheavy_01</c><c>5</c></Row>
+		<Row><c>fld_inf_infectedheavy_01</c><c>14</c></Row>
 		<Row><c>fld_inf_infectedsnipers_01</c><c>3</c></Row>
 		<Row><c>fld_inf_flameMarine_01</c><c>2</c></Row>
 		<Row><c>fld_air_bomber_01</c><c>14</c></Row>
@@ -120,18 +122,18 @@
 		<Row><c>fld_inf_stalkerform_01</c><c>2</c></Row>
 		<Row><c>fld_inf_infestorform_01</c><c>7</c></Row>
 		<Row><c>fld_inf_spawnerform_01</c><c>6</c></Row>
-		<Row><c>fld_inf_rangedform_01</c><c>8</c></Row>
+		<Row><c>fld_inf_rangedform_01</c><c>15</c></Row>
 		<Row><c>fld_inf_tankform_01</c><c>4</c></Row>
 		<Row><c>fld_inf_rhinodillo_01</c><c>2</c></Row>
-		<Row><c>fld_air_seederform_01</c><c>3</c></Row>
-		<Row><c>fld_air_swarm_01</c><c>7</c></Row>
+		<Row><c>fld_air_seederform_01</c><c>18</c></Row>
+		<Row><c>fld_air_swarm_01</c><c>16</c></Row>
 	</Table>
 
 	<Table Name="CovGeneral_3" Type="SquadBuildList">
 		<Row><c>fld_inf_infectedCarrier_01</c><c>26</c></Row>
 		<Row><c>fld_inf_infectedmelee_01</c><c>16</c></Row>
 		<Row><c>fld_inf_infectedranged_01</c><c>11</c></Row>
-		<Row><c>fld_inf_infectedheavy_01</c><c>7</c></Row>
+		<Row><c>fld_inf_infectedheavy_01</c><c>18</c></Row>
 		<Row><c>fld_inf_infectedsnipers_01</c><c>5</c></Row>
 		<Row><c>fld_inf_flameMarine_01</c><c>3</c></Row>
 		<Row><c>fld_air_bomber_01</c><c>20</c></Row>
@@ -141,11 +143,11 @@
 		<Row><c>fld_inf_stalkerform_01</c><c>2</c></Row>
 		<Row><c>fld_inf_infestorform_01</c><c>10</c></Row>
 		<Row><c>fld_inf_spawnerform_01</c><c>9</c></Row>
-		<Row><c>fld_inf_rangedform_01</c><c>11</c></Row>
+		<Row><c>fld_inf_rangedform_01</c><c>20</c></Row>
 		<Row><c>fld_inf_tankform_01</c><c>6</c></Row>
 		<Row><c>fld_inf_rhinodillo_01</c><c>3</c></Row>
-		<Row><c>fld_air_seederform_01</c><c>5</c></Row>
-		<Row><c>fld_air_swarm_01</c><c>9</c></Row>
+		<Row><c>fld_air_seederform_01</c><c>24</c></Row>
+		<Row><c>fld_air_swarm_01</c><c>20</c></Row>
 		<Row><c>fld_inf_juggernaut_01</c><c>1</c></Row>
 		<Row><c>fld_inf_abomination_01</c><c>1</c></Row>
 	</Table>

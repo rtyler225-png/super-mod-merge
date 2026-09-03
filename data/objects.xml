@@ -265,7 +265,7 @@
     <DisplayNameID>27282</DisplayNameID>
     <RolloverTextID>79865</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>10</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -20042,7 +20042,7 @@
     <DisplayNameID>10048</DisplayNameID>
     <RolloverTextID>10049</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>10</Velocity>
+    <Velocity>12</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>720</Hitpoints>
@@ -23098,7 +23098,7 @@
     <Hitpoints>15000</Hitpoints>
     <CombatValue>10</CombatValue>
     <LOS>55</LOS>
-    <BuildPoints>30</BuildPoints>
+    <BuildPoints>15</BuildPoints>
     <Cost ResourceType="Supplies">150</Cost>
     <Cost ResourceType="Power">2</Cost>
     <Bounty>4</Bounty>
@@ -23174,7 +23174,7 @@
     <Hitpoints>15000</Hitpoints>
     <CombatValue>10</CombatValue>
     <LOS>55</LOS>
-    <BuildPoints>30</BuildPoints>
+    <BuildPoints>15</BuildPoints>
     <Cost ResourceType="Supplies">150</Cost>
     <Bounty>4</Bounty>
     <Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
@@ -23255,7 +23255,7 @@
     <Hitpoints>15000</Hitpoints>
     <CombatValue>10</CombatValue>
     <LOS>55</LOS>
-    <BuildPoints>30</BuildPoints>
+    <BuildPoints>15</BuildPoints>
     <Cost ResourceType="Supplies">150</Cost>
     <Bounty>4</Bounty>
     <Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
@@ -23342,7 +23342,7 @@
     <Hitpoints>15000</Hitpoints>
     <CombatValue>10</CombatValue>
     <LOS>55</LOS>
-    <BuildPoints>30</BuildPoints>
+    <BuildPoints>15</BuildPoints>
     <Cost ResourceType="Supplies">150</Cost>
     <Bounty>4</Bounty>
     <Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
@@ -23421,7 +23421,7 @@
     <Hitpoints>15000</Hitpoints>
     <CombatValue>10</CombatValue>
     <LOS>55</LOS>
-    <BuildPoints>30</BuildPoints>
+    <BuildPoints>15</BuildPoints>
     <Cost ResourceType="Supplies">150</Cost>
     <Bounty>4</Bounty>
     <Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
@@ -23496,7 +23496,7 @@
     <Hitpoints>15000</Hitpoints>
     <CombatValue>10</CombatValue>
     <LOS>55</LOS>
-    <BuildPoints>30</BuildPoints>
+    <BuildPoints>15</BuildPoints>
     <Cost ResourceType="Supplies">150</Cost>
     <Bounty>4</Bounty>
     <Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
@@ -23567,7 +23567,7 @@
     <DisplayNameID>10164</DisplayNameID>
     <RolloverTextID>10165</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>1400</Hitpoints>
@@ -23637,7 +23637,7 @@
     <DisplayNameID>10164</DisplayNameID>
     <RolloverTextID>10165</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>1400</Hitpoints>
@@ -23707,7 +23707,7 @@
     <DisplayNameID>10164</DisplayNameID>
     <RolloverTextID>10165</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>1400</Hitpoints>
@@ -23777,7 +23777,7 @@
     <DisplayNameID>10164</DisplayNameID>
     <RolloverTextID>10165</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>1400</Hitpoints>
@@ -23847,7 +23847,7 @@
     <DisplayNameID>10164</DisplayNameID>
     <RolloverTextID>10165</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>1400</Hitpoints>
@@ -23917,7 +23917,7 @@
     <DisplayNameID>10164</DisplayNameID>
     <RolloverTextID>10165</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>1400</Hitpoints>
@@ -23987,7 +23987,7 @@
     <DisplayNameID>10164</DisplayNameID>
     <RolloverTextID>10165</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>1400</Hitpoints>
@@ -24057,7 +24057,7 @@
     <DisplayNameID>10164</DisplayNameID>
     <RolloverTextID>10165</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>1400</Hitpoints>
@@ -24128,7 +24128,7 @@
     <RolloverTextID>10121</RolloverTextID>
     <RoleTextID>503</RoleTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>1400</Hitpoints>
@@ -24194,7 +24194,7 @@
     <RolloverTextID>99895</RolloverTextID>
     <RoleTextID>503</RoleTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>1400</Hitpoints>
@@ -24263,7 +24263,7 @@
     <RolloverTextID>10121</RolloverTextID>
     <RoleTextID>503</RoleTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>1400</Hitpoints>
@@ -24330,7 +24330,7 @@
     <RolloverTextID>10121</RolloverTextID>
     <RoleTextID>503</RoleTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>1400</Hitpoints>
@@ -24396,7 +24396,7 @@
     <DisplayNameID>10162</DisplayNameID>
     <RolloverTextID>10163</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -24464,7 +24464,7 @@
     <DisplayNameID>10162</DisplayNameID>
     <RolloverTextID>10163</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -24532,7 +24532,7 @@
     <DisplayNameID>10162</DisplayNameID>
     <RolloverTextID>10163</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -24600,7 +24600,7 @@
     <DisplayNameID>10162</DisplayNameID>
     <RolloverTextID>10163</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -24668,7 +24668,7 @@
     <DisplayNameID>10162</DisplayNameID>
     <RolloverTextID>10163</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -24736,7 +24736,7 @@
     <DisplayNameID>10162</DisplayNameID>
     <RolloverTextID>10163</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -24804,7 +24804,7 @@
     <DisplayNameID>10162</DisplayNameID>
     <RolloverTextID>10163</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -24872,7 +24872,7 @@
     <DisplayNameID>10162</DisplayNameID>
     <RolloverTextID>10163</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -24940,7 +24940,7 @@
     <DisplayNameID>10162</DisplayNameID>
     <RolloverTextID>10163</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -25008,7 +25008,7 @@
     <DisplayNameID>10162</DisplayNameID>
     <RolloverTextID>10163</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -25076,7 +25076,7 @@
     <DisplayNameID>10162</DisplayNameID>
     <RolloverTextID>10163</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -25144,7 +25144,7 @@
     <DisplayNameID>10162</DisplayNameID>
     <RolloverTextID>10163</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -25212,7 +25212,7 @@
     <DisplayNameID>10162</DisplayNameID>
     <RolloverTextID>10163</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -25280,7 +25280,7 @@
     <DisplayNameID>10162</DisplayNameID>
     <RolloverTextID>10163</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -25348,7 +25348,7 @@
     <DisplayNameID>10162</DisplayNameID>
     <RolloverTextID>10163</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -25416,7 +25416,7 @@
     <DisplayNameID>10162</DisplayNameID>
     <RolloverTextID>10163</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -25484,7 +25484,7 @@
     <DisplayNameID>10162</DisplayNameID>
     <RolloverTextID>10163</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -25552,7 +25552,7 @@
     <DisplayNameID>24638</DisplayNameID>
     <RolloverTextID>24639</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>360</TurnRate>
     <Hitpoints>1600</Hitpoints>
@@ -25618,7 +25618,7 @@
     <DisplayNameID>24638</DisplayNameID>
     <RolloverTextID>24639</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>360</TurnRate>
     <Hitpoints>1600</Hitpoints>
@@ -25684,7 +25684,7 @@
     <DisplayNameID>24638</DisplayNameID>
     <RolloverTextID>24639</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>360</TurnRate>
     <Hitpoints>1600</Hitpoints>
@@ -25750,7 +25750,7 @@
     <DisplayNameID>24638</DisplayNameID>
     <RolloverTextID>24639</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>360</TurnRate>
     <Hitpoints>1600</Hitpoints>
@@ -25819,7 +25819,7 @@
     <DisplayNameID>24638</DisplayNameID>
     <RolloverTextID>24639</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>360</TurnRate>
     <Hitpoints>1600</Hitpoints>
@@ -25888,7 +25888,7 @@
     <DisplayNameID>24636</DisplayNameID>
     <RolloverTextID>24637</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>250</Hitpoints>
@@ -25957,7 +25957,7 @@
     <DisplayNameID>24636</DisplayNameID>
     <RolloverTextID>24637</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>250</Hitpoints>
@@ -26026,7 +26026,7 @@
     <DisplayNameID>24636</DisplayNameID>
     <RolloverTextID>24637</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>250</Hitpoints>
@@ -26095,7 +26095,7 @@
     <DisplayNameID>24636</DisplayNameID>
     <RolloverTextID>24637</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>250</Hitpoints>
@@ -26164,7 +26164,7 @@
     <DisplayNameID>24636</DisplayNameID>
     <RolloverTextID>24637</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>250</Hitpoints>
@@ -26233,7 +26233,7 @@
     <DisplayNameID>24636</DisplayNameID>
     <RolloverTextID>24637</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>250</Hitpoints>
@@ -26302,7 +26302,7 @@
     <DisplayNameID>24636</DisplayNameID>
     <RolloverTextID>24637</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>250</Hitpoints>
@@ -26371,7 +26371,7 @@
     <DisplayNameID>24634</DisplayNameID>
     <RolloverTextID>24635</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>270</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -26439,7 +26439,7 @@
     <DisplayNameID>24634</DisplayNameID>
     <RolloverTextID>24635</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>270</TurnRate>
     <Hitpoints>180</Hitpoints>
@@ -26507,7 +26507,7 @@
     <DisplayNameID>24634</DisplayNameID>
     <RolloverTextID>24635</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>270</TurnRate>
     <Hitpoints>180</Hitpoints>
@@ -26575,7 +26575,7 @@
     <DisplayNameID>24634</DisplayNameID>
     <RolloverTextID>24635</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>270</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -26643,7 +26643,7 @@
     <DisplayNameID>24634</DisplayNameID>
     <RolloverTextID>24635</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>270</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -26711,7 +26711,7 @@
     <DisplayNameID>24634</DisplayNameID>
     <RolloverTextID>24635</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>270</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -26779,7 +26779,7 @@
     <DisplayNameID>24634</DisplayNameID>
     <RolloverTextID>24635</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>270</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -26847,7 +26847,7 @@
     <DisplayNameID>24634</DisplayNameID>
     <RolloverTextID>24635</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>270</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -26915,7 +26915,7 @@
     <DisplayNameID>24634</DisplayNameID>
     <RolloverTextID>24635</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>270</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -26983,7 +26983,7 @@
     <DisplayNameID>22674</DisplayNameID>
     <RolloverTextID>22675</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>10</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -27054,7 +27054,7 @@
     <DisplayNameID>22674</DisplayNameID>
     <RolloverTextID>22675</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>10</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -27125,7 +27125,7 @@
     <DisplayNameID>10162</DisplayNameID>
     <RolloverTextID>10163</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -27194,7 +27194,7 @@
     <DisplayNameID>10162</DisplayNameID>
     <RolloverTextID>10163</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -27263,7 +27263,7 @@
     <DisplayNameID>24634</DisplayNameID>
     <RolloverTextID>24635</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>270</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -27332,7 +27332,7 @@
     <RolloverTextID>10123</RolloverTextID>
     <RoleTextID>519</RoleTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>360</TurnRate>
     <Hitpoints>1600</Hitpoints>
@@ -27482,7 +27482,7 @@
     <AttackGradeDPS>384.2</AttackGradeDPS>
     <CombatValue>35</CombatValue>
     <LOS>80</LOS>
-    <BuildPoints>25</BuildPoints>
+    <BuildPoints>12.5</BuildPoints>
     <Cost ResourceType="Supplies">300</Cost>
     <CostEscalation>150</CostEscalation>
     <CostEscalationObject>fld_bldg_launcher_01</CostEscalationObject>
@@ -27553,7 +27553,7 @@
     <AttackGradeDPS>384.2</AttackGradeDPS>
     <CombatValue>35</CombatValue>
     <LOS>80</LOS>
-    <BuildPoints>25</BuildPoints>
+    <BuildPoints>12.5</BuildPoints>
     <Pop Type="Unit">3</Pop>
     <Bounty>26</Bounty>
     <Veterancy Level="1" XP="12" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
@@ -27620,7 +27620,7 @@
     <AttackGradeDPS>384.2</AttackGradeDPS>
     <CombatValue>35</CombatValue>
     <LOS>80</LOS>
-    <BuildPoints>25</BuildPoints>
+    <BuildPoints>12.5</BuildPoints>
     <Cost ResourceType="Supplies">300</Cost>
     <CostEscalation>150</CostEscalation>
     <CostEscalationObject>fld_bldg_launcher_01</CostEscalationObject>
@@ -27691,7 +27691,7 @@
     <Hitpoints>15000</Hitpoints>
     <CombatValue>10</CombatValue>
     <LOS>55</LOS>
-    <BuildPoints>30</BuildPoints>
+    <BuildPoints>15</BuildPoints>
     <Cost ResourceType="Supplies">150</Cost>
     <Bounty>4</Bounty>
     <Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
@@ -27774,7 +27774,7 @@
     <Cost ResourceType="Power">2</Cost>
     <CombatValue>35</CombatValue>
     <LOS>80</LOS>
-    <BuildPoints>30</BuildPoints>
+    <BuildPoints>15</BuildPoints>
     <Bounty>26</Bounty>
     <Veterancy Level="1" XP="36" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
     <Veterancy Level="2" XP="90" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
@@ -27921,7 +27921,7 @@
     <Hitpoints>10000</Hitpoints>
     <CombatValue>10</CombatValue>
     <LOS>55</LOS>
-    <BuildPoints>30</BuildPoints>
+    <BuildPoints>15</BuildPoints>
     <Cost ResourceType="Supplies">100</Cost>
     <Bounty>3</Bounty>
     <Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
@@ -27995,7 +27995,7 @@
     <Hitpoints>10000</Hitpoints>
     <CombatValue>10</CombatValue>
     <LOS>55</LOS>
-    <BuildPoints>30</BuildPoints>
+    <BuildPoints>15</BuildPoints>
     <Cost ResourceType="Supplies">225</Cost>
     <Bounty>3</Bounty>
     <Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
@@ -28071,7 +28071,7 @@
     <Hitpoints>10000</Hitpoints>
     <CombatValue>10</CombatValue>
     <LOS>55</LOS>
-    <BuildPoints>30</BuildPoints>
+    <BuildPoints>15</BuildPoints>
     <Cost ResourceType="Supplies">350</Cost>
     <Bounty>3</Bounty>
     <Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
@@ -28252,7 +28252,7 @@
     <Hitpoints>5000</Hitpoints>
     <CombatValue>10</CombatValue>
     <LOS>55</LOS>
-    <BuildPoints>30</BuildPoints>
+    <BuildPoints>15</BuildPoints>
     <Cost ResourceType="Supplies">500</Cost>
     <Bounty>3</Bounty>
     <Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
@@ -28329,7 +28329,7 @@
     <Hitpoints>25000</Hitpoints>
     <CombatValue>10</CombatValue>
     <LOS>55</LOS>
-    <BuildPoints>30</BuildPoints>
+    <BuildPoints>15</BuildPoints>
     <Cost ResourceType="Supplies">250</Cost>
     <CostEscalation>250</CostEscalation>
     <CostEscalationObject>fld_bldg_powerstalkcluster_01</CostEscalationObject>
@@ -28409,7 +28409,7 @@
     <Hitpoints>25000</Hitpoints>
     <CombatValue>10</CombatValue>
     <LOS>55</LOS>
-    <BuildPoints>30</BuildPoints>
+    <BuildPoints>15</BuildPoints>
     <Cost ResourceType="Supplies">250</Cost>
     <CostEscalation>250</CostEscalation>
     <CostEscalationObject>fld_bldg_powerstalkcluster_01</CostEscalationObject>
@@ -28490,7 +28490,7 @@
     <Hitpoints>25000</Hitpoints>
     <CombatValue>10</CombatValue>
     <LOS>55</LOS>
-    <BuildPoints>30</BuildPoints>
+    <BuildPoints>15</BuildPoints>
     <Cost ResourceType="Supplies">250</Cost>
     <CostEscalation>250</CostEscalation>
     <CostEscalationObject>fld_bldg_powerstalkcluster_01</CostEscalationObject>
@@ -28573,7 +28573,7 @@
     <Hitpoints>15000</Hitpoints>
     <CombatValue>10</CombatValue>
     <LOS>55</LOS>
-    <BuildPoints>30</BuildPoints>
+    <BuildPoints>15</BuildPoints>
     <Cost ResourceType="Supplies">100</Cost>
     <Bounty>3</Bounty>
     <Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
@@ -28645,7 +28645,7 @@
     <Hitpoints>35000</Hitpoints>
     <CombatValue>10</CombatValue>
     <LOS>55</LOS>
-    <BuildPoints>30</BuildPoints>
+    <BuildPoints>15</BuildPoints>
     <Bounty>3</Bounty>
     <Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
     <Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
@@ -28720,7 +28720,7 @@
     <AttackGradeDPS>187</AttackGradeDPS>
     <CombatValue>12</CombatValue>
     <LOS>80</LOS>
-    <BuildPoints>10</BuildPoints>
+    <BuildPoints>5</BuildPoints>
     <Cost ResourceType="Supplies">150</Cost>
     <Bounty>12</Bounty>
     <Veterancy Level="1" XP="36" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
@@ -28795,7 +28795,7 @@
     <AttackGradeDPS>187</AttackGradeDPS>
     <CombatValue>12</CombatValue>
     <LOS>80</LOS>
-    <BuildPoints>10</BuildPoints>
+    <BuildPoints>5</BuildPoints>
     <Cost ResourceType="Supplies">150</Cost>
     <Bounty>12</Bounty>
     <Veterancy Level="1" XP="36" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
@@ -28868,7 +28868,7 @@
     <Hitpoints>15000</Hitpoints>
     <CombatValue>10</CombatValue>
     <LOS>55</LOS>
-    <BuildPoints>30</BuildPoints>
+    <BuildPoints>15</BuildPoints>
     <Cost ResourceType="Supplies">150</Cost>
     <Bounty>4</Bounty>
     <Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
@@ -29091,7 +29091,7 @@
     <DisplayNameID>10134</DisplayNameID>
     <RolloverTextID>10135</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>35</Velocity>
+    <Velocity>42</Velocity>
     <TurnRate>360</TurnRate>
     <Hitpoints>4683.15</Hitpoints>
     <AttackGradeDPS>85.5</AttackGradeDPS>
@@ -29169,7 +29169,7 @@
     <DisplayNameID>10134</DisplayNameID>
     <RolloverTextID>10135</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>30</Velocity>
+    <Velocity>36</Velocity>
     <TurnRate>360</TurnRate>
     <Hitpoints>2969</Hitpoints>
     <AttackGradeDPS>85.5</AttackGradeDPS>
@@ -29246,7 +29246,7 @@
     <DisplayNameID>10134</DisplayNameID>
     <RolloverTextID>10135</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>25</Velocity>
+    <Velocity>30</Velocity>
     <TurnRate>120</TurnRate>
     <Hitpoints>6075</Hitpoints>
     <AttackGradeDPS>85.5</AttackGradeDPS>
@@ -29312,7 +29312,7 @@
     <DisplayNameID>10134</DisplayNameID>
     <RolloverTextID>10135</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>40</Velocity>
+    <Velocity>48</Velocity>
     <TurnRate>1100</TurnRate>
     <Hitpoints>1000</Hitpoints>
     <AttackGradeDPS>85.5</AttackGradeDPS>
@@ -29382,7 +29382,7 @@
     <RolloverTextID>10137</RolloverTextID>
     <MovementType>Scarab</MovementType>
     <FlightLevel>0</FlightLevel>
-    <Velocity>15</Velocity>
+    <Velocity>18</Velocity>
     <Acceleration>15</Acceleration>
     <TurnRate>45</TurnRate>
     <Hardpoint name="Turret" autocenter="true" combined="true" yawrate="60" yawmaxangle="60" yawattachment="Turret" />
@@ -29459,7 +29459,7 @@
     <RolloverTextID>10111</RolloverTextID>
     <MovementType>Land</MovementType>
     <Hardpoint name="PlasmaTurret" autocenter="true" pitchrate="180" yawmaxangle="10" yawattachment="Turret" pitchattachment="Turret" />
-    <Velocity>35</Velocity>
+    <Velocity>42</Velocity>
     <TurnRate>120</TurnRate>
     <Hitpoints>400</Hitpoints>
     <AttackGradeDPS>144</AttackGradeDPS>
@@ -29528,7 +29528,7 @@
     <MovementType>Land</MovementType>
     <Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-30" pitchMaxAngle="60" yawattachment="turretgun" pitchattachment="turretgun" />
     <Hardpoint name="PassengerTurret" autocenter="true" yawrate="180" pitchrate="180" pitchMaxAngle="60" pitchMinAngle="0" yawattachment="PassengerTop" pitchattachment="PassengerTop" />
-    <Velocity>35</Velocity>
+    <Velocity>42</Velocity>
     <TurnRate>450</TurnRate>
     <Hitpoints>1200</Hitpoints>
     <AttackGradeDPS>138.5</AttackGradeDPS>
@@ -29599,7 +29599,7 @@
     <DisplayNameID>10064</DisplayNameID>
     <RolloverTextID>10065</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>40</Velocity>
+    <Velocity>48</Velocity>
     <TurnRate>450</TurnRate>
     <Hitpoints>2369</Hitpoints>
     <AttackGradeDPS>138.5</AttackGradeDPS>
@@ -29671,7 +29671,7 @@
     <DisplayNameID>10064</DisplayNameID>
     <RolloverTextID>10065</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>35</Velocity>
+    <Velocity>42</Velocity>
     <TurnRate>450</TurnRate>
     <Hitpoints>2369</Hitpoints>
     <AttackGradeDPS>138.5</AttackGradeDPS>
@@ -29745,7 +29745,7 @@
     <MovementType>Land</MovementType>
     <Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-30" pitchMaxAngle="60" yawattachment="turret" pitchattachment="turretgun" />
     <Hardpoint name="PassengerTurret" autocenter="true" yawrate="180" pitchrate="180" pitchMaxAngle="60" pitchMinAngle="0" yawattachment="PassengerTop" pitchattachment="PassengerTop" />
-    <Velocity>30</Velocity>
+    <Velocity>36</Velocity>
     <TurnRate>450</TurnRate>
     <Hitpoints>1200</Hitpoints>
     <AttackGradeDPS>138.5</AttackGradeDPS>
@@ -29820,7 +29820,7 @@
     <MovementType>Land</MovementType>
     <Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-30" pitchMaxAngle="60" yawattachment="turret" pitchattachment="turretgun" />
     <Hardpoint name="PassengerTurret" autocenter="true" yawrate="180" pitchrate="180" pitchMaxAngle="60" pitchMinAngle="0" yawattachment="PassengerTop" pitchattachment="PassengerTop" />
-    <Velocity>30</Velocity>
+    <Velocity>36</Velocity>
     <TurnRate>450</TurnRate>
     <Hitpoints>1200</Hitpoints>
     <AttackGradeDPS>138.5</AttackGradeDPS>
@@ -29895,7 +29895,7 @@
     <MovementType>Land</MovementType>
     <Hardpoint name="Turret" autocenter="true" yawrate="360" pitchrate="180" pitchMinAngle="-30" pitchMaxAngle="60" yawattachment="turret" pitchattachment="turretgun" />
     <Hardpoint name="PassengerTurret" autocenter="true" yawrate="180" pitchrate="180" pitchMaxAngle="60" pitchMinAngle="0" yawattachment="PassengerTop" pitchattachment="PassengerTop" />
-    <Velocity>30</Velocity>
+    <Velocity>36</Velocity>
     <TurnRate>450</TurnRate>
     <Hitpoints>1200</Hitpoints>
     <AttackGradeDPS>138.5</AttackGradeDPS>
@@ -54373,7 +54373,7 @@
     <RolloverTextID>10069</RolloverTextID>
     <MovementType>Land</MovementType>
     <Hardpoint name="CannonTurret" autocenter="true" yawrate="60" pitchrate="90" pitchMinAngle="-15" pitchMaxAngle="30" yawattachment="turret" pitchattachment="cannon" />
-    <Velocity>12</Velocity>
+    <Velocity>14.4</Velocity>
     <TurnRate>120</TurnRate>
     <Hitpoints>8000</Hitpoints>
     <AttackGradeDPS>272.7</AttackGradeDPS>
@@ -74176,7 +74176,7 @@
     <Hitpoints>20000</Hitpoints>
     <CombatValue>20</CombatValue>
     <LOS>85</LOS>
-    <BuildPoints>30</BuildPoints>
+    <BuildPoints>15</BuildPoints>
     <PopCapAddition Type="Unit">30</PopCapAddition>
     <Cost ResourceType="Supplies">750</Cost>
     <Cost ResourceType="Power">2</Cost>
@@ -78701,7 +78701,7 @@
     <DisplayNameID>10166</DisplayNameID>
     <RolloverTextID>10167</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <TurnRate>1080</TurnRate>
     <Hitpoints>200</Hitpoints>
     <AttackGradeDPS>96</AttackGradeDPS>
@@ -78757,7 +78757,7 @@
     <DisplayNameID>10166</DisplayNameID>
     <RolloverTextID>10167</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <TurnRate>1080</TurnRate>
     <Hitpoints>200</Hitpoints>
     <AttackGradeDPS>96</AttackGradeDPS>
@@ -78813,7 +78813,7 @@
     <DisplayNameID>10166</DisplayNameID>
     <RolloverTextID>10167</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <TurnRate>1080</TurnRate>
     <Hitpoints>200</Hitpoints>
     <AttackGradeDPS>96</AttackGradeDPS>
@@ -79113,7 +79113,7 @@
     <RoleTextID>24386</RoleTextID>
     <MovementType>Air</MovementType>
     <FlightLevel>0</FlightLevel>
-    <Velocity>7</Velocity>
+    <Velocity>8.4</Velocity>
     <TurnRate>60</TurnRate>
     <Hitpoints>800</Hitpoints>
     <NumStasisFieldsToStop>0</NumStasisFieldsToStop>
@@ -79845,7 +79845,7 @@
     <MovementType>Land</MovementType>
     <Hitpoints>8000</Hitpoints>
     <LOS>80</LOS>
-    <BuildPoints>30</BuildPoints>
+    <BuildPoints>15</BuildPoints>
     <Bounty>10</Bounty>
     <Tactics>fld_bldg_spawner_01.tactics</Tactics>
     <ObstructionRadiusX>5</ObstructionRadiusX>
@@ -79903,7 +79903,7 @@
     <MovementType>Land</MovementType>
     <Hitpoints>15000</Hitpoints>
     <LOS>80</LOS>
-    <BuildPoints>30</BuildPoints>
+    <BuildPoints>15</BuildPoints>
     <Bounty>10</Bounty>
     <Tactics>fld_bldg_spawner_01.tactics</Tactics>
     <ObstructionRadiusX>12</ObstructionRadiusX>
@@ -79959,7 +79959,7 @@
     <AttackGradeDPS>384.2</AttackGradeDPS>
     <CombatValue>35</CombatValue>
     <LOS>80</LOS>
-    <BuildPoints>25</BuildPoints>
+    <BuildPoints>12.5</BuildPoints>
     <Bounty>26</Bounty>
     <Veterancy Level="1" XP="12" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
     <Veterancy Level="2" XP="25" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
@@ -80062,7 +80062,7 @@
     <MovementType>Land</MovementType>
     <Hitpoints>25000</Hitpoints>
     <LOS>80</LOS>
-    <BuildPoints>30</BuildPoints>
+    <BuildPoints>15</BuildPoints>
     <Bounty>10</Bounty>
     <Tactics>fld_bldg_floodliver_01.tactics</Tactics>
     <ObstructionRadiusX>18</ObstructionRadiusX>
@@ -80116,7 +80116,7 @@
     <MovementType>Land</MovementType>
     <Hitpoints>15000</Hitpoints>
     <LOS>80</LOS>
-    <BuildPoints>30</BuildPoints>
+    <BuildPoints>15</BuildPoints>
     <Bounty>10</Bounty>
     <Tactics>fld_bldg_spawner_01.tactics</Tactics>
     <ObstructionRadiusX>12</ObstructionRadiusX>
@@ -80168,7 +80168,7 @@
     <DisplayNameID>10168</DisplayNameID>
     <RolloverTextID>10169</RolloverTextID>
     <MovementType>Scarab</MovementType>
-    <Velocity>10</Velocity>
+    <Velocity>14</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -80235,7 +80235,7 @@
     <DisplayNameID>10168</DisplayNameID>
     <RolloverTextID>10169</RolloverTextID>
     <MovementType>Scarab</MovementType>
-    <Velocity>10</Velocity>
+    <Velocity>14</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -80301,7 +80301,7 @@
     <DisplayNameID>10168</DisplayNameID>
     <RolloverTextID>10169</RolloverTextID>
     <MovementType>Scarab</MovementType>
-    <Velocity>32</Velocity>
+    <Velocity>38.4</Velocity>
     <TurnRate>540</TurnRate>
     <Hitpoints>400</Hitpoints>
     <AttackGradeDPS>250</AttackGradeDPS>
@@ -80366,7 +80366,7 @@
     <DisplayNameID>79706</DisplayNameID>
     <RolloverTextID>79705</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>18</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -80442,7 +80442,7 @@
     <DisplayNameID>22238</DisplayNameID>
     <MovementType>Air</MovementType>
     <FlightLevel>0</FlightLevel>
-    <Velocity>18</Velocity>
+    <Velocity>21.6</Velocity>
     <TurnRate>150</TurnRate>
     <Hitpoints>2070</Hitpoints>
     <NumStasisFieldsToStop>0</NumStasisFieldsToStop>
@@ -80494,7 +80494,7 @@
     <DisplayNameID>22238</DisplayNameID>
     <MovementType>Air</MovementType>
     <FlightLevel>0</FlightLevel>
-    <Velocity>18</Velocity>
+    <Velocity>21.6</Velocity>
     <TurnRate>150</TurnRate>
     <Hitpoints>2070</Hitpoints>
     <NumStasisFieldsToStop>0</NumStasisFieldsToStop>
@@ -80545,7 +80545,7 @@
     <DisplayNameID>10108</DisplayNameID>
     <RolloverTextID>10109</RolloverTextID>
     <MovementType>Flood</MovementType>
-    <Velocity>25</Velocity>
+    <Velocity>30</Velocity>
     <Acceleration>36</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -80608,7 +80608,7 @@
     <DisplayNameID>10108</DisplayNameID>
     <RolloverTextID>10109</RolloverTextID>
     <MovementType>Flood</MovementType>
-    <Velocity>25</Velocity>
+    <Velocity>30</Velocity>
     <Acceleration>36</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -80672,7 +80672,7 @@
     <DisplayNameID>10108</DisplayNameID>
     <RolloverTextID>10109</RolloverTextID>
     <MovementType>Flood</MovementType>
-    <Velocity>25</Velocity>
+    <Velocity>30</Velocity>
     <Acceleration>36</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>400</Hitpoints>
@@ -80735,7 +80735,7 @@
     <DisplayNameID>10168</DisplayNameID>
     <RolloverTextID>10169</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>20</Velocity>
+    <Velocity>24</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>6000</Hitpoints>
@@ -80801,7 +80801,7 @@
     <DisplayNameID>10168</DisplayNameID>
     <RolloverTextID>10169</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>15</Velocity>
+    <Velocity>22</Velocity>
     <Acceleration>15</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>40000</Hitpoints>
@@ -80867,7 +80867,7 @@
     <DisplayNameID>10168</DisplayNameID>
     <RolloverTextID>10169</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>20</Velocity>
+    <Velocity>24</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>20000</Hitpoints>
@@ -80935,7 +80935,7 @@
     <DisplayNameID>10168</DisplayNameID>
     <RolloverTextID>10169</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>20</Velocity>
+    <Velocity>24</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>20000</Hitpoints>
@@ -81001,7 +81001,7 @@
     <DisplayNameID>10168</DisplayNameID>
     <RolloverTextID>10169</RolloverTextID>
     <MovementType>Land</MovementType>
-    <Velocity>20</Velocity>
+    <Velocity>24</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>2000</Hitpoints>
@@ -81109,8 +81109,8 @@
     <DisplayNameID>10108</DisplayNameID>
     <RolloverTextID>10109</RolloverTextID>
     <MovementType>Scarab</MovementType>
-    <Velocity>11</Velocity>
-    <MaxVelocity>18</MaxVelocity>
+    <Velocity>15</Velocity>
+    <MaxVelocity>24</MaxVelocity>
     <Acceleration>17</Acceleration>
     <TurnRate>270</TurnRate>
     <Hitpoints>10</Hitpoints>
@@ -81161,8 +81161,8 @@
     <DisplayNameID>10108</DisplayNameID>
     <RolloverTextID>10109</RolloverTextID>
     <MovementType>Scarab</MovementType>
-    <Velocity>11</Velocity>
-    <MaxVelocity>18</MaxVelocity>
+    <Velocity>15</Velocity>
+    <MaxVelocity>24</MaxVelocity>
     <Acceleration>17</Acceleration>
     <TurnRate>270</TurnRate>
     <Hitpoints>10</Hitpoints>
@@ -81213,8 +81213,8 @@
     <DisplayNameID>10108</DisplayNameID>
     <RolloverTextID>10109</RolloverTextID>
     <MovementType>Scarab</MovementType>
-    <Velocity>11</Velocity>
-    <MaxVelocity>18</MaxVelocity>
+    <Velocity>15</Velocity>
+    <MaxVelocity>24</MaxVelocity>
     <Acceleration>17</Acceleration>
     <TurnRate>270</TurnRate>
     <Hitpoints>10</Hitpoints>
@@ -81265,8 +81265,8 @@
     <DisplayNameID>10108</DisplayNameID>
     <RolloverTextID>10109</RolloverTextID>
     <MovementType>Scarab</MovementType>
-    <Velocity>11</Velocity>
-    <MaxVelocity>18</MaxVelocity>
+    <Velocity>13.2</Velocity>
+    <MaxVelocity>21.6</MaxVelocity>
     <Acceleration>17</Acceleration>
     <TurnRate>270</TurnRate>
     <Hitpoints>60</Hitpoints>
@@ -81317,8 +81317,8 @@
     <DisplayNameID>10108</DisplayNameID>
     <RolloverTextID>10109</RolloverTextID>
     <MovementType>Scarab</MovementType>
-    <Velocity>12</Velocity>
-    <MaxVelocity>18</MaxVelocity>
+    <Velocity>15</Velocity>
+    <MaxVelocity>24</MaxVelocity>
     <Acceleration>17</Acceleration>
     <TurnRate>270</TurnRate>
     <Hitpoints>10</Hitpoints>
@@ -81370,8 +81370,8 @@
     <DisplayNameID>10108</DisplayNameID>
     <RolloverTextID>10109</RolloverTextID>
     <MovementType>Scarab</MovementType>
-    <Velocity>12</Velocity>
-    <MaxVelocity>18</MaxVelocity>
+    <Velocity>15</Velocity>
+    <MaxVelocity>24</MaxVelocity>
     <Acceleration>17</Acceleration>
     <TurnRate>270</TurnRate>
     <Hitpoints>10</Hitpoints>
@@ -81424,8 +81424,8 @@
     <DisplayNameID>10108</DisplayNameID>
     <RolloverTextID>10109</RolloverTextID>
     <MovementType>Scarab</MovementType>
-    <Velocity>12</Velocity>
-    <MaxVelocity>18</MaxVelocity>
+    <Velocity>15</Velocity>
+    <MaxVelocity>24</MaxVelocity>
     <Acceleration>17</Acceleration>
     <TurnRate>270</TurnRate>
     <Hitpoints>10</Hitpoints>
@@ -81477,8 +81477,8 @@
     <DisplayNameID>10108</DisplayNameID>
     <RolloverTextID>10109</RolloverTextID>
     <MovementType>Scarab</MovementType>
-    <Velocity>12</Velocity>
-    <MaxVelocity>18</MaxVelocity>
+    <Velocity>15</Velocity>
+    <MaxVelocity>24</MaxVelocity>
     <Acceleration>17</Acceleration>
     <TurnRate>270</TurnRate>
     <Hitpoints>10</Hitpoints>
@@ -81531,8 +81531,8 @@
     <DisplayNameID>10108</DisplayNameID>
     <RolloverTextID>10109</RolloverTextID>
     <MovementType>Scarab</MovementType>
-    <Velocity>12</Velocity>
-    <MaxVelocity>18</MaxVelocity>
+    <Velocity>15</Velocity>
+    <MaxVelocity>24</MaxVelocity>
     <Acceleration>17</Acceleration>
     <TurnRate>270</TurnRate>
     <Hitpoints>10</Hitpoints>
@@ -81585,7 +81585,7 @@
     <DisplayNameID>99894</DisplayNameID>
     <RolloverTextID>99893</RolloverTextID>
     <MovementType>Scarab</MovementType>
-    <Velocity>20</Velocity>
+    <Velocity>24</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>1200</Hitpoints>
@@ -81654,7 +81654,7 @@
     <DisplayNameID>99894</DisplayNameID>
     <RolloverTextID>99893</RolloverTextID>
     <MovementType>Scarab</MovementType>
-    <Velocity>20</Velocity>
+    <Velocity>24</Velocity>
     <Acceleration>26</Acceleration>
     <TurnRate>540</TurnRate>
     <Hitpoints>1200</Hitpoints>
@@ -81723,7 +81723,7 @@
     <DisplayNameID>22238</DisplayNameID>
     <MovementType>Air</MovementType>
     <FlightLevel>0</FlightLevel>
-    <Velocity>18</Velocity>
+    <Velocity>21.6</Velocity>
     <TurnRate>150</TurnRate>
     <Hitpoints>10</Hitpoints>
     <NumStasisFieldsToStop>0</NumStasisFieldsToStop>
@@ -81774,7 +81774,7 @@
     <DisplayNameID>22238</DisplayNameID>
     <MovementType>Air</MovementType>
     <FlightLevel>0</FlightLevel>
-    <Velocity>18</Velocity>
+    <Velocity>21.6</Velocity>
     <TurnRate>150</TurnRate>
     <Hitpoints>10</Hitpoints>
     <NumStasisFieldsToStop>0</NumStasisFieldsToStop>
@@ -81824,7 +81824,7 @@
     <DisplayNameID>25673</DisplayNameID>
     <MovementType>Air</MovementType>
     <Lifespan>15</Lifespan>
-    <Velocity>9</Velocity>
+    <Velocity>10.8</Velocity>
     <TurnRate>150</TurnRate>
     <Hitpoints>1</Hitpoints>
     <LOS>55</LOS>
@@ -81870,7 +81870,7 @@
     <RolloverTextID>24386</RolloverTextID>
     <MovementType>Air</MovementType>
     <LifeSpan>30</LifeSpan>
-    <Velocity>10</Velocity>
+    <Velocity>12</Velocity>
     <TurnRate>270</TurnRate>
     <Hitpoints>1</Hitpoints>
     <LOS>55</LOS>
