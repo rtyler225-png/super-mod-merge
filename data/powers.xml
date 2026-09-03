@@ -791,7 +791,7 @@
   <Power name="AndTurretDrop">
     <Attributes>
       <Cost Supplies="350" Power="2" />
-      <AutoRecharge>45000</AutoRecharge>
+      <AutoRecharge>30000</AutoRecharge>
       <SequentialRecharge />
       <UIRadius>10</UIRadius>
       <DisplayNameID>30554</DisplayNameID>
@@ -2087,7 +2087,7 @@
   <Power name="SerTurretDrop">
     <Attributes>
       <Cost Supplies="350" Power="2" />
-      <AutoRecharge>45000</AutoRecharge>
+      <AutoRecharge>30000</AutoRecharge>
       <SequentialRecharge />
       <UIRadius>10</UIRadius>
       <DisplayNameID>30554</DisplayNameID>

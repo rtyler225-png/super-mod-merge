@@ -20320,8 +20320,9 @@
     <MovementType>Land</MovementType>
     <Velocity>20</Velocity>
     <TurnRate>180</TurnRate>
-    <Hitpoints>4500</Hitpoints>
-    <AttackGradeDPS>350</AttackGradeDPS>
+    <Hitpoints>8550</Hitpoints>
+    <Shieldpoints>0</Shieldpoints>
+    <AttackGradeDPS>190.9</AttackGradeDPS>
     <CombatValue>14</CombatValue>
     <LOS>55</LOS>
     <Pop Type="Unit">4</Pop>
@@ -20329,8 +20330,8 @@
     <Veterancy Level="1" XP="28" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
     <Veterancy Level="2" XP="70" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
     <Veterancy Level="3" XP="126" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
-    <Veterancy Level="4" XP="0" Damage="1.45" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
-    <Veterancy Level="5" XP="0" Damage="1.55" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+    <Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+    <Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
     <LevelUpEffect>fx_unitLevelUp</LevelUpEffect>
     <AmmoMax>60</AmmoMax>
     <AmmoRegenRate>1</AmmoRegenRate>
@@ -20370,7 +20371,7 @@
     <Sound Type="StopMove">stop_move_wraith</Sound>
     <ExtendedSoundBank>xtnd_ui_wraith.bnk</ExtendedSoundBank>
     <DamageType direction="Full">Shielded</DamageType>
-    <DamageType direction="Full">HeavyVehicle</DamageType>
+    <DamageType direction="Full">Heavy</DamageType>
     <ObjectType>KeepsInGame</ObjectType>
     <ObjectType>Covenant</ObjectType>
     <ObjectType>Military</ObjectType>
@@ -20410,8 +20411,9 @@
     <MovementType>Land</MovementType>
     <Velocity>20</Velocity>
     <TurnRate>180</TurnRate>
-    <Hitpoints>4500</Hitpoints>
-    <AttackGradeDPS>350</AttackGradeDPS>
+    <Hitpoints>8550</Hitpoints>
+    <Shieldpoints>0</Shieldpoints>
+    <AttackGradeDPS>190.9</AttackGradeDPS>
     <CombatValue>14</CombatValue>
     <LOS>55</LOS>
     <Pop Type="Unit">4</Pop>
@@ -20419,8 +20421,8 @@
     <Veterancy Level="1" XP="28" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
     <Veterancy Level="2" XP="70" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
     <Veterancy Level="3" XP="126" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
-    <Veterancy Level="4" XP="0" Damage="1.45" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
-    <Veterancy Level="5" XP="0" Damage="1.55" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+    <Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+    <Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
     <LevelUpEffect>fx_unitLevelUp</LevelUpEffect>
     <AmmoMax>60</AmmoMax>
     <AmmoRegenRate>1</AmmoRegenRate>
@@ -20461,7 +20463,7 @@
     <Sound Type="StopMove">stop_move_wraith</Sound>
     <ExtendedSoundBank>xtnd_ui_wraith.bnk</ExtendedSoundBank>
     <DamageType direction="Full">Shielded</DamageType>
-    <DamageType direction="Full">HeavyVehicle</DamageType>
+    <DamageType direction="Full">Heavy</DamageType>
     <ObjectType>KeepsInGame</ObjectType>
     <ObjectType>Covenant</ObjectType>
     <ObjectType>Military</ObjectType>

@@ -6,7 +6,7 @@
 		<DamagePerSecond>300</DamagePerSecond>
 		<WeaponType>HeavySmallArmsPlasma</WeaponType>
 		<Projectile>fx_proj_shadePlasma_03</Projectile>
-		<ImpactEffect size="Medium">unsc_spartanlaser_01</ImpactEffect>
+		<ImpactEffect size="Medium">cov_shadeplasma_01</ImpactEffect>
 		<MaxVelocityLead>45</MaxVelocityLead>
 		<MaxRange>55</MaxRange>
 		<Accuracy>0.4</Accuracy>
@@ -15,34 +15,27 @@
 		<MovingMaxDeviation>4.5</MovingMaxDeviation>
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
 		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
-		<AOERadius>5</AOERadius>
-		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
-		<AOEDistanceFactor>0.25</AOEDistanceFactor>
-		<AOEDamageFactor>0.25</AOEDamageFactor>
-		<ThrowUnits />
-		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
-		<PhysicsForceMin>800</PhysicsForceMin>
-		<PhysicsForceMax>1000</PhysicsForceMax>
+		<EnableHeightBonusDamage />
 		<Hardpoint>Turret</Hardpoint>
 		<TargetPriority type="Infantry">10</TargetPriority>
 		<TargetPriority type="Aircraft">5</TargetPriority>
 		<TargetPriority type="Building">-3</TargetPriority>
+		<SmallArmsDeflectable />
 	</Weapon>
 	<Weapon>
 		<Name>FuelRodTurret</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>300</DamagePerSecond>
+		<AttackRate>2.5</AttackRate>
+		<DamagePerSecond>450</DamagePerSecond>
 		<WeaponType>MediumExplosive</WeaponType>
 		<Projectile>fx_proj_fuelRod_01</Projectile>
 		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
 		<MaxVelocityLead>10</MaxVelocityLead>
-		<MaxRange>55</MaxRange>
+		<MaxRange>75</MaxRange>
 		<Hardpoint>Turret</Hardpoint>
-		<AOERadius>6</AOERadius>
+		<AOERadius>8</AOERadius>
 		<AOEPrimaryTargetFactor>0.5</AOEPrimaryTargetFactor>
-		<AOEDistanceFactor>0.75</AOEDistanceFactor>
-		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.75</AOEDamageFactor>
 		<TargetPriority type="GroundVehicle">10</TargetPriority>
 		<TargetPriority type="Infantry">5</TargetPriority>
 		<TargetPriority type="TurretBuilding">3</TargetPriority>

@@ -5722,8 +5722,7 @@
     <PrereqTextID>242</PrereqTextID>
     <RoleTextID>541</RoleTextID>
     <BuildPoints>26</BuildPoints>
-    <Cost resourcetype="Supplies">650</Cost>
-    <Cost resourcetype="Power">1</Cost>
+    <Cost resourcetype="Supplies">400</Cost>
     <SubSelectSort>6500</SubSelectSort>
     <LeashDistance>20</LeashDistance>
     <LeashDeadzone>5</LeashDeadzone>
