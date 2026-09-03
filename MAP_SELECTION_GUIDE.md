@@ -4,37 +4,35 @@ This guide explains how maps are registered, the engine mechanics behind map loa
 
 ---
 
-## ⚠️ Critical Rule: NEVER Comment Out `<ScenarioInfo>` Tags
+## ⚠️ The Two Golden Rules of Map Editing
 
-### Why Did Commenting Out Maps Crash the Game?
-When you launch *Halo Wars: Definitive Edition*, the game reads your profile from `savegame/save.sav`. This file stores the index of your last-played map for **each player category separately** (1v1, 2v2, and 3v3).
+### 1. NEVER Comment Out `<ScenarioInfo>` Tags (Crash at `0x5BD184` / `0x40`)
+When you launch the game, it reads your profile (`savegame/save.sav`) which stores the index of your last-played map for 1v1, 2v2, and 3v3.
+- If maps are commented out with `<!-- ... -->`, the total scenario count drops (e.g. 125 down to 64).
+- If your profile has a saved map index `>= total_count` (such as map 76), the engine's array lookup returns `nullptr`.
+- The engine executes `mov edx, [rdx + 0x40]` on `nullptr`, crashing instantly with an Access Violation (`0xC0000005`) on launch.
+- **Steam Cloud** syncs `save.sav` on launch, so deleting `save.sav` does not fix this.
+- **Solution**: Keep all 125 `<ScenarioInfo>` entries in `data/scenariodescriptions.xml`. Use `Type="Development"` to hide maps instead of commenting them out.
 
-1. In `data/scenariodescriptions.xml`, there are **125 total scenario entries** registered.
-2. When maps were commented out using XML comment tags (`<!-- ... -->`), the XML parser completely skipped them, reducing the total map count to **64**.
-3. On startup, the game engine loops through each category:
-   - It reads your saved map index from `save.sav` (e.g. index **76**).
-   - It checks: `if (savedIndex >= scenarioCount) return nullptr;`
-   - With only 64 maps, index 76 is out of bounds (`76 >= 64`), returning a null pointer.
-   - The engine immediately executes `mov edx, [rdx + 0x40]` on that null pointer, crashing with an **Access Violation (`0xC0000005`)** at `xgameFinal.exe + 0x5BD184`!
-
-### Why Deleting `save.sav` Doesn't Work
-When Steam Cloud is enabled for Halo Wars DE, deleting `save.sav` from the disk has no effect: Steam immediately re-downloads the cloud copy before launching `xgameFinal.exe`, restoring the saved map index 76.
-
-> **RULE**: **NEVER comment out or delete `<ScenarioInfo>` lines from `scenariodescriptions.xml`.**  
-> All 125 entries must remain present in the XML so that any saved index in any profile remains in-bounds.
+### 2. Every Player Category (1v1, 2v2, 3v3) Must Have AT LEAST 1 Active Map (Crash at `0xD8614` / `0x50`)
+When opening the Skirmish menu, the engine initializes default map selections for 2-player (1v1), 4-player (2v2), and 6-player (3v3) game modes (`xgameFinal.exe + 0xD84A0`).
+- If ANY category has **0 active maps**, the check `if (selectedIndex >= mapCount)` tests `0 >= 0`, which is true.
+- It branches to an error handler that fails to set the scenario pointer (`r8 = 0`).
+- The engine then executes `mov ecx, dword ptr [r8 + 0x50]`, crashing with an **Access Violation (`0xC0000005`) reading address `0x0000000000000050`**!
+- **Solution**: Whenever isolating a specific category (e.g. testing only 1v1), always leave **at least 1 active map** in 2v2 and 3v3 (e.g. Beasley's Plateau for 2v2, Exile for 3v3).
 
 ---
 
-## The Safe Way to Hide / Isolate Maps: Use `Type="Development"`
+## How the Engine Menu Filter Works
 
-The engine contains a built-in lobby filter at `xgameFinal.exe + 0x5BA879`:
+The game engine filters maps for the lobby at `xgameFinal.exe + 0x5BA879`:
 ```x86asm
 cmp dword ptr [map + 0x50], 1   ; 1 = "Final"
 jne skip_map                    ; Skips any map that is not Final (e.g. Development = 3)
 ```
 
 - **`Type="Final"` (or `Type="DLC"`)**: Displayed in the Skirmish Lobby menu.
-- **`Type="Development"`**: Loaded into the engine's internal map array (preventing any out-of-bounds crashes), but **completely hidden from the Skirmish menu**.
+- **`Type="Development"`**: Loaded into the engine's internal map array (preventing out-of-bounds startup crashes), but **completely hidden from the Skirmish menu**.
 
 ---
 
@@ -48,7 +46,6 @@ python -c "
 import re
 with open('data/scenariodescriptions.xml', 'r', encoding='utf-8') as f:
     text = f.read()
-# Set all skirmish maps (after line 64) to Final
 lines = text.splitlines()
 head, tail = lines[:64], lines[64:]
 new_tail = [re.sub(r'Type=\"Development\"', 'Type=\"Final\"', l) if '<ScenarioInfo' in l and 'Labyrinth_E3' not in l else l for l in tail]
@@ -58,9 +55,8 @@ print('All maps activated.')
 "
 ```
 
-### 2. Preset: Only 1v1 Maps Active (Hide 2v2 & 3v3)
-All 1v1 maps (22 maps) remain `Type="Final"`. All 2v2 and 3v3 maps are set to `Type="Development"`.
-To apply, run in PowerShell from the mod directory:
+### 2. Preset: 1v1 Focus (All 22 1v1 Maps Active + 1 Placeholder in 2v2/3v3)
+All 22 1v1 maps active. 2v2 has Beasley's Plateau (1 map) and 3v3 has Exile (1 map) to satisfy Rule #2:
 ```powershell
 python -c "
 import re
@@ -71,20 +67,23 @@ head, tail = lines[:64], lines[64:]
 new_tail = []
 for l in tail:
     if '<ScenarioInfo' in l:
-        if 'MaxPlayers=\"2\"' in l:
-            l = re.sub(r'Type=\"Development\"', 'Type=\"Final\"', l)
-        else:
-            l = re.sub(r'Type=\"(Final|DLC)\"', 'Type=\"Development\"', l)
+        m = re.search(r'MaxPlayers=\"(\d+)\"', l)
+        mp = m.group(1) if m else '0'
+        if mp == '2':
+            l = re.sub(r'Type=\"[^\"]+\"', 'Type=\"Final\"', l)
+        elif mp == '4':
+            l = re.sub(r'Type=\"[^\"]+\"', 'Type=\"Final\"' if 'beasleys_plateau\\\\beasleys_plateau.scn' in l else 'Type=\"Development\"', l)
+        elif mp == '6':
+            l = re.sub(r'Type=\"[^\"]+\"', 'Type=\"Final\"' if 'exile\\\\exile.scn' in l else 'Type=\"Development\"', l)
     new_tail.append(l)
 with open('data/scenariodescriptions.xml', 'w', encoding='utf-8') as f:
     f.write('\n'.join(head + new_tail))
-print('Only 1v1 maps active.')
+print('1v1 focus active.')
 "
 ```
 
 ### 3. Preset: Exactly 1 Active Map per Category (Blood Gulch, Beasley's Plateau, Exile)
-For minimal UI testing to completely avoid Scaleform list limits:
-To apply, run in PowerShell from the mod directory:
+For minimal UI testing to avoid Scaleform list limits:
 ```powershell
 python -c "
 import re
@@ -97,9 +96,9 @@ new_tail = []
 for l in tail:
     if '<ScenarioInfo' in l:
         if any(k in l for k in keep):
-            l = re.sub(r'Type=\"Development\"', 'Type=\"Final\"', l)
+            l = re.sub(r'Type=\"[^\"]+\"', 'Type=\"Final\"', l)
         else:
-            l = re.sub(r'Type=\"(Final|DLC)\"', 'Type=\"Development\"', l)
+            l = re.sub(r'Type=\"[^\"]+\"', 'Type=\"Development\"', l)
     new_tail.append(l)
 with open('data/scenariodescriptions.xml', 'w', encoding='utf-8') as f:
     f.write('\n'.join(head + new_tail))
