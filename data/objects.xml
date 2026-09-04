@@ -27880,7 +27880,7 @@
     <RoleTextID>516</RoleTextID>
     <MovementType>Land</MovementType>
     <Hitpoints>12000</Hitpoints>
-    <AttackGradeDPS>384.2</AttackGradeDPS>
+    <AttackGradeDPS>750</AttackGradeDPS>
     <CombatValue>35</CombatValue>
     <LOS>80</LOS>
     <BuildPoints>12.5</BuildPoints>
@@ -27951,7 +27951,7 @@
     <RoleTextID>516</RoleTextID>
     <MovementType>Land</MovementType>
     <Hitpoints>8000</Hitpoints>
-    <AttackGradeDPS>384.2</AttackGradeDPS>
+    <AttackGradeDPS>750</AttackGradeDPS>
     <CombatValue>35</CombatValue>
     <LOS>80</LOS>
     <BuildPoints>12.5</BuildPoints>
@@ -28018,7 +28018,7 @@
     <RoleTextID>516</RoleTextID>
     <MovementType>Land</MovementType>
     <Hitpoints>12000</Hitpoints>
-    <AttackGradeDPS>384.2</AttackGradeDPS>
+    <AttackGradeDPS>750</AttackGradeDPS>
     <CombatValue>35</CombatValue>
     <LOS>80</LOS>
     <BuildPoints>12.5</BuildPoints>
@@ -28171,7 +28171,7 @@
     <RolloverTextID>24920</RolloverTextID>
     <MovementType>Land</MovementType>
     <Hitpoints>12000</Hitpoints>
-    <AttackGradeDPS>384.2</AttackGradeDPS>
+    <AttackGradeDPS>750</AttackGradeDPS>
     <Cost ResourceType="Supplies">500</Cost>
     <Cost ResourceType="Power">2</Cost>
     <CombatValue>35</CombatValue>
@@ -80362,7 +80362,7 @@
     <RolloverTextID>24920</RolloverTextID>
     <MovementType>Land</MovementType>
     <Hitpoints>12000</Hitpoints>
-    <AttackGradeDPS>384.2</AttackGradeDPS>
+    <AttackGradeDPS>750</AttackGradeDPS>
     <CombatValue>35</CombatValue>
     <LOS>80</LOS>
     <BuildPoints>12.5</BuildPoints>

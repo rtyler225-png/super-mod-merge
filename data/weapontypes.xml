@@ -1119,4 +1119,30 @@
 		<DamageModifier rating="1" type="Shielded">1.52</DamageModifier>
 		<DamageModifier rating="1" type="Invulnerable">0.0</DamageModifier>
 	</WeaponType>
+	<WeaponType>
+		<Name>FloodLauncher</Name>
+		<DamageModifier rating="1" type="LightInfantry">1.0</DamageModifier>
+		<DamageModifier rating="1" type="LightInfantryInCover">1.0</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantry">1.0</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantryInCover">1.0</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry">1.0</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantryInCover">1.0</DamageModifier>
+		<DamageModifier rating="1" type="LightVehicle">1.0</DamageModifier>
+		<DamageModifier rating="1" type="MediumVehicle">1.0</DamageModifier>
+		<DamageModifier rating="1" type="HeavyVehicle">1.0</DamageModifier>
+		<DamageModifier rating="1" type="UberVehicle">1.0</DamageModifier>
+		<DamageModifier rating="1" type="LightAir">1.0</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1.0</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">1.0</DamageModifier>
+		<DamageModifier rating="1" type="LightFlood">1.0</DamageModifier>
+		<DamageModifier rating="1" type="LightFloodInCover">1.0</DamageModifier>
+		<DamageModifier rating="1" type="MediumFlood">1.0</DamageModifier>
+		<DamageModifier rating="1" type="MediumFloodInCover">1.0</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFlood">1.0</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFloodInCover">1.0</DamageModifier>
+		<DamageModifier rating="1" type="UberFlood">1.0</DamageModifier>
+		<DamageModifier rating="1" type="Building">1.0</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1.0</DamageModifier>
+		<DamageModifier rating="1" type="Invulnerable">0.0</DamageModifier>
+	</WeaponType>
 </WeaponTypes>

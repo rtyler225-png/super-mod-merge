@@ -2,9 +2,9 @@
 <TacticData>
 	<Weapon>
 		<Name>GroundAttack</Name>
-		<AttackRate>5</AttackRate>
-		<DamagePerSecond>300</DamagePerSecond>
-		<WeaponType>Basic</WeaponType>
+		<AttackRate>6</AttackRate>
+		<DamagePerSecond>750</DamagePerSecond>
+		<WeaponType>FloodLauncher</WeaponType>
 		<Projectile>fx_proj_floodArtillery_02</Projectile>
 		<ImpactEffect size="Medium">flood_spit_01</ImpactEffect>
 		<MaxVelocityLead>6</MaxVelocityLead>
@@ -33,9 +33,9 @@
 	</Weapon>
 	<Weapon>
 		<Name>AirAttack</Name>
-		<AttackRate>5</AttackRate>
-		<DamagePerSecond>270</DamagePerSecond>
-		<WeaponType>HeavyNeedler</WeaponType>
+		<AttackRate>6</AttackRate>
+		<DamagePerSecond>750</DamagePerSecond>
+		<WeaponType>FloodLauncher</WeaponType>
 		<Projectile>fx_proj_floodArtillery_02</Projectile>
 		<ImpactEffect size="Medium">flood_spit_01</ImpactEffect>
 		<MaxVelocityLead>6</MaxVelocityLead>
