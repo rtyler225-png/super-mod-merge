@@ -1301,7 +1301,7 @@
   <Power name="ForGrizzlyDrop">
     <Attributes>
       <Cost Supplies="1500" Power="4" />
-      <Pop type="Unit">14</Pop>
+      <Pop type="Unit">16</Pop>
       <AutoRecharge>90000</AutoRecharge>
       <UIRadius>10</UIRadius>
       <DisplayNameID>69993</DisplayNameID>

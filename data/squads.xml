@@ -200,7 +200,7 @@
     <RoleTextID>541</RoleTextID>
     <BuildPoints>65</BuildPoints>
     <Cost ResourceType="Power">2</Cost>
-    <Cost ResourceType="Supplies">800</Cost>
+    <Cost ResourceType="Supplies">750</Cost>
     <SubSelectSort>5200</SubSelectSort>
     <LeashDistance>20</LeashDistance>
     <LeashDeadzone>5</LeashDeadzone>
@@ -2358,7 +2358,7 @@
     <PrereqTextID>242</PrereqTextID>
     <BuildPoints>45</BuildPoints>
     <Cost ResourceType="Power">1</Cost>
-    <Cost ResourceType="Supplies">800</Cost>
+    <Cost ResourceType="Supplies">600</Cost>
     <SubSelectSort>4700</SubSelectSort>
     <LeashDistance>35</LeashDistance>
     <LeashDeadzone>5</LeashDeadzone>
@@ -3492,7 +3492,7 @@
     <RoleTextID>541</RoleTextID>
     <BuildPoints>65</BuildPoints>
     <Cost ResourceType="Power">2</Cost>
-    <Cost ResourceType="Supplies">800</Cost>
+    <Cost ResourceType="Supplies">850</Cost>
     <SubSelectSort>5200</SubSelectSort>
     <LeashDistance>20</LeashDistance>
     <LeashDeadzone>5</LeashDeadzone>
@@ -14225,7 +14225,7 @@
     <RoleTextID>541</RoleTextID>
     <BuildPoints>80</BuildPoints>
     <Cost ResourceType="Power">3</Cost>
-    <Cost ResourceType="Supplies">1000</Cost>
+    <Cost ResourceType="Supplies">1200</Cost>
     <SubSelectSort>5202</SubSelectSort>
     <LeashDistance>5</LeashDistance>
     <LeashDeadzone>5</LeashDeadzone>
@@ -21736,7 +21736,7 @@
     <PrereqTextID>242</PrereqTextID>
     <BuildPoints>45</BuildPoints>
     <Cost ResourceType="Power">1</Cost>
-    <Cost ResourceType="Supplies">800</Cost>
+    <Cost ResourceType="Supplies">600</Cost>
     <SubSelectSort>4700</SubSelectSort>
     <LeashDistance>35</LeashDistance>
     <LeashDeadzone>5</LeashDeadzone>
@@ -22590,7 +22590,7 @@
     <RoleTextID>541</RoleTextID>
     <BuildPoints>80</BuildPoints>
     <Cost ResourceType="Power">3</Cost>
-    <Cost ResourceType="Supplies">1000</Cost>
+    <Cost ResourceType="Supplies">1200</Cost>
     <SubSelectSort>5200</SubSelectSort>
     <LeashDistance>20</LeashDistance>
     <LeashDeadzone>5</LeashDeadzone>

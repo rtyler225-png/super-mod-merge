@@ -3,12 +3,12 @@
 	<Weapon>
 		<Name>Cannon</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>340</DamagePerSecond>
-		<WeaponType>HeavyExplosive</WeaponType>
+		<DamagePerSecond>250</DamagePerSecond>
+		<WeaponType>CryoExplosive</WeaponType>
 		<Projectile>fx_proj_cannon_01</Projectile>
 		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>
-		<MaxRange>65</MaxRange>
+		<MaxRange>60</MaxRange>
 		<Accuracy>0.2</Accuracy>
 		<MaxDeviation>7</MaxDeviation>
 		<MovingAccuracy>0.1</MovingAccuracy>
