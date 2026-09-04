@@ -7192,6 +7192,7 @@
 <File dir="TriggerScripts">data\aidata\buildlist_flood.ai</File>
 <File dir="TriggerScripts">data\aidata\buildlist_forerunner.ai</File>
 <File dir="TriggerScripts">data\aidata\buildlist_heretic.ai</File>
+	<File dir="TriggerScripts">data\aidata\buildlist_militia.ai</File>
 <File dir="TriggerScripts">data\aidata\buildlist_rebels.ai</File>
 <File dir="TriggerScripts">data\aidata\buildlist_stormcovenant.ai</File>
 <File dir="TriggerScripts">data\aidata\covbuildlists.ai</File>
@@ -7217,6 +7218,9 @@
 <File dir="TriggerScripts">data\aidata\techs_serina.ai</File>
 <File dir="TriggerScripts">data\aidata\techs_flood.ai</File>
 <File dir="TriggerScripts">data\aidata\techs_heretic.ai</File>
+	<File dir="TriggerScripts">data\aidata\techs_forerunner.ai</File>
+	<File dir="TriggerScripts">data\aidata\techs_militia.ai</File>
+	<File dir="TriggerScripts">data\aidata\techs_rebels.ai</File>
 <File dir="TriggerScripts">data\aidata\techupgrades.ai</File>
 <File dir="TriggerScripts">data\aidata\trainlist_anders.ai</File>
 <File dir="TriggerScripts">data\aidata\trainlist_arbiter.ai</File>
@@ -7229,6 +7233,7 @@
 <File dir="TriggerScripts">data\aidata\trainlist_forge.ai</File>
 <File dir="TriggerScripts">data\aidata\trainlist_grunt.ai</File>
 <File dir="TriggerScripts">data\aidata\trainlist_heretic.ai</File>
+	<File dir="TriggerScripts">data\aidata\trainlist_militia.ai</File>
 <File dir="TriggerScripts">data\aidata\trainlist_prophet.ai</File>
 <File dir="TriggerScripts">data\aidata\trainlist_rebel.ai</File>
 <File dir="TriggerScripts">data\aidata\trainlist_serina.ai</File>
@@ -7569,15 +7574,17 @@
 <File dir="TriggerScripts">data\triggerscripts\skirmishai\ai_arbiter.triggerscript</File>
 <File dir="TriggerScripts">data\triggerscripts\skirmishai\ai_blademaster.triggerscript</File>
 <File dir="TriggerScripts">data\triggerscripts\skirmishai\ai_brute.triggerscript</File>
-<File dir="TriggerScripts">data\triggerscripts\skirmishai\ai_arbiter.triggerscript</File>
 <File dir="TriggerScripts">data\triggerscripts\skirmishai\ai_covenant.triggerscript</File>
 <File dir="TriggerScripts">data\triggerscripts\skirmishai\ai_cutter.triggerscript</File>
 <File dir="TriggerScripts">data\triggerscripts\skirmishai\ai_flood.triggerscript</File>
+	<File dir="TriggerScripts">data\triggerscripts\skirmishai\ai_forerunner.triggerscript</File>
 <File dir="TriggerScripts">data\triggerscripts\skirmishai\ai_forge.triggerscript</File>
 <File dir="TriggerScripts">data\triggerscripts\skirmishai\ai_gruntgeneral.triggerscript</File>
 <File dir="TriggerScripts">data\triggerscripts\skirmishai\ai_heretic.triggerscript</File>
+	<File dir="TriggerScripts">data\triggerscripts\skirmishai\ai_militia.triggerscript</File>
 <File dir="TriggerScripts">data\triggerscripts\skirmishai\ai_prophet.triggerscript</File>
 <File dir="TriggerScripts">data\triggerscripts\skirmishai\ai_rebels.triggerscript</File>
+	<File dir="TriggerScripts">data\triggerscripts\skirmishai\ai_serina.triggerscript</File>
 <File dir="TriggerScripts">data\triggerscripts\skirmishai\ai_unsc.triggerscript</File>
 <File dir="TriggerScripts">data\triggerscripts\skirmishai\skirmishai_raw_.triggerscript</File><!-- 
 <File dir="TriggerScripts">data\triggerscripts\unscsurvival\unscsurvival_attackbase.triggerscript</File>
