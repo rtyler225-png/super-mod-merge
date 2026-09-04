@@ -60,12 +60,10 @@
 	<Action>
 		<Name>SporeCloudAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>SporeCloudAttack</Anim>
+		<Anim>MeleeAttack</Anim>
 		<Weapon>SporeCloud</Weapon>
-		<MainAttack />
 		<Infection />
-		<DontCheckOrientTolerance />
-		<DisableAttackWaitTimer />
+		<MainAttack />
 		<FindBetterAction />
 	</Action>
 	<Action>
@@ -141,7 +139,7 @@
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>SporeCloudAttackAction</Action>
-			<AutoTargetSquadMode>Normal</AutoTargetSquadMode>
+			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<PersistentAction>GaggleMove</PersistentAction>
 	</Tactic>
