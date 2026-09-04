@@ -34354,6 +34354,319 @@
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">forfaction_inf_warden_01</Target>
 			</Effect>
+
+			<!-- Forerunner Base Sockets -->
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="forfaction_bldg_base_01" relativity="Absolute">
+				<Target type="ProtoUnit">game_base_Socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="forfaction_bldg_healspire_01" relativity="Absolute">
+				<Target type="ProtoUnit">game_base_Socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_command_01" relativity="Absolute">
+				<Target type="ProtoUnit">game_base_Socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_command_02" relativity="Absolute">
+				<Target type="ProtoUnit">game_base_Socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_command_03" relativity="Absolute">
+				<Target type="ProtoUnit">game_base_Socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_compound_01" relativity="Absolute">
+				<Target type="ProtoUnit">game_base_Socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_builder_01" relativity="Absolute">
+				<Target type="ProtoUnit">game_base_Socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_builder_03" relativity="Absolute">
+				<Target type="ProtoUnit">game_base_Socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_builderGrunt_01" relativity="Absolute">
+				<Target type="ProtoUnit">game_base_Socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_spire_01" relativity="Absolute">
+				<Target type="ProtoUnit">game_base_Socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="ban_bldg_builder_01" relativity="Absolute">
+				<Target type="ProtoUnit">game_base_Socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="ban_bldg_builder_03" relativity="Absolute">
+				<Target type="ProtoUnit">game_base_Socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="heretic_bldg_base_01" relativity="Absolute">
+				<Target type="ProtoUnit">game_base_Socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="heretic_bldg_base_03" relativity="Absolute">
+				<Target type="ProtoUnit">game_base_Socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="fld_bldg_gravemind_01" relativity="Absolute">
+				<Target type="ProtoUnit">game_base_Socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="militia_bldg_command_01" relativity="Absolute">
+				<Target type="ProtoUnit">game_base_Socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="rebel_bldg_command_01" relativity="Absolute">
+				<Target type="ProtoUnit">game_base_Socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="rebel_bldg_command_02" relativity="Absolute">
+				<Target type="ProtoUnit">game_base_Socket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="rebel_bldg_command_03" relativity="Absolute">
+				<Target type="ProtoUnit">game_base_Socket_01</Target>
+			</Effect>
+
+			<!-- Forerunner Neutral Build Sockets & Mini-Bases -->
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="forfaction_bldg_supplypad_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="forfaction_bldg_reactor_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="forfaction_bldg_fieldArmory_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="forfaction_bldg_barracks_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="forfaction_bldg_vehicledepot_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="forfaction_bldg_airPad_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_supplypad_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_supplypad_02" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_reactor_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_fieldArmory_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_fieldArmory_02" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_barracks_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_vehicleDepot_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_airPad_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_supplyDepot_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_temple_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_shieldGen_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_barracks_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_heavyFactory_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_lightFactory_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_landingpad_02" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_megaTurret_02" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="ban_bldg_supplyDepot_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="ban_bldg_powerDepot_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="ban_bldg_temple_02" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="ban_bldg_lightfactory_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="ban_bldg_heavyfactory_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="ban_bldg_barracks_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="ban_bldg_landingpad_02" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="fld_bldg_stalkcluster_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="fld_bldg_powerstalkcluster_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="fld_bldg_launcher_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="fld_bldg_barracks_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="fld_bldg_nest_04" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="fld_bldg_nest_02" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_socket_01</Target>
+				<Target type="ProtoUnit">hook_bldg_miniBase_01</Target>
+				<Target type="ProtoUnit">hook_bldg_minibase_01</Target>
+			</Effect>
+
+			<!-- Forerunner Turret Sockets -->
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="forfaction_bldg_turret_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="forfaction_bldg_beamTurret_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="hook_bldg_turret_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_turret_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="ban_bldg_turret_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="hook_bldg_turretAI_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_turretAI_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="ban_bldg_turretAI_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="hook_bldg_turretAV_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_turretAV_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="ban_bldg_turretAV_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="hook_bldg_turretAA_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_turretAA_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="ban_bldg_turretAA_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="hook_bldg_watchtower_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="hook_bldg_policetower_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="hook_bldg_onitower_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="hook_bldg_siegeturret_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="hook_bldg_Artilleryturret_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_GruntTurret_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="ban_bldg_shadeTurret_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_sniperplatform_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="hook_siegeturret_upgrade" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="hook_onitower_upgrade" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="fld_bldg_tentacle_01" relativity="Absolute">
+				<Target type="ProtoUnit">hook_bldg_turretSocket_01</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="for_airpad_page2" type="Normal">

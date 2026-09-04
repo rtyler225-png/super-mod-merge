@@ -39688,6 +39688,8 @@
     <Command Type="BuildOther" Position="0" AutoClose="true">survival_cov_bldg_builder_03</Command>
     <Command Type="BuildOther" Position="0" AutoClose="true">survival_unsc_bldg_command_03</Command>
     <Command Type="BuildOther" Position="0" AutoClose="true">militia_bldg_command_01</Command>
+    <Command Type="BuildOther" Position="0" AutoClose="true">forfaction_bldg_base_01</Command>
+    <Command Type="BuildOther" Position="1" AutoClose="true">forfaction_bldg_healspire_01</Command>
     <ObjectType>PowerSocketBase</ObjectType>
     <ObjectType>_Settlement</ObjectType>
     <ObjectType>CanCryo</ObjectType>
@@ -82681,6 +82683,8 @@
     <Command Type="BuildOther" Position="1" AutoClose="true">ban_bldg_turretAI_01</Command>
     <Command Type="BuildOther" Position="2" AutoClose="true">ban_bldg_turretAV_01</Command>
     <Command Type="BuildOther" Position="3" AutoClose="true">ban_bldg_turretAA_01</Command>
+    <Command Type="BuildOther" Position="0" AutoClose="true">forfaction_bldg_turret_01</Command>
+    <Command Type="BuildOther" Position="1" AutoClose="true">forfaction_bldg_beamTurret_01</Command>
     <ObjectType>TurretSocket</ObjectType>
     <ObjectType>_TurretSocket</ObjectType>
     <Flag>IgnoreSquadAI</Flag>
@@ -83886,6 +83890,12 @@
     <Command Type="BuildOther" Position="6" AutoClose="true">militia_bldg_vehicledepot_01</Command>
     <Command Type="BuildOther" Position="5" AutoClose="true">militia_bldg_airpad_01</Command>
     <Command Type="BuildOther" Position="3" AutoClose="true">militia_bldg_fieldarmory_01</Command>
+    <Command Type="BuildOther" Position="1" AutoClose="true">forfaction_bldg_supplypad_01</Command>
+    <Command Type="BuildOther" Position="2" AutoClose="true">forfaction_bldg_reactor_01</Command>
+    <Command Type="BuildOther" Position="3" AutoClose="true">forfaction_bldg_fieldArmory_01</Command>
+    <Command Type="BuildOther" Position="7" AutoClose="true">forfaction_bldg_barracks_01</Command>
+    <Command Type="BuildOther" Position="6" AutoClose="true">forfaction_bldg_vehicledepot_01</Command>
+    <Command Type="BuildOther" Position="5" AutoClose="true">forfaction_bldg_airPad_01</Command>
     <ChildObjects>
       <Object Type="Rally" Offset="40,0,0" Rotation="0">sys_rallystart_01</Object>
     </ChildObjects>
@@ -83974,6 +83984,12 @@
     <Command Type="BuildOther" Position="6" AutoClose="true">militia_bldg_vehicledepot_01</Command>
     <Command Type="BuildOther" Position="5" AutoClose="true">militia_bldg_airpad_01</Command>
     <Command Type="BuildOther" Position="3" AutoClose="true">militia_bldg_fieldarmory_01</Command>
+    <Command Type="BuildOther" Position="1" AutoClose="true">forfaction_bldg_supplypad_01</Command>
+    <Command Type="BuildOther" Position="2" AutoClose="true">forfaction_bldg_reactor_01</Command>
+    <Command Type="BuildOther" Position="3" AutoClose="true">forfaction_bldg_fieldArmory_01</Command>
+    <Command Type="BuildOther" Position="7" AutoClose="true">forfaction_bldg_barracks_01</Command>
+    <Command Type="BuildOther" Position="6" AutoClose="true">forfaction_bldg_vehicledepot_01</Command>
+    <Command Type="BuildOther" Position="5" AutoClose="true">forfaction_bldg_airPad_01</Command>
     <ObjectType>BuildingSocket</ObjectType>
     <ObjectType>_BuildingSocket</ObjectType>
     <Flag>IgnoreSquadAI</Flag>
