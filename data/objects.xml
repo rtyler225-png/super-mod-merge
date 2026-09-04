@@ -24123,6 +24123,402 @@
     <Flag>Repairable</Flag>
     <HPBar>COV_Health</HPBar>
   </Object>
+  <Object name="fld_inf_InfectedEliteHonorGuard_01" id="0" dbid="2452">
+    <PhysicsReplacementInfo>warthog</PhysicsReplacementInfo>
+    <ObjectClass>Squad</ObjectClass>
+    <Visual>flood\infantry\InfectedElite_01\InfectedElite_01.vis</Visual>
+    <PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+    <MinimapIcon size="8">Circle</MinimapIcon>
+    <DisplayNameID>10164</DisplayNameID>
+    <RolloverTextID>10165</RolloverTextID>
+    <MovementType>Land</MovementType>
+    <Velocity>22</Velocity>
+    <Acceleration>26</Acceleration>
+    <TurnRate>540</TurnRate>
+    <Hitpoints>1400</Hitpoints>
+    <AttackGradeDPS>41.3</AttackGradeDPS>
+    <CombatValue>2</CombatValue>
+    <Pop Type="Unit">1</Pop>
+    <LOS>55</LOS>
+    <Bounty>0.5</Bounty>
+    <Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+    <Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+    <Veterancy Level="3" XP="0" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+    <Veterancy Level="4" XP="0" Damage="1.45" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+    <Veterancy Level="5" XP="0" Damage="1.55" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+    <AmmoMax>1</AmmoMax>
+    <AmmoRegenRate>1</AmmoRegenRate>
+    <Tactics>fld_inf_infectedeliteplasma_01.tactics</Tactics>
+    <SubSelectSort>1000</SubSelectSort>
+    <RepairPoints>33</RepairPoints>
+    <ObstructionRadiusX>1.4</ObstructionRadiusX>
+    <ObstructionRadiusY>2.2</ObstructionRadiusY>
+    <ObstructionRadiusZ>1.4</ObstructionRadiusZ>
+    <PickRadius>1.9</PickRadius>
+    <PickOffset>1.8</PickOffset>
+    <PickPriority>Unit</PickPriority>
+    <SelectType>Unit</SelectType>
+    <GotoType>Infantry</GotoType>
+    <SelectedRadiusX>1.3</SelectedRadiusX>
+    <SelectedRadiusZ>1</SelectedRadiusZ>
+    <Sound Type="Create">play_death_infected_marine</Sound>
+    <Sound Type="Death">play_death_infected_marine</Sound>
+    <Sound Type="Pain">play_death_infected_marine</Sound>
+    <Sound Type="Select">play_death_infected_marine</Sound>
+    <Sound Type="Work">play_death_infected_marine</Sound>
+    <Sound Type="Attack">play_death_infected_marine</Sound>
+    <Sound Type="Ability">play_death_infected_marine</Sound>
+    <DamageType direction="Full" mode="Normal">LightFlood</DamageType>
+    <ObjectType>Military</ObjectType>
+    <ObjectType>NonFlying</ObjectType>
+    <ObjectType>Transportable</ObjectType>
+    <ObjectType>Unit</ObjectType>
+    <ObjectType>infantry</ObjectType>
+    <ObjectType>_Infantry</ObjectType>
+    <ObjectType>CanBeFlashBanged</ObjectType>
+    <ObjectType>CombatForm</ObjectType>
+    <ObjectType>CanCryo</ObjectType>
+    <ObjectType>AbominationAura</ObjectType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
+    <SurfaceType>floodFlesh</SurfaceType>
+    <RallyPoint>Military</RallyPoint>
+    <Flag>KBAware</Flag>
+    <Flag>DontRotateObstruction</Flag>
+    <Flag>HasHPBar</Flag>
+    <Flag>Obscurable</Flag>
+    <Flag>Repairable</Flag>
+    <HPBar>COV_Health</HPBar>
+  </Object>
+  <Object name="fld_inf_InfectedEliteHonorGuardMelee_01" id="0" dbid="2452">
+    <PhysicsReplacementInfo>warthog</PhysicsReplacementInfo>
+    <ObjectClass>Squad</ObjectClass>
+    <Visual>flood\infantry\InfectedElite_02\InfectedElite_02.vis</Visual>
+    <PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+    <MinimapIcon size="8">Circle</MinimapIcon>
+    <DisplayNameID>10164</DisplayNameID>
+    <RolloverTextID>10165</RolloverTextID>
+    <MovementType>Land</MovementType>
+    <Velocity>22</Velocity>
+    <Acceleration>26</Acceleration>
+    <TurnRate>540</TurnRate>
+    <Hitpoints>1400</Hitpoints>
+    <AttackGradeDPS>41.3</AttackGradeDPS>
+    <CombatValue>2</CombatValue>
+    <Pop Type="Unit">1</Pop>
+    <LOS>55</LOS>
+    <Bounty>0.5</Bounty>
+    <Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+    <Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+    <Veterancy Level="3" XP="0" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+    <Veterancy Level="4" XP="0" Damage="1.45" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+    <Veterancy Level="5" XP="0" Damage="1.55" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+    <AmmoMax>1</AmmoMax>
+    <AmmoRegenRate>1</AmmoRegenRate>
+    <Tactics>fld_inf_infectedeliteMelee_01.tactics</Tactics>
+    <SubSelectSort>1000</SubSelectSort>
+    <RepairPoints>33</RepairPoints>
+    <ObstructionRadiusX>1.4</ObstructionRadiusX>
+    <ObstructionRadiusY>2.2</ObstructionRadiusY>
+    <ObstructionRadiusZ>1.4</ObstructionRadiusZ>
+    <PickRadius>1.9</PickRadius>
+    <PickOffset>1.8</PickOffset>
+    <PickPriority>Unit</PickPriority>
+    <SelectType>Unit</SelectType>
+    <GotoType>Infantry</GotoType>
+    <SelectedRadiusX>1.3</SelectedRadiusX>
+    <SelectedRadiusZ>1</SelectedRadiusZ>
+    <Sound Type="Create">play_death_infected_marine</Sound>
+    <Sound Type="Death">play_death_infected_marine</Sound>
+    <Sound Type="Pain">play_death_infected_marine</Sound>
+    <Sound Type="Select">play_death_infected_marine</Sound>
+    <Sound Type="Work">play_death_infected_marine</Sound>
+    <Sound Type="Attack">play_death_infected_marine</Sound>
+    <Sound Type="Ability">play_death_infected_marine</Sound>
+    <DamageType direction="Full" mode="Normal">LightFlood</DamageType>
+    <ObjectType>Military</ObjectType>
+    <ObjectType>NonFlying</ObjectType>
+    <ObjectType>Transportable</ObjectType>
+    <ObjectType>Unit</ObjectType>
+    <ObjectType>infantry</ObjectType>
+    <ObjectType>_Infantry</ObjectType>
+    <ObjectType>CanBeFlashBanged</ObjectType>
+    <ObjectType>CombatForm</ObjectType>
+    <ObjectType>CanCryo</ObjectType>
+    <ObjectType>AbominationAura</ObjectType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
+    <SurfaceType>floodFlesh</SurfaceType>
+    <RallyPoint>Military</RallyPoint>
+    <Flag>KBAware</Flag>
+    <Flag>DontRotateObstruction</Flag>
+    <Flag>HasHPBar</Flag>
+    <Flag>Obscurable</Flag>
+    <Flag>Repairable</Flag>
+    <HPBar>COV_Health</HPBar>
+  </Object>
+  <Object name="fld_inf_InfectedEliteHonorGuardSword_01" id="0" dbid="2452">
+    <PhysicsReplacementInfo>warthog</PhysicsReplacementInfo>
+    <ObjectClass>Squad</ObjectClass>
+    <Visual>flood\infantry\InfectedElite_01\InfectedEliteSword_01.vis</Visual>
+    <PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+    <MinimapIcon size="8">Circle</MinimapIcon>
+    <DisplayNameID>10164</DisplayNameID>
+    <RolloverTextID>10165</RolloverTextID>
+    <MovementType>Land</MovementType>
+    <Velocity>22</Velocity>
+    <Acceleration>26</Acceleration>
+    <TurnRate>540</TurnRate>
+    <Hitpoints>1400</Hitpoints>
+    <AttackGradeDPS>41.3</AttackGradeDPS>
+    <CombatValue>2</CombatValue>
+    <Pop Type="Unit">1</Pop>
+    <LOS>55</LOS>
+    <Bounty>0.5</Bounty>
+    <Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+    <Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+    <Veterancy Level="3" XP="0" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+    <Veterancy Level="4" XP="0" Damage="1.45" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+    <Veterancy Level="5" XP="0" Damage="1.55" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+    <AmmoMax>1</AmmoMax>
+    <AmmoRegenRate>1</AmmoRegenRate>
+    <Tactics>fld_inf_infectedeliteSword_01.tactics</Tactics>
+    <SubSelectSort>1000</SubSelectSort>
+    <RepairPoints>33</RepairPoints>
+    <ObstructionRadiusX>1.4</ObstructionRadiusX>
+    <ObstructionRadiusY>2.2</ObstructionRadiusY>
+    <ObstructionRadiusZ>1.4</ObstructionRadiusZ>
+    <PickRadius>1.9</PickRadius>
+    <PickOffset>1.8</PickOffset>
+    <PickPriority>Unit</PickPriority>
+    <SelectType>Unit</SelectType>
+    <GotoType>Infantry</GotoType>
+    <SelectedRadiusX>1.3</SelectedRadiusX>
+    <SelectedRadiusZ>1</SelectedRadiusZ>
+    <Sound Type="Create">play_death_infected_marine</Sound>
+    <Sound Type="Death">play_death_infected_marine</Sound>
+    <Sound Type="Pain">play_death_infected_marine</Sound>
+    <Sound Type="Select">play_death_infected_marine</Sound>
+    <Sound Type="Work">play_death_infected_marine</Sound>
+    <Sound Type="Attack">play_death_infected_marine</Sound>
+    <Sound Type="Ability">play_death_infected_marine</Sound>
+    <DamageType direction="Full" mode="Normal">LightFlood</DamageType>
+    <ObjectType>Military</ObjectType>
+    <ObjectType>NonFlying</ObjectType>
+    <ObjectType>Transportable</ObjectType>
+    <ObjectType>Unit</ObjectType>
+    <ObjectType>infantry</ObjectType>
+    <ObjectType>_Infantry</ObjectType>
+    <ObjectType>CanBeFlashBanged</ObjectType>
+    <ObjectType>CombatForm</ObjectType>
+    <ObjectType>CanCryo</ObjectType>
+    <ObjectType>AbominationAura</ObjectType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
+    <SurfaceType>floodFlesh</SurfaceType>
+    <RallyPoint>Military</RallyPoint>
+    <Flag>KBAware</Flag>
+    <Flag>DontRotateObstruction</Flag>
+    <Flag>HasHPBar</Flag>
+    <Flag>Obscurable</Flag>
+    <Flag>Repairable</Flag>
+    <HPBar>COV_Health</HPBar>
+  </Object>
+  <Object name="fld_inf_InfectedEliteStealth_01" id="0" dbid="195">
+    <PhysicsReplacementInfo>warthog</PhysicsReplacementInfo>
+    <ObjectClass>Squad</ObjectClass>
+    <Visual>flood\infantry\InfectedElite_01\InfectedElite_01.vis</Visual>
+    <PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+    <MinimapIcon size="8">Circle</MinimapIcon>
+    <DisplayNameID>10164</DisplayNameID>
+    <RolloverTextID>10165</RolloverTextID>
+    <MovementType>Land</MovementType>
+    <Velocity>22</Velocity>
+    <Acceleration>26</Acceleration>
+    <TurnRate>540</TurnRate>
+    <Hitpoints>1400</Hitpoints>
+    <AttackGradeDPS>41.3</AttackGradeDPS>
+    <CombatValue>2</CombatValue>
+    <Pop Type="Unit">1</Pop>
+    <LOS>55</LOS>
+    <Bounty>0.5</Bounty>
+    <Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+    <Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+    <Veterancy Level="3" XP="0" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+    <Veterancy Level="4" XP="0" Damage="1.45" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+    <Veterancy Level="5" XP="0" Damage="1.55" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+    <AmmoMax>1</AmmoMax>
+    <AmmoRegenRate>1</AmmoRegenRate>
+    <Tactics>fld_inf_infectedeliteplasma_01.tactics</Tactics>
+    <SubSelectSort>1000</SubSelectSort>
+    <RepairPoints>33</RepairPoints>
+    <ObstructionRadiusX>1.4</ObstructionRadiusX>
+    <ObstructionRadiusY>2.2</ObstructionRadiusY>
+    <ObstructionRadiusZ>1.4</ObstructionRadiusZ>
+    <PickRadius>1.9</PickRadius>
+    <PickOffset>1.8</PickOffset>
+    <PickPriority>Unit</PickPriority>
+    <SelectType>Unit</SelectType>
+    <GotoType>Infantry</GotoType>
+    <SelectedRadiusX>1.3</SelectedRadiusX>
+    <SelectedRadiusZ>1</SelectedRadiusZ>
+    <Sound Type="Create">play_death_infected_marine</Sound>
+    <Sound Type="Death">play_death_infected_marine</Sound>
+    <Sound Type="Pain">play_death_infected_marine</Sound>
+    <Sound Type="Select">play_death_infected_marine</Sound>
+    <Sound Type="Work">play_death_infected_marine</Sound>
+    <Sound Type="Attack">play_death_infected_marine</Sound>
+    <Sound Type="Ability">play_death_infected_marine</Sound>
+    <DamageType direction="Full" mode="Normal">LightFlood</DamageType>
+    <ObjectType>Military</ObjectType>
+    <ObjectType>NonFlying</ObjectType>
+    <ObjectType>Transportable</ObjectType>
+    <ObjectType>Unit</ObjectType>
+    <ObjectType>infantry</ObjectType>
+    <ObjectType>_Infantry</ObjectType>
+    <ObjectType>CanBeFlashBanged</ObjectType>
+    <ObjectType>CombatForm</ObjectType>
+    <ObjectType>CanCryo</ObjectType>
+    <ObjectType>AbominationAura</ObjectType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
+    <SurfaceType>floodFlesh</SurfaceType>
+    <RallyPoint>Military</RallyPoint>
+    <Flag>KBAware</Flag>
+    <Flag>DontRotateObstruction</Flag>
+    <Flag>HasHPBar</Flag>
+    <Flag>Obscurable</Flag>
+    <Flag>Repairable</Flag>
+    <HPBar>COV_Health</HPBar>
+  </Object>
+  <Object name="fld_inf_InfectedEliteStealthMelee_01" id="0" dbid="195">
+    <PhysicsReplacementInfo>warthog</PhysicsReplacementInfo>
+    <ObjectClass>Squad</ObjectClass>
+    <Visual>flood\infantry\InfectedElite_02\InfectedElite_02.vis</Visual>
+    <PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+    <MinimapIcon size="8">Circle</MinimapIcon>
+    <DisplayNameID>10164</DisplayNameID>
+    <RolloverTextID>10165</RolloverTextID>
+    <MovementType>Land</MovementType>
+    <Velocity>22</Velocity>
+    <Acceleration>26</Acceleration>
+    <TurnRate>540</TurnRate>
+    <Hitpoints>1400</Hitpoints>
+    <AttackGradeDPS>41.3</AttackGradeDPS>
+    <CombatValue>2</CombatValue>
+    <Pop Type="Unit">1</Pop>
+    <LOS>55</LOS>
+    <Bounty>0.5</Bounty>
+    <Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+    <Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+    <Veterancy Level="3" XP="0" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+    <Veterancy Level="4" XP="0" Damage="1.45" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+    <Veterancy Level="5" XP="0" Damage="1.55" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+    <AmmoMax>1</AmmoMax>
+    <AmmoRegenRate>1</AmmoRegenRate>
+    <Tactics>fld_inf_infectedeliteMelee_01.tactics</Tactics>
+    <SubSelectSort>1000</SubSelectSort>
+    <RepairPoints>33</RepairPoints>
+    <ObstructionRadiusX>1.4</ObstructionRadiusX>
+    <ObstructionRadiusY>2.2</ObstructionRadiusY>
+    <ObstructionRadiusZ>1.4</ObstructionRadiusZ>
+    <PickRadius>1.9</PickRadius>
+    <PickOffset>1.8</PickOffset>
+    <PickPriority>Unit</PickPriority>
+    <SelectType>Unit</SelectType>
+    <GotoType>Infantry</GotoType>
+    <SelectedRadiusX>1.3</SelectedRadiusX>
+    <SelectedRadiusZ>1</SelectedRadiusZ>
+    <Sound Type="Create">play_death_infected_marine</Sound>
+    <Sound Type="Death">play_death_infected_marine</Sound>
+    <Sound Type="Pain">play_death_infected_marine</Sound>
+    <Sound Type="Select">play_death_infected_marine</Sound>
+    <Sound Type="Work">play_death_infected_marine</Sound>
+    <Sound Type="Attack">play_death_infected_marine</Sound>
+    <Sound Type="Ability">play_death_infected_marine</Sound>
+    <DamageType direction="Full" mode="Normal">LightFlood</DamageType>
+    <ObjectType>Military</ObjectType>
+    <ObjectType>NonFlying</ObjectType>
+    <ObjectType>Transportable</ObjectType>
+    <ObjectType>Unit</ObjectType>
+    <ObjectType>infantry</ObjectType>
+    <ObjectType>_Infantry</ObjectType>
+    <ObjectType>CanBeFlashBanged</ObjectType>
+    <ObjectType>CombatForm</ObjectType>
+    <ObjectType>CanCryo</ObjectType>
+    <ObjectType>AbominationAura</ObjectType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
+    <SurfaceType>floodFlesh</SurfaceType>
+    <RallyPoint>Military</RallyPoint>
+    <Flag>KBAware</Flag>
+    <Flag>DontRotateObstruction</Flag>
+    <Flag>HasHPBar</Flag>
+    <Flag>Obscurable</Flag>
+    <Flag>Repairable</Flag>
+    <HPBar>COV_Health</HPBar>
+  </Object>
+  <Object name="fld_inf_InfectedEliteStealthSword_01" id="0" dbid="195">
+    <PhysicsReplacementInfo>warthog</PhysicsReplacementInfo>
+    <ObjectClass>Squad</ObjectClass>
+    <Visual>flood\infantry\InfectedElite_01\InfectedEliteSword_01.vis</Visual>
+    <PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+    <MinimapIcon size="8">Circle</MinimapIcon>
+    <DisplayNameID>10164</DisplayNameID>
+    <RolloverTextID>10165</RolloverTextID>
+    <MovementType>Land</MovementType>
+    <Velocity>22</Velocity>
+    <Acceleration>26</Acceleration>
+    <TurnRate>540</TurnRate>
+    <Hitpoints>1400</Hitpoints>
+    <AttackGradeDPS>41.3</AttackGradeDPS>
+    <CombatValue>2</CombatValue>
+    <Pop Type="Unit">1</Pop>
+    <LOS>55</LOS>
+    <Bounty>0.5</Bounty>
+    <Veterancy Level="1" XP="0" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
+    <Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
+    <Veterancy Level="3" XP="0" Damage="1.35" Velocity="1" Accuracy="1.8" WorkRate="1.2" WeaponRange="1" DamageTaken="0.74" />
+    <Veterancy Level="4" XP="0" Damage="1.45" Velocity="1" Accuracy="1.1" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+    <Veterancy Level="5" XP="0" Damage="1.55" Velocity="1" Accuracy="1.2" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+    <AmmoMax>1</AmmoMax>
+    <AmmoRegenRate>1</AmmoRegenRate>
+    <Tactics>fld_inf_infectedeliteSword_01.tactics</Tactics>
+    <SubSelectSort>1000</SubSelectSort>
+    <RepairPoints>33</RepairPoints>
+    <ObstructionRadiusX>1.4</ObstructionRadiusX>
+    <ObstructionRadiusY>2.2</ObstructionRadiusY>
+    <ObstructionRadiusZ>1.4</ObstructionRadiusZ>
+    <PickRadius>1.9</PickRadius>
+    <PickOffset>1.8</PickOffset>
+    <PickPriority>Unit</PickPriority>
+    <SelectType>Unit</SelectType>
+    <GotoType>Infantry</GotoType>
+    <SelectedRadiusX>1.3</SelectedRadiusX>
+    <SelectedRadiusZ>1</SelectedRadiusZ>
+    <Sound Type="Create">play_death_infected_marine</Sound>
+    <Sound Type="Death">play_death_infected_marine</Sound>
+    <Sound Type="Pain">play_death_infected_marine</Sound>
+    <Sound Type="Select">play_death_infected_marine</Sound>
+    <Sound Type="Work">play_death_infected_marine</Sound>
+    <Sound Type="Attack">play_death_infected_marine</Sound>
+    <Sound Type="Ability">play_death_infected_marine</Sound>
+    <DamageType direction="Full" mode="Normal">LightFlood</DamageType>
+    <ObjectType>Military</ObjectType>
+    <ObjectType>NonFlying</ObjectType>
+    <ObjectType>Transportable</ObjectType>
+    <ObjectType>Unit</ObjectType>
+    <ObjectType>infantry</ObjectType>
+    <ObjectType>_Infantry</ObjectType>
+    <ObjectType>CanBeFlashBanged</ObjectType>
+    <ObjectType>CombatForm</ObjectType>
+    <ObjectType>CanCryo</ObjectType>
+    <ObjectType>AbominationAura</ObjectType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
+    <SurfaceType>floodFlesh</SurfaceType>
+    <RallyPoint>Military</RallyPoint>
+    <Flag>KBAware</Flag>
+    <Flag>DontRotateObstruction</Flag>
+    <Flag>HasHPBar</Flag>
+    <Flag>Obscurable</Flag>
+    <Flag>Repairable</Flag>
+    <HPBar>COV_Health</HPBar>
+  </Object>
   <Object name="fld_inf_infectedeliteneedler_01" id="0" dbid="3013">
     <PhysicsReplacementInfo>elite</PhysicsReplacementInfo>
     <ObjectClass>Squad</ObjectClass>
@@ -54527,13 +54923,13 @@
     <MovementType>Land</MovementType>
     <Hardpoint name="CannonTurret" autocenter="true" yawrate="45" pitchrate="90" yawMaxAngle="0" pitchMinAngle="-15" pitchMaxAngle="30" yawattachment="turret" pitchattachment="cannon" />
     <Hardpoint name="MGTurret" autocenter="true" yawrate="45" pitchrate="90" pitchMinAngle="-15" pitchMaxAngle="30" yawattachment="turret" pitchattachment="MG" />
-    <Velocity>12</Velocity>
+    <Velocity>10</Velocity>
     <TurnRate>120</TurnRate>
-    <Hitpoints>8000</Hitpoints>
+    <Hitpoints>6800</Hitpoints>
     <AttackGradeDPS>450</AttackGradeDPS>
     <CombatValue>20</CombatValue>
     <LOS>55</LOS>
-    <Pop Type="Unit">7</Pop>
+    <Pop Type="Unit">8</Pop>
     <Bounty>20</Bounty>
     <Veterancy Level="1" XP="40" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
     <Veterancy Level="2" XP="100" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
