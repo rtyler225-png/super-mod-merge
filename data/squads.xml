@@ -24200,7 +24200,7 @@
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
     <LeashDistance>100</LeashDistance>
     <LeashDeadzone>0</LeashDeadzone>
-    <LeashRecallDelay>2500</LeashRecallDelay>
+    <LeashRecallDelay>4000</LeashRecallDelay>
     <AggroDistance>65</AggroDistance>
     <Units>
       <Unit count="6" role="normal">fld_inf_InfectionForm_01</Unit>
@@ -24230,7 +24230,7 @@
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
     <LeashDistance>100</LeashDistance>
     <LeashDeadzone>0</LeashDeadzone>
-    <LeashRecallDelay>2500</LeashRecallDelay>
+    <LeashRecallDelay>4000</LeashRecallDelay>
     <AggroDistance>65</AggroDistance>
     <Units>
       <Unit count="6" role="normal">fld_inf_InfectionForm_01</Unit>
@@ -24258,10 +24258,10 @@
     <HPBar offset="0,5,0">UNSC_Health</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-    <LeashDistance>70</LeashDistance>
+    <LeashDistance>100</LeashDistance>
     <LeashDeadzone>0</LeashDeadzone>
-    <LeashRecallDelay>2500</LeashRecallDelay>
-    <AggroDistance>40</AggroDistance>
+    <LeashRecallDelay>4000</LeashRecallDelay>
+    <AggroDistance>65</AggroDistance>
     <BuildPoints>0.5</BuildPoints>
     <Cost ResourceType="Supplies">20</Cost>
     <Cost resourcetype="Power">0</Cost>
@@ -24271,6 +24271,7 @@
     <Sound Type="StartMove">play_fif_movement</Sound>
     <Sound Type="StopMove">stop_fif_movement</Sound>
     <Sound Type="StopExist">stop_fif_movement</Sound>
+    <CanAttackWhileMoving>true</CanAttackWhileMoving>
     <Selection>
       <ConformToTerrain>true</ConformToTerrain>
     </Selection>
@@ -24289,16 +24290,17 @@
     <HPBar offset="0,5,0">UNSC_Health</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-    <LeashDistance>70</LeashDistance>
+    <LeashDistance>100</LeashDistance>
     <LeashDeadzone>0</LeashDeadzone>
-    <LeashRecallDelay>2500</LeashRecallDelay>
-    <AggroDistance>40</AggroDistance>
+    <LeashRecallDelay>4000</LeashRecallDelay>
+    <AggroDistance>65</AggroDistance>
     <Units>
       <Unit count="6" role="normal">fld_inf_InfectionForm_01</Unit>
     </Units>
     <Sound Type="StartMove">play_fif_movement</Sound>
     <Sound Type="StopMove">stop_fif_movement</Sound>
     <Sound Type="StopExist">stop_fif_movement</Sound>
+    <CanAttackWhileMoving>true</CanAttackWhileMoving>
     <Selection>
       <ConformToTerrain>true</ConformToTerrain>
     </Selection>
@@ -24319,16 +24321,17 @@
     <HPBar offset="0,5,0">UNSC_Health</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-    <LeashDistance>70</LeashDistance>
+    <LeashDistance>100</LeashDistance>
     <LeashDeadzone>0</LeashDeadzone>
-    <LeashRecallDelay>2500</LeashRecallDelay>
-    <AggroDistance>40</AggroDistance>
+    <LeashRecallDelay>4000</LeashRecallDelay>
+    <AggroDistance>65</AggroDistance>
     <Units>
       <Unit count="6" role="normal">fld_inf_InfectionForm_01</Unit>
     </Units>
     <Sound Type="StartMove">play_fif_movement</Sound>
     <Sound Type="StopMove">stop_fif_movement</Sound>
     <Sound Type="StopExist">stop_fif_movement</Sound>
+    <CanAttackWhileMoving>true</CanAttackWhileMoving>
     <Selection>
       <ConformToTerrain>true</ConformToTerrain>
     </Selection>
@@ -24349,16 +24352,17 @@
     <HPBar offset="0,5,0">UNSC_Health</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-    <LeashDistance>70</LeashDistance>
+    <LeashDistance>100</LeashDistance>
     <LeashDeadzone>0</LeashDeadzone>
-    <LeashRecallDelay>2500</LeashRecallDelay>
-    <AggroDistance>40</AggroDistance>
+    <LeashRecallDelay>4000</LeashRecallDelay>
+    <AggroDistance>65</AggroDistance>
     <Units>
       <Unit count="1" role="normal">fld_inf_infectionForm_03</Unit>
     </Units>
     <Sound Type="StartMove">play_fif_movement</Sound>
     <Sound Type="StopMove">stop_fif_movement</Sound>
     <Sound Type="StopExist">stop_fif_movement</Sound>
+    <CanAttackWhileMoving>true</CanAttackWhileMoving>
     <Selection>
       <ConformToTerrain>true</ConformToTerrain>
     </Selection>
@@ -24381,7 +24385,7 @@
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
     <LeashDistance>100</LeashDistance>
     <LeashDeadzone>0</LeashDeadzone>
-    <LeashRecallDelay>2500</LeashRecallDelay>
+    <LeashRecallDelay>4000</LeashRecallDelay>
     <AggroDistance>65</AggroDistance>
     <BuildPoints>0.1</BuildPoints>
     <Cost ResourceType="Supplies">20</Cost>
@@ -24414,7 +24418,7 @@
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
     <LeashDistance>100</LeashDistance>
     <LeashDeadzone>0</LeashDeadzone>
-    <LeashRecallDelay>2500</LeashRecallDelay>
+    <LeashRecallDelay>4000</LeashRecallDelay>
     <AggroDistance>65</AggroDistance>
     <BuildPoints>0.1</BuildPoints>
     <Cost ResourceType="Supplies">20</Cost>
@@ -24447,7 +24451,7 @@
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
     <LeashDistance>100</LeashDistance>
     <LeashDeadzone>0</LeashDeadzone>
-    <LeashRecallDelay>2500</LeashRecallDelay>
+    <LeashRecallDelay>4000</LeashRecallDelay>
     <AggroDistance>65</AggroDistance>
     <BuildPoints>0.1</BuildPoints>
     <Cost ResourceType="Supplies">20</Cost>
@@ -24478,10 +24482,10 @@
     <HPBar offset="0,5,0">UNSC_Health</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-    <LeashDistance>70</LeashDistance>
+    <LeashDistance>100</LeashDistance>
     <LeashDeadzone>0</LeashDeadzone>
-    <LeashRecallDelay>2500</LeashRecallDelay>
-    <AggroDistance>40</AggroDistance>
+    <LeashRecallDelay>4000</LeashRecallDelay>
+    <AggroDistance>65</AggroDistance>
     <Units>
       <Unit count="6" role="normal">fld_inf_InfectionForm_01</Unit>
       <Unit count="2" role="normal">fld_inf_InfectionForm_03</Unit>
@@ -24489,6 +24493,7 @@
     <Sound Type="StartMove">play_fif_movement</Sound>
     <Sound Type="StopMove">stop_fif_movement</Sound>
     <Sound Type="StopExist">stop_fif_movement</Sound>
+    <CanAttackWhileMoving>true</CanAttackWhileMoving>
     <Selection>
       <ConformToTerrain>true</ConformToTerrain>
     </Selection>
@@ -24512,10 +24517,10 @@
     <HPBar offset="0,5,0">UNSC_Health</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-    <LeashDistance>40</LeashDistance>
+    <LeashDistance>80</LeashDistance>
     <LeashDeadzone>0</LeashDeadzone>
-    <LeashRecallDelay>2500</LeashRecallDelay>
-    <AggroDistance>20</AggroDistance>
+    <LeashRecallDelay>4000</LeashRecallDelay>
+    <AggroDistance>50</AggroDistance>
     <Units>
       <Unit count="2" role="normal">fld_inf_infectedBrute_01</Unit>
     </Units>
@@ -24661,10 +24666,10 @@
     <HPBar offset="0,5,0">UNSC_Health</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-    <LeashDistance>10</LeashDistance>
+    <LeashDistance>80</LeashDistance>
     <LeashDeadzone>0</LeashDeadzone>
-    <LeashRecallDelay>2500</LeashRecallDelay>
-    <AggroDistance>0</AggroDistance>
+    <LeashRecallDelay>4000</LeashRecallDelay>
+    <AggroDistance>50</AggroDistance>
     <Units>
       <Unit count="2" role="normal">fld_inf_infectedJackal_01</Unit>
     </Units>
@@ -24868,10 +24873,10 @@
     <HPBar offset="0,5,0">UNSC_Health</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-    <LeashDistance>70</LeashDistance>
+    <LeashDistance>80</LeashDistance>
     <LeashDeadzone>0</LeashDeadzone>
-    <LeashRecallDelay>2500</LeashRecallDelay>
-    <AggroDistance>40</AggroDistance>
+    <LeashRecallDelay>4000</LeashRecallDelay>
+    <AggroDistance>50</AggroDistance>
     <Units>
       <Unit count="1" role="normal">fld_inf_infectedElite_01</Unit>
     </Units>
@@ -24900,10 +24905,10 @@
     <HPBar offset="0,5,0">UNSC_Health</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-    <LeashDistance>55</LeashDistance>
-    <LeashDeadzone>15</LeashDeadzone>
-    <LeashRecallDelay>2500</LeashRecallDelay>
-    <AggroDistance>40</AggroDistance>
+    <LeashDistance>80</LeashDistance>
+    <LeashDeadzone>0</LeashDeadzone>
+    <LeashRecallDelay>4000</LeashRecallDelay>
+    <AggroDistance>50</AggroDistance>
     <Units>
       <Unit count="1" role="normal">fld_inf_flameMarine_01</Unit>
     </Units>
@@ -24929,10 +24934,10 @@
     <HPBar offset="0,5,0">UNSC_Health</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-    <LeashDistance>45</LeashDistance>
-    <LeashDeadzone>15</LeashDeadzone>
-    <LeashRecallDelay>2500</LeashRecallDelay>
-    <AggroDistance>30</AggroDistance>
+    <LeashDistance>80</LeashDistance>
+    <LeashDeadzone>0</LeashDeadzone>
+    <LeashRecallDelay>4000</LeashRecallDelay>
+    <AggroDistance>50</AggroDistance>
     <Units>
       <Unit count="4" role="normal">fld_inf_infectedMarine_01</Unit>
     </Units>
@@ -24959,10 +24964,10 @@
     <HPBar offset="0,5,0">UNSC_Health</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-    <LeashDistance>45</LeashDistance>
-    <LeashDeadzone>15</LeashDeadzone>
-    <LeashRecallDelay>2500</LeashRecallDelay>
-    <AggroDistance>30</AggroDistance>
+    <LeashDistance>80</LeashDistance>
+    <LeashDeadzone>0</LeashDeadzone>
+    <LeashRecallDelay>4000</LeashRecallDelay>
+    <AggroDistance>50</AggroDistance>
     <Units>
       <Unit count="1" role="normal">fld_inf_infectedMarine_01</Unit>
     </Units>
@@ -24986,10 +24991,10 @@
     <HPBar offset="0,5,0">UNSC_Health</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-    <LeashDistance>45</LeashDistance>
-    <LeashDeadzone>15</LeashDeadzone>
-    <LeashRecallDelay>2500</LeashRecallDelay>
-    <AggroDistance>30</AggroDistance>
+    <LeashDistance>80</LeashDistance>
+    <LeashDeadzone>0</LeashDeadzone>
+    <LeashRecallDelay>4000</LeashRecallDelay>
+    <AggroDistance>50</AggroDistance>
     <Units>
       <Unit count="4" role="normal">fld_inf_infectedMarine_01</Unit>
     </Units>
@@ -25011,10 +25016,10 @@
     <HPBar offset="0,5,0">UNSC_Health</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-    <LeashDistance>70</LeashDistance>
+    <LeashDistance>80</LeashDistance>
     <LeashDeadzone>0</LeashDeadzone>
-    <LeashRecallDelay>2500</LeashRecallDelay>
-    <AggroDistance>40</AggroDistance>
+    <LeashRecallDelay>4000</LeashRecallDelay>
+    <AggroDistance>50</AggroDistance>
     <Units>
       <Unit count="1" role="normal">fld_inf_infectedElite_01</Unit>
     </Units>
@@ -25040,10 +25045,10 @@
     <HPBar offset="0,5,0">UNSC_Health</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-    <LeashDistance>40</LeashDistance>
+    <LeashDistance>80</LeashDistance>
     <LeashDeadzone>0</LeashDeadzone>
-    <LeashRecallDelay>2500</LeashRecallDelay>
-    <AggroDistance>20</AggroDistance>
+    <LeashRecallDelay>4000</LeashRecallDelay>
+    <AggroDistance>50</AggroDistance>
     <Units>
       <Unit count="1" role="normal">fld_inf_infectedBrute_01</Unit>
     </Units>
@@ -25128,10 +25133,10 @@
     <HPBar offset="0,5,0">UNSC_Health</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-    <LeashDistance>10</LeashDistance>
+    <LeashDistance>80</LeashDistance>
     <LeashDeadzone>0</LeashDeadzone>
-    <LeashRecallDelay>2500</LeashRecallDelay>
-    <AggroDistance>0</AggroDistance>
+    <LeashRecallDelay>4000</LeashRecallDelay>
+    <AggroDistance>50</AggroDistance>
     <Units>
       <Unit count="1" role="normal">fld_inf_infectedJackal_carbine_01</Unit>
     </Units>
@@ -25158,10 +25163,10 @@
     <HPBar offset="0,5,0">UNSC_Health</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-    <LeashDistance>10</LeashDistance>
+    <LeashDistance>80</LeashDistance>
     <LeashDeadzone>0</LeashDeadzone>
-    <LeashRecallDelay>2500</LeashRecallDelay>
-    <AggroDistance>0</AggroDistance>
+    <LeashRecallDelay>4000</LeashRecallDelay>
+    <AggroDistance>50</AggroDistance>
     <Units>
       <Unit count="1" role="normal">fld_inf_infectedJackal_pirate_01</Unit>
     </Units>
@@ -25188,10 +25193,10 @@
     <HPBar offset="0,5,0">UNSC_Health</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-    <LeashDistance>10</LeashDistance>
+    <LeashDistance>80</LeashDistance>
     <LeashDeadzone>0</LeashDeadzone>
-    <LeashRecallDelay>2500</LeashRecallDelay>
-    <AggroDistance>0</AggroDistance>
+    <LeashRecallDelay>4000</LeashRecallDelay>
+    <AggroDistance>50</AggroDistance>
     <Units>
       <Unit count="1" role="normal">fld_inf_infectedJackal_beamrifle_01</Unit>
     </Units>
@@ -25218,10 +25223,10 @@
     <HPBar offset="0,5,0">UNSC_Health</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-    <LeashDistance>10</LeashDistance>
+    <LeashDistance>80</LeashDistance>
     <LeashDeadzone>0</LeashDeadzone>
-    <LeashRecallDelay>2500</LeashRecallDelay>
-    <AggroDistance>0</AggroDistance>
+    <LeashRecallDelay>4000</LeashRecallDelay>
+    <AggroDistance>50</AggroDistance>
     <Units>
       <Unit count="2" role="normal">fld_inf_infectedJackal_beamrifle_01</Unit>
     </Units>
@@ -25248,10 +25253,10 @@
     <HPBar offset="0,5,0">UNSC_Health</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-    <LeashDistance>10</LeashDistance>
+    <LeashDistance>80</LeashDistance>
     <LeashDeadzone>0</LeashDeadzone>
-    <LeashRecallDelay>2500</LeashRecallDelay>
-    <AggroDistance>0</AggroDistance>
+    <LeashRecallDelay>4000</LeashRecallDelay>
+    <AggroDistance>50</AggroDistance>
     <Units>
       <Unit count="1" role="normal">fld_inf_infectedJackal_focusrifle_01</Unit>
     </Units>
@@ -25278,10 +25283,10 @@
     <HPBar offset="0,5,0">UNSC_Health</HPBar>
     <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
     <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-    <LeashDistance>10</LeashDistance>
+    <LeashDistance>80</LeashDistance>
     <LeashDeadzone>0</LeashDeadzone>
-    <LeashRecallDelay>2500</LeashRecallDelay>
-    <AggroDistance>0</AggroDistance>
+    <LeashRecallDelay>4000</LeashRecallDelay>
+    <AggroDistance>50</AggroDistance>
     <Units>
       <Unit count="1" role="normal">fld_inf_infectedJackal_Carbine_01</Unit>
     </Units>

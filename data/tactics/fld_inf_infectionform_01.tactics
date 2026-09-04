@@ -3,18 +3,18 @@
 	<Weapon>
 		<Name>SporeCloud</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>10</DamagePerSecond>
+		<DamagePerSecond>75</DamagePerSecond>
 		<WeaponType>InfectionSpore</WeaponType>
 		<Projectile>fx_proj_shotgun_01</Projectile>
 		<MaxVelocityLead>18</MaxVelocityLead>
-		<MaxRange>25</MaxRange>
+		<MaxRange>40</MaxRange>
 		<Accuracy>1</Accuracy>
 		<MaxDeviation>0</MaxDeviation>
 		<MovingAccuracy>1</MovingAccuracy>
 		<MovingMaxDeviation>0</MovingMaxDeviation>
-		<TargetPriority type="Infantry">25</TargetPriority>
+		<TargetPriority type="Infantry">100</TargetPriority>
 		<TargetPriority type="GroundVehicle">15</TargetPriority>
-		<TargetPriority type="Building">-3</TargetPriority>
+		<TargetPriority type="Building">-100</TargetPriority>
 		<TargetPriority type="Flying">15</TargetPriority>
 		<TargetPriority type="Aircraft">15</TargetPriority>
 	</Weapon>
@@ -25,9 +25,9 @@
 		<UseDPSasDPA />
 		<MaxRange>3.5</MaxRange>
 		<WeaponType>InfectionForm</WeaponType>
-		<TargetPriority type="Infantry">25</TargetPriority>
+		<TargetPriority type="Infantry">100</TargetPriority>
 		<TargetPriority type="GroundVehicle">1</TargetPriority>
-		<TargetPriority type="Building">-3</TargetPriority>
+		<TargetPriority type="Building">-100</TargetPriority>
 		<TargetPriority type="Flying">-10</TargetPriority>
 		<PreAttackCooldownMin>0</PreAttackCooldownMin>
 		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
@@ -39,9 +39,9 @@
 		<UseDPSasDPA />
 		<MaxRange>3.5</MaxRange>
 		<WeaponType>InfectionForm</WeaponType>
-		<TargetPriority type="Infantry">25</TargetPriority>
+		<TargetPriority type="Infantry">100</TargetPriority>
 		<TargetPriority type="GroundVehicle">1</TargetPriority>
-		<TargetPriority type="Building">-3</TargetPriority>
+		<TargetPriority type="Building">-100</TargetPriority>
 		<TargetPriority type="Flying">-10</TargetPriority>
 		<PreAttackCooldownMin>0</PreAttackCooldownMin>
 		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
@@ -52,9 +52,9 @@
 		<DamagePerSecond>200</DamagePerSecond>
 		<MaxRange>3.5</MaxRange>
 		<WeaponType>InfectionForm</WeaponType>
-		<TargetPriority type="Infantry">25</TargetPriority>
+		<TargetPriority type="Infantry">100</TargetPriority>
 		<TargetPriority type="GroundVehicle">1</TargetPriority>
-		<TargetPriority type="Building">-3</TargetPriority>
+		<TargetPriority type="Building">-100</TargetPriority>
 		<TargetPriority type="Flying">-10</TargetPriority>
 	</Weapon>
 	<Action>

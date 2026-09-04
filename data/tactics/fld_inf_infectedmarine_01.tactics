@@ -16,7 +16,8 @@
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
 		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
-		<TargetPriority type="Infantry">5</TargetPriority>
+		<TargetPriority type="Infantry">20</TargetPriority>
+		<TargetPriority type="Building">-50</TargetPriority>
 		<SmallArmsDeflectable />
 	</Weapon>
 	<Action>
@@ -29,6 +30,7 @@
 		<WalkRightAnim>CombatWalkRightAssaultRifleAttack</WalkRightAnim>
 		<Weapon>AssaultRifle</Weapon>
 		<Infection />
+		<FindBetterAction />
 		<MainAttack />
 	</Action>
 	<Action>
