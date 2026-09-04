@@ -7190,6 +7190,7 @@
 <File dir="TriggerScripts">data\aidata\buildlist_prophet.ai</File>
 <File dir="TriggerScripts">data\aidata\buildlist_serina.ai</File>
 <File dir="TriggerScripts">data\aidata\buildlist_flood.ai</File>
+<File dir="TriggerScripts">data\aidata\buildlist_forerunner.ai</File>
 <File dir="TriggerScripts">data\aidata\buildlist_heretic.ai</File>
 <File dir="TriggerScripts">data\aidata\buildlist_rebels.ai</File>
 <File dir="TriggerScripts">data\aidata\buildlist_stormcovenant.ai</File>
@@ -7224,6 +7225,7 @@
 <File dir="TriggerScripts">data\aidata\trainlist_cov.ai</File>
 <File dir="TriggerScripts">data\aidata\trainlist_cutter.ai</File>
 <File dir="TriggerScripts">data\aidata\trainlist_flood.ai</File>
+<File dir="TriggerScripts">data\aidata\trainlist_forerunner.ai</File>
 <File dir="TriggerScripts">data\aidata\trainlist_forge.ai</File>
 <File dir="TriggerScripts">data\aidata\trainlist_grunt.ai</File>
 <File dir="TriggerScripts">data\aidata\trainlist_heretic.ai</File>
