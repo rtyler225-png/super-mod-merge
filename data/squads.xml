@@ -24208,7 +24208,6 @@
     <Sound Type="StartMove">play_fif_movement</Sound>
     <Sound Type="StopMove">stop_fif_movement</Sound>
     <Sound Type="StopExist">stop_fif_movement</Sound>
-    <CanAttackWhileMoving>true</CanAttackWhileMoving>
     <Selection>
       <ConformToTerrain>true</ConformToTerrain>
     </Selection>
@@ -24238,7 +24237,6 @@
     <Sound Type="StartMove">play_fif_movement</Sound>
     <Sound Type="StopMove">stop_fif_movement</Sound>
     <Sound Type="StopExist">stop_fif_movement</Sound>
-    <CanAttackWhileMoving>true</CanAttackWhileMoving>
     <Selection>
       <ConformToTerrain>true</ConformToTerrain>
     </Selection>
@@ -24271,7 +24269,6 @@
     <Sound Type="StartMove">play_fif_movement</Sound>
     <Sound Type="StopMove">stop_fif_movement</Sound>
     <Sound Type="StopExist">stop_fif_movement</Sound>
-    <CanAttackWhileMoving>true</CanAttackWhileMoving>
     <Selection>
       <ConformToTerrain>true</ConformToTerrain>
     </Selection>
@@ -24300,7 +24297,6 @@
     <Sound Type="StartMove">play_fif_movement</Sound>
     <Sound Type="StopMove">stop_fif_movement</Sound>
     <Sound Type="StopExist">stop_fif_movement</Sound>
-    <CanAttackWhileMoving>true</CanAttackWhileMoving>
     <Selection>
       <ConformToTerrain>true</ConformToTerrain>
     </Selection>
@@ -24331,7 +24327,6 @@
     <Sound Type="StartMove">play_fif_movement</Sound>
     <Sound Type="StopMove">stop_fif_movement</Sound>
     <Sound Type="StopExist">stop_fif_movement</Sound>
-    <CanAttackWhileMoving>true</CanAttackWhileMoving>
     <Selection>
       <ConformToTerrain>true</ConformToTerrain>
     </Selection>
@@ -24362,7 +24357,6 @@
     <Sound Type="StartMove">play_fif_movement</Sound>
     <Sound Type="StopMove">stop_fif_movement</Sound>
     <Sound Type="StopExist">stop_fif_movement</Sound>
-    <CanAttackWhileMoving>true</CanAttackWhileMoving>
     <Selection>
       <ConformToTerrain>true</ConformToTerrain>
     </Selection>
@@ -24397,7 +24391,6 @@
     <Sound Type="StartMove">play_fif_movement</Sound>
     <Sound Type="StopMove">stop_fif_movement</Sound>
     <Sound Type="StopExist">stop_fif_movement</Sound>
-    <CanAttackWhileMoving>true</CanAttackWhileMoving>
     <Selection>
       <ConformToTerrain>true</ConformToTerrain>
     </Selection>
@@ -24430,7 +24423,6 @@
     <Sound Type="StartMove">play_fif_movement</Sound>
     <Sound Type="StopMove">stop_fif_movement</Sound>
     <Sound Type="StopExist">stop_fif_movement</Sound>
-    <CanAttackWhileMoving>true</CanAttackWhileMoving>
     <Selection>
       <ConformToTerrain>true</ConformToTerrain>
     </Selection>
@@ -24463,7 +24455,6 @@
     <Sound Type="StartMove">play_fif_movement</Sound>
     <Sound Type="StopMove">stop_fif_movement</Sound>
     <Sound Type="StopExist">stop_fif_movement</Sound>
-    <CanAttackWhileMoving>true</CanAttackWhileMoving>
     <Selection>
       <ConformToTerrain>true</ConformToTerrain>
     </Selection>
@@ -24493,7 +24484,6 @@
     <Sound Type="StartMove">play_fif_movement</Sound>
     <Sound Type="StopMove">stop_fif_movement</Sound>
     <Sound Type="StopExist">stop_fif_movement</Sound>
-    <CanAttackWhileMoving>true</CanAttackWhileMoving>
     <Selection>
       <ConformToTerrain>true</ConformToTerrain>
     </Selection>
