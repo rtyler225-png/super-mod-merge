@@ -27,7 +27,7 @@
 		<Name>Cannon</Name>
 		<AttackRate>3</AttackRate>
 		<DamagePerSecond>500</DamagePerSecond>
-		<WeaponType>HeavyExplosive</WeaponType>
+		<WeaponType>GrizzlyExplosive</WeaponType>
 		<Projectile>fx_proj_cannon_02</Projectile>
 		<ImpactEffect size="Medium">tankshell_02</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>

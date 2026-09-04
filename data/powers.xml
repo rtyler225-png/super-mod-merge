@@ -1301,7 +1301,7 @@
   <Power name="ForGrizzlyDrop">
     <Attributes>
       <Cost Supplies="1500" Power="4" />
-      <Pop type="Unit">14</Pop>
+      <Pop type="Unit">16</Pop>
       <AutoRecharge>90000</AutoRecharge>
       <UIRadius>10</UIRadius>
       <DisplayNameID>69993</DisplayNameID>
@@ -1462,7 +1462,7 @@
   </Power>
   <Power name="AndFlareDrop">
     <Attributes>
-      <Cost Supplies="800" Power="3" />
+      <Cost Supplies="1000" Power="3" />
       <Pop type="Unit">5</Pop>
       <AutoRecharge>40000</AutoRecharge>
       <SequentialRecharge />

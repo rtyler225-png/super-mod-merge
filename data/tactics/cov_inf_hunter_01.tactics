@@ -36,7 +36,7 @@
   <Weapon>
     <Name>BeamCannon</Name>
     <AttackRate>4</AttackRate>
-    <DamagePerSecond>108</DamagePerSecond>
+    <DamagePerSecond>150</DamagePerSecond>
     <WeaponType>MediumExplosive</WeaponType>
     <Projectile>fx_hunterbeam</Projectile>
     <ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
@@ -100,7 +100,7 @@
   <Weapon>
     <Name>BeamCannonFlying</Name>
     <AttackRate>4</AttackRate>
-    <DamagePerSecond>108</DamagePerSecond>
+    <DamagePerSecond>150</DamagePerSecond>
     <WeaponType>MediumExplosive</WeaponType>
     <Projectile>fx_hunterbeam</Projectile>
     <ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
@@ -164,7 +164,7 @@
   <Weapon>
     <Name>InCoverBeamCannon</Name>
     <AttackRate>4</AttackRate>
-    <DamagePerSecond>108</DamagePerSecond>
+    <DamagePerSecond>150</DamagePerSecond>
     <WeaponType>MediumExplosive</WeaponType>
     <Projectile>fx_hunterbeam</Projectile>
     <ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
@@ -228,7 +228,7 @@
   <Weapon>
     <Name>InCoverBeamCannonFlying</Name>
     <AttackRate>4</AttackRate>
-    <DamagePerSecond>108</DamagePerSecond>
+    <DamagePerSecond>150</DamagePerSecond>
     <WeaponType>MediumExplosive</WeaponType>
     <Projectile>fx_hunterbeam</Projectile>
     <ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
