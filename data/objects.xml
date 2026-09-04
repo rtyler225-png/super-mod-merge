@@ -67,6 +67,7 @@
     <ObjectType>AirCraft</ObjectType>
     <ObjectType>Unit</ObjectType>
     <ObjectType>SpartanBoardFlying</ObjectType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Garrison</ObjectType>
     <ObjectType>_Garrison</ObjectType>
     <ObjectType>CanBeProtected</ObjectType>
@@ -154,6 +155,7 @@
     <ObjectType>SpartanBoardFlying</ObjectType>
     <ObjectType>StrikeAirCraft</ObjectType>
     <ObjectType>AirCraft</ObjectType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Garrison</ObjectType>
     <ObjectType>_Garrison</ObjectType>
     <ObjectType>CanCryo</ObjectType>
@@ -1386,6 +1388,7 @@
     <ObjectType>CanBeProtected</ObjectType>
     <ObjectType>CyclopsRepairable</ObjectType>
     <ObjectType>HighValueUnit</ObjectType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Garrison</ObjectType>
     <ObjectType>_Garrison</ObjectType>
     <ObjectType>CanCryo</ObjectType>
@@ -1473,6 +1476,7 @@
     <ObjectType>EmpEffectNormal</ObjectType>
     <ObjectType>CanBeProtected</ObjectType>
     <ObjectType>CyclopsRepairable</ObjectType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Garrison</ObjectType>
     <ObjectType>_Garrison</ObjectType>
     <ObjectType>HighValueUnit</ObjectType>
@@ -2436,6 +2440,7 @@
     <Sound Type="ImpactDeath">play_impact_death_banshee</Sound>
     <ExtendedSoundBank>xtnd_ui_vampire.bnk</ExtendedSoundBank>
     <DamageType direction="Full">HeavyAir</DamageType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>HiddenFromStats</ObjectType>
     <ObjectType>Covenant</ObjectType>
     <ObjectType>Flying</ObjectType>
@@ -9184,6 +9189,7 @@
     <DamageType direction="Full">Medium_Vehicle</DamageType>
     <Contain>Transportable</Contain>
     <MaxContained>6</MaxContained>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Military</ObjectType>
     <ObjectType>Covenant</ObjectType>
     <ObjectType>Flying</ObjectType>
@@ -32577,6 +32583,7 @@
     <ObjectType>AirCraft</ObjectType>
     <ObjectType>Unit</ObjectType>
     <ObjectType>SpartanBoardFlying</ObjectType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Garrison</ObjectType>
     <ObjectType>_Garrison</ObjectType>
     <ObjectType>CanBeProtected</ObjectType>
@@ -32745,6 +32752,7 @@
     <ObjectType>SpartanBoardFlying</ObjectType>
     <ObjectType>StrikeAirCraft</ObjectType>
     <ObjectType>AirCraft</ObjectType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Garrison</ObjectType>
     <ObjectType>_Garrison</ObjectType>
     <ObjectType>CanCryo</ObjectType>
@@ -32811,6 +32819,7 @@
     <Sound Type="StopMove">stop_move_spirit</Sound>
     <Sound Type="Death">play_wraith_death</Sound>
     <DamageType direction="Full">HeavyAir</DamageType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Military</ObjectType>
     <ObjectType>Covenant</ObjectType>
     <ObjectType>Flying</ObjectType>
@@ -32875,6 +32884,7 @@
     <Sound Type="Death">play_wraith_death</Sound>
     <DamageType direction="Full">HeavyAir</DamageType>
     <DeathFadeDelayTime>0</DeathFadeDelayTime>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Military</ObjectType>
     <ObjectType>Covenant</ObjectType>
     <ObjectType>Flying</ObjectType>
@@ -54521,6 +54531,7 @@
     <ObjectType>AirCraft</ObjectType>
     <ObjectType>SpartanBoardFlying</ObjectType>
     <ObjectType>EmpEffectNormal</ObjectType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Garrison</ObjectType>
     <ObjectType>_Garrison</ObjectType>
     <ObjectType>CanBeProtected</ObjectType>
@@ -54586,6 +54597,7 @@
     <Sound Type="StopMove">stop_move_pelican</Sound>
     <Sound Type="ImpactDeath">play_impact_death_pelican</Sound>
     <DamageType direction="Full">HeavyAir</DamageType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Military</ObjectType>
     <ObjectType>Unsc</ObjectType>
     <ObjectType>Flying</ObjectType>
@@ -55485,6 +55497,7 @@
     <ObjectType>Unit</ObjectType>
     <ObjectType>AirCraft</ObjectType>
     <ObjectType>SpartanBoardFlying</ObjectType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Garrison</ObjectType>
     <ObjectType>_Garrison</ObjectType>
     <ObjectType>CanBeProtected</ObjectType>
@@ -55551,6 +55564,7 @@
     <Sound Type="StopMove">stop_move_pelican</Sound>
     <Sound Type="ImpactDeath">play_impact_death_pelican</Sound>
     <DamageType direction="Full">HeavyAir</DamageType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Military</ObjectType>
     <ObjectType>Unsc</ObjectType>
     <ObjectType>Flying</ObjectType>
@@ -55621,6 +55635,7 @@
     <Sound Type="ImpactDeath">play_impact_death_pelican</Sound>
     <DamageType direction="Full">HeavyAir</DamageType>
     <Contain>Transportable</Contain>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Military</ObjectType>
     <ObjectType>Unsc</ObjectType>
     <ObjectType>Flying</ObjectType>
@@ -74211,6 +74226,7 @@
     <DamageType direction="Full">HeavyAir</DamageType>
     <Contain>Transportable</Contain>
     <MaxContained>12</MaxContained>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Military</ObjectType>
     <ObjectType>Covenant</ObjectType>
     <ObjectType>Flying</ObjectType>
@@ -74328,6 +74344,7 @@
     <ObjectType>CanCryo</ObjectType>
     <ObjectType>Unit</ObjectType>
     <ObjectType>_Transporter</ObjectType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Garrison</ObjectType>
     <ObjectType>_Garrison</ObjectType>
     <SurfaceType>Metal</SurfaceType>
@@ -74494,6 +74511,7 @@
     <ObjectType>CanCryo</ObjectType>
     <ObjectType>Unit</ObjectType>
     <ObjectType>_Transporter</ObjectType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Garrison</ObjectType>
     <ObjectType>_Garrison</ObjectType>
     <SurfaceType>Metal</SurfaceType>
@@ -90397,6 +90415,7 @@
     <ObjectType>Military</ObjectType>
     <ObjectType>Flying</ObjectType>
     <ObjectType>Unit</ObjectType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Garrison</ObjectType>
     <ObjectType>_Garrison</ObjectType>
     <SurfaceType>Metal</SurfaceType>
@@ -90457,6 +90476,7 @@
     <ObjectType>Flying</ObjectType>
     <ObjectType>Unit</ObjectType>
     <ObjectType>SpartanBoardFlying</ObjectType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Garrison</ObjectType>
     <ObjectType>_Garrison</ObjectType>
     <ObjectType>CanBeProtected</ObjectType>

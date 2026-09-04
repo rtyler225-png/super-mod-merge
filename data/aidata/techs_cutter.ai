@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='us-ascii'?>
 <Tables>
-	<Table Name="UnscBasic" Type="TechUpgradeTable">
+	<Table Name="Standard" Type="TechUpgradeTable">
 		<Row>
 			<c>unsc_base_upgrade1</c>
 			<c>unsc_bldg_command_01</c>
