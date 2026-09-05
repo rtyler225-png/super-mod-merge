@@ -1,74 +1,63 @@
 <?xml version='1.0' encoding='us-ascii'?>
 <Tables>
 	<Table Name="Standard" Type="BuildingBuildList">
-		<!-- PRIORITY 1 = the opening. Keep this block SHORT (~15 rows, base 1 only). -->
-		<!-- Trigger 36 stops the scan at the first row above BldPermission, which starts at 1. -->
-		<!-- That stop is the AI's build PACING, not a bug: everything in priority 1 gets bid at -->
-		<!-- once, and BuildMaxNotApproved is only 30. Putting expansions here bankrupts the AI -->
-		<!-- in the first minute and it stops training units entirely. -->
-		<Row><c>unsc_bldg_supplypad_01</c><c>1</c><c>1</c></Row>
+		<!-- KEEP THIS TABLE SHORT, like the train list. Trigger 36 walks it every 1500ms and each -->
+		<!-- row costs trigger evaluations out of a small per-think budget shared with the train -->
+		<!-- manager. Shipped tables are 4-16 rows; use bigger targets, not more rows. -->
+
+		<!-- PRIORITY 1 = the opening, and it is a SPEND BUDGET: everything at or below the current -->
+		<!-- BldPermission is bid in one pass. Economy and production first, defence last. -->
+		<!-- BldPermission starts at 1 and Trigger 2492 raises it to 2 the moment the AI owns its -->
+		<!-- first _ProductionBuildingNotBase, which is why the Barracks is row 2. -->
+
+		<!-- NO unsc_bldg_command_02 ROWS ANYWHERE. Trigger 2733 blocks every new base claim while a -->
+		<!-- command_02 building bid is pending, and a Station is a transient state on the way to a -->
+		<!-- Fortress, so a command_02 target is almost never satisfied and jams base grabbing shut. -->
+		<!-- command_03 is a stable end state and is NOT checked by that gate, so it is safe here. -->
+		<!-- Base upgrades come from unsc_base_upgrade1/2 in techs_cutter.ai and the group 14 path. -->
 		<Row><c>unsc_bldg_supplypad_01</c><c>2</c><c>1</c></Row>
-		<Row><c>unsc_bldg_reactor_01</c><c>1</c><c>1</c></Row>
-		<Row><c>unsc_bldg_command_02</c><c>1</c><c>1</c></Row>
-		<!-- First production building also flips BldPermission to 2 (Trigger 2492). -->
 		<Row><c>unsc_bldg_barracks_01</c><c>1</c><c>1</c></Row>
+		<Row><c>unsc_bldg_reactor_01</c><c>1</c><c>1</c></Row>
+		<Row><c>unsc_bldg_supplypad_01</c><c>3</c><c>1</c></Row>
 		<Row><c>unsc_bldg_vehicledepot_01</c><c>1</c><c>1</c></Row>
-		<!-- Field Armory is the only building that can research unsc_tech_reinforcements -->
-		<!-- (+40 Unit pop each, 120 -> 280 cap). Before the Fortress, not after it. -->
+		<Row><c>unsc_bldg_supplypad_02</c><c>3</c><c>1</c></Row>
+		<!-- Fortress: already satisfied for Cutter, this is the upgrade for Forge/Anders/Serina -->
+		<!-- who start on a Station. -->
+		<Row><c>unsc_bldg_command_03</c><c>1</c><c>1</c></Row>
+		<!-- Only building that can research the unsc_tech_reinforcements chain (120 -> 280 pop). -->
 		<Row><c>unsc_bldg_fieldArmory_01</c><c>1</c><c>1</c></Row>
-		<!-- Cheap perimeter defence, ahead of the Fortress so it actually gets bought. -->
-		<!-- 2 + 1 + 1 = the 4 turret sockets. AA/AV consume a turret_01, they do not add to it. -->
+		<Row><c>unsc_bldg_airPad_01</c><c>1</c><c>1</c></Row>
+		<Row><c>unsc_bldg_reactor_01</c><c>2</c><c>1</c></Row>
+		<!-- Turrets last in the opening. Early turrets buy nothing while the AI should be raiding. -->
+		<!-- 2 + 1 + 1 = the 4 perimeter sockets; AA/AV consume a turret_01 rather than adding to it. -->
 		<Row><c>unsc_bldg_turret_01</c><c>2</c><c>1</c></Row>
 		<Row><c>unsc_bldg_turretAA_01</c><c>1</c><c>1</c></Row>
 		<Row><c>unsc_bldg_turretAV_01</c><c>1</c><c>1</c></Row>
-		<Row><c>unsc_bldg_command_03</c><c>1</c><c>1</c></Row>
-		<Row><c>unsc_bldg_airPad_01</c><c>1</c><c>1</c></Row>
-		<Row><c>unsc_bldg_supplypad_01</c><c>4</c><c>1</c></Row>
-		<Row><c>unsc_bldg_reactor_01</c><c>2</c><c>1</c></Row>
-		<Row><c>unsc_bldg_supplypad_02</c><c>2</c><c>1</c></Row>
 
-		<!-- PRIORITY 2 = everything else. Reached quickly and reliably: Trigger 2492 raises -->
-		<!-- BldPermission to 2 as soon as the barracks above exists. Expansion is interleaved -->
-		<!-- with economy so the AI never queues several bases at once. -->
-
-		<!-- Expansion 1 -->
+		<!-- PRIORITY 2. Reached as soon as the opening Barracks exists (Trigger 2492). -->
+		<!-- Expansion interleaved with economy so the AI never queues several bases at once. -->
 		<Row><c>unsc_bldg_command_01</c><c>2</c><c>2</c></Row>
-		<Row><c>_ProductionBuildingNotBase</c><c>4</c><c>2</c></Row>
-		<Row><c>unsc_bldg_supplypad_01</c><c>6</c><c>2</c></Row>
-		<Row><c>unsc_bldg_command_02</c><c>2</c><c>2</c></Row>
-		<Row><c>unsc_bldg_supplypad_02</c><c>5</c><c>2</c></Row>
-		<Row><c>unsc_bldg_turret_01</c><c>4</c><c>2</c></Row>
-		<Row><c>unsc_bldg_turretAA_01</c><c>2</c><c>2</c></Row>
-		<Row><c>unsc_bldg_turretAV_01</c><c>2</c><c>2</c></Row>
+		<Row><c>_ProductionBuildingNotBase</c><c>5</c><c>2</c></Row>
+		<Row><c>unsc_bldg_supplypad_01</c><c>8</c><c>2</c></Row>
+		<Row><c>unsc_bldg_supplypad_02</c><c>8</c><c>2</c></Row>
 		<Row><c>unsc_bldg_command_03</c><c>2</c><c>2</c></Row>
-
-		<!-- Expansion 2 -->
-		<Row><c>unsc_bldg_command_01</c><c>3</c><c>2</c></Row>
-		<Row><c>_ProductionBuildingNotBase</c><c>6</c><c>2</c></Row>
-		<Row><c>unsc_bldg_supplypad_01</c><c>10</c><c>2</c></Row>
-		<Row><c>unsc_bldg_reactor_01</c><c>4</c><c>2</c></Row>
-		<Row><c>unsc_bldg_command_02</c><c>3</c><c>2</c></Row>
-		<Row><c>unsc_bldg_supplypad_02</c><c>9</c><c>2</c></Row>
-		<Row><c>unsc_bldg_turret_01</c><c>6</c><c>2</c></Row>
+		<Row><c>unsc_bldg_turret_01</c><c>5</c><c>2</c></Row>
 		<Row><c>unsc_bldg_turretAA_01</c><c>3</c><c>2</c></Row>
 		<Row><c>unsc_bldg_turretAV_01</c><c>3</c><c>2</c></Row>
-		<Row><c>unsc_bldg_command_03</c><c>3</c><c>2</c></Row>
 
-		<!-- Expansions 3-4 -->
 		<Row><c>unsc_bldg_command_01</c><c>4</c><c>2</c></Row>
-		<Row><c>_ProductionBuildingNotBase</c><c>10</c><c>2</c></Row>
+		<Row><c>_ProductionBuildingNotBase</c><c>12</c><c>2</c></Row>
 		<Row><c>unsc_bldg_supplypad_01</c><c>16</c><c>2</c></Row>
 		<Row><c>unsc_bldg_reactor_01</c><c>6</c><c>2</c></Row>
-		<Row><c>unsc_bldg_command_02</c><c>5</c><c>2</c></Row>
-		<Row><c>unsc_bldg_supplypad_02</c><c>15</c><c>2</c></Row>
+		<Row><c>unsc_bldg_supplypad_02</c><c>16</c><c>2</c></Row>
+		<Row><c>unsc_bldg_command_03</c><c>5</c><c>2</c></Row>
 		<Row><c>unsc_bldg_turret_01</c><c>10</c><c>2</c></Row>
 		<Row><c>unsc_bldg_turretAA_01</c><c>5</c><c>2</c></Row>
 		<Row><c>unsc_bldg_turretAV_01</c><c>5</c><c>2</c></Row>
-		<Row><c>unsc_bldg_command_03</c><c>5</c><c>2</c></Row>
 
-		<!-- Socket filler tail. Trigger 2729 only grabs a new base when EmptySockets == 0 -->
-		<!-- across every base owned, so the AI must never run out of legal socket builds. -->
-		<!-- 8 bases x 7 Fortress sockets = 56; these targets total 59. -->
+		<!-- Socket filler tail. Trigger 2729 only grabs a base when EmptySockets == 0 across every -->
+		<!-- base owned, so the AI must never run out of legal socket builds. 8 bases x 7 Fortress -->
+		<!-- sockets = 56; these totals reach 59. Big targets, few rows. -->
 		<Row><c>unsc_bldg_supplypad_01</c><c>30</c><c>2</c></Row>
 		<Row><c>_ProductionBuildingNotBase</c><c>18</c><c>2</c></Row>
 		<Row><c>unsc_bldg_reactor_01</c><c>10</c><c>2</c></Row>
