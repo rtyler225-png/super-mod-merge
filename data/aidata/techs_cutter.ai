@@ -2,16 +2,6 @@
 <Tables>
 	<Table Name="Standard" Type="TechUpgradeTable">
 		<Row>
-			<c>unsc_base_upgrade1</c>
-			<c>unsc_bldg_command_01</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>unsc_base_upgrade2</c>
-			<c>unsc_bldg_command_02</c>
-			<c>1</c>
-		</Row>
-		<Row>
 			<c>unsc_supplypad_upgrade1</c>
 			<c>unsc_bldg_supplyPad_01</c>
 			<c>1</c>
@@ -106,6 +96,21 @@
 			<c>unsc_bldg_fieldArmory_01</c>
 			<c>1</c>
 		</Row>
+		<!-- Base upgrades sit HERE, not at the top. Trigger 2733 blocks every new base claim -->
+		<!-- while a bid for unsc_base_upgrade1/2 is pending, and Trigger 1950 gives the AI 4 -->
+		<!-- concurrent tech bids once it holds 4000+ supplies. With these at rows 0-1 one was -->
+		<!-- always in flight and the AI stopped expanding entirely. Do not move them back up. -->
+		<Row>
+			<c>unsc_base_upgrade1</c>
+			<c>unsc_bldg_command_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_base_upgrade2</c>
+			<c>unsc_bldg_command_02</c>
+			<c>1</c>
+		</Row>
+
 		<Row>
 			<c>unsc_scorpion_upgrade2</c>
 			<c>unsc_veh_scorpion_01</c>
