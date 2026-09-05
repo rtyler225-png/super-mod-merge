@@ -1,57 +1,60 @@
 <?xml version='1.0' encoding='us-ascii'?>
 <Tables>
 	<Table Name="Standard" Type="SquadBuildList">
-		<!-- Core Main Battle Tanks (12 Scorpions) -->
-		<Row>
-			<c>unsc_veh_scorpion_01</c>
-			<c>12</c>
-		</Row>
-		<!-- Light Recon & Harassment -->
-		<Row>
-			<c>unsc_veh_warthog_01</c>
-			<c>6</c>
-		</Row>
-		<!-- Deployable Anti-Armor Artillery -->
-		<Row>
-			<c>unsc_veh_cobra_01</c>
-			<c>4</c>
-		</Row>
-		<!-- Dedicated Anti-Air Defense -->
-		<Row>
-			<c>unsc_veh_wolverine_01</c>
-			<c>4</c>
-		</Row>
-		<!-- Frontline Assault Infantry -->
+		<!-- Absolute targets, not ratios. TrainListMultiplier scales them up to 3x when the AI runs dry, so this is the army floor. -->
+		<!-- Pop budget: base Unit pop 120 (leaders.xml) + 4 x unsc_tech_reinforcements at +40 = 280 ceiling. Costed at ~277 pop / 142 squads. -->
+		<!-- Scorpion and Pelican gunship are 6 pop each; adding more of them buys FEWER units, not more. -->
+		<!-- Frontline assault infantry (1 pop) -->
 		<Row>
 			<c>unsc_inf_marine_01</c>
-			<c>40</c>
+			<c>50</c>
 		</Row>
-		<!-- Long-Range Anti-Infantry Support -->
+		<!-- Anti-vehicle / anti-structure rockets (2 pop) -->
+		<Row>
+			<c>unsc_inf_marinerocket_01</c>
+			<c>15</c>
+		</Row>
+		<!-- Long-range anti-infantry support (1 pop) -->
 		<Row>
 			<c>unsc_inf_marinesniper_01</c>
 			<c>15</c>
 		</Row>
-		<!-- Anti-Vehicle / Anti-Structure Rockets -->
-		<Row>
-			<c>unsc_inf_marinerocket_01</c>
-			<c>12</c>
-		</Row>
-		<!-- Anti-Infantry & Structure Burn -->
+		<!-- Anti-infantry and structure burn (1 pop) -->
 		<Row>
 			<c>unsc_inf_flameMarine_01</c>
-			<c>8</c>
+			<c>10</c>
 		</Row>
-		<!-- Combat Field Medic Sustain -->
+		<!-- Combat field medic sustain (1 pop) -->
 		<Row>
 			<c>unsc_inf_MedicBR_01</c>
-			<c>4</c>
-		</Row>
-		<!-- Fast Air Harassment -->
-		<Row>
-			<c>unsc_air_hornet_01</c>
 			<c>6</c>
 		</Row>
-		<!-- Heavy Air Fire Support -->
+		<!-- Light recon and harassment (1 pop) -->
+		<Row>
+			<c>unsc_veh_warthog_01</c>
+			<c>10</c>
+		</Row>
+		<!-- Dedicated anti-air (2 pop) -->
+		<Row>
+			<c>unsc_veh_wolverine_01</c>
+			<c>6</c>
+		</Row>
+		<!-- Deployable anti-armor artillery (4 pop) -->
+		<Row>
+			<c>unsc_veh_cobra_01</c>
+			<c>6</c>
+		</Row>
+		<!-- Core main battle tanks (6 pop) -->
+		<Row>
+			<c>unsc_veh_scorpion_01</c>
+			<c>14</c>
+		</Row>
+		<!-- Fast air harassment (3 pop) -->
+		<Row>
+			<c>unsc_air_hornet_01</c>
+			<c>8</c>
+		</Row>
+		<!-- Heavy air fire support (6 pop) -->
 		<Row>
 			<c>unsc_air_pelicangunship_01</c>
 			<c>2</c>

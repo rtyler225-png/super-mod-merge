@@ -75,12 +75,14 @@ All AI strategy tables reside as XML files under `data/aidata/`.
   - Turrets (`unsc_bldg_turret_01`, `cov_bldg_turret_01`) **do not consume interior sockets**!
   - To command the AI to build turrets, include entries in `buildlist_<leader>.ai`:
     ```xml
-    <!-- Base 1 Turrets (4 perimeter sockets) -->
-    <Row><c>unsc_bldg_turret_01</c><c>4</c><c>1</c></Row>
-    <Row><c>unsc_bldg_turretAA_01</c><c>2</c><c>1</c></Row>
-    <Row><c>unsc_bldg_turretAV_01</c><c>2</c><c>1</c></Row>
+    <!-- Base 1 Turrets: 2 + 1 + 1 = the 4 perimeter sockets -->
+    <Row><c>unsc_bldg_turret_01</c><c>2</c><c>1</c></Row>
+    <Row><c>unsc_bldg_turretAA_01</c><c>1</c><c>1</c></Row>
+    <Row><c>unsc_bldg_turretAV_01</c><c>1</c><c>1</c></Row>
     ```
   - Without turret rows in the build list, the AI will leave all perimeter turret sockets empty for the entire match.
+> [!WARNING]
+> **The AA/AV/AI turret counts are part of the 4, not on top of it.** `unsc_bldg_turretAA_01` and `unsc_bldg_turretAV_01` are alternative builds on the same turret socket (and `unsc_turret_upgradeAA`/`AV` convert an existing `unsc_bldg_turret_01`), so a converted turret stops counting toward `unsc_bldg_turret_01`. Asking for `turret_01` 4 + `turretAA` 2 + `turretAV` 2 requests 8 turrets for 4 sockets and leaves 4 bids permanently unfillable, burning slots in the `DiffBldMaxNotApproved` budget for the rest of the match.
 
 ### E. Engine Production Limits & Counter-Unit Quotas
 Inside `ai_<leader>.triggerscript`:
@@ -94,6 +96,68 @@ Inside `ai_<leader>.triggerscript`:
 4. **Counter-Unit Quota (`InSuggestCapVar1`)**:
    - In Trigger 3043, when the AI scans an enemy unit type (e.g. enemy Air), it enters "COUNTER UNIT TIME" and calculates a counter (e.g. Wolverines).
    - Default cap was **20** (`InSuggestCapVar1 = 20`), which completely flooded vehicle depots and froze Scorpion production. Capped to **5** so the AI fields an anti-air detachment without starving out its main battle tanks.
+
+### F. Build Priority vs. BldPermission (the scan STOPS, it does not skip)
+Trigger 36 (`Get buildings of this type`) iterates `buildlist_<leader>.ai` top-down. Its conditions are, as an `And`:
+1. `GetTableRow(BuildListTable, RowID, UserClassType 3)`
+2. `Priority <= BldPermission`
+
+The row cursor (`RowIDVar1`, TriggerVar 19034) is incremented **only inside `TriggerEffectsOnTrue`**, and `TriggerEffectsOnFalse` is **empty**.
+
+> [!CAUTION]
+> The moment the scan reaches a row whose priority exceeds the current `BldPermission`, **the entire build-list pass ends**. It does not skip that row and continue - every row below it is invisible until `BldPermission` rises. Put the over-priority rows at the BOTTOM of the table, never in the middle.
+
+`BldPermission` (TriggerVar 10063) is not a fixed ceiling; it ramps during the match:
+
+| Value | Set by | When |
+| :--- | :--- | :--- |
+| `1` | Trigger 411 `Default = boring`, and Trigger 1232 `Balanced` | match start / on strategy pick |
+| `2` | Trigger 2492 | once the AI owns any `_ProductionBuildingNotBase` |
+| `3` | Trigger 1282 | once `NumMyBases >= 2` |
+| `3` | Trigger 1256 | once `StatePlayerPop > 0.7` |
+
+> [!CAUTION]
+> **The stop is the AI's build PACING, not a bug to be engineered around.** Every row at or below the current permission gets bid in the same pass, and `DiffBldMaxNotApproved` is only 30 on Normal. A priority-1 block that contains base expansions and mid-game economy opens all of it at second zero, drains the bid budget and the entire supply income into buildings, and the AI **stops training units altogether** and never buys its cheap turrets. This was tested and confirmed: growing the priority-1 block from 15 rows to 36 killed unit production outright.
+
+- **Rule**: Priority `1` is the opening only - base 1 economy, the first Barracks / Vehicle Depot, the Field Armory, base 1 turrets. Roughly **15 rows**. Compare against the shipped tables in `unscbuildlists.ai`, which are 4-16 rows total.
+- **Rule**: expansions and everything after them go at Priority `2`. This is not a delay in practice - Trigger 2492 raises `BldPermission` to 2 the moment the AI owns a single `_ProductionBuildingNotBase`, i.e. as soon as the opening Barracks finishes, and Trigger 1256 raises it to 3 as soon as `StatePlayerPop > 0.7` (which the `/30` divisor in section I makes almost immediate).
+- Priority `3`+ is never reachable in skirmish.
+- Interleave expansion with economy inside the priority-2 block (one `command_01` row, then production, then supply, then the base upgrade) rather than listing every `command_01` target up front. Several simultaneous base bids are very expensive and starve everything behind them.
+
+### G. Base Expansion Requires ZERO Empty Sockets
+The auto base-grab chain lives in group 14 (`Strategy:MultiBase`):
+
+`2726 get bases` -> `2727 get sockets` -> `2728 loop` -> `2729 no empty sockets?` -> `2732 get bids` -> `2740 order new base` (`BidCreateBuilding unsc_bldg_command_01`)
+
+> [!CAUTION]
+> Trigger 2729 fires the grab **only when `EmptySockets == 0`** summed across every base the AI owns. A single unfilled interior socket anywhere blocks all further expansion, permanently.
+
+This makes the *tail* of the build list load-bearing. If the table's cumulative targets run out before the AI's sockets do, the AI parks on empty sockets and stops expanding for the rest of the match - which reads in-game as "it just sits there doing nothing" in the late game.
+
+- **Rule**: every `buildlist_<leader>.ai` must end with a filler tail whose targets exceed the maximum socket count the AI can reach: `LogMaxBases` (see `aidifficultysettings.xml`, 8 on Normal/Heroic) x 7 sockets at Fortress = **56**. Sum the max targets of everything that occupies an interior socket (`supplypad_01`, `_ProductionBuildingNotBase`, `reactor_01`, `fieldArmory_01`) and keep it above that.
+- Turret sockets are counted separately (`EmptyTurretSockets`) and do **not** gate expansion.
+- `AutoBaseGrab` (TriggerVar 23672) also gates this via Trigger 2762. Every strategy branch sets it `False` on entry and a follow-up trigger flips it back `True` (Trigger 2492 on first production building, Trigger 2530 at 5:00, Trigger 1365 / 2321 on the mid-game jump).
+
+### H. Population Budget
+- Base `Unit` pop is **120** (`data/leaders.xml`), not vanilla's 30-40.
+- Each of `unsc_tech_reinforcements`, `...2`, `...3`, `...4` adds **+40** (`data/techs.xml`), for a **280** ceiling. They chain (each requires the previous) and cost 1/2/3 Power on top of supplies.
+- They can only be researched at `unsc_bldg_fieldArmory_01` / `_02` (enabled by the `unsc_basic` tech). Listing them in `techs_<leader>.ai` against any other prereq building - a Barracks, for example - produces rows that can never fire.
+- **Consequence**: the Field Armory is the single highest-value building in the list. Until it is up and all four techs are researched, the AI is hard-capped at 120 pop no matter how much production it has.
+- Squad pop costs are on the *unit*, not the squad (`<Pop Type="Unit">` in `objects.xml`), multiplied by `<Unit count="">` in `squads.xml`. Scorpion and Pelican gunship are **6** each; a Marine squad is 4 x 0.25 = **1**. Cost the train list before assuming a low unit count means the AI is failing to produce - it is usually just pop-capped.
+
+### I. Tactical Aggression & Waypoint Rallying
+1. **Low-Pop Attack Handicap (Trigger 2164 / 2166)**:
+   - Vanilla skirmish AI checks enemy human population (`totalPop > 20`). If the human player has under 20 pop (e.g. spectating or sitting idle), `HasEnoughPopToAttack` was forced to `False`, forcing the AI into 100% turtle mode.
+   - Fixed by ensuring `HasEnoughPopToAttack` evaluates to `True` unconditionally so the AI fights with full aggression in all match configurations.
+2. **Midpoint Rally Waypoint (Trigger 2192)**:
+   - Attack missions create a midpoint waypoint in the center of the map (`MinRalliedPercent`, `MinSecureTime`).
+   - If `MinSecureTime` is too long (e.g. 15s) and `MinRalliedPercent` is 0.5, continuously adding newly produced factory reserves to the mission continuously resets the rally timer, trapping the army in the center of the map.
+   - Tightened `MinSecureTime` to 3s and `MinRalliedPercent` to 0.1 so the army pushes directly through to the enemy target.
+3. **`StatePlayerPop` is normalised against a hardcoded 30 (KNOWN ISSUE, not yet changed)**:
+   - Trigger 1255 `normalize to 1?` computes `StatePlayerPop = TotalPop / 30`, where `30` is a literal (TriggerVar 10126) left over from vanilla's 30-pop cap.
+   - With this mod's 120-280 cap the value saturates far above `1.0`, so every gate keyed off it passes trivially: Trigger 1637 `Build up / force attack` (> 0.9, sets `MinimumToLaunch` to 0), Trigger 1833 `army built` (> 0.9), Trigger 1854 (> 0.8), Trigger 2838 `decider mission quota` (> `PopFor2Missions`). The mid-game brain therefore always takes the same branch.
+   - The correct fix is to divide by actual `MaxPop` (TriggerVar 10109, already populated by Trigger 1254's `GetPlayerPop`) instead of the constant - i.e. change effect 4266's `SecondFloat` input from `10126` to `10109`.
+   - **Do not apply this in isolation.** While the AI is production- or pop-starved it would drop `StatePlayerPop` below every threshold and make the AI *more* passive, not less. Land the build-list / Field Armory / pop-cap fixes first, confirm the AI actually reaches a full army in a test game, then make this change and re-test.
 
 ---
 
@@ -147,7 +211,8 @@ Follow these exact steps to add a new personality:
    - Adjust building order / unit counts. Ensure all units in the train list are trainable by that leader!
 3. **Wire into `ai_<leader>.triggerscript`**:
    - Locate the strategy selection trigger (e.g., Trigger 1441 / opening strategy roll).
-   - Add a branch or roll condition that copies your new personality name string (e.g. `"ODSTRush"`) to:
+   - *Note on Current Baseline*: In `ai_cutter.triggerscript`, Trigger 1441's `RandomInt` roll has been disabled and hardcoded to single strategy `3` (Standard) with `SetBuildStrategy` and `SetTrainStrategy` initialized to `"Standard"` at second 0 (Triggers 2300 & 2314).
+   - When you are ready to re-enable multiple personalities: replace the `CopyInt` in Trigger 1441 with a `RandomInt(1, N)` roll and route the outcomes to set:
      - `SetBuildStrategy` (TriggerVar 19030)
      - `SetTrainStrategy` (TriggerVar 19221)
 4. **Validate**:
