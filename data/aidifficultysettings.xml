@@ -78,11 +78,11 @@
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="EconMultiplier" InputLabel="Difficulty" OutputLabel="Multiplier" Comment="1.00 = no econ change, 0.0 means no supplies, 2.0 means double normal supplies">
 		<PiecewiseFunc>
-			<DataPoint Input="0" Output="1.0" Comment="Easy: normal supplies" />
-			<DataPoint Input="0.34" Output="1.0" Comment="Normal: normal supplies" />
-			<DataPoint Input="0.67" Output="1.0" Comment="Heroic: no econ cheat, plays on skill instead" />
-			<DataPoint Input="1" Output="2.25" Comment="Legendary: 125% boost - quantity-focused cheat" />
-			<DataPoint Input="2" Output="3.25" Comment="Hyper-Legendary: 3.25x boost - quantity-focused cheat" />
+			<DataPoint Input="0" Output="3.0" Comment="Easy: +200% bonus (3.0x normal supplies)" />
+			<DataPoint Input="0.34" Output="3.0" Comment="Normal: +200% bonus (3.0x normal supplies)" />
+			<DataPoint Input="0.67" Output="3.0" Comment="Heroic: +200% bonus (3.0x normal supplies)" />
+			<DataPoint Input="1" Output="4.25" Comment="Legendary: +200% bonus on top of 125% boost (4.25x supplies)" />
+			<DataPoint Input="2" Output="5.25" Comment="Hyper-Legendary: +200% bonus on top of 225% boost (5.25x supplies)" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DeathMatchMultiplier" InputLabel="Difficulty" OutputLabel="Multiplier" Comment="1.00 = normal speed, 0.0 (illegal!!) infinitely slow training/building, 2.0 means double speed">
@@ -114,11 +114,11 @@
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="LogMaxBases" InputLabel="Difficulty" OutputLabel="Int" Comment="Maximum bases the AI will attempt to claim.">
 		<PiecewiseFunc>
-			<DataPoint Input="0" Output="3" Comment="3 on Easy" />
-			<DataPoint Input="0.34" Output="4" Comment="4 on Normal" />
-			<DataPoint Input="0.67" Output="7" Comment="Heroic: more expansion ambition, below Legendary's 8" />
-			<DataPoint Input="1" Output="8" Comment="8 on Legendary" />
-			<DataPoint Input="2" Output="10" Comment="10 on Hyper-Legendary" />
+			<DataPoint Input="0" Output="8" Comment="8 on Easy" />
+			<DataPoint Input="0.34" Output="8" Comment="8 on Normal" />
+			<DataPoint Input="0.67" Output="8" Comment="8 on Heroic" />
+			<DataPoint Input="1" Output="10" Comment="10 on Legendary" />
+			<DataPoint Input="2" Output="12" Comment="12 on Hyper-Legendary" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DiffBaseRebuildDel" InputLabel="Difficulty" OutputLabel="Ms" Comment="Delay before attempting to rebuild destroyed base">
