@@ -1,63 +1,110 @@
 <?xml version='1.0' encoding='us-ascii'?>
 <Tables>
 	<Table Name="Standard" Type="SquadBuildList">
-		<!-- Absolute targets, not ratios. TrainListMultiplier scales them up to 3x when the AI runs dry, so this is the army floor. -->
-		<!-- Pop budget: base Unit pop 120 (leaders.xml) + 4 x unsc_tech_reinforcements at +40 = 280 ceiling. Costed at ~277 pop / 142 squads. -->
-		<!-- Scorpion and Pelican gunship are 6 pop each; adding more of them buys FEWER units, not more. -->
-		<!-- Frontline assault infantry (1 pop) -->
-		<Row>
-			<c>unsc_inf_marine_01</c>
-			<c>50</c>
-		</Row>
-		<!-- Anti-vehicle / anti-structure rockets (2 pop) -->
-		<Row>
-			<c>unsc_inf_marinerocket_01</c>
-			<c>15</c>
-		</Row>
-		<!-- Long-range anti-infantry support (1 pop) -->
-		<Row>
-			<c>unsc_inf_marinesniper_01</c>
-			<c>15</c>
-		</Row>
-		<!-- Anti-infantry and structure burn (1 pop) -->
-		<Row>
-			<c>unsc_inf_flameMarine_01</c>
-			<c>10</c>
-		</Row>
-		<!-- Combat field medic sustain (1 pop) -->
-		<Row>
-			<c>unsc_inf_MedicBR_01</c>
-			<c>6</c>
-		</Row>
-		<!-- Light recon and harassment (1 pop) -->
-		<Row>
-			<c>unsc_veh_warthog_01</c>
-			<c>10</c>
-		</Row>
-		<!-- Dedicated anti-air (2 pop) -->
-		<Row>
-			<c>unsc_veh_wolverine_01</c>
-			<c>6</c>
-		</Row>
-		<!-- Deployable anti-armor artillery (4 pop) -->
-		<Row>
-			<c>unsc_veh_cobra_01</c>
-			<c>6</c>
-		</Row>
-		<!-- Core main battle tanks (6 pop) -->
-		<Row>
-			<c>unsc_veh_scorpion_01</c>
-			<c>14</c>
-		</Row>
-		<!-- Fast air harassment (3 pop) -->
-		<Row>
-			<c>unsc_air_hornet_01</c>
-			<c>8</c>
-		</Row>
-		<!-- Heavy air fire support (6 pop) -->
-		<Row>
-			<c>unsc_air_pelicangunship_01</c>
-			<c>2</c>
-		</Row>
+		<!-- UNIVERSAL UNSC COMBINED-ARMS BASELINE. Copy this table to the other UNSC leaders as-is. -->
+		<!-- Every squad here trains at the GENERIC production buildings (unsc_bldg_barracks_01 / -->
+		<!-- vehicledepot_01 / airPad_01). Leader-variant buildings have gaps - Serina's depot has no -->
+		<!-- Scorpion, Forge's has no Warthog or Wolverine, Anders' and Serina's barracks have no -->
+		<!-- Sniper or Flamer - so when porting, keep the build list on the generic protos. -->
+
+		<!-- READ THIS BEFORE EDITING: this table is a BUILD ORDER, not a set of proportions. -->
+		<!-- Trigger 131 walks top-down and bids the FIRST row where owned < target, then the chain -->
+		<!-- ends (Trigger 312 has no TriggerActivate). The walk restarts from row 0 every 1500ms. -->
+		<!-- So one big row = the AI builds only that unit until the target is met. Counts are -->
+		<!-- CUMULATIVE totals, so the same squad is listed many times with a rising target, which -->
+		<!-- is what interleaves the army. Keep increments small. Do not consolidate these rows. -->
+		<!-- Rows for units it cannot train yet are skipped (Trigger 206 -> 140), so the vehicle and -->
+		<!-- air rows below simply switch on as the Vehicle Depot and Air Pad come up. -->
+
+		<!-- Wave 1: opening. Barracks only. Rockets this early so an early vehicle or air poke is answered. -->
+		<Row><c>unsc_inf_marine_01</c><c>3</c></Row>
+		<Row><c>unsc_veh_warthog_01</c><c>1</c></Row>
+		<Row><c>unsc_inf_marine_01</c><c>6</c></Row>
+		<Row><c>unsc_inf_marinerocket_01</c><c>2</c></Row>
+		<Row><c>unsc_inf_marinesniper_01</c><c>2</c></Row>
+
+		<!-- Wave 2: first armour and first dedicated AA -->
+		<Row><c>unsc_veh_scorpion_01</c><c>1</c></Row>
+		<Row><c>unsc_inf_marine_01</c><c>9</c></Row>
+		<Row><c>unsc_veh_warthog_01</c><c>3</c></Row>
+		<Row><c>unsc_inf_flameMarine_01</c><c>2</c></Row>
+		<Row><c>unsc_veh_wolverine_01</c><c>1</c></Row>
+		<Row><c>unsc_inf_marinerocket_01</c><c>4</c></Row>
+
+		<!-- Wave 3: artillery and sustain come online -->
+		<Row><c>unsc_veh_scorpion_01</c><c>2</c></Row>
+		<Row><c>unsc_inf_marine_01</c><c>12</c></Row>
+		<Row><c>unsc_veh_cobra_01</c><c>1</c></Row>
+		<Row><c>unsc_inf_MedicBR_01</c><c>1</c></Row>
+		<Row><c>unsc_inf_marinesniper_01</c><c>4</c></Row>
+		<Row><c>unsc_veh_warthog_01</c><c>5</c></Row>
+		<Row><c>unsc_air_hornet_01</c><c>1</c></Row>
+
+		<!-- Wave 4 -->
+		<Row><c>unsc_veh_scorpion_01</c><c>4</c></Row>
+		<Row><c>unsc_inf_marine_01</c><c>16</c></Row>
+		<Row><c>unsc_inf_marinerocket_01</c><c>6</c></Row>
+		<Row><c>unsc_veh_wolverine_01</c><c>2</c></Row>
+		<Row><c>unsc_inf_flameMarine_01</c><c>4</c></Row>
+		<Row><c>unsc_air_hornet_01</c><c>2</c></Row>
+		<Row><c>unsc_veh_warthog_01</c><c>7</c></Row>
+
+		<!-- Wave 5 -->
+		<Row><c>unsc_veh_scorpion_01</c><c>6</c></Row>
+		<Row><c>unsc_veh_cobra_01</c><c>2</c></Row>
+		<Row><c>unsc_inf_marine_01</c><c>20</c></Row>
+		<Row><c>unsc_inf_marinesniper_01</c><c>6</c></Row>
+		<Row><c>unsc_inf_MedicBR_01</c><c>2</c></Row>
+		<Row><c>unsc_veh_wolverine_01</c><c>3</c></Row>
+		<Row><c>unsc_inf_marinerocket_01</c><c>8</c></Row>
+
+		<!-- Wave 6 -->
+		<Row><c>unsc_veh_scorpion_01</c><c>8</c></Row>
+		<Row><c>unsc_air_hornet_01</c><c>3</c></Row>
+		<Row><c>unsc_inf_marine_01</c><c>24</c></Row>
+		<Row><c>unsc_veh_cobra_01</c><c>3</c></Row>
+		<Row><c>unsc_inf_flameMarine_01</c><c>6</c></Row>
+		<Row><c>unsc_veh_warthog_01</c><c>9</c></Row>
+		<Row><c>unsc_inf_marinerocket_01</c><c>10</c></Row>
+
+		<!-- Wave 7 -->
+		<Row><c>unsc_veh_scorpion_01</c><c>10</c></Row>
+		<Row><c>unsc_veh_wolverine_01</c><c>4</c></Row>
+		<Row><c>unsc_inf_marine_01</c><c>28</c></Row>
+		<Row><c>unsc_inf_marinesniper_01</c><c>8</c></Row>
+		<Row><c>unsc_inf_MedicBR_01</c><c>4</c></Row>
+		<Row><c>unsc_air_hornet_01</c><c>4</c></Row>
+		<Row><c>unsc_veh_cobra_01</c><c>4</c></Row>
+
+		<!-- Wave 8 -->
+		<Row><c>unsc_veh_scorpion_01</c><c>12</c></Row>
+		<Row><c>unsc_inf_marine_01</c><c>32</c></Row>
+		<Row><c>unsc_inf_marinerocket_01</c><c>12</c></Row>
+		<Row><c>unsc_inf_flameMarine_01</c><c>8</c></Row>
+		<Row><c>unsc_veh_wolverine_01</c><c>5</c></Row>
+		<Row><c>unsc_veh_warthog_01</c><c>11</c></Row>
+		<Row><c>unsc_air_pelicangunship_01</c><c>1</c></Row>
+
+		<!-- Wave 9 -->
+		<Row><c>unsc_veh_scorpion_01</c><c>14</c></Row>
+		<Row><c>unsc_veh_cobra_01</c><c>6</c></Row>
+		<Row><c>unsc_inf_marine_01</c><c>36</c></Row>
+		<Row><c>unsc_air_hornet_01</c><c>6</c></Row>
+		<Row><c>unsc_inf_marinesniper_01</c><c>10</c></Row>
+		<Row><c>unsc_inf_MedicBR_01</c><c>6</c></Row>
+		<Row><c>unsc_veh_wolverine_01</c><c>6</c></Row>
+
+		<!-- Wave 10: final targets. This block also sets battlefield REPLACEMENT priority - once the -->
+		<!-- army is built these are the rows that go deficient when units die, so the backbone and -->
+		<!-- the counters are listed ahead of the cheap infantry on purpose. -->
+		<Row><c>unsc_veh_scorpion_01</c><c>16</c></Row>
+		<Row><c>unsc_veh_wolverine_01</c><c>8</c></Row>
+		<Row><c>unsc_veh_cobra_01</c><c>8</c></Row>
+		<Row><c>unsc_inf_marinerocket_01</c><c>14</c></Row>
+		<Row><c>unsc_air_hornet_01</c><c>8</c></Row>
+		<Row><c>unsc_inf_marine_01</c><c>40</c></Row>
+		<Row><c>unsc_inf_flameMarine_01</c><c>10</c></Row>
+		<Row><c>unsc_inf_MedicBR_01</c><c>8</c></Row>
+		<Row><c>unsc_veh_warthog_01</c><c>12</c></Row>
 	</Table>
 </Tables>

@@ -53,7 +53,22 @@ All AI strategy tables reside as XML files under `data/aidata/`.
       <c>DesiredCount</c>          <!-- Quantity desired in the AI's army pool -->
   </Row>
   ```
+> [!CAUTION]
+> **This table is a BUILD ORDER, not a set of proportions.** `Trigger 2316` -> `2317` -> `130` -> `133` -> `131` walks the table top-down. `Trigger 131 "Do we need more?"` bids the **first** row where `owned < target`, and then the chain **ends** - `Trigger 141` -> `Trigger 312 "build something reset multiplier"` has no `TriggerActivate`. `Trigger 129` resets the row cursor to 0 and the whole pass repeats every 1500ms.
+>
+> So each pass produces one bid, always for the earliest unsatisfied row, and `Trigger 149` keeps stacking bids on that same row (up to `TrnMaxNotApproved` 15 / `TrnMaxSquadBids` 35) until it is satisfied. **One row with a large count means the AI builds only that unit until it hits the count.** A consolidated 11-row table with `unsc_inf_marine_01` at 50 first made Cutter build ~50 Marines and nothing else, and because that plus the next four rows totalled 111 pop against a base cap of 120, its Scorpions were unreachable for most of the match.
+>
+> Counts are **cumulative totals of that squad**, so the way to get a mixed army is to list the same squad many times with a rising target and interleave the types - exactly what the shipped `CovMix_1` and `UnscRushInf_1` tables do (54 rows, counts of 1-5, types repeated). Keep increments small. **Never consolidate these rows.**
+>
+> Useful consequences:
+> - Rows for squads the leader cannot train *yet* are skipped, not stalled (`Trigger 135` -> `206` -> `140`), and so are rows that do not fit pop (`Trigger 1017`) or lack reactors (`Trigger 1280`). Vehicle and air rows can therefore sit early in the table and simply switch on as the Vehicle Depot and Air Pad finish.
+> - The **last** row for each squad governs battlefield replacement, because that is the row that goes deficient when units die. Order the final block by what you want rebuilt first.
+> - Make each squad's targets strictly increasing. A repeated or decreasing target creates a row that can never be satisfied and that the walk re-checks every pass.
+> - `TrainListMultiplier` scales every target (up to `TrainMaxMultiplier`, 3 on Balanced) once the table is fully satisfied, so set the 1x total slightly **above** the pop ceiling - the AI then always has something it wants and holds its cap through losses.
+> - `Trigger 489` exempts the squads in `CurrentSquadCappedUnits` (`unsc_veh_warthog_01`, `unsc_inf_spartan_01`) from the multiplier entirely - their listed count is a hard ceiling.
+
 - **Crucial Rule**: Only list squads that can actually be trained at the leader's production buildings or base! For instance, in this mod ODSTs are leader drop powers or starting units, not trainable barracks units.
+- **Porting the baseline**: every squad in Cutter's `Standard` table trains at the **generic** buildings (`unsc_bldg_barracks_01`, `unsc_bldg_vehicledepot_01`, `unsc_bldg_airPad_01`). The leader-variant buildings have gaps - `unsc_bldg_vehicledepotSerina_01` has no Scorpion, `unsc_bldg_vehicledepotForge_01` has no Warthog or Wolverine, and the Anders and Serina barracks have no Sniper or Flamer. When copying this table to another UNSC leader, keep that leader's build list on the generic production protos or those rows go silently dead.
 - **Universal UNSC Baseline**: The `"Standard"` baseline train list is designed to use **100% generic universal UNSC units** (Marines, Snipers, Rockets, Hellbringers, Medics, Scorpions, Warthogs, Cobras, Wolverines, Hornets, Pelicans) and omits leader-specific heroes (e.g. Jerome, Forge Warthog) so that this single baseline table can be copied cleanly across all UNSC leaders (Forge, Anders, Serina, etc.) without modification or missing squad crashes. Individual heroes or faction-unique units should be added in specialized personality tables (e.g. `ODSTRush`, `GrizzlyRoll`).
 
 ### C. TechUpgradeTable (`techs_<leader>.ai`)
