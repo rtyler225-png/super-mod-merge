@@ -1,19 +1,43 @@
 <?xml version='1.0' encoding='us-ascii'?>
 <Tables>
 	<Table Name="Standard" Type="BuildingBuildList">
+		<!-- Base 1: Early Economy, Tier 1 Tech & Primary Factory -->
+		<Row><c>unsc_bldg_supplypad_01</c><c>1</c><c>1</c></Row>
 		<Row><c>unsc_bldg_reactor_01</c><c>1</c><c>1</c></Row>
-		<Row><c>unsc_bldg_supplypad_01</c><c>4</c><c>1</c></Row>
-		<Row><c>unsc_bldg_supplypad_02</c><c>4</c><c>1</c></Row>
-		<Row><c>unsc_bldg_command_03</c><c>1</c><c>1</c></Row>
-		<Row><c>unsc_bldg_reactor_01</c><c>2</c><c>1</c></Row>
 		<Row><c>unsc_bldg_vehicledepot_01</c><c>1</c><c>1</c></Row>
+		<!-- Base 1 Upgrade: Station (unlocks sockets 4 & 5) -->
+		<Row><c>unsc_bldg_command_02</c><c>1</c><c>1</c></Row>
+		<Row><c>unsc_bldg_barracks_01</c><c>1</c><c>1</c></Row>
+		<Row><c>unsc_bldg_vehicledepot_01</c><c>2</c><c>1</c></Row>
+		<!-- Base 1 Upgrade: Fortress (unlocks sockets 6 & 7) -->
+		<Row><c>unsc_bldg_command_03</c><c>1</c><c>1</c></Row>
+		<Row><c>unsc_bldg_airPad_01</c><c>1</c><c>1</c></Row>
+		<Row><c>unsc_bldg_reactor_01</c><c>2</c><c>1</c></Row>
+		<!-- Base 1 Upgrades: Advanced Tech & Heavy Economy -->
+		<Row><c>unsc_bldg_reactor_02</c><c>1</c><c>1</c></Row>
+		<Row><c>unsc_bldg_reactor_02</c><c>2</c><c>1</c></Row>
+		<Row><c>unsc_bldg_supplypad_02</c><c>1</c><c>1</c></Row>
+		<!-- Base 1 Perimeter Defense: 4 Turrets (2 Anti-Air, 2 Anti-Vehicle) -->
+		<Row><c>unsc_bldg_turret_01</c><c>4</c><c>1</c></Row>
+		<Row><c>unsc_bldg_turretAA_01</c><c>2</c><c>1</c></Row>
+		<Row><c>unsc_bldg_turretAV_01</c><c>2</c><c>1</c></Row>
+
+		<!-- Base 2 Expansion: Claim & Upgrade Command Center -->
 		<Row><c>unsc_bldg_command_01</c><c>2</c><c>2</c></Row>
 		<Row><c>unsc_bldg_command_02</c><c>2</c><c>2</c></Row>
-		<Row><c>unsc_bldg_supplypad_01</c><c>6</c><c>2</c></Row>
-		<Row><c>unsc_bldg_barracks_01</c><c>1</c><c>2</c></Row>
-		<Row><c>unsc_bldg_reactor_01</c><c>3</c><c>2</c></Row>
-		<Row><c>unsc_bldg_airPad_01</c><c>1</c><c>2</c></Row>
-		<Row><c>unsc_bldg_reactor_01</c><c>4</c><c>2</c></Row>
 		<Row><c>unsc_bldg_command_03</c><c>2</c><c>2</c></Row>
+		<!-- Base 2 Perimeter Defense: 4 Additional Turrets (Total 8) -->
+		<Row><c>unsc_bldg_turret_01</c><c>8</c><c>2</c></Row>
+		<Row><c>unsc_bldg_turretAA_01</c><c>4</c><c>2</c></Row>
+		<Row><c>unsc_bldg_turretAV_01</c><c>4</c><c>2</c></Row>
+		<!-- Base 2 Macro Production & Economy -->
+		<Row><c>unsc_bldg_supplypad_01</c><c>3</c><c>2</c></Row>
+		<Row><c>unsc_bldg_supplypad_02</c><c>3</c><c>2</c></Row>
+		<Row><c>unsc_bldg_vehicledepot_01</c><c>3</c><c>2</c></Row>
+		<Row><c>unsc_bldg_barracks_01</c><c>2</c><c>2</c></Row>
+		<Row><c>unsc_bldg_airPad_01</c><c>2</c><c>2</c></Row>
+		<Row><c>unsc_bldg_fieldArmory_01</c><c>1</c><c>2</c></Row>
+		<Row><c>unsc_bldg_supplypad_01</c><c>5</c><c>2</c></Row>
+		<Row><c>unsc_bldg_supplypad_02</c><c>5</c><c>2</c></Row>
 	</Table>
 </Tables>

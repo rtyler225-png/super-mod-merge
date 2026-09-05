@@ -53,7 +53,8 @@ All AI strategy tables reside as XML files under `data/aidata/`.
       <c>DesiredCount</c>          <!-- Quantity desired in the AI's army pool -->
   </Row>
   ```
-- **Crucial Rule**: Only list squads that can actually be trained at the leader's production buildings or base! For instance, in this mod ODSTs are leader drop powers or starting units, not trainable barracks units. Units like Marines (`unsc_inf_marine_01`), Snipers (`unsc_inf_marinesniper_01`), Rockets (`unsc_inf_marinerocket_01`), Jerome (`cpgn_npc_jerome_01`), Warthogs (`unsc_veh_warthog_01`), and Scorpions (`unsc_veh_scorpion_01`) are directly trainable.
+- **Crucial Rule**: Only list squads that can actually be trained at the leader's production buildings or base! For instance, in this mod ODSTs are leader drop powers or starting units, not trainable barracks units.
+- **Universal UNSC Baseline**: The `"Standard"` baseline train list is designed to use **100% generic universal UNSC units** (Marines, Snipers, Rockets, Hellbringers, Medics, Scorpions, Warthogs, Cobras, Wolverines, Hornets, Pelicans) and omits leader-specific heroes (e.g. Jerome, Forge Warthog) so that this single baseline table can be copied cleanly across all UNSC leaders (Forge, Anders, Serina, etc.) without modification or missing squad crashes. Individual heroes or faction-unique units should be added in specialized personality tables (e.g. `ODSTRush`, `GrizzlyRoll`).
 
 ### C. TechUpgradeTable (`techs_<leader>.ai`)
 - **UserClassType**: `2`
@@ -66,6 +67,33 @@ All AI strategy tables reside as XML files under `data/aidata/`.
       <c>Count</c>                 <!-- Required count (typically 1) -->
   </Row>
   ```
+
+
+### D. Base Sockets vs. Perimeter Turrets
+- **Interior Building Sockets**: A standard base provides up to 7 interior sockets (Outpost: 3 sockets, Station: 5 sockets, Fortress: 7 sockets). These host economy, tech, and production buildings (`supplypad`, `reactor`, `vehicledepot`, `barracks`, `airPad`, `fieldArmory`).
+- **Perimeter Turret Sockets**: Every base has **4 dedicated perimeter turret sockets** that are completely separate from interior building sockets.
+  - Turrets (`unsc_bldg_turret_01`, `cov_bldg_turret_01`) **do not consume interior sockets**!
+  - To command the AI to build turrets, include entries in `buildlist_<leader>.ai`:
+    ```xml
+    <!-- Base 1 Turrets (4 perimeter sockets) -->
+    <Row><c>unsc_bldg_turret_01</c><c>4</c><c>1</c></Row>
+    <Row><c>unsc_bldg_turretAA_01</c><c>2</c><c>1</c></Row>
+    <Row><c>unsc_bldg_turretAV_01</c><c>2</c><c>1</c></Row>
+    ```
+  - Without turret rows in the build list, the AI will leave all perimeter turret sockets empty for the entire match.
+
+### E. Engine Production Limits & Counter-Unit Quotas
+Inside `ai_<leader>.triggerscript`:
+1. **Bid Limits**:
+   - `TrnMaxNotApproved` (TriggerVar 3636, 6129, 6133): Caps unapproved/waiting squad bids. Default was 2 (aborting squad bidding whenever 2 bids were in flight). Increased to 15–20 to match Flood throughput.
+   - `TrnMaxSquadBids` (TriggerVar 829, 6127, 6131): Hard ceiling on total active squad bids. Default was 8. Increased to 35–45 to keep dual-factories and queues saturated.
+2. **Queue Limits (`BidSetQueueLimits`)**:
+   - Trigger 411 default was `0 ms`, preventing buildings from queuing a 2nd unit while 1 is actively training. Set to `360000 ms` (6 minutes) to buffer factory queues.
+3. **Loop Cadence**:
+   - Squad loop (`Trigger 156`, Var 1018) and Building loop (`Trigger 160`, Var 1033) run on cycle timers. Lowered from 5000 ms to 1500 ms to rapidly fill empty base sockets and replenish army losses.
+4. **Counter-Unit Quota (`InSuggestCapVar1`)**:
+   - In Trigger 3043, when the AI scans an enemy unit type (e.g. enemy Air), it enters "COUNTER UNIT TIME" and calculates a counter (e.g. Wolverines).
+   - Default cap was **20** (`InSuggestCapVar1 = 20`), which completely flooded vehicle depots and froze Scorpion production. Capped to **5** so the AI fields an anti-air detachment without starving out its main battle tanks.
 
 ---
 
