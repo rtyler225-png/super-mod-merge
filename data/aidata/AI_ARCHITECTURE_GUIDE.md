@@ -57,6 +57,18 @@ All AI strategy tables reside as XML files under `data/aidata/`.
 - **Universal UNSC Baseline**: The `"Standard"` baseline train list is designed to use **100% generic universal UNSC units** (Marines, Snipers, Rockets, Hellbringers, Medics, Scorpions, Warthogs, Cobras, Wolverines, Hornets, Pelicans) and omits leader-specific heroes (e.g. Jerome, Forge Warthog) so that this single baseline table can be copied cleanly across all UNSC leaders (Forge, Anders, Serina, etc.) without modification or missing squad crashes. Individual heroes or faction-unique units should be added in specialized personality tables (e.g. `ODSTRush`, `GrizzlyRoll`).
 
 ### C. TechUpgradeTable (`techs_<leader>.ai`)
+
+> [!CAUTION]
+> **Row order is strict research priority, and every tier-1 upgrade must be present.**
+> The tech loop (Triggers 2269 -> 2903 -> 2278 -> 2276 -> 2277 -> 2273 -> 2271 -> 2272) walks the table from row 0 every pass and stops once it has created `AllowedNumberOfTechBids` bids - which is **1** normally, and 4 only while the AI is holding 4000+ supplies (Trigger 1950). Rows it cannot use (prereq unit absent, tech unavailable, not enough power) fall through to Trigger 2270 and the walk continues, so an unusable row does not deadlock - but the first *usable* row always wins. Anything near the bottom effectively never gets researched.
+>
+> Because upgrade chains are enforced by `<Prereqs><TechStatus>` in `techs.xml`, **omitting a tier-1 upgrade silently kills the whole chain**. `techs_cutter.ai` was missing `unsc_scorpion_upgrade1`, `unsc_cobra_upgrade1`, `unsc_wolverine_upgrade1` and `unsc_hornet_upgrade1` - all four are free (zero cost) and prereq only `unsc_basic` - so Cutter's entire vehicle and air line was permanently stuck at tier 1 while tiers 2 and 3 sat in the table looking correct.
+>
+> When porting this table to a new leader, verify with: for every row, resolve the tech's prereq chain in `techs.xml` and confirm each link is also a row in the table, at a *lower* index.
+
+Order the table as: base upgrades -> economy (`supplypad`/`reactor`) -> the `unsc_tech_reinforcements` chain -> free tier-1 unit upgrades -> cheap upgrades that hit the largest squad counts -> the main battle line -> defence and power upgrades -> everything else. Column 2 (the prereq object) must be something that leader actually fields; a row whose prereq is a unit the leader never trains is dead weight that the loop re-checks every pass.
+
+
 - **UserClassType**: `2`
 - **Root Element**: `<Table Name="..." Type="TechUpgradeTable">`
 - **Row Format**:

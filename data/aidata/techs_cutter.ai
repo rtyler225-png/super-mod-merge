@@ -12,8 +12,18 @@
 			<c>1</c>
 		</Row>
 		<Row>
+			<c>unsc_supplypad_upgrade1</c>
+			<c>unsc_bldg_supplyPad_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
 			<c>unsc_tech_reinforcements</c>
 			<c>unsc_bldg_fieldArmory_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_reactor_upgrade1</c>
+			<c>unsc_bldg_reactor_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -27,28 +37,143 @@
 			<c>1</c>
 		</Row>
 		<Row>
+			<c>unsc_reactor_upgrade2</c>
+			<c>unsc_bldg_reactor_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
 			<c>unsc_tech_reinforcements4</c>
 			<c>unsc_bldg_fieldArmory_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>rebel_base_upgrade1</c>
-			<c>rebel_bldg_command_01</c>
+			<c>unsc_scorpion_upgrade1</c>
+			<c>unsc_veh_scorpion_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>rebel_base_upgrade2</c>
-			<c>rebel_bldg_command_02</c>
+			<c>unsc_cobra_upgrade1</c>
+			<c>unsc_veh_cobra_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_supplypad_upgrade1</c>
-			<c>unsc_bldg_supplyPad_01</c>
+			<c>unsc_wolverine_upgrade1</c>
+			<c>unsc_veh_wolverine_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_reactor_upgrade1</c>
-			<c>unsc_bldg_reactor_01</c>
+			<c>unsc_hornet_upgrade1</c>
+			<c>unsc_air_hornet_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_Cuttermarine_upgrade1</c>
+			<c>unsc_inf_marine_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_marinegrenade_upgrade1</c>
+			<c>unsc_inf_marine_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_Cuttermarine_upgrade2</c>
+			<c>unsc_inf_marine_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_marinegrenade_upgrade2</c>
+			<c>unsc_inf_marine_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_Cuttermarine_upgrade3</c>
+			<c>unsc_inf_marine_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_marinegrenade_upgrade3</c>
+			<c>unsc_inf_marine_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_tech_adrenaline</c>
+			<c>unsc_inf_marine_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_tech_recruitTraining</c>
+			<c>unsc_bldg_fieldArmory_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_scorpion_upgrade2</c>
+			<c>unsc_veh_scorpion_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_scorpion_upgrade3</c>
+			<c>unsc_veh_scorpion_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_marinerocket_upgrade1</c>
+			<c>unsc_inf_marinerocket_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_marinesniper_upgrade1</c>
+			<c>unsc_inf_marinesniper_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_flameMarine_upgrade1</c>
+			<c>unsc_inf_flameMarine_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_flameMarine_upgrade2</c>
+			<c>unsc_inf_flameMarine_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_flameMarine_upgrade3</c>
+			<c>unsc_inf_flameMarine_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_cobra_upgrade2</c>
+			<c>unsc_veh_cobra_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_cobra_upgrade3</c>
+			<c>unsc_veh_cobra_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_wolverine_upgrade2</c>
+			<c>unsc_veh_wolverine_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_wolverine_upgrade3</c>
+			<c>unsc_veh_wolverine_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_warthog_upgrade1</c>
+			<c>unsc_veh_warthog_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_warthog_upgrade2</c>
+			<c>unsc_veh_warthog_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_warthog_upgrade3</c>
+			<c>unsc_veh_warthog_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -62,8 +187,43 @@
 			<c>1</c>
 		</Row>
 		<Row>
+			<c>unsc_grizzly_upgrade1</c>
+			<c>unsc_veh_scorpion_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
 			<c>unsc_hawk_upgrade1</c>
 			<c>unsc_air_hornet_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_marinebr_upgrade1</c>
+			<c>unsc_inf_marine_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_marinebr_upgrade2</c>
+			<c>unsc_inf_marine_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_marinebr_upgrade3</c>
+			<c>unsc_inf_marine_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>unsc_turret_upgrade1</c>
+			<c>unsc_bldg_fieldArmory_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>rebel_base_upgrade1</c>
+			<c>rebel_bldg_command_01</c>
+			<c>1</c>
+		</Row>
+		<Row>
+			<c>rebel_base_upgrade2</c>
+			<c>rebel_bldg_command_02</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -99,21 +259,6 @@
 		<Row>
 			<c>unsc_frostraven_upgrade3</c>
 			<c>unsc_air_frostraven_01</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>unsc_warthog_upgrade1</c>
-			<c>unsc_veh_warthog_01</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>unsc_warthog_upgrade2</c>
-			<c>unsc_veh_warthog_01</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>unsc_warthog_upgrade3</c>
-			<c>unsc_veh_warthog_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -202,21 +347,6 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_scorpion_upgrade2</c>
-			<c>unsc_veh_scorpion_01</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>unsc_scorpion_upgrade3</c>
-			<c>unsc_veh_scorpion_01</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>unsc_grizzly_upgrade1</c>
-			<c>unsc_veh_scorpion_01</c>
-			<c>1</c>
-		</Row>
-		<Row>
 			<c>rebel_scorpionheavy_upgrade2</c>
 			<c>rebel_veh_scorpionheavy_01</c>
 			<c>1</c>
@@ -237,21 +367,6 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_marinegrenade_upgrade1</c>
-			<c>unsc_inf_marine_01</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>unsc_marinegrenade_upgrade2</c>
-			<c>unsc_inf_marine_01</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>unsc_marinegrenade_upgrade3</c>
-			<c>unsc_inf_marine_01</c>
-			<c>1</c>
-		</Row>
-		<Row>
 			<c>unsc_odst_upgrade1</c>
 			<c>unsc_inf_marine_01</c>
 			<c>1</c>
@@ -269,18 +384,6 @@
 		<Row>
 			<c>unsc_spartan_upgrade3</c>
 			<c>unsc_inf_spartan_01</c>
-			<c>1</c>
-		</Row>
-		
-		
-		<Row>
-			<c>unsc_tech_recruitTraining</c>
-			<c>unsc_bldg_fieldArmory_01</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>unsc_turret_upgrade1</c>
-			<c>unsc_bldg_fieldArmory_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -359,26 +462,6 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_marinebr_upgrade1</c>
-			<c>unsc_inf_marine_01</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>unsc_marinebr_upgrade2</c>
-			<c>unsc_inf_marine_01</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>unsc_marinebr_upgrade3</c>
-			<c>unsc_inf_marine_01</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>unsc_marinerocket_upgrade1</c>
-			<c>unsc_inf_marinerocket_01</c>
-			<c>1</c>
-		</Row>
-		<Row>
 			<c>unsc_marinerocket_upgrade2</c>
 			<c>unsc_inf_marinerocket_01</c>
 			<c>1</c>
@@ -426,11 +509,6 @@
 		<Row>
 			<c>unsc_cryoMarine_upgrade2</c>
 			<c>unsc_inf_cryoMarine_01</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>unsc_marinesniper_upgrade1</c>
-			<c>unsc_inf_marinesniper_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -550,16 +628,6 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_cobra_upgrade2</c>
-			<c>unsc_veh_cobra_01</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>unsc_cobra_upgrade3</c>
-			<c>unsc_veh_cobra_01</c>
-			<c>1</c>
-		</Row>
-		<Row>
 			<c>unsc_MAC_upgrade1</c>
 			<c>unsc_bldg_fieldArmory_01</c>
 			<c>1</c>
@@ -605,21 +673,6 @@
 			<c>1</c>
 		</Row>
 		<Row>
-			<c>unsc_flameMarine_upgrade1</c>
-			<c>unsc_inf_flameMarine_01</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>unsc_flameMarine_upgrade2</c>
-			<c>unsc_inf_flameMarine_01</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>unsc_flameMarine_upgrade3</c>
-			<c>unsc_inf_flameMarine_01</c>
-			<c>1</c>
-		</Row>
-		<Row>
 			<c>unsc_gremlin_upgrade2</c>
 			<c>unsc_veh_gremlin_01</c>
 			<c>1</c>
@@ -627,11 +680,6 @@
 		<Row>
 			<c>unsc_gremlin_upgrade3</c>
 			<c>unsc_veh_gremlin_01</c>
-			<c>1</c>
-		</Row>
-		<Row>
-			<c>unsc_tech_adrenaline</c>
-			<c>unsc_inf_marine_01</c>
 			<c>1</c>
 		</Row>
 		<Row>
@@ -794,6 +842,6 @@
 			<c>rebel_bldg_fieldArmory_01</c>
 			<c>1</c>
 		</Row>
-	<Row><c>unsc_scorpioncryo_upgrade2</c><c>unsc_veh_scorpioncryo_01</c><c>1</c></Row><Row><c>unsc_scorpioncryo_upgrade3</c><c>unsc_veh_scorpioncryo_01</c><c>1</c></Row><Row><c>unsc_frostraven_upgradeOLD2</c><c>unsc_air_frostraven_01</c><c>1</c></Row><Row><c>unsc_frostraven_upgradeOLD3</c><c>unsc_air_frostraven_01</c><c>1</c></Row><Row><c>unsc_warthog_MVupgrade3</c><c>unsc_veh_warthog_01</c><c>1</c></Row><Row><c>rebel_spade_scavenge</c><c>unsc_bldg_vehicledepot_01</c><c>1</c></Row><Row><c>rebel_spade_salvage</c><c>unsc_bldg_vehicledepot_01</c><c>1</c></Row><Row><c>rebel_solenodon_scavenge</c><c>unsc_bldg_vehicledepot_01</c><c>1</c></Row><Row><c>rebel_solenodon_salvage</c><c>unsc_bldg_vehicledepot_01</c><c>1</c></Row><Row><c>rebel_warthog_scavenge</c><c>unsc_bldg_vehicledepot_01</c><c>1</c></Row><Row><c>rebel_warthog_salvage</c><c>unsc_bldg_vehicledepot_01</c><c>1</c></Row><Row><c>rebel_tiger_scavenge</c><c>unsc_bldg_vehicledepot_01</c><c>1</c></Row><Row><c>rebel_tiger_salvage</c><c>unsc_bldg_vehicledepot_01</c><c>1</c></Row><Row><c>rebel_scorpionheavy_scavenge</c><c>unsc_bldg_vehicledepot_01</c><c>1</c></Row><Row><c>rebel_scorpionheavy_salvage</c><c>unsc_bldg_vehicledepot_01</c><c>1</c></Row><Row><c>rebel_viper_scavenge</c><c>unsc_bldg_vehicledepot_01</c><c>1</c></Row><Row><c>rebel_viper_salvage</c><c>unsc_bldg_vehicledepot_01</c><c>1</c></Row><Row><c>rebel_hornet_scavenge</c><c>unsc_bldg_airPad_01</c><c>1</c></Row><Row><c>rebel_hornet_salvage</c><c>unsc_bldg_airPad_01</c><c>1</c></Row><Row><c>unsc_sabre_upgrade1</c><c>unsc_air_sabre_01</c><c>1</c></Row><Row><c>rebel_vulture_scavenge</c><c>unsc_bldg_airPad_01</c><c>1</c></Row><Row><c>rebel_vulture_salvage</c><c>unsc_bldg_airPad_01</c><c>1</c></Row><Row><c>rebel_pelican_scavenge</c><c>unsc_bldg_fieldArmory_01</c><c>1</c></Row><Row><c>rebel_pelican_salvage</c><c>unsc_bldg_fieldArmory_01</c><c>1</c></Row><Row><c>unsc_forgewarthog_upgrade1</c><c>unsc_bldg_vehicledepot_01</c><c>1</c></Row><Row><c>unsc_pelican_upgrade1</c><c>unsc_air_pelican_01</c><c>1</c></Row><Row><c>unsc_pelican_upgrade2</c><c>unsc_air_pelican_01</c><c>1</c></Row><Row><c>fld_rhinodillo_upgrade1</c><c>fld_inf_rhinodillo_01</c><c>1</c></Row><Row><c>fld_rhinodillo_upgrade2</c><c>fld_inf_rhinodillo_01</c><c>1</c></Row><Row><c>fld_rhinodillo_upgrade3</c><c>fld_inf_rhinodillo_01</c><c>1</c></Row><Row><c>rebel_spade_upgrade1</c><c>rebel_veh_spade_01</c><c>1</c></Row><Row><c>rebel_spade_upgrade2</c><c>rebel_veh_spade_01</c><c>1</c></Row><Row><c>rebel_spade_upgrade3</c><c>rebel_veh_spade_01</c><c>1</c></Row><Row><c>rebel_spade_upgrade4</c><c>rebel_veh_spade_01</c><c>1</c></Row><Row><c>rebel_viper_upgrade2</c><c>rebel_veh_viper_01</c><c>1</c></Row><Row><c>rebel_viper_upgrade3</c><c>rebel_veh_viper_01</c><c>1</c></Row><Row><c>rebel_solenodon_upgrade1</c><c>rebel_veh_solenodon_01</c><c>1</c></Row><Row><c>rebel_solenodon_upgrade2</c><c>rebel_veh_solenodon_01</c><c>1</c></Row><Row><c>rebel_solenodon_upgrade3</c><c>rebel_veh_solenodon_01</c><c>1</c></Row><Row><c>rebel_tiger_upgrade2</c><c>rebel_veh_tiger_01</c><c>1</c></Row><Row><c>rebel_tiger_upgrade3</c><c>rebel_veh_tiger_01</c><c>1</c></Row><Row><c>rebel_leopard_upgrade</c><c>rebel_veh_tiger_01</c><c>1</c></Row><Row><c>rebel_rhino_upgrade2</c><c>rebel_veh_rhino_01</c><c>1</c></Row><Row><c>rebel_rhino_upgrade3</c><c>rebel_veh_rhino_01</c><c>1</c></Row><Row><c>unsc_rhino_upgrade2</c><c>unsc_veh_rhino_01</c><c>1</c></Row><Row><c>unsc_rhino_upgrade3</c><c>unsc_veh_rhino_01</c><c>1</c></Row><Row><c>unsc_anders_upgrade1</c><c>cpgn_npc_anders_02</c><c>1</c></Row><Row><c>unsc_anders_upgrade2</c><c>cpgn_npc_anders_02</c><c>1</c></Row><Row><c>unsc_anders_upgrade3</c><c>cpgn_npc_anders_02</c><c>1</c></Row><Row><c>cpgn_grant_rhino</c><c>cpgn_veh_scn06Rhino_01</c><c>1</c></Row><Row><c>cpgn_cutters_baseSizeBonus</c><c>unsc_bldg_command_02</c><c>1</c></Row><Row><c>cpgn_grant_elephant</c><c>unsc_bldg_command_01</c><c>1</c></Row><Row><c>cpgn_grant_gremlin</c><c>unsc_bldg_command_01</c><c>1</c></Row><Row><c>cpgn_grant_cyclops</c><c>unsc_bldg_command_01</c><c>1</c></Row><Row><c>cpgn_grant_hawk</c><c>unsc_bldg_airPad_01</c><c>1</c></Row><Row><c>cpgn_grant_grizzly</c><c>unsc_bldg_vehicledepot_player_02</c><c>1</c></Row><Row><c>cpgn_scorpion_cannonOnly</c><c>unsc_veh_scorpion_01</c><c>1</c></Row><Row><c>cpgn_warthog_canCapture</c><c>unsc_veh_warthog_01</c><c>1</c></Row><Row><c>cpgn_warthog_canRam</c><c>unsc_veh_warthog_01</c><c>1</c></Row><Row><c>unsc_Artilleryturret_upgrade</c><c>unsc_bldg_turret_01</c><c>1</c></Row><Row><c>unsc_dropwatchtower_upgrade</c><c>unsc_bldg_fieldArmory_01</c><c>1</c></Row><Row><c>unsc_dropturret_upgradeAI</c><c>unsc_bldg_turret_01</c><c>1</c></Row><Row><c>unsc_dropturret_upgradeAV</c><c>unsc_bldg_turret_01</c><c>1</c></Row><Row><c>unsc_dropturret_upgradeAA</c><c>unsc_bldg_turret_01</c><c>1</c></Row><Row><c>unsc_dropArtilleryturret_upgrade</c><c>unsc_bldg_turret_01</c><c>1</c></Row><Row><c>unsc_majorvanilla</c><c>unsc_air_frostraven_02</c><c>1</c></Row><Row><c>unsc_basic</c><c>unsc_bldg_barracks_player_01</c><c>1</c></Row><Row><c>rebel_supplypad_upgrade1</c><c>unsc_bldg_supplyPad_01</c><c>1</c></Row><Row><c>rebel_reactor_upgrade1</c><c>unsc_bldg_reactor_01</c><c>1</c></Row><Row><c>unsc_reactor_upgrade2</c><c>unsc_bldg_reactor_01</c><c>1</c></Row><Row><c>unsc_turret_upgradeAI_2</c><c>unsc_bldg_turret_01</c><c>1</c></Row><Row><c>unsc_turret_upgradeAV_2</c><c>unsc_bldg_turret_01</c><c>1</c></Row><Row><c>unsc_turret_upgradeAA_2</c><c>unsc_bldg_turret_01</c><c>1</c></Row><Row><c>unsc_siegeturret_upgrade</c><c>unsc_bldg_turret_01</c><c>1</c></Row><Row><c>unsc_turret_upgrade2</c><c>unsc_bldg_watchtower_01</c><c>1</c></Row><Row><c>Cutter_vanilla_upgrade</c><c>unsc_bldg_turret_01</c><c>1</c></Row><Row><c>unsc_bldg_upgradeCutter</c><c>unsc_bldg_turret_01</c><c>1</c></Row><Row><c>Forge_Flame_upgrade</c><c>unsc_bldg_turretAI_01</c><c>1</c></Row><Row><c>Forge_bldg_upgrade</c><c>unsc_bldg_turret_01</c><c>1</c></Row><Row><c>Rebel_bldg_upgrade</c><c>unsc_bldg_turret_01</c><c>1</c></Row><Row><c>rebel_rockets_upgrade</c><c>unsc_bldg_turretAA_01</c><c>1</c></Row><Row><c>Anders_Gauss_upgrade</c><c>unsc_bldg_turretAV_02</c><c>1</c></Row><Row><c>unsc_turret_upgradeAnders</c><c>unsc_bldg_turret_01</c><c>1</c></Row><Row><c>unsc_bldg_upgradeAnders</c><c>unsc_bldg_command_01</c><c>1</c></Row><Row><c>unsc_LOS_upgradeSerina</c><c>unsc_bldg_watchtower_01</c><c>1</c></Row><Row><c>Serina_Railgun_upgrade</c><c>unsc_bldg_turretAV_01</c><c>1</c></Row><Row><c>Unsc_ColossiDrop_upgrade1</c><c>unsc_bldg_fieldArmory_01</c><c>1</c></Row><Row><c>unsc_onitower_upgrade</c><c>unsc_bldg_fieldArmory_01</c><c>1</c></Row><Row><c>unsc_watchtower_upgrade</c><c>unsc_bldg_fieldArmory_01</c><c>1</c></Row><Row><c>unsc_policetower_upgrade</c><c>unsc_bldg_fieldArmory_01</c><c>1</c></Row><Row><c>unsc_turret_upgradeAI</c><c>unsc_bldg_turret_01</c><c>1</c></Row><Row><c>unsc_turret_upgradeAV</c><c>unsc_bldg_turret_01</c><c>1</c></Row><Row><c>unsc_turret_upgradeAA</c><c>unsc_bldg_turret_01</c><c>1</c></Row><Row><c>Unsc_Flare_upgrade1</c><c>unsc_bldg_fieldArmory_01</c><c>1</c></Row><Row><c>unsc_Cuttermarine_upgrade1</c><c>unsc_inf_marine_01</c><c>1</c></Row><Row><c>unsc_Cuttermarine_upgrade2</c><c>unsc_inf_marine_01</c><c>1</c></Row><Row><c>unsc_Cuttermarine_upgrade3</c><c>unsc_inf_marine_01</c><c>1</c></Row><Row><c>unsc_mongoose_upgrade1</c><c>unsc_veh_mongoose_01</c><c>1</c></Row><Row><c>unsc_mongoose_upgrade2</c><c>unsc_veh_mongoose_01</c><c>1</c></Row><Row><c>unsc_mongoose_upgrade3</c><c>unsc_veh_mongoose_01</c><c>1</c></Row><Row><c>unsc_jackrabbit_upgrade1</c><c>unsc_veh_jackrabbit_01</c><c>1</c></Row><Row><c>unsc_jackrabbit_upgrade2</c><c>unsc_veh_jackrabbit_01</c><c>1</c></Row><Row><c>unsc_jackrabbit_upgrade3</c><c>unsc_veh_jackrabbit_01</c><c>1</c></Row><Row><c>unsc_troophog_upgrade1</c><c>unsc_veh_warthogtroop_01</c><c>1</c></Row><Row><c>unsc_troophog_upgrade2</c><c>unsc_veh_warthogtroop_01</c><c>1</c></Row><Row><c>unsc_troophog_upgrade3</c><c>unsc_veh_warthogtroop_01</c><c>1</c></Row><Row><c>unsc_gausshog_upgrade1</c><c>unsc_veh_warthoggauss_01</c><c>1</c></Row><Row><c>unsc_gausshog_upgrade2</c><c>unsc_veh_warthoggauss_01</c><c>1</c></Row><Row><c>unsc_gausshog_upgrade3</c><c>unsc_veh_warthoggauss_01</c><c>1</c></Row><Row><c>unsc_wolverine_upgrade2</c><c>unsc_veh_wolverine_01</c><c>1</c></Row><Row><c>unsc_wolverine_upgrade3</c><c>unsc_veh_wolverine_01</c><c>1</c></Row><Row><c>unsc_wasp_upgrade2</c><c>unsc_air_wasp_01</c><c>1</c></Row><Row><c>unsc_wasp_upgrade3</c><c>unsc_air_wasp_01</c><c>1</c></Row><Row><c>unsc_elephant_upgrade1</c><c>unsc_veh_elephant_01</c><c>1</c></Row><Row><c>unsc_elephant_upgrade2</c><c>unsc_veh_elephant_01</c><c>1</c></Row><Row><c>unsc_elephant_upgrade3</c><c>unsc_veh_elephant_01</c><c>1</c></Row><Row><c>unsc_elephant_Forgeupgrade2</c><c>unsc_veh_elephantFlame_01</c><c>1</c></Row><Row><c>unsc_elephant_Forgeupgrade3</c><c>unsc_veh_elephantFlame_01</c><c>1</c></Row><Row><c>unsc_elephant_Serinaupgrade2</c><c>unsc_veh_elephantCryo_01</c><c>1</c></Row><Row><c>unsc_elephant_Serinaupgrade3</c><c>unsc_veh_elephantCryo_01</c><c>1</c></Row><Row><c>unsc_LeaderCutter</c><c>unsc_inf_marinearmored_01</c><c>1</c></Row><Row><c>unsc_LeaderForge</c><c>unsc_bldg_supplyPad_02</c><c>1</c></Row><Row><c>unsc_LeaderAnders</c><c>unsc_bldg_supplyPad_02</c><c>1</c></Row><Row><c>unsc_LeaderSerina</c><c>unsc_inf_marinegrenade_f_02</c><c>1</c></Row><Row><c>militia_basic</c><c>militia_bldg_command_02</c><c>1</c></Row></Table>
+	<Row><c>unsc_scorpioncryo_upgrade2</c><c>unsc_veh_scorpioncryo_01</c><c>1</c></Row><Row><c>unsc_scorpioncryo_upgrade3</c><c>unsc_veh_scorpioncryo_01</c><c>1</c></Row><Row><c>unsc_frostraven_upgradeOLD2</c><c>unsc_air_frostraven_01</c><c>1</c></Row><Row><c>unsc_frostraven_upgradeOLD3</c><c>unsc_air_frostraven_01</c><c>1</c></Row><Row><c>unsc_warthog_MVupgrade3</c><c>unsc_veh_warthog_01</c><c>1</c></Row><Row><c>rebel_spade_scavenge</c><c>unsc_bldg_vehicledepot_01</c><c>1</c></Row><Row><c>rebel_spade_salvage</c><c>unsc_bldg_vehicledepot_01</c><c>1</c></Row><Row><c>rebel_solenodon_scavenge</c><c>unsc_bldg_vehicledepot_01</c><c>1</c></Row><Row><c>rebel_solenodon_salvage</c><c>unsc_bldg_vehicledepot_01</c><c>1</c></Row><Row><c>rebel_warthog_scavenge</c><c>unsc_bldg_vehicledepot_01</c><c>1</c></Row><Row><c>rebel_warthog_salvage</c><c>unsc_bldg_vehicledepot_01</c><c>1</c></Row><Row><c>rebel_tiger_scavenge</c><c>unsc_bldg_vehicledepot_01</c><c>1</c></Row><Row><c>rebel_tiger_salvage</c><c>unsc_bldg_vehicledepot_01</c><c>1</c></Row><Row><c>rebel_scorpionheavy_scavenge</c><c>unsc_bldg_vehicledepot_01</c><c>1</c></Row><Row><c>rebel_scorpionheavy_salvage</c><c>unsc_bldg_vehicledepot_01</c><c>1</c></Row><Row><c>rebel_viper_scavenge</c><c>unsc_bldg_vehicledepot_01</c><c>1</c></Row><Row><c>rebel_viper_salvage</c><c>unsc_bldg_vehicledepot_01</c><c>1</c></Row><Row><c>rebel_hornet_scavenge</c><c>unsc_bldg_airPad_01</c><c>1</c></Row><Row><c>rebel_hornet_salvage</c><c>unsc_bldg_airPad_01</c><c>1</c></Row><Row><c>unsc_sabre_upgrade1</c><c>unsc_air_sabre_01</c><c>1</c></Row><Row><c>rebel_vulture_scavenge</c><c>unsc_bldg_airPad_01</c><c>1</c></Row><Row><c>rebel_vulture_salvage</c><c>unsc_bldg_airPad_01</c><c>1</c></Row><Row><c>rebel_pelican_scavenge</c><c>unsc_bldg_fieldArmory_01</c><c>1</c></Row><Row><c>rebel_pelican_salvage</c><c>unsc_bldg_fieldArmory_01</c><c>1</c></Row><Row><c>unsc_forgewarthog_upgrade1</c><c>unsc_bldg_vehicledepot_01</c><c>1</c></Row><Row><c>unsc_pelican_upgrade1</c><c>unsc_air_pelican_01</c><c>1</c></Row><Row><c>unsc_pelican_upgrade2</c><c>unsc_air_pelican_01</c><c>1</c></Row><Row><c>fld_rhinodillo_upgrade1</c><c>fld_inf_rhinodillo_01</c><c>1</c></Row><Row><c>fld_rhinodillo_upgrade2</c><c>fld_inf_rhinodillo_01</c><c>1</c></Row><Row><c>fld_rhinodillo_upgrade3</c><c>fld_inf_rhinodillo_01</c><c>1</c></Row><Row><c>rebel_spade_upgrade1</c><c>rebel_veh_spade_01</c><c>1</c></Row><Row><c>rebel_spade_upgrade2</c><c>rebel_veh_spade_01</c><c>1</c></Row><Row><c>rebel_spade_upgrade3</c><c>rebel_veh_spade_01</c><c>1</c></Row><Row><c>rebel_spade_upgrade4</c><c>rebel_veh_spade_01</c><c>1</c></Row><Row><c>rebel_viper_upgrade2</c><c>rebel_veh_viper_01</c><c>1</c></Row><Row><c>rebel_viper_upgrade3</c><c>rebel_veh_viper_01</c><c>1</c></Row><Row><c>rebel_solenodon_upgrade1</c><c>rebel_veh_solenodon_01</c><c>1</c></Row><Row><c>rebel_solenodon_upgrade2</c><c>rebel_veh_solenodon_01</c><c>1</c></Row><Row><c>rebel_solenodon_upgrade3</c><c>rebel_veh_solenodon_01</c><c>1</c></Row><Row><c>rebel_tiger_upgrade2</c><c>rebel_veh_tiger_01</c><c>1</c></Row><Row><c>rebel_tiger_upgrade3</c><c>rebel_veh_tiger_01</c><c>1</c></Row><Row><c>rebel_leopard_upgrade</c><c>rebel_veh_tiger_01</c><c>1</c></Row><Row><c>rebel_rhino_upgrade2</c><c>rebel_veh_rhino_01</c><c>1</c></Row><Row><c>rebel_rhino_upgrade3</c><c>rebel_veh_rhino_01</c><c>1</c></Row><Row><c>unsc_rhino_upgrade2</c><c>unsc_veh_rhino_01</c><c>1</c></Row><Row><c>unsc_rhino_upgrade3</c><c>unsc_veh_rhino_01</c><c>1</c></Row><Row><c>unsc_anders_upgrade1</c><c>cpgn_npc_anders_02</c><c>1</c></Row><Row><c>unsc_anders_upgrade2</c><c>cpgn_npc_anders_02</c><c>1</c></Row><Row><c>unsc_anders_upgrade3</c><c>cpgn_npc_anders_02</c><c>1</c></Row><Row><c>cpgn_grant_rhino</c><c>cpgn_veh_scn06Rhino_01</c><c>1</c></Row><Row><c>cpgn_cutters_baseSizeBonus</c><c>unsc_bldg_command_02</c><c>1</c></Row><Row><c>cpgn_grant_elephant</c><c>unsc_bldg_command_01</c><c>1</c></Row><Row><c>cpgn_grant_gremlin</c><c>unsc_bldg_command_01</c><c>1</c></Row><Row><c>cpgn_grant_cyclops</c><c>unsc_bldg_command_01</c><c>1</c></Row><Row><c>cpgn_grant_hawk</c><c>unsc_bldg_airPad_01</c><c>1</c></Row><Row><c>cpgn_grant_grizzly</c><c>unsc_bldg_vehicledepot_player_02</c><c>1</c></Row><Row><c>cpgn_scorpion_cannonOnly</c><c>unsc_veh_scorpion_01</c><c>1</c></Row><Row><c>cpgn_warthog_canCapture</c><c>unsc_veh_warthog_01</c><c>1</c></Row><Row><c>cpgn_warthog_canRam</c><c>unsc_veh_warthog_01</c><c>1</c></Row><Row><c>unsc_Artilleryturret_upgrade</c><c>unsc_bldg_turret_01</c><c>1</c></Row><Row><c>unsc_dropwatchtower_upgrade</c><c>unsc_bldg_fieldArmory_01</c><c>1</c></Row><Row><c>unsc_dropturret_upgradeAI</c><c>unsc_bldg_turret_01</c><c>1</c></Row><Row><c>unsc_dropturret_upgradeAV</c><c>unsc_bldg_turret_01</c><c>1</c></Row><Row><c>unsc_dropturret_upgradeAA</c><c>unsc_bldg_turret_01</c><c>1</c></Row><Row><c>unsc_dropArtilleryturret_upgrade</c><c>unsc_bldg_turret_01</c><c>1</c></Row><Row><c>unsc_majorvanilla</c><c>unsc_air_frostraven_02</c><c>1</c></Row><Row><c>unsc_basic</c><c>unsc_bldg_barracks_player_01</c><c>1</c></Row><Row><c>rebel_supplypad_upgrade1</c><c>unsc_bldg_supplyPad_01</c><c>1</c></Row><Row><c>rebel_reactor_upgrade1</c><c>unsc_bldg_reactor_01</c><c>1</c></Row><Row><c>unsc_turret_upgradeAI_2</c><c>unsc_bldg_turret_01</c><c>1</c></Row><Row><c>unsc_turret_upgradeAV_2</c><c>unsc_bldg_turret_01</c><c>1</c></Row><Row><c>unsc_turret_upgradeAA_2</c><c>unsc_bldg_turret_01</c><c>1</c></Row><Row><c>unsc_siegeturret_upgrade</c><c>unsc_bldg_turret_01</c><c>1</c></Row><Row><c>unsc_turret_upgrade2</c><c>unsc_bldg_watchtower_01</c><c>1</c></Row><Row><c>Cutter_vanilla_upgrade</c><c>unsc_bldg_turret_01</c><c>1</c></Row><Row><c>unsc_bldg_upgradeCutter</c><c>unsc_bldg_turret_01</c><c>1</c></Row><Row><c>Forge_Flame_upgrade</c><c>unsc_bldg_turretAI_01</c><c>1</c></Row><Row><c>Forge_bldg_upgrade</c><c>unsc_bldg_turret_01</c><c>1</c></Row><Row><c>Rebel_bldg_upgrade</c><c>unsc_bldg_turret_01</c><c>1</c></Row><Row><c>rebel_rockets_upgrade</c><c>unsc_bldg_turretAA_01</c><c>1</c></Row><Row><c>Anders_Gauss_upgrade</c><c>unsc_bldg_turretAV_02</c><c>1</c></Row><Row><c>unsc_turret_upgradeAnders</c><c>unsc_bldg_turret_01</c><c>1</c></Row><Row><c>unsc_bldg_upgradeAnders</c><c>unsc_bldg_command_01</c><c>1</c></Row><Row><c>unsc_LOS_upgradeSerina</c><c>unsc_bldg_watchtower_01</c><c>1</c></Row><Row><c>Serina_Railgun_upgrade</c><c>unsc_bldg_turretAV_01</c><c>1</c></Row><Row><c>Unsc_ColossiDrop_upgrade1</c><c>unsc_bldg_fieldArmory_01</c><c>1</c></Row><Row><c>unsc_onitower_upgrade</c><c>unsc_bldg_fieldArmory_01</c><c>1</c></Row><Row><c>unsc_watchtower_upgrade</c><c>unsc_bldg_fieldArmory_01</c><c>1</c></Row><Row><c>unsc_policetower_upgrade</c><c>unsc_bldg_fieldArmory_01</c><c>1</c></Row><Row><c>unsc_turret_upgradeAI</c><c>unsc_bldg_turret_01</c><c>1</c></Row><Row><c>unsc_turret_upgradeAV</c><c>unsc_bldg_turret_01</c><c>1</c></Row><Row><c>unsc_turret_upgradeAA</c><c>unsc_bldg_turret_01</c><c>1</c></Row><Row><c>Unsc_Flare_upgrade1</c><c>unsc_bldg_fieldArmory_01</c><c>1</c></Row><Row><c>unsc_mongoose_upgrade1</c><c>unsc_veh_mongoose_01</c><c>1</c></Row><Row><c>unsc_mongoose_upgrade2</c><c>unsc_veh_mongoose_01</c><c>1</c></Row><Row><c>unsc_mongoose_upgrade3</c><c>unsc_veh_mongoose_01</c><c>1</c></Row><Row><c>unsc_jackrabbit_upgrade1</c><c>unsc_veh_jackrabbit_01</c><c>1</c></Row><Row><c>unsc_jackrabbit_upgrade2</c><c>unsc_veh_jackrabbit_01</c><c>1</c></Row><Row><c>unsc_jackrabbit_upgrade3</c><c>unsc_veh_jackrabbit_01</c><c>1</c></Row><Row><c>unsc_troophog_upgrade1</c><c>unsc_veh_warthogtroop_01</c><c>1</c></Row><Row><c>unsc_troophog_upgrade2</c><c>unsc_veh_warthogtroop_01</c><c>1</c></Row><Row><c>unsc_troophog_upgrade3</c><c>unsc_veh_warthogtroop_01</c><c>1</c></Row><Row><c>unsc_gausshog_upgrade1</c><c>unsc_veh_warthoggauss_01</c><c>1</c></Row><Row><c>unsc_gausshog_upgrade2</c><c>unsc_veh_warthoggauss_01</c><c>1</c></Row><Row><c>unsc_gausshog_upgrade3</c><c>unsc_veh_warthoggauss_01</c><c>1</c></Row><Row><c>unsc_wasp_upgrade2</c><c>unsc_air_wasp_01</c><c>1</c></Row><Row><c>unsc_wasp_upgrade3</c><c>unsc_air_wasp_01</c><c>1</c></Row><Row><c>unsc_elephant_upgrade1</c><c>unsc_veh_elephant_01</c><c>1</c></Row><Row><c>unsc_elephant_upgrade2</c><c>unsc_veh_elephant_01</c><c>1</c></Row><Row><c>unsc_elephant_upgrade3</c><c>unsc_veh_elephant_01</c><c>1</c></Row><Row><c>unsc_elephant_Forgeupgrade2</c><c>unsc_veh_elephantFlame_01</c><c>1</c></Row><Row><c>unsc_elephant_Forgeupgrade3</c><c>unsc_veh_elephantFlame_01</c><c>1</c></Row><Row><c>unsc_elephant_Serinaupgrade2</c><c>unsc_veh_elephantCryo_01</c><c>1</c></Row><Row><c>unsc_elephant_Serinaupgrade3</c><c>unsc_veh_elephantCryo_01</c><c>1</c></Row><Row><c>unsc_LeaderCutter</c><c>unsc_inf_marinearmored_01</c><c>1</c></Row><Row><c>unsc_LeaderForge</c><c>unsc_bldg_supplyPad_02</c><c>1</c></Row><Row><c>unsc_LeaderAnders</c><c>unsc_bldg_supplyPad_02</c><c>1</c></Row><Row><c>unsc_LeaderSerina</c><c>unsc_inf_marinegrenade_f_02</c><c>1</c></Row><Row><c>militia_basic</c><c>militia_bldg_command_02</c><c>1</c></Row></Table>
 
 </Tables>
