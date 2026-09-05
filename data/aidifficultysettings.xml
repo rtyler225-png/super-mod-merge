@@ -78,11 +78,11 @@
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="EconMultiplier" InputLabel="Difficulty" OutputLabel="Multiplier" Comment="1.00 = no econ change, 0.0 means no supplies, 2.0 means double normal supplies">
 		<PiecewiseFunc>
-			<DataPoint Input="0" Output="3.0" Comment="Easy: +200% bonus (3.0x normal supplies)" />
-			<DataPoint Input="0.34" Output="3.0" Comment="Normal: +200% bonus (3.0x normal supplies)" />
-			<DataPoint Input="0.67" Output="3.0" Comment="Heroic: +200% bonus (3.0x normal supplies)" />
-			<DataPoint Input="1" Output="4.25" Comment="Legendary: +200% bonus on top of 125% boost (4.25x supplies)" />
-			<DataPoint Input="2" Output="5.25" Comment="Hyper-Legendary: +200% bonus on top of 225% boost (5.25x supplies)" />
+			<DataPoint Input="0" Output="4.2" Comment="Easy: +320% bonus (4.2x normal supplies)" />
+			<DataPoint Input="0.34" Output="4.2" Comment="Normal: +320% bonus (4.2x normal supplies)" />
+			<DataPoint Input="0.67" Output="4.2" Comment="Heroic: +320% bonus (4.2x normal supplies)" />
+			<DataPoint Input="1" Output="5.95" Comment="Legendary: 5.95x normal supplies" />
+			<DataPoint Input="2" Output="7.35" Comment="Hyper-Legendary: 7.35x normal supplies" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DeathMatchMultiplier" InputLabel="Difficulty" OutputLabel="Multiplier" Comment="1.00 = normal speed, 0.0 (illegal!!) infinitely slow training/building, 2.0 means double speed">
