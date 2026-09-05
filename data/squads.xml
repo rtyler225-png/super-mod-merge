@@ -28437,7 +28437,6 @@
 		<RolloverTextID>90049</RolloverTextID>
 		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\unit\forfaction_air_protector_01</PortraitIcon>
 		<RoleTextID>24167</RoleTextID>
-		<PortraitIcon>ui\flash\shared\textures\forerunner\icons\unit\forfaction_air_protector_01</PortraitIcon>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<MinimapScale>1</MinimapScale>
 		<Birth spawnpoint="bone_spawnPoint03">FlyIn</Birth>
