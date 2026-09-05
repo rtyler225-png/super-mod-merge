@@ -521,7 +521,7 @@
     <RepairDelay>20</RepairDelay>
     <RepairCost Type="Supplies">35</RepairCost>
     <RepairTime>30</RepairTime>
-    <Pop Type="Unit" Max="99">40</Pop>
+    <Pop Type="Unit" Max="8000">120</Pop>
     <Pop Type="Knight" Max="3">3</Pop>
     <Pop Type="Leader" Max="1">1</Pop>
     <Pop Type="Temple" Max="1">1</Pop>

@@ -67,6 +67,7 @@
     <ObjectType>AirCraft</ObjectType>
     <ObjectType>Unit</ObjectType>
     <ObjectType>SpartanBoardFlying</ObjectType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Garrison</ObjectType>
     <ObjectType>_Garrison</ObjectType>
     <ObjectType>CanBeProtected</ObjectType>
@@ -154,6 +155,7 @@
     <ObjectType>SpartanBoardFlying</ObjectType>
     <ObjectType>StrikeAirCraft</ObjectType>
     <ObjectType>AirCraft</ObjectType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Garrison</ObjectType>
     <ObjectType>_Garrison</ObjectType>
     <ObjectType>CanCryo</ObjectType>
@@ -1386,6 +1388,7 @@
     <ObjectType>CanBeProtected</ObjectType>
     <ObjectType>CyclopsRepairable</ObjectType>
     <ObjectType>HighValueUnit</ObjectType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Garrison</ObjectType>
     <ObjectType>_Garrison</ObjectType>
     <ObjectType>CanCryo</ObjectType>
@@ -1473,6 +1476,7 @@
     <ObjectType>EmpEffectNormal</ObjectType>
     <ObjectType>CanBeProtected</ObjectType>
     <ObjectType>CyclopsRepairable</ObjectType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Garrison</ObjectType>
     <ObjectType>_Garrison</ObjectType>
     <ObjectType>HighValueUnit</ObjectType>
@@ -2436,6 +2440,7 @@
     <Sound Type="ImpactDeath">play_impact_death_banshee</Sound>
     <ExtendedSoundBank>xtnd_ui_vampire.bnk</ExtendedSoundBank>
     <DamageType direction="Full">HeavyAir</DamageType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>HiddenFromStats</ObjectType>
     <ObjectType>Covenant</ObjectType>
     <ObjectType>Flying</ObjectType>
@@ -9184,6 +9189,7 @@
     <DamageType direction="Full">Medium_Vehicle</DamageType>
     <Contain>Transportable</Contain>
     <MaxContained>6</MaxContained>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Military</ObjectType>
     <ObjectType>Covenant</ObjectType>
     <ObjectType>Flying</ObjectType>
@@ -27880,7 +27886,7 @@
     <RoleTextID>516</RoleTextID>
     <MovementType>Land</MovementType>
     <Hitpoints>12000</Hitpoints>
-    <AttackGradeDPS>384.2</AttackGradeDPS>
+    <AttackGradeDPS>750</AttackGradeDPS>
     <CombatValue>35</CombatValue>
     <LOS>80</LOS>
     <BuildPoints>12.5</BuildPoints>
@@ -27951,7 +27957,7 @@
     <RoleTextID>516</RoleTextID>
     <MovementType>Land</MovementType>
     <Hitpoints>8000</Hitpoints>
-    <AttackGradeDPS>384.2</AttackGradeDPS>
+    <AttackGradeDPS>750</AttackGradeDPS>
     <CombatValue>35</CombatValue>
     <LOS>80</LOS>
     <BuildPoints>12.5</BuildPoints>
@@ -28018,7 +28024,7 @@
     <RoleTextID>516</RoleTextID>
     <MovementType>Land</MovementType>
     <Hitpoints>12000</Hitpoints>
-    <AttackGradeDPS>384.2</AttackGradeDPS>
+    <AttackGradeDPS>750</AttackGradeDPS>
     <CombatValue>35</CombatValue>
     <LOS>80</LOS>
     <BuildPoints>12.5</BuildPoints>
@@ -28171,7 +28177,7 @@
     <RolloverTextID>24920</RolloverTextID>
     <MovementType>Land</MovementType>
     <Hitpoints>12000</Hitpoints>
-    <AttackGradeDPS>384.2</AttackGradeDPS>
+    <AttackGradeDPS>750</AttackGradeDPS>
     <Cost ResourceType="Supplies">500</Cost>
     <Cost ResourceType="Power">2</Cost>
     <CombatValue>35</CombatValue>
@@ -32577,6 +32583,7 @@
     <ObjectType>AirCraft</ObjectType>
     <ObjectType>Unit</ObjectType>
     <ObjectType>SpartanBoardFlying</ObjectType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Garrison</ObjectType>
     <ObjectType>_Garrison</ObjectType>
     <ObjectType>CanBeProtected</ObjectType>
@@ -32745,6 +32752,7 @@
     <ObjectType>SpartanBoardFlying</ObjectType>
     <ObjectType>StrikeAirCraft</ObjectType>
     <ObjectType>AirCraft</ObjectType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Garrison</ObjectType>
     <ObjectType>_Garrison</ObjectType>
     <ObjectType>CanCryo</ObjectType>
@@ -32811,6 +32819,7 @@
     <Sound Type="StopMove">stop_move_spirit</Sound>
     <Sound Type="Death">play_wraith_death</Sound>
     <DamageType direction="Full">HeavyAir</DamageType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Military</ObjectType>
     <ObjectType>Covenant</ObjectType>
     <ObjectType>Flying</ObjectType>
@@ -32875,6 +32884,7 @@
     <Sound Type="Death">play_wraith_death</Sound>
     <DamageType direction="Full">HeavyAir</DamageType>
     <DeathFadeDelayTime>0</DeathFadeDelayTime>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Military</ObjectType>
     <ObjectType>Covenant</ObjectType>
     <ObjectType>Flying</ObjectType>
@@ -39688,6 +39698,8 @@
     <Command Type="BuildOther" Position="0" AutoClose="true">survival_cov_bldg_builder_03</Command>
     <Command Type="BuildOther" Position="0" AutoClose="true">survival_unsc_bldg_command_03</Command>
     <Command Type="BuildOther" Position="0" AutoClose="true">militia_bldg_command_01</Command>
+    <Command Type="BuildOther" Position="0" AutoClose="true">forfaction_bldg_base_01</Command>
+    <Command Type="BuildOther" Position="1" AutoClose="true">forfaction_bldg_healspire_01</Command>
     <ObjectType>PowerSocketBase</ObjectType>
     <ObjectType>_Settlement</ObjectType>
     <ObjectType>CanCryo</ObjectType>
@@ -54519,6 +54531,7 @@
     <ObjectType>AirCraft</ObjectType>
     <ObjectType>SpartanBoardFlying</ObjectType>
     <ObjectType>EmpEffectNormal</ObjectType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Garrison</ObjectType>
     <ObjectType>_Garrison</ObjectType>
     <ObjectType>CanBeProtected</ObjectType>
@@ -54584,6 +54597,7 @@
     <Sound Type="StopMove">stop_move_pelican</Sound>
     <Sound Type="ImpactDeath">play_impact_death_pelican</Sound>
     <DamageType direction="Full">HeavyAir</DamageType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Military</ObjectType>
     <ObjectType>Unsc</ObjectType>
     <ObjectType>Flying</ObjectType>
@@ -55483,6 +55497,7 @@
     <ObjectType>Unit</ObjectType>
     <ObjectType>AirCraft</ObjectType>
     <ObjectType>SpartanBoardFlying</ObjectType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Garrison</ObjectType>
     <ObjectType>_Garrison</ObjectType>
     <ObjectType>CanBeProtected</ObjectType>
@@ -55549,6 +55564,7 @@
     <Sound Type="StopMove">stop_move_pelican</Sound>
     <Sound Type="ImpactDeath">play_impact_death_pelican</Sound>
     <DamageType direction="Full">HeavyAir</DamageType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Military</ObjectType>
     <ObjectType>Unsc</ObjectType>
     <ObjectType>Flying</ObjectType>
@@ -55619,6 +55635,7 @@
     <Sound Type="ImpactDeath">play_impact_death_pelican</Sound>
     <DamageType direction="Full">HeavyAir</DamageType>
     <Contain>Transportable</Contain>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Military</ObjectType>
     <ObjectType>Unsc</ObjectType>
     <ObjectType>Flying</ObjectType>
@@ -74209,6 +74226,7 @@
     <DamageType direction="Full">HeavyAir</DamageType>
     <Contain>Transportable</Contain>
     <MaxContained>12</MaxContained>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Military</ObjectType>
     <ObjectType>Covenant</ObjectType>
     <ObjectType>Flying</ObjectType>
@@ -74326,6 +74344,7 @@
     <ObjectType>CanCryo</ObjectType>
     <ObjectType>Unit</ObjectType>
     <ObjectType>_Transporter</ObjectType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Garrison</ObjectType>
     <ObjectType>_Garrison</ObjectType>
     <SurfaceType>Metal</SurfaceType>
@@ -74492,6 +74511,7 @@
     <ObjectType>CanCryo</ObjectType>
     <ObjectType>Unit</ObjectType>
     <ObjectType>_Transporter</ObjectType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Garrison</ObjectType>
     <ObjectType>_Garrison</ObjectType>
     <SurfaceType>Metal</SurfaceType>
@@ -80362,7 +80382,7 @@
     <RolloverTextID>24920</RolloverTextID>
     <MovementType>Land</MovementType>
     <Hitpoints>12000</Hitpoints>
-    <AttackGradeDPS>384.2</AttackGradeDPS>
+    <AttackGradeDPS>750</AttackGradeDPS>
     <CombatValue>35</CombatValue>
     <LOS>80</LOS>
     <BuildPoints>12.5</BuildPoints>
@@ -82681,6 +82701,8 @@
     <Command Type="BuildOther" Position="1" AutoClose="true">ban_bldg_turretAI_01</Command>
     <Command Type="BuildOther" Position="2" AutoClose="true">ban_bldg_turretAV_01</Command>
     <Command Type="BuildOther" Position="3" AutoClose="true">ban_bldg_turretAA_01</Command>
+    <Command Type="BuildOther" Position="0" AutoClose="true">forfaction_bldg_turret_01</Command>
+    <Command Type="BuildOther" Position="1" AutoClose="true">forfaction_bldg_beamTurret_01</Command>
     <ObjectType>TurretSocket</ObjectType>
     <ObjectType>_TurretSocket</ObjectType>
     <Flag>IgnoreSquadAI</Flag>
@@ -83886,6 +83908,12 @@
     <Command Type="BuildOther" Position="6" AutoClose="true">militia_bldg_vehicledepot_01</Command>
     <Command Type="BuildOther" Position="5" AutoClose="true">militia_bldg_airpad_01</Command>
     <Command Type="BuildOther" Position="3" AutoClose="true">militia_bldg_fieldarmory_01</Command>
+    <Command Type="BuildOther" Position="1" AutoClose="true">forfaction_bldg_supplypad_01</Command>
+    <Command Type="BuildOther" Position="2" AutoClose="true">forfaction_bldg_reactor_01</Command>
+    <Command Type="BuildOther" Position="3" AutoClose="true">forfaction_bldg_fieldArmory_01</Command>
+    <Command Type="BuildOther" Position="7" AutoClose="true">forfaction_bldg_barracks_01</Command>
+    <Command Type="BuildOther" Position="6" AutoClose="true">forfaction_bldg_vehicledepot_01</Command>
+    <Command Type="BuildOther" Position="5" AutoClose="true">forfaction_bldg_airPad_01</Command>
     <ChildObjects>
       <Object Type="Rally" Offset="40,0,0" Rotation="0">sys_rallystart_01</Object>
     </ChildObjects>
@@ -83974,6 +84002,12 @@
     <Command Type="BuildOther" Position="6" AutoClose="true">militia_bldg_vehicledepot_01</Command>
     <Command Type="BuildOther" Position="5" AutoClose="true">militia_bldg_airpad_01</Command>
     <Command Type="BuildOther" Position="3" AutoClose="true">militia_bldg_fieldarmory_01</Command>
+    <Command Type="BuildOther" Position="1" AutoClose="true">forfaction_bldg_supplypad_01</Command>
+    <Command Type="BuildOther" Position="2" AutoClose="true">forfaction_bldg_reactor_01</Command>
+    <Command Type="BuildOther" Position="3" AutoClose="true">forfaction_bldg_fieldArmory_01</Command>
+    <Command Type="BuildOther" Position="7" AutoClose="true">forfaction_bldg_barracks_01</Command>
+    <Command Type="BuildOther" Position="6" AutoClose="true">forfaction_bldg_vehicledepot_01</Command>
+    <Command Type="BuildOther" Position="5" AutoClose="true">forfaction_bldg_airPad_01</Command>
     <ObjectType>BuildingSocket</ObjectType>
     <ObjectType>_BuildingSocket</ObjectType>
     <Flag>IgnoreSquadAI</Flag>
@@ -90381,6 +90415,7 @@
     <ObjectType>Military</ObjectType>
     <ObjectType>Flying</ObjectType>
     <ObjectType>Unit</ObjectType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Garrison</ObjectType>
     <ObjectType>_Garrison</ObjectType>
     <SurfaceType>Metal</SurfaceType>
@@ -90441,6 +90476,7 @@
     <ObjectType>Flying</ObjectType>
     <ObjectType>Unit</ObjectType>
     <ObjectType>SpartanBoardFlying</ObjectType>
+    <ObjectType>ImmuneToChangeOwner</ObjectType>
     <ObjectType>Garrison</ObjectType>
     <ObjectType>_Garrison</ObjectType>
     <ObjectType>CanBeProtected</ObjectType>

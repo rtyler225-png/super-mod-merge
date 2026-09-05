@@ -3,20 +3,20 @@
 	<Weapon>
 		<Name>SporeCloud</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>10</DamagePerSecond>
+		<DamagePerSecond>75</DamagePerSecond>
 		<WeaponType>InfectionSpore</WeaponType>
 		<Projectile>fx_proj_shotgun_01</Projectile>
 		<MaxVelocityLead>18</MaxVelocityLead>
-		<MaxRange>25</MaxRange>
+		<MaxRange>40</MaxRange>
 		<Accuracy>1</Accuracy>
 		<MaxDeviation>0</MaxDeviation>
 		<MovingAccuracy>1</MovingAccuracy>
 		<MovingMaxDeviation>0</MovingMaxDeviation>
 		<TargetPriority type="Infantry">25</TargetPriority>
 		<TargetPriority type="GroundVehicle">15</TargetPriority>
-		<TargetPriority type="Building">-3</TargetPriority>
 		<TargetPriority type="Flying">15</TargetPriority>
 		<TargetPriority type="Aircraft">15</TargetPriority>
+		<TargetPriority type="Building">-5</TargetPriority>
 	</Weapon>
 	<Weapon>
 		<Name>FloodInfection</Name>
@@ -27,7 +27,7 @@
 		<WeaponType>InfectionForm</WeaponType>
 		<TargetPriority type="Infantry">25</TargetPriority>
 		<TargetPriority type="GroundVehicle">1</TargetPriority>
-		<TargetPriority type="Building">-3</TargetPriority>
+		<TargetPriority type="Building">-5</TargetPriority>
 		<TargetPriority type="Flying">-10</TargetPriority>
 		<PreAttackCooldownMin>0</PreAttackCooldownMin>
 		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
@@ -41,7 +41,7 @@
 		<WeaponType>InfectionForm</WeaponType>
 		<TargetPriority type="Infantry">25</TargetPriority>
 		<TargetPriority type="GroundVehicle">1</TargetPriority>
-		<TargetPriority type="Building">-3</TargetPriority>
+		<TargetPriority type="Building">-5</TargetPriority>
 		<TargetPriority type="Flying">-10</TargetPriority>
 		<PreAttackCooldownMin>0</PreAttackCooldownMin>
 		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
@@ -54,20 +54,16 @@
 		<WeaponType>InfectionForm</WeaponType>
 		<TargetPriority type="Infantry">25</TargetPriority>
 		<TargetPriority type="GroundVehicle">1</TargetPriority>
-		<TargetPriority type="Building">-3</TargetPriority>
+		<TargetPriority type="Building">-5</TargetPriority>
 		<TargetPriority type="Flying">-10</TargetPriority>
 	</Weapon>
 	<Action>
 		<Name>SporeCloudAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
 		<Anim>MeleeAttack</Anim>
 		<Weapon>SporeCloud</Weapon>
-		<MainAttack />
 		<Infection />
-		<DontCheckOrientTolerance />
-		<DisableAttackWaitTimer />
-		<PersistBetweenOpps />
+		<MainAttack />
 		<FindBetterAction />
 	</Action>
 	<Action>
@@ -142,35 +138,9 @@
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<TargetType>Infantry</TargetType>
 			<Action>SporeCloudAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
 		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>GroundVehicle</TargetType>
-			<Action>SporeCloudAttackAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>Flying</TargetType>
-			<Action>SporeCloudAttackAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>HardInfection</TargetType>
-			<Action>LesserFloodInfectionAttackAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>EasyInfection</TargetType>
-			<Action>FloodInfectionAttackAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>NonFlying</TargetType>
-			<Action>FloodMeleeAttackAction</Action>
-		</TargetRule>
-		<PersistentAction>SporeCloudAttackAction</PersistentAction>
 		<PersistentAction>GaggleMove</PersistentAction>
 	</Tactic>
 </TacticData>
