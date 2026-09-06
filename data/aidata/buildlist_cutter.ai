@@ -17,7 +17,13 @@
 		<Row><c>unsc_bldg_supplypad_01</c><c>2</c><c>1</c></Row>
 		<Row><c>unsc_bldg_barracks_01</c><c>1</c><c>1</c></Row>
 		<Row><c>unsc_bldg_vehicledepot_01</c><c>1</c><c>1</c></Row>
-		<Row><c>unsc_bldg_reactor_01</c><c>1</c><c>1</c></Row>
+		<!-- TWO reactors at base 1, not one. Power is a separate stock that only reactors -->
+		<!-- generate, and almost the whole tech list costs 1-4 Power - including the very first -->
+		<!-- row, unsc_supplypad_upgrade1. Trigger 2277 refuses any tech bid it cannot pay the -->
+		<!-- Power for, so on one reactor the AI researched a single tech in an entire match -->
+		<!-- despite banking 69k supplies. Base 1 has 7 sockets: 2 pads, barracks, depot, -->
+		<!-- 2 reactors, Field Armory. Air Pad and extra production come from expansions. -->
+		<Row><c>unsc_bldg_reactor_01</c><c>2</c><c>1</c></Row>
 		<Row><c>unsc_bldg_supplypad_02</c><c>2</c><c>1</c></Row>
 		<!-- Only building that can research unsc_tech_reinforcements (120 -> 280 pop cap). -->
 		<Row><c>unsc_bldg_fieldArmory_01</c><c>1</c><c>1</c></Row>

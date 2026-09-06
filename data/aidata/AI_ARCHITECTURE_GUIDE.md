@@ -126,7 +126,16 @@ Group 28, roughly every 5 seconds:
 > [!IMPORTANT]
 > **The only scoring criterion is "fewest enemy squads within 120". There is no distance term.** Distance is a pure pass/fail leash in `Trigger 2068`, and `MaxBaseExpansionRange` shipped at **2000** - far larger than any other radius the script uses (enemy check 120, mission `LeashDist` 200, `GroupProximityRadius` 100, base-exists check 20). At 2000 the leash never rejects anything, so the AI would happily pick the least-guarded settlement on the far side of the map, next to the enemy, over a closer contested one.
 >
-> Set to **600** here. This is the dial for expansion proximity: lower it if the AI still reaches too far, raise it if it stops expanding. The failure mode of going too low is that no candidate passes, `AllowedBaseFound` stays false, and the AI stops claiming bases entirely.
+> **Left at the stock 2000.** It was tried at 600 and that failure mode landed immediately: in a Heroic 1v1 where the human deliberately took no expansions, the AI claimed **one base all match**, against two or three at 2000. No candidate passed the leash, `AllowedBaseFound` stayed false, and base claiming shut off. Every other installed mod also ships 2000.
+>
+> The occasional cross-map grab is the lesser problem. If it needs solving, the fix is to make the leash **scale with `NumMyBases`** rather than to pick a smaller constant, so reach grows as the AI expands - but note `Trigger 1920` measures from `FirstBaseLocation`, which `Trigger 93` writes once at init, so that needs added effects rather than a value change.
+
+### D2b. Power starves the tech manager on one reactor
+
+Power is a separate stock that only reactors generate, and almost the whole tech list costs Power - including the very first row, `unsc_supplypad_upgrade1` (1 Power), and the reinforcement chain (0/1/2/3). `Trigger 2277 "Do we have enough power"` refuses any tech bid the AI cannot pay the Power for, sending it to `Trigger 2270` to try the next row.
+
+> [!CAUTION]
+> With a single reactor at base 1 the AI researched **one tech in an entire match** while banking 69,000 supplies. No reinforcements meant no pop growth, and no unit upgrades meant its army lost fights it should have won - 55 squads built for 5 kills. Budget **two reactors** at base 1. A Fortress has 7 sockets: 2 supply pads, Barracks, Vehicle Depot, 2 reactors, Field Armory. Air Pad and extra production come from expansions.
 
 ### D3. The base-secure escort drains the whole army
 
