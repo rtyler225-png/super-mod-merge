@@ -72,6 +72,36 @@ All AI strategy tables reside as XML files under `data/aidata/`.
 - **Porting the baseline**: every squad in Cutter's `Standard` table trains at the **generic** buildings (`unsc_bldg_barracks_01`, `unsc_bldg_vehicledepot_01`, `unsc_bldg_airPad_01`). The leader-variant buildings have gaps - `unsc_bldg_vehicledepotSerina_01` has no Scorpion, `unsc_bldg_vehicledepotForge_01` has no Warthog or Wolverine, and the Anders and Serina barracks have no Sniper or Flamer. When copying this table to another UNSC leader, keep that leader's build list on the generic production protos or those rows go silently dead.
 - **Universal UNSC Baseline**: The `"Standard"` baseline train list is designed to use **100% generic universal UNSC units** (Marines, Snipers, Rockets, Hellbringers, Medics, Scorpions, Warthogs, Cobras, Wolverines, Hornets, Pelicans) and omits leader-specific heroes (e.g. Jerome, Forge Warthog) so that this single baseline table can be copied cleanly across all UNSC leaders (Forge, Anders, Serina, etc.) without modification or missing squad crashes. Individual heroes or faction-unique units should be added in specialized personality tables (e.g. `ODSTRush`, `GrizzlyRoll`).
 
+### B2. Leader techs transform the buildings, and the new building trains a different list
+
+> [!CAUTION]
+> **The tables must be written against the buildings the leader actually ends up owning, not the generic UNSC ones.** `unsc_LeaderCutter` in `techs.xml` carries a list of `TransformProtoUnit` effects:
+>
+> | Generic | Becomes, for Cutter |
+> | :--- | :--- |
+> | `unsc_bldg_barracks_01` | `unsc_bldg_barracksCutter_01` |
+> | `unsc_bldg_airPad_01` | `unsc_bldg_airPadCutter_01` |
+> | `unsc_bldg_fieldarmory_01` | `unsc_bldg_fieldArmoryCutter_01` |
+> | `unsc_bldg_command_01` **and** `_02` | `unsc_bldg_commandCutter_02` |
+> | `unsc_bldg_vehicledepot_01` | *not transformed - stays generic* |
+>
+> Cutter therefore **never owns a generic Air Pad, Barracks, Field Armory or Base**, and anything that trains or researches only at the generic building is unreachable for him no matter what the tables ask for.
+
+Measured on `trainlist_cutter.ai`: it asked for 20 `unsc_air_hornet_01`, 4 `unsc_air_pelicangunship_01` and 5 `unsc_inf_flameMarine_01` - **29 squads, 89 pop, the entire air arm** - none of which Cutter can build. Hornets and Pelican gunships live on `airPad_01` / `airPadAnders_01` / `airPadSerina_01`; flame Marines on `barracks_01` / `barracksForge_01`. What was left was the Barracks infantry and the Vehicle Depot, which is why the army read as a marine blob with a few Warthogs even after the composition had been rebalanced by pop.
+
+The same applies to `techs_<leader>.ai`, where column 2 is the prereq object. Thirteen rows in `techs_cutter.ai` named a building Cutter never owns, including **all four `unsc_tech_reinforcements`** - so the pop cap sat at 240 instead of 400 for the entire match - plus `unsc_tech_recruitTraining` and `unsc_base_upgrade2`, the Fortress upgrade.
+
+Two useful specifics that fall out of the Cutter transform list:
+- `command_01` **and** `command_02` both map to `commandCutter_02`, so Cutter **starts at Station tier** and needs only `unsc_base_upgrade2` to reach Fortress. `unsc_base_upgrade1` is researchable on no building he can own and is dead weight in his table.
+- Cutter's air roster is Nightingale, **Wasp**, Longsword and Sabre. The Wasp is his Hornet: 300 supplies, 2 Power, 2 pop. `unsc_wasp_upgrade1/2/3` research at `airPadCutter_01`, so the `unsc_hornet_upgrade*` rows were dead too.
+
+**Workflow when porting `Standard` to a new leader** - do this before anything else, or the table will be full of rows that silently never fire:
+1. Find that leader's `unsc_Leader<Name>` / `cov_Leader<Name>` tech in `techs.xml` and list every `TransformProtoUnit` effect.
+2. For each resulting building, read its `<Command Type="TrainSquad">` and `<Command Type="Research">` lists in `objects.xml`. That is the leader's true roster.
+3. Write the train list only from those squads, and set every tech row's column 2 to a building on that list.
+
+Beware case: the transform effects are written inconsistently (`unsc_bldg_fieldarmory_01` lowercase in the effect, `unsc_bldg_fieldArmory_01` in `objects.xml`). Confirm in game rather than assuming the match is exact.
+
 ### C. TechUpgradeTable (`techs_<leader>.ai`)
 
 > [!CAUTION]

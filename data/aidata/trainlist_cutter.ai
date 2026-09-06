@@ -1,84 +1,104 @@
 <?xml version='1.0' encoding='us-ascii'?>
 <Tables>
 	<Table Name="Standard" Type="SquadBuildList">
-		<!-- UNIVERSAL UNSC COMBINED-ARMS BASELINE. Copy to the other UNSC leaders as-is. -->
-		<!-- Every live squad trains at the GENERIC buildings (barracks_01 / vehicledepot_01 / airPad_01). -->
+		<!-- CUTTER'S ROSTER, NOT THE GENERIC UNSC ONE. This is NOT copyable to another leader -->
+		<!-- as-is; see the caution below. -->
+		<!-- -->
+		<!-- ==================================================================================== -->
+		<!-- LEADER TECHS TRANSFORM THE BUILDINGS, AND THE NEW BUILDING TRAINS A DIFFERENT LIST.  -->
+		<!-- unsc_LeaderCutter (techs.xml) carries TransformProtoUnit effects:                     -->
+		<!--     unsc_bldg_barracks_01    -> unsc_bldg_barracksCutter_01                           -->
+		<!--     unsc_bldg_airPad_01      -> unsc_bldg_airPadCutter_01                             -->
+		<!--     unsc_bldg_fieldarmory_01 -> unsc_bldg_fieldArmoryCutter_01                        -->
+		<!--     unsc_bldg_command_01/_02 -> unsc_bldg_commandCutter_02                            -->
+		<!--     (unsc_bldg_vehicledepot_01 is NOT transformed and stays generic)                  -->
+		<!--                                                                                      -->
+		<!-- So Cutter never owns a generic Air Pad or Barracks, and anything that trains ONLY at  -->
+		<!-- the generic building is unbuildable for him no matter what this table asks for:       -->
+		<!--     unsc_air_hornet_01         airPad_01 / airPad_player_01 / airPadAnders_01   DEAD  -->
+		<!--     unsc_air_pelicangunship_01 airPad_01 / airPadAnders_01 / airPadSerina_01    DEAD  -->
+		<!--     unsc_inf_flameMarine_01    barracks_01 / barracksForge_01                   DEAD  -->
+		<!-- The previous table asked for 20 Hornets, 4 Pelican gunships and 5 flame Marines -     -->
+		<!-- 29 squads and 89 pop, the entire air arm - that could never be produced. What was     -->
+		<!-- left was the infantry and the Vehicle Depot, which is why it read as a marine blob    -->
+		<!-- with a few Warthogs even after the composition was rebalanced.                        -->
+		<!--                                                                                      -->
+		<!-- unsc_bldg_airPadCutter_01 trains: nightingale, wasp, longsword, sabre.                -->
+		<!-- unsc_bldg_barracksCutter_01 trains: marine, marinesniper, marinerocket, MedicBR and   -->
+		<!-- the six Spartan variants. unsc_bldg_commandCutter_02 trains warthogtroop, gremlin,    -->
+		<!-- elephant. Verify this per leader before copying this table anywhere.                  -->
+		<!-- ==================================================================================== -->
 		<!-- -->
 		<!-- This is a BUILD ORDER, not proportions. Trigger 131 bids the FIRST row where owned < -->
 		<!-- target and the chain then ends, restarting from row 0 every 1500ms. Counts are -->
 		<!-- CUMULATIVE, so types repeat with rising targets to interleave the army. -->
 		<!-- -->
-		<!-- COUNT MODELS, NOT SQUADS, WHEN JUDGING COMPOSITION. Squad sizes are wildly uneven: -->
-		<!--     marine 4 models / 1 pop      marinerocket 4 models / 2 pop -->
-		<!--     flameMarine 3 / 1            marinesniper 2 / 0 pop        medic 1 / 0 pop -->
-		<!--     scorpion 1 / 6 pop           cobra 1 / 4      hornet 1 / 3    wolverine 1 / 2 -->
-		<!-- The previous version totalled 381 pop across 174 squads and looked balanced on paper, -->
-		<!-- but that was 290 infantry models against 85 vehicles and aircraft - 77% infantry on -->
-		<!-- screen. It played exactly as it reads: a marine blob with a few Warthogs in it. Pop -->
-		<!-- hides this because snipers and medics cost 0 pop and a 4-man marine squad costs 1. -->
-		<!-- This table is 205 models, 113 infantry / 92 vehicles and air (55/45), 373 pop. -->
+		<!-- COUNT MODELS, NOT SQUADS, WHEN JUDGING COMPOSITION. A marine squad is 4 models for 1 -->
+		<!-- pop, a sniper is 2 models for 0 pop, a Scorpion is 1 model for 6. Balancing in pop -->
+		<!-- hides infantry completely. This table is 192 models, 104 infantry / 88 vehicles and -->
+		<!-- air (54/46), 350 pop against the 400 ceiling. -->
 		<!-- -->
 		<!-- ORDER IS REPLACEMENT PRIORITY. The walk terminates at the first deficient row, so -->
 		<!-- whatever sits highest gets rebuilt first when the army takes losses. Cheap infantry -->
-		<!-- dies most, so infantry at the top of a wave monopolises the walk and the army drifts -->
-		<!-- back to marines no matter what the totals say. Armour and AA lead every wave. -->
+		<!-- dies most, so armour and AA lead every wave or the army drifts back to marines. -->
 		<!-- -->
-		<!-- Power-gated rows do NOT stall the walk. Trigger 1280 sends any row the AI cannot pay -->
-		<!-- the Power for to Trigger 140 and the walk continues, so Scorpions can sit at row 3 -->
-		<!-- from the start and simply begin filling once base 1's two reactors are up. -->
+		<!-- Power-gated rows do NOT stall the walk - Trigger 1280 sends them to Trigger 140 and -->
+		<!-- the walk continues - so Scorpions (2 Power) and Wasps (2) can sit high and simply -->
+		<!-- start filling once base 1's two reactors are up. Sabre needs 4 Power. -->
 		<!-- -->
-		<!-- KEEP THE LIVE SECTION SHORT. The walk costs ~10 trigger evaluations per row out of a -->
-		<!-- small per-think budget shared with the build manager. A 69 row version starved it and -->
-		<!-- the AI nearly stopped producing units AND buildings. Shipped tables run 30-54 rows. -->
+		<!-- Spartans, snipers, medics and Jerome are all 0 pop in this mod. They are effectively -->
+		<!-- free army on top of the cap and only cost supplies, which the AI always has spare. -->
 
-		<!-- Wave 1: opening. Armour is in the order from the start; it fills when Power arrives. -->
+		<!-- Wave 1: opening. Barracks and Vehicle Depot only; the Air Pad is base 1's 7th socket. -->
 		<Row><c>unsc_inf_marine_01</c><c>3</c></Row>
 		<Row><c>unsc_veh_warthog_01</c><c>3</c></Row>
 		<Row><c>unsc_veh_scorpion_01</c><c>2</c></Row>
 		<Row><c>unsc_inf_marinerocket_01</c><c>3</c></Row>
 		<Row><c>unsc_veh_wolverine_01</c><c>2</c></Row>
 
-		<!-- Wave 2: the tank core, dedicated AA and the first air come online together. -->
+		<!-- Wave 2: tank core, AA and the first Wasps. -->
 		<Row><c>unsc_veh_scorpion_01</c><c>6</c></Row>
-		<Row><c>unsc_air_hornet_01</c><c>3</c></Row>
+		<Row><c>unsc_air_wasp_01</c><c>3</c></Row>
 		<Row><c>unsc_veh_cobra_01</c><c>3</c></Row>
 		<Row><c>unsc_veh_warthog_01</c><c>6</c></Row>
 		<Row><c>unsc_inf_marine_01</c><c>6</c></Row>
 		<Row><c>unsc_inf_marinesniper_01</c><c>3</c></Row>
 
-		<!-- Wave 3 -->
+		<!-- Wave 3: Gremlins for enemy vehicles, Nightingales to keep the army alive. -->
 		<Row><c>unsc_veh_scorpion_01</c><c>11</c></Row>
-		<Row><c>unsc_air_hornet_01</c><c>7</c></Row>
+		<Row><c>unsc_air_wasp_01</c><c>7</c></Row>
 		<Row><c>unsc_veh_cobra_01</c><c>6</c></Row>
 		<Row><c>unsc_veh_wolverine_01</c><c>5</c></Row>
+		<Row><c>unsc_veh_gremlin_01</c><c>2</c></Row>
+		<Row><c>unsc_air_nightingale_01</c><c>2</c></Row>
 		<Row><c>unsc_inf_marinerocket_01</c><c>6</c></Row>
-		<Row><c>unsc_inf_flameMarine_01</c><c>3</c></Row>
 		<Row><c>unsc_inf_MedicBR_01</c><c>3</c></Row>
 
 		<!-- Wave 4 -->
 		<Row><c>unsc_veh_scorpion_01</c><c>16</c></Row>
-		<Row><c>unsc_air_hornet_01</c><c>12</c></Row>
+		<Row><c>unsc_air_wasp_01</c><c>12</c></Row>
 		<Row><c>unsc_veh_cobra_01</c><c>9</c></Row>
 		<Row><c>unsc_veh_wolverine_01</c><c>9</c></Row>
 		<Row><c>unsc_veh_warthog_01</c><c>10</c></Row>
-		<Row><c>unsc_air_pelicangunship_01</c><c>2</c></Row>
+		<Row><c>unsc_inf_spartanlaser_01</c><c>2</c></Row>
 		<Row><c>unsc_inf_marine_01</c><c>8</c></Row>
 
-		<!-- Wave 5: final targets, 373 pop against the 400 ceiling (240 base from leaders.xml plus
-		     160 from the four unsc_tech_reinforcements), deliberately just under so the AI always
-		     wants one more thing. This is also the battlefield REPLACEMENT order - armour, air and
-		     AA are rebuilt ahead of cheap infantry. -->
+		<!-- Wave 5: final targets, 350 pop against the 400 ceiling (240 base from leaders.xml plus
+		     160 from the four unsc_tech_reinforcements), deliberately under so the AI always wants
+		     one more thing. Also the battlefield REPLACEMENT order. -->
 		<Row><c>unsc_veh_scorpion_01</c><c>26</c></Row>
-		<Row><c>unsc_air_hornet_01</c><c>20</c></Row>
-		<Row><c>unsc_veh_cobra_01</c><c>14</c></Row>
-		<Row><c>unsc_veh_wolverine_01</c><c>14</c></Row>
-		<Row><c>unsc_veh_warthog_01</c><c>14</c></Row>
-		<Row><c>unsc_air_pelicangunship_01</c><c>4</c></Row>
+		<Row><c>unsc_air_wasp_01</c><c>18</c></Row>
+		<Row><c>unsc_veh_cobra_01</c><c>12</c></Row>
+		<Row><c>unsc_veh_wolverine_01</c><c>12</c></Row>
+		<Row><c>unsc_veh_gremlin_01</c><c>4</c></Row>
+		<Row><c>unsc_air_nightingale_01</c><c>4</c></Row>
+		<Row><c>unsc_air_sabre_01</c><c>2</c></Row>
+		<Row><c>unsc_inf_spartanlaser_01</c><c>3</c></Row>
+		<Row><c>unsc_inf_spartanminigun_01</c><c>3</c></Row>
 		<Row><c>unsc_inf_marinerocket_01</c><c>10</c></Row>
 		<Row><c>unsc_inf_marine_01</c><c>10</c></Row>
 		<Row><c>unsc_inf_marinesniper_01</c><c>6</c></Row>
 		<Row><c>unsc_inf_MedicBR_01</c><c>6</c></Row>
-		<Row><c>unsc_inf_flameMarine_01</c><c>5</c></Row>
 
 		<!-- ==================== FULL UNSC ROSTER (disabled) ==================== -->
 		<!-- Every squad trainable at a UNSC building that is not already live above, so this one -->
