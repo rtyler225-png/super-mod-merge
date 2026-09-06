@@ -130,7 +130,16 @@ Group 28, roughly every 5 seconds:
 >
 > The occasional cross-map grab is the lesser problem. If it needs solving, the fix is to make the leash **scale with `NumMyBases`** rather than to pick a smaller constant, so reach grows as the AI expands - but note `Trigger 1920` measures from `FirstBaseLocation`, which `Trigger 93` writes once at init, so that needs added effects rather than a value change.
 
-### D2b. Power starves the tech manager on one reactor
+### D2b. Power gates the tank core, not just techs
+
+`Trigger 1279 "check reactors 1"` reads the squad's Power cost and the player's current Power, and `Trigger 1280 "check reactors 2"` skips the row entirely (`-> Trigger 140`) if `cost > Power`.
+
+> [!CAUTION]
+> **`unsc_veh_scorpion_01` costs 2 Power and is the only costed squad in the live train list** - every other entry is 0. It is also 126 of the 403 pop, the whole tank core. On a single reactor the AI's Power sat near zero, that row was skipped every pass, and the AI fielded nothing but Marines, Warthogs, Hornets and Cobras. Result in a Heroic 1v1: 55 squads built for **5 kills**, against a human who lost 3 squads and scored 62.
+>
+> Power has two competing claims - Scorpions and the tech tree - and only reactors generate it. Budget **2 reactors at base 1** (a Fortress has 7 sockets: 2 supply pads, Barracks, Vehicle Depot, 2 reactors, Field Armory) and put a reactor row **first in every expansion wave**. The ladder here is 2 / 4 / 8 / 10.
+
+### D2c. Power also starves the tech manager
 
 Power is a separate stock that only reactors generate, and almost the whole tech list costs Power - including the very first row, `unsc_supplypad_upgrade1` (1 Power), and the reinforcement chain (0/1/2/3). `Trigger 2277 "Do we have enough power"` refuses any tech bid the AI cannot pay the Power for, sending it to `Trigger 2270` to try the next row.
 

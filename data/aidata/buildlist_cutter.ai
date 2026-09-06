@@ -39,11 +39,14 @@
 		<!-- PRIORITY 2. Reached as soon as the opening Barracks exists (Trigger 2492). -->
 		<!-- Expansion pushed hard and every new socket biased toward production. -->
 		<Row><c>unsc_bldg_command_01</c><c>2</c><c>2</c></Row>
+		<!-- Reactors first on every expansion. Power is the scarcest resource the AI has: it is -->
+		<!-- the ONLY thing gating unsc_veh_scorpion_01 (Power 2, and the only costed squad in the -->
+		<!-- live train list) via Trigger 1280, and almost the whole tech list needs it too. -->
+		<Row><c>unsc_bldg_reactor_01</c><c>4</c><c>2</c></Row>
 		<Row><c>_ProductionBuildingNotBase</c><c>8</c><c>2</c></Row>
 		<Row><c>unsc_bldg_supplypad_01</c><c>6</c><c>2</c></Row>
 		<Row><c>unsc_bldg_command_01</c><c>3</c><c>2</c></Row>
 		<Row><c>unsc_bldg_supplypad_02</c><c>6</c><c>2</c></Row>
-		<Row><c>unsc_bldg_reactor_01</c><c>3</c><c>2</c></Row>
 		<Row><c>unsc_bldg_command_03</c><c>2</c><c>2</c></Row>
 		<Row><c>unsc_bldg_turret_01</c><c>5</c><c>2</c></Row>
 		<Row><c>unsc_bldg_turretAA_01</c><c>3</c><c>2</c></Row>
@@ -54,7 +57,7 @@
 		<Row><c>unsc_bldg_supplypad_01</c><c>12</c><c>2</c></Row>
 		<Row><c>unsc_bldg_command_01</c><c>5</c><c>2</c></Row>
 		<Row><c>unsc_bldg_supplypad_02</c><c>12</c><c>2</c></Row>
-		<Row><c>unsc_bldg_reactor_01</c><c>6</c><c>2</c></Row>
+		<Row><c>unsc_bldg_reactor_01</c><c>8</c><c>2</c></Row>
 		<Row><c>unsc_bldg_command_03</c><c>5</c><c>2</c></Row>
 		<Row><c>unsc_bldg_turret_01</c><c>10</c><c>2</c></Row>
 		<Row><c>unsc_bldg_turretAA_01</c><c>5</c><c>2</c></Row>
