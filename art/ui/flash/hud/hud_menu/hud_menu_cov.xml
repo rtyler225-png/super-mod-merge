@@ -2173,4 +2173,146 @@
 	<Icon type="buildingicon" name="turret_plasmaMortar" texture="art\ui\flash\shared\textures\banished\icons\tech\cov_turret_fuelRod" owner="ban_bldg_turretAV_01">-1</Icon>
 	<Icon type="buildingicon" name="turret_fuelRod" texture="art\ui\flash\shared\textures\banished\icons\tech\cov_turret_needler" owner="ban_bldg_turretAA_01">-1</Icon>
 	<Icon type="uniticon" name="ghost" texture="art\ui\flash\shared\textures\banished\icons\unit\cov_veh_ghost_01" owner="ban_veh_ghost_01">-1</Icon>
+	<!-- Didact faction: owner-based icon registrations from Judgement Edition. -->
+	<Icon type="techicon" name="baseupgrade1" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forerunner_base_upgrade1" owner="forerunner_base_upgrade1">-1</Icon>
+	<Icon type="techicon" name="baseupgrade2" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forerunner_base_upgrade2" owner="forerunner_base_upgrade2">-1</Icon>
+	<Icon type="techicon" name="unsc_supplypad_upgrade1" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_supplypad_upgrade1" owner="forfaction_supplypad_upgrade1">-1</Icon>
+	<Icon type="techicon" name="reactor_upgrade1" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_reactor_upgrade1" owner="forfaction_reactor_upgrade1">-1</Icon>
+	<Icon type="techicon" name="forfaction_turret_upgrade1" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_turretUpgrade1" owner="forfaction_turret_upgrade1">-1</Icon>
+	<Icon type="techicon" name="forfaction_turret_upgrade2" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_turretUpgrade2" owner="forfaction_turret_upgrade2">-1</Icon>
+	<Icon type="techicon" name="forfaction_turret_upgradeAI" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_turret_upgradeAI" owner="forfaction_turret_upgradeAI">-1</Icon>
+	<Icon type="techicon" name="forfaction_turret_upgradeAV" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_turret_upgradeAV" owner="forfaction_turret_upgradeAV">-1</Icon>
+	<Icon type="techicon" name="forfaction_turret_upgradeAA" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_turret_upgradeAA" owner="forfaction_turret_upgradeAA">-1</Icon>
+	<Icon type="techicon" name="followers" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_tech_followers" owner="forfaction_tech_followers">-1</Icon>
+	<Icon type="techicon" name="recruitTraining" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_tech_recruitTraining" owner="forfaction_tech_recruitTraining">-1</Icon>
+	<Icon type="buildingicon" name="command1" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_base_01" owner="forfaction_bldg_base_01">-1</Icon>
+	<Icon type="buildingicon" name="command1" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_base_02" owner="forfaction_bldg_base_02">-1</Icon>
+	<Icon type="buildingicon" name="command1" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_base_03" owner="forfaction_bldg_base_03">-1</Icon>
+	<Icon type="buildingicon" name="healspire" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_healspire_01" owner="forfaction_bldg_healspire_01">-1</Icon>
+	<Icon type="buildingicon" name="barracks" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_barracks_01" owner="forfaction_bldg_barracks_01">-1</Icon>
+	<Icon type="buildingicon" name="barracks" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_vehicledepot_01" owner="forfaction_bldg_vehicledepot_01">-1</Icon>
+	<Icon type="buildingicon" name="barracks" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_airPad_01" owner="forfaction_bldg_airPad_01">-1</Icon>
+	<Icon type="buildingicon" name="barracks" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_airPad_01" owner="forfaction_bldg_airPad_02">-1</Icon>
+	<Icon type="buildingicon" name="barracks" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_supplypad_01" owner="forfaction_bldg_supplypad_01">-1</Icon>
+	<Icon type="buildingicon" name="barracks" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_supplypad_02" owner="forfaction_bldg_supplypad_02">-1</Icon>
+	<Icon type="buildingicon" name="barracks" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_reactor_01" owner="forfaction_bldg_reactor_01">-1</Icon>
+	<Icon type="buildingicon" name="barracks" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_reactor_02" owner="forfaction_bldg_reactor_02">-1</Icon>
+	<Icon type="buildingicon" name="barracks" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_fieldArmory_01" owner="forfaction_bldg_fieldArmory_01">-1</Icon>
+	<Icon type="buildingicon" name="barracks" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_fieldArmory_01" owner="forfaction_bldg_fieldArmory_02">-1</Icon>
+	<Icon type="buildingicon" name="barracks" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_arctower_01" owner="forfaction_bldg_arctower_01">-1</Icon>
+	<Icon type="buildingicon" name="barracks" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_turret_01" owner="forfaction_bldg_turret_01">-1</Icon>
+	<Icon type="buildingicon" name="barracks" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_beamTurret_01" owner="forfaction_bldg_beamTurret_01">-1</Icon>
+	<Icon type="buildingicon" name="barracks" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_turretAI_01" owner="forfaction_bldg_turretAI_01">-1</Icon>
+	<Icon type="buildingicon" name="barracks" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_turretAV_01" owner="forfaction_bldg_turretAV_01">-1</Icon>
+	<Icon type="buildingicon" name="barracks" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_turretAA_01" owner="forfaction_bldg_turretAA_01">-1</Icon>
+	<Icon type="techicon" name="page2" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_airPad_01" owner="for_airpad_page2">-1</Icon>
+	<Icon type="techicon" name="page1" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_airPad_01" owner="for_airpad_page1">-1</Icon>
+	<Icon type="techicon" name="page2" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_fieldArmory_01" owner="for_fieldArmory_page2">-1</Icon>
+	<Icon type="techicon" name="page1" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_fieldArmory_01" owner="for_fieldArmory_page1">-1</Icon>
+	<Icon type="uniticon" name="command1" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_base_01" owner="forfaction_bldg_base_01">-1</Icon>
+	<Icon type="uniticon" name="command1" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_base_02" owner="forfaction_bldg_base_02">-1</Icon>
+	<Icon type="uniticon" name="command1" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_base_03" owner="forfaction_bldg_base_03">-1</Icon>
+	<Icon type="uniticon" name="healspire" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_healspire_01" owner="forfaction_bldg_healspire_01">-1</Icon>
+	<Icon type="uniticon" name="barracks" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_barracks_01" owner="forfaction_bldg_barracks_01">-1</Icon>
+	<Icon type="uniticon" name="barracks" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_vehicledepot_01" owner="forfaction_bldg_vehicledepot_01">-1</Icon>
+	<Icon type="uniticon" name="barracks" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_airPad_01" owner="forfaction_bldg_airPad_01">-1</Icon>
+	<Icon type="uniticon" name="barracks" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_airPad_01" owner="forfaction_bldg_airPad_02">-1</Icon>
+	<Icon type="uniticon" name="barracks" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_supplypad_01" owner="forfaction_bldg_supplypad_01">-1</Icon>
+	<Icon type="uniticon" name="barracks" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_supplypad_02" owner="forfaction_bldg_supplypad_02">-1</Icon>
+	<Icon type="uniticon" name="barracks" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_reactor_01" owner="forfaction_bldg_reactor_01">-1</Icon>
+	<Icon type="uniticon" name="barracks" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_reactor_02" owner="forfaction_bldg_reactor_02">-1</Icon>
+	<Icon type="uniticon" name="barracks" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_fieldArmory_01" owner="forfaction_bldg_fieldArmory_01">-1</Icon>
+	<Icon type="uniticon" name="barracks" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_fieldArmory_01" owner="forfaction_bldg_fieldArmory_02">-1</Icon>
+	<Icon type="uniticon" name="barracks" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_arctower_01" owner="forfaction_bldg_arctower_01">-1</Icon>
+	<Icon type="uniticon" name="barracks" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_turret_01" owner="forfaction_bldg_turret_01">-1</Icon>
+	<Icon type="uniticon" name="barracks" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_beamTurret_01" owner="forfaction_bldg_beamTurret_01">-1</Icon>
+	<Icon type="uniticon" name="barracks" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_turretAI_01" owner="forfaction_bldg_turretAI_01">-1</Icon>
+	<Icon type="uniticon" name="barracks" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_turretAV_01" owner="forfaction_bldg_turretAV_01">-1</Icon>
+	<Icon type="uniticon" name="barracks" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_turretAA_01" owner="forfaction_bldg_turretAA_01">-1</Icon>
+	<Icon type="unitselection" name="marine" owner="forfaction_inf_soldier_01">2</Icon>
+	<Icon type="uniticon" name="marine1" texture="art\ui\flash\shared\textures\forerunner\icons\unit\forfaction_inf_soldier_01" owner="forfaction_inf_soldier_01">-1</Icon>
+	<Icon type="unitselection" name="marine" owner="forfaction_inf_crawler_01">2</Icon>
+	<Icon type="uniticon" name="marine1" texture="art\ui\flash\shared\textures\forerunner\icons\unit\forfaction_inf_crawler_01" owner="forfaction_inf_crawler_01">-1</Icon>
+	<Icon type="unitselection" name="marine" owner="forfaction_inf_knight_01">2</Icon>
+	<Icon type="uniticon" name="marine1" texture="art\ui\flash\shared\textures\forerunner\icons\unit\forfaction_inf_knight_01" owner="forfaction_inf_knight_01">-1</Icon>
+	<Icon type="unitselection" name="sentinel" owner="forfaction_air_sentinel_01">17</Icon>
+	<Icon type="uniticon" name="forerunner" texture="art\ui\flash\shared\textures\forerunner\icons\unit\for_air_enforcer_01" owner="forfaction_air_sentinel_01">-1</Icon>
+	<Icon type="unitselection" name="sentinel" owner="forfaction_air_supersentinel_01">17</Icon>
+	<Icon type="uniticon" name="forerunner" texture="art\ui\flash\shared\textures\forerunner\icons\unit\for_air_supersentinel_01" owner="forfaction_air_supersentinel_01">-1</Icon>
+	<Icon type="unitselection" name="sentinel" owner="forfaction_air_protector_01">17</Icon>
+	<Icon type="uniticon" name="for monitor2" texture="art\ui\flash\shared\textures\forerunner\icons\unit\forfaction_air_protector_01" owner="forfaction_air_protector_01">-1</Icon>
+	<Icon type="unitselection" name="sentinel" owner="forfaction_air_phaeton_01">17</Icon>
+	<Icon type="uniticon" name="forerunner" texture="art\ui\flash\shared\textures\forerunner\icons\unit\forfaction_air_phaeton_01" owner="forfaction_air_phaeton_01">-1</Icon>
+	<Icon type="unitselection" name="sentinel" owner="forfaction_air_phoenix_01">17</Icon>
+	<Icon type="uniticon" name="forerunner" texture="art\ui\flash\shared\textures\forerunner\icons\unit\forfaction_air_phoenix_01" owner="forfaction_air_phoenix_01">-1</Icon>
+	<Icon type="unitselection" name="sentinel" owner="forfaction_air_watcher_01">17</Icon>
+	<Icon type="uniticon" name="for monitor2" texture="art\ui\flash\shared\textures\forerunner\icons\unit\forfaction_air_watcher_01" owner="forfaction_air_watcher_01">-1</Icon>
+	<Icon type="unitselection" name="wraith" owner="forfaction_veh_tank_01">21</Icon>
+	<Icon type="uniticon" name="wraith" texture="art\ui\flash\shared\textures\forerunner\icons\unit\forfaction_veh_tank_01" owner="forfaction_veh_tank_01">-1</Icon>
+	<Icon type="unitselection" name="ghost" owner="forfaction_veh_bike_01">24</Icon>
+	<Icon type="uniticon" name="ghost" texture="art\ui\flash\shared\textures\forerunner\icons\unit\forfaction_veh_bike_01" owner="forfaction_veh_bike_01">-1</Icon>
+	<Icon type="unitselection" name="locust" owner="forfaction_veh_mech_01">18</Icon>
+	<Icon type="uniticon" name="ghost" texture="art\ui\flash\shared\textures\forerunner\icons\unit\forfaction_veh_mech_01" owner="forfaction_veh_mech_01">-1</Icon>
+	<Icon type="uniticon" name="ghost" texture="art\ui\flash\shared\textures\forerunner\icons\unit\forfaction_inf_didact_01" owner="forfaction_inf_didact_01">-1</Icon>
+	<Icon type="uniticon" name="ghost" texture="art\ui\flash\shared\textures\forerunner\icons\unit\forfaction_inf_warden_01" owner="forfaction_inf_warden_01">-1</Icon>
+	<Icon type="techicon" name="forfaction_sentinel_upgrade1" texture="art\ui\flash\shared\textures\forerunner\icons\unit\for_air_enforcer_01" owner="forfaction_sentinel_upgrade1">-1</Icon>
+	<Icon type="techicon" name="forfaction_sentinel_upgrade2" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_sentinel_upgrade2" owner="forfaction_sentinel_upgrade2">-1</Icon>
+	<Icon type="techicon" name="forfaction_sentinel_upgrade3" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_sentinel_upgrade3" owner="forfaction_sentinel_upgrade3">-1</Icon>
+	<Icon type="techicon" name="forfaction_supersentinel_upgrade0" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_supersentinel_upgrade1" owner="forfaction_supersentinel_upgrade0">-1</Icon>
+	<Icon type="techicon" name="forfaction_supersentinel_upgrade1" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_supersentinel_upgrade1" owner="forfaction_supersentinel_upgrade1">-1</Icon>
+	<Icon type="techicon" name="forfaction_protector_upgrade1" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_protector_upgrade1" owner="forfaction_protector_upgrade1">-1</Icon>
+	<Icon type="techicon" name="forfaction_protector_upgrade2" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_protector_upgrade2" owner="forfaction_protector_upgrade2">-1</Icon>
+	<Icon type="techicon" name="forfaction_tank_upgrade1" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_tank_upgrade1" owner="forfaction_tank_upgrade1">-1</Icon>
+	<Icon type="techicon" name="forfaction_tank_upgrade2" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_tank_upgrade2" owner="forfaction_tank_upgrade2">-1</Icon>
+	<Icon type="techicon" name="forfaction_tank_upgrade3" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_tank_upgrade3" owner="forfaction_tank_upgrade3">-1</Icon>
+	<Icon type="techicon" name="forfaction_bike_upgrade1" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_bike_upgrade1" owner="forfaction_bike_upgrade1">-1</Icon>
+	<Icon type="techicon" name="forfaction_bike_upgrade2" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_bike_upgrade2" owner="forfaction_bike_upgrade2">-1</Icon>
+	<Icon type="techicon" name="forfaction_bike_upgrade3" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_bike_upgrade3" owner="forfaction_bike_upgrade3">-1</Icon>
+	<Icon type="techicon" name="forfaction_mech_upgrade1" texture="art\ui\flash\shared\textures\forerunner\icons\unit\forfaction_veh_mech_01" owner="forfaction_mech_upgrade1">-1</Icon>
+	<Icon type="techicon" name="forfaction_mech_upgrade2" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_mech_upgrade2" owner="forfaction_mech_upgrade2">-1</Icon>
+	<Icon type="techicon" name="forfaction_mech_upgrade3" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_mech_upgrade3" owner="forfaction_mech_upgrade3">-1</Icon>
+	<Icon type="techicon" name="cov_bruteChief_UPG1" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_didact_upgrade1" owner="forfaction_didact_upgrade1">-1</Icon>
+	<Icon type="techicon" name="cov_bruteChief_UPG1" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_didact_upgrade2" owner="forfaction_didact_upgrade2">-1</Icon>
+	<Icon type="techicon" name="cov_bruteChief_UPG1" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_didact_upgrade3" owner="forfaction_didact_upgrade3">-1</Icon>
+	<Icon type="techicon" name="cov_bruteChief_UPG1" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_didactability_upgrade1" owner="forfaction_didactability_upgrade1">-1</Icon>
+	<Icon type="techicon" name="cov_bruteChief_UPG1" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_didactability_upgrade2" owner="forfaction_didactability_upgrade2">-1</Icon>
+	<Icon type="techicon" name="cov_bruteChief_UPG1" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_didactability_upgrade3" owner="forfaction_didactability_upgrade3">-1</Icon>
+	<Icon type="techicon" name="cov_bruteChief_UPG1" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_soldier_upgrade1" owner="forfaction_soldier_upgrade1">-1</Icon>
+	<Icon type="techicon" name="cov_bruteChief_UPG1" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_soldier_upgrade2" owner="forfaction_soldier_upgrade2">-1</Icon>
+	<Icon type="techicon" name="cov_bruteChief_UPG1" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_soldier_upgrade3" owner="forfaction_soldier_upgrade3">-1</Icon>
+	<Icon type="techicon" name="cov_bruteChief_UPG1" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_crawler_upgrade1" owner="forfaction_crawler_upgrade1">-1</Icon>
+	<Icon type="techicon" name="cov_bruteChief_UPG1" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_crawler_upgrade2" owner="forfaction_crawler_upgrade2">-1</Icon>
+	<Icon type="techicon" name="cov_bruteChief_UPG1" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_crawler_upgrade3" owner="forfaction_crawler_upgrade3">-1</Icon>
+	<Icon type="techicon" name="cov_bruteChief_UPG1" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_knight_upgrade1" owner="forfaction_knight_upgrade1">-1</Icon>
+	<Icon type="techicon" name="cov_bruteChief_UPG1" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_knight_upgrade2" owner="forfaction_knight_upgrade2">-1</Icon>
+	<Icon type="techicon" name="cov_bruteChief_UPG1" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_knight_upgrade3" owner="forfaction_knight_upgrade3">-1</Icon>
+	<Icon type="techicon" name="cov_bruteChief_UPG1" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_phaeton_upgrade1" owner="forfaction_phaeton_upgrade1">-1</Icon>
+	<Icon type="techicon" name="cov_bruteChief_UPG1" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_phaeton_upgrade2" owner="forfaction_phaeton_upgrade2">-1</Icon>
+	<Icon type="techicon" name="cov_bruteChief_UPG1" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forfaction_phoenix_upgrade1" owner="forfaction_phoenix_upgrade1">-1</Icon>
+	<Icon type="abilityicon" name="ForTankBarrage" texture="art\ui\flash\shared\textures\forerunner\icons\ability\ForTankBarrage" owner="ForTankBarrage">-1</Icon>
+	<Icon type="abilityicon" name="ForMechSpecial" texture="art\ui\flash\shared\textures\forerunner\icons\ability\ForMechSpecial" owner="ForMechSpecial">-1</Icon>
+	<Icon type="abilityicon" name="ForDidactSpecial" texture="art\ui\flash\shared\textures\forerunner\icons\ability\ForDidactSpecial" owner="ForDidactSpecial">-1</Icon>
+	<Icon type="abilityicon" name="ForWardenSlam" texture="art\ui\flash\shared\textures\forerunner\icons\ability\ForWardenSlam" owner="ForWardenSlam">-1</Icon>
+	<Icon type="abilityicon" name="ForSoldierGrenade" texture="art\ui\flash\shared\textures\forerunner\icons\ability\ForSoldierGrenade" owner="ForSoldierGrenade">-1</Icon>
+	<Icon type="abilityicon" name="KnightHijack" texture="art\ui\flash\shared\textures\forerunner\icons\ability\KnightHijack" owner="KnightHijack">-1</Icon>
+	<Icon type="uniticon" name="gravitylift" texture="art\ui\flash\shared\textures\forerunner\icons\misc\forfaction_obj_hotpickup_01" owner="forfaction_obj_hotpickup_01">-1</Icon>
+	<Icon type="miscicon" name="gravitylift" texture="art\ui\flash\shared\textures\forerunner\icons\misc\forfaction_obj_hotpickup_01" owner="forfaction_obj_hotpickup_01">-1</Icon>
+	<Icon type="buildingicon" name="gravitylift" texture="art\ui\flash\shared\textures\forerunner\icons\misc\forfaction_obj_hotpickup_01" owner="forfaction_obj_hotpickup_01">-1</Icon>
+	<Icon type="powericon" name="orbital" name2="specialPWR1" texture="art\ui\flash\shared\textures\forerunner\icons\power\ForerunnerTransport" owner="ForerunnerTransport">-1</Icon>
+	<Icon type="powericon" name="orbital" name2="specialPWR1" texture="art\ui\flash\shared\textures\forerunner\icons\power\ForerunnerRepair" owner="ForerunnerRepair">-1</Icon>
+	<Icon type="powericon" name="orbital" name2="specialPWR1" texture="art\ui\flash\shared\textures\forerunner\icons\power\ForerunnerArcTower" owner="ForerunnerArcTower">-1</Icon>
+	<Icon type="powericon" name="orbital" name2="specialPWR1" texture="art\ui\flash\shared\textures\forerunner\icons\power\ForerunnerBeamBarrage" owner="ForerunnerBeamBarrage">-1</Icon>
+	<Icon type="powericon" name="orbital" name2="specialPWR1" texture="art\ui\flash\shared\textures\forerunner\icons\power\ForerunnerSoldierDrop" owner="ForerunnerSoldierDrop">-1</Icon>
+	<Icon type="powericon" name="orbital" name2="specialPWR1" texture="art\ui\flash\shared\textures\forerunner\icons\power\ForerunnerSoldierDrop2" owner="ForerunnerSoldierDrop2">-1</Icon>
+	<Icon type="powericon" name="orbital" name2="specialPWR1" texture="art\ui\flash\shared\textures\forerunner\icons\power\ForerunnerShieldEnhancement" owner="ForerunnerShieldEnhancement">-1</Icon>
+	<Icon type="powericon" name="orbital" name2="specialPWR1" texture="art\ui\flash\shared\textures\forerunner\icons\power\ForerunnerSentinelDrop" owner="ForerunnerSentinelDrop">-1</Icon>
+	<Icon type="powericon" name="orbital" name2="specialPWR1" texture="art\ui\flash\shared\textures\forerunner\icons\power\ForerunnerOrbitalBombard" owner="ForerunnerOrbitalBombard">-1</Icon>
+	<Icon type="techicon" name="a" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forerunner_beambarrage_upgrade" owner="forerunner_beambarrage_upgrade">-1</Icon>
+	<Icon type="techicon" name="a" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forerunner_soldierdrop_upgrade" owner="forerunner_soldierdrop_upgrade">-1</Icon>
+	<Icon type="techicon" name="a" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forerunner_shieldenhancement_upgrade" owner="forerunner_shieldenhancement_upgrade">-1</Icon>
+	<Icon type="techicon" name="a" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forerunner_EMPMAC_upgrade1" owner="forerunner_EMPMAC_upgrade1">-1</Icon>
+	<Icon type="techicon" name="a" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forerunner_EMPMAC_upgrade2" owner="forerunner_EMPMAC_upgrade2">-1</Icon>
+	<Icon type="techicon" name="a" texture="art\ui\flash\shared\textures\forerunner\icons\tech\forerunner_EMPMAC_upgrade3" owner="forerunner_EMPMAC_upgrade3">-1</Icon>
+	<Icon type="uniticon" name="forfaction_bldg_turretsocket_01" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_turretsocket_01" owner="forfaction_bldg_turretsocket_01">-1</Icon>
+	<Icon type="buildingicon" name="forfaction_bldg_turretsocket_01" texture="art\ui\flash\shared\textures\forerunner\icons\bldg\forfaction_bldg_turretsocket_01" owner="forfaction_bldg_turretsocket_01">-1</Icon>
 </FlashMovieDefinition>

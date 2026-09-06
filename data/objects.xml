@@ -41545,6 +41545,7 @@
     <ObjectType>CanCryo</ObjectType>
     <ObjectType>_PowerLevelBuilding</ObjectType>
     <SurfaceType>Metal</SurfaceType>
+    <Rate Rate="Power">5</Rate>
     <Socket Player="Player">BuildingSocket</Socket>
     <Flag>IgnoreSquadAI</Flag>
     <Flag>KBAware</Flag>
