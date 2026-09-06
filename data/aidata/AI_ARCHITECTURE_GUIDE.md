@@ -128,7 +128,20 @@ Group 28, roughly every 5 seconds:
 >
 > Set to **600** here. This is the dial for expansion proximity: lower it if the AI still reaches too far, raise it if it stops expanding. The failure mode of going too low is that no candidate passes, `AllowedBaseFound` stays false, and the AI stops claiming bases entirely.
 
-Also note `Trigger 2016 "Unsafe grab?"` requires `AllowUnsafeGrab` (TriggerVar 15880) to be true, and **nothing in the script ever writes that variable** - it is permanently false.
+### D3. The base-secure escort drains the whole army
+
+Separate from the base *order* (group 14, `Trigger 2740`), group 28 runs a base *escort*:
+
+`2016 "Unsafe grab?"` -> `2066` -> `2282 "Time to do something.."` -> `2474` -> `2283 "create base secure mission"`
+
+> [!CAUTION]
+> `Trigger 2283` does `AIMissionAddSquads(BaseGrabMission, AddSquadList = Reserves)` and then `SquadListRemove(Reserves, RemoveAll = True)` - it commits **the entire army** to escorting a base claim and empties the reserve pool. `Trigger 302 "more than 0 units needed!"` requires `NumReserves > 0` before the Decider will create **any** mission, so while that pool is empty the AI launches no attacks at all. It looks like an AI that has an army and does nothing with it.
+>
+> `Trigger 2282` gated this on `Reserves size > 0` - a single squad - so it re-fired the moment anything was rebuilt, dumping the new army into another escort. Raised the threshold (TriggerVar 18938) from **0 to 10** so an escort only launches off a real surplus. `Trigger 2283` also sets `BaseUnlockCount` to -20 (TriggerVar 18918) and `Trigger 2066` increments it about every 5s, needing >10, so escorts are ~150s apart at minimum.
+>
+> This does **not** reduce expansion: claiming a base is `Trigger 2740` in group 14, a completely separate system. Only the escort is throttled.
+
+`Trigger 2016`'s conditions are an **`<Or>`**, not an `<And>` - it fires whenever `AllowedBaseFound` is true, i.e. any valid site was found. Its `AllowUnsafeGrab` term (TriggerVar 15880) is permanently false because nothing in the script ever writes that variable, but the Or makes that irrelevant.
 
 ### E00. Reference points from other installed mods
 
