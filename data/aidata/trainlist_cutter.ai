@@ -8,69 +8,77 @@
 		<!-- target and the chain then ends, restarting from row 0 every 1500ms. Counts are -->
 		<!-- CUMULATIVE, so types repeat with rising targets to interleave the army. -->
 		<!-- -->
-		<!-- Sized to a 400 pop ceiling: 240 base Unit pop from leaders.xml plus 160 from the four -->
-		<!-- unsc_tech_reinforcements techs. Totals ~403 pop across ~174 squads, deliberately just -->
-		<!-- over the cap so the AI always wants one more thing and holds its cap through losses. -->
+		<!-- COUNT MODELS, NOT SQUADS, WHEN JUDGING COMPOSITION. Squad sizes are wildly uneven: -->
+		<!--     marine 4 models / 1 pop      marinerocket 4 models / 2 pop -->
+		<!--     flameMarine 3 / 1            marinesniper 2 / 0 pop        medic 1 / 0 pop -->
+		<!--     scorpion 1 / 6 pop           cobra 1 / 4      hornet 1 / 3    wolverine 1 / 2 -->
+		<!-- The previous version totalled 381 pop across 174 squads and looked balanced on paper, -->
+		<!-- but that was 290 infantry models against 85 vehicles and aircraft - 77% infantry on -->
+		<!-- screen. It played exactly as it reads: a marine blob with a few Warthogs in it. Pop -->
+		<!-- hides this because snipers and medics cost 0 pop and a 4-man marine squad costs 1. -->
+		<!-- This table is 205 models, 113 infantry / 92 vehicles and air (55/45), 373 pop. -->
+		<!-- -->
+		<!-- ORDER IS REPLACEMENT PRIORITY. The walk terminates at the first deficient row, so -->
+		<!-- whatever sits highest gets rebuilt first when the army takes losses. Cheap infantry -->
+		<!-- dies most, so infantry at the top of a wave monopolises the walk and the army drifts -->
+		<!-- back to marines no matter what the totals say. Armour and AA lead every wave. -->
+		<!-- -->
+		<!-- Power-gated rows do NOT stall the walk. Trigger 1280 sends any row the AI cannot pay -->
+		<!-- the Power for to Trigger 140 and the walk continues, so Scorpions can sit at row 3 -->
+		<!-- from the start and simply begin filling once base 1's two reactors are up. -->
 		<!-- -->
 		<!-- KEEP THE LIVE SECTION SHORT. The walk costs ~10 trigger evaluations per row out of a -->
 		<!-- small per-think budget shared with the build manager. A 69 row version starved it and -->
 		<!-- the AI nearly stopped producing units AND buildings. Shipped tables run 30-54 rows. -->
 
-		<!-- Wave 1: opening. Barracks only. Rockets and snipers immediately so an early poke is answered. -->
-		<Row><c>unsc_inf_marine_01</c><c>5</c></Row>
+		<!-- Wave 1: opening. Armour is in the order from the start; it fills when Power arrives. -->
+		<Row><c>unsc_inf_marine_01</c><c>3</c></Row>
 		<Row><c>unsc_veh_warthog_01</c><c>3</c></Row>
-		<Row><c>unsc_inf_marinerocket_01</c><c>4</c></Row>
-		<Row><c>unsc_inf_marinesniper_01</c><c>4</c></Row>
+		<Row><c>unsc_veh_scorpion_01</c><c>2</c></Row>
+		<Row><c>unsc_inf_marinerocket_01</c><c>3</c></Row>
+		<Row><c>unsc_veh_wolverine_01</c><c>2</c></Row>
 
-		<!-- Wave 2: armour, dedicated AA and the first air all come online together. -->
-		<Row><c>unsc_veh_scorpion_01</c><c>3</c></Row>
-		<Row><c>unsc_inf_marine_01</c><c>12</c></Row>
-		<Row><c>unsc_veh_wolverine_01</c><c>3</c></Row>
+		<!-- Wave 2: the tank core, dedicated AA and the first air come online together. -->
+		<Row><c>unsc_veh_scorpion_01</c><c>6</c></Row>
 		<Row><c>unsc_air_hornet_01</c><c>3</c></Row>
-		<Row><c>unsc_inf_flameMarine_01</c><c>4</c></Row>
+		<Row><c>unsc_veh_cobra_01</c><c>3</c></Row>
+		<Row><c>unsc_veh_warthog_01</c><c>6</c></Row>
+		<Row><c>unsc_inf_marine_01</c><c>6</c></Row>
+		<Row><c>unsc_inf_marinesniper_01</c><c>3</c></Row>
+
+		<!-- Wave 3 -->
+		<Row><c>unsc_veh_scorpion_01</c><c>11</c></Row>
+		<Row><c>unsc_air_hornet_01</c><c>7</c></Row>
+		<Row><c>unsc_veh_cobra_01</c><c>6</c></Row>
+		<Row><c>unsc_veh_wolverine_01</c><c>5</c></Row>
+		<Row><c>unsc_inf_marinerocket_01</c><c>6</c></Row>
+		<Row><c>unsc_inf_flameMarine_01</c><c>3</c></Row>
 		<Row><c>unsc_inf_MedicBR_01</c><c>3</c></Row>
 
-		<!-- Wave 3: artillery joins, air keeps pace with ground. -->
-		<Row><c>unsc_veh_scorpion_01</c><c>7</c></Row>
-		<Row><c>unsc_veh_cobra_01</c><c>4</c></Row>
-		<Row><c>unsc_inf_marine_01</c><c>20</c></Row>
-		<Row><c>unsc_inf_marinerocket_01</c><c>9</c></Row>
-		<Row><c>unsc_veh_warthog_01</c><c>8</c></Row>
-		<Row><c>unsc_air_hornet_01</c><c>7</c></Row>
-
 		<!-- Wave 4 -->
-		<Row><c>unsc_veh_scorpion_01</c><c>12</c></Row>
-		<Row><c>unsc_veh_wolverine_01</c><c>6</c></Row>
-		<Row><c>unsc_inf_marine_01</c><c>27</c></Row>
-		<Row><c>unsc_veh_cobra_01</c><c>8</c></Row>
-		<Row><c>unsc_inf_marinesniper_01</c><c>8</c></Row>
-		<Row><c>unsc_inf_flameMarine_01</c><c>8</c></Row>
-		<Row><c>unsc_air_pelicangunship_01</c><c>1</c></Row>
-
-		<!-- Wave 5 -->
-		<Row><c>unsc_veh_scorpion_01</c><c>17</c></Row>
+		<Row><c>unsc_veh_scorpion_01</c><c>16</c></Row>
 		<Row><c>unsc_air_hornet_01</c><c>12</c></Row>
-		<Row><c>unsc_inf_marine_01</c><c>32</c></Row>
-		<Row><c>unsc_inf_marinerocket_01</c><c>15</c></Row>
+		<Row><c>unsc_veh_cobra_01</c><c>9</c></Row>
 		<Row><c>unsc_veh_wolverine_01</c><c>9</c></Row>
-		<Row><c>unsc_veh_warthog_01</c><c>12</c></Row>
-		<Row><c>unsc_inf_MedicBR_01</c><c>7</c></Row>
-		<Row><c>unsc_veh_cobra_01</c><c>11</c></Row>
+		<Row><c>unsc_veh_warthog_01</c><c>10</c></Row>
+		<Row><c>unsc_air_pelicangunship_01</c><c>2</c></Row>
+		<Row><c>unsc_inf_marine_01</c><c>8</c></Row>
 
-		<!-- Wave 6: final targets, sized to the 400 pop ceiling (240 base + 160 from the four
-		     unsc_tech_reinforcements). Also battlefield REPLACEMENT priority, since these are the
-		     rows that go deficient when units die - armour, AA and air ahead of cheap infantry. -->
-		<Row><c>unsc_veh_scorpion_01</c><c>21</c></Row>
-		<Row><c>unsc_veh_wolverine_01</c><c>13</c></Row>
+		<!-- Wave 5: final targets, 373 pop against the 400 ceiling (240 base from leaders.xml plus
+		     160 from the four unsc_tech_reinforcements), deliberately just under so the AI always
+		     wants one more thing. This is also the battlefield REPLACEMENT order - armour, air and
+		     AA are rebuilt ahead of cheap infantry. -->
+		<Row><c>unsc_veh_scorpion_01</c><c>26</c></Row>
+		<Row><c>unsc_air_hornet_01</c><c>20</c></Row>
 		<Row><c>unsc_veh_cobra_01</c><c>14</c></Row>
-		<Row><c>unsc_air_hornet_01</c><c>17</c></Row>
-		<Row><c>unsc_inf_marinerocket_01</c><c>20</c></Row>
-		<Row><c>unsc_air_pelicangunship_01</c><c>3</c></Row>
-		<Row><c>unsc_inf_marine_01</c><c>36</c></Row>
-		<Row><c>unsc_inf_flameMarine_01</c><c>11</c></Row>
-		<Row><c>unsc_inf_marinesniper_01</c><c>11</c></Row>
-		<Row><c>unsc_inf_MedicBR_01</c><c>11</c></Row>
-		<Row><c>unsc_veh_warthog_01</c><c>17</c></Row>
+		<Row><c>unsc_veh_wolverine_01</c><c>14</c></Row>
+		<Row><c>unsc_veh_warthog_01</c><c>14</c></Row>
+		<Row><c>unsc_air_pelicangunship_01</c><c>4</c></Row>
+		<Row><c>unsc_inf_marinerocket_01</c><c>10</c></Row>
+		<Row><c>unsc_inf_marine_01</c><c>10</c></Row>
+		<Row><c>unsc_inf_marinesniper_01</c><c>6</c></Row>
+		<Row><c>unsc_inf_MedicBR_01</c><c>6</c></Row>
+		<Row><c>unsc_inf_flameMarine_01</c><c>5</c></Row>
 
 		<!-- ==================== FULL UNSC ROSTER (disabled) ==================== -->
 		<!-- Every squad trainable at a UNSC building that is not already live above, so this one -->

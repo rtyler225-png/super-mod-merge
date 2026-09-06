@@ -43,17 +43,27 @@
 		<Row><c>unsc_bldg_supplypad_01</c><c>1</c><c>1</c></Row>
 		<Row><c>unsc_bldg_barracks_01</c><c>1</c><c>1</c></Row>
 		<Row><c>unsc_bldg_vehicledepot_01</c><c>1</c><c>1</c></Row>
-		<!-- Sockets 4-5 arrive with the Station upgrade. Reactor first: Power is a separate stock -->
-		<!-- that only reactors generate, almost the whole tech list costs 1-4 Power, and -->
-		<!-- unsc_veh_scorpion_01 costs 2 Power (Trigger 1280 skips the row if it cannot pay). -->
-		<Row><c>unsc_bldg_reactor_01</c><c>1</c><c>1</c></Row>
-		<Row><c>unsc_bldg_supplypad_01</c><c>2</c><c>1</c></Row>
+		<!-- Sockets 4-5 arrive with the Station upgrade. BOTH go to reactors, and base 1 keeps -->
+		<!-- only ONE supply pad. Power is a hard availability gate on the whole heavy roster: -->
+		<!--     0 Power  marine, warthog, sniper, flameMarine, medic -->
+		<!--     1 Power  marinerocket, wolverine -->
+		<!--     2 Power  scorpion, hornet, pelicangunship -->
+		<!--     3 Power  cobra -->
+		<!-- Trigger 1280 skips any row whose Power cost exceeds current Power. On one reactor the -->
+		<!-- AI fielded marines, warthogs and a handful of wolverines and nothing else - measured -->
+		<!-- in game as roughly 70% marines with no tanks, no air and no Cobras at all. Income is -->
+		<!-- NOT the trade here: the AI gathered 22,167 supplies in the match before this and had -->
+		<!-- nothing to spend them on. Sockets buy Power and factories, not more pads. -->
+		<Row><c>unsc_bldg_reactor_01</c><c>2</c><c>1</c></Row>
 		<!-- Sockets 6-7 arrive with the Fortress upgrade. Field Armory is the only building that -->
 		<!-- can research the four unsc_tech_reinforcements techs (+40 Unit pop each, 240 -> 400). -->
 		<Row><c>unsc_bldg_fieldArmory_01</c><c>1</c><c>1</c></Row>
-		<Row><c>_ProductionBuildingNotBase</c><c>3</c><c>1</c></Row>
+		<!-- Socket 7 is an Air Pad by name rather than a _ProductionBuildingNotBase wildcard, so -->
+		<!-- base 1 is guaranteed all three arms. Hornets are 20 of the 92 vehicle-and-air models -->
+		<!-- in the train list and they have nowhere to come from until an Air Pad exists. -->
+		<Row><c>unsc_bldg_airPad_01</c><c>1</c><c>1</c></Row>
 		<!-- Upgrades, not sockets. -->
-		<Row><c>unsc_bldg_supplypad_02</c><c>2</c><c>1</c></Row>
+		<Row><c>unsc_bldg_supplypad_02</c><c>1</c><c>1</c></Row>
 		<!-- The 4 perimeter turret sockets. AA/AV are alternative builds on the same sockets, so -->
 		<!-- 2 + 1 + 1 = 4, not 4 + 1 + 1. -->
 		<Row><c>unsc_bldg_turret_01</c><c>2</c><c>1</c></Row>
