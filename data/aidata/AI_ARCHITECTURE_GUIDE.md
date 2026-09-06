@@ -152,6 +152,9 @@ The row cursor (`RowIDVar1`, TriggerVar 19034) is incremented **only inside `Tri
 >
 > The same applies to the tech table: keep `unsc_base_upgrade1/2` out of the top rows, or `Trigger 1950`'s 4 concurrent tech-bid slots keep one permanently in flight.
 
+> [!IMPORTANT]
+> **Interior sockets are the scarce resource, not supplies.** A Fortress has 7 interior sockets and `EconMultiplier` is 4.2x on every difficulty, so supply pads are cheap and factories are what the AI is short of. Every socket spent on economy or tech is a production building it does not have, and the AI's unit output is capped by its Barracks / Vehicle Depot / Air Pad count long before it runs out of money. A version of this table that reserved 6 of base 1's 7 sockets for supply pads and tech left the AI with one Barracks and one Vehicle Depot; it banked thousands of supplies it could not spend and produced units far slower than a human. Budget base 1 as roughly 2 economy, 1 reactor, 1 Field Armory, and give every remaining socket to `_ProductionBuildingNotBase`.
+
 - **Rule**: keep the build table short too - shipped tables are 4-16 rows. The build walk costs trigger evaluations out of the same per-think budget the train manager uses. Prefer bigger targets over more rows.
 - **Rule**: the opening is a spend budget, so order it economy -> production -> tech -> defence. Turrets and the Field Armory ahead of supply pads starves the ramp; the shipped `UnscStartBoom` puts four supply pads and their heavy upgrade before anything else and does not build a Barracks until priority 2.
 - **Rule**: Priority `1` is the opening only - base 1 economy, the first Barracks / Vehicle Depot, the Field Armory, base 1 turrets. Roughly **15 rows**. Compare against the shipped tables in `unscbuildlists.ai`, which are 4-16 rows total.
