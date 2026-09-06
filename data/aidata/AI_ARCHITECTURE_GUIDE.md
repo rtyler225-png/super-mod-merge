@@ -256,8 +256,9 @@ This makes the *tail* of the build list load-bearing. If the table's cumulative 
 - `AutoBaseGrab` (TriggerVar 23672) also gates this via Trigger 2762. Every strategy branch sets it `False` on entry and a follow-up trigger flips it back `True` (Trigger 2492 on first production building, Trigger 2530 at 5:00, Trigger 1365 / 2321 on the mid-game jump).
 
 ### H. Population Budget
-- Base `Unit` pop is **120** (`data/leaders.xml`), not vanilla's 30-40.
-- Each of `unsc_tech_reinforcements`, `...2`, `...3`, `...4` adds **+40** (`data/techs.xml`), for a **280** ceiling. They chain (each requires the previous) and cost 1/2/3 Power on top of supplies.
+- Base `Unit` pop is **240** (`data/leaders.xml`), not vanilla's 30-40. Raised from 120 to make Heroic harder: there is **no pop setting in the difficulty schema** and `leaders.xml` has no per-player-type split, so this cannot be made AI-only. It applies to human players too, but favours the AI in practice because the AI reliably fills its cap and a human usually does not. Gravemind (350), FloodMap (300) and YapYap (240) are deliberately different and were left alone.
+- **Raising the cap alone does nothing.** The train list is the binding constraint once the cap is above its total, so any cap change has to be paired with rescaled `trainlist_<leader>.ai` targets.
+- Each of `unsc_tech_reinforcements`, `...2`, `...3`, `...4` adds **+40** (`data/techs.xml`), for a **400** ceiling. They chain (each requires the previous) and cost 1/2/3 Power on top of supplies.
 - They can only be researched at `unsc_bldg_fieldArmory_01` / `_02` (enabled by the `unsc_basic` tech). Listing them in `techs_<leader>.ai` against any other prereq building - a Barracks, for example - produces rows that can never fire.
 - **Consequence**: the Field Armory is the single highest-value building in the list. Until it is up and all four techs are researched, the AI is hard-capped at 120 pop no matter how much production it has.
 - Squad pop costs are on the *unit*, not the squad (`<Pop Type="Unit">` in `objects.xml`), multiplied by `<Unit count="">` in `squads.xml`. Scorpion and Pelican gunship are **6** each; a Marine squad is 4 x 0.25 = **1**. Cost the train list before assuming a low unit count means the AI is failing to produce - it is usually just pop-capped.

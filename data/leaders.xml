@@ -32,7 +32,7 @@
     <RepairDelay>20</RepairDelay>
     <RepairCost Type="Supplies">35</RepairCost>
     <RepairTime>30</RepairTime>
-    <Pop Type="Unit" Max="8000">120</Pop>
+    <Pop Type="Unit" Max="8000">240</Pop>
     <Pop Type="Leader" Max="8000">2</Pop>
     <Pop Type="MiniBaseFieldArmory" Max="8000">1</Pop>
     <Pop Type="Mercenary" Max="8000">2</Pop>
@@ -57,7 +57,7 @@
     <RepairDelay>20</RepairDelay>
     <RepairCost Type="Supplies">35</RepairCost>
     <RepairTime>30</RepairTime>
-    <Pop Type="Unit" Max="8000">120</Pop>
+    <Pop Type="Unit" Max="8000">240</Pop>
     <Pop Type="Spartan" Max="8000">6</Pop>
     <Pop Type="Leader" Max="8000">1</Pop>
     <Pop Type="MiniBaseFieldArmory" Max="8000">1</Pop>
@@ -85,7 +85,7 @@
     <RepairDelay>20</RepairDelay>
     <RepairCost Type="Supplies">35</RepairCost>
     <RepairTime>30</RepairTime>
-    <Pop Type="Unit" Max="8000">120</Pop>
+    <Pop Type="Unit" Max="8000">240</Pop>
     <Pop Type="Spartan" Max="8000">6</Pop>
     <Pop Type="Leader" Max="8000">1</Pop>
     <Pop Type="MiniBaseFieldArmory" Max="8000">1</Pop>
@@ -113,7 +113,7 @@
     <RepairDelay>20</RepairDelay>
     <RepairCost Type="Supplies">35</RepairCost>
     <RepairTime>30</RepairTime>
-    <Pop Type="Unit" Max="8000">120</Pop>
+    <Pop Type="Unit" Max="8000">240</Pop>
     <Pop Type="Spartan" Max="8000">6</Pop>
     <Pop Type="Leader" Max="8000">1</Pop>
     <Pop Type="MiniBaseFieldArmory" Max="8000">1</Pop>
@@ -141,7 +141,7 @@
     <RepairDelay>20</RepairDelay>
     <RepairCost Type="Supplies">35</RepairCost>
     <RepairTime>30</RepairTime>
-    <Pop Type="Unit" Max="8000">120</Pop>
+    <Pop Type="Unit" Max="8000">240</Pop>
     <Pop Type="Spartan" Max="8000">6</Pop>
     <Pop Type="OmegaTeam" Max="8000">6</Pop>
     <Pop Type="Leader" Max="8000">1</Pop>
@@ -226,7 +226,7 @@
     <RepairCost Type="Supplies">35</RepairCost>
     <RepairTime>30</RepairTime>
     <ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
-    <Pop Type="Unit" Max="8000">120</Pop>
+    <Pop Type="Unit" Max="8000">240</Pop>
     <Pop Type="Leader" Max="8000">1</Pop>
     <Pop Type="MegaTurret" Max="8000">1</Pop>
     <Pop Type="SuperBase" Max="4">2</Pop>
@@ -254,7 +254,7 @@
     <RepairCost Type="Supplies">35</RepairCost>
     <RepairTime>30</RepairTime>
     <ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
-    <Pop Type="Unit" Max="8000">120</Pop>
+    <Pop Type="Unit" Max="8000">240</Pop>
     <Pop Type="Temple" Max="8000">1</Pop>
     <Pop Type="Chieftain" Max="8000">3</Pop>
     <Pop Type="MegaTurret" Max="8000">1</Pop>
@@ -283,7 +283,7 @@
     <RepairCost Type="Supplies">35</RepairCost>
     <RepairTime>30</RepairTime>
     <ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
-    <Pop Type="Unit" Max="8000">120</Pop>
+    <Pop Type="Unit" Max="8000">240</Pop>
     <Pop Type="Leader" Max="8000">1</Pop>
     <Pop Type="SilentShadow" Max="8000">3</Pop>
     <Pop Type="MegaTurret" Max="8000">1</Pop>
@@ -340,7 +340,7 @@
     <RepairCost Type="Supplies">35</RepairCost>
     <RepairTime>30</RepairTime>
     <ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
-    <Pop Type="Unit" Max="8000">120</Pop>
+    <Pop Type="Unit" Max="8000">240</Pop>
     <Pop Type="Leader" Max="8000">1</Pop>
     <Pop Type="MegaTurret" Max="8000">1</Pop>
     <Pop Type="Hologram" Max="8000">1</Pop>
@@ -368,7 +368,7 @@
     <RepairCost Type="Supplies">35</RepairCost>
     <RepairTime>30</RepairTime>
     <ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
-    <Pop Type="Unit" Max="8000">120</Pop>
+    <Pop Type="Unit" Max="8000">240</Pop>
     <Pop Type="Leader" Max="8000">1</Pop>
     <Pop Type="MegaTurret" Max="8000">1</Pop>
     <Pop Type="Temple" Max="8000">1</Pop>
@@ -403,7 +403,7 @@
     <RepairDelay>20</RepairDelay>
     <RepairCost Type="Supplies">35</RepairCost>
     <RepairTime>30</RepairTime>
-    <Pop Type="Unit" Max="8000">120</Pop>
+    <Pop Type="Unit" Max="8000">240</Pop>
     <Pop Type="Leader" Max="8000">2</Pop>
   </Leader>
   <Leader Name="Major Vanilla" Icon="ui\game\icon\unsc\leader\Lt. Green" Test="true" Alpha="0">
@@ -424,7 +424,7 @@
     <RepairDelay>20</RepairDelay>
     <RepairCost Type="Supplies">35</RepairCost>
     <RepairTime>30</RepairTime>
-    <Pop Type="Unit" Max="8000">120</Pop>
+    <Pop Type="Unit" Max="8000">240</Pop>
     <Pop Type="SuperBase" Max="4">1</Pop>
   </Leader>
   <Leader Name="Prophet of Pudding" Icon="ui\game\icon\covenant\leader\Prophet of truth" Test="true" Alpha="0">
@@ -445,7 +445,7 @@
     <RepairDelay>20</RepairDelay>
     <RepairCost Type="Supplies">35</RepairCost>
     <RepairTime>30</RepairTime>
-    <Pop Type="Unit" Max="8000">120</Pop>
+    <Pop Type="Unit" Max="8000">240</Pop>
     <Pop Type="SuperBase" Max="4">1</Pop>
     <Pop Type="Temple" Max="8000">1</Pop>
   
@@ -521,7 +521,7 @@
     <RepairDelay>20</RepairDelay>
     <RepairCost Type="Supplies">35</RepairCost>
     <RepairTime>30</RepairTime>
-    <Pop Type="Unit" Max="8000">120</Pop>
+    <Pop Type="Unit" Max="8000">240</Pop>
     <Pop Type="Knight" Max="3">3</Pop>
     <Pop Type="Leader" Max="1">1</Pop>
     <Pop Type="Temple" Max="1">1</Pop>
