@@ -112,6 +112,24 @@ Order the table as: base upgrades -> economy (`supplypad`/`reactor`) -> the `uns
 > [!WARNING]
 > **The AA/AV/AI turret counts are part of the 4, not on top of it.** `unsc_bldg_turretAA_01` and `unsc_bldg_turretAV_01` are alternative builds on the same turret socket (and `unsc_turret_upgradeAA`/`AV` convert an existing `unsc_bldg_turret_01`), so a converted turret stops counting toward `unsc_bldg_turret_01`. Asking for `turret_01` 4 + `turretAA` 2 + `turretAV` 2 requests 8 turrets for 4 sockets and leaves 4 bids permanently unfillable, burning slots in the `DiffBldMaxNotApproved` budget for the rest of the match.
 
+### E0. Topic Tickets - how much the AI does at once
+
+The AI runs one *topic* at a time (Builder, SquadBuilder, TechManager, Decider, Scout, Distraction), chosen by `AITopicLotto`. Each topic accrues tickets on a `TicketInterval`, and `MinTickets` is a priority floor. Halving a topic's interval roughly doubles how often it gets a turn - this is the dial for "the AI only does one thing at a time".
+
+Topics are created in `Trigger 110 "init topics"`. **SquadBuilder and TechManager are created disabled** (`MaxTickets` 0, `TicketInterval` 1E+07) and switched on by `Trigger 218 "InitialBuildPhaseOver"` at `GetGameTime(DeltaTime = 10000)` - 10 seconds in. That short lockout is normal, not a ramp problem.
+
+Training throughput then ping-pongs between two presets based on how rich the AI is:
+
+| Trigger | Fires when | MinTickets | TicketInterval | TrnMaxSquadBids | TrnMaxNotApproved |
+| :--- | :--- | ---: | ---: | ---: | ---: |
+| 813 `Train Bid Basic Settings` | **cannot** pay the 813 cost | 0 | 500 | 35 | 15 |
+| 814 `Train Bid Max Settings` | **can** pay the 814 cost | 50 | 250 | 45 | 20 |
+
+> [!CAUTION]
+> **The stock cost vars for these two triggers demand thousands of Power and are unreachable.** TriggerVar 6124 (814) shipped as `0=5000,1=5000,...` and 6137 (813) as `0=3000,1=3000,...`, where field `1=` is Power. Every other `CanPayCost` in the script uses `1=0`. Power is a small resource - a handful per reactor - so 3000-5000 can never be paid. The result: 814 never fires, 813's inverted condition is always true, and the AI is pinned at half the training tick rate with the lower bid caps no matter how much it banks. It reads in game as an AI that will not multitask and sits on a huge supply reserve.
+>
+> Fixed in `ai_cutter.triggerscript` by zeroing the Power component of both vars. **The other `ai_<leader>.triggerscript` files still carry the bug** - apply the same two-value edit when porting this baseline to Forge, Anders, Serina and the rest.
+
 ### E. Engine Production Limits & Counter-Unit Quotas
 Inside `ai_<leader>.triggerscript`:
 1. **Bid Limits**:
