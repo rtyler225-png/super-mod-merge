@@ -112,6 +112,29 @@ Order the table as: base upgrades -> economy (`supplypad`/`reactor`) -> the `uns
 > [!WARNING]
 > **The AA/AV/AI turret counts are part of the 4, not on top of it.** `unsc_bldg_turretAA_01` and `unsc_bldg_turretAV_01` are alternative builds on the same turret socket (and `unsc_turret_upgradeAA`/`AV` convert an existing `unsc_bldg_turret_01`), so a converted turret stops counting toward `unsc_bldg_turret_01`. Asking for `turret_01` 4 + `turretAA` 2 + `turretAV` 2 requests 8 turrets for 4 sockets and leaves 4 bids permanently unfillable, burning slots in the `DiffBldMaxNotApproved` budget for the rest of the match.
 
+### E00. Reference points from other installed mods
+
+Comparisons drawn from `Duckman'sHaloWarsMod`, a mod specifically aimed at improving the AI. Its triggerscripts ship only as compiled `.xmb` so its script logic is not readable, but its `.ai` lists and `aidifficultysettings.xml` are.
+
+**Adopted** (pure focus and responsiveness, no stat cheating, no cost to unit quantity):
+
+| Setting | Was (Heroic) | Now | Why |
+| :--- | ---: | ---: | :--- |
+| `MaxMissionFocusTime` | 1.5 | **5 flat** | 1.5s re-tasked the army before it reached the target, so it never committed to a push. Duckman uses a flat 5; other mods run 5-10. |
+| `DiffDistractionTime` | 1.5 | **0** | AI never spends time in the Distraction topic. |
+| `DiffBumpBuildTopicRate` | 0.2 | **0** | Build topic flagged urgent instantly when a building finishes. |
+
+**Deliberately not adopted**: Duckman's `DamageTakenMultiplier` runs `1 / 0.75 / 0.5 / 0.4 / 0.35` - its AI takes 35% damage on Legendary - plus `DamageGivenMultiplier` 1.5. That is where most of its apparent difficulty comes from. This mod does not cheat HP or damage.
+
+**Open questions it raises:**
+- `CntCounterCalculationRate`: Duckman 10s, ours 0.10s on Heroic. We re-decide counter-unit needs a hundred times more often, which may thrash production.
+- `DiffBldMaxBids` / `DiffBldMaxNotApproved`: Duckman uses **2 / 2**. Every other installed mod sits at 2-5. Ours is 80 / 64 on Heroic - a large outlier.
+- `EconMultiplier`: Duckman runs 1-2.5 and is well regarded, against our 4.2. Supporting evidence that income has never been this AI's bottleneck.
+
+**Useful trick from its train lists**: it zeroes rows it does not want (`unsc_air_vulture_01 0`) instead of deleting them. A target of 0 is always satisfied so the row is skipped instantly, which keeps a canonical unit list while disabling entries in place.
+
+**Do not copy its list totals.** Its train tables run 7-9 rows totalling 15-51 squads, sized for a vanilla ~30 pop cap. At this mod's 280 cap those numbers would gut the quantity goal. Copy the shape, not the magnitudes.
+
 ### E0. Topic Tickets - how much the AI does at once
 
 The AI runs one *topic* at a time (Builder, SquadBuilder, TechManager, Decider, Scout, Distraction), chosen by `AITopicLotto`. Each topic accrues tickets on a `TicketInterval`, and `MinTickets` is a priority floor. Halving a topic's interval roughly doubles how often it gets a turn - this is the dial for "the AI only does one thing at a time".

@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='us-ascii'?>
 <AIDifficultySettings>
-	<AIDifficultySetting Name="MaxMissionFocusTime" InputLabel="Difficulty" OutputLabel="Seconds" Comment="How long a mission waits until it forcibly hands off the baton to a new topic.">
+	<AIDifficultySetting Name="MaxMissionFocusTime" InputLabel="Difficulty" OutputLabel="Seconds" Comment="How long a mission waits until it forcibly hands off the baton to a new topic. Too short and the army is re-tasked before it ever reaches the target - it never commits to a push. Duckman's AI mod uses a flat 5s and other mods run 5-10s; the old 1.5s at Heroic handed off 3.3x more often than any of them.">
 		<DefaultValue Name="SPCEasy" Value="9999" />
 		<PiecewiseFunc>
-			<DataPoint Input="0" Output="10" />
-			<DataPoint Input="0.34" Output="6" />
-			<DataPoint Input="0.67" Output="1.5" Comment="Heroic: faster strategic retasking, below Legendary" />
-			<DataPoint Input="1" Output="0.8" />
-			<DataPoint Input="2" Output="0.4" />
+			<DataPoint Input="0" Output="5" Comment="Flat 5s at every difficulty, matching Duckman's AI mod" />
+			<DataPoint Input="0.34" Output="5" />
+			<DataPoint Input="0.67" Output="5" />
+			<DataPoint Input="1" Output="5" />
+			<DataPoint Input="2" Output="5" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="GroupProximityRadius" InputLabel="Difficulty" OutputLabel="Radius" Comment="How large is the radius we use to group squads by proximity.">
@@ -197,20 +197,20 @@
 			<DataPoint Input="2" Output="120" Comment="120 on Hyper-Legendary" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
-	<AIDifficultySetting Name="DiffDistractionTime" InputLabel="Difficulty" OutputLabel="Seconds" Comment="amount of time spent in distraction topic">
+	<AIDifficultySetting Name="DiffDistractionTime" InputLabel="Difficulty" OutputLabel="Seconds" Comment="Amount of time spent in the distraction topic. Zero means the AI never gets sidetracked and spends that time on its real topics instead. Taken from Duckman's AI mod, which runs 0 at every difficulty.">
 		<PiecewiseFunc>
-			<DataPoint Input="0" Output="6.0" />
-			<DataPoint Input="0.34" Output="4.0" />
-			<DataPoint Input="0.67" Output="1.5" Comment="Heroic: matches Legendary's attention recovery - skill, not stat cheats" />
-			<DataPoint Input="1" Output="1.5" />
+			<DataPoint Input="0" Output="0" Comment="Never spend time distracted, at any difficulty" />
+			<DataPoint Input="0.34" Output="0" />
+			<DataPoint Input="0.67" Output="0" />
+			<DataPoint Input="1" Output="0" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
-	<AIDifficultySetting Name="DiffBumpBuildTopicRate" InputLabel="Difficulty" OutputLabel="Seconds" Comment="time ai must wait before bumping the build topic as urgent when a building is ready">
+	<AIDifficultySetting Name="DiffBumpBuildTopicRate" InputLabel="Difficulty" OutputLabel="Seconds" Comment="Time the AI must wait before bumping the build topic as urgent when a building is ready. Zero is instant. Taken from Duckman's AI mod, which runs 0 at every difficulty.">
 		<PiecewiseFunc>
-			<DataPoint Input="0" Output="3.0" />
-			<DataPoint Input="0.34" Output="1.5" />
-			<DataPoint Input="0.67" Output="0.2" Comment="Heroic: matches Legendary's build-topic urgency - skill, not stat cheats" />
-			<DataPoint Input="1" Output="0.2" />
+			<DataPoint Input="0" Output="0" Comment="Bump the build topic immediately, at any difficulty" />
+			<DataPoint Input="0.34" Output="0" />
+			<DataPoint Input="0.67" Output="0" />
+			<DataPoint Input="1" Output="0" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
 </AIDifficultySettings>
