@@ -282,6 +282,24 @@ Inside `ai_<leader>.triggerscript`:
    - In Trigger 3043, when the AI scans an enemy unit type (e.g. enemy Air), it enters "COUNTER UNIT TIME" and calculates a counter (e.g. Wolverines).
    - Default cap was **20** (`InSuggestCapVar1 = 20`), which completely flooded vehicle depots and froze Scorpion production. Capped to **5** so the AI fields an anti-air detachment without starving out its main battle tanks.
 
+### E2. Why the army is all one unit type
+
+Two systems, both of which outrank `trainlist_<leader>.ai`. Rebalancing the table is wasted work while either is misconfigured.
+
+**1. `CntPercentCounter` - counter picking runs OUTSIDE the train list.** `Trigger 3043` reads the enemy's most common unit type, picks a single counter for it, and spends this share of training on that one squad type. It shipped here at **1.35 on Heroic and Legendary** - 135%, more than the AI's entire training budget - so the counter *replaced* the build order rather than supplementing it, and the army came out as a mass of one unit no matter what the table said.
+
+> [!CAUTION]
+> If the AI is producing one unit type in bulk, check this **before** touching the train list. The table was rewritten twice against this being set above 1 and neither rewrite changed the outcome. Now 0.20 / 0.30 / 0.40 / 0.45 / 0.50. `CntCounterCalculationRate` was also 0.10s - re-picking a counter ten times a second, which churned the factory queues - now 10 / 8 / 6 / 5 / 4, near Duckman's flat 10s.
+
+`InSuggestCapVar1` (TriggerVar 19486, `Trigger 3043`) caps how many of the counter unit get suggested at once; already reduced from 20 to 5.
+
+**2. `TrnMaxNotApproved` - how many bids one row may eat.** `Trigger 131 "Do we need more?"` sends a **deficient** row to `Trigger 146` (make the bid) and only a **satisfied** row on to `Trigger 140 -> 2316` (next row). So the walk stops dead at the first deficient row, and "owned" counts finished squads, not pending bids - the row stays deficient the whole time its units are training.
+
+> [!CAUTION]
+> `TrnMaxNotApproved` is therefore the only thing deciding how many copies of that one unit the AI queues before it will look at any other row. Raised to **15 basic / 20 max** to chase throughput, it stacked 15-20 bids of a single type every pass. Stock is 2 / 4. Now **3 / 5**, with `TrnMaxSquadBids` 35/45 -> 12/18.
+>
+> The throughput those values were raised for was never the real constraint - the AI was not producing because the build list had jammed base upgrades and expansion shut (section F), not because it lacked bid slots.
+
 ### F. Build Priority vs. BldPermission (the scan STOPS, it does not skip)
 Trigger 36 (`Get buildings of this type`) iterates `buildlist_<leader>.ai` top-down. Its conditions are, as an `And`:
 1. `GetTableRow(BuildListTable, RowID, UserClassType 3)`

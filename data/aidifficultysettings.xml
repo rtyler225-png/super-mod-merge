@@ -161,22 +161,22 @@
 			<DataPoint Input="1" Output="1" Comment="True at legendary" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
-	<AIDifficultySetting Name="CntPercentCounter" InputLabel="Difficulty" OutputLabel="Pct" Comment="Percentage of training focused on counter units">
+	<AIDifficultySetting Name="CntPercentCounter" InputLabel="Difficulty" OutputLabel="Pct" Comment="Percentage of training focused on counter units. THIS IS THE ARMY VARIETY DIAL. Counter picking runs OUTSIDE trainlist_&lt;leader&gt;.ai: Trigger 3043 reads the enemy's most common unit type, picks ONE counter for it, and spends this share of training on that single squad type. At 1.35 the AI spent 135% of its training - more than all of it - on one counter, which overrode the train list entirely and produced an army of a single unit no matter how the table was balanced. Rewriting the train list does nothing while this is above 1. Under 0.5 the counter is a reaction layered on top of the build order instead of replacing it.">
 		<PiecewiseFunc>
-			<DataPoint Input="0" Output="0.35" Comment="35% on Easy" />
-			<DataPoint Input="0.34" Output="0.85" Comment="85% on Normal" />
-			<DataPoint Input="0.67" Output="1.35" Comment="Heroic: matches Legendary's counter focus - skill, not stat cheats" />
-			<DataPoint Input="1" Output="1.35" Comment="135% on Legendary" />
-			<DataPoint Input="2" Output="1.60" Comment="160% on Hyper-Legendary" />
+			<DataPoint Input="0" Output="0.20" Comment="Easy: 20% of training reacts to the enemy" />
+			<DataPoint Input="0.34" Output="0.30" Comment="Normal: 30%" />
+			<DataPoint Input="0.67" Output="0.40" Comment="Heroic: 40%" />
+			<DataPoint Input="1" Output="0.45" Comment="Legendary: 45% - adapts hard, still fields the whole roster" />
+			<DataPoint Input="2" Output="0.50" Comment="Hyper-Legendary: 50%" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
-	<AIDifficultySetting Name="CntCounterCalculationRate" InputLabel="Difficulty" OutputLabel="Seconds" Comment="wait time between evaluating counter units">
+	<AIDifficultySetting Name="CntCounterCalculationRate" InputLabel="Difficulty" OutputLabel="Seconds" Comment="Wait time between evaluating counter units. At 0.10 the AI re-picked its counter ten times a second, so a brief change in what the enemy had on screen churned the factory queues. Duckman's AI mod runs a flat 10s. Slower is not dumber here - the counter still lands, it just stops thrashing production.">
 		<PiecewiseFunc>
-			<DataPoint Input="0" Output="4.0" />
-			<DataPoint Input="0.34" Output="1.0" />
-			<DataPoint Input="0.67" Output="0.10" Comment="Heroic: matches Legendary's recalculation cadence - skill, not stat cheats" />
-			<DataPoint Input="1" Output="0.10" />
-			<DataPoint Input="2" Output="0.05" />
+			<DataPoint Input="0" Output="10.0" Comment="Easy: re-pick a counter every 10s" />
+			<DataPoint Input="0.34" Output="8.0" Comment="Normal: 8s" />
+			<DataPoint Input="0.67" Output="6.0" Comment="Heroic: 6s" />
+			<DataPoint Input="1" Output="5.0" Comment="Legendary: 5s" />
+			<DataPoint Input="2" Output="4.0" Comment="Hyper-Legendary: 4s" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DiffBldMaxBids" InputLabel="Difficulty" OutputLabel="Int" Comment="Maximum number of building bids allowed">
