@@ -66,5 +66,31 @@
 		<Row><c>unsc_inf_marinesniper_01</c><c>10</c></Row>
 		<Row><c>unsc_inf_MedicBR_01</c><c>8</c></Row>
 		<Row><c>unsc_veh_warthog_01</c><c>12</c></Row>
+
+		<!-- ============ CANONICAL UNSC ROSTER (all targets 0 = inert) ============ -->
+		<!-- A target of 0 can never be deficient, so these rows never produce a bid, and -->
+		<!-- TrainListMultiplier cannot revive them either (0 x 3 is still 0). They exist so this one -->
+		<!-- table can be copied to every UNSC leader and specialised by changing a 0 to a number -->
+		<!-- instead of adding rows - e.g. Forge flips warthoglce and elephant, Serina flips -->
+		<!-- cryoMarine and warthogcryo, Anders flips gremlin and hawk. -->
+		<!-- -->
+		<!-- THEY MUST STAY AT THE BOTTOM. A zeroed row is skipped at the BID stage, not the WALK -->
+		<!-- stage - Trigger 131 still runs the full per-row chain including a GetSquads call before -->
+		<!-- deciding it is satisfied. The walk stops at the first deficient row, so parked down here -->
+		<!-- they are only ever reached when everything above is already satisfied. Put one of these -->
+		<!-- higher up and it costs the same think budget as a live row, every pass. -->
+		<!-- When specialising a leader, MOVE the row up into the waves rather than editing in place. -->
+		<Row><c>unsc_inf_odst_01</c><c>0</c></Row>
+		<Row><c>unsc_inf_spartan_01</c><c>0</c></Row>
+		<Row><c>unsc_inf_cyclops_01</c><c>0</c></Row>
+		<Row><c>unsc_inf_cryoMarine_01</c><c>0</c></Row>
+		<Row><c>unsc_inf_marineshotgun_01</c><c>0</c></Row>
+		<Row><c>unsc_veh_gremlin_01</c><c>0</c></Row>
+		<Row><c>unsc_veh_warthoggauss_01</c><c>0</c></Row>
+		<Row><c>unsc_veh_warthoglce_01</c><c>0</c></Row>
+		<Row><c>unsc_veh_warthogcryo_01</c><c>0</c></Row>
+		<Row><c>unsc_veh_elephant_01</c><c>0</c></Row>
+		<Row><c>unsc_air_hawk_01</c><c>0</c></Row>
+		<Row><c>unsc_air_vulture_01</c><c>0</c></Row>
 	</Table>
 </Tables>
