@@ -53,10 +53,38 @@ All AI strategy tables reside as XML files under `data/aidata/`.
       <c>DesiredCount</c>          <!-- Quantity desired in the AI's army pool -->
   </Row>
   ```
+> [!CAUTION]
+> **This table is a BUILD ORDER, not a set of proportions.** `Trigger 2316` -> `2317` -> `130` -> `133` -> `131` walks the table top-down. `Trigger 131 "Do we need more?"` bids the **first** row where `owned < target`, and then the chain **ends** - `Trigger 141` -> `Trigger 312 "build something reset multiplier"` has no `TriggerActivate`. `Trigger 129` resets the row cursor to 0 and the whole pass repeats every 1500ms.
+>
+> So each pass produces one bid, always for the earliest unsatisfied row, and `Trigger 149` keeps stacking bids on that same row (up to `TrnMaxNotApproved` 15 / `TrnMaxSquadBids` 35) until it is satisfied. **One row with a large count means the AI builds only that unit until it hits the count.** A consolidated 11-row table with `unsc_inf_marine_01` at 50 first made Cutter build ~50 Marines and nothing else, and because that plus the next four rows totalled 111 pop against a base cap of 120, its Scorpions were unreachable for most of the match.
+>
+> Counts are **cumulative totals of that squad**, so the way to get a mixed army is to list the same squad many times with a rising target and interleave the types - exactly what the shipped `CovMix_1` and `UnscRushInf_1` tables do (54 rows, counts of 1-5, types repeated). Keep increments small. **Never consolidate these rows.**
+>
+> Useful consequences:
+> - Rows for squads the leader cannot train *yet* are skipped, not stalled (`Trigger 135` -> `206` -> `140`), and so are rows that do not fit pop (`Trigger 1017`) or lack reactors (`Trigger 1280`). Vehicle and air rows can therefore sit early in the table and simply switch on as the Vehicle Depot and Air Pad finish.
+> - The **last** row for each squad governs battlefield replacement, because that is the row that goes deficient when units die. Order the final block by what you want rebuilt first.
+> - Make each squad's targets strictly increasing. A repeated or decreasing target creates a row that can never be satisfied and that the walk re-checks every pass.
+> - `TrainListMultiplier` scales every target (up to `TrainMaxMultiplier`, 3 on Balanced) once the table is fully satisfied, so set the 1x total slightly **above** the pop ceiling - the AI then always has something it wants and holds its cap through losses.
+> - **Keep the table short - 30 to 54 rows, matching the shipped tables.** The walk costs roughly ten trigger evaluations per row (`2317` -> `130` -> `135` -> `489` -> `1017` -> `1279` -> `1280` -> `133` -> `131` -> `140`), it restarts every 1500ms, and on Heroic the per-think budget is tiny (`ThinkCostMin/Max` 0.00125-0.00375s) and shared with the build manager through the topic lottery. A 69-row version of this table starved that budget and the AI nearly stopped producing units **and** buildings, which then killed its economy and its expansion. Interleave with fewer, larger increments rather than more rows.
+> - `Trigger 489` exempts the squads in `CurrentSquadCappedUnits` (`unsc_veh_warthog_01`, `unsc_inf_spartan_01`) from the multiplier entirely - their listed count is a hard ceiling.
+
 - **Crucial Rule**: Only list squads that can actually be trained at the leader's production buildings or base! For instance, in this mod ODSTs are leader drop powers or starting units, not trainable barracks units.
+- **Porting the baseline**: every squad in Cutter's `Standard` table trains at the **generic** buildings (`unsc_bldg_barracks_01`, `unsc_bldg_vehicledepot_01`, `unsc_bldg_airPad_01`). The leader-variant buildings have gaps - `unsc_bldg_vehicledepotSerina_01` has no Scorpion, `unsc_bldg_vehicledepotForge_01` has no Warthog or Wolverine, and the Anders and Serina barracks have no Sniper or Flamer. When copying this table to another UNSC leader, keep that leader's build list on the generic production protos or those rows go silently dead.
 - **Universal UNSC Baseline**: The `"Standard"` baseline train list is designed to use **100% generic universal UNSC units** (Marines, Snipers, Rockets, Hellbringers, Medics, Scorpions, Warthogs, Cobras, Wolverines, Hornets, Pelicans) and omits leader-specific heroes (e.g. Jerome, Forge Warthog) so that this single baseline table can be copied cleanly across all UNSC leaders (Forge, Anders, Serina, etc.) without modification or missing squad crashes. Individual heroes or faction-unique units should be added in specialized personality tables (e.g. `ODSTRush`, `GrizzlyRoll`).
 
 ### C. TechUpgradeTable (`techs_<leader>.ai`)
+
+> [!CAUTION]
+> **Row order is strict research priority, and every tier-1 upgrade must be present.**
+> The tech loop (Triggers 2269 -> 2903 -> 2278 -> 2276 -> 2277 -> 2273 -> 2271 -> 2272) walks the table from row 0 every pass and stops once it has created `AllowedNumberOfTechBids` bids - which is **1** normally, and 4 only while the AI is holding 4000+ supplies (Trigger 1950). Rows it cannot use (prereq unit absent, tech unavailable, not enough power) fall through to Trigger 2270 and the walk continues, so an unusable row does not deadlock - but the first *usable* row always wins. Anything near the bottom effectively never gets researched.
+>
+> Because upgrade chains are enforced by `<Prereqs><TechStatus>` in `techs.xml`, **omitting a tier-1 upgrade silently kills the whole chain**. `techs_cutter.ai` was missing `unsc_scorpion_upgrade1`, `unsc_cobra_upgrade1`, `unsc_wolverine_upgrade1` and `unsc_hornet_upgrade1` - all four are free (zero cost) and prereq only `unsc_basic` - so Cutter's entire vehicle and air line was permanently stuck at tier 1 while tiers 2 and 3 sat in the table looking correct.
+>
+> When porting this table to a new leader, verify with: for every row, resolve the tech's prereq chain in `techs.xml` and confirm each link is also a row in the table, at a *lower* index.
+
+Order the table as: base upgrades -> economy (`supplypad`/`reactor`) -> the `unsc_tech_reinforcements` chain -> free tier-1 unit upgrades -> cheap upgrades that hit the largest squad counts -> the main battle line -> defence and power upgrades -> everything else. Column 2 (the prereq object) must be something that leader actually fields; a row whose prereq is a unit the leader never trains is dead weight that the loop re-checks every pass.
+
+
 - **UserClassType**: `2`
 - **Root Element**: `<Table Name="..." Type="TechUpgradeTable">`
 - **Row Format**:
@@ -83,6 +111,47 @@ All AI strategy tables reside as XML files under `data/aidata/`.
   - Without turret rows in the build list, the AI will leave all perimeter turret sockets empty for the entire match.
 > [!WARNING]
 > **The AA/AV/AI turret counts are part of the 4, not on top of it.** `unsc_bldg_turretAA_01` and `unsc_bldg_turretAV_01` are alternative builds on the same turret socket (and `unsc_turret_upgradeAA`/`AV` convert an existing `unsc_bldg_turret_01`), so a converted turret stops counting toward `unsc_bldg_turret_01`. Asking for `turret_01` 4 + `turretAA` 2 + `turretAV` 2 requests 8 turrets for 4 sockets and leaves 4 bids permanently unfillable, burning slots in the `DiffBldMaxNotApproved` budget for the rest of the match.
+
+### E00. Reference points from other installed mods
+
+Comparisons drawn from `Duckman'sHaloWarsMod`, a mod specifically aimed at improving the AI. Its triggerscripts ship only as compiled `.xmb` so its script logic is not readable, but its `.ai` lists and `aidifficultysettings.xml` are.
+
+**Adopted** (pure focus and responsiveness, no stat cheating, no cost to unit quantity):
+
+| Setting | Was (Heroic) | Now | Why |
+| :--- | ---: | ---: | :--- |
+| `MaxMissionFocusTime` | 1.5 | **5 flat** | 1.5s re-tasked the army before it reached the target, so it never committed to a push. Duckman uses a flat 5; other mods run 5-10. |
+| `DiffDistractionTime` | 1.5 | **0** | AI never spends time in the Distraction topic. |
+| `DiffBumpBuildTopicRate` | 0.2 | **0** | Build topic flagged urgent instantly when a building finishes. |
+
+**Deliberately not adopted**: Duckman's `DamageTakenMultiplier` runs `1 / 0.75 / 0.5 / 0.4 / 0.35` - its AI takes 35% damage on Legendary - plus `DamageGivenMultiplier` 1.5. That is where most of its apparent difficulty comes from. This mod does not cheat HP or damage.
+
+**Open questions it raises:**
+- `CntCounterCalculationRate`: Duckman 10s, ours 0.10s on Heroic. We re-decide counter-unit needs a hundred times more often, which may thrash production.
+- `DiffBldMaxBids` / `DiffBldMaxNotApproved`: Duckman uses **2 / 2**. Every other installed mod sits at 2-5. Ours is 80 / 64 on Heroic - a large outlier.
+- `EconMultiplier`: Duckman runs 1-2.5 and is well regarded, against our 4.2. Supporting evidence that income has never been this AI's bottleneck.
+
+**Useful trick from its train lists**: it zeroes rows it does not want (`unsc_air_vulture_01 0`) instead of deleting them. A target of 0 is always satisfied so the row is skipped instantly, which keeps a canonical unit list while disabling entries in place.
+
+**Do not copy its list totals.** Its train tables run 7-9 rows totalling 15-51 squads, sized for a vanilla ~30 pop cap. At this mod's 280 cap those numbers would gut the quantity goal. Copy the shape, not the magnitudes.
+
+### E0. Topic Tickets - how much the AI does at once
+
+The AI runs one *topic* at a time (Builder, SquadBuilder, TechManager, Decider, Scout, Distraction), chosen by `AITopicLotto`. Each topic accrues tickets on a `TicketInterval`, and `MinTickets` is a priority floor. Halving a topic's interval roughly doubles how often it gets a turn - this is the dial for "the AI only does one thing at a time".
+
+Topics are created in `Trigger 110 "init topics"`. **SquadBuilder and TechManager are created disabled** (`MaxTickets` 0, `TicketInterval` 1E+07) and switched on by `Trigger 218 "InitialBuildPhaseOver"` at `GetGameTime(DeltaTime = 10000)` - 10 seconds in. That short lockout is normal, not a ramp problem.
+
+Training throughput then ping-pongs between two presets based on how rich the AI is:
+
+| Trigger | Fires when | MinTickets | TicketInterval | TrnMaxSquadBids | TrnMaxNotApproved |
+| :--- | :--- | ---: | ---: | ---: | ---: |
+| 813 `Train Bid Basic Settings` | **cannot** pay the 813 cost | 0 | 500 | 35 | 15 |
+| 814 `Train Bid Max Settings` | **can** pay the 814 cost | 50 | 250 | 45 | 20 |
+
+> [!CAUTION]
+> **The stock cost vars for these two triggers demand thousands of Power and are unreachable.** TriggerVar 6124 (814) shipped as `0=5000,1=5000,...` and 6137 (813) as `0=3000,1=3000,...`, where field `1=` is Power. Every other `CanPayCost` in the script uses `1=0`. Power is a small resource - a handful per reactor - so 3000-5000 can never be paid. The result: 814 never fires, 813's inverted condition is always true, and the AI is pinned at half the training tick rate with the lower bid caps no matter how much it banks. It reads in game as an AI that will not multitask and sits on a huge supply reserve.
+>
+> Fixed in `ai_cutter.triggerscript` by zeroing the Power component of both vars. **The other `ai_<leader>.triggerscript` files still carry the bug** - apply the same two-value edit when porting this baseline to Forge, Anders, Serina and the rest.
 
 ### E. Engine Production Limits & Counter-Unit Quotas
 Inside `ai_<leader>.triggerscript`:
@@ -119,6 +188,16 @@ The row cursor (`RowIDVar1`, TriggerVar 19034) is incremented **only inside `Tri
 > [!CAUTION]
 > **The stop is the AI's build PACING, not a bug to be engineered around.** Every row at or below the current permission gets bid in the same pass, and `DiffBldMaxNotApproved` is only 30 on Normal. A priority-1 block that contains base expansions and mid-game economy opens all of it at second zero, drains the bid budget and the entire supply income into buildings, and the AI **stops training units altogether** and never buys its cheap turrets. This was tested and confirmed: growing the priority-1 block from 15 rows to 36 killed unit production outright.
 
+> [!CAUTION]
+> **Never put `unsc_bldg_command_02` in a build list.** `Trigger 2733 "no plans for a base..."` is an AND that requires the pending bid count for `unsc_bldg_command_01`, `unsc_bldg_command_02`, `cov_bldg_builder_01`, `unsc_base_upgrade1` and `unsc_base_upgrade2` to all be exactly **0** before the auto base-grab may order a base. A Station is a transient state on the way to a Fortress, so a `command_02` target is almost never satisfied - the bid sits pending forever and jams base claiming shut for the whole match. `unsc_bldg_command_03` is a stable end state and is **not** checked by that gate, so it is safe. Base upgrades come from `unsc_base_upgrade1/2` in the tech table and the group 14 path (`Trigger 2734`), not from build-list rows.
+>
+> The same applies to the tech table: keep `unsc_base_upgrade1/2` out of the top rows, or `Trigger 1950`'s 4 concurrent tech-bid slots keep one permanently in flight.
+
+> [!IMPORTANT]
+> **Interior sockets are the scarce resource, not supplies.** A Fortress has 7 interior sockets and `EconMultiplier` is 4.2x on every difficulty, so supply pads are cheap and factories are what the AI is short of. Every socket spent on economy or tech is a production building it does not have, and the AI's unit output is capped by its Barracks / Vehicle Depot / Air Pad count long before it runs out of money. A version of this table that reserved 6 of base 1's 7 sockets for supply pads and tech left the AI with one Barracks and one Vehicle Depot; it banked thousands of supplies it could not spend and produced units far slower than a human. Budget base 1 as roughly 2 economy, 1 reactor, 1 Field Armory, and give every remaining socket to `_ProductionBuildingNotBase`.
+
+- **Rule**: keep the build table short too - shipped tables are 4-16 rows. The build walk costs trigger evaluations out of the same per-think budget the train manager uses. Prefer bigger targets over more rows.
+- **Rule**: the opening is a spend budget, so order it economy -> production -> tech -> defence. Turrets and the Field Armory ahead of supply pads starves the ramp; the shipped `UnscStartBoom` puts four supply pads and their heavy upgrade before anything else and does not build a Barracks until priority 2.
 - **Rule**: Priority `1` is the opening only - base 1 economy, the first Barracks / Vehicle Depot, the Field Armory, base 1 turrets. Roughly **15 rows**. Compare against the shipped tables in `unscbuildlists.ai`, which are 4-16 rows total.
 - **Rule**: expansions and everything after them go at Priority `2`. This is not a delay in practice - Trigger 2492 raises `BldPermission` to 2 the moment the AI owns a single `_ProductionBuildingNotBase`, i.e. as soon as the opening Barracks finishes, and Trigger 1256 raises it to 3 as soon as `StatePlayerPop > 0.7` (which the `/30` divisor in section I makes almost immediate).
 - Priority `3`+ is never reachable in skirmish.
