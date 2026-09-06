@@ -130,7 +130,22 @@ Group 28, roughly every 5 seconds:
 >
 > The occasional cross-map grab is the lesser problem. If it needs solving, the fix is to make the leash **scale with `NumMyBases`** rather than to pick a smaller constant, so reach grows as the AI expands - but note `Trigger 1920` measures from `FirstBaseLocation`, which `Trigger 93` writes once at init, so that needs added effects rather than a value change.
 
-### D2b. Power gates the tank core, not just techs
+### D2a. Tech throughput is serial by default
+
+The AI researches very few techs compared to a human - 14 against 44 in a Heroic 1v1. Two limiters, both in group 6:
+
+- `Trigger 171 "Next Tech"` gates the row-walking tech path behind `GameTimeReached` on TriggerVar 24785, which shipped at **240000** - the AI does no table-driven research for the first **4 minutes**. Lowered to **60000**.
+- `Trigger 1950 "tech up! temp modifier"` sets `AllowedNumberOfTechBids` to **4** when the AI can pay 4000 supplies and **1** otherwise, and `Trigger 2270` only continues the walk while `NumTechBids < AllowedNumberOfTechBids`. So research is close to serial. Raised to **8** and **2** (TriggerVars 15487 and 15489).
+
+A human queues research at several buildings at once; this is the AI's equivalent dial.
+
+### D2b. Power costs on squads - NOT a practical gate
+
+`Trigger 1279`/`1280` skip any squad whose Power cost exceeds the AI's current Power, and `unsc_veh_scorpion_01` (Power 2) is the only costed squad in the live train list. This looks like it could block the tank core, and it was initially diagnosed that way - **incorrectly**. In the match that prompted it the AI had two *heavy* reactors, so Power was never near zero and Scorpions were buildable. Do not chase this again without first confirming the AI's actual reactor count.
+
+Two reactors at base 1 and a reactor row early in each expansion wave are still reasonable defaults - more reactors means a higher tech level and faster Power - but they are not a fix for a weak army.
+
+
 
 `Trigger 1279 "check reactors 1"` reads the squad's Power cost and the player's current Power, and `Trigger 1280 "check reactors 2"` skips the row entirely (`-> Trigger 140`) if `cost > Power`.
 
