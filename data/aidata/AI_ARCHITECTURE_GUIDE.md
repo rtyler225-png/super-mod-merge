@@ -131,12 +131,14 @@ Comparisons drawn from `Duckman'sHaloWarsMod`, a mod specifically aimed at impro
 - `DiffBldMaxBids` / `DiffBldMaxNotApproved`: Duckman uses **2 / 2**. Every other installed mod sits at 2-5. Ours is 80 / 64 on Heroic - a large outlier.
 - `EconMultiplier`: Duckman runs 1-2.5 and is well regarded, against our 4.2. Supporting evidence that income has never been this AI's bottleneck.
 
-**Zeroed rows - adopted from its train lists.** It disables units by setting the target to `0` (`unsc_air_vulture_01 0`) rather than deleting the row. A target of 0 can never be deficient so it never produces a bid, and `TrainListMultiplier` cannot revive it (0 x 3 is still 0). `trainlist_cutter.ai` now carries a canonical UNSC roster of 12 such rows so the one table can be copied to every UNSC leader and specialised by changing a `0` to a number.
+**Disabling units - use XML comments, not zeroed rows.** Duckman's mod disables units by setting the target to `0`. That works (a target of 0 can never be deficient, and `TrainListMultiplier` cannot revive it - 0 x 3 is still 0) but it is **not free**.
 
 > [!CAUTION]
-> **A zeroed row is skipped at the BID stage, not the WALK stage**, so it is *not* free. `Trigger 131` still runs the full per-row chain - `2317` -> `130` -> `135` -> `489` -> `1017` -> `1279` -> `1280` -> `133` - including a `GetSquads` call - before deciding the row is satisfied. It costs the same think budget as a live row.
->
-> **Keep the zeroed roster at the very bottom of the table.** The walk terminates at the first deficient row, so rows parked below the live composition are only reached once everything above is satisfied - which is exactly when the AI has budget to spare. When specialising a leader, **move** the row up into the waves rather than editing it in place at the bottom.
+> A zeroed row is skipped at the **bid** stage, not the **walk** stage. `Trigger 131` still runs the full per-row chain - `2317` -> `130` -> `135` -> `489` -> `1017` -> `1279` -> `1280` -> `133` - including a `GetSquads` call - before concluding the row is satisfied. It costs the same think budget as a live row. There are **64 squads trainable at a UNSC building**; carrying all of them as zeroed rows would put the table near 94 rows, worse than the 69-row version that starved the budget and nearly stopped the AI producing anything.
+
+`trainlist_cutter.ai` therefore keeps 41 live rows and carries the other 53 as **XML comments** at the bottom, grouped by which leader owns the building that trains them (Generic 31, Anders 9, Serina 6, Forge 4, Cutter 3). Comments cost nothing - the parser never sees them - and the full roster is still right there in the file so porting to another leader does not mean hunting proto names.
+
+To enable a unit: uncomment it and **move it up into the waves** at a sensible cumulative target. Do not leave it at the bottom as a live row; the walk terminates at the first deficient row, so anything parked below the live composition is barely reached.
 
 **Do not copy its list totals.** Its train tables run 7-9 rows totalling 15-51 squads, sized for a vanilla ~30 pop cap. At this mod's 280 cap those numbers would gut the quantity goal. Copy the shape, not the magnitudes.
 

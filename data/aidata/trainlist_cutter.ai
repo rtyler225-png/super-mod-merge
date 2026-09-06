@@ -67,30 +67,79 @@
 		<Row><c>unsc_inf_MedicBR_01</c><c>8</c></Row>
 		<Row><c>unsc_veh_warthog_01</c><c>12</c></Row>
 
-		<!-- ============ CANONICAL UNSC ROSTER (all targets 0 = inert) ============ -->
-		<!-- A target of 0 can never be deficient, so these rows never produce a bid, and -->
-		<!-- TrainListMultiplier cannot revive them either (0 x 3 is still 0). They exist so this one -->
-		<!-- table can be copied to every UNSC leader and specialised by changing a 0 to a number -->
-		<!-- instead of adding rows - e.g. Forge flips warthoglce and elephant, Serina flips -->
-		<!-- cryoMarine and warthogcryo, Anders flips gremlin and hawk. -->
+		<!-- ==================== FULL UNSC ROSTER (disabled) ==================== -->
+		<!-- Every squad trainable at a UNSC building that is not already live above, so this one -->
+		<!-- table can be copied to any UNSC leader and specialised without hunting proto names. -->
+		<!-- To enable one: uncomment it and MOVE it up into the waves at a sensible cumulative -->
+		<!-- target. Remember targets are cumulative per squad and must strictly increase. -->
 		<!-- -->
-		<!-- THEY MUST STAY AT THE BOTTOM. A zeroed row is skipped at the BID stage, not the WALK -->
-		<!-- stage - Trigger 131 still runs the full per-row chain including a GetSquads call before -->
-		<!-- deciding it is satisfied. The walk stops at the first deficient row, so parked down here -->
-		<!-- they are only ever reached when everything above is already satisfied. Put one of these -->
-		<!-- higher up and it costs the same think budget as a live row, every pass. -->
-		<!-- When specialising a leader, MOVE the row up into the waves rather than editing in place. -->
-		<Row><c>unsc_inf_odst_01</c><c>0</c></Row>
-		<Row><c>unsc_inf_spartan_01</c><c>0</c></Row>
-		<Row><c>unsc_inf_cyclops_01</c><c>0</c></Row>
-		<Row><c>unsc_inf_cryoMarine_01</c><c>0</c></Row>
-		<Row><c>unsc_inf_marineshotgun_01</c><c>0</c></Row>
-		<Row><c>unsc_veh_gremlin_01</c><c>0</c></Row>
-		<Row><c>unsc_veh_warthoggauss_01</c><c>0</c></Row>
-		<Row><c>unsc_veh_warthoglce_01</c><c>0</c></Row>
-		<Row><c>unsc_veh_warthogcryo_01</c><c>0</c></Row>
-		<Row><c>unsc_veh_elephant_01</c><c>0</c></Row>
-		<Row><c>unsc_air_hawk_01</c><c>0</c></Row>
-		<Row><c>unsc_air_vulture_01</c><c>0</c></Row>
+		<!-- These are XML COMMENTS on purpose. Do NOT leave a unit disabled here as a live row -->
+		<!-- with a target of 0. A zeroed row is skipped at the BID stage, not the WALK stage: -->
+		<!-- Trigger 131 still runs the full per row chain, including a GetSquads call, before -->
+		<!-- finding it satisfied, so it costs the same think budget as a live row. All 64 UNSC -->
+		<!-- squads as zeroed rows would put this table near 94 rows, worse than the 69 row -->
+		<!-- version that starved the budget and nearly stopped the AI producing at all. -->
+		<!-- Commented out costs nothing; the parser never sees it. -->
+		<!-- -->
+		<!-- Grouped by which leader owns the building that trains them. Generic works for every -->
+		<!-- UNSC leader; the rest need that leader to actually own that building. -->
+		<!-- ==== Generic (31) ==== -->
+		<!-- <Row><c>cpgn_npc_anders_02</c><c>0</c></Row>   trains at: fieldArmory_01, fieldArmory_02 -->
+		<!-- <Row><c>cpgn_npc_forgeWarthog_02</c><c>0</c></Row>   trains at: fieldArmoryForge_01, fieldArmoryForge_02 -->
+		<!-- <Row><c>cpgn_npc_forge_02</c><c>0</c></Row>   trains at: fieldArmoryForge_01, fieldArmoryForge_02 -->
+		<!-- <Row><c>cpgn_npc_jerome_01</c><c>0</c></Row>   trains at: fieldArmory_02 -->
+		<!-- <Row><c>creep_rebel_infantryshotgun_01</c><c>0</c></Row>   trains at: barracks_02 -->
+		<!-- <Row><c>rebel_inf_infantry_01</c><c>0</c></Row>   trains at: barracks_01 -->
+		<!-- <Row><c>rebel_inf_infantrygrenade_01</c><c>0</c></Row>   trains at: barracks_01 -->
+		<!-- <Row><c>rebel_inf_sniper_01</c><c>0</c></Row>   trains at: barracks_01 -->
+		<!-- <Row><c>unsc_air_condor_01</c><c>0</c></Row>   trains at: airPadAnders_01, airpadAnders_01 -->
+		<!-- <Row><c>unsc_air_frostraven_01</c><c>0</c></Row>   trains at: commandSerina_01, commandSerina_02 -->
+		<!-- <Row><c>unsc_air_nightingale_01</c><c>0</c></Row>   trains at: airPadAnders_01, airPadCutter_01 -->
+		<!-- <Row><c>unsc_air_pelican_01</c><c>0</c></Row>   trains at: airPad_player_01 -->
+		<!-- <Row><c>unsc_air_vulture_01</c><c>0</c></Row>   trains at: airPadSerina_01, airPad_01 -->
+		<!-- <Row><c>unsc_inf_cyclopsEnforcer_01</c><c>0</c></Row>   trains at: commandForge_01, commandForge_02 -->
+		<!-- <Row><c>unsc_inf_cyclops_01</c><c>0</c></Row>   trains at: commandForge_01, commandForge_02 -->
+		<!-- <Row><c>unsc_inf_jerome_01</c><c>0</c></Row>   trains at: fieldArmoryCutter_01, fieldArmoryCutter_02 -->
+		<!-- <Row><c>unsc_inf_marine_drop_01</c><c>0</c></Row>   trains at: landingpad_01 -->
+		<!-- <Row><c>unsc_inf_marineshotgun_01</c><c>0</c></Row>   trains at: barracksAnders_01, barracks_01 -->
+		<!-- <Row><c>unsc_inf_spartanSniper_01</c><c>0</c></Row>   trains at: barracksAnders_01, barracksCutter_01 -->
+		<!-- <Row><c>unsc_inf_spartangrenade_01</c><c>0</c></Row>   trains at: barracksAnders_01, barracksCutter_01 -->
+		<!-- <Row><c>unsc_inf_spartanlaser_01</c><c>0</c></Row>   trains at: barracksAnders_01, barracksCutter_01 -->
+		<!-- <Row><c>unsc_inf_spartanminigun_01</c><c>0</c></Row>   trains at: barracksAnders_01, barracksCutter_01 -->
+		<!-- <Row><c>unsc_inf_spartanshotgun_01</c><c>0</c></Row>   trains at: barracksAnders_01, barracksCutter_01 -->
+		<!-- <Row><c>unsc_inf_spartansmg_01</c><c>0</c></Row>   trains at: barracksAnders_01, barracksCutter_01 -->
+		<!-- <Row><c>unsc_veh_elephant_01</c><c>0</c></Row>   trains at: commandCutter_01, commandCutter_02 -->
+		<!-- <Row><c>unsc_veh_gremlin_01</c><c>0</c></Row>   trains at: commandAnders_01, commandAnders_02 -->
+		<!-- <Row><c>unsc_veh_jackrabbit_01</c><c>0</c></Row>   trains at: commandAnders_01, commandAnders_02 -->
+		<!-- <Row><c>unsc_veh_mammoth_01</c><c>0</c></Row>   trains at: commandForge_03, command_03 -->
+		<!-- <Row><c>unsc_veh_mongoose_01</c><c>0</c></Row>   trains at: commandForge_01, commandForge_02 -->
+		<!-- <Row><c>unsc_veh_serinawarthog_01</c><c>0</c></Row>   trains at: commandSerina_01, commandSerina_02 -->
+		<!-- <Row><c>unsc_veh_warthogtroop_01</c><c>0</c></Row>   trains at: commandCutter_01, commandCutter_02 -->
+		<!-- ==== Cutter (3) ==== -->
+		<!-- <Row><c>unsc_air_longsword_01</c><c>0</c></Row>   trains at: airPadCutter_01, airPad_player_02 -->
+		<!-- <Row><c>unsc_air_sabre_01</c><c>0</c></Row>   trains at: airPadCutter_01, airpadCutter_01 -->
+		<!-- <Row><c>unsc_air_wasp_01</c><c>0</c></Row>   trains at: airPadCutter_01, airPad_player_02 -->
+		<!-- ==== Forge (4) ==== -->
+		<!-- <Row><c>unsc_veh_elephantFlame_01</c><c>0</c></Row>   trains at: vehicledepotForge_02 -->
+		<!-- <Row><c>unsc_veh_grizzly_01</c><c>0</c></Row>   trains at: vehicledepotForge_01, vehicledepotForge_02 -->
+		<!-- <Row><c>unsc_veh_scorpionsundevil_01</c><c>0</c></Row>   trains at: vehicledepotForge_01 -->
+		<!-- <Row><c>unsc_veh_warthoglce_01</c><c>0</c></Row>   trains at: vehicledepotForge_01 -->
+		<!-- ==== Anders (9) ==== -->
+		<!-- <Row><c>unsc_inf_alice_01</c><c>0</c></Row>   trains at: fieldArmoryAnders_01, fieldArmoryAnders_02 -->
+		<!-- <Row><c>unsc_inf_marine_05</c><c>0</c></Row>   trains at: barracksAnders_01 -->
+		<!-- <Row><c>unsc_veh_colossus_01</c><c>0</c></Row>   trains at: vehicleDepotAnders_02, vehicleDepotSerina_01 -->
+		<!-- <Row><c>unsc_veh_colossus_02</c><c>0</c></Row>   trains at: vehicledepotAnders_01, vehicledepotAnders_02 -->
+		<!-- <Row><c>unsc_veh_elephantGauss_01</c><c>0</c></Row>   trains at: vehicledepotAnders_01 -->
+		<!-- <Row><c>unsc_veh_mantis_01</c><c>0</c></Row>   trains at: vehicleDepotSerina_01, vehicleDepotSerina_02 -->
+		<!-- <Row><c>unsc_veh_rhino_01</c><c>0</c></Row>   trains at: vehicledepotAnders_01 -->
+		<!-- <Row><c>unsc_veh_scorpiongauss_01</c><c>0</c></Row>   trains at: vehicledepotAnders_01, vehicledepotAnders_02 -->
+		<!-- <Row><c>unsc_veh_warthoglaser_01</c><c>0</c></Row>   trains at: vehicledepotAnders_01 -->
+		<!-- ==== Serina (6) ==== -->
+		<!-- <Row><c>unsc_air_falcon_01</c><c>0</c></Row>   trains at: airPadSerina_01, airPad_player_02 -->
+		<!-- <Row><c>unsc_inf_cryoMarine_01</c><c>0</c></Row>   trains at: barracksSerina_01 -->
+		<!-- <Row><c>unsc_inf_marinegrenade_02</c><c>0</c></Row>   trains at: barracksSerina_01, barracks_player_02 -->
+		<!-- <Row><c>unsc_veh_elephantCryo_01</c><c>0</c></Row>   trains at: vehicleDepotSerina_01, vehicledepotSerina_01 -->
+		<!-- <Row><c>unsc_veh_scorpioncryo_01</c><c>0</c></Row>   trains at: vehicleDepotSerina_01, vehicleDepotSerina_02 -->
+		<!-- <Row><c>unsc_veh_warthogcryo_01</c><c>0</c></Row>   trains at: vehicleDepotSerina_01, vehicledepotSerina_01 -->
 	</Table>
 </Tables>
