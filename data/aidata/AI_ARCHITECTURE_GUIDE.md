@@ -112,6 +112,24 @@ Order the table as: base upgrades -> economy (`supplypad`/`reactor`) -> the `uns
 > [!WARNING]
 > **The AA/AV/AI turret counts are part of the 4, not on top of it.** `unsc_bldg_turretAA_01` and `unsc_bldg_turretAV_01` are alternative builds on the same turret socket (and `unsc_turret_upgradeAA`/`AV` convert an existing `unsc_bldg_turret_01`), so a converted turret stops counting toward `unsc_bldg_turret_01`. Asking for `turret_01` 4 + `turretAA` 2 + `turretAV` 2 requests 8 turrets for 4 sockets and leaves 4 bids permanently unfillable, burning slots in the `DiffBldMaxNotApproved` budget for the rest of the match.
 
+### D2. How the AI picks its next base site
+
+Group 28, roughly every 5 seconds:
+
+1. `Trigger 1214 "periodic check"` - `GetUnits(FilterObjectType = _Settlement, FilterLocation = MyBaseLocation, FilterDistance = MaxBaseExpansionRange)` collects candidate settlements.
+2. `Trigger 1221 "is there a base there"` - drops any candidate with a `_Base` already within 20. This is why an *occupied* site is normally rejected; note it is evaluated at scan time, so a site can be taken between scan and arrival.
+3. `Trigger 1919 "score sockets"` - resets `AOMLeastGuardedBase` to 10000 and `AllowedBaseFound` to false.
+4. `Trigger 1920 "evaluate each base"` - for each candidate, `KBSQInit(Position = site, Radius = 120, PlayerRelation = Enemy)` counts enemy squads near it, and `GetDistanceLocationLocation(site, FirstBaseLocation)` measures distance from the AI's **first** base.
+5. `Trigger 2068 "leash to main base"` - `distance < MaxBaseExpansionRange`; failing increments `OutOfRangeCount` and skips the site.
+6. `Trigger 1921 "danger level"` - if this site's enemy count is lower than the best so far it becomes the pick, recorded in `BaseSocketNextLocation`, and `AllowedBaseFound` is set true.
+
+> [!IMPORTANT]
+> **The only scoring criterion is "fewest enemy squads within 120". There is no distance term.** Distance is a pure pass/fail leash in `Trigger 2068`, and `MaxBaseExpansionRange` shipped at **2000** - far larger than any other radius the script uses (enemy check 120, mission `LeashDist` 200, `GroupProximityRadius` 100, base-exists check 20). At 2000 the leash never rejects anything, so the AI would happily pick the least-guarded settlement on the far side of the map, next to the enemy, over a closer contested one.
+>
+> Set to **600** here. This is the dial for expansion proximity: lower it if the AI still reaches too far, raise it if it stops expanding. The failure mode of going too low is that no candidate passes, `AllowedBaseFound` stays false, and the AI stops claiming bases entirely.
+
+Also note `Trigger 2016 "Unsafe grab?"` requires `AllowUnsafeGrab` (TriggerVar 15880) to be true, and **nothing in the script ever writes that variable** - it is permanently false.
+
 ### E00. Reference points from other installed mods
 
 Comparisons drawn from `Duckman'sHaloWarsMod`, a mod specifically aimed at improving the AI. Its triggerscripts ship only as compiled `.xmb` so its script logic is not readable, but its `.ai` lists and `aidifficultysettings.xml` are.
