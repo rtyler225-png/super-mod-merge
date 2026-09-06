@@ -2,68 +2,68 @@
 <Tables>
 	<Table Name="Standard" Type="SquadBuildList">
 		<!-- UNIVERSAL UNSC COMBINED-ARMS BASELINE. Copy to the other UNSC leaders as-is. -->
-		<!-- Every squad trains at the GENERIC buildings (barracks_01 / vehicledepot_01 / airPad_01). -->
-
+		<!-- Every live squad trains at the GENERIC buildings (barracks_01 / vehicledepot_01 / airPad_01). -->
+		<!-- -->
 		<!-- This is a BUILD ORDER, not proportions. Trigger 131 bids the FIRST row where owned < -->
 		<!-- target and the chain then ends, restarting from row 0 every 1500ms. Counts are -->
-		<!-- CUMULATIVE, so types are repeated with rising targets to interleave the army. -->
+		<!-- CUMULATIVE, so types repeat with rising targets to interleave the army. -->
+		<!-- -->
+		<!-- KEEP THE LIVE SECTION SHORT. The walk costs ~10 trigger evaluations per row out of a -->
+		<!-- small per-think budget shared with the build manager. A 69 row version starved it and -->
+		<!-- the AI nearly stopped producing units AND buildings. Shipped tables run 30-54 rows. -->
 
-		<!-- KEEP THIS TABLE SHORT. The walk costs ~10 trigger evaluations per row and the AI has a -->
-		<!-- small per-think budget on Heroic, shared with the build manager via the topic lottery. -->
-		<!-- A 69-row version of this table starved that budget and the AI nearly stopped producing -->
-		<!-- units AND buildings. Shipped tables run 30-54 rows; stay in that range. -->
-
-		<!-- Wave 1: opening. Rockets and snipers immediately so an early poke is answered. -->
+		<!-- Wave 1: opening. Barracks only. Rockets and snipers immediately so an early poke is answered. -->
 		<Row><c>unsc_inf_marine_01</c><c>4</c></Row>
 		<Row><c>unsc_veh_warthog_01</c><c>2</c></Row>
 		<Row><c>unsc_inf_marinerocket_01</c><c>3</c></Row>
 		<Row><c>unsc_inf_marinesniper_01</c><c>3</c></Row>
 
-		<!-- Wave 2: first armour, first dedicated AA, first sustain -->
+		<!-- Wave 2: armour, dedicated AA and the first air all come online together. -->
 		<Row><c>unsc_veh_scorpion_01</c><c>2</c></Row>
-		<Row><c>unsc_inf_marine_01</c><c>10</c></Row>
+		<Row><c>unsc_inf_marine_01</c><c>9</c></Row>
 		<Row><c>unsc_veh_wolverine_01</c><c>2</c></Row>
+		<Row><c>unsc_air_hornet_01</c><c>2</c></Row>
 		<Row><c>unsc_inf_flameMarine_01</c><c>3</c></Row>
-		<Row><c>unsc_air_hornet_01</c><c>1</c></Row>
 		<Row><c>unsc_inf_MedicBR_01</c><c>2</c></Row>
 
-		<!-- Wave 3 -->
+		<!-- Wave 3: artillery joins, air keeps pace with ground. -->
 		<Row><c>unsc_veh_scorpion_01</c><c>5</c></Row>
-		<Row><c>unsc_inf_marine_01</c><c>18</c></Row>
 		<Row><c>unsc_veh_cobra_01</c><c>3</c></Row>
+		<Row><c>unsc_inf_marine_01</c><c>15</c></Row>
 		<Row><c>unsc_inf_marinerocket_01</c><c>7</c></Row>
 		<Row><c>unsc_veh_warthog_01</c><c>6</c></Row>
-		<Row><c>unsc_inf_marinesniper_01</c><c>6</c></Row>
+		<Row><c>unsc_air_hornet_01</c><c>5</c></Row>
 
 		<!-- Wave 4 -->
 		<Row><c>unsc_veh_scorpion_01</c><c>9</c></Row>
-		<Row><c>unsc_inf_marine_01</c><c>26</c></Row>
 		<Row><c>unsc_veh_wolverine_01</c><c>4</c></Row>
-		<Row><c>unsc_air_hornet_01</c><c>3</c></Row>
+		<Row><c>unsc_inf_marine_01</c><c>20</c></Row>
+		<Row><c>unsc_veh_cobra_01</c><c>6</c></Row>
+		<Row><c>unsc_inf_marinesniper_01</c><c>6</c></Row>
 		<Row><c>unsc_inf_flameMarine_01</c><c>6</c></Row>
-		<Row><c>unsc_veh_cobra_01</c><c>5</c></Row>
-		<Row><c>unsc_inf_MedicBR_01</c><c>4</c></Row>
-
-		<!-- Wave 5 -->
-		<Row><c>unsc_veh_scorpion_01</c><c>13</c></Row>
-		<Row><c>unsc_inf_marine_01</c><c>34</c></Row>
-		<Row><c>unsc_inf_marinerocket_01</c><c>11</c></Row>
-		<Row><c>unsc_veh_warthog_01</c><c>9</c></Row>
-		<Row><c>unsc_air_hornet_01</c><c>6</c></Row>
-		<Row><c>unsc_veh_wolverine_01</c><c>6</c></Row>
-		<Row><c>unsc_inf_marinesniper_01</c><c>8</c></Row>
 		<Row><c>unsc_air_pelicangunship_01</c><c>1</c></Row>
 
-		<!-- Wave 6: final targets. Also sets battlefield REPLACEMENT priority - these are the rows -->
-		<!-- that go deficient when units die, so the backbone and counters are listed first. -->
-		<Row><c>unsc_veh_scorpion_01</c><c>16</c></Row>
-		<Row><c>unsc_veh_wolverine_01</c><c>8</c></Row>
-		<Row><c>unsc_veh_cobra_01</c><c>8</c></Row>
-		<Row><c>unsc_inf_marinerocket_01</c><c>14</c></Row>
+		<!-- Wave 5 -->
+		<Row><c>unsc_veh_scorpion_01</c><c>12</c></Row>
 		<Row><c>unsc_air_hornet_01</c><c>8</c></Row>
-		<Row><c>unsc_inf_marine_01</c><c>40</c></Row>
-		<Row><c>unsc_inf_flameMarine_01</c><c>10</c></Row>
-		<Row><c>unsc_inf_marinesniper_01</c><c>10</c></Row>
+		<Row><c>unsc_inf_marine_01</c><c>24</c></Row>
+		<Row><c>unsc_inf_marinerocket_01</c><c>11</c></Row>
+		<Row><c>unsc_veh_wolverine_01</c><c>6</c></Row>
+		<Row><c>unsc_veh_warthog_01</c><c>9</c></Row>
+		<Row><c>unsc_inf_MedicBR_01</c><c>5</c></Row>
+		<Row><c>unsc_veh_cobra_01</c><c>8</c></Row>
+
+		<!-- Wave 6: final targets. Also battlefield REPLACEMENT priority, since these are the rows that go
+		     deficient when units die. Armour, AA and air are listed ahead of the cheap infantry. -->
+		<Row><c>unsc_veh_scorpion_01</c><c>15</c></Row>
+		<Row><c>unsc_veh_wolverine_01</c><c>9</c></Row>
+		<Row><c>unsc_veh_cobra_01</c><c>10</c></Row>
+		<Row><c>unsc_air_hornet_01</c><c>12</c></Row>
+		<Row><c>unsc_inf_marinerocket_01</c><c>14</c></Row>
+		<Row><c>unsc_air_pelicangunship_01</c><c>2</c></Row>
+		<Row><c>unsc_inf_marine_01</c><c>26</c></Row>
+		<Row><c>unsc_inf_flameMarine_01</c><c>8</c></Row>
+		<Row><c>unsc_inf_marinesniper_01</c><c>8</c></Row>
 		<Row><c>unsc_inf_MedicBR_01</c><c>8</c></Row>
 		<Row><c>unsc_veh_warthog_01</c><c>12</c></Row>
 
