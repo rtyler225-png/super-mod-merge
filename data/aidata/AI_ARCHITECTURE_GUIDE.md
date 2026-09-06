@@ -293,12 +293,20 @@ Two systems, both of which outrank `trainlist_<leader>.ai`. Rebalancing the tabl
 
 `InSuggestCapVar1` (TriggerVar 19486, `Trigger 3043`) caps how many of the counter unit get suggested at once; already reduced from 20 to 5.
 
-**2. `TrnMaxNotApproved` - how many bids one row may eat.** `Trigger 131 "Do we need more?"` sends a **deficient** row to `Trigger 146` (make the bid) and only a **satisfied** row on to `Trigger 140 -> 2316` (next row). So the walk stops dead at the first deficient row, and "owned" counts finished squads, not pending bids - the row stays deficient the whole time its units are training.
+**2. The bid path used to dead-end, which forced a choice between variety and volume.** `Trigger 131 "Do we need more?"` sends a **deficient** row to `Trigger 146` to place a bid and a **satisfied** row on to `Trigger 140 -> 2316` (next row). Following the bid path: `146 -> 147 -> 149 -> 2775 -> 136 -> 141 -> 312`, and `Trigger 312 "build something reset multiplier"` activated **nothing**. So placing a bid ended the pass. The walk restarted from row 0 on the next 1500ms tick and, because "owned" counts finished squads rather than pending bids, landed on the same deficient row again.
 
-> [!CAUTION]
-> `TrnMaxNotApproved` is therefore the only thing deciding how many copies of that one unit the AI queues before it will look at any other row. Raised to **15 basic / 20 max** to chase throughput, it stacked 15-20 bids of a single type every pass. Stock is 2 / 4. Now **3 / 5**, with `TrnMaxSquadBids` 35/45 -> 12/18.
+That made `TrnMaxNotApproved` the only thing deciding how many copies of one unit got queued before the AI would look at any other row, and it forced a direct trade:
+
+| `TrnMaxNotApproved` | Result |
+| :--- | :--- |
+| High (15-20, as it was) | 15-20 bids of a single type per pass - one-unit army |
+| Low (3, stock is 2) | Variety, but the AI only ever has 3 squads in flight - starved production |
+
+> [!IMPORTANT]
+> **Fix: `Trigger 312` now also activates `Trigger 140`** (via the existing TriggerVar 853, which already resolves to it - no new var needed). After placing a bid the walk continues to the next row in the same pass, so one pass bids **one of each deficient type** rather than N of the first. Variety and throughput stop competing, and the caps can go back up: `TrnMaxNotApproved` **10 / 14**, `TrnMaxSquadBids` **30 / 40**.
 >
-> The throughput those values were raised for was never the real constraint - the AI was not producing because the build list had jammed base upgrades and expansion shut (section F), not because it lacked bid slots.
+> Cost: the walk now traverses the whole table every pass instead of stopping early, so the table's length matters more than it did. Keep the live section near 35-40 rows. If the AI ever goes quiet on both units and buildings at once, this is the first thing to revert - it is a single `<Effect ID="99910">` in Trigger 312.
+
 
 ### F. Build Priority vs. BldPermission (the scan STOPS, it does not skip)
 Trigger 36 (`Get buildings of this type`) iterates `buildlist_<leader>.ai` top-down. Its conditions are, as an `And`:
