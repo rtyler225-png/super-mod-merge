@@ -85,13 +85,13 @@
 			<DataPoint Input="2" Output="7.35" Comment="Hyper-Legendary: 7.35x normal supplies" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
-	<AIDifficultySetting Name="DeathMatchMultiplier" InputLabel="Difficulty" OutputLabel="Multiplier" Comment="1.00 = normal speed, 0.0 (illegal!!) infinitely slow training/building, 2.0 means double speed">
+	<AIDifficultySetting Name="DeathMatchMultiplier" InputLabel="Difficulty" OutputLabel="Multiplier" Comment="1.00 = normal speed, 0.0 (illegal!!) infinitely slow training/building, 2.0 means double speed. Every tier raised 50% over its previous value to lift AI unit throughput: 1.0/1.0/1.25/1.75/2.50 -> 1.5/1.5/1.875/2.625/3.75. NOTE: the name suggests Deathmatch only; the comment says training/building generally. If AI production does not visibly speed up in normal skirmish, this dial is Deathmatch-scoped and the change is inert.">
 		<PiecewiseFunc>
-			<DataPoint Input="0" Output="1.0" Comment="Easy: normal speed" />
-			<DataPoint Input="0.34" Output="1.0" Comment="Normal: normal speed" />
-			<DataPoint Input="0.67" Output="1.25" Comment="Hard: 25% faster" />
-			<DataPoint Input="1" Output="1.75" Comment="Legendary: 1.75x faster" />
-			<DataPoint Input="2" Output="2.50" Comment="Hyper-Legendary: 2.5x faster" />
+			<DataPoint Input="0" Output="1.5" Comment="Easy: 1.5x build/train speed" />
+			<DataPoint Input="0.34" Output="1.5" Comment="Normal: 1.5x" />
+			<DataPoint Input="0.67" Output="1.875" Comment="Heroic: 1.875x" />
+			<DataPoint Input="1" Output="2.625" Comment="Legendary: 2.625x" />
+			<DataPoint Input="2" Output="3.75" Comment="Hyper-Legendary: 3.75x" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DamageGivenMultiplier" InputLabel="Difficulty" OutputLabel="Multiplier" Comment="2.0 means the AI's units inflict double damage">
