@@ -184,6 +184,21 @@ Two reactors at base 1 and a reactor row early in each expansion wave are still 
 >
 > Power has two competing claims - Scorpions and the tech tree - and only reactors generate it. Budget **2 reactors at base 1** (a Fortress has 7 sockets: 2 supply pads, Barracks, Vehicle Depot, 2 reactors, Field Armory) and put a reactor row **first in every expansion wave**. The ladder here is 2 / 4 / 8 / 10.
 
+### D2b-bis. The reactor upgrade switches Power generation OFF (data bug, fixed)
+
+`unsc_bldg_reactor_01` carries `<Rate Rate="Power">5</Rate>`. `unsc_bldg_reactor_02` - what `unsc_reactor_upgrade1` (1200 supplies) transforms it into - kept the `_PowerLevelBuilding` ObjectType but **had no `<Rate>` at all**, so researching the upgrade turned that reactor's Power income off. Only 12 objects in `objects.xml` generate Power, and every other faction's tier-2 building is correct (`forfaction_bldg_reactor_02`, `ban_bldg_powerDepot_02` both carry rate 5, same as their tier 1), which is what marks this as an oversight rather than intent. Restored to 5. This affected the human player too, not just the AI - upgrading a reactor was a strict downgrade.
+
+`unsc_reactor_upgrade1` sits near the top of `techs_cutter.ai`, so the AI bought it early and did this to itself.
+
+> [!NOTE]
+> Section D2b still stands: Power costs are **not** a per-squad gate under normal conditions, because a reactor's Power is a rate like a supply pad's Supplies (both are `5`) and Power is `Deductable="false"` in `gamedata.xml`, so it accumulates and is never spent. Power only looks like a gate when the AI has no working reactor - which the bug above could produce. Confirm the AI's reactor count and live Power number before blaming Power for anything.
+
+### D2b-ter. CombatValue does not know what a weapon is
+
+`unsc_air_nightingale_01` is a healer - its tactics file is `RepairOther` / `MedicHeal` plus a token `PlasmaCannon` - but `objects.xml` gives it `<CombatValue>10</CombatValue>`, identical to a Wasp. The AI scores missions on CombatValue, so it treats Nightingales as line units and sends them to attack. Observed in an AI-vs-AI test: an entire attack wave that was Nightingales and two Warthogs, which flew to the enemy base and stood there healing each other.
+
+**Rule**: check the `.tactics` file, not `CombatValue`, before putting a unit in `trainlist_<leader>.ai`. Support and transport units do not belong in a combat train list at all.
+
 ### D2c. Power also starves the tech manager
 
 Power is a separate stock that only reactors generate, and almost the whole tech list costs Power - including the very first row, `unsc_supplypad_upgrade1` (1 Power), and the reinforcement chain (0/1/2/3). `Trigger 2277 "Do we have enough power"` refuses any tech bid the AI cannot pay the Power for, sending it to `Trigger 2270` to try the next row.
