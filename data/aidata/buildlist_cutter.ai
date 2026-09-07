@@ -1,95 +1,21 @@
-<?xml version='1.0' encoding='us-ascii'?>
+<?xml version="1.0" encoding="utf-8"?>
 <Tables>
 	<Table Name="Standard" Type="BuildingBuildList">
-		<!-- KEEP SHORT. Trigger 36 walks this every 1500ms out of a small per-think budget shared -->
-		<!-- with the train manager. Shipped tables are 4-16 rows; use bigger targets, not more rows. -->
-
-		<!-- ==================================================================================== -->
-		<!-- NO unsc_bldg_command_01, _02 OR _03 ROWS. THE BUILD LIST DOES NOT CLAIM OR UPGRADE   -->
-		<!-- BASES - GROUP 14 DOES.                                                               -->
-		<!--                                                                                      -->
-		<!-- Trigger 2733 "no plans for a base..." is an AND over SEVEN BidQuery counts, and it    -->
-		<!-- requires every one of them to be exactly 0:                                           -->
-		<!--     Trigger 2732: cov_base_upgrade1, cov_base_upgrade2,                               -->
-		<!--                   unsc_base_upgrade1, unsc_base_upgrade2   (techs)                    -->
-		<!--     Trigger 2743: cov_bldg_builder_01,                                                -->
-		<!--                   unsc_bldg_command_01, unsc_bldg_command_02  (protos)                -->
-		<!-- 2733 is the gate in front of BOTH halves of group 14:                                 -->
-		<!--     2734 -> 2735  upgrade a base   (Base -> Station -> Fortress)                      -->
-		<!--     2740         claim a new base (BidCreateBuilding unsc_bldg_command_01)            -->
-		<!--                                                                                      -->
-		<!-- An earlier version carried five unsc_bldg_command_01 rows (targets 2/3/4/5/6). Those  -->
-		<!-- targets are never all satisfied, so once Trigger 2492 raised BldPermission to 2 - the -->
-		<!-- moment the opening Barracks finished - a command_01 bid was pending permanently and   -->
-		<!-- 2733 was false for the rest of the match. The AI could neither upgrade its base nor   -->
-		<!-- claim another one, so it sat on a 3-socket Base all game: supply pad, supply pad,     -->
-		<!-- barracks, and nothing else. No Vehicle Depot, no reactor, no Field Armory, no Air     -->
-		<!-- Pad. With no reactor it had zero Power, so Trigger 2277 refused every Power-costed    -->
-		<!-- tech and Trigger 1280 skipped Scorpions. Measured result in a 1v1 at auto-99:         -->
-		<!-- 13 squads trained, 9 buildings built, 3 techs researched, 22,167 supplies gathered    -->
-		<!-- and nothing to spend them on. Score 103 against the human's 2232.                     -->
-		<!--                                                                                      -->
-		<!-- The old table only excluded command_02. command_01 is checked by the same gate.       -->
-		<!-- ==================================================================================== -->
-
-		<!-- SOCKET BUDGET IS THE REAL CONSTRAINT, NOT MONEY. EconMultiplier is 4.2x, so supply -->
-		<!-- pads are the cheap part - every socket spent on economy is a factory the AI does not -->
-		<!-- have. Production first. -->
-
-		<!-- PRIORITY 1. Ordered by SOCKET INDEX, not by wishlist. The AI starts on a Base with 3 -->
-		<!-- interior sockets and only reaches 5 (Station) and 7 (Fortress) as group 14 upgrades -->
-		<!-- it, so the first three rows are the entire army for the opening. Combined arms has -->
-		<!-- to be inside those three: economy, infantry, armour. -->
-		<Row><c>unsc_bldg_supplypad_01</c><c>1</c><c>1</c></Row>
-		<Row><c>unsc_bldg_barracks_01</c><c>1</c><c>1</c></Row>
+		<!-- Stages 1/2 require 1/2 owned bases; stage 3 counts are PER OWNED BASE, scaled by Cutter trigger. Main: 2 pads + depot + 2 reactors + barracks + air = 7 sockets. Two bases: 5 pads + 3 depots + 2 reactors + barracks + 2 air + armory = 14. No base bids here. Upgraded pads/reactors count toward their family. -->
+		<Row><c>unsc_bldg_supplypad_01</c><c>2</c><c>1</c></Row>
 		<Row><c>unsc_bldg_vehicledepot_01</c><c>1</c><c>1</c></Row>
-		<!-- Sockets 4-5 arrive with the Station upgrade. BOTH go to reactors, and base 1 keeps -->
-		<!-- only ONE supply pad. Power is a hard availability gate on the whole heavy roster: -->
-		<!--     0 Power  marine, warthog, sniper, flameMarine, medic -->
-		<!--     1 Power  marinerocket, wolverine -->
-		<!--     2 Power  scorpion, hornet, pelicangunship -->
-		<!--     3 Power  cobra -->
-		<!-- Trigger 1280 skips any row whose Power cost exceeds current Power. On one reactor the -->
-		<!-- AI fielded marines, warthogs and a handful of wolverines and nothing else - measured -->
-		<!-- in game as roughly 70% marines with no tanks, no air and no Cobras at all. Income is -->
-		<!-- NOT the trade here: the AI gathered 22,167 supplies in the match before this and had -->
-		<!-- nothing to spend them on. Sockets buy Power and factories, not more pads. -->
 		<Row><c>unsc_bldg_reactor_01</c><c>2</c><c>1</c></Row>
-		<!-- Sockets 6-7 arrive with the Fortress upgrade. Field Armory is the only building that -->
-		<!-- can research the four unsc_tech_reinforcements techs (+40 Unit pop each, 240 -> 400). -->
-		<Row><c>unsc_bldg_fieldArmory_01</c><c>1</c><c>1</c></Row>
-		<!-- Socket 7 is an Air Pad by name rather than a _ProductionBuildingNotBase wildcard, so -->
-		<!-- base 1 is guaranteed all three arms. Hornets are 20 of the 92 vehicle-and-air models -->
-		<!-- in the train list and they have nowhere to come from until an Air Pad exists. -->
-		<Row><c>unsc_bldg_airPad_01</c><c>1</c><c>1</c></Row>
-		<!-- Upgrades, not sockets. -->
-		<Row><c>unsc_bldg_supplypad_02</c><c>1</c><c>1</c></Row>
-		<!-- The 4 perimeter turret sockets. AA/AV are alternative builds on the same sockets, so -->
-		<!-- 2 + 1 + 1 = 4, not 4 + 1 + 1. -->
-		<Row><c>unsc_bldg_turret_01</c><c>2</c><c>1</c></Row>
-		<Row><c>unsc_bldg_turretAA_01</c><c>1</c><c>1</c></Row>
-		<Row><c>unsc_bldg_turretAV_01</c><c>1</c><c>1</c></Row>
-
-		<!-- PRIORITY 2. Reached as soon as the opening Barracks exists (Trigger 2492). These rows -->
-		<!-- fill the sockets on bases group 14 claims; they do not claim anything themselves. -->
-		<Row><c>unsc_bldg_reactor_01</c><c>3</c><c>2</c></Row>
-		<Row><c>_ProductionBuildingNotBase</c><c>6</c><c>2</c></Row>
-		<Row><c>unsc_bldg_supplypad_01</c><c>6</c><c>2</c></Row>
-		<Row><c>unsc_bldg_airPad_01</c><c>2</c><c>2</c></Row>
-		<Row><c>unsc_bldg_supplypad_02</c><c>6</c><c>2</c></Row>
-		<Row><c>_ProductionBuildingNotBase</c><c>12</c><c>2</c></Row>
-		<Row><c>unsc_bldg_reactor_01</c><c>6</c><c>2</c></Row>
-		<Row><c>unsc_bldg_supplypad_01</c><c>14</c><c>2</c></Row>
-		<Row><c>unsc_bldg_turret_01</c><c>8</c><c>2</c></Row>
-		<Row><c>unsc_bldg_turretAA_01</c><c>4</c><c>2</c></Row>
-		<Row><c>unsc_bldg_turretAV_01</c><c>4</c><c>2</c></Row>
-
-		<!-- Socket filler tail. Trigger 2729 only claims a base when EmptySockets == 0 across -->
-		<!-- every base owned, so the table must be able to fill more sockets than the AI can ever -->
-		<!-- reach: LogMaxBases 8 x 7 at Fortress = 56. Interior totals here are -->
-		<!-- 22 production + 32 pads + 12 reactors + 1 armory = 67. Big targets, few rows. -->
-		<Row><c>_ProductionBuildingNotBase</c><c>22</c><c>2</c></Row>
-		<Row><c>unsc_bldg_supplypad_01</c><c>32</c><c>2</c></Row>
-		<Row><c>unsc_bldg_reactor_01</c><c>12</c><c>2</c></Row>
+		<Row><c>unsc_bldg_barracks_01</c><c>1</c><c>1</c></Row>
+		<Row><c>unsc_bldg_airPadCutter_01</c><c>1</c><c>1</c></Row>
+		<Row><c>unsc_bldg_turret_01</c><c>1</c><c>1</c></Row>
+		<Row><c>unsc_bldg_supplypad_01</c><c>5</c><c>2</c></Row>
+		<Row><c>unsc_bldg_vehicledepot_01</c><c>3</c><c>2</c></Row>
+		<Row><c>unsc_bldg_airPadCutter_01</c><c>2</c><c>2</c></Row>
+		<Row><c>unsc_bldg_fieldArmoryCutter_01</c><c>1</c><c>2</c></Row>
+		<Row><c>unsc_bldg_turret_01</c><c>2</c><c>2</c></Row>
+		<Row><c>unsc_bldg_supplypad_01</c><c>4</c><c>3</c></Row>
+		<Row><c>unsc_bldg_vehicledepot_01</c><c>2</c><c>3</c></Row>
+		<Row><c>unsc_bldg_airPadCutter_01</c><c>1</c><c>3</c></Row>
+		<Row><c>unsc_bldg_turret_01</c><c>1</c><c>3</c></Row>
 	</Table>
 </Tables>
