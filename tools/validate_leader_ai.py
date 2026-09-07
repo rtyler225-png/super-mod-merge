@@ -1,11 +1,11 @@
-"""Validate the UNSC leaders' Standard AI tables against each leader's real roster.
+"""Validate the Standard AI tables against each leader's real post-transform roster.
 
-Each UNSC leader's `unsc_Leader<Name>` tech carries TransformProtoUnit effects that swap
-the generic UNSC buildings for leader-specific variants with different TrainSquad and
+Each leader's `*_Leader<Name>` tech carries TransformProtoUnit effects that swap
+the generic faction buildings for leader-specific variants with different TrainSquad and
 Research commands. A table row naming a building, squad or tech the leader never owns
 never fires, and the AI silently under-performs instead of erroring.
 
-This script resolves those transforms and then checks, for cutter/forge/anders/serina:
+This script resolves those transforms and then checks, for every leader in LEADERS:
 
   * every build row names a prototype some socket can actually build
   * every build row whose owned form differs from the request is covered by a
@@ -16,7 +16,7 @@ This script resolves those transforms and then checks, for cutter/forge/anders/s
   * every tech row is researchable at one of the leader's own buildings, is not a
     duplicate, and its count gate is reachable from that leader's train list
 
-Run from the mod directory:  python tools/validate_unsc_ai.py
+Run from the mod directory:  python tools/validate_leader_ai.py
 """
 import collections
 import os
@@ -28,11 +28,16 @@ DATA = os.path.join(ROOT, 'data')
 AIDATA = os.path.join(DATA, 'aidata')
 SKIRMISH = os.path.join(DATA, 'triggerscripts', 'skirmishai')
 
+# ai script stem -> (leader tech, table file stem, base prototype pattern)
 LEADERS = {
-    'cutter': 'unsc_LeaderCutter',
-    'forge': 'unsc_LeaderForge',
-    'anders': 'unsc_LeaderAnders',
-    'serina': 'unsc_LeaderSerina',
+    'cutter': ('unsc_LeaderCutter', 'cutter', 'unsc_bldg_command_%02d'),
+    'forge': ('unsc_LeaderForge', 'forge', 'unsc_bldg_command_%02d'),
+    'anders': ('unsc_LeaderAnders', 'anders', 'unsc_bldg_command_%02d'),
+    'serina': ('unsc_LeaderSerina', 'serina', 'unsc_bldg_command_%02d'),
+    'arbiter': ('covenant_LeaderArbiter', 'arbiter', 'cov_bldg_builder_%02d'),
+    'brute': ('covenant_LeaderBrute', 'brute', 'cov_bldg_builder_%02d'),
+    'prophet': ('covenant_LeaderProphet', 'prophet', 'cov_bldg_builder_%02d'),
+    'gruntgeneral': ('covenant_LeaderYapYap', 'grunt', 'cov_bldg_builder_%02d'),
 }
 
 
@@ -122,12 +127,12 @@ def counted_variants(leader):
     return covered
 
 
-def check(leader, leader_tech):
+def check(script, leader_tech, tables, base_fmt):
     tmap = transform_map(leader_tech)
-    covered = counted_variants(leader)
+    covered = counted_variants(script)
     problems = []
 
-    build = table_rows(os.path.join(AIDATA, 'buildlist_%s.ai' % leader))
+    build = table_rows(os.path.join(AIDATA, 'buildlist_%s.ai' % tables))
     owned = set()
     for proto, _count, _stage in build:
         got = resolve(tmap, proto)
@@ -137,8 +142,8 @@ def check(leader, leader_tech):
         elif got.lower() != proto.lower() and proto.lower() not in covered:
             problems.append('build row %s is owned as %s but no counting trigger covers it'
                             % (proto, got))
-    for base in ('unsc_bldg_command_01', 'unsc_bldg_command_02', 'unsc_bldg_command_03'):
-        owned.add(resolve(tmap, base).lower())
+    for tier in (1, 2, 3):
+        owned.add(resolve(tmap, base_fmt % tier).lower())
 
     trainable, researchable = set(), set()
     for proto in list(owned):
@@ -150,7 +155,7 @@ def check(leader, leader_tech):
             for tech in commands(tier)['Research']:
                 researchable.add(tech.lower())
 
-    train = table_rows(os.path.join(AIDATA, 'trainlist_%s.ai' % leader))
+    train = table_rows(os.path.join(AIDATA, 'trainlist_%s.ai' % tables))
     ceiling, previous = {}, {}
     for squad, count in ((r[0], int(r[1])) for r in train):
         if squad.lower() not in SQUAD_NAMES:
@@ -164,7 +169,7 @@ def check(leader, leader_tech):
         previous[squad] = count
         ceiling[squad.lower()] = max(ceiling.get(squad.lower(), 0), count)
 
-    techs = table_rows(os.path.join(AIDATA, 'techs_%s.ai' % leader))
+    techs = table_rows(os.path.join(AIDATA, 'techs_%s.ai' % tables))
     seen = set()
     for tech, gate, count in ((r[0], r[1], int(r[2])) for r in techs):
         if tech.lower() not in TECH_NAMES:
@@ -182,8 +187,8 @@ def check(leader, leader_tech):
             problems.append('tech row %s needs %d %s but the train list only reaches %d'
                             % (tech, count, gate, ceiling[gate.lower()]))
 
-    print('%-8s build %2d  train %2d  tech %2d  %s'
-          % (leader, len(build), len(train), len(techs),
+    print('%-13s build %2d  train %2d  tech %2d  %s'
+          % (script, len(build), len(train), len(techs),
              'OK' if not problems else '%d PROBLEM(S)' % len(problems)))
     for p in problems:
         print('         !! %s' % p)
@@ -191,7 +196,7 @@ def check(leader, leader_tech):
 
 
 def main():
-    total = sum(check(leader, tech) for leader, tech in LEADERS.items())
+    total = sum(check(script, *cfg) for script, cfg in LEADERS.items())
     print('total problems:', total)
     return 1 if total else 0
 
