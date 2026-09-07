@@ -197,8 +197,8 @@
   </Power>
   <Power name="GruntScructureDrop">
     <Attributes>
-      <Cost Supplies="0" />
-      <AutoRecharge>20000</AutoRecharge>
+      <Cost Supplies="500" />
+      <AutoRecharge>60000</AutoRecharge>
       <UIRadius>10</UIRadius>
       <DisplayNameID>30548</DisplayNameID>
       <RolloverTextID>27232</RolloverTextID>
@@ -753,9 +753,9 @@
   </Power>
   <Power name="SerBuildingDrop">
     <Attributes>
-      <InfiniteUses />
-      <Cost Supplies="10" />
-      <AutoRecharge>1000</AutoRecharge>
+      <ShowLimit />
+      <Cost Supplies="500" />
+      <AutoRecharge>60000</AutoRecharge>
       <UIRadius>10</UIRadius>
       <DisplayNameID>30548</DisplayNameID>
       <RolloverTextID>30553</RolloverTextID>
@@ -828,9 +828,9 @@
   </Power>
   <Power name="UnscBuildingDrop">
     <Attributes>
-      <InfiniteUses />
-      <Cost Supplies="10" />
-      <AutoRecharge>1000</AutoRecharge>
+      <ShowLimit />
+      <Cost Supplies="500" />
+      <AutoRecharge>60000</AutoRecharge>
       <UIRadius>10</UIRadius>
       <DisplayNameID>30548</DisplayNameID>
       <RolloverTextID>30553</RolloverTextID>
@@ -865,9 +865,9 @@
   </Power>
   <Power name="CovBuildingDrop">
     <Attributes>
-      <InfiniteUses />
-      <Cost Supplies="10" />
-      <AutoRecharge>1000</AutoRecharge>
+      <ShowLimit />
+      <Cost Supplies="500" />
+      <AutoRecharge>60000</AutoRecharge>
       <UIRadius>10</UIRadius>
       <DisplayNameID>30548</DisplayNameID>
       <RolloverTextID>30549</RolloverTextID>
@@ -902,9 +902,9 @@
   </Power>
   <Power name="RebelBeaconDrop">
     <Attributes>
-      <InfiniteUses />
-      <Cost Supplies="10" />
-      <AutoRecharge>1000</AutoRecharge>
+      <ShowLimit />
+      <Cost Supplies="500" />
+      <AutoRecharge>60000</AutoRecharge>
       <UIRadius>10</UIRadius>
       <DisplayNameID>30548</DisplayNameID>
       <RolloverTextID>30549</RolloverTextID>
