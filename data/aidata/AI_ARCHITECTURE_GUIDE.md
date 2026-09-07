@@ -1,22 +1,29 @@
-# Halo Wars DE AI architecture and Cutter Standard
+# Halo Wars DE AI architecture and UNSC Standard
 
-This is the current source-level baseline as of 2026-09-06. Cutter is the only
-leader covered by this overhaul. The other leaders retain their existing AI.
-The earlier guide mixed several abandoned experiments with current behavior;
-its pre-change copy is in `scratch/cutter_standard_before/` locally.
+This is the current source-level baseline as of 2026-09-07. It covers the four
+mainline UNSC leaders: Cutter, Forge, Anders and Serina. Cutter was tuned first
+and the other three were ported from him. The Covenant, Flood, Forerunner,
+Militia and Rebel leaders retain their existing AI. The earlier guide mixed
+several abandoned experiments with current behavior; its pre-change copy is in
+`scratch/cutter_standard_before/` locally.
 
 ## Runtime and table selection
 
 `data/triggerscripts/skirmishai.triggerscript`, trigger 10, launches
-`skirmishai/ai_cutter.triggerscript` for Cutter. Cutter's trigger 1441 chooses
-strategy 3. Build, train, and tech files each contain exactly one table named
-`Standard`. Table names are scoped by filename; the name alone is not global.
+`skirmishai/ai_<leader>.triggerscript`. Trigger 1441 chooses strategy 3. Build,
+train, and tech files each contain exactly one table named `Standard`. Table
+names are scoped by filename; the name alone is not global.
 
-| File | Table type | Rows |
-| --- | --- | ---: |
-| `buildlist_cutter.ai` | BuildingBuildList | 15 |
-| `trainlist_cutter.ai` | SquadBuildList | 40 |
-| `techs_cutter.ai` | TechUpgradeTable | 39 |
+| Leader | BuildingBuildList | SquadBuildList | TechUpgradeTable |
+| --- | ---: | ---: | ---: |
+| Cutter | 15 | 40 | 39 |
+| Forge | 15 | 48 | 42 |
+| Anders | 15 | 51 | 48 |
+| Serina | 15 | 54 | 49 |
+
+The four scripts are the same file apart from the leader-specific values listed
+under "Porting Standard to another leader" below. Every fix described in this
+guide is present in all four.
 
 The editable XML files are the AI inputs. Haruspis logs confirm its Super Mod
 Merge launch selects this directory. The game's manifest outside the mod may
@@ -54,13 +61,13 @@ These are findings from the source, not a claim of measured match improvements.
 
 ## Ordinary economy and a fixed roster
 
-Cutter's application points now explicitly use a dedicated constant of 1.0:
+Each leader's application points now explicitly use a dedicated constant of 1.0:
 `SetResourceHandicap` (1112), `AISetPlayerDamageModifiers` (2506), and
 `AISetPlayerBuildSpeedModifiers` (2756). The last effect is in the Deathmatch
 branch; it was not a general skirmish production-speed fix.
 
-This is scoped to Cutter. `aidifficultysettings.xml` is unchanged, so other
-leaders keep their difficulty bonuses. Difficulty still controls thinking and
+This is scoped to the four UNSC leaders. `aidifficultysettings.xml` is unchanged,
+so every other leader keeps its difficulty bonuses. Difficulty still controls thinking and
 reaction settings. This change does not remove game-mode/skull effects or claim
 to audit the engine's entire knowledge/visibility system. Site danger queries
 continue to use the existing AI knowledge base; the distance tie-break does not
@@ -77,19 +84,21 @@ Repeated squads have increasing targets to interleave their production. Trigger
 pass; the next normal pass starts from row zero. Both the multiplier and all
 writers of its maximum are fixed to 1. The separate counter list remains off.
 
-| Squad | Final desired count |
-| --- | ---: |
-| Scorpion | 36 |
-| Wasp | 24 |
-| Cobra | 16 |
-| Wolverine | 12 |
-| Warthog | 12 |
-| Gremlin | 4 |
-| Sabre | 2 |
-| Marine | 8 |
-| Rocket Marine | 6 |
-| Sniper squad | 2 |
-| Medic squad | 2 |
+Each leader's roster is drawn only from squads its own buildings can train, and
+is scaled to roughly the same nominal population so the four are comparable.
+
+| Leader | Armour core | Air | Anti-air | Nominal pop |
+| --- | --- | --- | --- | ---: |
+| Cutter | Scorpion 36, Cobra 16 | Wasp 24, Sabre 2 | Wolverine 12 | 430 |
+| Forge | Scorpion 22, Grizzly 8, Cobra 10 | Falcon 14, Vulture 2 | Falcon, Cyclops Enforcer 6 | 436 |
+| Anders | Gauss Scorpion 22, Colossus 6, Rhino 4 | Hornet 18, Condor 1 | Mantis 12 | 424 |
+| Serina | Cryo Scorpion 18, Colossus 6, Cobra 8 | Hornet 18, Frost Raven 6, Vulture 2 | Mantis 12 | 428 |
+
+Only Cutter has a Wolverine. Forge, Anders and Serina answer air with the
+Falcon, the Mantis and the Mantis respectively; those rows are not optional
+flavour. Each leader also carries a small fixed infantry tail (8 basic marines,
+a rocket/grenade squad, a specialist squad and 2 medics) and 2 Pelican gunships
+where the air pad offers them. The full per-row counts live in the tables.
 
 These are ceilings for replacement requests, not a promise that the AI will
 own all of them simultaneously. The nominal target exceeds the fully upgraded
@@ -109,7 +118,7 @@ listed on that socket. Use the resulting buildings' `TrainSquad` and
 `Research` commands when verifying a roster. Hornets and Pelican gunships are
 not substitutes for Cutter's Wasp just because they are generic UNSC aircraft.
 
-**Build column 3 now means owned-base stage for Cutter.** Trigger 2488 copies
+**Build column 3 now means owned-base stage.** Trigger 2488 copies
 `NumMyBases` to `BldPermission` before each build scan. Trigger 36 stops at the
 first row above that permission, so stages must remain sorted.
 
@@ -176,24 +185,89 @@ threshold is reduced from 0.5 to 0.3 and its time decay doubled from 0.003 to
 pressure without requiring a nearly full 240/400-pop army. Existing retreat,
 scouting, enemy-readiness bypass, and attack-waypoint logic remain in place.
 
+## Porting Standard to another leader
+
+An `unsc_Leader<Name>` tech carries `TransformProtoUnit` effects that swap the
+generic UNSC buildings for leader-specific variants with **different TrainSquad
+and Research commands**. A row naming something the leader never owns simply
+never fires; nothing errors. Resolve the transforms first, then write the tables
+against the resulting buildings. This is what each leader actually ends up with:
+
+| Role | Cutter | Forge | Anders | Serina |
+| --- | --- | --- | --- | --- |
+| Supply pad | `supplypad_01` | `supplypad_02` | `supplyPad_02` | `supplypad_01` |
+| Reactor | `reactor_01` | `reactor_01` | `reactor_01` | `reactor_01` |
+| Barracks | `barracksCutter_01` | `barracksForge_01` | `barracksAnders_01` | `barracksSerina_01` |
+| Vehicle depot | `vehicledepot_01` | `vehicledepotForge_01` | `vehicledepotAnders_01` | `vehicledepotSerina_01` |
+| Air pad | `airPadCutter_01` | `airpadSerina_01` | `airPadAnders_01` | `airPad_01` |
+| Field armory | `fieldArmoryCutter_01` | `fieldArmoryForge_01` | `fieldArmoryAnders_01` | `fieldArmorySerina_01` |
+| Base tier 1/2 | `commandCutter_02` (starts at Station) | `commandForge_01/02` | `commandAnders_01/02` | `commandSerina_01/02` |
+
+Forge and Anders start with the *upgraded* supply pad, so neither has a
+`unsc_supplyPad_upgrade1` row. Cutter starts at Station tier, so his tier-1 base
+filter matches nothing and he only needs `unsc_base_upgrade2`.
+
+A build row must name a prototype that some socket lists as a `BuildOther`
+command. When the leader's transform turns that prototype into a variant, the
+owned building no longer matches the request, and the count that satisfies the
+row must be widened or the row never completes and keeps re-bidding. Trigger
+2297 sets the default filter and then walks a chain of counting triggers; the
+first one whose prototype matches the current request replaces the filter:
+
+| Leader | Counting chain after 2297 |
+| --- | --- |
+| Cutter | 3195 pads → 3194 reactors → 3197 barracks |
+| Forge | 3195 pads → 3194 reactors → 3197 barracks → 3198 air pads |
+| Anders | 3195 pads → 3194 reactors → 3197 barracks |
+| Serina | 3195 pads → 3194 reactors → 3197 barracks → 3198 depots → 3199 armories |
+
+3195 and 3194 use the `_UnscSupplyPad` and `_PowerLevelBuilding` object type
+lists, so they also cover the upgraded tier of each. The rest use explicit
+`ProtoObjectList` variables holding the generic prototype plus the leader's
+variant. New triggers are registered in group 0 (Build Manager) and the header's
+`NextTriggerID` / `NextTriggerVarID` / `NextConditionID` / `NextEffectID`
+counters are advanced.
+
+Everything else in the script is leader-agnostic. Porting means copying
+`ai_cutter.triggerscript` and changing only:
+
+1. the three table filenames (TriggerVars 18741, 18842, 19023, 19075, 19224,
+   19252, 20185)
+2. the multibase upgrade filters (23376 tier 1, 23388 tier 2)
+3. the barracks variant list (27510)
+4. any extra counting triggers the table above calls for
+
+Do not skip step 4. Without it the affected build row is never satisfied, the
+builder keeps bidding for a building it already has, and the leader stalls on
+that stage.
+
 ## Validation and match testing
 
 Run from the mod directory:
 
 ```powershell
 python tools/validate_cutter_ai.py
+python tools/validate_unsc_ai.py
 ```
 
-The regression checks parse the XML; validate added trigger references; resolve
-Cutter unit and research commands; check research prerequisites; check 1x
-modifiers and fixed composition; check interior capacity from one to twelve
-bases; and simulate queued production through a power-0 to power-2/4 transition.
-The simulation tests planning rules, not real-time engine scheduling or combat.
+The first script is Cutter's regression suite: it parses the XML; validates
+added trigger references; resolves Cutter unit and research commands; checks
+research prerequisites; checks 1x modifiers and fixed composition; checks
+interior capacity from one to twelve bases; and simulates queued production
+through a power-0 to power-2/4 transition. The simulation tests planning rules,
+not real-time engine scheduling or combat.
 
-**In-game validation remains outstanding.** Start a fresh Standard skirmish
-through Haruspis with this mod selected. Existing saves may retain old scripts
-or orders. Test Normal and Heroic without economy/combat skulls, then repeat on
-a second map. Record:
+The second script resolves each UNSC leader's transforms and checks all four
+leaders' tables against the roster that results: build rows must be buildable on
+a socket and covered by a counting trigger when they transform, train rows must
+be trainable by a building the leader owns with strictly increasing targets, and
+tech rows must be researchable by a building the leader owns with a count gate
+the train list can actually reach. Run it after any table edit.
+
+**In-game validation remains outstanding for Forge, Anders and Serina.** Start a
+fresh Standard skirmish through Haruspis with this mod selected. Existing saves
+may retain old scripts or orders. Test Normal and Heroic without economy/combat
+skulls, then repeat on a second map. Record:
 
 1. First depot, second power level, and first Scorpion timings. Vehicles should
    enter the opening without waiting for a large infantry quota to be filled.
@@ -205,6 +279,12 @@ a second map. Record:
 4. After casualties: whether tank/AA/air replacements continue and whether the
    army leaves its expansion waypoint. Losing expansions must not permanently
    prevent rebuilding.
+5. For Forge, Anders and Serina only: they start at Outpost tier, not Station,
+   so their first three interior sockets fill with two supply pads and a depot
+   and the Barracks and Air Pad wait on `unsc_base_upgrade1`. Confirm the base
+   actually upgrades and those two buildings then appear. If a leader sits at
+   Outpost forever, look at the group 14 base manager and TriggerVars 23376 and
+   23388 before touching the build list.
 
 Timing targets must be calibrated from these matches. Do not label a static
 check or a change in a numeric aggression setting as proof the AI feels good.
