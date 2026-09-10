@@ -1,18 +1,18 @@
 # Build-anywhere power balance
 
 Build-anywhere is enabled. All original leader, faction, and campaign grant
-paths are restored. As of 2026-09-06, non-Flood build-site powers cost 500 supplies,
-hold one charge, and have a base 60-second cooldown
-(`AutoRecharge` = 60000 milliseconds).
+paths are restored. As of 2026-09-10, non-Flood build-site powers cost 200 supplies,
+hold one charge, and have a base 30-second cooldown
+(`AutoRecharge` = 30000 milliseconds). They were briefly 500 supplies on a 60-second cooldown; that proved too expensive.
 Flood retains its original cheap, fast beacon.
 
 | Power | Supplies | Base cooldown | Radial position |
 | --- | --- | --- | --- |
-| `UnscBuildingDrop` | 500 | 60 seconds | 6 |
-| `CovBuildingDrop` | 500 | 60 seconds | 6 |
-| `SerBuildingDrop` | 500 | 60 seconds | 4 |
-| `RebelBeaconDrop` | 500 | 60 seconds | 6 |
-| `GruntScructureDrop` | 500 | 60 seconds | 4 |
+| `UnscBuildingDrop` | 200 | 30 seconds | 6 |
+| `CovBuildingDrop` | 200 | 30 seconds | 6 |
+| `SerBuildingDrop` | 200 | 30 seconds | 4 |
+| `RebelBeaconDrop` | 200 | 30 seconds | 6 |
+| `GruntScructureDrop` | 200 | 30 seconds | 4 |
 | `FldBeaconDrop` | 10 | 1 second (unchanged) | 4 |
 
 Existing special-mode, cheat, and skull recharge modifiers remain unchanged.
