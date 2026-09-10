@@ -1,11 +1,13 @@
-# Halo Wars DE AI architecture and UNSC Standard
+# Halo Wars DE AI architecture and leader Standard
 
 This is the current source-level baseline as of 2026-09-07. It covers the four
-mainline UNSC leaders: Cutter, Forge, Anders and Serina. Cutter was tuned first
-and the other three were ported from him. The Covenant, Flood, Forerunner,
-Militia and Rebel leaders retain their existing AI. The earlier guide mixed
-several abandoned experiments with current behavior; its pre-change copy is in
-`scratch/cutter_standard_before/` locally.
+mainline UNSC leaders (Cutter, Forge, Anders, Serina) and the four Covenant-civ
+leaders (Arbiter, Brute Chieftain, Prophet of Mercy, YapYap). Cutter was tuned
+first and the other seven were ported from him. The Heretic-civ leaders
+(Heretics, Blademaster), Flood, Forerunner, Militia and Rebel retain their
+existing AI; those are separate factions with separate rosters and each needs
+its own pass. The earlier guide mixed several abandoned experiments with current
+behavior; its pre-change copy is in `scratch/cutter_standard_before/` locally.
 
 ## Runtime and table selection
 
@@ -14,16 +16,21 @@ several abandoned experiments with current behavior; its pre-change copy is in
 train, and tech files each contain exactly one table named `Standard`. Table
 names are scoped by filename; the name alone is not global.
 
-| Leader | BuildingBuildList | SquadBuildList | TechUpgradeTable |
-| --- | ---: | ---: | ---: |
-| Cutter | 15 | 40 | 39 |
-| Forge | 15 | 48 | 42 |
-| Anders | 15 | 51 | 48 |
-| Serina | 15 | 54 | 49 |
+| Leader | Script | Tables | BuildingBuildList | SquadBuildList | TechUpgradeTable |
+| --- | --- | --- | ---: | ---: | ---: |
+| Cutter | `ai_cutter` | `*_cutter.ai` | 15 | 40 | 39 |
+| Forge | `ai_forge` | `*_forge.ai` | 15 | 48 | 42 |
+| Anders | `ai_anders` | `*_anders.ai` | 15 | 51 | 48 |
+| Serina | `ai_serina` | `*_serina.ai` | 15 | 54 | 49 |
+| Arbiter | `ai_arbiter` | `*_arbiter.ai` | 16 | 60 | 53 |
+| Brute Chieftain | `ai_brute` | `*_brute.ai` | 16 | 56 | 49 |
+| Prophet of Mercy | `ai_prophet` | `*_prophet.ai` | 16 | 56 | 47 |
+| YapYap | `ai_gruntgeneral` | `*_grunt.ai` | 16 | 57 | 48 |
 
-The four scripts are the same file apart from the leader-specific values listed
-under "Porting Standard to another leader" below. Every fix described in this
-guide is present in all four.
+Note that YapYap's script stem and table stem differ. The eight scripts are the
+same file apart from the leader-specific values listed under "Porting Standard
+to another leader" below. Every fix described in this guide is present in all
+eight.
 
 The editable XML files are the AI inputs. Haruspis logs confirm its Super Mod
 Merge launch selects this directory. The game's manifest outside the mod may
@@ -66,7 +73,7 @@ Each leader's application points now explicitly use a dedicated constant of 1.0:
 `AISetPlayerBuildSpeedModifiers` (2756). The last effect is in the Deathmatch
 branch; it was not a general skirmish production-speed fix.
 
-This is scoped to the four UNSC leaders. `aidifficultysettings.xml` is unchanged,
+This is scoped to the eight leaders above. `aidifficultysettings.xml` is unchanged,
 so every other leader keeps its difficulty bonuses. Difficulty still controls thinking and
 reaction settings. This change does not remove game-mode/skull effects or claim
 to audit the engine's entire knowledge/visibility system. Site danger queries
@@ -85,7 +92,7 @@ pass; the next normal pass starts from row zero. Both the multiplier and all
 writers of its maximum are fixed to 1. The separate counter list remains off.
 
 Each leader's roster is drawn only from squads its own buildings can train, and
-is scaled to roughly the same nominal population so the four are comparable.
+is scaled to roughly the same nominal population so the eight are comparable.
 
 | Leader | Armour core | Air | Anti-air | Nominal pop |
 | --- | --- | --- | --- | ---: |
@@ -93,12 +100,20 @@ is scaled to roughly the same nominal population so the four are comparable.
 | Forge | Scorpion 22, Grizzly 8, Cobra 10 | Falcon 14, Vulture 2 | Falcon, Cyclops Enforcer 6 | 436 |
 | Anders | Gauss Scorpion 22, Colossus 6, Rhino 4 | Hornet 18, Condor 1 | Mantis 12 | 424 |
 | Serina | Cryo Scorpion 18, Colossus 6, Cobra 8 | Hornet 18, Frost Raven 6, Vulture 2 | Mantis 12 | 428 |
+| Arbiter | AA Wraith 22, Spectre 14, Locust 12 | Banshee 18, Heavy Banshee 8, Seraph 2 | AA Wraith, Vampire 8, Locust | 428 |
+| Brute Chieftain | Wraith 22, Prowler 16, Locust 14 | Banshee 18, Seraph 2 | Vampire 12, Locust | 418 |
+| Prophet of Mercy | Wraith 22, Revenant 16, Locust 14 | Banshee 18, Seraph 2 | Vampire 12, Locust, Jackal squads | 410 |
+| YapYap | Grunt Tank 28, Goblin 26, Methane Wagon 14 | Banshee 18, Seraph 2 | Goblin, Grunt Tank, Vampire 12 | 410 |
 
 Only Cutter has a Wolverine. Forge, Anders and Serina answer air with the
 Falcon, the Mantis and the Mantis respectively; those rows are not optional
-flavour. Each leader also carries a small fixed infantry tail (8 basic marines,
-a rocket/grenade squad, a specialist squad and 2 medics) and 2 Pelican gunships
-where the air pad offers them. The full per-row counts live in the tables.
+flavour. Every Covenant leader gets the Vampire, which is their one cheap
+dedicated anti-air aircraft and comes from the light factory all four own.
+Each leader also carries a small fixed infantry tail and 2 transports where the
+air building offers them. Covenant leaders additionally train exactly one hero
+(Arbiter, Tartarus, Prophet, Deacon): heroes cost **Leader** population, a pool
+separate from Unit population, so the hero row does not compete with the army
+and is not a population exploit. The full per-row counts live in the tables.
 
 These are ceilings for replacement requests, not a promise that the AI will
 own all of them simultaneously. The nominal target exceeds the fully upgraded
@@ -193,6 +208,8 @@ and Research commands**. A row naming something the leader never owns simply
 never fires; nothing errors. Resolve the transforms first, then write the tables
 against the resulting buildings. This is what each leader actually ends up with:
 
+### UNSC
+
 | Role | Cutter | Forge | Anders | Serina |
 | --- | --- | --- | --- | --- |
 | Supply pad | `supplypad_01` | `supplypad_02` | `supplyPad_02` | `supplypad_01` |
@@ -207,6 +224,50 @@ Forge and Anders start with the *upgraded* supply pad, so neither has a
 `unsc_supplyPad_upgrade1` row. Cutter starts at Station tier, so his tier-1 base
 filter matches nothing and he only needs `unsc_base_upgrade2`.
 
+### Covenant
+
+The Covenant build roles are not named after the UNSC ones and one of them is
+easy to get wrong. The mapping the tables use:
+
+| UNSC role | Covenant building | Why |
+| --- | --- | --- |
+| Supply pad | `cov_bldg_supplyDepot_01` | family `_CovSupplyPad` covers both tiers and the Grunt variants |
+| **Reactor** | **`cov_bldg_kingtemple_01`** | the KING Temple carries `_PowerLevelBuilding`; the plain Temple carries no object type at all and gives no tech level |
+| Vehicle depot | `cov_bldg_heavyfactory_01` | Wraith / Prowler / Revenant / Grunt Tank |
+| Air pad | `cov_bldg_lightfactory_01` | Covenant air is the Banshee and Vampire, and both come from the LIGHT factory |
+| Field armory | `cov_bldg_temple_01` | hero, followers (population), turret, shield and leader-power research |
+| Turret | `cov_bldg_turret_01` | perimeter socket, same as UNSC |
+| — | `cov_bldg_landingpad_02` | extra Covenant building with no UNSC analogue; carries the Seraph |
+
+| Role | Arbiter | Brute Chieftain | Prophet of Mercy | YapYap |
+| --- | --- | --- | --- | --- |
+| Supply depot | `supplyDepot_01` | `supplyDepot_01` | `supplyDepot_01` | `supplyDepotGrunt_01` |
+| King temple | `kingtemple_01` | `kingtemple_01` | `kingtemple_01` | `kingtemple_01` |
+| Heavy factory | `heavyfactoryArbiter_01` | `heavyfactoryTartarus_01` | `heavyfactoryRegret_01` | `heavyfactoryGrunt_01` |
+| Light factory | `lightfactoryArbiter_01` | `lightfactory_01` | `lightfactory_01` | `lightfactory_01` |
+| Barracks | `barracksArbiter_01` | `barracksTartarus_01` | `barracksRegret_01` | `barracksGrunt_01` |
+| Temple | `templeArbiter_01` | `temple_01` | `temple_01` | `templeGrunt_01` |
+| Base tier 1/2 | `builder_01/02` | `builderBrute_01/02` | `builderProphet_01/02` | `builderGrunt_01/02` |
+
+Temples and King Temples have three tiers reached by `cov_temple_upgrade1/2` and
+`cov_kingtemple_upgrade1/2`, which are `TransformProtoUnit` effects. All King
+Temple tiers are `_PowerLevelBuilding`, so `cov_kingtemple_upgrade1` is safe to
+research and is the Covenant's reactor upgrade. The plain Temple tiers have no
+family, so the Temple tier upgrades are deliberately **absent** from the tech
+tables, exactly as the UNSC vehicle depot and barracks upgrades are and for the
+same reason: they would break the building's build-list count. The same applies
+to `cov_heavyfactory_upgrade*`, `cov_summit*_upgrade1` and `cov_barracks*_upgrade1`.
+
+The Covenant scripts also carry two values the UNSC ones do not: TriggerVars
+24012 and 24019 name the leader repair power. Arbiter, Brute and Prophet ship
+with `CovRepair` and YapYap with `UnscLeaderRepair`; the port preserves whichever
+value each script already had rather than normalising them, because `powers.ai`
+registers `UnscLeaderRepair` but not `CovRepair`. YapYap additionally carries
+four supply-depot list variables (2542, 13042, 15118, 24042) that include his
+Grunt depot variants; those are preserved too.
+
+### Both factions
+
 A build row must name a prototype that some socket lists as a `BuildOther`
 command. When the leader's transform turns that prototype into a variant, the
 owned building no longer matches the request, and the count that satisfies the
@@ -220,9 +281,18 @@ first one whose prototype matches the current request replaces the filter:
 | Forge | 3195 pads → 3194 reactors → 3197 barracks → 3198 air pads |
 | Anders | 3195 pads → 3194 reactors → 3197 barracks |
 | Serina | 3195 pads → 3194 reactors → 3197 barracks → 3198 depots → 3199 armories |
+| Arbiter | 3195 depots → 3194 king temples → 3197 barracks → 3198 heavy factories → 3199 light factories |
+| Brute Chieftain | 3195 depots → 3194 king temples → 3197 barracks → 3198 heavy factories |
+| Prophet of Mercy | 3195 depots → 3194 king temples → 3197 barracks → 3198 heavy factories |
+| YapYap | 3195 depots → 3194 king temples → 3197 barracks (no-op) |
 
-3195 and 3194 use the `_UnscSupplyPad` and `_PowerLevelBuilding` object type
-lists, so they also cover the upgraded tier of each. The rest use explicit
+3195 and 3194 use an object type list (`_UnscSupplyPad` or `_CovSupplyPad`, and
+`_PowerLevelBuilding`), so they also cover the upgraded tiers of each and, for
+`_CovSupplyPad`, YapYap's Grunt depot. YapYap needs no variant counting at all:
+his Grunt barracks, heavy factory and Temple are each listed on the socket in
+their own right so they are requested directly, and his depot is caught by the
+family, so his 3197 slot is pointed at his own barracks and produces a filter
+identical to the default. The rest use explicit
 `ProtoObjectList` variables holding the generic prototype plus the leader's
 variant. New triggers are registered in group 0 (Build Manager) and the header's
 `NextTriggerID` / `NextTriggerVarID` / `NextConditionID` / `NextEffectID`
@@ -234,10 +304,15 @@ Everything else in the script is leader-agnostic. Porting means copying
 1. the three table filenames (TriggerVars 18741, 18842, 19023, 19075, 19224,
    19252, 20185)
 2. the multibase upgrade filters (23376 tier 1, 23388 tier 2)
-3. the barracks variant list (27510)
-4. any extra counting triggers the table above calls for
+3. the first variant slot: request prototype 27509 and variant list 27510, plus
+   the names on TriggerVar 27511 and trigger 3197
+4. for a different civ, the power and supply prototypes and families (27500,
+   27501, 27503, 27504)
+5. any civ-specific values the leader's shipped script already carried — for the
+   Covenant that is the repair power and YapYap's supply lists
+6. any extra counting triggers the table above calls for
 
-Do not skip step 4. Without it the affected build row is never satisfied, the
+Do not skip step 6. Without it the affected build row is never satisfied, the
 builder keeps bidding for a building it already has, and the leader stalls on
 that stage.
 
@@ -247,7 +322,7 @@ Run from the mod directory:
 
 ```powershell
 python tools/validate_cutter_ai.py
-python tools/validate_unsc_ai.py
+python tools/validate_leader_ai.py
 ```
 
 The first script is Cutter's regression suite: it parses the XML; validates
@@ -257,15 +332,15 @@ interior capacity from one to twelve bases; and simulates queued production
 through a power-0 to power-2/4 transition. The simulation tests planning rules,
 not real-time engine scheduling or combat.
 
-The second script resolves each UNSC leader's transforms and checks all four
+The second script resolves each leader's transforms and checks all eight
 leaders' tables against the roster that results: build rows must be buildable on
 a socket and covered by a counting trigger when they transform, train rows must
 be trainable by a building the leader owns with strictly increasing targets, and
 tech rows must be researchable by a building the leader owns with a count gate
 the train list can actually reach. Run it after any table edit.
 
-**In-game validation remains outstanding for Forge, Anders and Serina.** Start a
-fresh Standard skirmish through Haruspis with this mod selected. Existing saves
+**In-game validation remains outstanding for every leader except Cutter.** Start
+a fresh Standard skirmish through Haruspis with this mod selected. Existing saves
 may retain old scripts or orders. Test Normal and Heroic without economy/combat
 skulls, then repeat on a second map. Record:
 
@@ -279,12 +354,20 @@ skulls, then repeat on a second map. Record:
 4. After casualties: whether tank/AA/air replacements continue and whether the
    army leaves its expansion waypoint. Losing expansions must not permanently
    prevent rebuilding.
-5. For Forge, Anders and Serina only: they start at Outpost tier, not Station,
-   so their first three interior sockets fill with two supply pads and a depot
-   and the Barracks and Air Pad wait on `unsc_base_upgrade1`. Confirm the base
-   actually upgrades and those two buildings then appear. If a leader sits at
-   Outpost forever, look at the group 14 base manager and TriggerVars 23376 and
-   23388 before touching the build list.
+5. For every leader except Cutter: they start at the first base tier, not the
+   second, so their first three interior sockets fill with two economy buildings
+   and a vehicle factory, and the Barracks and air building wait on
+   `unsc_base_upgrade1` / `cov_base_upgrade1`. Confirm the base actually upgrades
+   and those two buildings then appear. If a leader sits at the first tier
+   forever, look at the group 14 base manager and TriggerVars 23376 and 23388
+   before touching the build list.
+6. For the Covenant only: confirm King Temples actually get built and Power
+   rises. Covenant Power comes from the King Temple, not the Temple, and the
+   Temple is the building that trains the hero. If a Covenant leader is stuck at
+   Power 0 with Temples on the field, the build list is naming the wrong one.
+7. For the Covenant only: confirm the leader hero is trained and stays alive.
+   The hero costs Leader population, so if it never appears the Temple was never
+   built rather than the army being at cap.
 
 Timing targets must be calibrated from these matches. Do not label a static
 check or a change in a numeric aggression setting as proof the AI feels good.
